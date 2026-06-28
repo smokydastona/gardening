@@ -1,0 +1,93 @@
+name: Build Encyclopedia
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/build-encyclopedia.yml'
+      - 'build_encyclopedia_outputs.py'
+      - 'build_final_encyclopedia_pdf.py'
+      - 'enrich_plant_registry.py'
+      - 'extract_calendar_data.py'
+      - 'parse_errington_calendar.py'
+      - 'requirements.txt'
+      - 'cover.png'
+      - 'plant_illustrations/**'
+      - 'plant_registry.csv'
+      - 'Errington BC Zone 8a Planting Calendar.pdf'
+      - 'Vegetable_Gardening_Encyclopedia_With_Sp.pdf'
+      - 'Planting Calander-Crops.png'
+      - 'Planting Calander-Ornamentals.png'
+      - 'ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md'
+      - 'ERRINGTON_MONTHLY_REFERENCE.md'
+      - 'ERRINGTON_PLANT_CATALOG.md'
+      - 'ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md'
+      - 'test_*.py'
+  pull_request:
+    paths:
+      - '.github/workflows/build-encyclopedia.yml'
+      - 'build_encyclopedia_outputs.py'
+      - 'build_final_encyclopedia_pdf.py'
+      - 'enrich_plant_registry.py'
+      - 'extract_calendar_data.py'
+      - 'parse_errington_calendar.py'
+      - 'requirements.txt'
+      - 'cover.png'
+      - 'plant_illustrations/**'
+      - 'plant_registry.csv'
+      - 'Errington BC Zone 8a Planting Calendar.pdf'
+      - 'Vegetable_Gardening_Encyclopedia_With_Sp.pdf'
+      - 'Planting Calander-Crops.png'
+      - 'Planting Calander-Ornamentals.png'
+      - 'ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md'
+      - 'ERRINGTON_MONTHLY_REFERENCE.md'
+      - 'ERRINGTON_PLANT_CATALOG.md'
+      - 'ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md'
+      - 'test_*.py'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest
+
+      - name: Build encyclopedia artifacts
+        run: |
+          python extract_calendar_data.py
+          python parse_errington_calendar.py
+          python enrich_plant_registry.py
+          python build_encyclopedia_outputs.py
+          python build_final_encyclopedia_pdf.py
+
+      - name: Upload encyclopedia outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: encyclopedia-build
+          if-no-files-found: error
+          path: |
+            Errington_Gardening_Encyclopedia.pdf
+            Errington_Gardening_Encyclopedia_Compiled.md
+            ERRINGTON_MONTHLY_REFERENCE.md
+            ERRINGTON_PLANT_CATALOG.md
+            ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md
+            errington_illustration_briefs.csv
+            plant_registry_enriched.csv
+            plant_illustrations/illustration_asset_manifest.csv
+            plant_illustrations/illustration_asset_manifest.md
+            plant_illustrations/missing_illustrations.txt

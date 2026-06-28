@@ -44,6 +44,22 @@ python build_encyclopedia_outputs.py
 python build_final_encyclopedia_pdf.py
 ```
 
+## GitHub Actions Build
+
+The canonical release build can run entirely on GitHub from the checked-in source files and illustration assets.
+
+Workflow:
+
+1. [.github/workflows/build-encyclopedia.yml](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/.github/workflows/build-encyclopedia.yml)
+
+Behavior:
+
+1. Triggers on `workflow_dispatch`, pushes to `main`, and pull requests that touch the build inputs.
+2. Checks out the repository on GitHub-hosted runners, so it uses the assets committed to the repo rather than local-only files.
+3. Installs dependencies, runs the full test suite, rebuilds the encyclopedia outputs, and uploads the PDF and generated artifacts as a workflow artifact named `encyclopedia-build`.
+
+If you want the build to include plant illustrations, add the actual image files to [plant_illustrations](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_illustrations) and push them. The workflow runner will use those committed assets automatically.
+
 ## Generated Artifacts
 
 Structured source outputs:
