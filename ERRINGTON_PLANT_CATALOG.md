@@ -1253,6 +1253,13 @@ This file is generated from the plant registry enriched with direct local Erring
 - Calendar actions:
   - APRIL: Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring 🌸 display
 
+### Deutzia
+
+- Match status: unmatched
+- Calendar matches: 0
+- Illustration brief: generated
+- Illustration prompt: generated
+
 ### Forsythia
 
 - Match status: matched
@@ -1360,6 +1367,13 @@ This file is generated from the plant registry enriched with direct local Erring
   - AUGUST: Roses — — ✄ Deadhead; do NOT feed after Aug
   - SEPTEMBER: Hydrangea / Caryopteris / Perovskia / late Roses — — Beautiful autumn 🌸 colour
   - SEPTEMBER: Roses / shrubs (general) — — Do NOT prune — leave until spring
+
+### Spiraea
+
+- Match status: unmatched
+- Calendar matches: 0
+- Illustration brief: generated
+- Illustration prompt: generated
 
 ### Witch Hazel
 

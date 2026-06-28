@@ -1654,6 +1654,24 @@ Hand-drawn botanical plate of Buddleja for an updated Errington gardening encycl
 
 Hand-drawn botanical plate of Camellia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
 
+### Deutzia
+
+#### Botanical Illustration Brief
+
+- Source context: shared plan, unmatched
+- Local timing emphasis: Pending direct local timing match
+- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
+- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
+- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
+- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
+- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
+- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
+- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+
+#### Botanical Plate Prompt
+
+Hand-drawn botanical plate of Deutzia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+
 ### Forsythia
 
 #### Botanical Illustration Brief
@@ -1797,6 +1815,24 @@ Hand-drawn botanical plate of Rhododendron for an updated Errington gardening en
 #### Botanical Plate Prompt
 
 Hand-drawn botanical plate of Roses for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+
+### Spiraea
+
+#### Botanical Illustration Brief
+
+- Source context: shared plan, unmatched
+- Local timing emphasis: Pending direct local timing match
+- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
+- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
+- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
+- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
+- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
+- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
+- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+
+#### Botanical Plate Prompt
+
+Hand-drawn botanical plate of Spiraea for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
 
 ### Witch Hazel
 
