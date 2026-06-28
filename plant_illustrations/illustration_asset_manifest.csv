@@ -1,20 +1,20 @@
 category,subcategory,display_name,normalized_key,expected_filename,asset_status,resolved_filename
 flower,bulb,Allium,ALLIUM,ALLIUM.png,missing,ALLIUM.png
-flower,annual,Ammi majus,AMMI_MAJUS,AMMI_MAJUS.png,missing,AMMI_MAJUS.png
+flower,annual,Ammi majus,AMMI_MAJUS,AMMI_MAJUS.png,present,Ammi majus.png
 flower,bulb,Anemone,ANEMONE,ANEMONE.png,missing,ANEMONE.png
-flower,annual,Antirrhinum,ANTIRRHINUM,ANTIRRHINUM.png,missing,ANTIRRHINUM.png
-flower,perennial,Asters,ASTERS,ASTERS.png,missing,ASTERS.png
-flower,perennial,Aubretia,AUBRETIA,AUBRETIA.png,missing,AUBRETIA.png
-flower,annual,Borage,BORAGE,BORAGE.png,missing,BORAGE.png
+flower,annual,Antirrhinum,ANTIRRHINUM,ANTIRRHINUM.png,present,Antirrhinum.png
+flower,perennial,Asters,ASTERS,ASTERS.png,present,Asters.png
+flower,perennial,Aubretia,AUBRETIA,AUBRETIA.png,present,Aubretia.png
+flower,annual,Borage,BORAGE,BORAGE.png,present,Borage.png
 flower,annual,Calendula,CALENDULA,CALENDULA.png,missing,CALENDULA.png
 flower,bulb,Camassia,CAMASSIA,CAMASSIA.png,missing,CAMASSIA.png
-flower,annual,Celosia,CELOSIA,CELOSIA.png,missing,CELOSIA.png
-flower,annual,Cleome,CLEOME,CLEOME.png,missing,CLEOME.png
+flower,annual,Celosia,CELOSIA,CELOSIA.png,present,Celosia.png
+flower,annual,Cleome,CLEOME,CLEOME.png,present,Cleome.png
 flower,annual,Cornflower,CORNFLOWER,CORNFLOWER.png,missing,CORNFLOWER.png
 flower,annual,Cosmos,COSMOS,COSMOS.png,missing,COSMOS.png
 flower,bulb,Crocus,CROCUS,CROCUS.png,missing,CROCUS.png
 flower,bulb,Daffodil,DAFFODIL,DAFFODIL.png,missing,DAFFODIL.png
-flower,perennial,Dahlia,DAHLIA,DAHLIA.png,missing,DAHLIA.png
+flower,perennial,Dahlia,DAHLIA,DAHLIA.png,present,Dahlia.png
 flower,perennial,Daylily,DAYLILY,DAYLILY.png,missing,DAYLILY.png
 flower,perennial,Delphinium,DELPHINIUM,DELPHINIUM.png,missing,DELPHINIUM.png
 flower,perennial,Echinacea,ECHINACEA,ECHINACEA.png,missing,ECHINACEA.png
@@ -96,6 +96,7 @@ shrub-tree,,Garry Oak,GARRY_OAK,GARRY_OAK.png,missing,GARRY_OAK.png
 shrub-tree,,Hydrangea paniculata,HYDRANGEA_PANICULATA,HYDRANGEA_PANICULATA.png,missing,HYDRANGEA_PANICULATA.png
 shrub-tree,,Kerria,KERRIA,KERRIA.png,missing,KERRIA.png
 shrub-tree,,Magnolia,MAGNOLIA,MAGNOLIA.png,missing,MAGNOLIA.png
+shrub-tree,,Philadelphus,PHILADELPHUS,PHILADELPHUS.png,present,Philadelphus.png
 shrub-tree,,Pieris,PIERIS,PIERIS.png,missing,PIERIS.png
 shrub-tree,,Rhododendron,RHODODENDRON,RHODODENDRON.png,missing,RHODODENDRON.png
 shrub-tree,,Roses,ROSES,ROSES.png,missing,ROSES.png

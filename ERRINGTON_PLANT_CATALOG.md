@@ -1324,6 +1324,19 @@ This file is generated from the plant registry enriched with direct local Erring
 - Calendar actions:
   - APRIL: Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring 🌸 display
 
+### Philadelphus
+
+- Match status: matched
+- Calendar matches: 2
+- Months: JUNE
+- Sections: SHRUBS & TREES (Ornamental)
+- Page types: ornamentals
+- Illustration brief: generated
+- Illustration prompt: generated
+- Calendar actions:
+  - JUNE: Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — 🌸 glorious
+  - JUNE: Philadelphus / Weigela — — ✄ Prune after bloom finishes (late June)
+
 ### Pieris
 
 - Match status: matched
