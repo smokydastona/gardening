@@ -35,6 +35,12 @@ The workspace now generates these files in this folder:
 2. `illustration_asset_manifest.md` - a quick readable checklist version of the manifest.
 3. `missing_illustrations.txt` - the exact filenames still missing from this folder.
 
+## GitHub Actions Asset Source
+
+The GitHub Actions build restores committed plant illustration PNG files from asset commit `3672ce5` before rebuilding the PDF.
+
+That means the current checkout can remove those PNG files after they are safely committed, while the remote workflow still has a canonical source for rebuilding the illustrated encyclopedia.
+
 ## Current Limitation
 
 The workspace does not yet contain the required per-plant illustration image files. Until they are added here, the PDF can only include the cover image and the reused reference-book plates.
