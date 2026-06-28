@@ -1,0 +1,258 @@
+{
+  "months": [
+    "JAN",
+    "FEB",
+    "MAR",
+    "APR",
+    "MAY",
+    "JUN",
+    "JUL",
+    "AUG",
+    "SEP",
+    "OCT",
+    "NOV",
+    "DEC"
+  ],
+  "rows": [
+    {
+      "text": "ARUGULA",
+      "normalized": "ARUGULA",
+      "x1": 70,
+      "y1": 291,
+      "x2": 155,
+      "y2": 311
+    },
+    {
+      "text": "ASPARAGUS",
+      "normalized": "ASPARAGUS",
+      "x1": 70,
+      "y1": 316,
+      "x2": 167,
+      "y2": 336
+    },
+    {
+      "text": "BEANS",
+      "normalized": "BEANS",
+      "x1": 70,
+      "y1": 340,
+      "x2": 131,
+      "y2": 360
+    },
+    {
+      "text": "BEETS",
+      "normalized": "BEETS",
+      "x1": 70,
+      "y1": 363,
+      "x2": 129,
+      "y2": 384
+    },
+    {
+      "text": "BELLPEPPER",
+      "normalized": "BELLPEPPER",
+      "x1": 70,
+      "y1": 386,
+      "x2": 186,
+      "y2": 408
+    },
+    {
+      "text": "BROCCOLI",
+      "normalized": "BROCCOLI",
+      "x1": 70,
+      "y1": 412,
+      "x2": 157,
+      "y2": 432
+    },
+    {
+      "text": "BRUSSELSPROUT",
+      "normalized": "BRUSSELSPROUT",
+      "x1": 70,
+      "y1": 439,
+      "x2": 220,
+      "y2": 456
+    },
+    {
+      "text": "CABBAGE",
+      "normalized": "CABBAGE",
+      "x1": 70,
+      "y1": 461,
+      "x2": 156,
+      "y2": 481
+    },
+    {
+      "text": "CANTALOUPE",
+      "normalized": "CANTALOUPE",
+      "x1": 71,
+      "y1": 486,
+      "x2": 184,
+      "y2": 503
+    },
+    {
+      "text": "CARROTS",
+      "normalized": "CARROTS",
+      "x1": 70,
+      "y1": 509,
+      "x2": 153,
+      "y2": 529
+    },
+    {
+      "text": "CARROTS",
+      "normalized": "CARROTS",
+      "x1": 70,
+      "y1": 533,
+      "x2": 152,
+      "y2": 553
+    },
+    {
+      "text": "CAULIFLOWER",
+      "normalized": "CAULIFLOWER",
+      "x1": 70,
+      "y1": 558,
+      "x2": 198,
+      "y2": 578
+    },
+    {
+      "text": "CELERY",
+      "normalized": "CELERY",
+      "x1": 70,
+      "y1": 581,
+      "x2": 136,
+      "y2": 601
+    },
+    {
+      "text": "CORN",
+      "normalized": "CORN",
+      "x1": 71,
+      "y1": 607,
+      "x2": 122,
+      "y2": 625
+    },
+    {
+      "text": "CUCKUMBER",
+      "normalized": "CUCKUMBER",
+      "x1": 70,
+      "y1": 630,
+      "x2": 176,
+      "y2": 650
+    },
+    {
+      "text": "GARLIC",
+      "normalized": "GARLIC",
+      "x1": 70,
+      "y1": 653,
+      "x2": 132,
+      "y2": 673
+    },
+    {
+      "text": "KOHLRABI",
+      "normalized": "KOHLRABI",
+      "x1": 70,
+      "y1": 676,
+      "x2": 157,
+      "y2": 696
+    },
+    {
+      "text": "LELKS",
+      "normalized": "LELKS",
+      "x1": 70,
+      "y1": 701,
+      "x2": 126,
+      "y2": 722
+    },
+    {
+      "text": "LETTUCE",
+      "normalized": "LETTUCE",
+      "x1": 70,
+      "y1": 725,
+      "x2": 149,
+      "y2": 745
+    },
+    {
+      "text": "EGGPLANT",
+      "normalized": "EGGPLANT",
+      "x1": 69,
+      "y1": 748,
+      "x2": 153,
+      "y2": 768
+    },
+    {
+      "text": "MELONS",
+      "normalized": "MELONS",
+      "x1": 70,
+      "y1": 773,
+      "x2": 146,
+      "y2": 793
+    },
+    {
+      "text": "OKRA",
+      "normalized": "OKRA",
+      "x1": 70,
+      "y1": 797,
+      "x2": 122,
+      "y2": 818
+    },
+    {
+      "text": "PARSNIPS",
+      "normalized": "PARSNIPS",
+      "x1": 70,
+      "y1": 821,
+      "x2": 154,
+      "y2": 841
+    },
+    {
+      "text": "PEAS",
+      "normalized": "PEAS",
+      "x1": 70,
+      "y1": 845,
+      "x2": 118,
+      "y2": 866
+    },
+    {
+      "text": "POTATOES",
+      "normalized": "POTATOES",
+      "x1": 69,
+      "y1": 867,
+      "x2": 160,
+      "y2": 889
+    },
+    {
+      "text": "SPINACH",
+      "normalized": "SPINACH",
+      "x1": 70,
+      "y1": 893,
+      "x2": 145,
+      "y2": 913
+    },
+    {
+      "text": "SWEETBOTASH",
+      "normalized": "SWEETBOTASH",
+      "x1": 69,
+      "y1": 916,
+      "x2": 190,
+      "y2": 938
+    },
+    {
+      "text": "SOGMMERSOUATH",
+      "normalized": "SOGMMERSOUATH",
+      "x1": 72,
+      "y1": 943,
+      "x2": 231,
+      "y2": 960
+    },
+    {
+      "text": "SWISS CHARD",
+      "normalized": "SWISSCHARD",
+      "x1": 72,
+      "y1": 967,
+      "x2": 191,
+      "y2": 984
+    },
+    {
+      "text": "TOMATOES",
+      "normalized": "TOMATOES",
+      "x1": 72,
+      "y1": 991,
+      "x2": 161,
+      "y2": 1008
+    }
+  ]
+}

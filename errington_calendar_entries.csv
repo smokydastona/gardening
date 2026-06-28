@@ -1,0 +1,360 @@
+month,page_type,section,page_number,plant_text,plant_normalized,row_text,indoor_sow,direct_sow_or_transplant,harvest_bloom_action
+JANUARY,edibles,VEGETABLES,4,Seed & Crop Planning,SEED_CROP_PLANNING,Seed & Crop Planning — — Order seed catalogues; plan rotations,,,Order seed catalogues; plan rotations
+JANUARY,edibles,VEGETABLES,4,Garlic (overwintering),GARLIC_OVERWINTERING,Garlic (overwintering) — — ❄ Mulch in place; overwintering,,,❄ Mulch in place; overwintering
+JANUARY,edibles,VEGETABLES,4,Kale (overwintered),KALE_OVERWINTERED,Kale (overwintered) — — Light harvest if 🌾 protected,,,Light harvest if 🌾 protected
+JANUARY,edibles,VEGETABLES,4,Chard (overwintered),CHARD_OVERWINTERED,Chard (overwintered) — — Light harvest if 🌾 protected ❄,,,Light harvest if 🌾 protected ❄
+JANUARY,edibles,VEGETABLES,4,Stored Squash / Roots,STORED_SQUASH_ROOTS,Stored Squash / Roots — — Check cold storage; remove any rot,,,Check cold storage; remove any rot
+JANUARY,edibles,FRUITS & BERRIES,5,Apple / Pear / Plum / Cherry,APPLE_PEAR_PLUM_CHERRY,Apple / Pear / Plum / Cherry — — ✄ Prune dormant trees Jan–Feb,,,✄ Prune dormant trees Jan–Feb
+JANUARY,edibles,FRUITS & BERRIES,5,Bare-root fruit stock,BARE_ROOT_FRUIT_STOCK,Bare-root fruit stock — — Order from nursery now,,,Order from nursery now
+JANUARY,edibles,ROOTS & TUBERS,5,Potatoes / Carrots / Beets,POTATOES_CARROTS_BEETS,Potatoes / Carrots / Beets — — Check cold storage; remove rot,,,Check cold storage; remove rot
+JANUARY,edibles,LEGUMES & GRAINS,5,All legumes & grains,ALL_LEGUMES_GRAINS,All legumes & grains — — Nothing this month; plan rotations,,,Nothing this month; plan rotations
+JANUARY,edibles,PERENNIAL EDIBLES,5,Rhubarb,RHUBARB,Rhubarb — — Fully dormant ❄,,,Fully dormant ❄
+JANUARY,edibles,PERENNIAL EDIBLES,5,Asparagus,ASPARAGUS,Asparagus — — Fully dormant ❄,,,Fully dormant ❄
+JANUARY,ornamentals,ANNUAL FLOWERS,8,Snapdragons,SNAPDRAGONS,Snapdragons Late Jan (under lights) — —,Late Jan (under lights),,
+JANUARY,ornamentals,ANNUAL FLOWERS,8,Petunias,PETUNIAS,Petunias Late Jan (under lights) — —,Late Jan (under lights),,
+JANUARY,ornamentals,ANNUAL FLOWERS,8,Lobelia,LOBELIA,Lobelia Late Jan (under lights) — —,Late Jan (under lights),,
+JANUARY,ornamentals,HARDY PERENNIALS,8,Hellebores (Lenten Rose),HELLEBORES_LENTEN_ROSE,Hellebores (Lenten Rose) — — Blooming outdoors; cut🌸 tatty foliage,,,Blooming outdoors; cut🌸 tatty foliage
+JANUARY,ornamentals,HARDY PERENNIALS,8,Snowdrops (Galanthus),SNOWDROPS_GALANTHUS,Snowdrops (Galanthus) — — Blooming; divide after 🌸 bloom if congested,,,Blooming; divide after 🌸 bloom if congested
+JANUARY,ornamentals,BULBS & CORMS,8,Snowdrops (Galanthus),SNOWDROPS_GALANTHUS,Snowdrops (Galanthus) — — Blooming outdoors ❄🌸,,,Blooming outdoors ❄🌸
+JANUARY,ornamentals,BULBS & CORMS,8,Forced bulbs (indoors),FORCED_BULBS_INDOORS,Forced bulbs (indoors) — — Check for growth; keep🌸 in bright spot,,,Check for growth; keep🌸 in bright spot
+JANUARY,ornamentals,SHRUBS & TREES (Ornamental),8,Witch Hazel (Hamamelis),WITCH_HAZEL_HAMAMELIS,Witch Hazel (Hamamelis) — — Blooming — fragrant 🌸 winter display,,Blooming,fragrant 🌸 winter display
+JANUARY,ornamentals,SHRUBS & TREES (Ornamental),8,Buddleja / Hydrangea paniculata,BUDDLEJA_HYDRANGEA_PANICULATA,Buddleja / Hydrangea paniculata — — ✄ Prune hard Jan–Feb,,,✄ Prune hard Jan–Feb
+JANUARY,ornamentals,BC NATIVE PLANTS,9,Osoberry (Oemleria),OSOBERRY_OEMLERIA,Osoberry (Oemleria) — — Buds beginning to swell; earliest native,,,Buds beginning to swell; earliest native
+JANUARY,ornamentals,CUT FLOWERS,9,"Amaryllis (forced, indoors)",AMARYLLIS_FORCED_INDOORS,"Amaryllis (forced, indoors) — — Blooming indoors; 🌸 stake tall stems",,,Blooming indoors; 🌸 stake tall stems
+JANUARY,ornamentals,CUT FLOWERS,9,Paperwhite Narcissus (forced),PAPERWHITE_NARCISSUS_FORCED,Paperwhite Narcissus (forced) — — Blooming indoors — 🌸 fragrant,,Blooming indoors,🌸 fragrant
+FEBRUARY,edibles,VEGETABLES,11,Celery / Celeriac,CELERY_CELERIAC,Celery / Celeriac Wk 1 (16 wks to transplant) — —,Wk 1 (16 wks to transplant),,
+FEBRUARY,edibles,VEGETABLES,11,Leeks,LEEKS,Leeks Wk 1–2 — —,Wk 1–2,,
+FEBRUARY,edibles,VEGETABLES,11,Onions,ONIONS,Onions Wk 2–4 — —,Wk 2–4,,
+FEBRUARY,edibles,VEGETABLES,11,Peppers (early),PEPPERS_EARLY,Peppers (early) Wk 3–4 — —,Wk 3–4,,
+FEBRUARY,edibles,VEGETABLES,11,Eggplant (early),EGGPLANT_EARLY,Eggplant (early) Wk 4 — —,Wk 4,,
+FEBRUARY,edibles,VEGETABLES,11,Kale / Chard (overwintered),KALE_CHARD_OVERWINTERED,Kale / Chard (overwintered) — — Light harvest if not 🌾 frozen ❄,,,Light harvest if not 🌾 frozen ❄
+FEBRUARY,edibles,HERBS,11,Parsley,PARSLEY,Parsley Wk 1–2 (slow germinator) — —,Wk 1–2 (slow germinator),,
+FEBRUARY,edibles,HERBS,11,Chives,CHIVES,Chives Wk 1–2 — —,Wk 1–2,,
+FEBRUARY,edibles,HERBS,11,Basil,BASIL,"Basil Wk 4 (under lights, warm) — —","Wk 4 (under lights, warm)",,
+FEBRUARY,edibles,FRUITS & BERRIES,12,Apple / Pear / Plum / Cherry,APPLE_PEAR_PLUM_CHERRY,Apple / Pear / Plum / Cherry — — ✄ Prune before bud break (Feb),,,✄ Prune before bud break (Feb)
+FEBRUARY,edibles,FRUITS & BERRIES,12,Grape vines,GRAPE_VINES,Grape vines — — ✄ Prune Feb — before sap rises,,✄ Prune Feb,before sap rises
+FEBRUARY,edibles,FRUITS & BERRIES,12,Strawberries (bare-root),STRAWBERRIES_BARE_ROOT,Strawberries (bare-root) — Late Feb if ground 🌿 workable —,,Late Feb if ground 🌿 workable,
+FEBRUARY,edibles,ROOTS & TUBERS,12,All root crops,ALL_ROOT_CROPS,All root crops — — Too early to sow. Check cold storage.,,,Too early to sow. Check cold storage.
+FEBRUARY,edibles,LEGUMES & GRAINS,12,All legumes & grains,ALL_LEGUMES_GRAINS,All legumes & grains — — Nothing this month,,,Nothing this month
+FEBRUARY,edibles,PERENNIAL EDIBLES,12,Globe Artichoke,GLOBE_ARTICHOKE,Globe Artichoke Wk 3–4 (needs vernalisation) — —,Wk 3–4 (needs vernalisation),,
+FEBRUARY,edibles,PERENNIAL EDIBLES,12,Rhubarb,RHUBARB,Rhubarb — — Crown tips may appear — leave,,Crown tips may appear,leave
+FEBRUARY,edibles,PERENNIAL EDIBLES,12,Asparagus,ASPARAGUS,Asparagus — — Still dormant ❄,,,Still dormant ❄
+FEBRUARY,ornamentals,HARDY PERENNIALS,15,Delphinium,DELPHINIUM,Delphinium Wk 1 — —,Wk 1,,
+FEBRUARY,ornamentals,HARDY PERENNIALS,15,Echinacea (Coneflower),ECHINACEA_CONEFLOWER,Echinacea (Coneflower) Wk 2 — —,Wk 2,,
+FEBRUARY,ornamentals,HARDY PERENNIALS,15,Salvia nemorosa,SALVIA_NEMOROSA,Salvia nemorosa Wk 2 — —,Wk 2,,
+FEBRUARY,ornamentals,HARDY PERENNIALS,15,Hellebores,HELLEBORES,Hellebores — — Peak bloom outdoors🌸,,,Peak bloom outdoors🌸
+FEBRUARY,ornamentals,HARDY PERENNIALS,15,Snowdrops,SNOWDROPS,"Snowdrops — Divide ""in the green"" now Blooming — divide 🌸 congested clumps",,"Divide ""in the green"" now Blooming",divide 🌸 congested clumps
+FEBRUARY,ornamentals,BULBS & CORMS,15,Anemone corms,ANEMONE_CORMS,Anemone corms — Plant outdoors (if not 🍅 frozen) —,,Plant outdoors (if not 🍅 frozen),
+FEBRUARY,ornamentals,BULBS & CORMS,15,Snowdrops / early Crocus,SNOWDROPS_EARLY_CROCUS,Snowdrops / early Crocus — — Blooming ❄🌸,,,Blooming ❄🌸
+FEBRUARY,ornamentals,SHRUBS & TREES (Ornamental),15,Witch Hazel (Hamamelis),WITCH_HAZEL_HAMAMELIS,Witch Hazel (Hamamelis) — — Blooming — fragrant in🌸 mild spells,,Blooming,fragrant in🌸 mild spells
+FEBRUARY,ornamentals,SHRUBS & TREES (Ornamental),15,Roses,ROSES,Roses — — ✄ Light prune late Feb,,,✄ Light prune late Feb
+FEBRUARY,ornamentals,SHRUBS & TREES (Ornamental),15,Forsythia,FORSYTHIA,Forsythia — — Buds swelling; bloom imminent,,,Buds swelling; bloom imminent
+FEBRUARY,ornamentals,BC NATIVE PLANTS,16,Indian Plum (Oemleria),INDIAN_PLUM_OEMLERIA,Indian Plum (Oemleria) — — Earliest native in 🌸 bloom,,,Earliest native in 🌸 bloom
+FEBRUARY,ornamentals,BC NATIVE PLANTS,16,Red Flowering Currant (Ribes),RED_FLOWERING_CURRANT_RIBES,Red Flowering Currant (Ribes) — — Buds swelling — bloom coming soon,,Buds swelling,bloom coming soon
+FEBRUARY,ornamentals,CUT FLOWERS,16,Lisianthus,LISIANTHUS,Lisianthus Wk 1 (16–20 wks to bloom) — —,Wk 1 (16–20 wks to bloom),,
+FEBRUARY,ornamentals,CUT FLOWERS,16,Statice,STATICE,Statice Wk 2 — —,Wk 2,,
+MARCH,edibles,VEGETABLES,18,Tomatoes,TOMATOES,Tomatoes Wk 1–2 (8–10 wks before transplant) — —,Wk 1–2 (8–10 wks before transplant),,
+MARCH,edibles,VEGETABLES,18,Peppers / Eggplant Continue from Feb,PEPPERS_EGGPLANT_CONTINUE_FROM_FEB,Peppers / Eggplant Continue from Feb — —,,,
+MARCH,edibles,VEGETABLES,18,Broccoli / Cauliflower / Cabbage,BROCCOLI_CAULIFLOWER_CABBAGE,Broccoli / Cauliflower / Cabbage Wk 1 — —,Wk 1,,
+MARCH,edibles,VEGETABLES,18,Brussels Sprouts,BRUSSELS_SPROUTS,Brussels Sprouts Wk 1–2 — —,Wk 1–2,,
+MARCH,edibles,VEGETABLES,18,Kale (new crop),KALE_NEW_CROP,Kale (new crop) Wk 1–2 — —,Wk 1–2,,
+MARCH,edibles,VEGETABLES,18,Lettuce / Spinach,LETTUCE_SPINACH,Lettuce / Spinach Wk 1 (indoors) Wk 3–4 under cloche ❄🌿 —,Wk 1 (indoors) Wk 3–4 under cloche ❄🌿,,
+MARCH,edibles,VEGETABLES,18,Peas,PEAS,Peas — Wk 3–4 (cold-tolerant) 🌿 —,,Wk 3–4 (cold-tolerant) 🌿,
+MARCH,edibles,VEGETABLES,18,Broad Beans (Fava),BROAD_BEANS_FAVA,Broad Beans (Fava) — Wk 3–4 ❄🌿 —,,Wk 3–4 ❄🌿,
+MARCH,edibles,VEGETABLES,18,Radish / Arugula / Mâche,RADISH_ARUGULA_M_CHE,Radish / Arugula / Mâche — Wk 3–4 (under fleece)🌿 —,,Wk 3–4 (under fleece)🌿,
+MARCH,edibles,HERBS,19,Basil,BASIL,Basil Wk 1–2 (indoors only) — —,Wk 1–2 (indoors only),,
+MARCH,edibles,HERBS,19,Dill,DILL,Dill Wk 1–2 Late Mar direct sow OK🌿 —,Wk 1–2 Late Mar direct sow OK🌿,,
+MARCH,edibles,HERBS,19,Cilantro,CILANTRO,Cilantro — Direct sow late Mar🌿 —,,Direct sow late Mar🌿,
+MARCH,edibles,FRUITS & BERRIES,19,Strawberries (from seed),STRAWBERRIES_FROM_SEED,Strawberries (from seed) Wk 1 (long season needed) — —,Wk 1 (long season needed),,
+MARCH,edibles,FRUITS & BERRIES,19,Strawberries / Currants / Gooseberries (bare-root),STRAWBERRIES_CURRANTS_GOOSEBERRIES_BARE_ROOT,Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable🌿 —,,Mar if ground workable🌿,
+MARCH,edibles,FRUITS & BERRIES,19,Blueberries,BLUEBERRIES,Blueberries — — ✄ Prune Mar; apply dormant spray,,,✄ Prune Mar; apply dormant spray
+MARCH,edibles,FRUITS & BERRIES,19,Apple / Pear / Cherry,APPLE_PEAR_CHERRY,Apple / Pear / Cherry — — Apply dormant oil spray now,,,Apply dormant oil spray now
+MARCH,edibles,ROOTS & TUBERS,19,Parsnips,PARSNIPS,Parsnips — Wk 3–4 (needs warm 🌿 soil) —,,Wk 3–4 (needs warm 🌿 soil),
+MARCH,edibles,ROOTS & TUBERS,19,Carrots,CARROTS,Carrots — Wk 3–4 under fleece🌿 —,,Wk 3–4 under fleece🌿,
+MARCH,edibles,ROOTS & TUBERS,19,Seed Potatoes Chit indoors in light (Mar),SEED_POTATOES_CHIT_INDOORS_IN_LIGHT_MAR,Seed Potatoes Chit indoors in light (Mar) — —,,,
+MARCH,edibles,ROOTS & TUBERS,19,LEGUMES Peas,LEGUMES_PEAS,LEGUMES Peas — Wk 3–4 outdoors ❄🌿 —,,Wk 3–4 outdoors ❄🌿,
+MARCH,edibles,ROOTS & TUBERS,19,Broad Beans (Fava),BROAD_BEANS_FAVA,Broad Beans (Fava) — Wk 3–4 ❄🌿 —,,Wk 3–4 ❄🌿,
+MARCH,edibles,PERENNIAL EDIBLES,20,Globe Artichoke Continue from Feb,GLOBE_ARTICHOKE_CONTINUE_FROM_FEB,Globe Artichoke Continue from Feb — —,,,
+MARCH,edibles,PERENNIAL EDIBLES,20,Asparagus crowns,ASPARAGUS_CROWNS,Asparagus crowns — Plant late Mar (if workable) —,,Plant late Mar (if workable),
+MARCH,edibles,PERENNIAL EDIBLES,20,Rhubarb,RHUBARB,Rhubarb — — Emerging — do not harvest 1st yr,,Emerging,do not harvest 1st yr
+MARCH,ornamentals,ANNUAL FLOWERS,22,Impatiens,IMPATIENS,Impatiens Wk 1 — —,Wk 1,,
+MARCH,ornamentals,ANNUAL FLOWERS,22,Nicotiana / Cleome,NICOTIANA_CLEOME,Nicotiana / Cleome Wk 1 — —,Wk 1,,
+MARCH,ornamentals,ANNUAL FLOWERS,22,Marigold,MARIGOLD,Marigold Wk 2 — —,Wk 2,,
+MARCH,ornamentals,ANNUAL FLOWERS,22,Zinnia / Cosmos,ZINNIA_COSMOS,Zinnia / Cosmos Wk 3 — —,Wk 3,,
+MARCH,ornamentals,ANNUAL FLOWERS,22,Sweet Peas,SWEET_PEAS,Sweet Peas — Direct sow outdoors 🌿 Wk 3–4 —,,Direct sow outdoors 🌿 Wk 3–4,
+MARCH,ornamentals,HARDY PERENNIALS,22,Coneflower / Rudbeckia,CONEFLOWER_RUDBECKIA,Coneflower / Rudbeckia Wk 1 — —,Wk 1,,
+MARCH,ornamentals,HARDY PERENNIALS,22,Gaillardia,GAILLARDIA,Gaillardia Wk 2 — —,Wk 2,,
+MARCH,ornamentals,HARDY PERENNIALS,22,Larkspur / Poppy,LARKSPUR_POPPY,Larkspur / Poppy — Direct sow Wk 3–4🌿 —,,Direct sow Wk 3–4🌿,
+MARCH,ornamentals,HARDY PERENNIALS,22,Hostas / Daylilies / Asters,HOSTAS_DAYLILIES_ASTERS,Hostas / Daylilies / Asters — Divide emerging clumps ✄ Emerging from ground,,,Divide emerging clumps ✄ Emerging from ground
+MARCH,ornamentals,BULBS & CORMS,22,Dahlia tubers,DAHLIA_TUBERS,Dahlia tubers Pot up indoors Wk 3–4🍅 — —,Pot up indoors Wk 3–4🍅,,
+MARCH,ornamentals,BULBS & CORMS,22,Daffodils / Crocus / early Tulips,DAFFODILS_CROCUS_EARLY_TULIPS,Daffodils / Crocus / early Tulips — — Blooming — peak 🌸 spring display,,Blooming,peak 🌸 spring display
+MARCH,ornamentals,SHRUBS & TREES (Ornamental),23,Forsythia / Pieris,FORSYTHIA_PIERIS,Forsythia / Pieris — — Blooming🌸,,,Blooming🌸
+MARCH,ornamentals,SHRUBS & TREES (Ornamental),23,Summer-flowering shrubs,SUMMER_FLOWERING_SHRUBS,Summer-flowering shrubs — — ✄ Prune Mar; feed roses,,,✄ Prune Mar; feed roses
+MARCH,ornamentals,CLIMBING VINES,23,Morning Glory,MORNING_GLORY,Morning Glory Wk 3 (indoors) — —,Wk 3 (indoors),,
+MARCH,ornamentals,CLIMBING VINES,23,Group 3 Clematis,GROUP_3_CLEMATIS,Group 3 Clematis — — ✄ Prune hard early Mar if not done,,,✄ Prune hard early Mar if not done
+MARCH,ornamentals,BC NATIVE PLANTS,23,Red Flowering Currant (Ribes),RED_FLOWERING_CURRANT_RIBES,Red Flowering Currant (Ribes) — — Blooming — 🌸 hummingbird magnet,,Blooming,🌸 hummingbird magnet
+MARCH,ornamentals,BC NATIVE PLANTS,23,Osoberry / Trillium,OSOBERRY_TRILLIUM,Osoberry / Trillium — — Emerging — do not 🌸 pick Trillium,,Emerging,do not 🌸 pick Trillium
+MARCH,ornamentals,CUT FLOWERS,23,Celosia / Strawflower / Scabiosa,CELOSIA_STRAWFLOWER_SCABIOSA,Celosia / Strawflower / Scabiosa Wk 1–2 — —,Wk 1–2,,
+MARCH,ornamentals,CUT FLOWERS,23,Larkspur,LARKSPUR,Larkspur — Direct sow outdoors🌿 —,,Direct sow outdoors🌿,
+APRIL,edibles,HERBS,26,Dill / Cilantro / Chervil / Fennel,DILL_CILANTRO_CHERVIL_FENNEL,Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4🌿 —,,Direct sow Wk 3–4🌿,
+APRIL,edibles,HERBS,26,Chives / Parsley (starts),CHIVES_PARSLEY_STARTS,Chives / Parsley (starts) — → Transplant Wk 3–4🌍 🌍 —,,→ Transplant Wk 3–4🌍 🌍,
+APRIL,edibles,FRUITS & BERRIES,26,Strawberry runners,STRAWBERRY_RUNNERS,Strawberry runners — Plant outdoors Wk 3–4🌿 —,,Plant outdoors Wk 3–4🌿,
+APRIL,edibles,FRUITS & BERRIES,26,Raspberries,RASPBERRIES,Raspberries — — ✄ Cut back old canes,,,✄ Cut back old canes
+APRIL,edibles,FRUITS & BERRIES,26,Blueberries / Currants,BLUEBERRIES_CURRANTS,Blueberries / Currants — — New growth beginning; feed now,,,New growth beginning; feed now
+APRIL,edibles,ROOTS & TUBERS,26,Seed potatoes,SEED_POTATOES,Seed potatoes — Plant Wk 3–4 (after last🌿 frost) —,,Plant Wk 3–4 (after last🌿 frost),
+APRIL,edibles,ROOTS & TUBERS,26,Carrots / Beets (succession),CARROTS_BEETS_SUCCESSION,Carrots / Beets (succession) — Direct sow Wk 3–4🌿 —,,Direct sow Wk 3–4🌿,
+APRIL,edibles,PERENNIAL EDIBLES,27,Asparagus,ASPARAGUS,Asparagus — — Harvest begins Wk 3–4🌾,,,Harvest begins Wk 3–4🌾
+APRIL,edibles,PERENNIAL EDIBLES,27,Rhubarb,RHUBARB,Rhubarb — — Harvest begins Wk 3–4🌾,,,Harvest begins Wk 3–4🌾
+APRIL,edibles,PERENNIAL EDIBLES,27,Artichoke,ARTICHOKE,Artichoke — → Transplant 🌍 🌍 outdoors late Apr —,,→ Transplant 🌍 🌍 outdoors late Apr,
+APRIL,ornamentals,ANNUAL FLOWERS,29,Snapdragons / Pansies / Stocks,SNAPDRAGONS_PANSIES_STOCKS,Snapdragons / Pansies / Stocks — → Transplant cold-🌍 🌍 tolerant after Apr 15 —,,→ Transplant cold-🌍 🌍 tolerant after Apr 15,
+APRIL,ornamentals,ANNUAL FLOWERS,29,Sweet Peas,SWEET_PEAS,Sweet Peas — Direct sow Wk 1–2🌿 —,,Direct sow Wk 1–2🌿,
+APRIL,ornamentals,ANNUAL FLOWERS,29,Larkspur / Poppy / Nigella / Calendula / Borage,LARKSPUR_POPPY_NIGELLA_CALENDULA_BORAGE,Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4🌿 —,,Direct sow Wk 2–4🌿,
+APRIL,ornamentals,HARDY PERENNIALS,29,Primula / Wallflower / Aubretia / Iberis,PRIMULA_WALLFLOWER_AUBRETIA_IBERIS,Primula / Wallflower / Aubretia / Iberis — — Blooming🌸,,,Blooming🌸
+APRIL,ornamentals,HARDY PERENNIALS,29,Perennial seedlings (hardened-off),PERENNIAL_SEEDLINGS_HARDENED_OFF,Perennial seedlings (hardened-off) — → Transplant Wk 3–4🌍 🌍 —,,→ Transplant Wk 3–4🌍 🌍,
+APRIL,ornamentals,HARDY PERENNIALS,29,Hostas / Daylilies / Asters,HOSTAS_DAYLILIES_ASTERS,Hostas / Daylilies / Asters — Divide established clumps ✄ —,,Divide established clumps ✄,
+APRIL,ornamentals,SHRUBS & TREES (Ornamental),30,Magnolia / Camellia / Rhododendron / Azalea,MAGNOLIA_CAMELLIA_RHODODENDRON_AZALEA,Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring 🌸 display,,,Stunning spring 🌸 display
+APRIL,ornamentals,SHRUBS & TREES (Ornamental),30,"Spring-flowering shrubs (Forsythia, Kerria)",SPRING_FLOWERING_SHRUBS_FORSYTHIA_KERRIA,"Spring-flowering shrubs (Forsythia, Kerria) — — ✄ Prune AFTER bloom; feed roses",,,✄ Prune AFTER bloom; feed roses
+APRIL,ornamentals,CLIMBING VINES,30,Sweet Peas,SWEET_PEAS,Sweet Peas — → Transplant 🌍 🌍 outdoors Wk 3–4 —,,→ Transplant 🌍 🌍 outdoors Wk 3–4,
+APRIL,ornamentals,CLIMBING VINES,30,Morning Glory,MORNING_GLORY,Morning Glory — Wait until May —,,Wait until May,
+APRIL,ornamentals,CLIMBING VINES,30,Honeysuckle,HONEYSUCKLE,Honeysuckle — — Leafing out; new growth vigorous,,,Leafing out; new growth vigorous
+APRIL,ornamentals,BC NATIVE PLANTS,30,Bleeding Heart (Dicentra) / Pacific Trillium,BLEEDING_HEART_DICENTRA_PACIFIC_TRILLIUM,Bleeding Heart (Dicentra) / Pacific Trillium — — Blooming in shaded 🌸 spots,,,Blooming in shaded 🌸 spots
+APRIL,ornamentals,BC NATIVE PLANTS,30,Camas (Camassia),CAMAS_CAMASSIA,Camas (Camassia) — — Beginning to bloom🌸,,,Beginning to bloom🌸
+APRIL,ornamentals,BC NATIVE PLANTS,30,Garry Oak,GARRY_OAK,Garry Oak — — Leafing out; catkins dropping,,,Leafing out; catkins dropping
+MAY,edibles,VEGETABLES,33,Tomatoes,TOMATOES,Tomatoes — → Transplant Wk 1–2🌍 🌍 (hardened) —,,→ Transplant Wk 1–2🌍 🌍 (hardened),
+MAY,edibles,VEGETABLES,33,Peppers / Eggplant,PEPPERS_EGGPLANT,Peppers / Eggplant — → Transplant Wk 1–2🌍 🌍 —,,→ Transplant Wk 1–2🌍 🌍,
+MAY,edibles,VEGETABLES,33,Cucumber / Zucchini / Squash,CUCUMBER_ZUCCHINI_SQUASH,Cucumber / Zucchini / Squash — → Transplant Wk 2–3🌍 🌍 —,,→ Transplant Wk 2–3🌍 🌍,
+MAY,edibles,VEGETABLES,33,Beans (French / Runner),BEANS_FRENCH_RUNNER,Beans (French / Runner) — Direct sow Wk 2–4🌿 —,,Direct sow Wk 2–4🌿,
+MAY,edibles,VEGETABLES,33,Corn,CORN,Corn — Direct sow Wk 3–4🌿 —,,Direct sow Wk 3–4🌿,
+MAY,edibles,VEGETABLES,33,Beets / Carrots / Lettuce / Chard / Kale,BEETS_CARROTS_LETTUCE_CHARD_KALE,Beets / Carrots / Lettuce / Chard / Kale — Succession sow Wk 1–🌿 4 —,,Succession sow Wk 1–🌿 4,
+MAY,edibles,VEGETABLES,33,Peas (second sowing),PEAS_SECOND_SOWING,Peas (second sowing) — Wk 1–2 for late crop🌿 —,,Wk 1–2 for late crop🌿,
+MAY,edibles,HERBS,33,Basil,BASIL,Basil — → Transplant Wk 2 🌍 🌍 (soil must be warm) —,,→ Transplant Wk 2 🌍 🌍 (soil must be warm),
+MAY,edibles,HERBS,33,Rosemary / Thyme / Oregano,ROSEMARY_THYME_OREGANO,Rosemary / Thyme / Oregano — → Transplant now🌍 🌍 —,,→ Transplant now🌍 🌍,
+MAY,edibles,HERBS,33,Dill / Cilantro / Fennel,DILL_CILANTRO_FENNEL,Dill / Cilantro / Fennel — Succession direct sow🌿 —,,Succession direct sow🌿,
+MAY,edibles,FRUITS & BERRIES,33,Strawberries,STRAWBERRIES,Strawberries — — Flowers forming; 🌸 remove 1st-yr runners' flowers,,,Flowers forming; 🌸 remove 1st-yr runners' flowers
+MAY,edibles,FRUITS & BERRIES,33,Blueberries / Gooseberries,BLUEBERRIES_GOOSEBERRIES,Blueberries / Gooseberries — — Flowering; set fruit🌸,,,Flowering; set fruit🌸
+MAY,edibles,FRUITS & BERRIES,33,Apple / Pear,APPLE_PEAR,Apple / Pear — — Thin fruitlets late May (June drop),,,Thin fruitlets late May (June drop)
+MAY,edibles,ROOTS & TUBERS,33,Carrots / Beets / Parsnips,CARROTS_BEETS_PARSNIPS,Carrots / Beets / Parsnips — Succession sow🌿 —,,Succession sow🌿,
+MAY,edibles,ROOTS & TUBERS,33,Sweet potato slips,SWEET_POTATO_SLIPS,Sweet potato slips — Plant late May (soil 🌿 warm) —,,Plant late May (soil 🌿 warm),
+MAY,edibles,LEGUMES & GRAINS,34,Beans (French / Runner) / Edamame,BEANS_FRENCH_RUNNER_EDAMAME,Beans (French / Runner) / Edamame — Direct sow Wk 2–4🌿 —,,Direct sow Wk 2–4🌿,
+MAY,edibles,LEGUMES & GRAINS,34,Broad Beans,BROAD_BEANS,Broad Beans — — In flower — pinch tops 🌸 to deter blackfly,,In flower,pinch tops 🌸 to deter blackfly
+MAY,edibles,LEGUMES & GRAINS,34,Corn / Sunflower,CORN_SUNFLOWER,Corn / Sunflower — Direct sow Wk 3–4🌿 —,,Direct sow Wk 3–4🌿,
+MAY,edibles,PERENNIAL EDIBLES,34,Asparagus,ASPARAGUS,Asparagus — — Full harvest — pick 🌾 daily,,Full harvest,pick 🌾 daily
+MAY,edibles,PERENNIAL EDIBLES,34,Rhubarb,RHUBARB,Rhubarb — — Harvest stalks; leave 🌾 some leaves,,,Harvest stalks; leave 🌾 some leaves
+MAY,edibles,PERENNIAL EDIBLES,34,Artichoke,ARTICHOKE,Artichoke — — Establishing in garden,,,Establishing in garden
+MAY,ornamentals,ANNUAL FLOWERS,36,Impatiens / Marigolds / Petunias / Begonias,IMPATIENS_MARIGOLDS_PETUNIAS_BEGONIAS,Impatiens / Marigolds / Petunias / Begonias — → All frost-tender 🌍 🌍 annuals outdoors Wk 1–2 —,,→ All frost-tender 🌍 🌍 annuals outdoors Wk 1–2,
+MAY,ornamentals,ANNUAL FLOWERS,36,Zinnias / Cosmos / Nicotiana / Cleome,ZINNIAS_COSMOS_NICOTIANA_CLEOME,Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2🌍 🌍 —,,→ Transplant Wk 1–2🌍 🌍,
+MAY,ornamentals,ANNUAL FLOWERS,36,Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage,ZINNIA_COSMOS_NASTURTIUM_SUNFLOWER_MORNING_GLORY_BORAGE,Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3🌿 —,,Direct sow Wk 1–3🌿,
+MAY,ornamentals,HARDY PERENNIALS,36,Aquilegia / Geranium / Lupine / Iris,AQUILEGIA_GERANIUM_LUPINE_IRIS,Aquilegia / Geranium / Lupine / Iris — — Blooming — peak early🌸 perennials,,Blooming,peak early🌸 perennials
+MAY,ornamentals,HARDY PERENNIALS,36,Allium / Centaurea,ALLIUM_CENTAUREA,Allium / Centaurea — — Beginning to bloom🌸,,,Beginning to bloom🌸
+MAY,ornamentals,HARDY PERENNIALS,36,Late-emerging perennials,LATE_EMERGING_PERENNIALS,Late-emerging perennials — Divide early May ✄ —,,Divide early May ✄,
+MAY,ornamentals,SHRUBS & TREES (Ornamental),37,Rhododendron / Azalea / Lilac / Ceanothus / Weigela,RHODODENDRON_AZALEA_LILAC_CEANOTHUS_WEIGELA,Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms🌸,,,Spectacular blooms🌸
+MAY,ornamentals,SHRUBS & TREES (Ornamental),37,Forsythia / Kerria / Ribes (spring-blooming),FORSYTHIA_KERRIA_RIBES_SPRING_BLOOMING,Forsythia / Kerria / Ribes (spring-blooming) — — ✄ Prune after bloom finishes,,,✄ Prune after bloom finishes
+MAY,ornamentals,CLIMBING VINES,37,Morning Glory / Cobaea scandens,MORNING_GLORY_COBAEA_SCANDENS,Morning Glory / Cobaea scandens — → Transplant 🌍 🌍 outdoors now —,,→ Transplant 🌍 🌍 outdoors now,
+MAY,ornamentals,CLIMBING VINES,37,Clematis montana,CLEMATIS_MONTANA,Clematis montana — — Peak bloom — glorious🌸,,Peak bloom,glorious🌸
+MAY,ornamentals,CLIMBING VINES,37,Honeysuckle,HONEYSUCKLE,Honeysuckle — — In bud; bloom imminent,,,In bud; bloom imminent
+MAY,ornamentals,BC NATIVE PLANTS,37,Camas / Bleeding Heart / Nootka Rose / Bunchberry,CAMAS_BLEEDING_HEART_NOOTKA_ROSE_BUNCHBERRY,Camas / Bleeding Heart / Nootka Rose / Bunchberry — — Blooming — peak 🌸 native season,,Blooming,peak 🌸 native season
+MAY,ornamentals,CUT FLOWERS,37,Sunflower,SUNFLOWER,Sunflower — Direct sow Wk 1–2🌿 —,,Direct sow Wk 1–2🌿,
+MAY,ornamentals,CUT FLOWERS,37,Sweet Peas / Allium / Iris / Aquilegia,SWEET_PEAS_ALLIUM_IRIS_AQUILEGIA,Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting🌸,,,Excellent for cutting🌸
+JUNE,edibles,HERBS,40,Chives / Parsley / Dill / Chervil,CHIVES_PARSLEY_DILL_CHERVIL,Chives / Parsley / Dill / Chervil — — Harvest freely; dry or 🌾 freeze surplus,,,Harvest freely; dry or 🌾 freeze surplus
+JUNE,edibles,HERBS,40,Cilantro (before bolt),CILANTRO_BEFORE_BOLT,Cilantro (before bolt) — — Harvest now — bolts 🌾 fast in heat,,Harvest now,bolts 🌾 fast in heat
+JUNE,edibles,HERBS,40,Basil,BASIL,Basil — — ✄ Pinch flowers to prolong leaf harvest,,,✄ Pinch flowers to prolong leaf harvest
+JUNE,edibles,FRUITS & BERRIES,40,Strawberries,STRAWBERRIES,Strawberries — — Full harvest Wk 1–4🌾,,,Full harvest Wk 1–4🌾
+JUNE,edibles,FRUITS & BERRIES,40,Gooseberries,GOOSEBERRIES,Gooseberries — — Ready late June🌾,,,Ready late June🌾
+JUNE,edibles,FRUITS & BERRIES,40,Apple / Pear,APPLE_PEAR,Apple / Pear — — Thin clusters to 1 fruit per spur,,,Thin clusters to 1 fruit per spur
+JUNE,edibles,ROOTS & TUBERS,40,Carrots / Beets (last sow for fall),CARROTS_BEETS_LAST_SOW_FOR_FALL,Carrots / Beets (last sow for fall) — Last main sow Wk 1–2🌿 — Early new potatoes — — Check Wk 3–4 if 🌾 planted late March,Last main sow Wk 1–2🌿,Early new potatoes,Check Wk 3–4 if 🌾 planted late March
+JUNE,edibles,PERENNIAL EDIBLES,41,Asparagus,ASPARAGUS,Asparagus — — ✄ Stop harvesting Wk 1– 2; allow fern growth,,,✄ Stop harvesting Wk 1– 2; allow fern growth
+JUNE,edibles,PERENNIAL EDIBLES,41,Rhubarb,RHUBARB,Rhubarb — — Last harvest Wk 1–2; 🌾 leave plant to rest,,,Last harvest Wk 1–2; 🌾 leave plant to rest
+JUNE,edibles,PERENNIAL EDIBLES,41,Artichoke,ARTICHOKE,Artichoke — — Buds forming late June,,,Buds forming late June
+JUNE,ornamentals,ANNUAL FLOWERS,43,Marigold / Lobelia / Petunia / Snapdragon,MARIGOLD_LOBELIA_PETUNIA_SNAPDRAGON,Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming🌸,,,First annuals blooming🌸
+JUNE,ornamentals,ANNUAL FLOWERS,43,Nasturtium / Cosmos / Zinnia (early vars.),NASTURTIUM_COSMOS_ZINNIA_EARLY_VARS,Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; 🌸 deadhead ✄,,,Beginning to bloom; 🌸 deadhead ✄
+JUNE,ornamentals,HARDY PERENNIALS,43,Lupine / Iris / Salvia nemorosa / Allium,LUPINE_IRIS_SALVIA_NEMOROSA_ALLIUM,Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer 🌸 perennials,,,Peak early summer 🌸 perennials
+JUNE,ornamentals,HARDY PERENNIALS,43,Foxglove (Digitalis) / Veronica / Astrantia,FOXGLOVE_DIGITALIS_VERONICA_ASTRANTIA,Foxglove (Digitalis) / Veronica / Astrantia — — Blooming beautifully🌸,,,Blooming beautifully🌸
+JUNE,ornamentals,HARDY PERENNIALS,43,Achillea (Yarrow),ACHILLEA_YARROW,Achillea (Yarrow) — — Beginning; excellent 🌸 pollinator plant,,,Beginning; excellent 🌸 pollinator plant
+JUNE,ornamentals,HARDY PERENNIALS,43,Geranium (Cranesbill),GERANIUM_CRANESBILL,Geranium (Cranesbill) — — Full bloom; cut back 🌸 after for rebloom,,,Full bloom; cut back 🌸 after for rebloom
+JUNE,ornamentals,BULBS & CORMS,43,Allium / late Iris / first Lily buds,ALLIUM_LATE_IRIS_FIRST_LILY_BUDS,Allium / late Iris / first Lily buds — — Blooming; stake tall 🌸,,,Blooming; stake tall 🌸
+JUNE,ornamentals,BULBS & CORMS,43,Allium Gladiolus,ALLIUM_GLADIOLUS,Allium Gladiolus — — Growing strongly; stake tall varieties,,,Growing strongly; stake tall varieties
+JUNE,ornamentals,SHRUBS & TREES (Ornamental),44,Roses (first flush) / Philadelphus / Weigela / Escallonia,ROSES_FIRST_FLUSH_PHILADELPHUS_WEIGELA_ESCALLONIA,Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — 🌸 glorious,,Peak first flush,🌸 glorious
+JUNE,ornamentals,SHRUBS & TREES (Ornamental),44,Philadelphus / Weigela,PHILADELPHUS_WEIGELA,Philadelphus / Weigela — — ✄ Prune after bloom finishes (late June),,,✄ Prune after bloom finishes (late June)
+JUNE,ornamentals,CLIMBING VINES,44,Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas,HONEYSUCKLE_CLEMATIS_NELLY_MOSER_TYPE_SWEET_PEAS,Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet 🌸,,Peak,harvest Sweet 🌸
+JUNE,ornamentals,CLIMBING VINES,44,Peas daily Morning Glory,PEAS_DAILY_MORNING_GLORY,Peas daily Morning Glory — — Climbing and budding,,,Climbing and budding
+JUNE,ornamentals,BC NATIVE PLANTS,44,Nootka Rose / Ocean Spray (Holodiscus),NOOTKA_ROSE_OCEAN_SPRAY_HOLODISCUS,Nootka Rose / Ocean Spray (Holodiscus) — — Blooming — excellent 🌸 for pollinators,,Blooming,excellent 🌸 for pollinators
+JUNE,ornamentals,BC NATIVE PLANTS,44,Yarrow / Blue-eyed Grass (Sisyrinchium),YARROW_BLUE_EYED_GRASS_SISYRINCHIUM,Yarrow / Blue-eyed Grass (Sisyrinchium) — — Blooming in meadow 🌸 areas,,,Blooming in meadow 🌸 areas
+JUNE,ornamentals,CUT FLOWERS,44,Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia,ALLIUM_IRIS_SWEET_PEA_LUPINE_FOXGLOVE_SALVIA,Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; 🌸 harvest in morning,,,Excellent cutting; 🌸 harvest in morning
+JULY,edibles,VEGETABLES,46,Beans (for fall) / Lettuce (bolt-resistant),BEANS_FOR_FALL_LETTUCE_BOLT_RESISTANT,Beans (for fall) / Lettuce (bolt-resistant) — Succession Wk 1–2 🌿 only —,,Succession Wk 1–2 🌿 only,
+JULY,edibles,VEGETABLES,46,Beets / Carrots / Kale / Chard,BEETS_CARROTS_KALE_CHARD,Beets / Carrots / Kale / Chard — Wk 1–2 (last chance 🌿 for Kale/Chard) —,,Wk 1–2 (last chance 🌿 for Kale/Chard),
+JULY,edibles,VEGETABLES,46,Peas / Beans / Zucchini / Cucumber,PEAS_BEANS_ZUCCHINI_CUCUMBER,Peas / Beans / Zucchini / Cucumber — — Full harvest swing🌾,,,Full harvest swing🌾
+JULY,edibles,HERBS,47,Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint,BASIL_DILL_CILANTRO_PARSLEY_THYME_OREGANO_MINT,Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and 🌾 freeze surplus,,,Full harvest; dry and 🌾 freeze surplus
+JULY,edibles,HERBS,47,Basil,BASIL,Basil — — ✄ Pinch flowers continuously to prevent bolt,,,✄ Pinch flowers continuously to prevent bolt
+JULY,edibles,FRUITS & BERRIES,47,Blueberries (mid-July onward),BLUEBERRIES_MID_JULY_ONWARD,Blueberries (mid-July onward) — — Peak harvest; pick 🌾 daily,,,Peak harvest; pick 🌾 daily
+JULY,edibles,FRUITS & BERRIES,47,Raspberries (summer- bearing),RASPBERRIES_SUMMER_BEARING,Raspberries (summer- bearing) — — Harvest; remove 🌾 fruited canes after,,,Harvest; remove 🌾 fruited canes after
+JULY,edibles,FRUITS & BERRIES,47,Red / White Currants / Gooseberries,RED_WHITE_CURRANTS_GOOSEBERRIES,Red / White Currants / Gooseberries — — Harvest and preserve🌾 Early Plums / Tayberry /,,,Harvest and preserve🌾 Early Plums / Tayberry /
+JULY,edibles,FRUITS & BERRIES,47,Everbearing Strawberries,EVERBEARING_STRAWBERRIES,Everbearing Strawberries — — Beginning to fruit🌾,,,Beginning to fruit🌾
+JULY,edibles,ROOTS & TUBERS,47,Carrots / Beets / Turnips,CARROTS_BEETS_TURNIPS,Carrots / Beets / Turnips — Last chance Wk 1 only🌿 Harvest new potatoes🌾,,,Last chance Wk 1 only🌿 Harvest new potatoes🌾
+JULY,edibles,ROOTS & TUBERS,47,Main-crop potatoes,MAIN_CROP_POTATOES,Main-crop potatoes — — Lift as tops die back🌾,,,Lift as tops die back🌾
+JULY,edibles,PERENNIAL EDIBLES,48,Artichoke,ARTICHOKE,Artichoke — — Harvest heads before 🌾 fully open,,,Harvest heads before 🌾 fully open
+JULY,edibles,PERENNIAL EDIBLES,48,Rhubarb / Asparagus,RHUBARB_ASPARAGUS,Rhubarb / Asparagus — — Do NOT harvest; let plants build energy,,,Do NOT harvest; let plants build energy
+JULY,ornamentals,ANNUAL FLOWERS,50,Zinnia / Cosmos / Marigold / Cleome / Nicotiana,ZINNIA_COSMOS_MARIGOLD_CLEOME_NICOTIANA,Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; 🌸 deadhead daily ✄,,,Full peak bloom; 🌸 deadhead daily ✄
+JULY,ornamentals,ANNUAL FLOWERS,50,Sweet Pea,SWEET_PEA,Sweet Pea — — Peak — harvest every 🌸 day to extend,,Peak,harvest every 🌸 day to extend
+JULY,ornamentals,ANNUAL FLOWERS,50,Nasturtium / Calendula (for fall),NASTURTIUM_CALENDULA_FOR_FALL,Nasturtium / Calendula (for fall) — Last sow Wk 1🌿 Blooming continuously🌸,,,Last sow Wk 1🌿 Blooming continuously🌸
+JULY,ornamentals,HARDY PERENNIALS,50,Daylily / Echinacea / Rudbeckia / Monarda,DAYLILY_ECHINACEA_RUDBECKIA_MONARDA,Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer 🌸 perennials,,,Peak midsummer 🌸 perennials
+JULY,ornamentals,HARDY PERENNIALS,50,Agapanthus / Veronicastrum / Penstemon / Shasta Daisy,AGAPANTHUS_VERONICASTRUM_PENSTEMON_SHASTA_DAISY,Agapanthus / Veronicastrum / Penstemon / Shasta Daisy — — Blooming — pollinator 🌸 paradise,,Blooming,pollinator 🌸 paradise
+JULY,ornamentals,HARDY PERENNIALS,50,Achillea / Kniphofia (Red Hot Poker),ACHILLEA_KNIPHOFIA_RED_HOT_POKER,Achillea / Kniphofia (Red Hot Poker) — — Peak; deadhead ✄ to 🌸 extend,,,Peak; deadhead ✄ to 🌸 extend
+JULY,ornamentals,BULBS & CORMS,50,Oriental / Asiatic Lilies / Gladiolus,ORIENTAL_ASIATIC_LILIES_GLADIOLUS,Oriental / Asiatic Lilies / Gladiolus — — Blooming; stake tall 🌸 varieties,,,Blooming; stake tall 🌸 varieties
+JULY,ornamentals,BULBS & CORMS,50,Dahlia (early varieties),DAHLIA_EARLY_VARIETIES,Dahlia (early varieties) — — First dahlias opening🌸,,,First dahlias opening🌸
+JULY,ornamentals,SHRUBS & TREES (Ornamental),51,Roses (repeat flush) / Lavender / Hydrangea macrophylla,ROSES_REPEAT_FLUSH_LAVENDER_HYDRANGEA_MACROPHYLLA,Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer 🌸 display,,,Stunning summer 🌸 display
+JULY,ornamentals,SHRUBS & TREES (Ornamental),51,Roses,ROSES,Roses — — ✄ Deadhead continuously for repeat bloom,,,✄ Deadhead continuously for repeat bloom
+JULY,ornamentals,SHRUBS & TREES (Ornamental),51,Lavender,LAVENDER,Lavender — — ✄ Prune lightly after first flush Wk 2–3,,,✄ Prune lightly after first flush Wk 2–3
+JULY,ornamentals,CLIMBING VINES,51,Morning Glory / Clematis viticella / Honeysuckle,MORNING_GLORY_CLEMATIS_VITICELLA_HONEYSUCKLE,Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom🌸,,,All in gorgeous bloom🌸
+JULY,ornamentals,CLIMBING VINES,51,Cobaea scandens,COBAEA_SCANDENS,Cobaea scandens — — Cup-and-saucer vine 🌸 blooming,,,Cup-and-saucer vine 🌸 blooming
+JULY,ornamentals,BC NATIVE PLANTS,51,Ocean Spray / Yarrow / Spirea douglasii / Fireweed,OCEAN_SPRAY_YARROW_SPIREA_DOUGLASII_FIREWEED,Ocean Spray / Yarrow / Spirea douglasii / Fireweed — — BC summer natives at 🌸 their best,,,BC summer natives at 🌸 their best
+JULY,ornamentals,BC NATIVE PLANTS,51,Pearly Everlasting (Anaphalis),PEARLY_EVERLASTING_ANAPHALIS,Pearly Everlasting (Anaphalis) — — Beginning — excellent 🌸 for drying,,Beginning,excellent 🌸 for drying
+JULY,ornamentals,CUT FLOWERS,51,Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender,ZINNIA_COSMOS_SUNFLOWER_DAHLIA_LILY_ECHINACEA_RUDBECKIA_SWEET_PEA_LAVENDER,Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning,,,Best cutting month of 🌸 the year; harvest in morning
+AUGUST,edibles,HERBS,54,All herbs,ALL_HERBS,"All herbs — — Full harvest; dry 🌾 oregano, thyme, rosemary now",,,"Full harvest; dry 🌾 oregano, thyme, rosemary now"
+AUGUST,edibles,HERBS,54,Dill / Cilantro seeds,DILL_CILANTRO_SEEDS,Dill / Cilantro seeds — — Save seeds as they dry on plant,,,Save seeds as they dry on plant
+AUGUST,edibles,FRUITS & BERRIES,54,Blueberries (peak August),BLUEBERRIES_PEAK_AUGUST,Blueberries (peak August) — — Best month for 🌾 blueberries,,,Best month for 🌾 blueberries
+AUGUST,edibles,FRUITS & BERRIES,54,Raspberries / Blackberries / Plums,RASPBERRIES_BLACKBERRIES_PLUMS,Raspberries / Blackberries / Plums — — Harvesting 🌾 continuously Early Apples / Pears (late,,,Harvesting 🌾 continuously Early Apples / Pears (late
+AUGUST,edibles,FRUITS & BERRIES,54,Aug),AUG,Aug) — — First apples ready; 🌾 pears soon,,,First apples ready; 🌾 pears soon
+AUGUST,edibles,FRUITS & BERRIES,54,Everbearing Strawberries,EVERBEARING_STRAWBERRIES,Everbearing Strawberries — — Second crop flush🌾,,,Second crop flush🌾
+AUGUST,edibles,ROOTS & TUBERS,54,Turnips / Radish,TURNIPS_RADISH,Turnips / Radish — Direct sow Wk 1–2 for 🌿 fall —,,Direct sow Wk 1–2 for 🌿 fall,
+AUGUST,edibles,ROOTS & TUBERS,54,Potatoes / Carrots / Beets,POTATOES_CARROTS_BEETS,Potatoes / Carrots / Beets — — Harvest and store🌾,,,Harvest and store🌾
+AUGUST,edibles,LEGUMES & GRAINS,55,Beans (full harvest),BEANS_FULL_HARVEST,Beans (full harvest) — — Leave some pods to 🌾 dry for seed/storage,,,Leave some pods to 🌾 dry for seed/storage
+AUGUST,edibles,LEGUMES & GRAINS,55,Edamame,EDAMAME,Edamame — — Harvest late Aug when🌾 pods are plump,,,Harvest late Aug when🌾 pods are plump
+AUGUST,edibles,LEGUMES & GRAINS,55,Sunflower / Corn,SUNFLOWER_CORN,Sunflower / Corn — — Sunflower heads 🌾 mature; corn harvest late Aug,,,Sunflower heads 🌾 mature; corn harvest late Aug
+AUGUST,edibles,PERENNIAL EDIBLES,55,Artichoke,ARTICHOKE,Artichoke — — Second flush of heads🌾,,,Second flush of heads🌾
+AUGUST,edibles,PERENNIAL EDIBLES,55,Rhubarb / Asparagus,RHUBARB_ASPARAGUS,Rhubarb / Asparagus — — Resting; asparagus fern — leave standing,,Resting; asparagus fern,leave standing
+AUGUST,ornamentals,ANNUAL FLOWERS,57,Zinnia / Cosmos / Marigold / Cleome / Nicotiana,ZINNIA_COSMOS_MARIGOLD_CLEOME_NICOTIANA,Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; 🌸 deadhead aggressively ✄,,,Peak late summer; 🌸 deadhead aggressively ✄
+AUGUST,ornamentals,ANNUAL FLOWERS,57,Calendula / Pansy / Wallflower (for autumn),CALENDULA_PANSY_WALLFLOWER_FOR_AUTUMN,Calendula / Pansy / Wallflower (for autumn) — Sow now for 🌿 autumn/spring display —,,Sow now for 🌿 autumn/spring display,
+AUGUST,ornamentals,HARDY PERENNIALS,57,Rudbeckia / Echinacea / Helenium / Solidago,RUDBECKIA_ECHINACEA_HELENIUM_SOLIDAGO,Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and 🌸 amber tones,,,Late summer gold and 🌸 amber tones
+AUGUST,ornamentals,HARDY PERENNIALS,57,Sedum 'Autumn Joy' / Anemone japonica,SEDUM_AUTUMN_JOY_ANEMONE_JAPONICA,Sedum 'Autumn Joy' / Anemone japonica — — Beginning to bloom 🌸 late Aug,,,Beginning to bloom 🌸 late Aug
+AUGUST,ornamentals,HARDY PERENNIALS,57,"Early-summer perennials (Geranium, Salvia)",EARLY_SUMMER_PERENNIALS_GERANIUM_SALVIA,"Early-summer perennials (Geranium, Salvia) — — ✄ Cut back after bloom to encourage rebloom",,,✄ Cut back after bloom to encourage rebloom
+AUGUST,ornamentals,BULBS & CORMS,57,Dahlia,DAHLIA,Dahlia — — Peak bloom — 🌸,,Peak bloom,🌸
+AUGUST,ornamentals,SHRUBS & TREES (Ornamental),58,Hydrangea (all types) / Roses (second flush) / Fuchsia,HYDRANGEA_ALL_TYPES_ROSES_SECOND_FLUSH_FUCHSIA,Hydrangea (all types) / Roses (second flush) / Fuchsia — — Late summer shrub 🌸 peak,,,Late summer shrub 🌸 peak
+AUGUST,ornamentals,SHRUBS & TREES (Ornamental),58,Roses,ROSES,Roses — — ✄ Deadhead; do NOT feed after Aug,,,✄ Deadhead; do NOT feed after Aug
+AUGUST,ornamentals,SHRUBS & TREES (Ornamental),58,Wisteria,WISTERIA,Wisteria — — ✄ Second summer prune (Aug); cut to 5 leaves,,,✄ Second summer prune (Aug); cut to 5 leaves
+AUGUST,ornamentals,SHRUBS & TREES (Ornamental),58,Hydrangea,HYDRANGEA,Hydrangea — — Do NOT prune now — wait until spring,,Do NOT prune now,wait until spring
+AUGUST,ornamentals,CLIMBING VINES,58,Clematis viticella / Passion Flower / Morning Glory,CLEMATIS_VITICELLA_PASSION_FLOWER_MORNING_GLORY,Clematis viticella / Passion Flower / Morning Glory — — All in full spectacular 🌸 bloom,,,All in full spectacular 🌸 bloom
+AUGUST,ornamentals,BC NATIVE PLANTS,58,Fireweed / Pearly Everlasting / Goldenrod,FIREWEED_PEARLY_EVERLASTING_GOLDENROD,Fireweed / Pearly Everlasting / Goldenrod — — Late summer native 🌸 bloom; excellent for bees,,,Late summer native 🌸 bloom; excellent for bees
+AUGUST,ornamentals,BC NATIVE PLANTS,58,Oregon Grape berries,OREGON_GRAPE_BERRIES,Oregon Grape berries — — Ripe berries — good for jam,,Ripe berries,good for jam
+SEPTEMBER,edibles,VEGETABLES,61,Winter Lettuce / Mâche / Corn Salad,WINTER_LETTUCE_M_CHE_CORN_SALAD,Winter Lettuce / Mâche / Corn Salad — Direct sow under cover🌿 Wk 1–2 —,,Direct sow under cover🌿 Wk 1–2,
+SEPTEMBER,edibles,VEGETABLES,61,Spinach / Pak Choi / Arugula,SPINACH_PAK_CHOI_ARUGULA,Spinach / Pak Choi / Arugula — Direct sow Wk 1–3🌿 —,,Direct sow Wk 1–3🌿,
+SEPTEMBER,edibles,VEGETABLES,61,Asian Greens / Claytonia,ASIAN_GREENS_CLAYTONIA,Asian Greens / Claytonia — Direct sow Wk 2–3🌿 —,,Direct sow Wk 2–3🌿,
+SEPTEMBER,edibles,VEGETABLES,61,Broccoli / Kale (starts to protected beds),BROCCOLI_KALE_STARTS_TO_PROTECTED_BEDS,Broccoli / Kale (starts to protected beds) — → Transplant Wk 1–2🌍 🌍 —,,→ Transplant Wk 1–2🌍 🌍,
+SEPTEMBER,edibles,VEGETABLES,61,Tomatoes (last push),TOMATOES_LAST_PUSH,Tomatoes (last push) — — Last push before frost; 🌾 ripen indoors if needed,,,Last push before frost; 🌾 ripen indoors if needed
+SEPTEMBER,edibles,VEGETABLES,61,Winter Squash / Peppers / Corn / Cucumbers / Eggplant,WINTER_SQUASH_PEPPERS_CORN_CUCUMBERS_EGGPLANT,Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost 🌾 (squash by end Sep),,,Harvest before frost 🌾 (squash by end Sep)
+SEPTEMBER,edibles,VEGETABLES,61,Beets / Carrots / Parsnips / Kale / Chard / Leeks,BEETS_CARROTS_PARSNIPS_KALE_CHARD_LEEKS,Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest🌾,,,Continuing harvest🌾
+SEPTEMBER,edibles,HERBS,61,Parsley (for spring),PARSLEY_FOR_SPRING,Parsley (for spring) — Sow Wk 1🌿 —,,Sow Wk 1🌿,
+SEPTEMBER,edibles,HERBS,61,Chives / Parsley / Basil (pot up),CHIVES_PARSLEY_BASIL_POT_UP,Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze,Pot up for indoor winter use,Basil: last chance,make pesto and freeze
+SEPTEMBER,edibles,FRUITS & BERRIES,61,Apples (main season) / Pears / Grapes (late Sep),APPLES_MAIN_SEASON_PEARS_GRAPES_LATE_SEP,Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; 🌾 store carefully,,,Main apple harvest; 🌾 store carefully
+SEPTEMBER,edibles,FRUITS & BERRIES,61,Fall Raspberries / Blackberries / Everbearing Strawberries,FALL_RASPBERRIES_BLACKBERRIES_EVERBEARING_STRAWBERRIES,Fall Raspberries / Blackberries / Everbearing Strawberries — — Harvest before first 🌾 frost,,,Harvest before first 🌾 frost
+SEPTEMBER,edibles,ROOTS & TUBERS,61,Overwintering Daikon Radish,OVERWINTERING_DAIKON_RADISH,Overwintering Daikon Radish — Sow Wk 1🌿 —,,Sow Wk 1🌿,
+SEPTEMBER,edibles,LEGUMES & GRAINS,62,Shell beans / Runner beans,SHELL_BEANS_RUNNER_BEANS,Shell beans / Runner beans — — Harvest last beans; 🌾 shell for drying,,,Harvest last beans; 🌾 shell for drying
+SEPTEMBER,edibles,PERENNIAL EDIBLES,62,Garlic,GARLIC,Garlic — Plant Wk 3–4 (ideal 🍅 window) —,,Plant Wk 3–4 (ideal 🍅 window),
+SEPTEMBER,edibles,PERENNIAL EDIBLES,62,Rhubarb crowns (new),RHUBARB_CROWNS_NEW,Rhubarb crowns (new) — Divide and replant now —,,Divide and replant now,
+SEPTEMBER,edibles,PERENNIAL EDIBLES,62,Asparagus crowns,ASPARAGUS_CROWNS,Asparagus crowns — Plant Sept–Oct —,,Plant Sept–Oct,
+SEPTEMBER,ornamentals,ANNUAL FLOWERS,64,Zinnia / Cosmos / Marigold / Nasturtium / Dahlia,ZINNIA_COSMOS_MARIGOLD_NASTURTIUM_DAHLIA,Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy 🌸 the last of summer,,,Still blooming; enjoy 🌸 the last of summer
+SEPTEMBER,ornamentals,ANNUAL FLOWERS,64,Cosmos / Calendula / Nigella (self-seeding),COSMOS_CALENDULA_NIGELLA_SELF_SEEDING,Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall,,Do NOT deadhead last flush,let seed fall
+SEPTEMBER,ornamentals,ANNUAL FLOWERS,64,Winter Pansy / Wallflower,WINTER_PANSY_WALLFLOWER,Winter Pansy / Wallflower — Sow outdoors Wk 1–2🌿 —,,Sow outdoors Wk 1–2🌿,
+SEPTEMBER,ornamentals,HARDY PERENNIALS,64,Japanese Anemone / Rudbeckia / Helenium / Sedum,JAPANESE_ANEMONE_RUDBECKIA_HELENIUM_SEDUM,Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn 🌸 perennials,,,Peak autumn 🌸 perennials
+SEPTEMBER,ornamentals,HARDY PERENNIALS,64,Aster / Tricyrtis (Toad Lily) / Persicaria,ASTER_TRICYRTIS_TOAD_LILY_PERSICARIA,Aster / Tricyrtis (Toad Lily) / Persicaria — — Beautiful autumn 🌸 additions,,,Beautiful autumn 🌸 additions
+SEPTEMBER,ornamentals,HARDY PERENNIALS,64,Iris / Daylily / Hosta (early-spring types),IRIS_DAYLILY_HOSTA_EARLY_SPRING_TYPES,Iris / Daylily / Hosta (early-spring types) — ✄ Divide Wk 1–3 —,,✄ Divide Wk 1–3,
+SEPTEMBER,ornamentals,SHRUBS & TREES (Ornamental),65,Hydrangea / Caryopteris / Perovskia / late Roses,HYDRANGEA_CARYOPTERIS_PEROVSKIA_LATE_ROSES,Hydrangea / Caryopteris / Perovskia / late Roses — — Beautiful autumn 🌸 colour,,,Beautiful autumn 🌸 colour
+SEPTEMBER,ornamentals,SHRUBS & TREES (Ornamental),65,Roses / shrubs (general),ROSES_SHRUBS_GENERAL,Roses / shrubs (general) — — Do NOT prune — leave until spring,,Do NOT prune,leave until spring
+SEPTEMBER,ornamentals,SHRUBS & TREES (Ornamental),65,"Tender shrubs (Agapanthus, Crocosmia)",TENDER_SHRUBS_AGAPANTHUS_CROCOSMIA,"Tender shrubs (Agapanthus, Crocosmia) — — Begin mulching crowns🌲 with straw",,,Begin mulching crowns🌲 with straw
+SEPTEMBER,ornamentals,CLIMBING VINES,65,All climbers,ALL_CLIMBERS,All climbers — — Cut only excessively long shoots — no hard prune.,,Cut only excessively long shoots,no hard prune.
+SEPTEMBER,ornamentals,CLIMBING VINES,65,Collect seed pods.,COLLECT_SEED_PODS,Collect seed pods.,,,
+SEPTEMBER,ornamentals,BC NATIVE PLANTS,65,Aster subspicatus / Goldenrod,ASTER_SUBSPICATUS_GOLDENROD,Aster subspicatus / Goldenrod — — Autumn native bloom🌸,,,Autumn native bloom🌸
+SEPTEMBER,ornamentals,BC NATIVE PLANTS,65,Snowberry (Symphoricarpos),SNOWBERRY_SYMPHORICARPOS,Snowberry (Symphoricarpos) — — White berries forming — leave for birds,,White berries forming,leave for birds
+OCTOBER,edibles,VEGETABLES,68,Mâche / Claytonia / Winter Spinach,M_CHE_CLAYTONIA_WINTER_SPINACH,Mâche / Claytonia / Winter Spinach — Direct sow under 🌿 cloche Wk 1–2 —,,Direct sow under 🌿 cloche Wk 1–2,
+OCTOBER,edibles,VEGETABLES,68,Overwintering Onion sets,OVERWINTERING_ONION_SETS,Overwintering Onion sets — Direct sow Wk 1–2🌿 —,,Direct sow Wk 1–2🌿,
+OCTOBER,edibles,VEGETABLES,68,Overwintering Brassicas,OVERWINTERING_BRASSICAS,Overwintering Brassicas — → Transplant under 🌍 🌍 cover —,,→ Transplant under 🌍 🌍 cover,
+OCTOBER,edibles,VEGETABLES,68,Winter Squash,WINTER_SQUASH,Winter Squash ❄ — — Harvest ALL before 🌾 mid-Oct,❄,,Harvest ALL before 🌾 mid-Oct
+OCTOBER,edibles,VEGETABLES,68,Peppers / Tomatoes (green),PEPPERS_TOMATOES_GREEN,Peppers / Tomatoes (green) — — Last harvest; ripen 🌾 tomatoes indoors,,,Last harvest; ripen 🌾 tomatoes indoors
+OCTOBER,edibles,VEGETABLES,68,Beets / Carrots / Parsnips,BEETS_CARROTS_PARSNIPS,Beets / Carrots / Parsnips — — Harvest; store in damp🌾 sand,,,Harvest; store in damp🌾 sand
+OCTOBER,edibles,VEGETABLES,68,Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac,LEEKS_KALE_CHARD_BRUSSELS_SPROUTS_TURNIPS_CELERIAC,Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac — — Continue harvesting; 🌾 improve with frost,,,Continue harvesting; 🌾 improve with frost
+OCTOBER,edibles,HERBS,68,Rosemary (exposed sites),ROSEMARY_EXPOSED_SITES,Rosemary (exposed sites) — — Mulch base if in 🌲 exposed location ❄,,,Mulch base if in 🌲 exposed location ❄
+OCTOBER,edibles,HERBS,68,Parsley / Chives,PARSLEY_CHIVES,Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze,Pot up for indoor windowsill,,Harvest last Basil; make pesto and freeze
+OCTOBER,edibles,FRUITS & BERRIES,68,Apples (late) / Pears / Quince,APPLES_LATE_PEARS_QUINCE,Apples (late) / Pears / Quince — — Last harvest; store in 🌾 cool dark place,,,Last harvest; store in 🌾 cool dark place
+OCTOBER,edibles,FRUITS & BERRIES,68,Hazelnut / Walnut,HAZELNUT_WALNUT,Hazelnut / Walnut — — Harvest from ground 🌾 after drop,,,Harvest from ground 🌾 after drop
+OCTOBER,edibles,ROOTS & TUBERS,69,Garlic,GARLIC,Garlic — Plant Wk 1–3 (last 🍅 good window) —,,Plant Wk 1–3 (last 🍅 good window),
+OCTOBER,edibles,ROOTS & TUBERS,69,Parsnips,PARSNIPS,Parsnips — — Leave some in ground 🌾 — frost sweetens them,,Leave some in ground 🌾,frost sweetens them
+OCTOBER,edibles,ROOTS & TUBERS,69,Carrots / Beets,CARROTS_BEETS,Carrots / Beets — — Harvest and store in 🌾 damp sand,,,Harvest and store in 🌾 damp sand
+OCTOBER,edibles,PERENNIAL EDIBLES,69,Asparagus,ASPARAGUS,Asparagus — — Mulch with straw Wk 🌲 3–4,,,Mulch with straw Wk 🌲 3–4
+OCTOBER,edibles,PERENNIAL EDIBLES,69,Artichoke crowns,ARTICHOKE_CROWNS,Artichoke crowns — — Mulch deeply — 🌲 borderline hardy ❄,,Mulch deeply,🌲 borderline hardy ❄
+OCTOBER,edibles,PERENNIAL EDIBLES,69,Rhubarb,RHUBARB,Rhubarb — Divide Wk 1–2 —,,Divide Wk 1–2,
+OCTOBER,ornamentals,ANNUAL FLOWERS,71,All annuals,ALL_ANNUALS,All annuals — — ❄ Remove frost-killed annuals; compost healthy material. Leave self- seeder seeds on soil.,,,❄ Remove frost-killed annuals; compost healthy material. Leave self- seeder seeds on soil.
+OCTOBER,ornamentals,HARDY PERENNIALS,71,Japanese Anemone / Aster / Sedum / Schizostylis,JAPANESE_ANEMONE_ASTER_SEDUM_SCHIZOSTYLIS,Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems 🌸 for winter interest,,,Fading; leave stems 🌸 for winter interest
+OCTOBER,ornamentals,HARDY PERENNIALS,71,Agapanthus / Crocosmia / Gunnera,AGAPANTHUS_CROCOSMIA_GUNNERA,Agapanthus / Crocosmia / Gunnera — — Mulch crowns with 🌲 straw — borderline hardy,,Mulch crowns with 🌲 straw,borderline hardy
+OCTOBER,ornamentals,BULBS & CORMS,72,Daffodil / Hyacinth / Allium / Crocus / Muscari,DAFFODIL_HYACINTH_ALLIUM_CROCUS_MUSCARI,Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3🍅 —,,Plant Wk 1–3🍅,
+OCTOBER,ornamentals,BULBS & CORMS,72,Tulips,TULIPS,Tulips — Plant Wk 3–4 (late 🍅 planting reduces tulip fire) —,,Plant Wk 3–4 (late 🍅 planting reduces tulip fire),
+OCTOBER,ornamentals,BULBS & CORMS,72,Dahlias,DAHLIAS,Dahlias — — Lift after first hard frost; dry 2 wks; store cool,,,Lift after first hard frost; dry 2 wks; store cool
+OCTOBER,ornamentals,BULBS & CORMS,72,Gladiolus corms,GLADIOLUS_CORMS,Gladiolus corms — — Dry and store frost-free if not done in Sep,,,Dry and store frost-free if not done in Sep
+OCTOBER,ornamentals,SHRUBS & TREES (Ornamental),72,New deciduous shrubs and trees,NEW_DECIDUOUS_SHRUBS_AND_TREES,New deciduous shrubs and trees — Plant Oct–Nov (ideal planting time) —,,Plant Oct–Nov (ideal planting time),
+OCTOBER,ornamentals,SHRUBS & TREES (Ornamental),72,"Borderline-hardy shrubs (Ceanothus, Abutilon)",BORDERLINE_HARDY_SHRUBS_CEANOTHUS_ABUTILON,"Borderline-hardy shrubs (Ceanothus, Abutilon) — — Mulch base deeply; do 🌲",,,Mulch base deeply; do 🌲
+OCTOBER,ornamentals,SHRUBS & TREES (Ornamental),72,NOT prune roses,NOT_PRUNE_ROSES,NOT prune roses,,,
+OCTOBER,ornamentals,CLIMBING VINES,72,All climbers,ALL_CLIMBERS,All climbers — — Tidy rose ties. Do NOT prune Wisteria or,,,Tidy rose ties. Do NOT prune Wisteria or
+OCTOBER,ornamentals,CLIMBING VINES,72,Clematis now.,CLEMATIS_NOW,Clematis now.,,,
+OCTOBER,ornamentals,BC NATIVE PLANTS,72,Snowberry / Highbush Cranberry / Red Osier,SNOWBERRY_HIGHBUSH_CRANBERRY_RED_OSIER,Snowberry / Highbush Cranberry / Red Osier — — Berries for birds; leave all native structure standing,,,Berries for birds; leave all native structure standing
+OCTOBER,ornamentals,CUT FLOWERS,73,Rudbeckia / Sedum / Schizostylis / Ornamental grasses,RUDBECKIA_SEDUM_SCHIZOSTYLIS_ORNAMENTAL_GRASSES,Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of🌸 the season,,,Last cuttable flowers of🌸 the season
+NOVEMBER,edibles,VEGETABLES,75,Leeks,LEEKS,Leeks — — Continue harvesting 🌾 through winter,,,Continue harvesting 🌾 through winter
+NOVEMBER,edibles,VEGETABLES,75,Brussels Sprouts,BRUSSELS_SPROUTS,Brussels Sprouts — — Better after frost — 🌾 sweeter flavour,,Better after frost,🌾 sweeter flavour
+NOVEMBER,edibles,VEGETABLES,75,Kale / Chard / Mâche,KALE_CHARD_M_CHE,Kale / Chard / Mâche — — Excellent cold-hardy 🌾 crops,,,Excellent cold-hardy 🌾 crops
+NOVEMBER,edibles,VEGETABLES,75,Winter Spinach / Claytonia / Overwintering Lettuce,WINTER_SPINACH_CLAYTONIA_OVERWINTERING_LETTUCE,Winter Spinach / Claytonia / Overwintering Lettuce — — Harvest under cover 🌾 only ❄,,,Harvest under cover 🌾 only ❄
+NOVEMBER,edibles,VEGETABLES,75,Parsnips / Turnips / Celeriac,PARSNIPS_TURNIPS_CELERIAC,Parsnips / Turnips / Celeriac — — Harvest or leave 🌾 mulched in ground,,,Harvest or leave 🌾 mulched in ground
+NOVEMBER,edibles,VEGETABLES,75,No outdoor sowing this month. Maintain row covers and cloches.,NO_OUTDOOR_SOWING_THIS_MONTH_MAINTAIN_ROW_COVERS_AND_CLOCHES,No outdoor sowing this month. Maintain row covers and cloches. Check for slug damage under covers.,Check for slug damage under covers.,,
+NOVEMBER,edibles,HERBS,75,Parsley / Chives / Rosemary,PARSLEY_CHIVES_ROSEMARY,Parsley / Chives / Rosemary — — Harvest from 🌾 protected plants,,,Harvest from 🌾 protected plants
+NOVEMBER,edibles,HERBS,75,Sage / Thyme,SAGE_THYME,Sage / Thyme — — Light harvest; thyme: 🌾 mulch crowns in exposed sites,,,Light harvest; thyme: 🌾 mulch crowns in exposed sites
+NOVEMBER,edibles,FRUITS & BERRIES,76,Stored apples / pears,STORED_APPLES_PEARS,Stored apples / pears — — Check monthly; 🌾 remove any rotting fruit,,,Check monthly; 🌾 remove any rotting fruit
+NOVEMBER,edibles,FRUITS & BERRIES,76,Bare-root fruit trees / canes,BARE_ROOT_FRUIT_TREES_CANES,Bare-root fruit trees / canes — Plant Nov–Feb (ideal) —,,Plant Nov–Feb (ideal),
+NOVEMBER,edibles,FRUITS & BERRIES,76,Currants / Gooseberries,CURRANTS_GOOSEBERRIES,Currants / Gooseberries — — ✄ Prune Nov–Feb while dormant,,,✄ Prune Nov–Feb while dormant
+NOVEMBER,edibles,ROOTS & TUBERS,76,Parsnips / Carrots / Beets,PARSNIPS_CARROTS_BEETS,Parsnips / Carrots / Beets — — Harvest from storage 🌾 or mulched ground,,,Harvest from storage 🌾 or mulched ground
+NOVEMBER,edibles,ROOTS & TUBERS,76,Celeriac,CELERIAC,Celeriac — — Harvest as needed 🌾 from ground,,,Harvest as needed 🌾 from ground
+NOVEMBER,edibles,LEGUMES & GRAINS,76,All legumes & grains,ALL_LEGUMES_GRAINS,All legumes & grains — — Nothing to sow or harvest this month,,,Nothing to sow or harvest this month
+NOVEMBER,edibles,PERENNIAL EDIBLES,76,Asparagus,ASPARAGUS,Asparagus — — Mulch with straw; 🌲 leave ferns standing,,,Mulch with straw; 🌲 leave ferns standing
+NOVEMBER,edibles,PERENNIAL EDIBLES,76,Rhubarb,RHUBARB,Rhubarb — — Dormant; do not disturb,,,Dormant; do not disturb
+NOVEMBER,edibles,PERENNIAL EDIBLES,76,Artichoke,ARTICHOKE,Artichoke — — Crowns mulched with 🌲 straw ❄,,,Crowns mulched with 🌲 straw ❄
+NOVEMBER,edibles,PERENNIAL EDIBLES,76,Garlic (last call),GARLIC_LAST_CALL,Garlic (last call) — Plant Wk 1 if not yet 🍅 done —,,Plant Wk 1 if not yet 🍅 done,
+NOVEMBER,ornamentals,ANNUAL FLOWERS,79,All annuals,ALL_ANNUALS,All annuals — — None. Clean beds. Mulch annual beds for spring.,,,None. Clean beds. Mulch annual beds for spring.
+NOVEMBER,ornamentals,HARDY PERENNIALS,79,Hellebores (Lenten Rose),HELLEBORES_LENTEN_ROSE,Hellebores (Lenten Rose) — — May begin blooming 🌸 late Nov ❄,,,May begin blooming 🌸 late Nov ❄
+NOVEMBER,ornamentals,HARDY PERENNIALS,79,Schizostylis (Kaffir Lily),SCHIZOSTYLIS_KAFFIR_LILY,Schizostylis (Kaffir Lily) — — Fading last blooms🌸,,,Fading last blooms🌸
+NOVEMBER,ornamentals,HARDY PERENNIALS,79,Most perennials,MOST_PERENNIALS,Most perennials — — Leave all stems standing — winter interest and insect habitat,,Leave all stems standing,winter interest and insect habitat
+NOVEMBER,ornamentals,BULBS & CORMS,79,Daffodil / Crocus / Allium / Muscari / Tulips,DAFFODIL_CROCUS_ALLIUM_MUSCARI_TULIPS,Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant 🍅 Wk 1–2,,,Last chance to plant 🍅 Wk 1–2
+NOVEMBER,ornamentals,BULBS & CORMS,79,All dormant underground Stored Dahlia tubers / Gladiolus corms,ALL_DORMANT_UNDERGROUND_STORED_DAHLIA_TUBERS_GLADIOLUS_CORMS,All dormant underground Stored Dahlia tubers / Gladiolus corms — — Check stored bulbs for rot; remove soft areas,,,Check stored bulbs for rot; remove soft areas
+NOVEMBER,ornamentals,SHRUBS & TREES (Ornamental),79,Viburnum bodnantense 'Dawn',VIBURNUM_BODNANTENSE_DAWN,Viburnum bodnantense 'Dawn' — — Beginning to bloom — 🌸 beautifully fragrant ❄,,Beginning to bloom,🌸 beautifully fragrant ❄
+NOVEMBER,ornamentals,SHRUBS & TREES (Ornamental),79,Mahonia 'Charity',MAHONIA_CHARITY,Mahonia 'Charity' — — Beginning to bloom — 🌸 bold yellow spikes,,Beginning to bloom,🌸 bold yellow spikes
+NOVEMBER,ornamentals,SHRUBS & TREES (Ornamental),79,New bare-root deciduous shrubs and trees,NEW_BARE_ROOT_DECIDUOUS_SHRUBS_AND_TREES,New bare-root deciduous shrubs and trees — Plant Nov–Mar (ideal) —,,Plant Nov–Mar (ideal),
+NOVEMBER,ornamentals,SHRUBS & TREES (Ornamental),79,"Tender shrubs (Ceanothus, Myrtle)",TENDER_SHRUBS_CEANOTHUS_MYRTLE,"Tender shrubs (Ceanothus, Myrtle) — — Mulch base protection 🌲",,,Mulch base protection 🌲
+NOVEMBER,ornamentals,CLIMBING VINES,80,All climbers,ALL_CLIMBERS,All climbers — — Clean up dead annual vines. Secure permanent vine supports for winter storms.,,,Clean up dead annual vines. Secure permanent vine supports for winter storms.
+NOVEMBER,ornamentals,BC NATIVE PLANTS,80,Snowberry (white berries) / Red Osier Dogwood (red stems),SNOWBERRY_WHITE_BERRIES_RED_OSIER_DOGWOOD_RED_STEMS,Snowberry (white berries) / Red Osier Dogwood (red stems) — — Excellent winter structure and bird food; leave all in place,,,Excellent winter structure and bird food; leave all in place
+NOVEMBER,ornamentals,CUT FLOWERS,80,Viburnum / Mahonia stems / Holly berries,VIBURNUM_MAHONIA_STEMS_HOLLY_BERRIES,Viburnum / Mahonia stems / Holly berries — — For fragrant indoor 🌸 arrangements,,,For fragrant indoor 🌸 arrangements
+NOVEMBER,ornamentals,CUT FLOWERS,80,"Dried everlastings (Strawflower, Statice)",DRIED_EVERLASTINGS_STRAWFLOWER_STATICE,"Dried everlastings (Strawflower, Statice) — — Use dried flower store from summer",,,Use dried flower store from summer
+DECEMBER,edibles,VEGETABLES,82,Kale,KALE,Kale — — Excellent after frost — 🌾 sweetened by cold,,Excellent after frost,🌾 sweetened by cold
+DECEMBER,edibles,VEGETABLES,82,Brussels Sprouts,BRUSSELS_SPROUTS,Brussels Sprouts — — Best now — frost 🌾 improves flavour greatly,,Best now,frost 🌾 improves flavour greatly
+DECEMBER,edibles,VEGETABLES,82,Leeks / Chard (under cover),LEEKS_CHARD_UNDER_COVER,Leeks / Chard (under cover) — — Harvest as needed ❄🌾 Mâche / Claytonia / Winter,,,Harvest as needed ❄🌾 Mâche / Claytonia / Winter
+DECEMBER,edibles,VEGETABLES,82,Spinach (under cover),SPINACH_UNDER_COVER,Spinach (under cover) — — Harvest under glass or 🌾 polytunnel,,,Harvest under glass or 🌾 polytunnel
+DECEMBER,edibles,VEGETABLES,82,Parsnips,PARSNIPS,Parsnips — — Very sweet now — 🌾 best after hard frost,,Very sweet now,🌾 best after hard frost
+DECEMBER,edibles,VEGETABLES,82,Turnips,TURNIPS,Turnips — — Harvest as needed 🌾,,,Harvest as needed 🌾
+DECEMBER,edibles,HERBS,83,Parsley (under cover / mild spots),PARSLEY_UNDER_COVER_MILD_SPOTS,Parsley (under cover / mild spots) — — Harvest lightly ❄🌾,,,Harvest lightly ❄🌾
+DECEMBER,edibles,HERBS,83,Rosemary / Sage / Thyme,ROSEMARY_SAGE_THYME,Rosemary / Sage / Thyme — — Frost-hardy; harvest in🌾 mild spells,,,Frost-hardy; harvest in🌾 mild spells
+DECEMBER,edibles,HERBS,83,Other herbs,OTHER_HERBS,Other herbs — — Dormant — use stored/frozen summer herbs,,Dormant,use stored/frozen summer herbs
+DECEMBER,edibles,FRUITS & BERRIES,83,Stored apples / pears,STORED_APPLES_PEARS,Stored apples / pears — — Check; remove any rot🌾,,,Check; remove any rot🌾
+DECEMBER,edibles,FRUITS & BERRIES,83,Bare-root trees and canes,BARE_ROOT_TREES_AND_CANES,Bare-root trees and canes — Plant in mild spells Dec– Feb —,,Plant in mild spells Dec– Feb,
+DECEMBER,edibles,FRUITS & BERRIES,83,Apple / Pear,APPLE_PEAR,Apple / Pear — — ✄ Dormant pruning Dec–,,,✄ Dormant pruning Dec–
+DECEMBER,edibles,FRUITS & BERRIES,83,Feb (no disease risk),FEB_NO_DISEASE_RISK,Feb (no disease risk),,,
+DECEMBER,edibles,ROOTS & TUBERS,83,Parsnips / Carrots / Beets / Celeriac,PARSNIPS_CARROTS_BEETS_CELERIAC,Parsnips / Carrots / Beets / Celeriac — — Harvest from storage 🌾 or mulched ground,,,Harvest from storage 🌾 or mulched ground
+DECEMBER,edibles,ROOTS & TUBERS,83,Garlic (overwintering),GARLIC_OVERWINTERING,Garlic (overwintering) — — Overwintering underground — nothing to do ❄,,Overwintering underground,nothing to do ❄
+DECEMBER,edibles,PERENNIAL EDIBLES,84,Rhubarb,RHUBARB,Rhubarb — — Fully dormant. Force under upturned pot for,,,Fully dormant. Force under upturned pot for
+DECEMBER,edibles,PERENNIAL EDIBLES,84,Jan/Feb harvest. Asparagus,JAN_FEB_HARVEST_ASPARAGUS,Jan/Feb harvest. Asparagus — — Fully dormant with straw mulch ❄,,,Fully dormant with straw mulch ❄
+DECEMBER,ornamentals,ANNUAL FLOWERS,86,All annuals,ALL_ANNUALS,All annuals — — None. Beds resting.,,,None. Beds resting.
+DECEMBER,ornamentals,ANNUAL FLOWERS,86,Appreciate the quiet season.,APPRECIATE_THE_QUIET_SEASON,Appreciate the quiet season.,,,
+DECEMBER,ornamentals,HARDY PERENNIALS,86,Helleborus niger (Christmas Rose),HELLEBORUS_NIGER_CHRISTMAS_ROSE,Helleborus niger (Christmas Rose) — — Blooming 🌸 magnificently ❄,,,Blooming 🌸 magnificently ❄
+DECEMBER,ornamentals,HARDY PERENNIALS,86,Euphorbia amygdaloides var. robbiae,EUPHORBIA_AMYGDALOIDES_VAR_ROBBIAE,Euphorbia amygdaloides var. robbiae — — Evergreen; architectural interest year-round,,,Evergreen; architectural interest year-round
+DECEMBER,ornamentals,HARDY PERENNIALS,86,All perennial stems,ALL_PERENNIAL_STEMS,All perennial stems — — Leave all stems standing — insect overwintering habitat,,Leave all stems standing,insect overwintering habitat
+DECEMBER,ornamentals,BULBS & CORMS,86,Spring bulbs (all) outdoors,SPRING_BULBS_ALL_OUTDOORS,Spring bulbs (all) outdoors — — Dormant underground ❄ — spring magic to come,,Dormant underground ❄,spring magic to come
+DECEMBER,ornamentals,SHRUBS & TREES (Ornamental),87,Viburnum bodnantense 'Dawn',VIBURNUM_BODNANTENSE_DAWN,Viburnum bodnantense 'Dawn' — — Fragrant mid-winter 🌸 bloom — outstanding,,Fragrant mid-winter 🌸 bloom,outstanding
+DECEMBER,ornamentals,SHRUBS & TREES (Ornamental),87,Mahonia (all types),MAHONIA_ALL_TYPES,"Mahonia (all types) — — Peak bloom — bold 🌸 yellow, sweetly fragrant",,Peak bloom,"bold 🌸 yellow, sweetly fragrant"
+DECEMBER,ornamentals,SHRUBS & TREES (Ornamental),87,Witch Hazel (Hamamelis),WITCH_HAZEL_HAMAMELIS,Witch Hazel (Hamamelis) — — Buds swelling; first spidery blooms soon,,,Buds swelling; first spidery blooms soon
+DECEMBER,ornamentals,SHRUBS & TREES (Ornamental),87,Garrya elliptica,GARRYA_ELLIPTICA,Garrya elliptica — — Silver catkins emerging — beautiful winter display,,Silver catkins emerging,beautiful winter display
+DECEMBER,ornamentals,SHRUBS & TREES (Ornamental),87,Wintersweet (Chimonanthus),WINTERSWEET_CHIMONANTHUS,Wintersweet (Chimonanthus) — — If established — 🌸 exquisite fragrance ❄,,If established,🌸 exquisite fragrance ❄
+DECEMBER,ornamentals,CLIMBING VINES,87,All climbers,ALL_CLIMBERS,All climbers — — Dormant. Check and tighten ties and supports during winter storms.,,,Dormant. Check and tighten ties and supports during winter storms.
+DECEMBER,ornamentals,BC NATIVE PLANTS,87,Red Osier Dogwood,RED_OSIER_DOGWOOD,Red Osier Dogwood — — Brilliant red stems — outstanding winter interest,,Brilliant red stems,outstanding winter interest
+DECEMBER,ornamentals,BC NATIVE PLANTS,87,Holly / Evergreen Huckleberry (Vaccinium ovatum),HOLLY_EVERGREEN_HUCKLEBERRY_VACCINIUM_OVATUM,Holly / Evergreen Huckleberry (Vaccinium ovatum) — — Berries for wildlife; glossy evergreen leaves,,,Berries for wildlife; glossy evergreen leaves

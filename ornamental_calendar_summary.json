@@ -1,0 +1,218 @@
+{
+  "months": [
+    "JAN",
+    "FEB",
+    "MAR",
+    "APR",
+    "MAY",
+    "JUN",
+    "JUL",
+    "AUG",
+    "SEP",
+    "OCT",
+    "NOV",
+    "DEC"
+  ],
+  "rows": [
+    {
+      "text": "MARIGOLD",
+      "normalized": "MARIGOLD",
+      "x1": 54,
+      "y1": 309,
+      "x2": 153,
+      "y2": 332
+    },
+    {
+      "text": "ZINNIA",
+      "normalized": "ZINNIA",
+      "x1": 55,
+      "y1": 336,
+      "x2": 121,
+      "y2": 357
+    },
+    {
+      "text": "COSMOS",
+      "normalized": "COSMOS",
+      "x1": 55,
+      "y1": 359,
+      "x2": 135,
+      "y2": 380
+    },
+    {
+      "text": "NASTURTIUM",
+      "normalized": "NASTURTIUM",
+      "x1": 54,
+      "y1": 381,
+      "x2": 167,
+      "y2": 406
+    },
+    {
+      "text": "SUNFLOWER",
+      "normalized": "SUNFLOWER",
+      "x1": 55,
+      "y1": 407,
+      "x2": 169,
+      "y2": 427
+    },
+    {
+      "text": "SWEETPEA",
+      "normalized": "SWEETPEA",
+      "x1": 55,
+      "y1": 431,
+      "x2": 160,
+      "y2": 451
+    },
+    {
+      "text": "CALENDULA",
+      "normalized": "CALENDULA",
+      "x1": 56,
+      "y1": 454,
+      "x2": 165,
+      "y2": 474
+    },
+    {
+      "text": "DAHLIA",
+      "normalized": "DAHLIA",
+      "x1": 55,
+      "y1": 510,
+      "x2": 124,
+      "y2": 531
+    },
+    {
+      "text": "PEONY",
+      "normalized": "PEONY",
+      "x1": 55,
+      "y1": 532,
+      "x2": 119,
+      "y2": 553
+    },
+    {
+      "text": "IRIS",
+      "normalized": "IRIS",
+      "x1": 54,
+      "y1": 557,
+      "x2": 94,
+      "y2": 579
+    },
+    {
+      "text": "DAYLILY",
+      "normalized": "DAYLILY",
+      "x1": 55,
+      "y1": 581,
+      "x2": 130,
+      "y2": 602
+    },
+    {
+      "text": "LAVENDER",
+      "normalized": "LAVENDER",
+      "x1": 55,
+      "y1": 605,
+      "x2": 148,
+      "y2": 626
+    },
+    {
+      "text": "ECHINACEA",
+      "normalized": "ECHINACEA",
+      "x1": 56,
+      "y1": 629,
+      "x2": 157,
+      "y2": 649
+    },
+    {
+      "text": "RUDBECKIA",
+      "normalized": "RUDBECKIA",
+      "x1": 55,
+      "y1": 653,
+      "x2": 160,
+      "y2": 673
+    },
+    {
+      "text": "TULIP",
+      "normalized": "TULIP",
+      "x1": 54,
+      "y1": 708,
+      "x2": 107,
+      "y2": 730
+    },
+    {
+      "text": "DAFFODIL",
+      "normalized": "DAFFODIL",
+      "x1": 56,
+      "y1": 732,
+      "x2": 143,
+      "y2": 753
+    },
+    {
+      "text": "CROCUS",
+      "normalized": "CROCUS",
+      "x1": 56,
+      "y1": 757,
+      "x2": 131,
+      "y2": 778
+    },
+    {
+      "text": "ALLIUM",
+      "normalized": "ALLIUM",
+      "x1": 56,
+      "y1": 780,
+      "x2": 124,
+      "y2": 801
+    },
+    {
+      "text": "HYACINTH",
+      "normalized": "HYACINTH",
+      "x1": 55,
+      "y1": 804,
+      "x2": 147,
+      "y2": 824
+    },
+    {
+      "text": "HOSTAS",
+      "normalized": "HOSTAS",
+      "x1": 54,
+      "y1": 859,
+      "x2": 127,
+      "y2": 882
+    },
+    {
+      "text": "FERNS",
+      "normalized": "FERNS",
+      "x1": 55,
+      "y1": 884,
+      "x2": 116,
+      "y2": 904
+    },
+    {
+      "text": "ORNAMENTALGRASSES",
+      "normalized": "ORNAMENTALGRASSES",
+      "x1": 56,
+      "y1": 907,
+      "x2": 260,
+      "y2": 927
+    },
+    {
+      "text": "SEDUM",
+      "normalized": "SEDUM",
+      "x1": 56,
+      "y1": 931,
+      "x2": 121,
+      "y2": 951
+    },
+    {
+      "text": "HEUCHERA",
+      "normalized": "HEUCHERA",
+      "x1": 55,
+      "y1": 954,
+      "x2": 151,
+      "y2": 974
+    },
+    {
+      "text": "ASTILBE",
+      "normalized": "ASTILBE",
+      "x1": 55,
+      "y1": 978,
+      "x2": 132,
+      "y2": 999
+    }
+  ]
+}
