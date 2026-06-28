@@ -51,7 +51,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      ILLUSTRATION_ASSET_COMMIT: 3672ce5
+      ILLUSTRATION_ASSET_COMMIT: 81a1155
 
     steps:
       - name: Check out repository

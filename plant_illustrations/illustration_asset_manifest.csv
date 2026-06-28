@@ -1,23 +1,23 @@
 category,subcategory,display_name,normalized_key,expected_filename,asset_status,resolved_filename
-flower,bulb,Allium,ALLIUM,ALLIUM.png,present,allium.png
+flower,bulb,Allium,ALLIUM,ALLIUM.png,missing,ALLIUM.png
 flower,annual,Ammi majus,AMMI_MAJUS,AMMI_MAJUS.png,missing,AMMI_MAJUS.png
-flower,bulb,Anemone,ANEMONE,ANEMONE.png,missing,ANEMONE.png
+flower,bulb,Anemone,ANEMONE,ANEMONE.png,present,anemone.png
 flower,annual,Antirrhinum,ANTIRRHINUM,ANTIRRHINUM.png,missing,ANTIRRHINUM.png
 flower,perennial,Asters,ASTERS,ASTERS.png,missing,ASTERS.png
 flower,perennial,Aubretia,AUBRETIA,AUBRETIA.png,missing,AUBRETIA.png
 flower,annual,Borage,BORAGE,BORAGE.png,missing,BORAGE.png
-flower,annual,Calendula,CALENDULA,CALENDULA.png,present,calendula.png
+flower,annual,Calendula,CALENDULA,CALENDULA.png,missing,CALENDULA.png
 flower,bulb,Camassia,CAMASSIA,CAMASSIA.png,missing,CAMASSIA.png
 flower,annual,Celosia,CELOSIA,CELOSIA.png,missing,CELOSIA.png
 flower,annual,Cleome,CLEOME,CLEOME.png,missing,CLEOME.png
-flower,annual,Cornflower,CORNFLOWER,CORNFLOWER.png,missing,CORNFLOWER.png
-flower,annual,Cosmos,COSMOS,COSMOS.png,present,cosmos.png
+flower,annual,Cornflower,CORNFLOWER,CORNFLOWER.png,present,cornflower.png
+flower,annual,Cosmos,COSMOS,COSMOS.png,missing,COSMOS.png
 flower,bulb,Crocus,CROCUS,CROCUS.png,missing,CROCUS.png
 flower,bulb,Daffodil,DAFFODIL,DAFFODIL.png,missing,DAFFODIL.png
 flower,perennial,Dahlia,DAHLIA,DAHLIA.png,missing,DAHLIA.png
 flower,perennial,Daylily,DAYLILY,DAYLILY.png,missing,DAYLILY.png
-flower,perennial,Delphinium,DELPHINIUM,DELPHINIUM.png,missing,DELPHINIUM.png
-flower,perennial,Echinacea,ECHINACEA,ECHINACEA.png,present,echinacea.png
+flower,perennial,Delphinium,DELPHINIUM,DELPHINIUM.png,present,delphinium.png
+flower,perennial,Echinacea,ECHINACEA,ECHINACEA.png,missing,ECHINACEA.png
 flower,perennial,Gaillardia,GAILLARDIA,GAILLARDIA.png,missing,GAILLARDIA.png
 flower,bulb,Gladiolus,GLADIOLUS,GLADIOLUS.png,missing,GLADIOLUS.png
 flower,perennial,Hellebores,HELLEBORES,HELLEBORES.png,missing,HELLEBORES.png
@@ -25,20 +25,20 @@ flower,bulb,Hyacinth,HYACINTH,HYACINTH.png,missing,HYACINTH.png
 flower,bulb,Hyacinths,HYACINTHS,HYACINTHS.png,missing,HYACINTHS.png
 flower,perennial,Iberis,IBERIS,IBERIS.png,missing,IBERIS.png
 flower,annual,Impatiens,IMPATIENS,IMPATIENS.png,missing,IMPATIENS.png
-flower,perennial,Iris,IRIS,IRIS.png,missing,IRIS.png
-flower,annual,Larkspur,LARKSPUR,LARKSPUR.png,missing,LARKSPUR.png
-flower,perennial,Lavender,LAVENDER,LAVENDER.png,present,lavender.png
+flower,perennial,Iris,IRIS,IRIS.png,present,Iris.png
+flower,annual,Larkspur,LARKSPUR,LARKSPUR.png,present,Larkspur.png
+flower,perennial,Lavender,LAVENDER,LAVENDER.png,missing,LAVENDER.png
 flower,annual,Lobelia,LOBELIA,LOBELIA.png,missing,LOBELIA.png
-flower,annual,Marigold,MARIGOLD,MARIGOLD.png,missing,MARIGOLD.png
+flower,annual,Marigold,MARIGOLD,MARIGOLD.png,present,marigold.png
 flower,bulb,Muscari,MUSCARI,MUSCARI.png,missing,MUSCARI.png
 flower,annual,Nasturtium,NASTURTIUM,NASTURTIUM.png,missing,NASTURTIUM.png
 flower,annual,Nicotiana,NICOTIANA,NICOTIANA.png,missing,NICOTIANA.png
-flower,annual,Nigella,NIGELLA,NIGELLA.png,present,nigella.png
+flower,annual,Nigella,NIGELLA,NIGELLA.png,missing,NIGELLA.png
 flower,annual,Orlaya,ORLAYA,ORLAYA.png,missing,ORLAYA.png
 flower,annual,Pansy,PANSY,PANSY.png,missing,PANSY.png
 flower,perennial,Peony,PEONY,PEONY.png,missing,PEONY.png
 flower,annual,Petunias,PETUNIAS,PETUNIAS.png,missing,PETUNIAS.png
-flower,annual,Poppy,POPPY,POPPY.png,missing,POPPY.png
+flower,annual,Poppy,POPPY,POPPY.png,present,poppy.png
 flower,perennial,Primula,PRIMULA,PRIMULA.png,missing,PRIMULA.png
 flower,perennial,Rudbeckia,RUDBECKIA,RUDBECKIA.png,missing,RUDBECKIA.png
 flower,perennial,Salvia nemorosa,SALVIA_NEMOROSA,SALVIA_NEMOROSA.png,missing,SALVIA_NEMOROSA.png
@@ -48,11 +48,11 @@ flower,perennial,Snowdrops,SNOWDROPS,SNOWDROPS.png,missing,SNOWDROPS.png
 flower,annual,Statice,STATICE,STATICE.png,missing,STATICE.png
 flower,annual,Stocks,STOCKS,STOCKS.png,missing,STOCKS.png
 flower,annual,Strawflower,STRAWFLOWER,STRAWFLOWER.png,missing,STRAWFLOWER.png
-flower,annual,Sunflower,SUNFLOWER,SUNFLOWER.png,present,sunflower.png
-flower,annual,Sweet Pea,SWEET_PEA,SWEET_PEA.png,missing,SWEET_PEA.png
+flower,annual,Sunflower,SUNFLOWER,SUNFLOWER.png,missing,SUNFLOWER.png
+flower,annual,Sweet Pea,SWEET_PEA,SWEET_PEA.png,present,Sweet Pea.png
 flower,bulb,Tulip,TULIP,TULIP.png,missing,TULIP.png
 flower,perennial,Wallflower,WALLFLOWER,WALLFLOWER.png,missing,WALLFLOWER.png
-flower,annual,Zinnia,ZINNIA,ZINNIA.png,present,zinnia.png
+flower,annual,Zinnia,ZINNIA,ZINNIA.png,missing,ZINNIA.png
 fruit,,Apple,APPLE,APPLE.png,missing,APPLE.png
 fruit,,Blueberries,BLUEBERRIES,BLUEBERRIES.png,missing,BLUEBERRIES.png
 fruit,,Cherry,CHERRY,CHERRY.png,missing,CHERRY.png
@@ -73,7 +73,7 @@ herb,,Oregano,OREGANO,OREGANO.png,missing,OREGANO.png
 herb,,Parsley,PARSLEY,PARSLEY.png,missing,PARSLEY.png
 herb,,Rosemary,ROSEMARY,ROSEMARY.png,missing,ROSEMARY.png
 herb,,Thyme,THYME,THYME.png,missing,THYME.png
-native,,Bleeding Heart,BLEEDING_HEART,BLEEDING_HEART.png,missing,BLEEDING_HEART.png
+native,,Bleeding Heart,BLEEDING_HEART,BLEEDING_HEART.png,present,Bleeding Heart.png
 native,,Camas,CAMAS,CAMAS.png,missing,CAMAS.png
 native,,Osoberry,OSOBERRY,OSOBERRY.png,missing,OSOBERRY.png
 native,,Red-flowering Currant,RED_FLOWERING_CURRANT,RED_FLOWERING_CURRANT.png,missing,RED_FLOWERING_CURRANT.png
@@ -131,5 +131,5 @@ vegetable,,Tomatoes,TOMATOES,TOMATOES.png,missing,TOMATOES.png
 vine,,Clematis Group 3,CLEMATIS_GROUP_3,CLEMATIS_GROUP_3.png,missing,CLEMATIS_GROUP_3.png
 vine,,Clematis montana,CLEMATIS_MONTANA,CLEMATIS_MONTANA.png,missing,CLEMATIS_MONTANA.png
 vine,,Honeysuckle,HONEYSUCKLE,HONEYSUCKLE.png,missing,HONEYSUCKLE.png
-vine,,Morning Glory,MORNING_GLORY,MORNING_GLORY.png,missing,MORNING_GLORY.png
+vine,,Morning Glory,MORNING_GLORY,MORNING_GLORY.png,present,Morning Glory.png
 vine,,Wisteria,WISTERIA,WISTERIA.png,missing,WISTERIA.png
