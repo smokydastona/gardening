@@ -61,6 +61,8 @@ Behavior:
 
 If you want the build to include plant illustrations, add the actual image files to [plant_illustrations](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_illustrations) and push them. The workflow runner will use those committed assets automatically.
 
+The current workflow is pinned to illustration asset commit `81a1155`.
+
 ## Generated Artifacts
 
 Structured source outputs:

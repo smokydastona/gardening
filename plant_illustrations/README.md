@@ -37,7 +37,7 @@ The workspace now generates these files in this folder:
 
 ## GitHub Actions Asset Source
 
-The GitHub Actions build restores committed plant illustration PNG files from asset commit `3672ce5` before rebuilding the PDF.
+The GitHub Actions build restores committed plant illustration PNG files from asset commit `81a1155` before rebuilding the PDF.
 
 That means the current checkout can remove those PNG files after they are safely committed, while the remote workflow still has a canonical source for rebuilding the illustrated encyclopedia.
 
