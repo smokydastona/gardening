@@ -51,7 +51,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      ILLUSTRATION_ASSET_COMMIT: 81a1155
+      ILLUSTRATION_ASSET_COMMIT_PRIMARY: 3672ce5
+      ILLUSTRATION_ASSET_COMMIT_SECONDARY: 81a1155
 
     steps:
       - name: Check out repository
@@ -70,7 +71,8 @@ jobs:
 
       - name: Restore committed plant illustration assets
         run: |
-          git checkout "$ILLUSTRATION_ASSET_COMMIT" -- plant_illustrations/*.png
+          git checkout "$ILLUSTRATION_ASSET_COMMIT_PRIMARY" -- 'plant_illustrations/*.png'
+          git checkout "$ILLUSTRATION_ASSET_COMMIT_SECONDARY" -- 'plant_illustrations/*.png'
 
       - name: Run tests
         run: python -m pytest
