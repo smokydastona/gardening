@@ -5,83 +5,50 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '.github/workflows/build-encyclopedia.yml'
-      - 'build_encyclopedia_outputs.py'
-      - 'build_final_encyclopedia_pdf.py'
-      - 'enrich_plant_registry.py'
-      - 'extract_calendar_data.py'
-      - 'parse_errington_calendar.py'
-      - 'requirements.txt'
-      - 'cover.png'
-      - 'plant_illustrations/**'
-      - 'plant_registry.csv'
-      - 'Errington BC Zone 8a Planting Calendar.pdf'
-      - 'Vegetable_Gardening_Encyclopedia_With_Sp.pdf'
-      - 'Planting Calander-Crops.png'
-      - 'Planting Calander-Ornamentals.png'
-      - 'ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md'
-      - 'ERRINGTON_MONTHLY_REFERENCE.md'
-      - 'ERRINGTON_PLANT_CATALOG.md'
-      - 'ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md'
-      - 'test_*.py'
   pull_request:
-    paths:
-      - '.github/workflows/build-encyclopedia.yml'
-      - 'build_encyclopedia_outputs.py'
-      - 'build_final_encyclopedia_pdf.py'
-      - 'enrich_plant_registry.py'
-      - 'extract_calendar_data.py'
-      - 'parse_errington_calendar.py'
-      - 'requirements.txt'
-      - 'cover.png'
-      - 'plant_illustrations/**'
-      - 'plant_registry.csv'
-      - 'Errington BC Zone 8a Planting Calendar.pdf'
-      - 'Vegetable_Gardening_Encyclopedia_With_Sp.pdf'
-      - 'Planting Calander-Crops.png'
-      - 'Planting Calander-Ornamentals.png'
-      - 'ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md'
-      - 'ERRINGTON_MONTHLY_REFERENCE.md'
-      - 'ERRINGTON_PLANT_CATALOG.md'
-      - 'ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md'
-      - 'test_*.py'
+    branches:
+      - main
+
+permissions:
+  contents: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      ILLUSTRATION_ASSET_REF: origin/illustration-assets
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: 'pip'
+          cache-dependency-path: requirements.lock.txt
 
       - name: Install dependencies
-        run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
+        run: python -m pip install --upgrade pip && python -m pip install -r requirements.lock.txt
 
-      - name: Restore committed plant illustration assets
-        run: |
-          git checkout "$ILLUSTRATION_ASSET_REF" -- 'plant_illustrations/*.png'
+      - name: Validate source inputs and record counts
+        run: python validate_pipeline.py
 
       - name: Run tests
         run: python -m pytest
 
-      - name: Build encyclopedia artifacts
+      - name: Rebuild calendar transcription
         run: |
-          python extract_calendar_data.py
           python parse_errington_calendar.py
+          python validate_pipeline.py
+
+      - name: Build registers and publication
+        run: |
           python enrich_plant_registry.py
+          python build_project_reports.py
           python build_encyclopedia_outputs.py
           python build_final_encyclopedia_pdf.py
+          python validate_pipeline.py --publication
+          python render_publication.py --output-dir build/pdf_qa
 
       - name: Upload encyclopedia outputs
         uses: actions/upload-artifact@v4
@@ -91,11 +58,21 @@ jobs:
           path: |
             Errington_Gardening_Encyclopedia.pdf
             Errington_Gardening_Encyclopedia_Compiled.md
+            AUDIT_REPORT.md
+            CALENDAR_REVIEW_REPORT.md
+            PLANT_VERIFICATION_REPORT.md
+            ILLUSTRATION_AUDIT.md
+            PUBLICATION_QA_REPORT.md
+            calendar_actions.csv
+            calendar_review.csv
+            plant_verification_register.csv
             ERRINGTON_MONTHLY_REFERENCE.md
             ERRINGTON_PLANT_CATALOG.md
             ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md
             errington_illustration_briefs.csv
             plant_registry_enriched.csv
+            plant_illustrations/illustration_manifest.csv
             plant_illustrations/illustration_asset_manifest.csv
             plant_illustrations/illustration_asset_manifest.md
             plant_illustrations/missing_illustrations.txt
+            build/pdf_qa/

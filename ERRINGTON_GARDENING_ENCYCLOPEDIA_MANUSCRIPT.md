@@ -4,12 +4,12 @@
 
 ## Editorial Standard
 
-This manuscript is an original synthesis of local calendar records, regional pollinator guidance, and the reference works listed below. It preserves source facts and distinctions, identifies the geographic scope of regional data, and marks unresolved conflicts rather than silently reconciling them. It does not reproduce the books' prose or illustrations.
+This working manuscript preserves supplied source material and earlier editorial notes. Claims not supported by accessible, claim-level citations are unverified and are not publication-ready. The supplied calendar PDF is present, but its author and source history are unknown. The referenced 2017 pollinator guide and web reference books are not checked into this repository, so the existing summary and citations to them have not been independently rechecked. This manuscript does not reproduce the books' prose or illustrations.
 
 ### Sources In Scope
 
-1. The Errington calendar text extraction in [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md), cross-checked against the crop and ornamental calendar images in this repository. The original 89-page PDF referred to in project records is not checked into this workspace.
-2. The session-provided 2017 *Selecting Plants for Pollinators: Eastern Vancouver Island* PDF, cited as the Eastern Vancouver Island pollinator guide [1]. Its ecoregion-wide figures are not Errington-specific measurements.
+1. The supplied 89-page Errington calendar PDF, its derived text extraction in [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md), and the crop and ornamental chart images in this repository. The PDF's source history is not established; the extraction is not independent confirmation.
+2. The 2017 *Selecting Plants for Pollinators: Eastern Vancouver Island* guide, cited in an earlier draft as the regional pollinator guide [1]. The guide is not checked into this repository and its cited content has not been rechecked for this build.
 3. The supplied *Encyclopedia of Plants and Flowers* ([Internet Archive item](https://archive.org/details/encyclopediaofplantsandflowers)), *Trees, Leaves, Flowers and Seeds: A Visual Encyclopedia of the Plant Kingdom* (DK, 2019; [Internet Archive item](https://archive.org/details/trees-leaves-flowers-and-seeds-a-visual-encyclopedia-of-the-plant-kingdom-dk-2019/mode/2up)), and *Illustrated Encyclopedia* ([Internet Archive item](https://archive.org/details/illustratedencyc00wrig/page/38/mode/2up)). Use these as references for supported plant facts; verify the exact edition and page before adding page-specific citations.
 4. The supplied [Reader's Digest gardening reference PDF](Vegetable_Gardening_Encyclopedia_With_Sp.pdf), used only for general gardening topics and not as an Errington timing authority.
 
@@ -21,13 +21,13 @@ This encyclopedia organizes local timing, plant scope, general gardening topics,
 
 ## 2. How To Use This Encyclopedia
 
-Use this book in three passes rather than reading it front to back every time.
+Use this working manuscript in three passes rather than reading it front to back every time.
 
 1. Start with the climate and frost sections to understand the operational limits of the season.
 2. Read the garden-foundation chapters before preparing beds, sowing seed, or transplanting.
-3. Use the crop and ornamental inventories as the local scope list for what this project currently confirms in the workspace.
+3. Use the crop and ornamental inventories only as a list of names visible in the supplied local charts; transcription and taxonomic identity remain under review.
 
-The manuscript distinguishes between three kinds of information.
+This manuscript distinguishes between three kinds of information, none of which should be considered independently verified solely because it appears here.
 
 1. Local calendar evidence: entries in the available text extraction and visible chart legends, plant lists, and frost anchors.
 2. Regional ecological guidance: information in the Eastern Vancouver Island pollinator guide, which covers an ecoregion and must not be presented as Errington-only data.
@@ -41,9 +41,11 @@ The source set contains a hardiness-zone discrepancy:
 2. The crop and ornamental summary images are both branded as Errington Zone 8b.
 3. Both forms of calendar material show approximate frost anchors of April 15 and October 15 [E1, pp. 1, 4; crop and ornamental charts].
 
-The calendar extraction describes mild maritime winters, dry spells in July and August, and long summer daylight. Those are source-reported regional descriptions, not a substitute for observing a specific garden's exposure, drainage, and frost pockets.
+The calendar extraction describes mild maritime winters, dry spells in July and August, and long summer daylight. Those are source-reported regional descriptions, not a substitute for observing a specific garden's exposure, drainage, elevation, wind, cold-air drainage, or frost pockets.
 
-Use the frost anchors as approximate scheduling guides, not assurances that frost cannot occur outside those dates. The calendar legend also supports a mixed seasonal strategy:
+The USDA Plant Hardiness Zone Map describes average annual extreme minimum winter temperatures; Natural Resources Canada's Plant Hardiness Zones use a different model based on multiple climate variables. Neither is interchangeable with an average last spring frost, an average first autumn frost, or an observed frost in a particular year. Consult the current [USDA map](https://planthardiness.ars.usda.gov/) and [Natural Resources Canada hardiness information](https://planthardiness.gc.ca/index.php?lang=en&m=17) for their definitions. The repository has not established which zone system the supplied Errington documents intend.
+
+Use the frost anchors only as approximate source planning indicators, not assurances that frost cannot occur outside those dates. A garden's exposure, elevation, cold-air drainage, wind, soil drainage, raised beds, shelter, and season-extension methods can affect local conditions. The calendar legend also supports a mixed seasonal strategy:
 
 1. Some plants are started indoors before outdoor conditions are stable.
 2. Some are direct sown once conditions allow.
@@ -53,24 +55,24 @@ Errington gardening therefore involves protected starts, outdoor transitions, ha
 
 ## 4. Frost Dates, Risk Windows, And Seasonal Rules
 
-The April 15 and October 15 frost anchors should be used as the season's control points.
+The source-reported April 15 and October 15 anchors are not guaranteed frost dates or independently calculated local averages. Check current forecasts and observe the garden before acting.
 
 ### Spring Rule Set
 
-1. Before April 15, treat tender annuals and warm-season edibles as frost-sensitive.
-2. Use indoor sowing and protected starts where the local calendar indicates them.
-3. Keep transplanting decisions tied to frost risk rather than impatience.
+1. Treat frost-sensitive plants according to their verified hardiness and current forecast, not a fixed calendar date.
+2. Use indoor sowing and protection only where plant-specific guidance supports it.
+3. Harden off transplants and assess soil and weather conditions before planting out.
 
 ### Summer Rule Set
 
-1. Once frost risk has passed, the garden shifts from establishment to maintenance.
+1. Continue to respond to weather and site conditions rather than assuming frost risk has passed on a fixed date.
 2. The season's main work becomes watering, weeding, mulching, support, and monitoring for health issues.
 3. Growth management matters as much as planting timing.
 
 ### Autumn Rule Set
 
-1. By October 15, assume frost can end the season for tender crops and flowers.
-2. Harvest and preservation work should be planned before that date, not after it.
+1. Treat autumn frost risk as variable; monitor forecasts and protect or harvest tender crops when conditions require.
+2. Plan harvest and preservation around crop maturity and actual conditions, not an assumed frost deadline.
 3. Perennial maintenance and division tasks should be timed around dormancy rather than peak bloom.
 
 ### Winter Rule Set
@@ -130,7 +132,7 @@ The PDF also reinforces a practical economic point: good tools and deliberate be
 
 The local crop calendar and ornamental calendar both imply a multi-method planting system rather than a single workflow.
 
-The verified methods currently visible in the local sources are:
+The methods named in the supplied local sources are:
 
 1. Start seeds indoors.
 2. Transplant outdoors.
@@ -184,7 +186,9 @@ This manuscript does not yet assert a finalized local pest-by-pest catalog becau
 
 ## 10. Pollinator-Supportive Gardening On Eastern Vancouver Island
 
-The 2017 Eastern Vancouver Island pollinator guide describes an ecoregion spanning communities from Sooke and Victoria to Nanaimo, Port Alberni, and Campbell River. It reports regional annual precipitation ranging from about 800 mm at lower elevations to about 2,500 mm at higher elevations, with warm, dry summers and warm, wet winters. These broad regional figures must not be substituted for Errington-specific measurements [1, pp. 3, 6].
+**Source limitation:** The 2017 guide cited below is not available in this repository. The existing summary and page citations are preserved as unverified draft material and must be checked against the guide before publication. The figures are not Errington-specific measurements.
+
+The earlier draft attributes an ecoregion description to the 2017 Eastern Vancouver Island pollinator guide, including a range of communities and regional precipitation estimates [1, pp. 3, 6]. These details have not been independently rechecked in this build and must not be substituted for Errington-specific measurements.
 
 The guide's practical message is to provide habitat resources across the seasons, not merely a few attractive flowers. Pollinators need food, nesting or shelter opportunities, and water. Flowers can provide nectar and pollen; host plants support larvae of some pollinators. A diverse sequence of flowering plants can extend food availability from early spring into late fall. Grouping plants and varying flower forms, heights, and bloom periods can support a wider range of visitors [1, pp. 10, 12-15].
 
@@ -194,9 +198,9 @@ Provide a clean water source with a shallow or sloping edge so insects can appro
 
 The guide describes different nesting needs among bee groups, including cavities, dead wood or stems, and exposed soil. Avoid disturbing active nests or managed honey-bee hives. The plant tables on pages 16-19 list regionally relevant plants and their bloom periods, but those dates describe the Eastern Vancouver Island source area and are not automatically Errington calendar dates. Use the local calendar for timing and the guide for habitat context [1, pp. 16-21].
 
-## 11. Verified Local Crop Inventory
+## 11. Source-Listed Edible Crops (Unverified Transcription)
 
-The following edible crops are directly visible on the Errington crop calendar image and therefore belong in the local working edition of this encyclopedia.
+The following names appear in the supplied crop chart transcription. This inventory does not establish a species identity, a correct chart reading, or suitability for every Errington garden.
 
 1. Arugula
 2. Asparagus
@@ -228,11 +232,11 @@ The following edible crops are directly visible on the Errington crop calendar i
 28. Swiss Chard
 29. Tomatoes
 
-These names are normalized where the image shows obvious spelling errors. The normalized forms and the original source spellings are preserved in [plant_registry.csv](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_registry.csv).
+The normalized forms and original source spellings are preserved in [plant_registry.csv](plant_registry.csv). Corrections to chart spellings require editorial review.
 
-## 12. Verified Local Flower And Ornamental Inventory
+## 12. Source-Listed Flowers And Ornamentals (Unverified Transcription)
 
-The following plant groups are directly visible on the Errington ornamental calendar image.
+The following names appear in the supplied ornamental chart transcription; they are not all resolved to species or cultivars.
 
 ### Annual Flowers
 
@@ -307,43 +311,43 @@ The current source set supports a clear operating model for the final book.
 4. The registry governs normalized naming, verification state, and eventual per-plant enrichment.
 5. The final illustrated edition should only assert plant-level sowing, transplanting, bloom, and harvest windows once those details are directly transcribed from reliable local source material.
 
-## 15. Appendix: Current Verified Scope In The Workspace
+## 15. Appendix: Current Source-Visible Scope (Unverified)
 
-### Verified Local Climate Facts
+### Climate claims reported by the supplied calendar
 
-1. Expected last frost: April 15.
-2. Expected first frost: October 15.
-3. The calendar text extraction states Zone 8a; both chart images state Zone 8b. The conflict is unresolved.
+1. The calendar PDF reports an approximate last-frost anchor of April 15.
+2. The calendar PDF reports an approximate first-frost anchor of October 15.
+3. The calendar PDF says Zone 8a; both chart images say Zone 8b. The conflict is unresolved.
 
-### Verified Local Crop Legend
+### Crop-chart legend as transcribed
 
-1. Red marks indoor sowing.
-2. Yellow marks outdoor transplanting.
-3. Teal or green marks direct sowing or harvest on the crop chart.
+1. Red is labeled indoor sowing.
+2. Yellow is labeled transplanting outdoors.
+3. Teal or green is labeled direct sowing or harvest on the crop chart.
 
-### Verified Local Ornamental Legend
+### Ornamental-chart legend as transcribed
 
-1. Red marks indoor sowing.
-2. Yellow marks outdoor transplanting.
-3. Green marks direct sowing.
-4. Blue marks bloom.
-5. Gray marks dormant or divide periods.
+1. Red is labeled indoor sowing.
+2. Yellow is labeled transplanting outdoors.
+3. Green is labeled direct sowing.
+4. Blue is labeled bloom.
+5. Gray is labeled dormant or divide.
 
-### Verified Local Plant Counts
+### Counts in the current chart transcription
 
-1. 29 visible edible crops.
-2. 19 visible flowers across annual, perennial, and bulb groupings.
-3. 6 visible ornamental entries.
+1. 29 edible names.
+2. 19 flower names across annual, perennial, and bulb groupings.
+3. 6 ornamental entries.
 
 ## 16. Source Notes And Publication Status
 
 ### Source Note
 
-[E1] Errington calendar full-text extraction (`ERRINGTON_CALENDAR_FULL_TEXT.md`) and the checked-in crop and ornamental calendar charts. The original calendar PDF is not checked into this workspace.
-[1] Pollinator Partnership Canada and the North American Pollinator Protection Campaign, *Selecting Plants for Pollinators: A Guide for Gardeners, Farmers, and Land Managers in the Eastern Vancouver Island Ecoregion* (2017 session-provided PDF), especially pp. 3, 6, 10, 12-21. The ecoregion's climate and plant tables have a broader geographic scope than Errington.
+[E1] Supplied *Errington BC Zone 8a Planting Calendar* PDF, 89 pages, author and source history unknown, creation date shown in PDF metadata as 2026-06-28; the derived transcription is `ERRINGTON_CALENDAR_FULL_TEXT.md`. The chart images are separate source artifacts labeled Zone 8b.
+[1] The earlier draft cites Pollinator Partnership Canada and the North American Pollinator Protection Campaign, *Selecting Plants for Pollinators: A Guide for Gardeners, Farmers, and Land Managers in the Eastern Vancouver Island Ecoregion* (2017), especially pp. 3, 6, 10, 12-21. The PDF is not present in the repository; citation details and claims require rechecking. The stated scope is broader than Errington.
 
 The Internet Archive references listed in the editorial standard are source works, not text to be copied into this encyclopedia. Plant-level taxonomy, morphology, care, and timing still require traceable, plant-specific citations. A blank or unmatched registry field remains unverified rather than being filled by guesswork.
 
 ### Publication Status
 
-The checked-in registry now contains taxonomy, life-cycle, morphology, soil, water, spacing, light, maintenance, and pest scaffolds for all 137 plant records. This is a strong bulk profile, not final species-level authority: entries with genus, cultivar, or common-name ambiguity are marked for species-resolution, and many exact cultivation values still require the seed packet, cultivar label, or a direct horticultural reference. Calendar timing and inventory entries remain separate from general plant profiles.
+The registry contains 137 records and previously generated taxonomy and cultural-profile fields. Those values have no claim-level citations in this repository and are not verified; generic profile scaffolds are omitted from the generated plant index. Fifteen entries are already marked for species/cultivar resolution. No plant taxonomy, horticultural profile, or local timing is independently verified in this build. Calendar transcription and plant inventory remain separate from future reviewed recommendations.

@@ -1,0 +1,138 @@
+plant_id,filename,common_name,botanical_name_as_recorded,image_source,creator,license,generation_status,review_status,approval_status,reviewer_notes
+plant-arugula,ARUGULA.png,Arugula,Eruca vesicaria subsp. sativa,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-asparagus,ASPARAGUS.png,Asparagus,Asparagus officinalis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-beans,BEANS.png,Beans,Phaseolus vulgaris,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-beets,BEETS.png,Beets,Beta vulgaris,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-bell-pepper,BELL_PEPPER.png,Bell Pepper,Capsicum annuum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-broccoli,BROCCOLI.png,Broccoli,Brassica oleracea var. italica,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-brussels-sprouts,BRUSSELS_SPROUTS.png,Brussels Sprouts,Brassica oleracea var. gemmifera,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-cabbage,CABBAGE.png,Cabbage,Brassica oleracea var. capitata,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-cantaloupe,CANTALOUPE.png,Cantaloupe,Cucumis melo,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-carrots,CARROTS.png,Carrots,Daucus carota subsp. sativus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-cauliflower,CAULIFLOWER.png,Cauliflower,Brassica oleracea var. botrytis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-celery,CELERY.png,Celery,Apium graveolens var. dulce,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-corn,CORN.png,Corn,Zea mays,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-cucumber,CUCUMBER.png,Cucumber,Cucumis sativus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-garlic,GARLIC.png,Garlic,Allium sativum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-kohlrabi,KOHLRABI.png,Kohlrabi,Brassica oleracea var. gongylodes,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-leeks,LEEKS.png,Leeks,Allium ampeloprasum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-lettuce,LETTUCE.png,Lettuce,Lactuca sativa,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-eggplant,EGGPLANT.png,Eggplant,Solanum melongena,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-melons,MELONS.png,Melons,Cucumis melo,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-okra,OKRA.png,Okra,Abelmoschus esculentus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-parsnips,PARSNIPS.png,Parsnips,Pastinaca sativa,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-peas,PEAS.png,Peas,Pisum sativum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-potatoes,POTATOES.png,Potatoes,Solanum tuberosum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-spinach,SPINACH.png,Spinach,Spinacia oleracea,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-sweet-potato,SWEET_POTATO.png,Sweet Potato,Ipomoea batatas,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-summer-squash,SUMMER_SQUASH.png,Summer Squash,Cucurbita pepo,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-swiss-chard,SWISS_CHARD.png,Swiss Chard,Beta vulgaris subsp. cicla,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-tomatoes,TOMATOES.png,Tomatoes,Solanum lycopersicum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-marigold,MARIGOLD.png,Marigold,Tagetes patula,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-zinnia,ZINNIA.png,Zinnia,Zinnia elegans,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-cosmos,COSMOS.png,Cosmos,Cosmos bipinnatus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-nasturtium,NASTURTIUM.png,Nasturtium,Tropaeolum majus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-sunflower,SUNFLOWER.png,Sunflower,Helianthus annuus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-sweet-pea,SWEET_PEA.png,Sweet Pea,Lathyrus odoratus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-calendula,CALENDULA.png,Calendula,Calendula officinalis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-dahlia,DAHLIA.png,Dahlia,Dahlia pinnata,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-peony,PEONY.png,Peony,Paeonia lactiflora,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-iris,IRIS.png,Iris,Iris × germanica,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-daylily,DAYLILY.png,Daylily,Hemerocallis × hybrida,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-lavender,LAVENDER.png,Lavender,Lavandula angustifolia,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-echinacea,ECHINACEA.png,Echinacea,Echinacea purpurea,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-rudbeckia,RUDBECKIA.png,Rudbeckia,Rudbeckia hirta,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-tulip,TULIP.png,Tulip,Tulipa gesneriana,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-daffodil,DAFFODIL.png,Daffodil,Narcissus pseudonarcissus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-crocus,CROCUS.png,Crocus,Crocus vernus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-allium,ALLIUM.png,Allium,Allium hollandicum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-hyacinth,HYACINTH.png,Hyacinth,Hyacinthus orientalis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-hostas,HOSTAS.png,Hostas,Hosta spp.,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-ferns,FERNS.png,Ferns,Fern species / multiple genera,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-ornamental-grasses,ORNAMENTAL_GRASSES.png,Ornamental Grasses,Ornamental grass species / multiple genera,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-sedum,SEDUM.png,Sedum,Hylotelephium telephium,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-heuchera,HEUCHERA.png,Heuchera,Heuchera sanguinea,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-astilbe,ASTILBE.png,Astilbe,Astilbe × arendsii,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-rosemary,ROSEMARY.png,Rosemary,Salvia rosmarinus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-thyme,THYME.png,Thyme,Thymus vulgaris,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-oregano,OREGANO.png,Oregano,Origanum vulgare,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-parsley,PARSLEY.png,Parsley,Petroselinum crispum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-chives,CHIVES.png,Chives,Allium schoenoprasum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-basil,BASIL.png,Basil,Ocimum basilicum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-dill,DILL.png,Dill,Anethum graveolens,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-cilantro,CILANTRO.png,Cilantro,Coriandrum sativum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-chervil,CHERVIL.png,Chervil,Anthriscus cerefolium,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-fennel,FENNEL.png,Fennel,Foeniculum vulgare,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-apple,APPLE.png,Apple,Malus domestica,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-pear,PEAR.png,Pear,Pyrus communis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-plum,PLUM.png,Plum,Prunus domestica,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-cherry,CHERRY.png,Cherry,Prunus avium,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-grapes,GRAPES.png,Grapes,Vitis vinifera,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-strawberries,STRAWBERRIES.png,Strawberries,Fragaria × ananassa,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-raspberries,RASPBERRIES.png,Raspberries,Rubus idaeus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-blueberries,BLUEBERRIES.png,Blueberries,Vaccinium corymbosum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-currants,CURRANTS.png,Currants,Ribes rubrum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-gooseberries,GOOSEBERRIES.png,Gooseberries,Ribes uva-crispa,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-rhubarb,RHUBARB.png,Rhubarb,Rheum × hybridum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-globe-artichoke,GLOBE_ARTICHOKE.png,Globe Artichoke,Cynara cardunculus var. scolymus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-snapdragons,SNAPDRAGONS.png,Snapdragons,Antirrhinum majus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-petunias,PETUNIAS.png,Petunias,Petunia × atkinsiana,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-lobelia,LOBELIA.png,Lobelia,Lobelia erinus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-pansy,PANSY.png,Pansy,Viola × wittrockiana,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-stocks,STOCKS.png,Stocks,Matthiola incana,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-statice,STATICE.png,Statice,Limonium sinuatum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-antirrhinum,ANTIRRHINUM.png,Antirrhinum,Antirrhinum majus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-impatiens,IMPATIENS.png,Impatiens,Impatiens walleriana,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-nicotiana,NICOTIANA.png,Nicotiana,Nicotiana alata,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-cleome,CLEOME.png,Cleome,Cleome hassleriana,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-larkspur,LARKSPUR.png,Larkspur,Consolida ajacis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-poppy,POPPY.png,Poppy,Papaver rhoeas,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-nigella,NIGELLA.png,Nigella,Nigella damascena,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-borage,BORAGE.png,Borage,Borago officinalis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-cornflower,CORNFLOWER.png,Cornflower,Centaurea cyanus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-ammi-majus,AMMI_MAJUS.png,Ammi majus,Ammi majus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-orlaya,ORLAYA.png,Orlaya,Orlaya grandiflora,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-celosia,CELOSIA.png,Celosia,Celosia argentea,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-strawflower,STRAWFLOWER.png,Strawflower,Xerochrysum bracteatum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-scabiosa,SCABIOSA.png,Scabiosa,Scabiosa atropurpurea,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-hellebores,HELLEBORES.png,Hellebores,Helleborus orientalis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-snowdrops,SNOWDROPS.png,Snowdrops,Galanthus nivalis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-delphinium,DELPHINIUM.png,Delphinium,Delphinium elatum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-salvia-nemorosa,SALVIA_NEMOROSA.png,Salvia nemorosa,Salvia nemorosa,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-gaillardia,GAILLARDIA.png,Gaillardia,Gaillardia aristata,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-asters,ASTERS.png,Asters,Symphyotrichum novi-belgii,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-primula,PRIMULA.png,Primula,Primula vulgaris,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-wallflower,WALLFLOWER.png,Wallflower,Erysimum cheiri,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-aubretia,AUBRETIA.png,Aubretia,Aubrieta deltoidea,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-iberis,IBERIS.png,Iberis,Iberis sempervirens,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-hyacinths,HYACINTHS.png,Hyacinths,Hyacinthus orientalis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-muscari,MUSCARI.png,Muscari,Muscari armeniacum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-gladiolus,GLADIOLUS.png,Gladiolus,Gladiolus × hortulanus,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-anemone,ANEMONE.png,Anemone,Anemone coronaria,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-camassia,CAMASSIA.png,Camassia,Camassia quamash,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-witch-hazel,WITCH_HAZEL.png,Witch Hazel,Hamamelis virginiana,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-buddleja,BUDDLEJA.png,Buddleja,Buddleja davidii,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-deutzia,DEUTZIA.png,Deutzia,Deutzia gracilis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-hydrangea-paniculata,HYDRANGEA_PANICULATA.png,Hydrangea paniculata,Hydrangea paniculata,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-roses,ROSES.png,Roses,Rosa spp.,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-forsythia,FORSYTHIA.png,Forsythia,Forsythia × intermedia,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-philadelphus,PHILADELPHUS.png,Philadelphus,Philadelphus coronarius,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-pieris,PIERIS.png,Pieris,Pieris japonica,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-magnolia,MAGNOLIA.png,Magnolia,Magnolia stellata,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-camellia,CAMELLIA.png,Camellia,Camellia japonica,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-rhododendron,RHODODENDRON.png,Rhododendron,Rhododendron spp.,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-spiraea,SPIRAEA.png,Spiraea,Spiraea japonica,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-azalea,AZALEA.png,Azalea,Rhododendron spp.,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-kerria,KERRIA.png,Kerria,Kerria japonica,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-garry-oak,GARRY_OAK.png,Garry Oak,Quercus garryana,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-wisteria,WISTERIA.png,Wisteria,Wisteria sinensis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-clematis-group-3,CLEMATIS_GROUP_3.png,Clematis Group 3,Clematis spp. (pruning Group 3),Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-clematis-montana,CLEMATIS_MONTANA.png,Clematis montana,Clematis montana,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-honeysuckle,HONEYSUCKLE.png,Honeysuckle,Lonicera spp.,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-morning-glory,MORNING_GLORY.png,Morning Glory,Ipomoea purpurea,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-osoberry,OSOBERRY.png,Osoberry,Oemleria cerasiformis,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-red-flowering-currant,RED_FLOWERING_CURRANT.png,Red-flowering Currant,Ribes sanguineum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-trillium,TRILLIUM.png,Trillium,Trillium ovatum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-bleeding-heart,BLEEDING_HEART.png,Bleeding Heart,Dicentra formosa,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-camas,CAMAS.png,Camas,Camassia quamash,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.
+plant-sword-fern,SWORD_FERN.png,Sword Fern,Polystichum munitum,Not documented,Unknown,Unknown,unknown,pending,not-approved,Filename is a request only; no image-to-plant association is approved.

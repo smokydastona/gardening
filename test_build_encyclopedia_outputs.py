@@ -3,7 +3,7 @@ import csv
 from build_encyclopedia_outputs import build_illustration_asset_manifest, build_illustration_brief, preferred_illustration_filename
 
 
-def test_build_illustration_brief_for_root_crop_mentions_storage_organ() -> None:
+def test_illustration_brief_does_not_infer_plant_morphology() -> None:
     row = {
         "category": "vegetable",
         "subcategory": "",
@@ -15,25 +15,10 @@ def test_build_illustration_brief_for_root_crop_mentions_storage_organ() -> None
 
     brief, prompt = build_illustration_brief(row)
 
-    assert "Storage organ" in brief
-    assert "swollen storage root" in brief
-    assert "Beets" in prompt
-
-
-def test_build_illustration_brief_for_vine_mentions_support() -> None:
-    row = {
-        "category": "vine",
-        "subcategory": "",
-        "display_name": "Wisteria",
-        "source_scope": "shared-plan",
-        "calendar_match_status": "unmatched",
-        "calendar_months": "",
-    }
-
-    brief, prompt = build_illustration_brief(row)
-
-    assert "training support" in brief
-    assert "climbing plant" in prompt
+    assert "identity unverified" in brief
+    assert "Do not infer roots" in brief
+    assert "Do not invent or assume morphology" in prompt
+    assert "approved art brief" in prompt
 
 
 def test_preferred_illustration_filename_normalizes_display_name() -> None:
@@ -55,5 +40,7 @@ def test_build_illustration_asset_manifest_marks_missing_assets(tmp_path) -> Non
     missing_lines = (tmp_path / "plant_illustrations" / "missing_illustrations.txt").read_text(encoding="utf-8").splitlines()
 
     assert manifest_rows[0]["asset_status"] == "missing"
+    assert manifest_rows[0]["approval_status"] == "not-approved"
+    assert manifest_rows[0]["plant_id"] == "plant-sweet-pea"
     assert "SWEET_PEA.png" in missing_lines
     assert "WISTERIA.png" in missing_lines

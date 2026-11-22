@@ -68,7 +68,10 @@ def months_summary(row: dict[str, str]) -> str:
 
 
 def source_summary(row: dict[str, str]) -> str:
-    pieces = [row.get("source_scope", "").replace("-", " "), row.get("calendar_match_status", "")]
+    pieces = [
+        row.get("source_scope", "").replace("-", " "),
+        row.get("calendar_match_status", ""),
+    ]
     return ", ".join(piece for piece in pieces if piece)
 
 
@@ -283,27 +286,23 @@ def profile_for_row(row: dict[str, str]) -> dict[str, str | list[str]]:
 
 
 def build_illustration_brief(row: dict[str, str]) -> tuple[str, str]:
-    profile = profile_for_row(row)
-    timing = months_summary(row)
-    callouts = ", ".join(profile["callouts"])
+    display_name = row["display_name"]
+    key = normalize_key(display_name)
     brief = "\n".join(
         [
-            f"- Source context: {source_summary(row)}",
-            f"- Local timing emphasis: {timing}",
-            f"- Whole plant habit: {profile['habit']}",
-            f"- Root system: {profile['root_system']}",
-            f"- Leaf arrangement: {profile['leaf_arrangement']}",
-            f"- Flower structure: {profile['flower_structure']}",
-            f"- Fruit or seed structure: {profile['fruit_seed_structure']}",
-            f"- Storage organ: {profile['storage_organ']}",
-            f"- Required labeled callouts: {callouts}",
+            f"- Candidate name: {display_name} (identity unverified).",
+            f"- Stable ID: plant-{key.lower().replace('_', '-')}.",
+            "- Review state: pending taxonomic, cultivar, and botanical-accuracy review.",
+            "- Before drawing: document accepted name, source, diagnostic features, and life stage.",
+            "- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.",
         ]
     )
     prompt = (
-        f"Hand-drawn botanical plate of {row['display_name']} for an updated Errington gardening encyclopedia, "
-        f"clean linework, soft neutral palette, cream paper tone, show {profile['habit']}, include {profile['root_system']}, "
-        f"depict {profile['leaf_arrangement']}, add {profile['flower_structure']}, include {profile['fruit_seed_structure']}, "
-        f"show {profile['storage_organ']}, and label {callouts}. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate."
+        f"Prepare an illustration only after the plant identified as {display_name!r} "
+        f"(stable ID plant-{key.lower().replace('_', '-')}) has been taxonomically resolved "
+        "and its diagnostic traits have been cited. Do not invent or assume morphology, "
+        "cultivar, season, or local growing conditions. Leave unresolved callouts blank; "
+        "this generated prompt is a review checklist, not an image or an approved art brief."
     )
     return brief, prompt
 
@@ -314,12 +313,60 @@ def load_csv(path: Path) -> list[dict[str, str]]:
 
 
 def build_monthly_reference(base_dir: Path) -> None:
-    entries = load_csv(base_dir / "errington_calendar_entries.csv")
-    grouped: dict[str, dict[str, dict[str, list[dict[str, str]]]]] = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+    entries = load_csv(base_dir / "calendar_actions.csv")
+    grouped: dict[str, dict[str, dict[str, list[dict[str, str]]]]] = defaultdict(
+        lambda: defaultdict(lambda: defaultdict(list))
+    )
     for entry in entries:
         grouped[entry["month"]][entry["page_type"]][entry["section"]].append(entry)
 
-    parts = ["# Errington Monthly Garden Reference", "", "This file is generated from the available Errington calendar text extraction and grouped into monthly edible and ornamental reference sections. The extraction is cross-checked against the checked-in chart images where possible.", ""]
+    labels = {
+        "indoor-sowing": "INDOOR SOWING",
+        "direct-sowing": "DIRECT SOWING",
+        "transplanting": "TRANSPLANTING",
+        "succession-sowing": "SUCCESSION SOWING",
+        "harvesting": "HARVESTING",
+        "flowering": "FLOWERING",
+        "pruning": "PRUNING",
+        "dividing": "DIVIDING",
+        "propagation": "PROPAGATION",
+        "seasonal-maintenance": "SEASONAL MAINTENANCE",
+        "unclassified": "REVIEW ACTION",
+    }
+    parts = [
+        "# Errington Monthly Garden Reference",
+        "",
+        "## How to read this calendar",
+        "",
+        "These are source transcriptions, not independently reviewed recommendations. The "
+        "calendar PDF identifies Zone 8a while both chart images identify Zone 8b; the "
+        "discrepancy remains unresolved. April 15 and October 15 are approximate source "
+        "frost anchors, not guaranteed frost dates.",
+        "",
+        "Action labels are mechanically classified from transcribed wording. They are not "
+        "editorially verified. Plant names joined by a slash or comma are retained as a "
+        "source group and must not be interpreted as interchangeable crops.",
+        "",
+        "Each entry includes its original source page. Grayscale-readable labels are used "
+        "instead of relying on the source chart colours.",
+        "",
+        "## Text action key",
+        "",
+        "| Label | Meaning in this transcription |",
+        "|---|---|",
+        "| INDOOR SOWING | Source wording indicates indoor seed starting |",
+        "| DIRECT SOWING | Source wording indicates sowing outdoors |",
+        "| TRANSPLANTING | Source wording indicates moving established plants |",
+        "| SUCCESSION SOWING | Source wording indicates repeat sowing |",
+        "| HARVESTING | Source wording indicates picking or harvest |",
+        "| FLOWERING | Source wording indicates bloom |",
+        "| PRUNING | Source wording indicates pruning or deadheading |",
+        "| DIVIDING | Source wording indicates division |",
+        "| PROPAGATION | Source wording indicates propagation |",
+        "| SEASONAL MAINTENANCE | A seasonal action not matched to another label |",
+        "| REVIEW ACTION | The action could not be classified |",
+        "",
+    ]
     for month in MONTH_ORDER:
         month_data = grouped.get(month)
         if not month_data:
@@ -329,11 +376,26 @@ def build_monthly_reference(base_dir: Path) -> None:
             page_data = month_data.get(page_type)
             if not page_data:
                 continue
-            parts.extend([f"### {page_type.title()}", ""])
+            section_title = "Vegetables and edible crops" if page_type == "edibles" else "Flowers and ornamentals"
+            parts.extend([f"### {section_title}", ""])
             for section, section_entries in page_data.items():
                 parts.extend([f"#### {section.title()}", ""])
                 for entry in section_entries:
-                    parts.append(f"- {entry['row_text']}")
+                    action_names = [
+                        labels.get(action.strip(), action.strip().upper())
+                        for action in entry["action_types"].split(";")
+                        if action.strip()
+                    ]
+                    action_label = " / ".join(action_names) if action_names else "REVIEW ACTION"
+                    group_note = (
+                        " — grouped source entry; individual timing unresolved"
+                        if entry["grouped_plant_text"] == "true"
+                        else ""
+                    )
+                    parts.append(
+                        f"- **[{action_label}]** {entry['source_transcription']} "
+                        f"— source p. {entry['page_number']}{group_note}"
+                    )
                 parts.append("")
 
     (base_dir / "ERRINGTON_MONTHLY_REFERENCE.md").write_text("\n".join(parts), encoding="utf-8")
@@ -345,52 +407,36 @@ def build_plant_catalog(base_dir: Path) -> None:
     for row in rows:
         grouped[row["category"]].append(row)
 
-    parts = ["# Errington Plant Catalog", "", "This file is generated from the plant registry enriched with direct local Errington calendar matches.", ""]
+    parts = [
+        "# Errington Plant Registry",
+        "",
+        "This index preserves the 137 source records. Names and taxonomy already present in "
+        "the registry are not independently verified. Calendar matches are source transcriptions, "
+        "not plant-specific growing recommendations; grouped source rows may include crops with "
+        "different requirements. Generic profile scaffolds are intentionally omitted.",
+        "",
+    ]
+    plant_register = {
+        row["common_name"]: row
+        for row in load_csv(base_dir / "plant_verification_register.csv")
+    }
     for category in sorted(grouped):
         parts.extend([f"## {category.title()}", ""])
         for row in sorted(grouped[category], key=lambda current: current["display_name"]):
+            verification = plant_register[row["display_name"]]
             parts.extend([f"### {row['display_name']}", ""])
-            if row.get("latin_name"):
-                parts.append(f"- Latin name: {row['latin_name']}")
-            if row.get("family"):
-                parts.append(f"- Family: {row['family']}")
-            if row.get("life_cycle"):
-                parts.append(f"- Life cycle: {row['life_cycle']}")
-            if row.get("verification_status"):
-                parts.append(f"- Verification status: {row['verification_status']}")
-            parts.append(f"- Match status: {row['calendar_match_status']}")
-            parts.append(f"- Calendar matches: {row['calendar_match_count']}")
-            if row["calendar_months"]:
-                parts.append(f"- Months: {row['calendar_months']}")
-            if row["calendar_sections"]:
-                parts.append(f"- Sections: {row['calendar_sections']}")
-            if row["calendar_page_types"]:
-                parts.append(f"- Page types: {row['calendar_page_types']}")
-            if row["illustration_brief_status"]:
-                parts.append(f"- Illustration brief: {row['illustration_brief_status']}")
-            if row["illustration_prompt_status"]:
-                parts.append(f"- Illustration prompt: {row['illustration_prompt_status']}")
-            for field, label in [
-                ("growth_habit", "Growth habit"),
-                ("root_or_storage_organ", "Root or storage organ"),
-                ("leaf_arrangement_shape", "Leaves"),
-                ("flower_structure", "Flowers"),
-                ("fruit_seed_structure", "Fruit or seeds"),
-                ("soil_notes", "Soil"),
-                ("water_notes", "Water"),
-                ("spacing_notes", "Spacing"),
-                ("light_notes", "Light"),
-                ("maintenance_notes", "Maintenance"),
-                ("pests_diseases", "Pests and diseases"),
-            ]:
-                if row.get(field):
-                    parts.append(f"- {label}: {row[field]}")
-            if row["calendar_actions"]:
-                parts.append("- Calendar actions:")
-                for action in row["calendar_actions"].split(" || "):
-                    parts.append(f"  - {action}")
-            if row["notes"]:
-                parts.append(f"- Notes: {row['notes']}")
+            parts.append(f"- Stable plant ID: `{verification['plant_id']}`")
+            if verification["botanical_name_as_recorded"]:
+                parts.append(
+                    f"- Botanical name as recorded (unverified): "
+                    f"{verification['botanical_name_as_recorded']}"
+                )
+            if verification["family_as_recorded"]:
+                parts.append(f"- Family as recorded (unverified): {verification['family_as_recorded']}")
+            parts.append(f"- Source: `{verification['source_id']}` — {verification['source_path']}")
+            parts.append(f"- Taxonomy status: `{verification['taxonomy_status']}`")
+            parts.append(f"- Profile status: `{verification['profile_status']}`")
+            parts.append(f"- Local timing status: `{verification['timing_status']}`")
             parts.append("")
 
     (base_dir / "ERRINGTON_PLANT_CATALOG.md").write_text("\n".join(parts), encoding="utf-8")
@@ -402,8 +448,8 @@ def build_illustration_outputs(base_dir: Path) -> None:
     csv_rows: list[dict[str, str]] = []
 
     for row in rows:
-        row["illustration_brief_status"] = "generated"
-        row["illustration_prompt_status"] = "generated"
+        row["illustration_brief_status"] = "brief-generated-not-image"
+        row["illustration_prompt_status"] = "prompt-generated-not-image"
         grouped[row["category"]].append(row)
 
     parts = [
@@ -439,25 +485,25 @@ def build_illustration_asset_manifest(base_dir: Path) -> None:
     rows = load_csv(base_dir / "plant_registry_enriched.csv")
     illustrations_dir = base_dir / ILLUSTRATION_ASSET_DIR
     illustrations_dir.mkdir(exist_ok=True)
-    existing_assets = load_existing_illustration_assets(illustrations_dir)
 
     manifest_rows: list[dict[str, str]] = []
-    missing_lines: list[str] = []
     manifest_parts = [
         "# Illustration Asset Manifest",
         "",
-        "This file lists the exact per-plant illustration filenames expected by the PDF builder.",
+        "Filename suggestions are not image-to-plant assignments. All images require identity, "
+        "license, and visual review; none are approved by this manifest.",
         "",
     ]
 
     for row in sorted(rows, key=lambda current: (current["category"], current["display_name"])):
         key = normalize_key(row["display_name"])
         expected_filename = preferred_illustration_filename(row["display_name"])
-        existing_path = existing_assets.get(key)
-        asset_status = "present" if existing_path else "missing"
-        asset_filename = existing_path.name if existing_path else expected_filename
+        exact_path = illustrations_dir / expected_filename
+        asset_status = "pending-review" if exact_path.is_file() else "missing"
+        asset_filename = exact_path.name if exact_path.is_file() else ""
         manifest_rows.append(
             {
+                "plant_id": f"plant-{key.lower().replace('_', '-')}",
                 "category": row["category"],
                 "subcategory": row.get("subcategory", ""),
                 "display_name": row["display_name"],
@@ -465,15 +511,25 @@ def build_illustration_asset_manifest(base_dir: Path) -> None:
                 "expected_filename": expected_filename,
                 "asset_status": asset_status,
                 "resolved_filename": asset_filename,
+                "creator": "unknown",
+                "license": "unknown",
+                "review_status": "pending",
+                "approval_status": "not-approved",
             }
         )
-        manifest_parts.append(f"- {row['display_name']}: {asset_filename} [{asset_status}]")
-        if not existing_path:
-            missing_lines.append(expected_filename)
+        manifest_parts.append(
+            f"- `{manifest_rows[-1]['plant_id']}` {row['display_name']}: "
+            f"{asset_filename or expected_filename} [{asset_status}; not approved]"
+        )
 
     write_csv(illustrations_dir / ILLUSTRATION_MANIFEST_CSV, manifest_rows)
     (illustrations_dir / ILLUSTRATION_MANIFEST_MD).write_text("\n".join(manifest_parts) + "\n", encoding="utf-8")
-    (illustrations_dir / ILLUSTRATION_MISSING_TXT).write_text("\n".join(missing_lines) + ("\n" if missing_lines else ""), encoding="utf-8")
+    missing_lines = [
+        row["expected_filename"] for row in manifest_rows if row["asset_status"] == "missing"
+    ]
+    (illustrations_dir / ILLUSTRATION_MISSING_TXT).write_text(
+        "\n".join(missing_lines) + ("\n" if missing_lines else ""), encoding="utf-8"
+    )
 
 
 def main() -> None:

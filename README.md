@@ -1,97 +1,108 @@
-# Errington Gardening Encyclopedia Workspace
+# Errington Gardening Encyclopedia
 
-This workspace contains the local source material, extraction scripts, tests, structured data outputs, and generated encyclopedia artifacts for the Errington gardening encyclopedia project.
+A source-led gardening reference for Errington, British Columbia, on Vancouver Island. The
+repository preserves a supplied planting calendar, a plant inventory, editorial material,
+and a reproducible PDF build. It is a working project and is **not approved for publication**:
+botanical profiles, local timing, illustration identities and licenses, and final visual
+review are still incomplete.
 
-## Source Files
+## Current status
 
-Primary local calendar evidence:
+| Area | Status |
+|---|---|
+| Plant inventory | 137 records preserved; taxonomy/profile verification pending |
+| Calendar transcription | 359 entries across all 12 months; grouped rows and action meanings require review |
+| Errington zone | Unresolved: calendar PDF says 8a; both chart images say 8b |
+| Frost anchors | April 15 and October 15 are approximate source values, not guaranteed dates |
+| Illustrations | 0 approved; 70 image files remain on the separate `illustration-assets` branch pending identity/license review |
+| PDF pipeline | Implemented with source checks, Markdown parsing, embedded fonts, and generated TOC |
+| Publication approval | `IN_PROGRESS`; see [publication QA](PUBLICATION_QA_REPORT.md) |
 
-1. [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md), a text extraction; the original calendar PDF is not checked into this workspace.
+## Key deliverables
 
-Supporting local sources:
+- [Working encyclopedia PDF](Errington_Gardening_Encyclopedia.pdf)
+- [Editorial manuscript](ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md)
+- [Monthly source calendar](ERRINGTON_MONTHLY_REFERENCE.md)
+- [Plant registry index](ERRINGTON_PLANT_CATALOG.md)
+- [Plant verification report](PLANT_VERIFICATION_REPORT.md)
+- [Calendar review report](CALENDAR_REVIEW_REPORT.md)
+- [Illustration audit](ILLUSTRATION_AUDIT.md)
+- [Repository audit](AUDIT_REPORT.md)
+- [Publication quality report](PUBLICATION_QA_REPORT.md)
+- [Source policy](docs/SOURCE_POLICY.md) and [data dictionary](docs/DATA_DICTIONARY.md)
 
-1. [Planting Calander-Crops.png](Planting%20Calander-Crops.png)
-2. [Planting Calander-Ornamentals.png](Planting%20Calander-Ornamentals.png)
-3. [Vegetable_Gardening_Encyclopedia_With_Sp.pdf](Vegetable_Gardening_Encyclopedia_With_Sp.pdf), the supplied Reader's Digest gardening reference.
-4. The user-provided 2017 Eastern Vancouver Island pollinator guide and Internet Archive plant references are documented in [ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md](ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md); they are not checked into this repository.
+## Repository map
 
-## Python Environment
+| Path | Purpose |
+|---|---|
+| `Errington BC Zone 8a Planting Calendar.pdf`, chart PNGs | Supplied local calendar artifacts; source history not established |
+| `ERRINGTON_CALENDAR_FULL_TEXT.md`, `errington_calendar_entries.csv/.json` | Source transcription and parsed records |
+| `plant_registry.csv` | Retained plant inventory; do not overwrite with generated data |
+| `plant_registry_enriched.csv` | Derived registry/calendar join |
+| `calendar_actions.csv`, `calendar_review.csv` | Source-linked action classification and review queue |
+| `plant_verification_register.csv` | Stable IDs, source attribution, and independent verification states |
+| `plant_illustrations/` | Illustration manifest and review state; no image is approved |
+| `ERRINGTON_*MANUSCRIPT*.md`, `ENCYCLOPEDIA_STRUCTURE.md` | Editorial manuscript and project structure |
+| `build_*.py`, `extract_calendar_data.py`, `parse_errington_calendar.py` | Extraction, validation, report, and publication code |
+| `test_*.py` | Automated tests |
+| `.github/workflows/build-encyclopedia.yml` | CI validation and publication artifact build |
 
-Tested with Python 3.12 on Windows.
+## Install
 
-Install dependencies:
+Python 3.12 is supported. Use an isolated environment:
 
-```powershell
-python -m pip install -r requirements.txt
+```sh
+python3.12 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.lock.txt
 ```
 
-## Validation
+PowerShell activation: `.venv\Scripts\Activate.ps1`.
 
-Run the automated tests:
+## Validate and build
 
-```powershell
-python -m pytest test_parse_errington_calendar.py test_enrich_plant_registry.py
-```
-
-## Build Pipeline
-
-Run the full local pipeline:
-
-```powershell
-python extract_calendar_data.py
+```sh
+python validate_pipeline.py
+python -m pytest
 python parse_errington_calendar.py
+python validate_pipeline.py
 python enrich_plant_registry.py
+python build_project_reports.py
 python build_encyclopedia_outputs.py
 python build_final_encyclopedia_pdf.py
+python validate_pipeline.py --publication
+python render_publication.py
 ```
 
-## GitHub Actions Build
+The source record-count snapshot intentionally checks 137 plant rows and 359 calendar rows.
+For an authorized source update, change the data and corresponding snapshot/tests together;
+do not bypass this guard to conceal data loss. The chart OCR script is an extraction aid,
+not part of the reproducible publication build: OCR output must be reviewed before replacing
+the checked-in transcription.
 
-The canonical release build can run entirely on GitHub from the checked-in source files and illustration assets.
+## Evidence and accuracy limitations
 
-Workflow:
+Original/source files, transcriptions, structured records, editorial interpretation, and
+generated outputs are separate layers. A calendar transcription or filename match does not
+verify an individual recommendation or illustration. The calendar's 8a/8b label conflict
+remains unresolved. The source-reported frost anchors are approximate. Existing bulk-filled
+taxonomy and cultural notes are retained as recorded but not treated as verified.
 
-1. [.github/workflows/build-encyclopedia.yml](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/.github/workflows/build-encyclopedia.yml)
+See [source policy](docs/SOURCE_POLICY.md), [data dictionary](docs/DATA_DICTIONARY.md),
+[source audit](SOURCE_AUDIT.md), and [verification report](PLANT_VERIFICATION_REPORT.md)
+before using any record as gardening advice.
 
-Behavior:
+## Illustration policy
 
-1. Triggers on `workflow_dispatch`, pushes to `main`, and pull requests that touch the build inputs.
-2. Checks out the repository on GitHub-hosted runners, so it uses the assets committed to the repo rather than local-only files.
-3. Restores the committed plant illustration PNG assets from the dedicated `illustration-assets` branch before the build, so the current checkout can stay lean without losing the remote build inputs.
-4. Installs dependencies, runs the full test suite, rebuilds the encyclopedia outputs, and uploads the PDF and generated artifacts as a workflow artifact named `encyclopedia-build`.
+Generated prompts are not images, and generated images are not automatically approved.
+Approval requires a stable plant ID, correct identity, documented creator and license,
+visual review, and reviewer notes. The separate `illustration-assets` branch is not a
+runtime build dependency; assets from it must be reviewed and explicitly added to the
+manifest before embedding.
 
-If you want the build to include plant illustrations, add the actual image files to [plant_illustrations](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_illustrations) and push them. The workflow runner will use those committed assets automatically.
+## Contributions
 
-The current workflow restores plant illustration assets from `origin/illustration-assets`.
-
-## Generated Artifacts
-
-Structured source outputs:
-
-1. [ERRINGTON_CALENDAR_FULL_TEXT.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ERRINGTON_CALENDAR_FULL_TEXT.md)
-2. [errington_calendar_entries.csv](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/errington_calendar_entries.csv)
-3. [errington_calendar_entries.json](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/errington_calendar_entries.json)
-4. [errington_calendar_plant_summary.csv](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/errington_calendar_plant_summary.csv)
-5. [plant_registry_enriched.csv](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_registry_enriched.csv)
-
-Reader-facing outputs:
-
-1. [ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md)
-2. [ERRINGTON_MONTHLY_REFERENCE.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ERRINGTON_MONTHLY_REFERENCE.md)
-3. [ERRINGTON_PLANT_CATALOG.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ERRINGTON_PLANT_CATALOG.md)
-4. [ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md)
-5. [errington_illustration_briefs.csv](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/errington_illustration_briefs.csv)
-6. [Errington_Gardening_Encyclopedia_Compiled.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Errington_Gardening_Encyclopedia_Compiled.md)
-7. [Errington_Gardening_Encyclopedia.pdf](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Errington_Gardening_Encyclopedia.pdf)
-
-Working project records:
-
-1. [ERRINGTON_ENCYCLOPEDIA_HANDOFF.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ERRINGTON_ENCYCLOPEDIA_HANDOFF.md)
-2. [SOURCE_AUDIT.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/SOURCE_AUDIT.md)
-3. [ENCYCLOPEDIA_STRUCTURE.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ENCYCLOPEDIA_STRUCTURE.md)
-
-## Implementation Notes
-
-1. The available calendar text extraction supplies detailed monthly entries; its source PDF is absent, so transcription accuracy remains a limitation.
-2. The chart images independently support the frost dates and plant lists, and label the calendar Zone 8b. The text extraction labels it Zone 8a; retain this conflict.
-3. The Reader's Digest PDF can inform general gardening topics but does not override local timing. Do not copy its prose or illustrations into the encyclopedia.
+Keep source evidence immutable, cite claims at the record level, and update the
+corresponding tests and reports when changing data. Do not mark taxonomy, timing, profile,
+or illustration status verified without the relevant independent review. Changes to source
+record counts require an explicit snapshot update and a documented explanation.

@@ -1,0 +1,284 @@
+from __future__ import annotations
+
+import argparse
+import csv
+import re
+from collections import Counter
+from pathlib import Path
+
+from pypdf import PdfReader
+
+
+EXPECTED_COUNTS = {
+    "plant_registry.csv": 137,
+    "errington_calendar_entries.csv": 359,
+}
+MONTHS = {
+    "JANUARY",
+    "FEBRUARY",
+    "MARCH",
+    "APRIL",
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST",
+    "SEPTEMBER",
+    "OCTOBER",
+    "NOVEMBER",
+    "DECEMBER",
+}
+REQUIRED_INPUTS = (
+    "plant_registry.csv",
+    "errington_calendar_entries.csv",
+    "Errington BC Zone 8a Planting Calendar.pdf",
+    "Planting Calander-Crops.png",
+    "Planting Calander-Ornamentals.png",
+    "cover.png",
+    "ERRINGTON_CALENDAR_FULL_TEXT.md",
+    "ERRINGTON_ENCYCLOPEDIA_HANDOFF.md",
+)
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def validate_inputs(base_dir: Path, check_snapshot: bool = True) -> dict[str, int]:
+    missing = [name for name in REQUIRED_INPUTS if not (base_dir / name).is_file()]
+    if missing:
+        raise ValueError(f"Missing required source inputs: {', '.join(missing)}")
+
+    registry = read_csv(base_dir / "plant_registry.csv")
+    calendar = read_csv(base_dir / "errington_calendar_entries.csv")
+    if not registry or not calendar:
+        raise ValueError("Plant registry and calendar transcription must not be empty.")
+
+    counts = {
+        "plant_registry.csv": len(registry),
+        "errington_calendar_entries.csv": len(calendar),
+    }
+    if check_snapshot:
+        changed = [
+            f"{name}: expected {expected}, found {counts[name]}"
+            for name, expected in EXPECTED_COUNTS.items()
+            if counts[name] != expected
+        ]
+        if changed:
+            raise ValueError(
+                "Source record count changed without an explicit snapshot update: "
+                + "; ".join(changed)
+            )
+
+    plant_names = [row.get("display_name", "").strip().casefold() for row in registry]
+    duplicates = sorted(name for name, count in Counter(plant_names).items() if name and count > 1)
+    if any(not name for name in plant_names):
+        raise ValueError("Plant registry contains a blank display_name.")
+    if duplicates:
+        raise ValueError(f"Duplicate plant display names: {', '.join(duplicates)}")
+    stable_ids = [
+        "plant-" + re.sub(r"[^A-Za-z0-9]+", "-", row["display_name"]).strip("-").lower()
+        for row in registry
+    ]
+    duplicate_ids = sorted(
+        plant_id for plant_id, count in Counter(stable_ids).items() if count > 1
+    )
+    if duplicate_ids:
+        raise ValueError(f"Plant names produce duplicate stable IDs: {', '.join(duplicate_ids)}")
+
+    required_calendar_fields = {
+        "month",
+        "page_type",
+        "section",
+        "page_number",
+        "plant_text",
+        "plant_normalized",
+        "row_text",
+    }
+    missing_fields = required_calendar_fields - set(calendar[0])
+    if missing_fields:
+        raise ValueError(
+            "Calendar transcription is missing required columns: "
+            + ", ".join(sorted(missing_fields))
+        )
+    blank_entries = [
+        str(index)
+        for index, row in enumerate(calendar, start=2)
+        if any(not row.get(field, "").strip() for field in required_calendar_fields)
+    ]
+    if blank_entries:
+        raise ValueError(
+            "Calendar transcription has incomplete required values on CSV rows: "
+            + ", ".join(blank_entries[:20])
+        )
+
+    invalid_months = sorted({row["month"] for row in calendar if row["month"] not in MONTHS})
+    if invalid_months:
+        raise ValueError(f"Invalid calendar months: {', '.join(invalid_months)}")
+    invalid_pages = []
+    for index, row in enumerate(calendar, start=2):
+        try:
+            page_number = int(row["page_number"])
+        except ValueError:
+            invalid_pages.append(str(index))
+            continue
+        if page_number < 1:
+            invalid_pages.append(str(index))
+    if invalid_pages:
+        raise ValueError(
+            "Calendar transcription has invalid page numbers on CSV rows: "
+            + ", ".join(invalid_pages[:20])
+        )
+    calendar_pdf = PdfReader(str(base_dir / "Errington BC Zone 8a Planting Calendar.pdf"))
+    page_count = len(calendar_pdf.pages)
+    pages_out_of_range = [
+        row["page_number"]
+        for row in calendar
+        if int(row["page_number"]) > page_count
+    ]
+    if pages_out_of_range:
+        raise ValueError(
+            f"Calendar references pages outside the {page_count}-page source PDF: "
+            + ", ".join(sorted(set(pages_out_of_range)))
+        )
+    entry_keys = [
+        (
+            row["month"],
+            row["page_type"],
+            row["section"],
+            row["plant_normalized"],
+            row["row_text"],
+        )
+        for row in calendar
+    ]
+    duplicate_entries = [
+        key for key, count in Counter(entry_keys).items() if count > 1
+    ]
+    if duplicate_entries:
+        raise ValueError(
+            f"Duplicate calendar entry keys found: {len(duplicate_entries)}"
+        )
+
+    return {
+        "plant_records": len(registry),
+        "calendar_entries": len(calendar),
+        "calendar_months": len({row["month"] for row in calendar}),
+    }
+
+
+def validate_publication(base_dir: Path) -> dict[str, int | str]:
+    pdf_path = base_dir / "Errington_Gardening_Encyclopedia.pdf"
+    if not pdf_path.is_file():
+        raise ValueError(f"Expected publication PDF was not generated: {pdf_path.name}")
+
+    reader = PdfReader(str(pdf_path), strict=True)
+    if not reader.pages:
+        raise ValueError("Publication PDF has no pages.")
+    metadata = reader.metadata or {}
+    if metadata.get("/Title") != "Errington Gardening Encyclopedia":
+        raise ValueError("Publication PDF title metadata is missing or incorrect.")
+    author = str(metadata.get("/Author", ""))
+    if not author or "copilot" in author.casefold():
+        raise ValueError("Publication PDF must have intentional non-Copilot author metadata.")
+    if not reader.pages[0].images:
+        raise ValueError("Publication cover image is not embedded in the PDF.")
+
+    page_text = [page.extract_text() or "" for page in reader.pages]
+    extracted_text = "\n".join(page_text)
+    for required in ("Contents", "Source and verification policy", "Errington"):
+        if required.casefold() not in extracted_text.casefold():
+            raise ValueError(f"Publication PDF is missing required text: {required}")
+    if any(not text.strip() for text in page_text[1:]):
+        raise ValueError("Publication PDF contains an empty interior page.")
+
+    def check_outline(items: list) -> int:
+        destination_count = 0
+        for item in items:
+            if isinstance(item, list):
+                destination_count += check_outline(item)
+                continue
+            page_number = reader.get_destination_page_number(item)
+            if page_number < 0:
+                raise ValueError(f"Invalid table-of-contents destination: {item.title}")
+            destination_count += 1
+        return destination_count
+
+    outline_entries = check_outline(reader.outline)
+    if not outline_entries:
+        raise ValueError("Publication PDF has no navigable table-of-contents entries.")
+
+    toc_pages = [
+        page for page, text in zip(reader.pages, page_text) if "Contents" in text
+    ]
+    if len(toc_pages) != 1:
+        raise ValueError(
+            f"Expected a single table-of-contents page, found {len(toc_pages)}."
+        )
+    toc_links = []
+    for reference in toc_pages[0].get("/Annots", []):
+        annotation = reference.get_object()
+        destination = annotation.get("/Dest")
+        if destination:
+            if not isinstance(destination, (list, tuple)) or not destination:
+                raise ValueError("Table-of-contents link has an invalid destination.")
+            if reader.get_page_number(destination[0]) < 0:
+                raise ValueError("Table-of-contents link points to an invalid page.")
+            toc_links.append(destination)
+    if len(toc_links) < outline_entries:
+        raise ValueError(
+            "Publication PDF is missing internal links for its table-of-contents entries."
+        )
+
+    embedded_font = False
+    for page in reader.pages[1:]:
+        resources = page.get("/Resources")
+        font_resources = resources.get("/Font", {}) if resources else {}
+        for reference in font_resources.values():
+            font = reference.get_object()
+            descriptor = font.get("/FontDescriptor")
+            descendants = font.get("/DescendantFonts", [])
+            if descriptor is None and descendants:
+                descriptor = descendants[0].get_object().get("/FontDescriptor")
+            if descriptor and any(
+                descriptor.get(key)
+                for key in ("/FontFile", "/FontFile2", "/FontFile3")
+            ):
+                embedded_font = True
+                break
+        if embedded_font:
+            break
+    if not embedded_font:
+        raise ValueError("Publication PDF has no embedded fonts.")
+    return {
+        "pdf_pages": len(reader.pages),
+        "pdf_bytes": pdf_path.stat().st_size,
+        "metadata_author": author,
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Validate encyclopedia source data and outputs.")
+    parser.add_argument("--publication", action="store_true", help="Validate the generated PDF.")
+    parser.add_argument(
+        "--no-count-snapshot",
+        action="store_true",
+        help="Skip baseline record-count checks (for an intentional source update).",
+    )
+    args = parser.parse_args()
+    base_dir = Path(__file__).resolve().parent
+    counts = validate_inputs(base_dir, check_snapshot=not args.no_count_snapshot)
+    print(
+        "Source validation passed: "
+        f"{counts['plant_records']} plants, {counts['calendar_entries']} calendar entries, "
+        f"{counts['calendar_months']} months."
+    )
+    if args.publication:
+        result = validate_publication(base_dir)
+        print(
+            f"PDF validation passed: {result['pdf_pages']} pages, "
+            f"{result['pdf_bytes']} bytes; author={result['metadata_author']}."
+        )
+
+
+if __name__ == "__main__":
+    main()

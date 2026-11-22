@@ -1,4 +1,5 @@
 from parse_errington_calendar import extract_plant_and_remainder, parse_row_columns, parse_section_rows
+from extract_calendar_data import MONTHS, OcrItem, find_month_items
 
 
 def test_extract_plant_and_remainder_week_pattern() -> None:
@@ -35,3 +36,14 @@ def test_parse_section_rows_groups_multiline_entry() -> None:
     rows = parse_section_rows(lines)
     assert rows[0] == "Apple / Pear / Plum / Cherry — — ✄ Prune dormant trees Jan–Feb"
     assert rows[1] == "Bare-root fruit stock — — Order from nursery now"
+
+
+def test_month_detection_does_not_invent_missing_month_headers() -> None:
+    items = [
+        OcrItem(month, month, index * 100, 10, index * 100 + 50, 20)
+        for index, month in enumerate(MONTHS[:-1])
+    ]
+
+    found = find_month_items(items)
+
+    assert [item.norm for item in found] == MONTHS[:-1]

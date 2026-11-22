@@ -1,5 +1,8 @@
 # Errington Encyclopedia Structure Map
 
+> Historical planning document. Treat its earlier verification wording and source notes as
+> unverified unless confirmed by `SOURCE_AUDIT.md` and `docs/SOURCE_POLICY.md`.
+
 ## Purpose
 
 This file maps the intended Errington encyclopedia chapters to the currently available sources and identifies which sections are ready to draft first.
@@ -9,7 +12,7 @@ This file maps the intended Errington encyclopedia chapters to the currently ava
 1. Errington-local calendars control frost and timing guidance.
 2. The vegetable PDF can supply general structure and non-local gardening topics.
 3. Do not borrow generic timing from the PDF when local timing is missing.
-4. Plant-level claims stay `pending-verification` until entered into [plant_registry.csv](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_registry.csv).
+4. Plant-level claims stay `pending-verification` in [plant_registry.csv](plant_registry.csv) until supported by claim-level sources and review.
 5. Preserve the calendar text extraction's Zone 8a label and the chart images' Zone 8b label as an unresolved discrepancy.
 6. Pollinator guidance from the 2017 Eastern Vancouver Island guide is ecoregion-wide, not Errington-specific.
 
@@ -17,12 +20,12 @@ This file maps the intended Errington encyclopedia chapters to the currently ava
 
 ### Errington Local Sources
 
-1. [Planting Calander-Crops.png](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Crops.png)
-2. [Planting Calander-Ornamentals.png](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Ornamentals.png)
+1. [Planting Calander-Crops.png](Planting%20Calander-Crops.png)
+2. [Planting Calander-Ornamentals.png](Planting%20Calander-Ornamentals.png)
 
 ### Generic Structural Source
 
-1. [Vegetable_Gardening_Encyclopedia_With_Sp.pdf](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Vegetable_Gardening_Encyclopedia_With_Sp.pdf)
+1. [Vegetable_Gardening_Encyclopedia_With_Sp.pdf](Vegetable_Gardening_Encyclopedia_With_Sp.pdf)
 
 ### Regional Ecological Source
 

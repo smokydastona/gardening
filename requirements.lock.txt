@@ -1,0 +1,23 @@
+# Resolved dependency set for Python 3.12; update with a deliberate dependency review.
+charset-normalizer==3.5.2
+flatbuffers==25.12.19
+iniconfig==2.3.1
+mistune==3.1.3
+numpy==2.5.5
+onnxruntime==1.32.0
+opencv-python==5.1.0.95
+packaging==26.3
+Pillow==13.0.0
+pluggy==1.7.0
+protobuf==7.36.2
+pyclipper==1.4.0
+Pygments==2.21.0
+pypdf==6.14.2
+pypdfium2==5.15.2
+pytest==9.0.3
+PyYAML==6.0.4
+rapidocr-onnxruntime==1.4.4
+reportlab==5.0.0
+shapely==2.2.0
+six==1.17.0
+tqdm==4.70.1

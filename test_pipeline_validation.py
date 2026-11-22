@@ -1,0 +1,109 @@
+import csv
+
+import pytest
+from pypdf import PdfWriter
+
+import build_project_reports
+from build_project_reports import build_calendar_outputs, plant_id
+from validate_pipeline import REQUIRED_INPUTS, validate_inputs
+
+
+def test_stable_plant_ids_are_normalized() -> None:
+    assert plant_id("Clematis Group 3") == "plant-clematis-group-3"
+
+
+def test_calendar_build_preserves_grouped_transcriptions_without_plant_assignment(tmp_path, monkeypatch) -> None:
+    monkeypatch.setattr(build_project_reports, "BASE_DIR", tmp_path)
+    entries = [
+        {
+            "month": "MARCH",
+            "page_type": "edibles",
+            "section": "VEGETABLES",
+            "page_number": "4",
+            "plant_text": "Arugula",
+            "row_text": "Arugula — Direct sow",
+            "indoor_sow": "",
+            "direct_sow_or_transplant": "Direct sow",
+            "harvest_bloom_action": "",
+        },
+        {
+            "month": "MARCH",
+            "page_type": "edibles",
+            "section": "VEGETABLES",
+            "page_number": "4",
+            "plant_text": "Radish / Arugula",
+            "row_text": "Radish / Arugula — Direct sow",
+            "indoor_sow": "",
+            "direct_sow_or_transplant": "Direct sow",
+            "harvest_bloom_action": "",
+        },
+    ]
+    registry = [{"display_name": "Arugula"}]
+
+    build_calendar_outputs(entries, registry)
+
+    with (tmp_path / "calendar_actions.csv").open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    with (tmp_path / "calendar_review.csv").open(encoding="utf-8", newline="") as handle:
+        review_rows = list(csv.DictReader(handle))
+    assert rows[0]["plant_id"] == "plant-arugula"
+    assert rows[0]["action_types"] == "direct-sowing"
+    assert rows[0]["verification_status"] == "pending-verification"
+    assert rows[0]["interpretation_status"] == "source-transcription; not a recommendation"
+    assert rows[1]["plant_id"] == ""
+    assert rows[1]["grouped_plant_text"] == "true"
+    assert len(review_rows) == len(entries)
+    assert "individual timing not established" in review_rows[1]["review_reasons"]
+
+
+def test_source_count_guard_detects_record_loss(tmp_path) -> None:
+    for name in REQUIRED_INPUTS:
+        if name.endswith(".pdf"):
+            continue
+        (tmp_path / name).write_bytes(b"source")
+    writer = PdfWriter()
+    for _ in range(5):
+        writer.add_blank_page(width=100, height=100)
+    with (tmp_path / "Errington BC Zone 8a Planting Calendar.pdf").open("wb") as handle:
+        writer.write(handle)
+    (tmp_path / "plant_registry.csv").write_text(
+        "display_name\nArugula\n", encoding="utf-8"
+    )
+    (tmp_path / "errington_calendar_entries.csv").write_text(
+        "month,page_type,section,page_number,plant_text,plant_normalized,row_text\n"
+        "MARCH,edibles,VEGETABLES,4,Arugula,ARUGULA,Arugula\n",
+        encoding="utf-8",
+    )
+
+    counts = validate_inputs(tmp_path, check_snapshot=False)
+
+    assert counts == {
+        "plant_records": 1,
+        "calendar_entries": 1,
+        "calendar_months": 1,
+    }
+    with pytest.raises(ValueError, match="record count changed"):
+        validate_inputs(tmp_path)
+
+
+def test_source_validation_rejects_bad_calendar_month(tmp_path) -> None:
+    for name in REQUIRED_INPUTS:
+        if name.endswith(".pdf"):
+            continue
+        (tmp_path / name).write_bytes(b"source")
+    writer = PdfWriter()
+    for _ in range(5):
+        writer.add_blank_page(width=100, height=100)
+    with (tmp_path / "Errington BC Zone 8a Planting Calendar.pdf").open("wb") as handle:
+        writer.write(handle)
+    (tmp_path / "plant_registry.csv").write_text(
+        "display_name\nArugula\n", encoding="utf-8"
+    )
+    (tmp_path / "errington_calendar_entries.csv").write_text(
+        "month,page_type,section,page_number,plant_text,plant_normalized,row_text\n"
+        "FROSTMONTH,edibles,VEGETABLES,4,Arugula,ARUGULA,Arugula\n",
+        encoding="utf-8",
+    )
+
+    with pytest.raises(ValueError, match="Invalid calendar months"):
+        validate_inputs(tmp_path, check_snapshot=False)

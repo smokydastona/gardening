@@ -1,4039 +1,1391 @@
-# Errington Plant Catalog
+# Errington Plant Registry
 
-This file is generated from the plant registry enriched with direct local Errington calendar matches.
+This index preserves the 137 source records. Names and taxonomy already present in the registry are not independently verified. Calendar matches are source transcriptions, not plant-specific growing recommendations; grouped source rows may include crops with different requirements. Generic profile scaffolds are intentionally omitted.
 
 ## Flower
 
 ### Allium
 
-- Latin name: Allium hollandicum
-- Family: Amaryllidaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 7
-- Months: MAY; JUNE; OCTOBER; NOVEMBER
-- Sections: HARDY PERENNIALS; CUT FLOWERS; BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Allium / Centaurea — — Beginning to bloom🌸
-  - MAY: Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting🌸
-  - JUNE: Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer 🌸 perennials
-  - JUNE: Allium / late Iris / first Lily buds — — Blooming; stake tall 🌸
-  - JUNE: Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; 🌸 harvest in morning
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3🍅 —
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant 🍅 Wk 1–2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-allium`
+- Botanical name as recorded (unverified): Allium hollandicum
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Ammi majus
 
-- Latin name: Ammi majus
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-ammi-majus`
+- Botanical name as recorded (unverified): Ammi majus
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Anemone
 
-- Latin name: Anemone coronaria
-- Family: Ranunculaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-anemone`
+- Botanical name as recorded (unverified): Anemone coronaria
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Antirrhinum
 
-- Latin name: Antirrhinum majus
-- Family: Plantaginaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: May duplicate Snapdragons depending on source intent. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-antirrhinum`
+- Botanical name as recorded (unverified): Antirrhinum majus
+- Family as recorded (unverified): Plantaginaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Asters
 
-- Latin name: Symphyotrichum novi-belgii
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; APRIL; SEPTEMBER; OCTOBER
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Hostas / Daylilies / Asters — Divide emerging clumps ✄ Emerging from ground
-  - APRIL: Hostas / Daylilies / Asters — Divide established clumps ✄ —
-  - SEPTEMBER: Aster / Tricyrtis (Toad Lily) / Persicaria — — Beautiful autumn 🌸 additions
-  - OCTOBER: Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems 🌸 for winter interest
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-asters`
+- Botanical name as recorded (unverified): Symphyotrichum novi-belgii
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Aubretia
 
-- Latin name: Aubrieta deltoidea
-- Family: Brassicaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Primula / Wallflower / Aubretia / Iberis — — Blooming🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-aubretia`
+- Botanical name as recorded (unverified): Aubrieta deltoidea
+- Family as recorded (unverified): Brassicaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Borage
 
-- Latin name: Borago officinalis
-- Family: Boraginaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4🌿 —
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3🌿 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-borage`
+- Botanical name as recorded (unverified): Borago officinalis
+- Family as recorded (unverified): Boraginaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Calendula
 
-- Latin name: Calendula officinalis
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: APRIL; JULY; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4🌿 —
-  - JULY: Nasturtium / Calendula (for fall) — Last sow Wk 1🌿 Blooming continuously🌸
-  - AUGUST: Calendula / Pansy / Wallflower (for autumn) — Sow now for 🌿 autumn/spring display —
-  - SEPTEMBER: Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-calendula`
+- Botanical name as recorded (unverified): Calendula officinalis
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Camassia
 
-- Latin name: Camassia quamash
-- Family: Asparagaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: May align with Camas in native list. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-camassia`
+- Botanical name as recorded (unverified): Camassia quamash
+- Family as recorded (unverified): Asparagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Celosia
 
-- Latin name: Celosia argentea
-- Family: Amaranthaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Celosia / Strawflower / Scabiosa Wk 1–2 — —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-celosia`
+- Botanical name as recorded (unverified): Celosia argentea
+- Family as recorded (unverified): Amaranthaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Cleome
 
-- Latin name: Cleome hassleriana
-- Family: Cleomaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; MAY; JULY; AUGUST
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Nicotiana / Cleome Wk 1 — —
-  - MAY: Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2🌍 🌍 —
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; 🌸 deadhead daily ✄
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; 🌸 deadhead aggressively ✄
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cleome`
+- Botanical name as recorded (unverified): Cleome hassleriana
+- Family as recorded (unverified): Cleomaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Cornflower
 
-- Latin name: Centaurea cyanus
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cornflower`
+- Botanical name as recorded (unverified): Centaurea cyanus
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Cosmos
 
-- Latin name: Cosmos bipinnatus
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 9
-- Months: MARCH; MAY; JUNE; JULY; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Zinnia / Cosmos Wk 3 — —
-  - MAY: Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2🌍 🌍 —
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3🌿 —
-  - JUNE: Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; 🌸 deadhead ✄
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; 🌸 deadhead daily ✄
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; 🌸 deadhead aggressively ✄
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy 🌸 the last of summer
-  - SEPTEMBER: Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cosmos`
+- Botanical name as recorded (unverified): Cosmos bipinnatus
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Crocus
 
-- Latin name: Crocus vernus
-- Family: Iridaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: FEBRUARY; MARCH; OCTOBER; NOVEMBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Snowdrops / early Crocus — — Blooming ❄🌸
-  - MARCH: Daffodils / Crocus / early Tulips — — Blooming — peak 🌸 spring display
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3🍅 —
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant 🍅 Wk 1–2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-crocus`
+- Botanical name as recorded (unverified): Crocus vernus
+- Family as recorded (unverified): Iridaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Daffodil
 
-- Latin name: Narcissus pseudonarcissus
-- Family: Amaryllidaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; OCTOBER; NOVEMBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Daffodils / Crocus / early Tulips — — Blooming — peak 🌸 spring display
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3🍅 —
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant 🍅 Wk 1–2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-daffodil`
+- Botanical name as recorded (unverified): Narcissus pseudonarcissus
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Dahlia
 
-- Latin name: Dahlia pinnata
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: JULY; AUGUST; SEPTEMBER; OCTOBER
-- Sections: BULBS & CORMS; CUT FLOWERS; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JULY: Dahlia (early varieties) — — First dahlias opening🌸
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning
-  - AUGUST: Dahlia — — Peak bloom — 🌸
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy 🌸 the last of summer
-  - OCTOBER: Dahlias — — Lift after first hard frost; dry 2 wks; store cool
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-dahlia`
+- Botanical name as recorded (unverified): Dahlia pinnata
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Daylily
 
-- Latin name: Hemerocallis × hybrida
-- Family: Asphodelaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; APRIL; JULY; SEPTEMBER
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Hostas / Daylilies / Asters — Divide emerging clumps ✄ Emerging from ground
-  - APRIL: Hostas / Daylilies / Asters — Divide established clumps ✄ —
-  - JULY: Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer 🌸 perennials
-  - SEPTEMBER: Iris / Daylily / Hosta (early-spring types) — ✄ Divide Wk 1–3 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-daylily`
+- Botanical name as recorded (unverified): Hemerocallis × hybrida
+- Family as recorded (unverified): Asphodelaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Delphinium
 
-- Latin name: Delphinium elatum
-- Family: Ranunculaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: FEBRUARY
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Delphinium Wk 1 — —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-delphinium`
+- Botanical name as recorded (unverified): Delphinium elatum
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Echinacea
 
-- Latin name: Echinacea purpurea
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: FEBRUARY; JULY; AUGUST
-- Sections: HARDY PERENNIALS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Echinacea (Coneflower) Wk 2 — —
-  - JULY: Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer 🌸 perennials
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning
-  - AUGUST: Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and 🌸 amber tones
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-echinacea`
+- Botanical name as recorded (unverified): Echinacea purpurea
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Gaillardia
 
-- Latin name: Gaillardia aristata
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Gaillardia Wk 2 — —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-gaillardia`
+- Botanical name as recorded (unverified): Gaillardia aristata
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Gladiolus
 
-- Latin name: Gladiolus × hortulanus
-- Family: Iridaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: JULY
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JULY: Oriental / Asiatic Lilies / Gladiolus — — Blooming; stake tall 🌸 varieties
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-gladiolus`
+- Botanical name as recorded (unverified): Gladiolus × hortulanus
+- Family as recorded (unverified): Iridaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Hellebores
 
-- Latin name: Helleborus orientalis
-- Family: Ranunculaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; FEBRUARY; NOVEMBER
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Hellebores (Lenten Rose) — — Blooming outdoors; cut🌸 tatty foliage
-  - FEBRUARY: Hellebores — — Peak bloom outdoors🌸
-  - NOVEMBER: Hellebores (Lenten Rose) — — May begin blooming 🌸 late Nov ❄
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hellebores`
+- Botanical name as recorded (unverified): Helleborus orientalis
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Hyacinth
 
-- Latin name: Hyacinthus orientalis
-- Family: Asparagaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: OCTOBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3🍅 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hyacinth`
+- Botanical name as recorded (unverified): Hyacinthus orientalis
+- Family as recorded (unverified): Asparagaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Hyacinths
 
-- Latin name: Hyacinthus orientalis
-- Family: Asparagaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: OCTOBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3🍅 —
-- Notes: Shared plan uses plural form. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hyacinths`
+- Botanical name as recorded (unverified): Hyacinthus orientalis
+- Family as recorded (unverified): Asparagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Iberis
 
-- Latin name: Iberis sempervirens
-- Family: Brassicaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Primula / Wallflower / Aubretia / Iberis — — Blooming🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-iberis`
+- Botanical name as recorded (unverified): Iberis sempervirens
+- Family as recorded (unverified): Brassicaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Impatiens
 
-- Latin name: Impatiens walleriana
-- Family: Balsaminaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: MARCH; MAY
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Impatiens Wk 1 — —
-  - MAY: Impatiens / Marigolds / Petunias / Begonias — → All frost-tender 🌍 🌍 annuals outdoors Wk 1–2 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-impatiens`
+- Botanical name as recorded (unverified): Impatiens walleriana
+- Family as recorded (unverified): Balsaminaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Iris
 
-- Latin name: Iris × germanica
-- Family: Iridaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 6
-- Months: MAY; JUNE; SEPTEMBER
-- Sections: HARDY PERENNIALS; CUT FLOWERS; BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Aquilegia / Geranium / Lupine / Iris — — Blooming — peak early🌸 perennials
-  - MAY: Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting🌸
-  - JUNE: Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer 🌸 perennials
-  - JUNE: Allium / late Iris / first Lily buds — — Blooming; stake tall 🌸
-  - JUNE: Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; 🌸 harvest in morning
-  - SEPTEMBER: Iris / Daylily / Hosta (early-spring types) — ✄ Divide Wk 1–3 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-iris`
+- Botanical name as recorded (unverified): Iris × germanica
+- Family as recorded (unverified): Iridaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Larkspur
 
-- Latin name: Consolida ajacis
-- Family: Ranunculaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; APRIL
-- Sections: HARDY PERENNIALS; CUT FLOWERS; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Larkspur / Poppy — Direct sow Wk 3–4🌿 —
-  - MARCH: Larkspur — Direct sow outdoors🌿 —
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4🌿 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-larkspur`
+- Botanical name as recorded (unverified): Consolida ajacis
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Lavender
 
-- Latin name: Lavandula angustifolia
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JULY
-- Sections: SHRUBS & TREES (Ornamental); CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JULY: Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer 🌸 display
-  - JULY: Lavender — — ✄ Prune lightly after first flush Wk 2–3
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-lavender`
+- Botanical name as recorded (unverified): Lavandula angustifolia
+- Family as recorded (unverified): Lamiaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Lobelia
 
-- Latin name: Lobelia erinus
-- Family: Campanulaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: JANUARY; JUNE
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Lobelia Late Jan (under lights) — —
-  - JUNE: Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-lobelia`
+- Botanical name as recorded (unverified): Lobelia erinus
+- Family as recorded (unverified): Campanulaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Marigold
 
-- Latin name: Tagetes patula
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: MARCH; MAY; JUNE; JULY; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Marigold Wk 2 — —
-  - MAY: Impatiens / Marigolds / Petunias / Begonias — → All frost-tender 🌍 🌍 annuals outdoors Wk 1–2 —
-  - JUNE: Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming🌸
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; 🌸 deadhead daily ✄
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; 🌸 deadhead aggressively ✄
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy 🌸 the last of summer
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-marigold`
+- Botanical name as recorded (unverified): Tagetes patula
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Muscari
 
-- Latin name: Muscari armeniacum
-- Family: Asparagaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: OCTOBER; NOVEMBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3🍅 —
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant 🍅 Wk 1–2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-muscari`
+- Botanical name as recorded (unverified): Muscari armeniacum
+- Family as recorded (unverified): Asparagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Nasturtium
 
-- Latin name: Tropaeolum majus
-- Family: Tropaeolaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MAY; JUNE; JULY; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3🌿 —
-  - JUNE: Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; 🌸 deadhead ✄
-  - JULY: Nasturtium / Calendula (for fall) — Last sow Wk 1🌿 Blooming continuously🌸
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy 🌸 the last of summer
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-nasturtium`
+- Botanical name as recorded (unverified): Tropaeolum majus
+- Family as recorded (unverified): Tropaeolaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Nicotiana
 
-- Latin name: Nicotiana alata
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; MAY; JULY; AUGUST
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Nicotiana / Cleome Wk 1 — —
-  - MAY: Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2🌍 🌍 —
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; 🌸 deadhead daily ✄
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; 🌸 deadhead aggressively ✄
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-nicotiana`
+- Botanical name as recorded (unverified): Nicotiana alata
+- Family as recorded (unverified): Solanaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Nigella
 
-- Latin name: Nigella damascena
-- Family: Ranunculaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4🌿 —
-  - SEPTEMBER: Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-nigella`
+- Botanical name as recorded (unverified): Nigella damascena
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Orlaya
 
-- Latin name: Orlaya grandiflora
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-orlaya`
+- Botanical name as recorded (unverified): Orlaya grandiflora
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Pansy
 
-- Latin name: Viola × wittrockiana
-- Family: Violaceae
-- Life cycle: Annual
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 3
-- Months: APRIL; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Snapdragons / Pansies / Stocks — → Transplant cold-🌍 🌍 tolerant after Apr 15 —
-  - AUGUST: Calendula / Pansy / Wallflower (for autumn) — Sow now for 🌿 autumn/spring display —
-  - SEPTEMBER: Winter Pansy / Wallflower — Sow outdoors Wk 1–2🌿 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-pansy`
+- Botanical name as recorded (unverified): Viola × wittrockiana
+- Family as recorded (unverified): Violaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Peony
 
-- Latin name: Paeonia lactiflora
-- Family: Paeoniaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-peony`
+- Botanical name as recorded (unverified): Paeonia lactiflora
+- Family as recorded (unverified): Paeoniaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Petunias
 
-- Latin name: Petunia × atkinsiana
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; MAY; JUNE
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Petunias Late Jan (under lights) — —
-  - MAY: Impatiens / Marigolds / Petunias / Begonias — → All frost-tender 🌍 🌍 annuals outdoors Wk 1–2 —
-  - JUNE: Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-petunias`
+- Botanical name as recorded (unverified): Petunia × atkinsiana
+- Family as recorded (unverified): Solanaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Poppy
 
-- Latin name: Papaver rhoeas
-- Family: Papaveraceae
-- Life cycle: Annual
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 2
-- Months: MARCH; APRIL
-- Sections: HARDY PERENNIALS; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Larkspur / Poppy — Direct sow Wk 3–4🌿 —
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4🌿 —
-- Notes: Species ambiguity pending. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-poppy`
+- Botanical name as recorded (unverified): Papaver rhoeas
+- Family as recorded (unverified): Papaveraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Primula
 
-- Latin name: Primula vulgaris
-- Family: Primulaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Primula / Wallflower / Aubretia / Iberis — — Blooming🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-primula`
+- Botanical name as recorded (unverified): Primula vulgaris
+- Family as recorded (unverified): Primulaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Rudbeckia
 
-- Latin name: Rudbeckia hirta
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: MARCH; JULY; AUGUST; SEPTEMBER; OCTOBER
-- Sections: HARDY PERENNIALS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Coneflower / Rudbeckia Wk 1 — —
-  - JULY: Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer 🌸 perennials
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning
-  - AUGUST: Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and 🌸 amber tones
-  - SEPTEMBER: Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn 🌸 perennials
-  - OCTOBER: Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of🌸 the season
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-rudbeckia`
+- Botanical name as recorded (unverified): Rudbeckia hirta
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Salvia nemorosa
 
-- Latin name: Salvia nemorosa
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: FEBRUARY; JUNE
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Salvia nemorosa Wk 2 — —
-  - JUNE: Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer 🌸 perennials
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-salvia-nemorosa`
+- Botanical name as recorded (unverified): Salvia nemorosa
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Scabiosa
 
-- Latin name: Scabiosa atropurpurea
-- Family: Caprifoliaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Celosia / Strawflower / Scabiosa Wk 1–2 — —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-scabiosa`
+- Botanical name as recorded (unverified): Scabiosa atropurpurea
+- Family as recorded (unverified): Caprifoliaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Snapdragons
 
-- Latin name: Antirrhinum majus
-- Family: Plantaginaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; APRIL; JUNE
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Snapdragons Late Jan (under lights) — —
-  - APRIL: Snapdragons / Pansies / Stocks — → Transplant cold-🌍 🌍 tolerant after Apr 15 —
-  - JUNE: Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-snapdragons`
+- Botanical name as recorded (unverified): Antirrhinum majus
+- Family as recorded (unverified): Plantaginaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Snowdrops
 
-- Latin name: Galanthus nivalis
-- Family: Amaryllidaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: JANUARY; FEBRUARY
-- Sections: HARDY PERENNIALS; BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Snowdrops (Galanthus) — — Blooming; divide after 🌸 bloom if congested
-  - JANUARY: Snowdrops (Galanthus) — — Blooming outdoors ❄🌸
-  - FEBRUARY: Snowdrops — Divide "in the green" now Blooming — divide 🌸 congested clumps
-  - FEBRUARY: Snowdrops / early Crocus — — Blooming ❄🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-snowdrops`
+- Botanical name as recorded (unverified): Galanthus nivalis
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Statice
 
-- Latin name: Limonium sinuatum
-- Family: Plumbaginaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: FEBRUARY; NOVEMBER
-- Sections: CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Statice Wk 2 — —
-  - NOVEMBER: Dried everlastings (Strawflower, Statice) — — Use dried flower store from summer
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-statice`
+- Botanical name as recorded (unverified): Limonium sinuatum
+- Family as recorded (unverified): Plumbaginaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Stocks
 
-- Latin name: Matthiola incana
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Snapdragons / Pansies / Stocks — → Transplant cold-🌍 🌍 tolerant after Apr 15 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-stocks`
+- Botanical name as recorded (unverified): Matthiola incana
+- Family as recorded (unverified): Brassicaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Strawflower
 
-- Latin name: Xerochrysum bracteatum
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Celosia / Strawflower / Scabiosa Wk 1–2 — —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-strawflower`
+- Botanical name as recorded (unverified): Xerochrysum bracteatum
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Sunflower
 
-- Latin name: Helianthus annuus
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MAY; JULY; AUGUST
-- Sections: LEGUMES & GRAINS; ANNUAL FLOWERS; CUT FLOWERS
-- Page types: edibles; ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Corn / Sunflower — Direct sow Wk 3–4🌿 —
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3🌿 —
-  - MAY: Sunflower — Direct sow Wk 1–2🌿 —
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning
-  - AUGUST: Sunflower / Corn — — Sunflower heads 🌾 mature; corn harvest late Aug
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sunflower`
+- Botanical name as recorded (unverified): Helianthus annuus
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Sweet Pea
 
-- Latin name: Lathyrus odoratus
-- Family: Fabaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 8
-- Months: MARCH; APRIL; MAY; JUNE; JULY
-- Sections: ANNUAL FLOWERS; CLIMBING VINES; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Sweet Peas — Direct sow outdoors 🌿 Wk 3–4 —
-  - APRIL: Sweet Peas — Direct sow Wk 1–2🌿 —
-  - APRIL: Sweet Peas — → Transplant 🌍 🌍 outdoors Wk 3–4 —
-  - MAY: Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting🌸
-  - JUNE: Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet 🌸
-  - JUNE: Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; 🌸 harvest in morning
-  - JULY: Sweet Pea — — Peak — harvest every 🌸 day to extend
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sweet-pea`
+- Botanical name as recorded (unverified): Lathyrus odoratus
+- Family as recorded (unverified): Fabaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Tulip
 
-- Latin name: Tulipa gesneriana
-- Family: Liliaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; OCTOBER; NOVEMBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Daffodils / Crocus / early Tulips — — Blooming — peak 🌸 spring display
-  - OCTOBER: Tulips — Plant Wk 3–4 (late 🍅 planting reduces tulip fire) —
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant 🍅 Wk 1–2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-tulip`
+- Botanical name as recorded (unverified): Tulipa gesneriana
+- Family as recorded (unverified): Liliaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Wallflower
 
-- Latin name: Erysimum cheiri
-- Family: Brassicaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: APRIL; AUGUST; SEPTEMBER
-- Sections: HARDY PERENNIALS; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Primula / Wallflower / Aubretia / Iberis — — Blooming🌸
-  - AUGUST: Calendula / Pansy / Wallflower (for autumn) — Sow now for 🌿 autumn/spring display —
-  - SEPTEMBER: Winter Pansy / Wallflower — Sow outdoors Wk 1–2🌿 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-wallflower`
+- Botanical name as recorded (unverified): Erysimum cheiri
+- Family as recorded (unverified): Brassicaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Zinnia
 
-- Latin name: Zinnia elegans
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 8
-- Months: MARCH; MAY; JUNE; JULY; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Zinnia / Cosmos Wk 3 — —
-  - MAY: Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2🌍 🌍 —
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3🌿 —
-  - JUNE: Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; 🌸 deadhead ✄
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; 🌸 deadhead daily ✄
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; 🌸 deadhead aggressively ✄
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy 🌸 the last of summer
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-zinnia`
+- Botanical name as recorded (unverified): Zinnia elegans
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Fruit
 
 ### Apple
 
-- Latin name: Malus domestica
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 10
-- Months: JANUARY; FEBRUARY; MARCH; MAY; JUNE; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Apple / Pear / Plum / Cherry — — ✄ Prune dormant trees Jan–Feb
-  - FEBRUARY: Apple / Pear / Plum / Cherry — — ✄ Prune before bud break (Feb)
-  - MARCH: Apple / Pear / Cherry — — Apply dormant oil spray now
-  - MAY: Apple / Pear — — Thin fruitlets late May (June drop)
-  - JUNE: Apple / Pear — — Thin clusters to 1 fruit per spur
-  - SEPTEMBER: Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; 🌾 store carefully
-  - OCTOBER: Apples (late) / Pears / Quince — — Last harvest; store in 🌾 cool dark place
-  - NOVEMBER: Stored apples / pears — — Check monthly; 🌾 remove any rotting fruit
-  - DECEMBER: Stored apples / pears — — Check; remove any rot🌾
-  - DECEMBER: Apple / Pear — — ✄ Dormant pruning Dec–
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-apple`
+- Botanical name as recorded (unverified): Malus domestica
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Blueberries
 
-- Latin name: Vaccinium corymbosum
-- Family: Ericaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; APRIL; MAY; JULY; AUGUST
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Blueberries — — ✄ Prune Mar; apply dormant spray
-  - APRIL: Blueberries / Currants — — New growth beginning; feed now
-  - MAY: Blueberries / Gooseberries — — Flowering; set fruit🌸
-  - JULY: Blueberries (mid-July onward) — — Peak harvest; pick 🌾 daily
-  - AUGUST: Blueberries (peak August) — — Best month for 🌾 blueberries
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-blueberries`
+- Botanical name as recorded (unverified): Vaccinium corymbosum
+- Family as recorded (unverified): Ericaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cherry
 
-- Latin name: Prunus avium
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; FEBRUARY; MARCH
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Apple / Pear / Plum / Cherry — — ✄ Prune dormant trees Jan–Feb
-  - FEBRUARY: Apple / Pear / Plum / Cherry — — ✄ Prune before bud break (Feb)
-  - MARCH: Apple / Pear / Cherry — — Apply dormant oil spray now
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cherry`
+- Botanical name as recorded (unverified): Prunus avium
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Currants
 
-- Latin name: Ribes rubrum
-- Family: Grossulariaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; APRIL; NOVEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable🌿 —
-  - APRIL: Blueberries / Currants — — New growth beginning; feed now
-  - NOVEMBER: Currants / Gooseberries — — ✄ Prune Nov–Feb while dormant
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-currants`
+- Botanical name as recorded (unverified): Ribes rubrum
+- Family as recorded (unverified): Grossulariaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Gooseberries
 
-- Latin name: Ribes uva-crispa
-- Family: Grossulariaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; MAY; JUNE; JULY; NOVEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable🌿 —
-  - MAY: Blueberries / Gooseberries — — Flowering; set fruit🌸
-  - JUNE: Gooseberries — — Ready late June🌾
-  - JULY: Red / White Currants / Gooseberries — — Harvest and preserve🌾 Early Plums / Tayberry /
-  - NOVEMBER: Currants / Gooseberries — — ✄ Prune Nov–Feb while dormant
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-gooseberries`
+- Botanical name as recorded (unverified): Ribes uva-crispa
+- Family as recorded (unverified): Grossulariaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Grapes
 
-- Latin name: Vitis vinifera
-- Family: Vitaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: SEPTEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - SEPTEMBER: Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; 🌾 store carefully
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-grapes`
+- Botanical name as recorded (unverified): Vitis vinifera
+- Family as recorded (unverified): Vitaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Pear
 
-- Latin name: Pyrus communis
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 10
-- Months: JANUARY; FEBRUARY; MARCH; MAY; JUNE; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Apple / Pear / Plum / Cherry — — ✄ Prune dormant trees Jan–Feb
-  - FEBRUARY: Apple / Pear / Plum / Cherry — — ✄ Prune before bud break (Feb)
-  - MARCH: Apple / Pear / Cherry — — Apply dormant oil spray now
-  - MAY: Apple / Pear — — Thin fruitlets late May (June drop)
-  - JUNE: Apple / Pear — — Thin clusters to 1 fruit per spur
-  - SEPTEMBER: Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; 🌾 store carefully
-  - OCTOBER: Apples (late) / Pears / Quince — — Last harvest; store in 🌾 cool dark place
-  - NOVEMBER: Stored apples / pears — — Check monthly; 🌾 remove any rotting fruit
-  - DECEMBER: Stored apples / pears — — Check; remove any rot🌾
-  - DECEMBER: Apple / Pear — — ✄ Dormant pruning Dec–
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-pear`
+- Botanical name as recorded (unverified): Pyrus communis
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Plum
 
-- Latin name: Prunus domestica
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; FEBRUARY; AUGUST
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Apple / Pear / Plum / Cherry — — ✄ Prune dormant trees Jan–Feb
-  - FEBRUARY: Apple / Pear / Plum / Cherry — — ✄ Prune before bud break (Feb)
-  - AUGUST: Raspberries / Blackberries / Plums — — Harvesting 🌾 continuously Early Apples / Pears (late
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-plum`
+- Botanical name as recorded (unverified): Prunus domestica
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Raspberries
 
-- Latin name: Rubus idaeus
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: APRIL; JULY; AUGUST; SEPTEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Raspberries — — ✄ Cut back old canes
-  - JULY: Raspberries (summer- bearing) — — Harvest; remove 🌾 fruited canes after
-  - AUGUST: Raspberries / Blackberries / Plums — — Harvesting 🌾 continuously Early Apples / Pears (late
-  - SEPTEMBER: Fall Raspberries / Blackberries / Everbearing Strawberries — — Harvest before first 🌾 frost
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-raspberries`
+- Botanical name as recorded (unverified): Rubus idaeus
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Strawberries
 
-- Latin name: Fragaria × ananassa
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: FEBRUARY; MARCH; MAY; JUNE
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Strawberries (bare-root) — Late Feb if ground 🌿 workable —
-  - MARCH: Strawberries (from seed) Wk 1 (long season needed) — —
-  - MARCH: Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable🌿 —
-  - MAY: Strawberries — — Flowers forming; 🌸 remove 1st-yr runners' flowers
-  - JUNE: Strawberries — — Full harvest Wk 1–4🌾
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-strawberries`
+- Botanical name as recorded (unverified): Fragaria × ananassa
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ## Herb
 
 ### Basil
 
-- Latin name: Ocimum basilicum
-- Family: Lamiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 7
-- Months: FEBRUARY; MARCH; MAY; JUNE; JULY; SEPTEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Basil Wk 4 (under lights, warm) — —
-  - MARCH: Basil Wk 1–2 (indoors only) — —
-  - MAY: Basil — → Transplant Wk 2 🌍 🌍 (soil must be warm) —
-  - JUNE: Basil — — ✄ Pinch flowers to prolong leaf harvest
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and 🌾 freeze surplus
-  - JULY: Basil — — ✄ Pinch flowers continuously to prevent bolt
-  - SEPTEMBER: Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-basil`
+- Botanical name as recorded (unverified): Ocimum basilicum
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Chervil
 
-- Latin name: Anthriscus cerefolium
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; JUNE
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4🌿 —
-  - JUNE: Chives / Parsley / Dill / Chervil — — Harvest freely; dry or 🌾 freeze surplus
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-chervil`
+- Botanical name as recorded (unverified): Anthriscus cerefolium
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Chives
 
-- Latin name: Allium schoenoprasum
-- Family: Amaryllidaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: FEBRUARY; APRIL; JUNE; SEPTEMBER; OCTOBER; NOVEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Chives Wk 1–2 — —
-  - APRIL: Chives / Parsley (starts) — → Transplant Wk 3–4🌍 🌍 —
-  - JUNE: Chives / Parsley / Dill / Chervil — — Harvest freely; dry or 🌾 freeze surplus
-  - SEPTEMBER: Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze
-  - OCTOBER: Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze
-  - NOVEMBER: Parsley / Chives / Rosemary — — Harvest from 🌾 protected plants
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-chives`
+- Botanical name as recorded (unverified): Allium schoenoprasum
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cilantro
 
-- Latin name: Coriandrum sativum
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; APRIL; MAY; JUNE; JULY
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Cilantro — Direct sow late Mar🌿 —
-  - APRIL: Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4🌿 —
-  - MAY: Dill / Cilantro / Fennel — Succession direct sow🌿 —
-  - JUNE: Cilantro (before bolt) — — Harvest now — bolts 🌾 fast in heat
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and 🌾 freeze surplus
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cilantro`
+- Botanical name as recorded (unverified): Coriandrum sativum
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Dill
 
-- Latin name: Anethum graveolens
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: MARCH; APRIL; MAY; JUNE; JULY; AUGUST
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Dill Wk 1–2 Late Mar direct sow OK🌿 —
-  - APRIL: Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4🌿 —
-  - MAY: Dill / Cilantro / Fennel — Succession direct sow🌿 —
-  - JUNE: Chives / Parsley / Dill / Chervil — — Harvest freely; dry or 🌾 freeze surplus
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and 🌾 freeze surplus
-  - AUGUST: Dill / Cilantro seeds — — Save seeds as they dry on plant
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-dill`
+- Botanical name as recorded (unverified): Anethum graveolens
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Fennel
 
-- Latin name: Foeniculum vulgare
-- Family: Apiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4🌿 —
-  - MAY: Dill / Cilantro / Fennel — Succession direct sow🌿 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-fennel`
+- Botanical name as recorded (unverified): Foeniculum vulgare
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Oregano
 
-- Latin name: Origanum vulgare
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: MAY; JULY
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Rosemary / Thyme / Oregano — → Transplant now🌍 🌍 —
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and 🌾 freeze surplus
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-oregano`
+- Botanical name as recorded (unverified): Origanum vulgare
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Parsley
 
-- Latin name: Petroselinum crispum
-- Family: Apiaceae
-- Life cycle: Biennial, often grown as an annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 8
-- Months: FEBRUARY; APRIL; JUNE; JULY; SEPTEMBER; OCTOBER; NOVEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Parsley Wk 1–2 (slow germinator) — —
-  - APRIL: Chives / Parsley (starts) — → Transplant Wk 3–4🌍 🌍 —
-  - JUNE: Chives / Parsley / Dill / Chervil — — Harvest freely; dry or 🌾 freeze surplus
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and 🌾 freeze surplus
-  - SEPTEMBER: Parsley (for spring) — Sow Wk 1🌿 —
-  - SEPTEMBER: Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze
-  - OCTOBER: Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze
-  - NOVEMBER: Parsley / Chives / Rosemary — — Harvest from 🌾 protected plants
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-parsley`
+- Botanical name as recorded (unverified): Petroselinum crispum
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Rosemary
 
-- Latin name: Salvia rosmarinus
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MAY; OCTOBER; NOVEMBER; DECEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Rosemary / Thyme / Oregano — → Transplant now🌍 🌍 —
-  - OCTOBER: Rosemary (exposed sites) — — Mulch base if in 🌲 exposed location ❄
-  - NOVEMBER: Parsley / Chives / Rosemary — — Harvest from 🌾 protected plants
-  - DECEMBER: Rosemary / Sage / Thyme — — Frost-hardy; harvest in🌾 mild spells
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-rosemary`
+- Botanical name as recorded (unverified): Salvia rosmarinus
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Thyme
 
-- Latin name: Thymus vulgaris
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MAY; JULY; NOVEMBER; DECEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Rosemary / Thyme / Oregano — → Transplant now🌍 🌍 —
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and 🌾 freeze surplus
-  - NOVEMBER: Sage / Thyme — — Light harvest; thyme: 🌾 mulch crowns in exposed sites
-  - DECEMBER: Rosemary / Sage / Thyme — — Frost-hardy; harvest in🌾 mild spells
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-thyme`
+- Botanical name as recorded (unverified): Thymus vulgaris
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Native
 
 ### Bleeding Heart
 
-- Latin name: Dicentra formosa
-- Family: Papaveraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - APRIL: Bleeding Heart (Dicentra) / Pacific Trillium — — Blooming in shaded 🌸 spots
-  - MAY: Camas / Bleeding Heart / Nootka Rose / Bunchberry — — Blooming — peak 🌸 native season
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-bleeding-heart`
+- Botanical name as recorded (unverified): Dicentra formosa
+- Family as recorded (unverified): Papaveraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Camas
 
-- Latin name: Camassia quamash
-- Family: Asparagaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - APRIL: Camas (Camassia) — — Beginning to bloom🌸
-  - MAY: Camas / Bleeding Heart / Nootka Rose / Bunchberry — — Blooming — peak 🌸 native season
-- Notes: May align with Camassia in bulb list. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-camas`
+- Botanical name as recorded (unverified): Camassia quamash
+- Family as recorded (unverified): Asparagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Osoberry
 
-- Latin name: Oemleria cerasiformis
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: JANUARY; MARCH
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - JANUARY: Osoberry (Oemleria) — — Buds beginning to swell; earliest native
-  - MARCH: Osoberry / Trillium — — Emerging — do not 🌸 pick Trillium
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-osoberry`
+- Botanical name as recorded (unverified): Oemleria cerasiformis
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Red-flowering Currant
 
-- Latin name: Ribes sanguineum
-- Family: Grossulariaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: FEBRUARY; MARCH
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - FEBRUARY: Red Flowering Currant (Ribes) — — Buds swelling — bloom coming soon
-  - MARCH: Red Flowering Currant (Ribes) — — Blooming — 🌸 hummingbird magnet
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-red-flowering-currant`
+- Botanical name as recorded (unverified): Ribes sanguineum
+- Family as recorded (unverified): Grossulariaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Sword Fern
 
-- Latin name: Polystichum munitum
-- Family: Dryopteridaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sword-fern`
+- Botanical name as recorded (unverified): Polystichum munitum
+- Family as recorded (unverified): Dryopteridaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Trillium
 
-- Latin name: Trillium ovatum
-- Family: Melanthiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - MARCH: Osoberry / Trillium — — Emerging — do not 🌸 pick Trillium
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-trillium`
+- Botanical name as recorded (unverified): Trillium ovatum
+- Family as recorded (unverified): Melanthiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Ornamental
 
 ### Astilbe
 
-- Latin name: Astilbe × arendsii
-- Family: Saxifragaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-astilbe`
+- Botanical name as recorded (unverified): Astilbe × arendsii
+- Family as recorded (unverified): Saxifragaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Ferns
 
-- Latin name: Fern species / multiple genera
-- Family: Multiple families
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Notes: Group label on source image; may need splitting into species later. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-ferns`
+- Botanical name as recorded (unverified): Fern species / multiple genera
+- Family as recorded (unverified): Multiple families
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Heuchera
 
-- Latin name: Heuchera sanguinea
-- Family: Saxifragaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-heuchera`
+- Botanical name as recorded (unverified): Heuchera sanguinea
+- Family as recorded (unverified): Saxifragaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Hostas
 
-- Latin name: Hosta spp.
-- Family: Asparagaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; APRIL; SEPTEMBER
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Calendar actions:
-  - MARCH: Hostas / Daylilies / Asters — Divide emerging clumps ✄ Emerging from ground
-  - APRIL: Hostas / Daylilies / Asters — Divide established clumps ✄ —
-  - SEPTEMBER: Iris / Daylily / Hosta (early-spring types) — ✄ Divide Wk 1–3 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hostas`
+- Botanical name as recorded (unverified): Hosta spp.
+- Family as recorded (unverified): Asparagaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Ornamental Grasses
 
-- Latin name: Ornamental grass species / multiple genera
-- Family: Poaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Notes: Group label on source image; may need splitting into species later. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-ornamental-grasses`
+- Botanical name as recorded (unverified): Ornamental grass species / multiple genera
+- Family as recorded (unverified): Poaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Sedum
 
-- Latin name: Hylotelephium telephium
-- Family: Crassulaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: SEPTEMBER; OCTOBER
-- Sections: HARDY PERENNIALS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Calendar actions:
-  - SEPTEMBER: Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn 🌸 perennials
-  - OCTOBER: Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems 🌸 for winter interest
-  - OCTOBER: Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of🌸 the season
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sedum`
+- Botanical name as recorded (unverified): Hylotelephium telephium
+- Family as recorded (unverified): Crassulaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Perennial-Edible
 
 ### Globe Artichoke
 
-- Latin name: Cynara cardunculus var. scolymus
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: FEBRUARY
-- Sections: PERENNIAL EDIBLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Globe Artichoke Wk 3–4 (needs vernalisation) — —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-globe-artichoke`
+- Botanical name as recorded (unverified): Cynara cardunculus var. scolymus
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Rhubarb
 
-- Latin name: Rheum × hybridum
-- Family: Polygonaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 11
-- Months: JANUARY; FEBRUARY; MARCH; APRIL; MAY; JUNE; JULY; AUGUST; OCTOBER; NOVEMBER; DECEMBER
-- Sections: PERENNIAL EDIBLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Rhubarb — — Fully dormant ❄
-  - FEBRUARY: Rhubarb — — Crown tips may appear — leave
-  - MARCH: Rhubarb — — Emerging — do not harvest 1st yr
-  - APRIL: Rhubarb — — Harvest begins Wk 3–4🌾
-  - MAY: Rhubarb — — Harvest stalks; leave 🌾 some leaves
-  - JUNE: Rhubarb — — Last harvest Wk 1–2; 🌾 leave plant to rest
-  - JULY: Rhubarb / Asparagus — — Do NOT harvest; let plants build energy
-  - AUGUST: Rhubarb / Asparagus — — Resting; asparagus fern — leave standing
-  - OCTOBER: Rhubarb — Divide Wk 1–2 —
-  - NOVEMBER: Rhubarb — — Dormant; do not disturb
-  - DECEMBER: Rhubarb — — Fully dormant. Force under upturned pot for
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-rhubarb`
+- Botanical name as recorded (unverified): Rheum × hybridum
+- Family as recorded (unverified): Polygonaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ## Shrub-Tree
 
 ### Azalea
 
-- Latin name: Rhododendron spp.
-- Family: Ericaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring 🌸 display
-  - MAY: Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-azalea`
+- Botanical name as recorded (unverified): Rhododendron spp.
+- Family as recorded (unverified): Ericaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Buddleja
 
-- Latin name: Buddleja davidii
-- Family: Scrophulariaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: JANUARY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Buddleja / Hydrangea paniculata — — ✄ Prune hard Jan–Feb
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-buddleja`
+- Botanical name as recorded (unverified): Buddleja davidii
+- Family as recorded (unverified): Scrophulariaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Camellia
 
-- Latin name: Camellia japonica
-- Family: Theaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring 🌸 display
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-camellia`
+- Botanical name as recorded (unverified): Camellia japonica
+- Family as recorded (unverified): Theaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Deutzia
 
-- Latin name: Deutzia gracilis
-- Family: Hydrangeaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-deutzia`
+- Botanical name as recorded (unverified): Deutzia gracilis
+- Family as recorded (unverified): Hydrangeaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Forsythia
 
-- Latin name: Forsythia × intermedia
-- Family: Oleaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: FEBRUARY; MARCH; MAY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Forsythia — — Buds swelling; bloom imminent
-  - MARCH: Forsythia / Pieris — — Blooming🌸
-  - MAY: Forsythia / Kerria / Ribes (spring-blooming) — — ✄ Prune after bloom finishes
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-forsythia`
+- Botanical name as recorded (unverified): Forsythia × intermedia
+- Family as recorded (unverified): Oleaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Garry Oak
 
-- Latin name: Quercus garryana
-- Family: Fagaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Garry Oak — — Leafing out; catkins dropping
-- Notes: Also appears in native list and may need cross-linking. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-garry-oak`
+- Botanical name as recorded (unverified): Quercus garryana
+- Family as recorded (unverified): Fagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Hydrangea paniculata
 
-- Latin name: Hydrangea paniculata
-- Family: Hydrangeaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: JANUARY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Buddleja / Hydrangea paniculata — — ✄ Prune hard Jan–Feb
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hydrangea-paniculata`
+- Botanical name as recorded (unverified): Hydrangea paniculata
+- Family as recorded (unverified): Hydrangeaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Kerria
 
-- Latin name: Kerria japonica
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Spring-flowering shrubs (Forsythia, Kerria) — — ✄ Prune AFTER bloom; feed roses
-  - MAY: Forsythia / Kerria / Ribes (spring-blooming) — — ✄ Prune after bloom finishes
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-kerria`
+- Botanical name as recorded (unverified): Kerria japonica
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Magnolia
 
-- Latin name: Magnolia stellata
-- Family: Magnoliaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring 🌸 display
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-magnolia`
+- Botanical name as recorded (unverified): Magnolia stellata
+- Family as recorded (unverified): Magnoliaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Philadelphus
 
-- Latin name: Philadelphus coronarius
-- Family: Hydrangeaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: JUNE
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JUNE: Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — 🌸 glorious
-  - JUNE: Philadelphus / Weigela — — ✄ Prune after bloom finishes (late June)
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-philadelphus`
+- Botanical name as recorded (unverified): Philadelphus coronarius
+- Family as recorded (unverified): Hydrangeaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Pieris
 
-- Latin name: Pieris japonica
-- Family: Ericaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Forsythia / Pieris — — Blooming🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-pieris`
+- Botanical name as recorded (unverified): Pieris japonica
+- Family as recorded (unverified): Ericaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Rhododendron
 
-- Latin name: Rhododendron spp.
-- Family: Ericaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring 🌸 display
-  - MAY: Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-rhododendron`
+- Botanical name as recorded (unverified): Rhododendron spp.
+- Family as recorded (unverified): Ericaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Roses
 
-- Latin name: Rosa spp.
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 8
-- Months: FEBRUARY; JUNE; JULY; AUGUST; SEPTEMBER
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Roses — — ✄ Light prune late Feb
-  - JUNE: Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — 🌸 glorious
-  - JULY: Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer 🌸 display
-  - JULY: Roses — — ✄ Deadhead continuously for repeat bloom
-  - AUGUST: Hydrangea (all types) / Roses (second flush) / Fuchsia — — Late summer shrub 🌸 peak
-  - AUGUST: Roses — — ✄ Deadhead; do NOT feed after Aug
-  - SEPTEMBER: Hydrangea / Caryopteris / Perovskia / late Roses — — Beautiful autumn 🌸 colour
-  - SEPTEMBER: Roses / shrubs (general) — — Do NOT prune — leave until spring
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-roses`
+- Botanical name as recorded (unverified): Rosa spp.
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Spiraea
 
-- Latin name: Spiraea japonica
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-spiraea`
+- Botanical name as recorded (unverified): Spiraea japonica
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Witch Hazel
 
-- Latin name: Hamamelis virginiana
-- Family: Hamamelidaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; FEBRUARY; DECEMBER
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Witch Hazel (Hamamelis) — — Blooming — fragrant 🌸 winter display
-  - FEBRUARY: Witch Hazel (Hamamelis) — — Blooming — fragrant in🌸 mild spells
-  - DECEMBER: Witch Hazel (Hamamelis) — — Buds swelling; first spidery blooms soon
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-witch-hazel`
+- Botanical name as recorded (unverified): Hamamelis virginiana
+- Family as recorded (unverified): Hamamelidaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Vegetable
 
 ### Arugula
 
-- Latin name: Eruca vesicaria subsp. sativa
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: MARCH; SEPTEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Radish / Arugula / Mâche — Wk 3–4 (under fleece)🌿 —
-  - SEPTEMBER: Spinach / Pak Choi / Arugula — Direct sow Wk 1–3🌿 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-arugula`
+- Botanical name as recorded (unverified): Eruca vesicaria subsp. sativa
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Asparagus
 
-- Latin name: Asparagus officinalis
-- Family: Asparagaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 9
-- Months: JANUARY; FEBRUARY; APRIL; MAY; JUNE; JULY; AUGUST; OCTOBER; NOVEMBER
-- Sections: PERENNIAL EDIBLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Asparagus — — Fully dormant ❄
-  - FEBRUARY: Asparagus — — Still dormant ❄
-  - APRIL: Asparagus — — Harvest begins Wk 3–4🌾
-  - MAY: Asparagus — — Full harvest — pick 🌾 daily
-  - JUNE: Asparagus — — ✄ Stop harvesting Wk 1– 2; allow fern growth
-  - JULY: Rhubarb / Asparagus — — Do NOT harvest; let plants build energy
-  - AUGUST: Rhubarb / Asparagus — — Resting; asparagus fern — leave standing
-  - OCTOBER: Asparagus — — Mulch with straw Wk 🌲 3–4
-  - NOVEMBER: Asparagus — — Mulch with straw; 🌲 leave ferns standing
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-asparagus`
+- Botanical name as recorded (unverified): Asparagus officinalis
+- Family as recorded (unverified): Asparagaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Beans
 
-- Latin name: Phaseolus vulgaris
-- Family: Fabaceae
-- Life cycle: Annual
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 3
-- Months: JULY; AUGUST
-- Sections: VEGETABLES; LEGUMES & GRAINS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JULY: Beans (for fall) / Lettuce (bolt-resistant) — Succession Wk 1–2 🌿 only —
-  - JULY: Peas / Beans / Zucchini / Cucumber — — Full harvest swing🌾
-  - AUGUST: Beans (full harvest) — — Leave some pods to 🌾 dry for seed/storage
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-beans`
+- Botanical name as recorded (unverified): Phaseolus vulgaris
+- Family as recorded (unverified): Fabaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Beets
 
-- Latin name: Beta vulgaris
-- Family: Amaranthaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 13
-- Months: JANUARY; APRIL; MAY; JUNE; JULY; AUGUST; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: ROOTS & TUBERS; VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Potatoes / Carrots / Beets — — Check cold storage; remove rot
-  - APRIL: Carrots / Beets (succession) — Direct sow Wk 3–4🌿 —
-  - MAY: Beets / Carrots / Lettuce / Chard / Kale — Succession sow Wk 1–🌿 4 —
-  - MAY: Carrots / Beets / Parsnips — Succession sow🌿 —
-  - JUNE: Carrots / Beets (last sow for fall) — Last main sow Wk 1–2🌿 — Early new potatoes — — Check Wk 3–4 if 🌾 planted late March
-  - JULY: Beets / Carrots / Kale / Chard — Wk 1–2 (last chance 🌿 for Kale/Chard) —
-  - JULY: Carrots / Beets / Turnips — Last chance Wk 1 only🌿 Harvest new potatoes🌾
-  - AUGUST: Potatoes / Carrots / Beets — — Harvest and store🌾
-  - SEPTEMBER: Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest🌾
-  - OCTOBER: Beets / Carrots / Parsnips — — Harvest; store in damp🌾 sand
-  - OCTOBER: Carrots / Beets — — Harvest and store in 🌾 damp sand
-  - NOVEMBER: Parsnips / Carrots / Beets — — Harvest from storage 🌾 or mulched ground
-  - DECEMBER: Parsnips / Carrots / Beets / Celeriac — — Harvest from storage 🌾 or mulched ground
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-beets`
+- Botanical name as recorded (unverified): Beta vulgaris
+- Family as recorded (unverified): Amaranthaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Bell Pepper
 
-- Latin name: Capsicum annuum
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-bell-pepper`
+- Botanical name as recorded (unverified): Capsicum annuum
+- Family as recorded (unverified): Solanaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Broccoli
 
-- Latin name: Brassica oleracea var. italica
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: MARCH; SEPTEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Broccoli / Cauliflower / Cabbage Wk 1 — —
-  - SEPTEMBER: Broccoli / Kale (starts to protected beds) — → Transplant Wk 1–2🌍 🌍 —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-broccoli`
+- Botanical name as recorded (unverified): Brassica oleracea var. italica
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Brussels Sprouts
 
-- Latin name: Brassica oleracea var. gemmifera
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; OCTOBER; NOVEMBER; DECEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Brussels Sprouts Wk 1–2 — —
-  - OCTOBER: Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac — — Continue harvesting; 🌾 improve with frost
-  - NOVEMBER: Brussels Sprouts — — Better after frost — 🌾 sweeter flavour
-  - DECEMBER: Brussels Sprouts — — Best now — frost 🌾 improves flavour greatly
-- Notes: Normalized from image spelling. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-brussels-sprouts`
+- Botanical name as recorded (unverified): Brassica oleracea var. gemmifera
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cabbage
 
-- Latin name: Brassica oleracea var. capitata
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Broccoli / Cauliflower / Cabbage Wk 1 — —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cabbage`
+- Botanical name as recorded (unverified): Brassica oleracea var. capitata
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Cantaloupe
 
-- Latin name: Cucumis melo
-- Family: Cucurbitaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cantaloupe`
+- Botanical name as recorded (unverified): Cucumis melo
+- Family as recorded (unverified): Cucurbitaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Carrots
 
-- Latin name: Daucus carota subsp. sativus
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 14
-- Months: JANUARY; MARCH; APRIL; MAY; JUNE; JULY; AUGUST; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: ROOTS & TUBERS; VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Potatoes / Carrots / Beets — — Check cold storage; remove rot
-  - MARCH: Carrots — Wk 3–4 under fleece🌿 —
-  - APRIL: Carrots / Beets (succession) — Direct sow Wk 3–4🌿 —
-  - MAY: Beets / Carrots / Lettuce / Chard / Kale — Succession sow Wk 1–🌿 4 —
-  - MAY: Carrots / Beets / Parsnips — Succession sow🌿 —
-  - JUNE: Carrots / Beets (last sow for fall) — Last main sow Wk 1–2🌿 — Early new potatoes — — Check Wk 3–4 if 🌾 planted late March
-  - JULY: Beets / Carrots / Kale / Chard — Wk 1–2 (last chance 🌿 for Kale/Chard) —
-  - JULY: Carrots / Beets / Turnips — Last chance Wk 1 only🌿 Harvest new potatoes🌾
-  - AUGUST: Potatoes / Carrots / Beets — — Harvest and store🌾
-  - SEPTEMBER: Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest🌾
-  - OCTOBER: Beets / Carrots / Parsnips — — Harvest; store in damp🌾 sand
-  - OCTOBER: Carrots / Beets — — Harvest and store in 🌾 damp sand
-  - NOVEMBER: Parsnips / Carrots / Beets — — Harvest from storage 🌾 or mulched ground
-  - DECEMBER: Parsnips / Carrots / Beets / Celeriac — — Harvest from storage 🌾 or mulched ground
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-carrots`
+- Botanical name as recorded (unverified): Daucus carota subsp. sativus
+- Family as recorded (unverified): Apiaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cauliflower
 
-- Latin name: Brassica oleracea var. botrytis
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Broccoli / Cauliflower / Cabbage Wk 1 — —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cauliflower`
+- Botanical name as recorded (unverified): Brassica oleracea var. botrytis
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Celery
 
-- Latin name: Apium graveolens var. dulce
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: FEBRUARY
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - FEBRUARY: Celery / Celeriac Wk 1 (16 wks to transplant) — —
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-celery`
+- Botanical name as recorded (unverified): Apium graveolens var. dulce
+- Family as recorded (unverified): Apiaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Corn
 
-- Latin name: Zea mays
-- Family: Poaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MAY; AUGUST; SEPTEMBER
-- Sections: VEGETABLES; LEGUMES & GRAINS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MAY: Corn — Direct sow Wk 3–4🌿 —
-  - MAY: Corn / Sunflower — Direct sow Wk 3–4🌿 —
-  - AUGUST: Sunflower / Corn — — Sunflower heads 🌾 mature; corn harvest late Aug
-  - SEPTEMBER: Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost 🌾 (squash by end Sep)
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-corn`
+- Botanical name as recorded (unverified): Zea mays
+- Family as recorded (unverified): Poaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cucumber
 
-- Latin name: Cucumis sativus
-- Family: Cucurbitaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MAY; JULY; SEPTEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MAY: Cucumber / Zucchini / Squash — → Transplant Wk 2–3🌍 🌍 —
-  - JULY: Peas / Beans / Zucchini / Cucumber — — Full harvest swing🌾
-  - SEPTEMBER: Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost 🌾 (squash by end Sep)
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cucumber`
+- Botanical name as recorded (unverified): Cucumis sativus
+- Family as recorded (unverified): Cucurbitaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Eggplant
 
-- Latin name: Solanum melongena
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: FEBRUARY; MAY; SEPTEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - FEBRUARY: Eggplant (early) Wk 4 — —
-  - MAY: Peppers / Eggplant — → Transplant Wk 1–2🌍 🌍 —
-  - SEPTEMBER: Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost 🌾 (squash by end Sep)
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-eggplant`
+- Botanical name as recorded (unverified): Solanum melongena
+- Family as recorded (unverified): Solanaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Garlic
 
-- Latin name: Allium sativum
-- Family: Amaryllidaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: JANUARY; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: VEGETABLES; PERENNIAL EDIBLES; ROOTS & TUBERS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Garlic (overwintering) — — ❄ Mulch in place; overwintering
-  - SEPTEMBER: Garlic — Plant Wk 3–4 (ideal 🍅 window) —
-  - OCTOBER: Garlic — Plant Wk 1–3 (last 🍅 good window) —
-  - NOVEMBER: Garlic (last call) — Plant Wk 1 if not yet 🍅 done —
-  - DECEMBER: Garlic (overwintering) — — Overwintering underground — nothing to do ❄
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-garlic`
+- Botanical name as recorded (unverified): Allium sativum
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Kohlrabi
 
-- Latin name: Brassica oleracea var. gongylodes
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-kohlrabi`
+- Botanical name as recorded (unverified): Brassica oleracea var. gongylodes
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Leeks
 
-- Latin name: Allium ampeloprasum
-- Family: Amaryllidaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: FEBRUARY; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - FEBRUARY: Leeks Wk 1–2 — —
-  - SEPTEMBER: Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest🌾
-  - OCTOBER: Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac — — Continue harvesting; 🌾 improve with frost
-  - NOVEMBER: Leeks — — Continue harvesting 🌾 through winter
-  - DECEMBER: Leeks / Chard (under cover) — — Harvest as needed ❄🌾 Mâche / Claytonia / Winter
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-leeks`
+- Botanical name as recorded (unverified): Allium ampeloprasum
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Lettuce
 
-- Latin name: Lactuca sativa
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; MAY; JULY; SEPTEMBER; NOVEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Lettuce / Spinach Wk 1 (indoors) Wk 3–4 under cloche ❄🌿 —
-  - MAY: Beets / Carrots / Lettuce / Chard / Kale — Succession sow Wk 1–🌿 4 —
-  - JULY: Beans (for fall) / Lettuce (bolt-resistant) — Succession Wk 1–2 🌿 only —
-  - SEPTEMBER: Winter Lettuce / Mâche / Corn Salad — Direct sow under cover🌿 Wk 1–2 —
-  - NOVEMBER: Winter Spinach / Claytonia / Overwintering Lettuce — — Harvest under cover 🌾 only ❄
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-lettuce`
+- Botanical name as recorded (unverified): Lactuca sativa
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Melons
 
-- Latin name: Cucumis melo
-- Family: Cucurbitaceae
-- Life cycle: Annual
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-melons`
+- Botanical name as recorded (unverified): Cucumis melo
+- Family as recorded (unverified): Cucurbitaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Okra
 
-- Latin name: Abelmoschus esculentus
-- Family: Malvaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-okra`
+- Botanical name as recorded (unverified): Abelmoschus esculentus
+- Family as recorded (unverified): Malvaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Parsnips
 
-- Latin name: Pastinaca sativa
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 9
-- Months: MARCH; MAY; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: ROOTS & TUBERS; VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Parsnips — Wk 3–4 (needs warm 🌿 soil) —
-  - MAY: Carrots / Beets / Parsnips — Succession sow🌿 —
-  - SEPTEMBER: Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest🌾
-  - OCTOBER: Beets / Carrots / Parsnips — — Harvest; store in damp🌾 sand
-  - OCTOBER: Parsnips — — Leave some in ground 🌾 — frost sweetens them
-  - NOVEMBER: Parsnips / Turnips / Celeriac — — Harvest or leave 🌾 mulched in ground
-  - NOVEMBER: Parsnips / Carrots / Beets — — Harvest from storage 🌾 or mulched ground
-  - DECEMBER: Parsnips — — Very sweet now — 🌾 best after hard frost
-  - DECEMBER: Parsnips / Carrots / Beets / Celeriac — — Harvest from storage 🌾 or mulched ground
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-parsnips`
+- Botanical name as recorded (unverified): Pastinaca sativa
+- Family as recorded (unverified): Apiaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Peas
 
-- Latin name: Pisum sativum
-- Family: Fabaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; MAY; JULY
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Peas — Wk 3–4 (cold-tolerant) 🌿 —
-  - MAY: Peas (second sowing) — Wk 1–2 for late crop🌿 —
-  - JULY: Peas / Beans / Zucchini / Cucumber — — Full harvest swing🌾
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-peas`
+- Botanical name as recorded (unverified): Pisum sativum
+- Family as recorded (unverified): Fabaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Potatoes
 
-- Latin name: Solanum tuberosum
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: JANUARY; AUGUST
-- Sections: ROOTS & TUBERS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Potatoes / Carrots / Beets — — Check cold storage; remove rot
-  - AUGUST: Potatoes / Carrots / Beets — — Harvest and store🌾
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-potatoes`
+- Botanical name as recorded (unverified): Solanum tuberosum
+- Family as recorded (unverified): Solanaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Spinach
 
-- Latin name: Spinacia oleracea
-- Family: Amaranthaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Lettuce / Spinach Wk 1 (indoors) Wk 3–4 under cloche ❄🌿 —
-  - SEPTEMBER: Spinach / Pak Choi / Arugula — Direct sow Wk 1–3🌿 —
-  - OCTOBER: Mâche / Claytonia / Winter Spinach — Direct sow under 🌿 cloche Wk 1–2 —
-  - NOVEMBER: Winter Spinach / Claytonia / Overwintering Lettuce — — Harvest under cover 🌾 only ❄
-  - DECEMBER: Spinach (under cover) — — Harvest under glass or 🌾 polytunnel
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-spinach`
+- Botanical name as recorded (unverified): Spinacia oleracea
+- Family as recorded (unverified): Amaranthaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Summer Squash
 
-- Latin name: Cucurbita pepo
-- Family: Cucurbitaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Normalized from image spelling. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-summer-squash`
+- Botanical name as recorded (unverified): Cucurbita pepo
+- Family as recorded (unverified): Cucurbitaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Sweet Potato
 
-- Latin name: Ipomoea batatas
-- Family: Convolvulaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Normalized from image spelling. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sweet-potato`
+- Botanical name as recorded (unverified): Ipomoea batatas
+- Family as recorded (unverified): Convolvulaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Swiss Chard
 
-- Latin name: Beta vulgaris subsp. cicla
-- Family: Amaranthaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-swiss-chard`
+- Botanical name as recorded (unverified): Beta vulgaris subsp. cicla
+- Family as recorded (unverified): Amaranthaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Tomatoes
 
-- Latin name: Solanum lycopersicum
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; MAY; SEPTEMBER; OCTOBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Tomatoes Wk 1–2 (8–10 wks before transplant) — —
-  - MAY: Tomatoes — → Transplant Wk 1–2🌍 🌍 (hardened) —
-  - SEPTEMBER: Tomatoes (last push) — — Last push before frost; 🌾 ripen indoors if needed
-  - OCTOBER: Peppers / Tomatoes (green) — — Last harvest; ripen 🌾 tomatoes indoors
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-tomatoes`
+- Botanical name as recorded (unverified): Solanum lycopersicum
+- Family as recorded (unverified): Solanaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ## Vine
 
 ### Clematis Group 3
 
-- Latin name: Clematis spp. (pruning Group 3)
-- Family: Ranunculaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Pruning-group label rather than a taxon. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-clematis-group-3`
+- Botanical name as recorded (unverified): Clematis spp. (pruning Group 3)
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Clematis montana
 
-- Latin name: Clematis montana
-- Family: Ranunculaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MAY
-- Sections: CLIMBING VINES
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Clematis montana — — Peak bloom — glorious🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-clematis-montana`
+- Botanical name as recorded (unverified): Clematis montana
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Honeysuckle
 
-- Latin name: Lonicera spp.
-- Family: Caprifoliaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 4
-- Months: APRIL; MAY; JUNE; JULY
-- Sections: CLIMBING VINES
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Honeysuckle — — Leafing out; new growth vigorous
-  - MAY: Honeysuckle — — In bud; bloom imminent
-  - JUNE: Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet 🌸
-  - JULY: Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom🌸
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-honeysuckle`
+- Botanical name as recorded (unverified): Lonicera spp.
+- Family as recorded (unverified): Caprifoliaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Morning Glory
 
-- Latin name: Ipomoea purpurea
-- Family: Convolvulaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: MARCH; APRIL; MAY; JULY; AUGUST
-- Sections: CLIMBING VINES; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Morning Glory Wk 3 (indoors) — —
-  - APRIL: Morning Glory — Wait until May —
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3🌿 —
-  - MAY: Morning Glory / Cobaea scandens — → Transplant 🌍 🌍 outdoors now —
-  - JULY: Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom🌸
-  - AUGUST: Clematis viticella / Passion Flower / Morning Glory — — All in full spectacular 🌸 bloom
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-morning-glory`
+- Botanical name as recorded (unverified): Ipomoea purpurea
+- Family as recorded (unverified): Convolvulaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Wisteria
 
-- Latin name: Wisteria sinensis
-- Family: Fabaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: AUGUST
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - AUGUST: Wisteria — — ✄ Second summer prune (Aug); cut to 5 leaves
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-wisteria`
+- Botanical name as recorded (unverified): Wisteria sinensis
+- Family as recorded (unverified): Fabaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`

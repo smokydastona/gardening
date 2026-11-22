@@ -74,52 +74,7 @@ def parse_ocr(image_path: Path) -> list[OcrItem]:
 
 def find_month_items(items: list[OcrItem]) -> list[OcrItem]:
     month_map = {item.norm: item for item in items if item.norm in MONTHS}
-    ordered = [month_map[m] for m in MONTHS if m in month_map]
-    if len(ordered) == 12:
-        return ordered
-
-    if len(ordered) == 11:
-        missing = [month for month in MONTHS if month not in month_map]
-        if len(missing) == 1:
-            gap_values = []
-            widths = []
-            for earlier, later in zip(ordered, ordered[1:]):
-                earlier_center = int((earlier.x1 + earlier.x2) / 2)
-                later_center = int((later.x1 + later.x2) / 2)
-                gap_values.append(later_center - earlier_center)
-                widths.append(earlier.x2 - earlier.x1)
-            average_gap = int(sum(gap_values) / len(gap_values)) if gap_values else 80
-            average_width = int(sum(widths) / len(widths)) if widths else 55
-            missing_month = missing[0]
-            month_index = MONTHS.index(missing_month)
-
-            if month_index > 0 and MONTHS[month_index - 1] in month_map:
-                previous = month_map[MONTHS[month_index - 1]]
-                center = int((previous.x1 + previous.x2) / 2) + average_gap
-                y1 = previous.y1
-                y2 = previous.y2
-            elif month_index + 1 < len(MONTHS) and MONTHS[month_index + 1] in month_map:
-                following = month_map[MONTHS[month_index + 1]]
-                center = int((following.x1 + following.x2) / 2) - average_gap
-                y1 = following.y1
-                y2 = following.y2
-            else:
-                center = 0
-                y1 = 0
-                y2 = 0
-
-            synthetic = OcrItem(
-                text=missing_month,
-                norm=missing_month,
-                x1=int(center - average_width / 2),
-                y1=y1,
-                x2=int(center + average_width / 2),
-                y2=y2,
-            )
-            month_map[missing_month] = synthetic
-            return [month_map[m] for m in MONTHS if m in month_map]
-
-    return ordered
+    return [month_map[month] for month in MONTHS if month in month_map]
 
 
 def month_bounds(month_items: list[OcrItem], image_width: int) -> list[tuple[str, int, int]]:
@@ -179,7 +134,7 @@ def color_counts(image: np.ndarray, y1: int, y2: int, x1: int, x2: int) -> dict[
 
 def write_ocr_tsv(output_path: Path, items: list[OcrItem]) -> None:
     with output_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.writer(handle, delimiter="\t")
+        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
         writer.writerow(["text", "normalized", "x1", "y1", "x2", "y2"])
         for item in sorted(items, key=lambda current: (current.y1, current.x1)):
             writer.writerow([item.text, item.norm, item.x1, item.y1, item.x2, item.y2])
@@ -187,7 +142,7 @@ def write_ocr_tsv(output_path: Path, items: list[OcrItem]) -> None:
 
 def write_row_colors(output_path: Path, rows: list[OcrItem], month_spans: list[tuple[str, int, int]], image: np.ndarray) -> None:
     with output_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.writer(handle)
+        writer = csv.writer(handle, lineterminator="\n")
         writer.writerow([
             "row_text",
             "row_normalized",
@@ -244,8 +199,12 @@ def write_summary(output_path: Path, rows: list[OcrItem], month_spans: list[tupl
 
 def process_chart(base_dir: Path, image_name: str, prefix: str) -> None:
     image_path = base_dir / image_name
-    items = parse_ocr(image_path)
+    if not image_path.is_file():
+        raise FileNotFoundError(f"Required chart image is missing: {image_path}")
     image = cv2.imread(str(image_path))
+    if image is None:
+        raise ValueError(f"Could not decode chart image: {image_path}")
+    items = parse_ocr(image_path)
     month_items = find_month_items(items)
     if len(month_items) != 12:
         raise RuntimeError(f"Expected 12 month headers in {image_name}, found {len(month_items)}")

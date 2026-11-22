@@ -8,973 +8,757 @@ This file is generated from the enriched plant registry and provides one botanic
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MAY, JUNE, OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
+- Candidate name: Allium (identity unverified).
+- Stable ID: plant-allium.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Allium for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Allium' (stable ID plant-allium) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Ammi majus
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot, root collar
+- Candidate name: Ammi majus (identity unverified).
+- Stable ID: plant-ammi-majus.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Ammi majus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Ammi majus' (stable ID plant-ammi-majus) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Anemone
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom
-- Root system: show the basal plate and roots emerging from the bulb, corm, or tunicate structure
-- Leaf arrangement: depict strap-like or sheath-forming leaves from base to tip
-- Flower structure: include the bloom in profile and face view with perianth or floral tube detail
-- Fruit or seed structure: show the seed capsule only as a supporting inset if it aids recognition
-- Storage organ: make the bulb, corm, or tunic cross-section a required lower-plate panel
-- Required labeled callouts: storage organ, basal plate, leaf blade, flower profile, flower face, roots
+- Candidate name: Anemone (identity unverified).
+- Stable ID: plant-anemone.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Anemone for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom, include show the basal plate and roots emerging from the bulb, corm, or tunicate structure, depict depict strap-like or sheath-forming leaves from base to tip, add include the bloom in profile and face view with perianth or floral tube detail, include show the seed capsule only as a supporting inset if it aids recognition, show make the bulb, corm, or tunic cross-section a required lower-plate panel, and label storage organ, basal plate, leaf blade, flower profile, flower face, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Anemone' (stable ID plant-anemone) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Antirrhinum
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
+- Candidate name: Antirrhinum (identity unverified).
+- Stable ID: plant-antirrhinum.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Antirrhinum for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Antirrhinum' (stable ID plant-antirrhinum) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Asters
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, SEPTEMBER, OCTOBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
+- Candidate name: Asters (identity unverified).
+- Stable ID: plant-asters.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Asters for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Asters' (stable ID plant-asters) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Aubretia
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
+- Candidate name: Aubretia (identity unverified).
+- Stable ID: plant-aubretia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Aubretia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Aubretia' (stable ID plant-aubretia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Borage
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
+- Candidate name: Borage (identity unverified).
+- Stable ID: plant-borage.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Borage for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Borage' (stable ID plant-borage) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Calendula
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: APRIL, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
+- Candidate name: Calendula (identity unverified).
+- Stable ID: plant-calendula.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Calendula for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Calendula' (stable ID plant-calendula) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Camassia
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom
-- Root system: show the basal plate and roots emerging from the bulb, corm, or tunicate structure
-- Leaf arrangement: depict strap-like or sheath-forming leaves from base to tip
-- Flower structure: include the bloom in profile and face view with perianth or floral tube detail
-- Fruit or seed structure: show the seed capsule only as a supporting inset if it aids recognition
-- Storage organ: make the bulb, corm, or tunic cross-section a required lower-plate panel
-- Required labeled callouts: storage organ, basal plate, leaf blade, flower profile, flower face, roots
+- Candidate name: Camassia (identity unverified).
+- Stable ID: plant-camassia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Camassia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom, include show the basal plate and roots emerging from the bulb, corm, or tunicate structure, depict depict strap-like or sheath-forming leaves from base to tip, add include the bloom in profile and face view with perianth or floral tube detail, include show the seed capsule only as a supporting inset if it aids recognition, show make the bulb, corm, or tunic cross-section a required lower-plate panel, and label storage organ, basal plate, leaf blade, flower profile, flower face, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Camassia' (stable ID plant-camassia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Celosia
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
+- Candidate name: Celosia (identity unverified).
+- Stable ID: plant-celosia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Celosia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Celosia' (stable ID plant-celosia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Cleome
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, MAY, JULY, AUGUST
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
+- Candidate name: Cleome (identity unverified).
+- Stable ID: plant-cleome.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Cleome for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Cleome' (stable ID plant-cleome) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Cornflower
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
+- Candidate name: Cornflower (identity unverified).
+- Stable ID: plant-cornflower.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Cornflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Cornflower' (stable ID plant-cornflower) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Cosmos
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JUNE, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
+- Candidate name: Cosmos (identity unverified).
+- Stable ID: plant-cosmos.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Cosmos for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Cosmos' (stable ID plant-cosmos) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Crocus
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY, MARCH, OCTOBER, NOVEMBER
-- Whole plant habit: show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom
-- Root system: show the basal plate and roots emerging from the bulb, corm, or tunicate structure
-- Leaf arrangement: depict strap-like or sheath-forming leaves from base to tip
-- Flower structure: include the bloom in profile and face view with perianth or floral tube detail
-- Fruit or seed structure: show the seed capsule only as a supporting inset if it aids recognition
-- Storage organ: make the bulb, corm, or tunic cross-section a required lower-plate panel
-- Required labeled callouts: storage organ, basal plate, leaf blade, flower profile, flower face, roots
+- Candidate name: Crocus (identity unverified).
+- Stable ID: plant-crocus.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Crocus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom, include show the basal plate and roots emerging from the bulb, corm, or tunicate structure, depict depict strap-like or sheath-forming leaves from base to tip, add include the bloom in profile and face view with perianth or floral tube detail, include show the seed capsule only as a supporting inset if it aids recognition, show make the bulb, corm, or tunic cross-section a required lower-plate panel, and label storage organ, basal plate, leaf blade, flower profile, flower face, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Crocus' (stable ID plant-crocus) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Daffodil
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
+- Candidate name: Daffodil (identity unverified).
+- Stable ID: plant-daffodil.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Daffodil for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Daffodil' (stable ID plant-daffodil) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Dahlia
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: JULY, AUGUST, SEPTEMBER, OCTOBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
+- Candidate name: Dahlia (identity unverified).
+- Stable ID: plant-dahlia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Dahlia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Dahlia' (stable ID plant-dahlia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Daylily
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, APRIL, JULY, SEPTEMBER
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
+- Candidate name: Daylily (identity unverified).
+- Stable ID: plant-daylily.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Daylily for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Daylily' (stable ID plant-daylily) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Delphinium
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
+- Candidate name: Delphinium (identity unverified).
+- Stable ID: plant-delphinium.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Delphinium for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Delphinium' (stable ID plant-delphinium) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Echinacea
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY, JULY, AUGUST
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
+- Candidate name: Echinacea (identity unverified).
+- Stable ID: plant-echinacea.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Echinacea for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Echinacea' (stable ID plant-echinacea) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Gaillardia
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
+- Candidate name: Gaillardia (identity unverified).
+- Stable ID: plant-gaillardia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Gaillardia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Gaillardia' (stable ID plant-gaillardia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Gladiolus
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JULY
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
+- Candidate name: Gladiolus (identity unverified).
+- Stable ID: plant-gladiolus.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Gladiolus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Gladiolus' (stable ID plant-gladiolus) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Hellebores
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, NOVEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
+- Candidate name: Hellebores (identity unverified).
+- Stable ID: plant-hellebores.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Hellebores for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Hellebores' (stable ID plant-hellebores) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Hyacinth
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: OCTOBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
+- Candidate name: Hyacinth (identity unverified).
+- Stable ID: plant-hyacinth.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Hyacinth for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Hyacinth' (stable ID plant-hyacinth) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Hyacinths
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: OCTOBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
+- Candidate name: Hyacinths (identity unverified).
+- Stable ID: plant-hyacinths.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Hyacinths for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Hyacinths' (stable ID plant-hyacinths) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Iberis
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
+- Candidate name: Iberis (identity unverified).
+- Stable ID: plant-iberis.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Iberis for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Iberis' (stable ID plant-iberis) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Impatiens
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, MAY
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
+- Candidate name: Impatiens (identity unverified).
+- Stable ID: plant-impatiens.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Impatiens for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Impatiens' (stable ID plant-impatiens) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Iris
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MAY, JUNE, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
+- Candidate name: Iris (identity unverified).
+- Stable ID: plant-iris.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Iris for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Iris' (stable ID plant-iris) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Larkspur
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
+- Candidate name: Larkspur (identity unverified).
+- Stable ID: plant-larkspur.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Larkspur for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Larkspur' (stable ID plant-larkspur) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Lavender
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: JULY
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
+- Candidate name: Lavender (identity unverified).
+- Stable ID: plant-lavender.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Lavender for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Lavender' (stable ID plant-lavender) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Lobelia
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, JUNE
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
+- Candidate name: Lobelia (identity unverified).
+- Stable ID: plant-lobelia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Lobelia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Lobelia' (stable ID plant-lobelia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Marigold
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JUNE, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
+- Candidate name: Marigold (identity unverified).
+- Stable ID: plant-marigold.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Marigold for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Marigold' (stable ID plant-marigold) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Muscari
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
+- Candidate name: Muscari (identity unverified).
+- Stable ID: plant-muscari.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Muscari for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Muscari' (stable ID plant-muscari) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Nasturtium
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MAY, JUNE, JULY, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
+- Candidate name: Nasturtium (identity unverified).
+- Stable ID: plant-nasturtium.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Nasturtium for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Nasturtium' (stable ID plant-nasturtium) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Nicotiana
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, MAY, JULY, AUGUST
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system, root collar
+- Candidate name: Nicotiana (identity unverified).
+- Stable ID: plant-nicotiana.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Nicotiana for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Nicotiana' (stable ID plant-nicotiana) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Nigella
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
+- Candidate name: Nigella (identity unverified).
+- Stable ID: plant-nigella.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Nigella for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Nigella' (stable ID plant-nigella) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Orlaya
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot, root collar
+- Candidate name: Orlaya (identity unverified).
+- Stable ID: plant-orlaya.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Orlaya for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Orlaya' (stable ID plant-orlaya) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Pansy
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, AUGUST, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
+- Candidate name: Pansy (identity unverified).
+- Stable ID: plant-pansy.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Pansy for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Pansy' (stable ID plant-pansy) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Peony
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
+- Candidate name: Peony (identity unverified).
+- Stable ID: plant-peony.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Peony for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Peony' (stable ID plant-peony) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Petunias
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, MAY, JUNE
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system, root collar
+- Candidate name: Petunias (identity unverified).
+- Stable ID: plant-petunias.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Petunias for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Petunias' (stable ID plant-petunias) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Poppy
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
+- Candidate name: Poppy (identity unverified).
+- Stable ID: plant-poppy.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Poppy for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Poppy' (stable ID plant-poppy) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Primula
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
+- Candidate name: Primula (identity unverified).
+- Stable ID: plant-primula.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Primula for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Primula' (stable ID plant-primula) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Rudbeckia
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, JULY, AUGUST, SEPTEMBER, OCTOBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
+- Candidate name: Rudbeckia (identity unverified).
+- Stable ID: plant-rudbeckia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Rudbeckia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Rudbeckia' (stable ID plant-rudbeckia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Salvia nemorosa
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, JUNE
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
+- Candidate name: Salvia nemorosa (identity unverified).
+- Stable ID: plant-salvia-nemorosa.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Salvia nemorosa for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Salvia nemorosa' (stable ID plant-salvia-nemorosa) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Scabiosa
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
+- Candidate name: Scabiosa (identity unverified).
+- Stable ID: plant-scabiosa.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Scabiosa for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Scabiosa' (stable ID plant-scabiosa) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Snapdragons
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, APRIL, JUNE
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
+- Candidate name: Snapdragons (identity unverified).
+- Stable ID: plant-snapdragons.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Snapdragons for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Snapdragons' (stable ID plant-snapdragons) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Snowdrops
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
+- Candidate name: Snowdrops (identity unverified).
+- Stable ID: plant-snowdrops.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Snowdrops for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Snowdrops' (stable ID plant-snowdrops) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Statice
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, NOVEMBER
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
+- Candidate name: Statice (identity unverified).
+- Stable ID: plant-statice.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Statice for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Statice' (stable ID plant-statice) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Stocks
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
+- Candidate name: Stocks (identity unverified).
+- Stable ID: plant-stocks.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Stocks for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Stocks' (stable ID plant-stocks) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Strawflower
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
+- Candidate name: Strawflower (identity unverified).
+- Stable ID: plant-strawflower.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Strawflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Strawflower' (stable ID plant-strawflower) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Sunflower
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MAY, JULY, AUGUST
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
+- Candidate name: Sunflower (identity unverified).
+- Stable ID: plant-sunflower.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Sunflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Sunflower' (stable ID plant-sunflower) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Sweet Pea
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JUNE, JULY
-- Whole plant habit: show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate
-- Root system: show the main root system with fine feeder roots and, where appropriate, nodulated root detail
-- Leaf arrangement: depict compound leaves and leaflet arrangement clearly from side and face views
-- Flower structure: include a papilionaceous flower close-up with banner, wings, and keel labeled
-- Fruit or seed structure: show immature and mature pods with seed arrangement visible
-- Storage organ: note that there is no separate storage organ beyond the seed-bearing pod
-- Required labeled callouts: stem, leaflet, tendril or support point, flower, pod, root nodules, root collar
+- Candidate name: Sweet Pea (identity unverified).
+- Stable ID: plant-sweet-pea.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Sweet Pea for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate, include show the main root system with fine feeder roots and, where appropriate, nodulated root detail, depict depict compound leaves and leaflet arrangement clearly from side and face views, add include a papilionaceous flower close-up with banner, wings, and keel labeled, include show immature and mature pods with seed arrangement visible, show note that there is no separate storage organ beyond the seed-bearing pod, and label stem, leaflet, tendril or support point, flower, pod, root nodules, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Sweet Pea' (stable ID plant-sweet-pea) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Tulip
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
+- Candidate name: Tulip (identity unverified).
+- Stable ID: plant-tulip.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Tulip for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Tulip' (stable ID plant-tulip) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Wallflower
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, AUGUST, SEPTEMBER
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
+- Candidate name: Wallflower (identity unverified).
+- Stable ID: plant-wallflower.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Wallflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Wallflower' (stable ID plant-wallflower) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Zinnia
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JUNE, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
+- Candidate name: Zinnia (identity unverified).
+- Stable ID: plant-zinnia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Zinnia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Zinnia' (stable ID plant-zinnia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ## Fruit
 
@@ -982,181 +766,141 @@ Hand-drawn botanical plate of Zinnia for an updated Errington gardening encyclop
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, MARCH, MAY, JUNE, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
+- Candidate name: Apple (identity unverified).
+- Stable ID: plant-apple.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Apple for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Apple' (stable ID plant-apple) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Blueberries
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JULY, AUGUST
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
+- Candidate name: Blueberries (identity unverified).
+- Stable ID: plant-blueberries.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Blueberries for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Blueberries' (stable ID plant-blueberries) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Cherry
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, MARCH
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
+- Candidate name: Cherry (identity unverified).
+- Stable ID: plant-cherry.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Cherry for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Cherry' (stable ID plant-cherry) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Currants
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, NOVEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
+- Candidate name: Currants (identity unverified).
+- Stable ID: plant-currants.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Currants for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Currants' (stable ID plant-currants) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Gooseberries
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, MAY, JUNE, JULY, NOVEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
+- Candidate name: Gooseberries (identity unverified).
+- Stable ID: plant-gooseberries.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Gooseberries for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Gooseberries' (stable ID plant-gooseberries) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Grapes
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: SEPTEMBER
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
+- Candidate name: Grapes (identity unverified).
+- Stable ID: plant-grapes.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Grapes for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Grapes' (stable ID plant-grapes) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Pear
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, MARCH, MAY, JUNE, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
+- Candidate name: Pear (identity unverified).
+- Stable ID: plant-pear.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Pear for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Pear' (stable ID plant-pear) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Plum
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, AUGUST
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
+- Candidate name: Plum (identity unverified).
+- Stable ID: plant-plum.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Plum for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Plum' (stable ID plant-plum) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Raspberries
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
+- Candidate name: Raspberries (identity unverified).
+- Stable ID: plant-raspberries.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Raspberries for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Raspberries' (stable ID plant-raspberries) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Strawberries
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, MARCH, MAY, JUNE
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
+- Candidate name: Strawberries (identity unverified).
+- Stable ID: plant-strawberries.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Strawberries for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Strawberries' (stable ID plant-strawberries) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ## Herb
 
@@ -1164,181 +908,141 @@ Hand-drawn botanical plate of Strawberries for an updated Errington gardening en
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, MARCH, MAY, JUNE, JULY, SEPTEMBER
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
+- Candidate name: Basil (identity unverified).
+- Stable ID: plant-basil.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Basil for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Basil' (stable ID plant-basil) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Chervil
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, JUNE
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
+- Candidate name: Chervil (identity unverified).
+- Stable ID: plant-chervil.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Chervil for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Chervil' (stable ID plant-chervil) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Chives
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, APRIL, JUNE, SEPTEMBER, OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
+- Candidate name: Chives (identity unverified).
+- Stable ID: plant-chives.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Chives for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Chives' (stable ID plant-chives) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Cilantro
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JUNE, JULY
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
+- Candidate name: Cilantro (identity unverified).
+- Stable ID: plant-cilantro.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Cilantro for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Cilantro' (stable ID plant-cilantro) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Dill
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JUNE, JULY, AUGUST
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
+- Candidate name: Dill (identity unverified).
+- Stable ID: plant-dill.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Dill for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Dill' (stable ID plant-dill) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Fennel
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
+- Candidate name: Fennel (identity unverified).
+- Stable ID: plant-fennel.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Fennel for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Fennel' (stable ID plant-fennel) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Oregano
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MAY, JULY
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
+- Candidate name: Oregano (identity unverified).
+- Stable ID: plant-oregano.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Oregano for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Oregano' (stable ID plant-oregano) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Parsley
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, APRIL, JUNE, JULY, SEPTEMBER, OCTOBER, NOVEMBER
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
+- Candidate name: Parsley (identity unverified).
+- Stable ID: plant-parsley.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Parsley for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Parsley' (stable ID plant-parsley) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Rosemary
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MAY, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
+- Candidate name: Rosemary (identity unverified).
+- Stable ID: plant-rosemary.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Rosemary for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Rosemary' (stable ID plant-rosemary) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Thyme
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MAY, JULY, NOVEMBER, DECEMBER
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
+- Candidate name: Thyme (identity unverified).
+- Stable ID: plant-thyme.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Thyme for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Thyme' (stable ID plant-thyme) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ## Native
 
@@ -1346,109 +1050,85 @@ Hand-drawn botanical plate of Thyme for an updated Errington gardening encyclope
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Bleeding Heart (identity unverified).
+- Stable ID: plant-bleeding-heart.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Bleeding Heart for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Bleeding Heart' (stable ID plant-bleeding-heart) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Camas
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Camas (identity unverified).
+- Stable ID: plant-camas.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Camas for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Camas' (stable ID plant-camas) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Osoberry
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, MARCH
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Osoberry (identity unverified).
+- Stable ID: plant-osoberry.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Osoberry for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Osoberry' (stable ID plant-osoberry) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Red-flowering Currant
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, MARCH
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Red-flowering Currant (identity unverified).
+- Stable ID: plant-red-flowering-currant.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Red-flowering Currant for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Red-flowering Currant' (stable ID plant-red-flowering-currant) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Sword Fern
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
+- Candidate name: Sword Fern (identity unverified).
+- Stable ID: plant-sword-fern.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Sword Fern for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Sword Fern' (stable ID plant-sword-fern) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Trillium
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Trillium (identity unverified).
+- Stable ID: plant-trillium.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Trillium for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Trillium' (stable ID plant-trillium) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ## Ornamental
 
@@ -1456,109 +1136,85 @@ Hand-drawn botanical plate of Trillium for an updated Errington gardening encycl
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
+- Candidate name: Astilbe (identity unverified).
+- Stable ID: plant-astilbe.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Astilbe for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Astilbe' (stable ID plant-astilbe) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Ferns
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
+- Candidate name: Ferns (identity unverified).
+- Stable ID: plant-ferns.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Ferns for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Ferns' (stable ID plant-ferns) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Heuchera
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
+- Candidate name: Heuchera (identity unverified).
+- Stable ID: plant-heuchera.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Heuchera for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Heuchera' (stable ID plant-heuchera) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Hostas
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, APRIL, SEPTEMBER
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
+- Candidate name: Hostas (identity unverified).
+- Stable ID: plant-hostas.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Hostas for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Hostas' (stable ID plant-hostas) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Ornamental Grasses
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
+- Candidate name: Ornamental Grasses (identity unverified).
+- Stable ID: plant-ornamental-grasses.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Ornamental Grasses for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Ornamental Grasses' (stable ID plant-ornamental-grasses) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Sedum
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: SEPTEMBER, OCTOBER
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
+- Candidate name: Sedum (identity unverified).
+- Stable ID: plant-sedum.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Sedum for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Sedum' (stable ID plant-sedum) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ## Perennial-Edible
 
@@ -1566,37 +1222,29 @@ Hand-drawn botanical plate of Sedum for an updated Errington gardening encyclope
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY
-- Whole plant habit: show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate
-- Root system: show the long-lived crown, rhizome, or storage root system in a clear sectional view
-- Leaf arrangement: depict the mature foliage arrangement that identifies the plant between harvest periods
-- Flower structure: include the flower or flowering stem as a secondary detail when it is diagnostically useful
-- Fruit or seed structure: show seed detail only if it is relevant to identification or propagation
-- Storage organ: make the crown, rhizome, or perennial storage organ a prominent labeled feature
-- Required labeled callouts: crown, emerging shoot, mature foliage, storage organ, flower stalk, roots
+- Candidate name: Globe Artichoke (identity unverified).
+- Stable ID: plant-globe-artichoke.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Globe Artichoke for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate, include show the long-lived crown, rhizome, or storage root system in a clear sectional view, depict depict the mature foliage arrangement that identifies the plant between harvest periods, add include the flower or flowering stem as a secondary detail when it is diagnostically useful, include show seed detail only if it is relevant to identification or propagation, show make the crown, rhizome, or perennial storage organ a prominent labeled feature, and label crown, emerging shoot, mature foliage, storage organ, flower stalk, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Globe Artichoke' (stable ID plant-globe-artichoke) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Rhubarb
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate
-- Root system: show the long-lived crown, rhizome, or storage root system in a clear sectional view
-- Leaf arrangement: depict the mature foliage arrangement that identifies the plant between harvest periods
-- Flower structure: include the flower or flowering stem as a secondary detail when it is diagnostically useful
-- Fruit or seed structure: show seed detail only if it is relevant to identification or propagation
-- Storage organ: make the crown, rhizome, or perennial storage organ a prominent labeled feature
-- Required labeled callouts: crown, emerging shoot, mature foliage, storage organ, flower stalk, roots
+- Candidate name: Rhubarb (identity unverified).
+- Stable ID: plant-rhubarb.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Rhubarb for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate, include show the long-lived crown, rhizome, or storage root system in a clear sectional view, depict depict the mature foliage arrangement that identifies the plant between harvest periods, add include the flower or flowering stem as a secondary detail when it is diagnostically useful, include show seed detail only if it is relevant to identification or propagation, show make the crown, rhizome, or perennial storage organ a prominent labeled feature, and label crown, emerging shoot, mature foliage, storage organ, flower stalk, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Rhubarb' (stable ID plant-rhubarb) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ## Shrub-Tree
 
@@ -1604,271 +1252,211 @@ Hand-drawn botanical plate of Rhubarb for an updated Errington gardening encyclo
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Azalea (identity unverified).
+- Stable ID: plant-azalea.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Azalea for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Azalea' (stable ID plant-azalea) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Buddleja
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Buddleja (identity unverified).
+- Stable ID: plant-buddleja.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Buddleja for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Buddleja' (stable ID plant-buddleja) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Camellia
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Camellia (identity unverified).
+- Stable ID: plant-camellia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Camellia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Camellia' (stable ID plant-camellia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Deutzia
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Deutzia (identity unverified).
+- Stable ID: plant-deutzia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Deutzia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Deutzia' (stable ID plant-deutzia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Forsythia
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, MARCH, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Forsythia (identity unverified).
+- Stable ID: plant-forsythia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Forsythia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Forsythia' (stable ID plant-forsythia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Garry Oak
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Garry Oak (identity unverified).
+- Stable ID: plant-garry-oak.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Garry Oak for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Garry Oak' (stable ID plant-garry-oak) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Hydrangea paniculata
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Hydrangea paniculata (identity unverified).
+- Stable ID: plant-hydrangea-paniculata.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Hydrangea paniculata for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Hydrangea paniculata' (stable ID plant-hydrangea-paniculata) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Kerria
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Kerria (identity unverified).
+- Stable ID: plant-kerria.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Kerria for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Kerria' (stable ID plant-kerria) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Magnolia
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Magnolia (identity unverified).
+- Stable ID: plant-magnolia.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Magnolia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Magnolia' (stable ID plant-magnolia) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Philadelphus
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JUNE
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Philadelphus (identity unverified).
+- Stable ID: plant-philadelphus.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Philadelphus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Philadelphus' (stable ID plant-philadelphus) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Pieris
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Pieris (identity unverified).
+- Stable ID: plant-pieris.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Pieris for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Pieris' (stable ID plant-pieris) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Rhododendron
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Rhododendron (identity unverified).
+- Stable ID: plant-rhododendron.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Rhododendron for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Rhododendron' (stable ID plant-rhododendron) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Roses
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, JUNE, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Roses (identity unverified).
+- Stable ID: plant-roses.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Roses for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Roses' (stable ID plant-roses) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Spiraea
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Spiraea (identity unverified).
+- Stable ID: plant-spiraea.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Spiraea for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Spiraea' (stable ID plant-spiraea) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Witch Hazel
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, DECEMBER
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
+- Candidate name: Witch Hazel (identity unverified).
+- Stable ID: plant-witch-hazel.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Witch Hazel for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Witch Hazel' (stable ID plant-witch-hazel) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ## Vegetable
 
@@ -1876,523 +1464,407 @@ Hand-drawn botanical plate of Witch Hazel for an updated Errington gardening enc
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, SEPTEMBER
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
+- Candidate name: Arugula (identity unverified).
+- Stable ID: plant-arugula.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Arugula for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Arugula' (stable ID plant-arugula) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Asparagus
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, FEBRUARY, APRIL, MAY, JUNE, JULY, AUGUST, OCTOBER, NOVEMBER
-- Whole plant habit: show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate
-- Root system: show the long-lived crown, rhizome, or storage root system in a clear sectional view
-- Leaf arrangement: depict the mature foliage arrangement that identifies the plant between harvest periods
-- Flower structure: include the flower or flowering stem as a secondary detail when it is diagnostically useful
-- Fruit or seed structure: show seed detail only if it is relevant to identification or propagation
-- Storage organ: make the crown, rhizome, or perennial storage organ a prominent labeled feature
-- Required labeled callouts: crown, emerging shoot, mature foliage, storage organ, flower stalk, roots
+- Candidate name: Asparagus (identity unverified).
+- Stable ID: plant-asparagus.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Asparagus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate, include show the long-lived crown, rhizome, or storage root system in a clear sectional view, depict depict the mature foliage arrangement that identifies the plant between harvest periods, add include the flower or flowering stem as a secondary detail when it is diagnostically useful, include show seed detail only if it is relevant to identification or propagation, show make the crown, rhizome, or perennial storage organ a prominent labeled feature, and label crown, emerging shoot, mature foliage, storage organ, flower stalk, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Asparagus' (stable ID plant-asparagus) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Beans
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: JULY, AUGUST
-- Whole plant habit: show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate
-- Root system: show the main root system with fine feeder roots and, where appropriate, nodulated root detail
-- Leaf arrangement: depict compound leaves and leaflet arrangement clearly from side and face views
-- Flower structure: include a papilionaceous flower close-up with banner, wings, and keel labeled
-- Fruit or seed structure: show immature and mature pods with seed arrangement visible
-- Storage organ: note that there is no separate storage organ beyond the seed-bearing pod
-- Required labeled callouts: stem, leaflet, tendril or support point, flower, pod, root nodules
+- Candidate name: Beans (identity unverified).
+- Stable ID: plant-beans.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Beans for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate, include show the main root system with fine feeder roots and, where appropriate, nodulated root detail, depict depict compound leaves and leaflet arrangement clearly from side and face views, add include a papilionaceous flower close-up with banner, wings, and keel labeled, include show immature and mature pods with seed arrangement visible, show note that there is no separate storage organ beyond the seed-bearing pod, and label stem, leaflet, tendril or support point, flower, pod, root nodules. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Beans' (stable ID plant-beans) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Beets
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the plant in harvest-ready habit with the edible underground portion fully exposed in section view
-- Root system: show the swollen storage root or tuber with feeder roots and crown attachment
-- Leaf arrangement: depict the foliage rosette or stem leaves that identify the crop before lifting
-- Flower structure: include the flower detail only as a secondary inset when it aids identification
-- Fruit or seed structure: show seed structure only if it is a practical recognition feature
-- Storage organ: make the enlarged storage organ the dominant lower-half feature of the plate
-- Required labeled callouts: crown, storage organ, shoulder, feeder roots, leaf blade, petiole
+- Candidate name: Beets (identity unverified).
+- Stable ID: plant-beets.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Beets for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in harvest-ready habit with the edible underground portion fully exposed in section view, include show the swollen storage root or tuber with feeder roots and crown attachment, depict depict the foliage rosette or stem leaves that identify the crop before lifting, add include the flower detail only as a secondary inset when it aids identification, include show seed structure only if it is a practical recognition feature, show make the enlarged storage organ the dominant lower-half feature of the plate, and label crown, storage organ, shoulder, feeder roots, leaf blade, petiole. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Beets' (stable ID plant-beets) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Bell Pepper
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system
+- Candidate name: Bell Pepper (identity unverified).
+- Stable ID: plant-bell-pepper.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Bell Pepper for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Bell Pepper' (stable ID plant-bell-pepper) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Broccoli
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, SEPTEMBER
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
+- Candidate name: Broccoli (identity unverified).
+- Stable ID: plant-broccoli.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Broccoli for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Broccoli' (stable ID plant-broccoli) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Brussels Sprouts
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
+- Candidate name: Brussels Sprouts (identity unverified).
+- Stable ID: plant-brussels-sprouts.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Brussels Sprouts for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Brussels Sprouts' (stable ID plant-brussels-sprouts) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Cabbage
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
+- Candidate name: Cabbage (identity unverified).
+- Stable ID: plant-cabbage.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Cabbage for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Cabbage' (stable ID plant-cabbage) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Cantaloupe
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale
-- Root system: show a shallow but spreading root system emerging from the crown
-- Leaf arrangement: depict alternate broad leaves with lobing and petiole attachment clearly labeled
-- Flower structure: include the large trumpet-like flower with male and female bloom distinctions if useful
-- Fruit or seed structure: show the mature fruit and a cut section with seed cavity detail
-- Storage organ: note that the crop does not rely on a separate storage organ beyond the fruit itself
-- Required labeled callouts: crown, vine, tendril, leaf blade, flower, fruit cross-section
+- Candidate name: Cantaloupe (identity unverified).
+- Stable ID: plant-cantaloupe.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Cantaloupe for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale, include show a shallow but spreading root system emerging from the crown, depict depict alternate broad leaves with lobing and petiole attachment clearly labeled, add include the large trumpet-like flower with male and female bloom distinctions if useful, include show the mature fruit and a cut section with seed cavity detail, show note that the crop does not rely on a separate storage organ beyond the fruit itself, and label crown, vine, tendril, leaf blade, flower, fruit cross-section. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Cantaloupe' (stable ID plant-cantaloupe) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Carrots
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
+- Candidate name: Carrots (identity unverified).
+- Stable ID: plant-carrots.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Carrots for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Carrots' (stable ID plant-carrots) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Cauliflower
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
+- Candidate name: Cauliflower (identity unverified).
+- Stable ID: plant-cauliflower.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Cauliflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Cauliflower' (stable ID plant-cauliflower) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Celery
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
+- Candidate name: Celery (identity unverified).
+- Stable ID: plant-celery.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Celery for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Celery' (stable ID plant-celery) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Corn
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MAY, AUGUST, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
+- Candidate name: Corn (identity unverified).
+- Stable ID: plant-corn.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Corn for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Corn' (stable ID plant-corn) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Cucumber
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MAY, JULY, SEPTEMBER
-- Whole plant habit: show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale
-- Root system: show a shallow but spreading root system emerging from the crown
-- Leaf arrangement: depict alternate broad leaves with lobing and petiole attachment clearly labeled
-- Flower structure: include the large trumpet-like flower with male and female bloom distinctions if useful
-- Fruit or seed structure: show the mature fruit and a cut section with seed cavity detail
-- Storage organ: note that the crop does not rely on a separate storage organ beyond the fruit itself
-- Required labeled callouts: crown, vine, tendril, leaf blade, flower, fruit cross-section
+- Candidate name: Cucumber (identity unverified).
+- Stable ID: plant-cucumber.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Cucumber for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale, include show a shallow but spreading root system emerging from the crown, depict depict alternate broad leaves with lobing and petiole attachment clearly labeled, add include the large trumpet-like flower with male and female bloom distinctions if useful, include show the mature fruit and a cut section with seed cavity detail, show note that the crop does not rely on a separate storage organ beyond the fruit itself, and label crown, vine, tendril, leaf blade, flower, fruit cross-section. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Cucumber' (stable ID plant-cucumber) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Eggplant
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY, MAY, SEPTEMBER
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system
+- Candidate name: Eggplant (identity unverified).
+- Stable ID: plant-eggplant.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Eggplant for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Eggplant' (stable ID plant-eggplant) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Garlic
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
+- Candidate name: Garlic (identity unverified).
+- Stable ID: plant-garlic.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Garlic for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Garlic' (stable ID plant-garlic) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Kohlrabi
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
+- Candidate name: Kohlrabi (identity unverified).
+- Stable ID: plant-kohlrabi.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Kohlrabi for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Kohlrabi' (stable ID plant-kohlrabi) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Leeks
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
+- Candidate name: Leeks (identity unverified).
+- Stable ID: plant-leeks.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Leeks for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Leeks' (stable ID plant-leeks) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Lettuce
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JULY, SEPTEMBER, NOVEMBER
-- Whole plant habit: show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass
-- Root system: show the shallow root plate or fibrous roots beneath the crown
-- Leaf arrangement: depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated
-- Flower structure: include flowering structure only as a secondary bolt-stage inset when useful
-- Fruit or seed structure: include seed heads only if they are distinctive and aid identification
-- Storage organ: note that no separate storage organ is present; the edible portion is leaf or petiole tissue
-- Required labeled callouts: crown, outer leaf, inner leaf, petiole, midrib, roots
+- Candidate name: Lettuce (identity unverified).
+- Stable ID: plant-lettuce.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Lettuce for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass, include show the shallow root plate or fibrous roots beneath the crown, depict depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated, add include flowering structure only as a secondary bolt-stage inset when useful, include include seed heads only if they are distinctive and aid identification, show note that no separate storage organ is present; the edible portion is leaf or petiole tissue, and label crown, outer leaf, inner leaf, petiole, midrib, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Lettuce' (stable ID plant-lettuce) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Melons
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale
-- Root system: show a shallow but spreading root system emerging from the crown
-- Leaf arrangement: depict alternate broad leaves with lobing and petiole attachment clearly labeled
-- Flower structure: include the large trumpet-like flower with male and female bloom distinctions if useful
-- Fruit or seed structure: show the mature fruit and a cut section with seed cavity detail
-- Storage organ: note that the crop does not rely on a separate storage organ beyond the fruit itself
-- Required labeled callouts: crown, vine, tendril, leaf blade, flower, fruit cross-section
+- Candidate name: Melons (identity unverified).
+- Stable ID: plant-melons.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Melons for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale, include show a shallow but spreading root system emerging from the crown, depict depict alternate broad leaves with lobing and petiole attachment clearly labeled, add include the large trumpet-like flower with male and female bloom distinctions if useful, include show the mature fruit and a cut section with seed cavity detail, show note that the crop does not rely on a separate storage organ beyond the fruit itself, and label crown, vine, tendril, leaf blade, flower, fruit cross-section. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Melons' (stable ID plant-melons) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Okra
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
+- Candidate name: Okra (identity unverified).
+- Stable ID: plant-okra.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Okra for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Okra' (stable ID plant-okra) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Parsnips
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
+- Candidate name: Parsnips (identity unverified).
+- Stable ID: plant-parsnips.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Parsnips for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Parsnips' (stable ID plant-parsnips) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Peas
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JULY
-- Whole plant habit: show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate
-- Root system: show the main root system with fine feeder roots and, where appropriate, nodulated root detail
-- Leaf arrangement: depict compound leaves and leaflet arrangement clearly from side and face views
-- Flower structure: include a papilionaceous flower close-up with banner, wings, and keel labeled
-- Fruit or seed structure: show immature and mature pods with seed arrangement visible
-- Storage organ: note that there is no separate storage organ beyond the seed-bearing pod
-- Required labeled callouts: stem, leaflet, tendril or support point, flower, pod, root nodules
+- Candidate name: Peas (identity unverified).
+- Stable ID: plant-peas.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Peas for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate, include show the main root system with fine feeder roots and, where appropriate, nodulated root detail, depict depict compound leaves and leaflet arrangement clearly from side and face views, add include a papilionaceous flower close-up with banner, wings, and keel labeled, include show immature and mature pods with seed arrangement visible, show note that there is no separate storage organ beyond the seed-bearing pod, and label stem, leaflet, tendril or support point, flower, pod, root nodules. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Peas' (stable ID plant-peas) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Potatoes
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, AUGUST
-- Whole plant habit: show the plant in harvest-ready habit with the edible underground portion fully exposed in section view
-- Root system: show the swollen storage root or tuber with feeder roots and crown attachment
-- Leaf arrangement: depict the foliage rosette or stem leaves that identify the crop before lifting
-- Flower structure: include the flower detail only as a secondary inset when it aids identification
-- Fruit or seed structure: show seed structure only if it is a practical recognition feature
-- Storage organ: make the enlarged storage organ the dominant lower-half feature of the plate
-- Required labeled callouts: crown, storage organ, shoulder, feeder roots, leaf blade, petiole
+- Candidate name: Potatoes (identity unverified).
+- Stable ID: plant-potatoes.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Potatoes for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in harvest-ready habit with the edible underground portion fully exposed in section view, include show the swollen storage root or tuber with feeder roots and crown attachment, depict depict the foliage rosette or stem leaves that identify the crop before lifting, add include the flower detail only as a secondary inset when it aids identification, include show seed structure only if it is a practical recognition feature, show make the enlarged storage organ the dominant lower-half feature of the plate, and label crown, storage organ, shoulder, feeder roots, leaf blade, petiole. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Potatoes' (stable ID plant-potatoes) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Spinach
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass
-- Root system: show the shallow root plate or fibrous roots beneath the crown
-- Leaf arrangement: depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated
-- Flower structure: include flowering structure only as a secondary bolt-stage inset when useful
-- Fruit or seed structure: include seed heads only if they are distinctive and aid identification
-- Storage organ: note that no separate storage organ is present; the edible portion is leaf or petiole tissue
-- Required labeled callouts: crown, outer leaf, inner leaf, petiole, midrib, roots
+- Candidate name: Spinach (identity unverified).
+- Stable ID: plant-spinach.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Spinach for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass, include show the shallow root plate or fibrous roots beneath the crown, depict depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated, add include flowering structure only as a secondary bolt-stage inset when useful, include include seed heads only if they are distinctive and aid identification, show note that no separate storage organ is present; the edible portion is leaf or petiole tissue, and label crown, outer leaf, inner leaf, petiole, midrib, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Spinach' (stable ID plant-spinach) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Summer Squash
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale
-- Root system: show a shallow but spreading root system emerging from the crown
-- Leaf arrangement: depict alternate broad leaves with lobing and petiole attachment clearly labeled
-- Flower structure: include the large trumpet-like flower with male and female bloom distinctions if useful
-- Fruit or seed structure: show the mature fruit and a cut section with seed cavity detail
-- Storage organ: note that the crop does not rely on a separate storage organ beyond the fruit itself
-- Required labeled callouts: crown, vine, tendril, leaf blade, flower, fruit cross-section
+- Candidate name: Summer Squash (identity unverified).
+- Stable ID: plant-summer-squash.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Summer Squash for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale, include show a shallow but spreading root system emerging from the crown, depict depict alternate broad leaves with lobing and petiole attachment clearly labeled, add include the large trumpet-like flower with male and female bloom distinctions if useful, include show the mature fruit and a cut section with seed cavity detail, show note that the crop does not rely on a separate storage organ beyond the fruit itself, and label crown, vine, tendril, leaf blade, flower, fruit cross-section. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Summer Squash' (stable ID plant-summer-squash) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Sweet Potato
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the plant in harvest-ready habit with the edible underground portion fully exposed in section view
-- Root system: show the swollen storage root or tuber with feeder roots and crown attachment
-- Leaf arrangement: depict the foliage rosette or stem leaves that identify the crop before lifting
-- Flower structure: include the flower detail only as a secondary inset when it aids identification
-- Fruit or seed structure: show seed structure only if it is a practical recognition feature
-- Storage organ: make the enlarged storage organ the dominant lower-half feature of the plate
-- Required labeled callouts: crown, storage organ, shoulder, feeder roots, leaf blade, petiole
+- Candidate name: Sweet Potato (identity unverified).
+- Stable ID: plant-sweet-potato.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Sweet Potato for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in harvest-ready habit with the edible underground portion fully exposed in section view, include show the swollen storage root or tuber with feeder roots and crown attachment, depict depict the foliage rosette or stem leaves that identify the crop before lifting, add include the flower detail only as a secondary inset when it aids identification, include show seed structure only if it is a practical recognition feature, show make the enlarged storage organ the dominant lower-half feature of the plate, and label crown, storage organ, shoulder, feeder roots, leaf blade, petiole. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Sweet Potato' (stable ID plant-sweet-potato) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Swiss Chard
 
 #### Botanical Illustration Brief
 
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass
-- Root system: show the shallow root plate or fibrous roots beneath the crown
-- Leaf arrangement: depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated
-- Flower structure: include flowering structure only as a secondary bolt-stage inset when useful
-- Fruit or seed structure: include seed heads only if they are distinctive and aid identification
-- Storage organ: note that no separate storage organ is present; the edible portion is leaf or petiole tissue
-- Required labeled callouts: crown, outer leaf, inner leaf, petiole, midrib, roots
+- Candidate name: Swiss Chard (identity unverified).
+- Stable ID: plant-swiss-chard.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Swiss Chard for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass, include show the shallow root plate or fibrous roots beneath the crown, depict depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated, add include flowering structure only as a secondary bolt-stage inset when useful, include include seed heads only if they are distinctive and aid identification, show note that no separate storage organ is present; the edible portion is leaf or petiole tissue, and label crown, outer leaf, inner leaf, petiole, midrib, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Swiss Chard' (stable ID plant-swiss-chard) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Tomatoes
 
 #### Botanical Illustration Brief
 
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, SEPTEMBER, OCTOBER
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system
+- Candidate name: Tomatoes (identity unverified).
+- Stable ID: plant-tomatoes.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Tomatoes for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Tomatoes' (stable ID plant-tomatoes) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ## Vine
 
@@ -2400,88 +1872,68 @@ Hand-drawn botanical plate of Tomatoes for an updated Errington gardening encycl
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
+- Candidate name: Clematis Group 3 (identity unverified).
+- Stable ID: plant-clematis-group-3.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Clematis Group 3 for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Clematis Group 3' (stable ID plant-clematis-group-3) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Clematis montana
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MAY
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
+- Candidate name: Clematis montana (identity unverified).
+- Stable ID: plant-clematis-montana.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Clematis montana for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Clematis montana' (stable ID plant-clematis-montana) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Honeysuckle
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY, JUNE, JULY
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
+- Candidate name: Honeysuckle (identity unverified).
+- Stable ID: plant-honeysuckle.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Honeysuckle for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Honeysuckle' (stable ID plant-honeysuckle) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Morning Glory
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JULY, AUGUST
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
+- Candidate name: Morning Glory (identity unverified).
+- Stable ID: plant-morning-glory.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Morning Glory for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Morning Glory' (stable ID plant-morning-glory) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.
 
 ### Wisteria
 
 #### Botanical Illustration Brief
 
-- Source context: shared plan, matched
-- Local timing emphasis: AUGUST
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
+- Candidate name: Wisteria (identity unverified).
+- Stable ID: plant-wisteria.
+- Review state: pending taxonomic, cultivar, and botanical-accuracy review.
+- Before drawing: document accepted name, source, diagnostic features, and life stage.
+- Do not infer roots, storage organs, flowers, fruits, or leaf structure from this name alone.
 
 #### Botanical Plate Prompt
 
-Hand-drawn botanical plate of Wisteria for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+Prepare an illustration only after the plant identified as 'Wisteria' (stable ID plant-wisteria) has been taxonomically resolved and its diagnostic traits have been cited. Do not invent or assume morphology, cultivar, season, or local growing conditions. Leave unresolved callouts blank; this generated prompt is a review checklist, not an image or an approved art brief.

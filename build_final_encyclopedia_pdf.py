@@ -1,9 +1,13 @@
 from __future__ import annotations
 
+import html
 from pathlib import Path
 import re
-from xml.sax.saxutils import escape
+from urllib.parse import urlsplit
 
+import mistune
+import reportlab
+from reportlab import rl_config
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
@@ -12,16 +16,46 @@ from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Image as RLImage
-from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+from reportlab.platypus import (
+    HRFlowable,
+    ListFlowable,
+    ListItem,
+    PageBreak,
+    Paragraph,
+    Preformatted,
+    SimpleDocTemplate,
+    Spacer,
+    Table,
+    TableStyle,
+)
+from reportlab.platypus.tableofcontents import TableOfContents
 
 
 TITLE = "Errington Gardening Encyclopedia"
-SUBTITLE = "Errington-local growing calendar and plant catalog"
+SUBTITLE = "Source transcriptions and working plant registry for Errington, BC"
+VERSION = "0.2.0"
+PUBLICATION_DATE = "2026-11-22"
 OUTPUT_PDF = "Errington_Gardening_Encyclopedia.pdf"
 OUTPUT_MD = "Errington_Gardening_Encyclopedia_Compiled.md"
 COVER_IMAGE = "cover.png"
 PLANT_ILLUSTRATIONS_DIR = "plant_illustrations"
 PLANT_ILLUSTRATION_EXTENSIONS = (".png", ".jpg", ".jpeg", ".tif", ".tiff", ".webp")
+MONTH_NAMES = frozenset(
+    (
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    )
+)
 BOOK_PAGE_SIZE = (6.125 * inch, 9.25 * inch)
 PAPER_COLOR = colors.HexColor("#f6f0e2")
 INK_COLOR = colors.HexColor("#2d2a26")
@@ -29,10 +63,10 @@ ACCENT_COLOR = colors.HexColor("#51664e")
 MUTED_COLOR = colors.HexColor("#7b756c")
 
 SOURCE_FILES = [
-    ("Core Handbook", "ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md", "Local climate notes, gardening foundations, and regional pollinator guidance with source limits."),
-    ("Monthly Reference", "ERRINGTON_MONTHLY_REFERENCE.md", "Month-by-month scheduling aligned to the local planting calendar."),
-    ("Plant Catalog", "ERRINGTON_PLANT_CATALOG.md", "Plant-by-plant notes grounded in the parsed Errington registry and calendar matches."),
-    ("Illustration Briefs", "ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md", "Per-plant botanical illustration briefs and matching hand-drawn plate prompts for the full plant registry."),
+    ("Core Handbook", "ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md", "Gardening foundations, Errington context, and source limitations."),
+    ("Monthly Reference", "ERRINGTON_MONTHLY_REFERENCE.md", "Source calendar transcriptions grouped by month and labeled for review."),
+    ("Plant Registry", "ERRINGTON_PLANT_CATALOG.md", "Stable plant records and independent verification states."),
+    ("Source and Verification Policy", "docs/SOURCE_POLICY.md", "Source hierarchy, evidence types, and publication status."),
 ]
 
 REPLACEMENTS = {
@@ -49,14 +83,13 @@ REPLACEMENTS = {
     "📌": "[Legend]",
     "🏞": "[Climate]",
     "✓": "-",
-    "·": "-",
-    "–": "-",
-    "—": "-",
-    "“": '"',
-    "”": '"',
-    "’": "'",
     " ": " ",
 }
+
+MARKDOWN = mistune.create_markdown(
+    renderer="ast",
+    plugins=["table", "strikethrough", "url"],
+)
 
 
 def register_font(font_name: str, regular_path: Path, bold_path: Path | None = None) -> tuple[str, str]:
@@ -69,26 +102,26 @@ def register_font(font_name: str, regular_path: Path, bold_path: Path | None = N
 
 
 def register_fonts() -> dict[str, str]:
-    families = [
-        ("BookDisplay", Path("C:/Windows/Fonts/pala.ttf"), Path("C:/Windows/Fonts/palab.ttf")),
-        ("BookDisplay", Path("C:/Windows/Fonts/georgia.ttf"), Path("C:/Windows/Fonts/georgiab.ttf")),
-        ("BookDisplay", Path("C:/Windows/Fonts/constan.ttf"), Path("C:/Windows/Fonts/constanb.ttf")),
-        ("BookDisplay", Path("C:/Windows/Fonts/times.ttf"), Path("C:/Windows/Fonts/timesbd.ttf")),
-    ]
-    for family_name, regular_path, bold_path in families:
-        if regular_path.exists():
-            display_regular, display_bold = register_font(family_name, regular_path, bold_path)
-            return {
-                "display": display_regular,
-                "display_bold": display_bold,
-                "body": display_regular,
-                "body_bold": display_bold,
-            }
+    font_dir = Path(reportlab.__file__).resolve().parent / "fonts"
+    regular, bold = register_font(
+        "BookText",
+        font_dir / "Vera.ttf",
+        font_dir / "VeraBd.ttf",
+    )
+    pdfmetrics.registerFont(TTFont("BookItalic", str(font_dir / "VeraIt.ttf")))
+    pdfmetrics.registerFont(TTFont("BookBoldItalic", str(font_dir / "VeraBI.ttf")))
+    pdfmetrics.registerFontFamily(
+        "BookText",
+        normal=regular,
+        bold=bold,
+        italic="BookItalic",
+        boldItalic="BookBoldItalic",
+    )
     return {
-        "display": "Times-Roman",
-        "display_bold": "Times-Bold",
-        "body": "Times-Roman",
-        "body_bold": "Times-Bold",
+        "display": regular,
+        "display_bold": bold,
+        "body": regular,
+        "body_bold": bold,
     }
 
 
@@ -100,7 +133,7 @@ def sanitize(text: str) -> str:
 
 
 def paragraph_text(text: str) -> str:
-    return escape(text, {'"': '&quot;'})
+    return html.escape(text, quote=True)
 
 
 def normalize_key(text: str) -> str:
@@ -208,6 +241,7 @@ def build_styles(fonts: dict[str, str]) -> dict[str, ParagraphStyle]:
             spaceBefore=14,
             spaceAfter=6,
             textColor=colors.HexColor("#223528"),
+            keepWithNext=True,
         )
     )
     styles.add(
@@ -220,6 +254,7 @@ def build_styles(fonts: dict[str, str]) -> dict[str, ParagraphStyle]:
             spaceBefore=11,
             spaceAfter=4,
             textColor=ACCENT_COLOR,
+            keepWithNext=True,
         )
     )
     styles.add(
@@ -232,6 +267,7 @@ def build_styles(fonts: dict[str, str]) -> dict[str, ParagraphStyle]:
             spaceBefore=8,
             spaceAfter=3,
             textColor=INK_COLOR,
+            keepWithNext=True,
         )
     )
     styles.add(
@@ -244,6 +280,17 @@ def build_styles(fonts: dict[str, str]) -> dict[str, ParagraphStyle]:
             alignment=TA_JUSTIFY,
             textColor=INK_COLOR,
             spaceAfter=7,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            "TocLead",
+            parent=styles["BodyText"],
+            fontName=fonts["body"],
+            fontSize=9,
+            leading=11,
+            textColor=INK_COLOR,
+            spaceAfter=6,
         )
     )
     styles.add(
@@ -288,10 +335,67 @@ def build_styles(fonts: dict[str, str]) -> dict[str, ParagraphStyle]:
             "TocEntry",
             parent=styles["BodyText"],
             fontName=fonts["body"],
-            fontSize=10,
-            leading=13,
+            fontSize=8.5,
+            leading=10,
             textColor=INK_COLOR,
-            spaceAfter=4,
+            spaceAfter=1,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            "TocSubEntry",
+            parent=styles["BodyText"],
+            fontName=fonts["body"],
+            fontSize=7.8,
+            leading=9,
+            leftIndent=16,
+            textColor=MUTED_COLOR,
+            spaceAfter=0,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            "TableHeader",
+            parent=styles["BodyText"],
+            fontName=fonts["body_bold"],
+            fontSize=7.8,
+            leading=9.6,
+            textColor=ACCENT_COLOR,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            "TableCell",
+            parent=styles["BodyText"],
+            fontName=fonts["body"],
+            fontSize=7.7,
+            leading=9.5,
+            textColor=INK_COLOR,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            "Quote",
+            parent=styles["BodyText"],
+            fontName=fonts["body"],
+            fontSize=9,
+            leading=12,
+            leftIndent=16,
+            rightIndent=12,
+            textColor=ACCENT_COLOR,
+            spaceAfter=6,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            "CodeBlock",
+            parent=styles["BodyText"],
+            fontName="Courier",
+            fontSize=7.5,
+            leading=9,
+            leftIndent=10,
+            backColor=colors.HexColor("#f0eee7"),
+            spaceAfter=5,
         )
     )
     return styles
@@ -316,17 +420,27 @@ def make_local_image(image_path: Path, max_width: float, max_height: float) -> R
 
 
 def load_plant_illustrations(base_dir: Path) -> dict[str, Path]:
-    illustrations_dir = base_dir / PLANT_ILLUSTRATIONS_DIR
-    if not illustrations_dir.exists():
-        return {}
+    manifest_path = base_dir / PLANT_ILLUSTRATIONS_DIR / "illustration_manifest.csv"
+    if not manifest_path.exists():
+        raise FileNotFoundError(f"Required illustration manifest is missing: {manifest_path}")
+    import csv
 
     illustration_map: dict[str, Path] = {}
-    for path in illustrations_dir.iterdir():
-        if not path.is_file() or path.suffix.lower() not in PLANT_ILLUSTRATION_EXTENSIONS:
-            continue
-        key = normalize_key(path.stem)
-        if key and key not in illustration_map:
-            illustration_map[key] = path
+    with manifest_path.open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            if row.get("approval_status") != "approved":
+                continue
+            filename = row.get("filename", "")
+            image_name = Path(filename)
+            if image_name.name != filename or image_name.suffix.lower() not in PLANT_ILLUSTRATION_EXTENSIONS:
+                raise ValueError(f"Invalid approved illustration filename: {filename!r}")
+            image_path = base_dir / PLANT_ILLUSTRATIONS_DIR / image_name
+            if not image_path.is_file():
+                raise FileNotFoundError(
+                    f"Approved illustration for {row.get('plant_id', 'unknown plant')} "
+                    f"is missing: {image_path}"
+                )
+            illustration_map[row["plant_id"]] = image_path
     return illustration_map
 
 
@@ -338,12 +452,28 @@ def add_cover(story: list, base_dir: Path, doc_width: float, doc_height: float) 
     story.append(PageBreak())
 
 
-def add_front_matter(story: list, styles: dict[str, ParagraphStyle], sections: list[dict[str, str]]) -> None:
+def add_front_matter(story: list, styles: dict[str, ParagraphStyle]) -> None:
+    story.append(
+        Paragraph(
+            f"Version {VERSION} · {PUBLICATION_DATE} · Errington Gardening Encyclopedia project",
+            styles["Caption"],
+        )
+    )
+    story.append(
+        Paragraph(
+            "Working reference, not approved for publication. Calendar entries are source "
+            "transcriptions; taxonomy, profiles, and local timing remain unverified unless noted.",
+            styles["TocLead"],
+        )
+    )
     story.append(Paragraph("Contents", styles["FrontMatterHeading"]))
-    story.append(Paragraph("This original reference brings together Errington calendar evidence, an attributed regional pollinator summary, a plant catalog, and illustration briefs. Source scope and unresolved conflicts are identified in the handbook.", styles["Lead"]))
-    for index, section in enumerate(sections, 1):
-        story.append(Paragraph(f"{index}. {paragraph_text(section['title'])}", styles["TocEntry"]))
-        story.append(Paragraph(paragraph_text(section["deck"]), styles["Caption"]))
+    toc = TableOfContents()
+    toc.levelStyles = [
+        styles["TocEntry"],
+        styles["TocSubEntry"],
+    ]
+    toc.dotsMinLevel = 0
+    story.append(toc)
     story.append(PageBreak())
 
 
@@ -379,44 +509,152 @@ def add_markdown_lines(
     plant_illustrations: dict[str, Path],
     doc_width: float,
 ) -> None:
-    first_body = True
-    for raw_line in text.splitlines():
-        line = raw_line.rstrip()
-        stripped = line.strip()
-        if not stripped:
-            story.append(Spacer(1, 0.05 * inch))
+    def inline(nodes: list[dict]) -> str:
+        output = []
+        for node in nodes:
+            kind = node["type"]
+            if kind in {"text", "inline_html"}:
+                output.append(paragraph_text(node.get("raw", "")))
+            elif kind in {"softbreak", "linebreak"}:
+                output.append("<br/>")
+            elif kind == "strong":
+                output.append(f"<b>{inline(node.get('children', []))}</b>")
+            elif kind == "emphasis":
+                output.append(f"<i>{inline(node.get('children', []))}</i>")
+            elif kind == "strikethrough":
+                output.append(f"<strike>{inline(node.get('children', []))}</strike>")
+            elif kind == "codespan":
+                output.append(
+                    f'<font name="Courier">{paragraph_text(node.get("raw", ""))}</font>'
+                )
+            elif kind == "link":
+                target = paragraph_text(node.get("attrs", {}).get("url", ""))
+                label = inline(node.get("children", []))
+                if urlsplit(target).scheme in {"http", "https", "mailto"}:
+                    output.append(f'<link href="{target}">{label}</link>')
+                else:
+                    output.append(label)
+            elif kind == "image":
+                output.append(inline(node.get("children", [])) or "[image]")
+            else:
+                output.append(inline(node.get("children", [])))
+        return "".join(output)
+
+    def paragraph(nodes: list[dict], style_name: str) -> Paragraph:
+        return Paragraph(inline(nodes), styles[style_name])
+
+    def list_flowable(token: dict, depth: int = 0) -> ListFlowable:
+        ordered = token.get("attrs", {}).get("ordered", False)
+        items = []
+        for item in token.get("children", []):
+            child_flowables = []
+            for child in item.get("children", []):
+                if child["type"] in {"block_text", "paragraph"}:
+                    child_flowables.append(paragraph(child.get("children", []), "BulletItem"))
+                elif child["type"] == "list":
+                    child_flowables.append(list_flowable(child, depth + 1))
+                elif child["type"] == "block_code":
+                    child_flowables.append(
+                        Preformatted(child.get("raw", ""), styles["CodeBlock"])
+                    )
+            items.append(ListItem(child_flowables or [Spacer(1, 1)]))
+        return ListFlowable(
+            items,
+            bulletType="1" if ordered else "bullet",
+            leftIndent=16 + depth * 12,
+            bulletFontName=styles["BulletItem"].fontName,
+            bulletFontSize=8,
+            bulletColor=ACCENT_COLOR,
+            spaceAfter=5,
+        )
+
+    ast = MARKDOWN(text)
+    for token in ast:
+        kind = token["type"]
+        if kind == "blank_line":
             continue
-        if stripped.startswith("# "):
-            story.append(Paragraph(paragraph_text(stripped[2:].strip()), styles["H1"]))
-            first_body = True
-            continue
-        if stripped.startswith("## "):
-            story.append(Paragraph(paragraph_text(stripped[3:].strip()), styles["H2"]))
-            first_body = True
-            continue
-        if stripped.startswith("### "):
-            heading_text = stripped[4:].strip()
-            story.append(Paragraph(paragraph_text(heading_text), styles["H3"]))
-            if section_title == "Plant Catalog":
-                image_path = plant_illustrations.get(normalize_key(heading_text))
+        if kind == "heading":
+            level = token.get("attrs", {}).get("level", 1)
+            style_name = "H1" if level == 1 else "H2" if level == 2 else "H3"
+            heading_text = inline(token.get("children", []))
+            heading = Paragraph(heading_text, styles[style_name])
+            if (
+                level == 2
+                and section_title == "Monthly Reference"
+                and heading_text in MONTH_NAMES
+            ):
+                heading._toc_level = 1
+            story.append(heading)
+            if level == 3 and section_title == "Plant Registry":
+                plant_key = f"plant-{normalize_key(heading.getPlainText()).lower().replace('_', '-')}"
+                image_path = plant_illustrations.get(plant_key)
                 if image_path is not None:
                     add_plant_illustration(story, styles, image_path, doc_width)
-            continue
-        if stripped.startswith("#### "):
-            story.append(Paragraph(paragraph_text(stripped[5:].strip()), styles["H3"]))
-            continue
-        if stripped.startswith("- "):
-            story.append(Paragraph("• " + paragraph_text(stripped[2:].strip()), styles["BulletItem"]))
-            continue
-        if stripped.startswith("  - "):
-            story.append(Paragraph("◦ " + paragraph_text(stripped[4:].strip()), styles["BulletItem"]))
-            continue
-        if re.match(r"^\d+\.\s", stripped):
-            story.append(Paragraph(paragraph_text(stripped), styles["BulletItem"]))
-            continue
-        style_name = "Lead" if first_body else "Body"
-        story.append(Paragraph(paragraph_text(stripped), styles[style_name]))
-        first_body = False
+        elif kind == "paragraph":
+            story.append(paragraph(token.get("children", []), "Body"))
+        elif kind == "block_text":
+            story.append(paragraph(token.get("children", []), "Body"))
+        elif kind == "list":
+            story.append(list_flowable(token))
+        elif kind == "table":
+            table_rows = []
+            for row in token.get("children", []):
+                if row["type"] not in {"table_head", "table_body"}:
+                    continue
+                for table_row in row.get("children", []):
+                    table_rows.append(
+                        [
+                            paragraph(cell.get("children", []), "TableHeader" if cell.get("attrs", {}).get("head") else "TableCell")
+                            for cell in table_row.get("children", [])
+                        ]
+                    )
+            if table_rows:
+                column_count = max(len(row) for row in table_rows)
+                table = Table(
+                    table_rows,
+                    colWidths=[doc_width / column_count] * column_count,
+                    repeatRows=1,
+                    hAlign="LEFT",
+                )
+                table.setStyle(
+                    TableStyle(
+                        [
+                            ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#e7eadf")),
+                            ("TEXTCOLOR", (0, 0), (-1, 0), ACCENT_COLOR),
+                            ("GRID", (0, 0), (-1, -1), 0.35, colors.HexColor("#cbb99b")),
+                            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                            ("LEFTPADDING", (0, 0), (-1, -1), 5),
+                            ("RIGHTPADDING", (0, 0), (-1, -1), 5),
+                            ("TOPPADDING", (0, 0), (-1, -1), 4),
+                            ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
+                        ]
+                    )
+                )
+                story.append(table)
+                story.append(Spacer(1, 0.08 * inch))
+        elif kind == "block_quote":
+            for child in token.get("children", []):
+                if child["type"] == "paragraph":
+                    story.append(paragraph(child.get("children", []), "Quote"))
+        elif kind == "block_code":
+            story.append(Preformatted(token.get("raw", ""), styles["CodeBlock"]))
+        elif kind == "thematic_break":
+            story.append(HRFlowable(width="100%", thickness=0.5, color=colors.HexColor("#cbb99b")))
+
+
+class EncyclopediaDocument(SimpleDocTemplate):
+    def afterFlowable(self, flowable) -> None:
+        level = getattr(flowable, "_toc_level", None)
+        if level is None or not isinstance(flowable, Paragraph):
+            return
+        title = flowable.getPlainText().strip()
+        if not title:
+            return
+        key = getattr(flowable, "_bookmark_key", None)
+        if key:
+            self.canv.bookmarkPage(key)
+            self.canv.addOutlineEntry(title, key, level=level, closed=level > 0)
+            self.notify("TOCEntry", (level, title, self.page, key))
 
 
 def draw_cover(canvas, doc) -> None:
@@ -440,22 +678,23 @@ def draw_page_chrome(canvas, doc) -> None:
     canvas.line(doc.leftMargin, doc.pagesize[1] - 0.45 * inch, doc.pagesize[0] - doc.rightMargin, doc.pagesize[1] - 0.45 * inch)
     canvas.line(doc.leftMargin, 0.48 * inch, doc.pagesize[0] - doc.rightMargin, 0.48 * inch)
     canvas.setFillColor(MUTED_COLOR)
-    canvas.setFont("Times-Italic", 7.5)
+    canvas.setFont("BookItalic", 7.5)
     canvas.drawCentredString(doc.pagesize[0] / 2, doc.pagesize[1] - 0.35 * inch, "Errington Gardening Encyclopedia")
     canvas.setFillColor(INK_COLOR)
-    canvas.setFont("Times-Roman", 8)
+    canvas.setFont("BookText", 8)
     canvas.drawCentredString(doc.pagesize[0] / 2, 0.31 * inch, str(canvas.getPageNumber()))
     canvas.restoreState()
 
 
 def build_pdf(base_dir: Path) -> Path:
+    rl_config.invariant = 1
     fonts = register_fonts()
     styles = build_styles(fonts)
     sections = load_sections(base_dir)
     compile_markdown(base_dir, sections)
     plant_illustrations = load_plant_illustrations(base_dir)
     output_path = base_dir / OUTPUT_PDF
-    doc = SimpleDocTemplate(
+    doc = EncyclopediaDocument(
         str(output_path),
         pagesize=BOOK_PAGE_SIZE,
         rightMargin=0.62 * inch,
@@ -463,18 +702,33 @@ def build_pdf(base_dir: Path) -> Path:
         topMargin=0.72 * inch,
         bottomMargin=0.72 * inch,
         title=TITLE,
-        author="GitHub Copilot",
+        author="Errington Gardening Encyclopedia Editorial Project",
+        subject="Working gardening reference for Errington, British Columbia",
+        keywords="Errington, Vancouver Island, gardening, source-transcribed calendar",
     )
     doc_width = doc.width
     story: list = []
     add_cover(story, base_dir, doc.width, doc.height)
-    add_front_matter(story, styles, sections)
+    add_front_matter(story, styles)
+    heading_index = 0
     for index, section in enumerate(sections):
+        section_heading = Paragraph(paragraph_text(section["title"]), styles["SectionTitle"])
+        section_heading._toc_level = 0
+        section_heading._bookmark_key = f"section-{index + 1}"
         add_section_opener(story, styles, section)
+        story[-3] = section_heading
         add_markdown_lines(story, styles, section["title"], section["text"], plant_illustrations, doc_width)
+        for flowable in story:
+            if (
+                isinstance(flowable, Paragraph)
+                and hasattr(flowable, "_toc_level")
+                and not hasattr(flowable, "_bookmark_key")
+            ):
+                heading_index += 1
+                flowable._bookmark_key = f"heading-{heading_index}"
         if index < len(sections) - 1:
             story.append(PageBreak())
-    doc.build(story, onFirstPage=draw_cover, onLaterPages=draw_page_chrome)
+    doc.multiBuild(story, onFirstPage=draw_cover, onLaterPages=draw_page_chrome)
     return output_path
 
 

@@ -1,5 +1,9 @@
 # Errington Gardening Encyclopedia Handoff
 
+> Historical handoff. Some verification, source-availability, and completion statements
+> describe an earlier draft and are not current status. Use `SOURCE_AUDIT.md`,
+> `docs/SOURCE_POLICY.md`, and `PLANT_VERIFICATION_REPORT.md` for current evidence.
+
 ## Project Goal
 
 Create a print-ready, Errington-specific gardening encyclopedia for Errington, BC, focused on edible crops plus flowers and ornamentals, with per-plant growing guidance and per-plant hand-drawn botanical illustration briefs and prompts.
@@ -42,7 +46,7 @@ The checked-in chart images show:
 
 ### Edible Calendar Legend
 
-From [Planting Calander-Crops.png](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Crops.png):
+From [Planting Calander-Crops.png](Planting%20Calander-Crops.png):
 
 1. Red = Start seeds indoors.
 2. Yellow = Transplant outdoors.
@@ -50,7 +54,7 @@ From [Planting Calander-Crops.png](/c:/Users/smoky/OneDrive/Desktop/Homemade%20M
 
 ### Ornamental Calendar Legend
 
-From [Planting Calander-Ornamentals.png](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Ornamentals.png):
+From [Planting Calander-Ornamentals.png](Planting%20Calander-Ornamentals.png):
 
 1. Red = Start seeds indoors.
 2. Yellow = Transplant outdoors.

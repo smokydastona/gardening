@@ -1,6 +1,6 @@
 # Errington Gardening Encyclopedia
 
-Errington-local growing calendar and plant catalog
+Source transcriptions and working plant registry for Errington, BC
 
 # Core Handbook
 
@@ -10,12 +10,12 @@ Errington-local growing calendar and plant catalog
 
 ## Editorial Standard
 
-This manuscript is an original synthesis of local calendar records, regional pollinator guidance, and the reference works listed below. It preserves source facts and distinctions, identifies the geographic scope of regional data, and marks unresolved conflicts rather than silently reconciling them. It does not reproduce the books' prose or illustrations.
+This working manuscript preserves supplied source material and earlier editorial notes. Claims not supported by accessible, claim-level citations are unverified and are not publication-ready. The supplied calendar PDF is present, but its author and source history are unknown. The referenced 2017 pollinator guide and web reference books are not checked into this repository, so the existing summary and citations to them have not been independently rechecked. This manuscript does not reproduce the books' prose or illustrations.
 
 ### Sources In Scope
 
-1. The Errington calendar text extraction in [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md), cross-checked against the crop and ornamental calendar images in this repository. The original 89-page PDF referred to in project records is not checked into this workspace.
-2. The session-provided 2017 *Selecting Plants for Pollinators: Eastern Vancouver Island* PDF, cited as the Eastern Vancouver Island pollinator guide [1]. Its ecoregion-wide figures are not Errington-specific measurements.
+1. The supplied 89-page Errington calendar PDF, its derived text extraction in [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md), and the crop and ornamental chart images in this repository. The PDF's source history is not established; the extraction is not independent confirmation.
+2. The 2017 *Selecting Plants for Pollinators: Eastern Vancouver Island* guide, cited in an earlier draft as the regional pollinator guide [1]. The guide is not checked into this repository and its cited content has not been rechecked for this build.
 3. The supplied *Encyclopedia of Plants and Flowers* ([Internet Archive item](https://archive.org/details/encyclopediaofplantsandflowers)), *Trees, Leaves, Flowers and Seeds: A Visual Encyclopedia of the Plant Kingdom* (DK, 2019; [Internet Archive item](https://archive.org/details/trees-leaves-flowers-and-seeds-a-visual-encyclopedia-of-the-plant-kingdom-dk-2019/mode/2up)), and *Illustrated Encyclopedia* ([Internet Archive item](https://archive.org/details/illustratedencyc00wrig/page/38/mode/2up)). Use these as references for supported plant facts; verify the exact edition and page before adding page-specific citations.
 4. The supplied [Reader's Digest gardening reference PDF](Vegetable_Gardening_Encyclopedia_With_Sp.pdf), used only for general gardening topics and not as an Errington timing authority.
 
@@ -27,13 +27,13 @@ This encyclopedia organizes local timing, plant scope, general gardening topics,
 
 ## 2. How To Use This Encyclopedia
 
-Use this book in three passes rather than reading it front to back every time.
+Use this working manuscript in three passes rather than reading it front to back every time.
 
 1. Start with the climate and frost sections to understand the operational limits of the season.
 2. Read the garden-foundation chapters before preparing beds, sowing seed, or transplanting.
-3. Use the crop and ornamental inventories as the local scope list for what this project currently confirms in the workspace.
+3. Use the crop and ornamental inventories only as a list of names visible in the supplied local charts; transcription and taxonomic identity remain under review.
 
-The manuscript distinguishes between three kinds of information.
+This manuscript distinguishes between three kinds of information, none of which should be considered independently verified solely because it appears here.
 
 1. Local calendar evidence: entries in the available text extraction and visible chart legends, plant lists, and frost anchors.
 2. Regional ecological guidance: information in the Eastern Vancouver Island pollinator guide, which covers an ecoregion and must not be presented as Errington-only data.
@@ -47,9 +47,11 @@ The source set contains a hardiness-zone discrepancy:
 2. The crop and ornamental summary images are both branded as Errington Zone 8b.
 3. Both forms of calendar material show approximate frost anchors of April 15 and October 15 [E1, pp. 1, 4; crop and ornamental charts].
 
-The calendar extraction describes mild maritime winters, dry spells in July and August, and long summer daylight. Those are source-reported regional descriptions, not a substitute for observing a specific garden's exposure, drainage, and frost pockets.
+The calendar extraction describes mild maritime winters, dry spells in July and August, and long summer daylight. Those are source-reported regional descriptions, not a substitute for observing a specific garden's exposure, drainage, elevation, wind, cold-air drainage, or frost pockets.
 
-Use the frost anchors as approximate scheduling guides, not assurances that frost cannot occur outside those dates. The calendar legend also supports a mixed seasonal strategy:
+The USDA Plant Hardiness Zone Map describes average annual extreme minimum winter temperatures; Natural Resources Canada's Plant Hardiness Zones use a different model based on multiple climate variables. Neither is interchangeable with an average last spring frost, an average first autumn frost, or an observed frost in a particular year. Consult the current [USDA map](https://planthardiness.ars.usda.gov/) and [Natural Resources Canada hardiness information](https://planthardiness.gc.ca/index.php?lang=en&m=17) for their definitions. The repository has not established which zone system the supplied Errington documents intend.
+
+Use the frost anchors only as approximate source planning indicators, not assurances that frost cannot occur outside those dates. A garden's exposure, elevation, cold-air drainage, wind, soil drainage, raised beds, shelter, and season-extension methods can affect local conditions. The calendar legend also supports a mixed seasonal strategy:
 
 1. Some plants are started indoors before outdoor conditions are stable.
 2. Some are direct sown once conditions allow.
@@ -59,24 +61,24 @@ Errington gardening therefore involves protected starts, outdoor transitions, ha
 
 ## 4. Frost Dates, Risk Windows, And Seasonal Rules
 
-The April 15 and October 15 frost anchors should be used as the season's control points.
+The source-reported April 15 and October 15 anchors are not guaranteed frost dates or independently calculated local averages. Check current forecasts and observe the garden before acting.
 
 ### Spring Rule Set
 
-1. Before April 15, treat tender annuals and warm-season edibles as frost-sensitive.
-2. Use indoor sowing and protected starts where the local calendar indicates them.
-3. Keep transplanting decisions tied to frost risk rather than impatience.
+1. Treat frost-sensitive plants according to their verified hardiness and current forecast, not a fixed calendar date.
+2. Use indoor sowing and protection only where plant-specific guidance supports it.
+3. Harden off transplants and assess soil and weather conditions before planting out.
 
 ### Summer Rule Set
 
-1. Once frost risk has passed, the garden shifts from establishment to maintenance.
+1. Continue to respond to weather and site conditions rather than assuming frost risk has passed on a fixed date.
 2. The season's main work becomes watering, weeding, mulching, support, and monitoring for health issues.
 3. Growth management matters as much as planting timing.
 
 ### Autumn Rule Set
 
-1. By October 15, assume frost can end the season for tender crops and flowers.
-2. Harvest and preservation work should be planned before that date, not after it.
+1. Treat autumn frost risk as variable; monitor forecasts and protect or harvest tender crops when conditions require.
+2. Plan harvest and preservation around crop maturity and actual conditions, not an assumed frost deadline.
 3. Perennial maintenance and division tasks should be timed around dormancy rather than peak bloom.
 
 ### Winter Rule Set
@@ -136,7 +138,7 @@ The PDF also reinforces a practical economic point: good tools and deliberate be
 
 The local crop calendar and ornamental calendar both imply a multi-method planting system rather than a single workflow.
 
-The verified methods currently visible in the local sources are:
+The methods named in the supplied local sources are:
 
 1. Start seeds indoors.
 2. Transplant outdoors.
@@ -190,7 +192,9 @@ This manuscript does not yet assert a finalized local pest-by-pest catalog becau
 
 ## 10. Pollinator-Supportive Gardening On Eastern Vancouver Island
 
-The 2017 Eastern Vancouver Island pollinator guide describes an ecoregion spanning communities from Sooke and Victoria to Nanaimo, Port Alberni, and Campbell River. It reports regional annual precipitation ranging from about 800 mm at lower elevations to about 2,500 mm at higher elevations, with warm, dry summers and warm, wet winters. These broad regional figures must not be substituted for Errington-specific measurements [1, pp. 3, 6].
+**Source limitation:** The 2017 guide cited below is not available in this repository. The existing summary and page citations are preserved as unverified draft material and must be checked against the guide before publication. The figures are not Errington-specific measurements.
+
+The earlier draft attributes an ecoregion description to the 2017 Eastern Vancouver Island pollinator guide, including a range of communities and regional precipitation estimates [1, pp. 3, 6]. These details have not been independently rechecked in this build and must not be substituted for Errington-specific measurements.
 
 The guide's practical message is to provide habitat resources across the seasons, not merely a few attractive flowers. Pollinators need food, nesting or shelter opportunities, and water. Flowers can provide nectar and pollen; host plants support larvae of some pollinators. A diverse sequence of flowering plants can extend food availability from early spring into late fall. Grouping plants and varying flower forms, heights, and bloom periods can support a wider range of visitors [1, pp. 10, 12-15].
 
@@ -200,9 +204,9 @@ Provide a clean water source with a shallow or sloping edge so insects can appro
 
 The guide describes different nesting needs among bee groups, including cavities, dead wood or stems, and exposed soil. Avoid disturbing active nests or managed honey-bee hives. The plant tables on pages 16-19 list regionally relevant plants and their bloom periods, but those dates describe the Eastern Vancouver Island source area and are not automatically Errington calendar dates. Use the local calendar for timing and the guide for habitat context [1, pp. 16-21].
 
-## 11. Verified Local Crop Inventory
+## 11. Source-Listed Edible Crops (Unverified Transcription)
 
-The following edible crops are directly visible on the Errington crop calendar image and therefore belong in the local working edition of this encyclopedia.
+The following names appear in the supplied crop chart transcription. This inventory does not establish a species identity, a correct chart reading, or suitability for every Errington garden.
 
 1. Arugula
 2. Asparagus
@@ -234,11 +238,11 @@ The following edible crops are directly visible on the Errington crop calendar i
 28. Swiss Chard
 29. Tomatoes
 
-These names are normalized where the image shows obvious spelling errors. The normalized forms and the original source spellings are preserved in [plant_registry.csv](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_registry.csv).
+The normalized forms and original source spellings are preserved in [plant_registry.csv](plant_registry.csv). Corrections to chart spellings require editorial review.
 
-## 12. Verified Local Flower And Ornamental Inventory
+## 12. Source-Listed Flowers And Ornamentals (Unverified Transcription)
 
-The following plant groups are directly visible on the Errington ornamental calendar image.
+The following names appear in the supplied ornamental chart transcription; they are not all resolved to species or cultivars.
 
 ### Annual Flowers
 
@@ -313,7420 +317,2369 @@ The current source set supports a clear operating model for the final book.
 4. The registry governs normalized naming, verification state, and eventual per-plant enrichment.
 5. The final illustrated edition should only assert plant-level sowing, transplanting, bloom, and harvest windows once those details are directly transcribed from reliable local source material.
 
-## 15. Appendix: Current Verified Scope In The Workspace
+## 15. Appendix: Current Source-Visible Scope (Unverified)
 
-### Verified Local Climate Facts
+### Climate claims reported by the supplied calendar
 
-1. Expected last frost: April 15.
-2. Expected first frost: October 15.
-3. The calendar text extraction states Zone 8a; both chart images state Zone 8b. The conflict is unresolved.
+1. The calendar PDF reports an approximate last-frost anchor of April 15.
+2. The calendar PDF reports an approximate first-frost anchor of October 15.
+3. The calendar PDF says Zone 8a; both chart images say Zone 8b. The conflict is unresolved.
 
-### Verified Local Crop Legend
+### Crop-chart legend as transcribed
 
-1. Red marks indoor sowing.
-2. Yellow marks outdoor transplanting.
-3. Teal or green marks direct sowing or harvest on the crop chart.
+1. Red is labeled indoor sowing.
+2. Yellow is labeled transplanting outdoors.
+3. Teal or green is labeled direct sowing or harvest on the crop chart.
 
-### Verified Local Ornamental Legend
+### Ornamental-chart legend as transcribed
 
-1. Red marks indoor sowing.
-2. Yellow marks outdoor transplanting.
-3. Green marks direct sowing.
-4. Blue marks bloom.
-5. Gray marks dormant or divide periods.
+1. Red is labeled indoor sowing.
+2. Yellow is labeled transplanting outdoors.
+3. Green is labeled direct sowing.
+4. Blue is labeled bloom.
+5. Gray is labeled dormant or divide.
 
-### Verified Local Plant Counts
+### Counts in the current chart transcription
 
-1. 29 visible edible crops.
-2. 19 visible flowers across annual, perennial, and bulb groupings.
-3. 6 visible ornamental entries.
+1. 29 edible names.
+2. 19 flower names across annual, perennial, and bulb groupings.
+3. 6 ornamental entries.
 
 ## 16. Source Notes And Publication Status
 
 ### Source Note
 
-[E1] Errington calendar full-text extraction (`ERRINGTON_CALENDAR_FULL_TEXT.md`) and the checked-in crop and ornamental calendar charts. The original calendar PDF is not checked into this workspace.
-[1] Pollinator Partnership Canada and the North American Pollinator Protection Campaign, *Selecting Plants for Pollinators: A Guide for Gardeners, Farmers, and Land Managers in the Eastern Vancouver Island Ecoregion* (2017 session-provided PDF), especially pp. 3, 6, 10, 12-21. The ecoregion's climate and plant tables have a broader geographic scope than Errington.
+[E1] Supplied *Errington BC Zone 8a Planting Calendar* PDF, 89 pages, author and source history unknown, creation date shown in PDF metadata as 2026-06-28; the derived transcription is `ERRINGTON_CALENDAR_FULL_TEXT.md`. The chart images are separate source artifacts labeled Zone 8b.
+[1] The earlier draft cites Pollinator Partnership Canada and the North American Pollinator Protection Campaign, *Selecting Plants for Pollinators: A Guide for Gardeners, Farmers, and Land Managers in the Eastern Vancouver Island Ecoregion* (2017), especially pp. 3, 6, 10, 12-21. The PDF is not present in the repository; citation details and claims require rechecking. The stated scope is broader than Errington.
 
 The Internet Archive references listed in the editorial standard are source works, not text to be copied into this encyclopedia. Plant-level taxonomy, morphology, care, and timing still require traceable, plant-specific citations. A blank or unmatched registry field remains unverified rather than being filled by guesswork.
 
 ### Publication Status
 
-The checked-in registry now contains taxonomy, life-cycle, morphology, soil, water, spacing, light, maintenance, and pest scaffolds for all 137 plant records. This is a strong bulk profile, not final species-level authority: entries with genus, cultivar, or common-name ambiguity are marked for species-resolution, and many exact cultivation values still require the seed packet, cultivar label, or a direct horticultural reference. Calendar timing and inventory entries remain separate from general plant profiles.
+The registry contains 137 records and previously generated taxonomy and cultural-profile fields. Those values have no claim-level citations in this repository and are not verified; generic profile scaffolds are omitted from the generated plant index. Fifteen entries are already marked for species/cultivar resolution. No plant taxonomy, horticultural profile, or local timing is independently verified in this build. Calendar transcription and plant inventory remain separate from future reviewed recommendations.
 
 # Monthly Reference
 
 # Errington Monthly Garden Reference
 
-This file is generated from the available Errington calendar text extraction and grouped into monthly edible and ornamental reference sections. The extraction is cross-checked against the checked-in chart images where possible.
+## How to read this calendar
+
+These are source transcriptions, not independently reviewed recommendations. The calendar PDF identifies Zone 8a while both chart images identify Zone 8b; the discrepancy remains unresolved. April 15 and October 15 are approximate source frost anchors, not guaranteed frost dates.
+
+Action labels are mechanically classified from transcribed wording. They are not editorially verified. Plant names joined by a slash or comma are retained as a source group and must not be interpreted as interchangeable crops.
+
+Each entry includes its original source page. Grayscale-readable labels are used instead of relying on the source chart colours.
+
+## Text action key
+
+| Label | Meaning in this transcription |
+|---|---|
+| INDOOR SOWING | Source wording indicates indoor seed starting |
+| DIRECT SOWING | Source wording indicates sowing outdoors |
+| TRANSPLANTING | Source wording indicates moving established plants |
+| SUCCESSION SOWING | Source wording indicates repeat sowing |
+| HARVESTING | Source wording indicates picking or harvest |
+| FLOWERING | Source wording indicates bloom |
+| PRUNING | Source wording indicates pruning or deadheading |
+| DIVIDING | Source wording indicates division |
+| PROPAGATION | Source wording indicates propagation |
+| SEASONAL MAINTENANCE | A seasonal action not matched to another label |
+| REVIEW ACTION | The action could not be classified |
 
 ## January
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Seed & Crop Planning - - Order seed catalogues; plan rotations
-- Garlic (overwintering) - - [Frost Risk] Mulch in place; overwintering
-- Kale (overwintered) - - Light harvest if [Harvest] protected
-- Chard (overwintered) - - Light harvest if [Harvest] protected [Frost Risk]
-- Stored Squash / Roots - - Check cold storage; remove any rot
+- **[SEASONAL MAINTENANCE]** Seed & Crop Planning — — Order seed catalogues; plan rotations — source p. 4
+- **[SEASONAL MAINTENANCE]** Garlic (overwintering) — — [Frost Risk] Mulch in place; overwintering — source p. 4
+- **[HARVESTING]** Kale (overwintered) — — Light harvest if [Harvest] protected — source p. 4
+- **[HARVESTING]** Chard (overwintered) — — Light harvest if [Harvest] protected [Frost Risk] — source p. 4
+- **[SEASONAL MAINTENANCE]** Stored Squash / Roots — — Check cold storage; remove any rot — source p. 4 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune dormant trees Jan-Feb
-- Bare-root fruit stock - - Order from nursery now
+- **[PRUNING]** Apple / Pear / Plum / Cherry — — [Prune/Deadhead] Prune dormant trees Jan–Feb — source p. 5 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Bare-root fruit stock — — Order from nursery now — source p. 5
 
 #### Roots & Tubers
 
-- Potatoes / Carrots / Beets - - Check cold storage; remove rot
+- **[SEASONAL MAINTENANCE]** Potatoes / Carrots / Beets — — Check cold storage; remove rot — source p. 5 — grouped source entry; individual timing unresolved
 
 #### Legumes & Grains
 
-- All legumes & grains - - Nothing this month; plan rotations
+- **[SEASONAL MAINTENANCE]** All legumes & grains — — Nothing this month; plan rotations — source p. 5
 
 #### Perennial Edibles
 
-- Rhubarb - - Fully dormant [Frost Risk]
-- Asparagus - - Fully dormant [Frost Risk]
+- **[REVIEW ACTION]** Rhubarb — — Fully dormant [Frost Risk] — source p. 5
+- **[REVIEW ACTION]** Asparagus — — Fully dormant [Frost Risk] — source p. 5
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Snapdragons Late Jan (under lights) - -
-- Petunias Late Jan (under lights) - -
-- Lobelia Late Jan (under lights) - -
+- **[INDOOR SOWING]** Snapdragons Late Jan (under lights) — — — source p. 8
+- **[INDOOR SOWING]** Petunias Late Jan (under lights) — — — source p. 8
+- **[INDOOR SOWING]** Lobelia Late Jan (under lights) — — — source p. 8
 
 #### Hardy Perennials
 
-- Hellebores (Lenten Rose) - - Blooming outdoors; cut[Bloom] tatty foliage
-- Snowdrops (Galanthus) - - Blooming; divide after [Bloom] bloom if congested
+- **[FLOWERING]** Hellebores (Lenten Rose) — — Blooming outdoors; cut[Bloom] tatty foliage — source p. 8
+- **[FLOWERING / DIVIDING]** Snowdrops (Galanthus) — — Blooming; divide after [Bloom] bloom if congested — source p. 8
 
 #### Bulbs & Corms
 
-- Snowdrops (Galanthus) - - Blooming outdoors [Frost Risk][Bloom]
-- Forced bulbs (indoors) - - Check for growth; keep[Bloom] in bright spot
+- **[FLOWERING]** Snowdrops (Galanthus) — — Blooming outdoors [Frost Risk][Bloom] — source p. 8
+- **[SEASONAL MAINTENANCE]** Forced bulbs (indoors) — — Check for growth; keep[Bloom] in bright spot — source p. 8
 
 #### Shrubs & Trees (Ornamental)
 
-- Witch Hazel (Hamamelis) - - Blooming - fragrant [Bloom] winter display
-- Buddleja / Hydrangea paniculata - - [Prune/Deadhead] Prune hard Jan-Feb
+- **[FLOWERING / REVIEW ACTION]** Witch Hazel (Hamamelis) — — Blooming — fragrant [Bloom] winter display — source p. 8
+- **[PRUNING]** Buddleja / Hydrangea paniculata — — [Prune/Deadhead] Prune hard Jan–Feb — source p. 8 — grouped source entry; individual timing unresolved
 
 #### Bc Native Plants
 
-- Osoberry (Oemleria) - - Buds beginning to swell; earliest native
+- **[REVIEW ACTION]** Osoberry (Oemleria) — — Buds beginning to swell; earliest native — source p. 9
 
 #### Cut Flowers
 
-- Amaryllis (forced, indoors) - - Blooming indoors; [Bloom] stake tall stems
-- Paperwhite Narcissus (forced) - - Blooming indoors - [Bloom] fragrant
+- **[FLOWERING]** Amaryllis (forced, indoors) — — Blooming indoors; [Bloom] stake tall stems — source p. 9 — grouped source entry; individual timing unresolved
+- **[FLOWERING / REVIEW ACTION]** Paperwhite Narcissus (forced) — — Blooming indoors — [Bloom] fragrant — source p. 9
 
 ## February
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Celery / Celeriac Wk 1 (16 wks to transplant) - -
-- Leeks Wk 1-2 - -
-- Onions Wk 2-4 - -
-- Peppers (early) Wk 3-4 - -
-- Eggplant (early) Wk 4 - -
-- Kale / Chard (overwintered) - - Light harvest if not [Harvest] frozen [Frost Risk]
+- **[INDOOR SOWING]** Celery / Celeriac Wk 1 (16 wks to transplant) — — — source p. 11 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Leeks Wk 1–2 — — — source p. 11
+- **[INDOOR SOWING]** Onions Wk 2–4 — — — source p. 11
+- **[INDOOR SOWING]** Peppers (early) Wk 3–4 — — — source p. 11
+- **[INDOOR SOWING]** Eggplant (early) Wk 4 — — — source p. 11
+- **[HARVESTING]** Kale / Chard (overwintered) — — Light harvest if not [Harvest] frozen [Frost Risk] — source p. 11 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Parsley Wk 1-2 (slow germinator) - -
-- Chives Wk 1-2 - -
-- Basil Wk 4 (under lights, warm) - -
+- **[INDOOR SOWING]** Parsley Wk 1–2 (slow germinator) — — — source p. 11
+- **[INDOOR SOWING]** Chives Wk 1–2 — — — source p. 11
+- **[INDOOR SOWING]** Basil Wk 4 (under lights, warm) — — — source p. 11
 
 #### Fruits & Berries
 
-- Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune before bud break (Feb)
-- Grape vines - - [Prune/Deadhead] Prune Feb - before sap rises
-- Strawberries (bare-root) - Late Feb if ground [Direct Sow] workable -
+- **[PRUNING]** Apple / Pear / Plum / Cherry — — [Prune/Deadhead] Prune before bud break (Feb) — source p. 12 — grouped source entry; individual timing unresolved
+- **[PRUNING / REVIEW ACTION]** Grape vines — — [Prune/Deadhead] Prune Feb — before sap rises — source p. 12
+- **[REVIEW ACTION]** Strawberries (bare-root) — Late Feb if ground [Direct Sow] workable — — source p. 12
 
 #### Roots & Tubers
 
-- All root crops - - Too early to sow. Check cold storage.
+- **[SEASONAL MAINTENANCE]** All root crops — — Too early to sow. Check cold storage. — source p. 12
 
 #### Legumes & Grains
 
-- All legumes & grains - - Nothing this month
+- **[REVIEW ACTION]** All legumes & grains — — Nothing this month — source p. 12
 
 #### Perennial Edibles
 
-- Globe Artichoke Wk 3-4 (needs vernalisation) - -
-- Rhubarb - - Crown tips may appear - leave
-- Asparagus - - Still dormant [Frost Risk]
+- **[INDOOR SOWING]** Globe Artichoke Wk 3–4 (needs vernalisation) — — — source p. 12
+- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Rhubarb — — Crown tips may appear — leave — source p. 12
+- **[REVIEW ACTION]** Asparagus — — Still dormant [Frost Risk] — source p. 12
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Hardy Perennials
 
-- Delphinium Wk 1 - -
-- Echinacea (Coneflower) Wk 2 - -
-- Salvia nemorosa Wk 2 - -
-- Hellebores - - Peak bloom outdoors[Bloom]
-- Snowdrops - Divide "in the green" now Blooming - divide [Bloom] congested clumps
+- **[INDOOR SOWING]** Delphinium Wk 1 — — — source p. 15
+- **[INDOOR SOWING]** Echinacea (Coneflower) Wk 2 — — — source p. 15
+- **[INDOOR SOWING]** Salvia nemorosa Wk 2 — — — source p. 15
+- **[FLOWERING]** Hellebores — — Peak bloom outdoors[Bloom] — source p. 15
+- **[FLOWERING / DIVIDING]** Snowdrops — Divide "in the green" now Blooming — divide [Bloom] congested clumps — source p. 15
 
 #### Bulbs & Corms
 
-- Anemone corms - Plant outdoors (if not [Plant Bulb/Tuber] frozen) -
-- Snowdrops / early Crocus - - Blooming [Frost Risk][Bloom]
+- **[REVIEW ACTION]** Anemone corms — Plant outdoors (if not [Plant Bulb/Tuber] frozen) — — source p. 15
+- **[FLOWERING]** Snowdrops / early Crocus — — Blooming [Frost Risk][Bloom] — source p. 15 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Witch Hazel (Hamamelis) - - Blooming - fragrant in[Bloom] mild spells
-- Roses - - [Prune/Deadhead] Light prune late Feb
-- Forsythia - - Buds swelling; bloom imminent
+- **[FLOWERING / REVIEW ACTION]** Witch Hazel (Hamamelis) — — Blooming — fragrant in[Bloom] mild spells — source p. 15
+- **[PRUNING]** Roses — — [Prune/Deadhead] Light prune late Feb — source p. 15
+- **[FLOWERING]** Forsythia — — Buds swelling; bloom imminent — source p. 15
 
 #### Bc Native Plants
 
-- Indian Plum (Oemleria) - - Earliest native in [Bloom] bloom
-- Red Flowering Currant (Ribes) - - Buds swelling - bloom coming soon
+- **[FLOWERING]** Indian Plum (Oemleria) — — Earliest native in [Bloom] bloom — source p. 16
+- **[FLOWERING / REVIEW ACTION]** Red Flowering Currant (Ribes) — — Buds swelling — bloom coming soon — source p. 16
 
 #### Cut Flowers
 
-- Lisianthus Wk 1 (16-20 wks to bloom) - -
-- Statice Wk 2 - -
+- **[INDOOR SOWING]** Lisianthus Wk 1 (16–20 wks to bloom) — — — source p. 16
+- **[INDOOR SOWING]** Statice Wk 2 — — — source p. 16
 
 ## March
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Tomatoes Wk 1-2 (8-10 wks before transplant) - -
-- Peppers / Eggplant Continue from Feb - -
-- Broccoli / Cauliflower / Cabbage Wk 1 - -
-- Brussels Sprouts Wk 1-2 - -
-- Kale (new crop) Wk 1-2 - -
-- Lettuce / Spinach Wk 1 (indoors) Wk 3-4 under cloche [Frost Risk][Direct Sow] -
-- Peas - Wk 3-4 (cold-tolerant) [Direct Sow] -
-- Broad Beans (Fava) - Wk 3-4 [Frost Risk][Direct Sow] -
-- Radish / Arugula / Mâche - Wk 3-4 (under fleece)[Direct Sow] -
+- **[INDOOR SOWING]** Tomatoes Wk 1–2 (8–10 wks before transplant) — — — source p. 18
+- **[REVIEW ACTION]** Peppers / Eggplant Continue from Feb — — — source p. 18 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Broccoli / Cauliflower / Cabbage Wk 1 — — — source p. 18 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Brussels Sprouts Wk 1–2 — — — source p. 18
+- **[INDOOR SOWING]** Kale (new crop) Wk 1–2 — — — source p. 18
+- **[INDOOR SOWING]** Lettuce / Spinach Wk 1 (indoors) Wk 3–4 under cloche [Frost Risk][Direct Sow] — — source p. 18 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Peas — Wk 3–4 (cold-tolerant) [Direct Sow] — — source p. 18
+- **[REVIEW ACTION]** Broad Beans (Fava) — Wk 3–4 [Frost Risk][Direct Sow] — — source p. 18
+- **[REVIEW ACTION]** Radish / Arugula / Mâche — Wk 3–4 (under fleece)[Direct Sow] — — source p. 18 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Basil Wk 1-2 (indoors only) - -
-- Dill Wk 1-2 Late Mar direct sow OK[Direct Sow] -
-- Cilantro - Direct sow late Mar[Direct Sow] -
+- **[INDOOR SOWING]** Basil Wk 1–2 (indoors only) — — — source p. 19
+- **[INDOOR SOWING]** Dill Wk 1–2 Late Mar direct sow OK[Direct Sow] — — source p. 19
+- **[DIRECT SOWING]** Cilantro — Direct sow late Mar[Direct Sow] — — source p. 19
 
 #### Fruits & Berries
 
-- Strawberries (from seed) Wk 1 (long season needed) - -
-- Strawberries / Currants / Gooseberries (bare-root) - Mar if ground workable[Direct Sow] -
-- Blueberries - - [Prune/Deadhead] Prune Mar; apply dormant spray
-- Apple / Pear / Cherry - - Apply dormant oil spray now
+- **[INDOOR SOWING]** Strawberries (from seed) Wk 1 (long season needed) — — — source p. 19
+- **[REVIEW ACTION]** Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable[Direct Sow] — — source p. 19 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Blueberries — — [Prune/Deadhead] Prune Mar; apply dormant spray — source p. 19
+- **[REVIEW ACTION]** Apple / Pear / Cherry — — Apply dormant oil spray now — source p. 19 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Parsnips - Wk 3-4 (needs warm [Direct Sow] soil) -
-- Carrots - Wk 3-4 under fleece[Direct Sow] -
-- Seed Potatoes Chit indoors in light (Mar) - -
-- LEGUMES Peas - Wk 3-4 outdoors [Frost Risk][Direct Sow] -
-- Broad Beans (Fava) - Wk 3-4 [Frost Risk][Direct Sow] -
+- **[REVIEW ACTION]** Parsnips — Wk 3–4 (needs warm [Direct Sow] soil) — — source p. 19
+- **[REVIEW ACTION]** Carrots — Wk 3–4 under fleece[Direct Sow] — — source p. 19
+- **[REVIEW ACTION]** Seed Potatoes Chit indoors in light (Mar) — — — source p. 19
+- **[REVIEW ACTION]** LEGUMES Peas — Wk 3–4 outdoors [Frost Risk][Direct Sow] — — source p. 19
+- **[REVIEW ACTION]** Broad Beans (Fava) — Wk 3–4 [Frost Risk][Direct Sow] — — source p. 19
 
 #### Perennial Edibles
 
-- Globe Artichoke Continue from Feb - -
-- Asparagus crowns - Plant late Mar (if workable) -
-- Rhubarb - - Emerging - do not harvest 1st yr
+- **[REVIEW ACTION]** Globe Artichoke Continue from Feb — — — source p. 20
+- **[REVIEW ACTION]** Asparagus crowns — Plant late Mar (if workable) — — source p. 20
+- **[HARVESTING / REVIEW ACTION]** Rhubarb — — Emerging — do not harvest 1st yr — source p. 20
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Impatiens Wk 1 - -
-- Nicotiana / Cleome Wk 1 - -
-- Marigold Wk 2 - -
-- Zinnia / Cosmos Wk 3 - -
-- Sweet Peas - Direct sow outdoors [Direct Sow] Wk 3-4 -
+- **[INDOOR SOWING]** Impatiens Wk 1 — — — source p. 22
+- **[INDOOR SOWING]** Nicotiana / Cleome Wk 1 — — — source p. 22 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Marigold Wk 2 — — — source p. 22
+- **[INDOOR SOWING]** Zinnia / Cosmos Wk 3 — — — source p. 22 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Sweet Peas — Direct sow outdoors [Direct Sow] Wk 3–4 — — source p. 22
 
 #### Hardy Perennials
 
-- Coneflower / Rudbeckia Wk 1 - -
-- Gaillardia Wk 2 - -
-- Larkspur / Poppy - Direct sow Wk 3-4[Direct Sow] -
-- Hostas / Daylilies / Asters - Divide emerging clumps [Prune/Deadhead] Emerging from ground
+- **[INDOOR SOWING]** Coneflower / Rudbeckia Wk 1 — — — source p. 22 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Gaillardia Wk 2 — — — source p. 22
+- **[DIRECT SOWING]** Larkspur / Poppy — Direct sow Wk 3–4[Direct Sow] — — source p. 22 — grouped source entry; individual timing unresolved
+- **[DIVIDING]** Hostas / Daylilies / Asters — Divide emerging clumps [Prune/Deadhead] Emerging from ground — source p. 22 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- Dahlia tubers Pot up indoors Wk 3-4[Plant Bulb/Tuber] - -
-- Daffodils / Crocus / early Tulips - - Blooming - peak [Bloom] spring display
+- **[INDOOR SOWING]** Dahlia tubers Pot up indoors Wk 3–4[Plant Bulb/Tuber] — — — source p. 22
+- **[FLOWERING / REVIEW ACTION]** Daffodils / Crocus / early Tulips — — Blooming — peak [Bloom] spring display — source p. 22 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Forsythia / Pieris - - Blooming[Bloom]
-- Summer-flowering shrubs - - [Prune/Deadhead] Prune Mar; feed roses
+- **[FLOWERING]** Forsythia / Pieris — — Blooming[Bloom] — source p. 23 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Summer-flowering shrubs — — [Prune/Deadhead] Prune Mar; feed roses — source p. 23
 
 #### Climbing Vines
 
-- Morning Glory Wk 3 (indoors) - -
-- Group 3 Clematis - - [Prune/Deadhead] Prune hard early Mar if not done
+- **[INDOOR SOWING]** Morning Glory Wk 3 (indoors) — — — source p. 23
+- **[PRUNING]** Group 3 Clematis — — [Prune/Deadhead] Prune hard early Mar if not done — source p. 23
 
 #### Bc Native Plants
 
-- Red Flowering Currant (Ribes) - - Blooming - [Bloom] hummingbird magnet
-- Osoberry / Trillium - - Emerging - do not [Bloom] pick Trillium
+- **[FLOWERING / REVIEW ACTION]** Red Flowering Currant (Ribes) — — Blooming — [Bloom] hummingbird magnet — source p. 23
+- **[HARVESTING / REVIEW ACTION]** Osoberry / Trillium — — Emerging — do not [Bloom] pick Trillium — source p. 23 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Celosia / Strawflower / Scabiosa Wk 1-2 - -
-- Larkspur - Direct sow outdoors[Direct Sow] -
+- **[INDOOR SOWING]** Celosia / Strawflower / Scabiosa Wk 1–2 — — — source p. 23 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Larkspur — Direct sow outdoors[Direct Sow] — — source p. 23
 
 ## April
 
-### Edibles
+### Vegetables and edible crops
 
 #### Herbs
 
-- Dill / Cilantro / Chervil / Fennel - Direct sow Wk 3-4[Direct Sow] -
-- Chives / Parsley (starts) - → Transplant Wk 3-4[Indoor Sow] [Indoor Sow] -
+- **[DIRECT SOWING]** Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — source p. 26 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Chives / Parsley (starts) — → Transplant Wk 3–4[Indoor Sow] [Indoor Sow] — — source p. 26 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Strawberry runners - Plant outdoors Wk 3-4[Direct Sow] -
-- Raspberries - - [Prune/Deadhead] Cut back old canes
-- Blueberries / Currants - - New growth beginning; feed now
+- **[REVIEW ACTION]** Strawberry runners — Plant outdoors Wk 3–4[Direct Sow] — — source p. 26
+- **[SEASONAL MAINTENANCE]** Raspberries — — [Prune/Deadhead] Cut back old canes — source p. 26
+- **[SEASONAL MAINTENANCE]** Blueberries / Currants — — New growth beginning; feed now — source p. 26 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Seed potatoes - Plant Wk 3-4 (after last[Direct Sow] frost) -
-- Carrots / Beets (succession) - Direct sow Wk 3-4[Direct Sow] -
+- **[REVIEW ACTION]** Seed potatoes — Plant Wk 3–4 (after last[Direct Sow] frost) — — source p. 26
+- **[DIRECT SOWING]** Carrots / Beets (succession) — Direct sow Wk 3–4[Direct Sow] — — source p. 26 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Asparagus - - Harvest begins Wk 3-4[Harvest]
-- Rhubarb - - Harvest begins Wk 3-4[Harvest]
-- Artichoke - → Transplant [Indoor Sow] [Indoor Sow] outdoors late Apr -
+- **[HARVESTING]** Asparagus — — Harvest begins Wk 3–4[Harvest] — source p. 27
+- **[HARVESTING]** Rhubarb — — Harvest begins Wk 3–4[Harvest] — source p. 27
+- **[TRANSPLANTING]** Artichoke — → Transplant [Indoor Sow] [Indoor Sow] outdoors late Apr — — source p. 27
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Snapdragons / Pansies / Stocks - → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 -
-- Sweet Peas - Direct sow Wk 1-2[Direct Sow] -
-- Larkspur / Poppy / Nigella / Calendula / Borage - Direct sow Wk 2-4[Direct Sow] -
+- **[TRANSPLANTING]** Snapdragons / Pansies / Stocks — → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 — — source p. 29 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Sweet Peas — Direct sow Wk 1–2[Direct Sow] — — source p. 29
+- **[DIRECT SOWING]** Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — source p. 29 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Primula / Wallflower / Aubretia / Iberis - - Blooming[Bloom]
-- Perennial seedlings (hardened-off) - → Transplant Wk 3-4[Indoor Sow] [Indoor Sow] -
-- Hostas / Daylilies / Asters - Divide established clumps [Prune/Deadhead] -
+- **[FLOWERING]** Primula / Wallflower / Aubretia / Iberis — — Blooming[Bloom] — source p. 29 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Perennial seedlings (hardened-off) — → Transplant Wk 3–4[Indoor Sow] [Indoor Sow] — — source p. 29
+- **[DIVIDING]** Hostas / Daylilies / Asters — Divide established clumps [Prune/Deadhead] — — source p. 29 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Magnolia / Camellia / Rhododendron / Azalea - - Stunning spring [Bloom] display
-- Spring-flowering shrubs (Forsythia, Kerria) - - [Prune/Deadhead] Prune AFTER bloom; feed roses
+- **[REVIEW ACTION]** Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — source p. 30 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Spring-flowering shrubs (Forsythia, Kerria) — — [Prune/Deadhead] Prune AFTER bloom; feed roses — source p. 30 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- Sweet Peas - → Transplant [Indoor Sow] [Indoor Sow] outdoors Wk 3-4 -
-- Morning Glory - Wait until May -
-- Honeysuckle - - Leafing out; new growth vigorous
+- **[TRANSPLANTING]** Sweet Peas — → Transplant [Indoor Sow] [Indoor Sow] outdoors Wk 3–4 — — source p. 30
+- **[REVIEW ACTION]** Morning Glory — Wait until May — — source p. 30
+- **[REVIEW ACTION]** Honeysuckle — — Leafing out; new growth vigorous — source p. 30
 
 #### Bc Native Plants
 
-- Bleeding Heart (Dicentra) / Pacific Trillium - - Blooming in shaded [Bloom] spots
-- Camas (Camassia) - - Beginning to bloom[Bloom]
-- Garry Oak - - Leafing out; catkins dropping
+- **[FLOWERING]** Bleeding Heart (Dicentra) / Pacific Trillium — — Blooming in shaded [Bloom] spots — source p. 30 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Camas (Camassia) — — Beginning to bloom[Bloom] — source p. 30
+- **[REVIEW ACTION]** Garry Oak — — Leafing out; catkins dropping — source p. 30
 
 ## May
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Tomatoes - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] (hardened) -
-- Peppers / Eggplant - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] -
-- Cucumber / Zucchini / Squash - → Transplant Wk 2-3[Indoor Sow] [Indoor Sow] -
-- Beans (French / Runner) - Direct sow Wk 2-4[Direct Sow] -
-- Corn - Direct sow Wk 3-4[Direct Sow] -
-- Beets / Carrots / Lettuce / Chard / Kale - Succession sow Wk 1-[Direct Sow] 4 -
-- Peas (second sowing) - Wk 1-2 for late crop[Direct Sow] -
+- **[TRANSPLANTING]** Tomatoes — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] (hardened) — — source p. 33
+- **[TRANSPLANTING]** Peppers / Eggplant — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — source p. 33 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Cucumber / Zucchini / Squash — → Transplant Wk 2–3[Indoor Sow] [Indoor Sow] — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Beans (French / Runner) — Direct sow Wk 2–4[Direct Sow] — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Corn — Direct sow Wk 3–4[Direct Sow] — — source p. 33
+- **[SUCCESSION SOWING]** Beets / Carrots / Lettuce / Chard / Kale — Succession sow Wk 1–[Direct Sow] 4 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Peas (second sowing) — Wk 1–2 for late crop[Direct Sow] — — source p. 33
 
 #### Herbs
 
-- Basil - → Transplant Wk 2 [Indoor Sow] [Indoor Sow] (soil must be warm) -
-- Rosemary / Thyme / Oregano - → Transplant now[Indoor Sow] [Indoor Sow] -
-- Dill / Cilantro / Fennel - Succession direct sow[Direct Sow] -
+- **[TRANSPLANTING]** Basil — → Transplant Wk 2 [Indoor Sow] [Indoor Sow] (soil must be warm) — — source p. 33
+- **[TRANSPLANTING]** Rosemary / Thyme / Oregano — → Transplant now[Indoor Sow] [Indoor Sow] — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING / SUCCESSION SOWING]** Dill / Cilantro / Fennel — Succession direct sow[Direct Sow] — — source p. 33 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Strawberries - - Flowers forming; [Bloom] remove 1st-yr runners' flowers
-- Blueberries / Gooseberries - - Flowering; set fruit[Bloom]
-- Apple / Pear - - Thin fruitlets late May (June drop)
+- **[SEASONAL MAINTENANCE]** Strawberries — — Flowers forming; [Bloom] remove 1st-yr runners' flowers — source p. 33
+- **[FLOWERING]** Blueberries / Gooseberries — — Flowering; set fruit[Bloom] — source p. 33 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Apple / Pear — — Thin fruitlets late May (June drop) — source p. 33 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Carrots / Beets / Parsnips - Succession sow[Direct Sow] -
-- Sweet potato slips - Plant late May (soil [Direct Sow] warm) -
+- **[SUCCESSION SOWING]** Carrots / Beets / Parsnips — Succession sow[Direct Sow] — — source p. 33 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Sweet potato slips — Plant late May (soil [Direct Sow] warm) — — source p. 33
 
 #### Legumes & Grains
 
-- Beans (French / Runner) / Edamame - Direct sow Wk 2-4[Direct Sow] -
-- Broad Beans - - In flower - pinch tops [Bloom] to deter blackfly
-- Corn / Sunflower - Direct sow Wk 3-4[Direct Sow] -
+- **[DIRECT SOWING]** Beans (French / Runner) / Edamame — Direct sow Wk 2–4[Direct Sow] — — source p. 34 — grouped source entry; individual timing unresolved
+- **[FLOWERING / REVIEW ACTION]** Broad Beans — — In flower — pinch tops [Bloom] to deter blackfly — source p. 34
+- **[DIRECT SOWING]** Corn / Sunflower — Direct sow Wk 3–4[Direct Sow] — — source p. 34 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Asparagus - - Full harvest - pick [Harvest] daily
-- Rhubarb - - Harvest stalks; leave [Harvest] some leaves
-- Artichoke - - Establishing in garden
+- **[HARVESTING]** Asparagus — — Full harvest — pick [Harvest] daily — source p. 34
+- **[HARVESTING]** Rhubarb — — Harvest stalks; leave [Harvest] some leaves — source p. 34
+- **[REVIEW ACTION]** Artichoke — — Establishing in garden — source p. 34
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Impatiens / Marigolds / Petunias / Begonias - → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1-2 -
-- Zinnias / Cosmos / Nicotiana / Cleome - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] -
-- Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage - Direct sow Wk 1-3[Direct Sow] -
+- **[REVIEW ACTION]** Impatiens / Marigolds / Petunias / Begonias — → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1–2 — — source p. 36 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — source p. 36 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — source p. 36 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Aquilegia / Geranium / Lupine / Iris - - Blooming - peak early[Bloom] perennials
-- Allium / Centaurea - - Beginning to bloom[Bloom]
-- Late-emerging perennials - Divide early May [Prune/Deadhead] -
+- **[FLOWERING / REVIEW ACTION]** Aquilegia / Geranium / Lupine / Iris — — Blooming — peak early[Bloom] perennials — source p. 36 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Allium / Centaurea — — Beginning to bloom[Bloom] — source p. 36 — grouped source entry; individual timing unresolved
+- **[DIVIDING]** Late-emerging perennials — Divide early May [Prune/Deadhead] — — source p. 36
 
 #### Shrubs & Trees (Ornamental)
 
-- Rhododendron / Azalea / Lilac / Ceanothus / Weigela - - Spectacular blooms[Bloom]
-- Forsythia / Kerria / Ribes (spring-blooming) - - [Prune/Deadhead] Prune after bloom finishes
+- **[REVIEW ACTION]** Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms[Bloom] — source p. 37 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Forsythia / Kerria / Ribes (spring-blooming) — — [Prune/Deadhead] Prune after bloom finishes — source p. 37 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- Morning Glory / Cobaea scandens - → Transplant [Indoor Sow] [Indoor Sow] outdoors now -
-- Clematis montana - - Peak bloom - glorious[Bloom]
-- Honeysuckle - - In bud; bloom imminent
+- **[TRANSPLANTING]** Morning Glory / Cobaea scandens — → Transplant [Indoor Sow] [Indoor Sow] outdoors now — — source p. 37 — grouped source entry; individual timing unresolved
+- **[FLOWERING / REVIEW ACTION]** Clematis montana — — Peak bloom — glorious[Bloom] — source p. 37
+- **[FLOWERING]** Honeysuckle — — In bud; bloom imminent — source p. 37
 
 #### Bc Native Plants
 
-- Camas / Bleeding Heart / Nootka Rose / Bunchberry - - Blooming - peak [Bloom] native season
+- **[FLOWERING / REVIEW ACTION]** Camas / Bleeding Heart / Nootka Rose / Bunchberry — — Blooming — peak [Bloom] native season — source p. 37 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Sunflower - Direct sow Wk 1-2[Direct Sow] -
-- Sweet Peas / Allium / Iris / Aquilegia - - Excellent for cutting[Bloom]
+- **[DIRECT SOWING]** Sunflower — Direct sow Wk 1–2[Direct Sow] — — source p. 37
+- **[PROPAGATION]** Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting[Bloom] — source p. 37 — grouped source entry; individual timing unresolved
 
 ## June
 
-### Edibles
+### Vegetables and edible crops
 
 #### Herbs
 
-- Chives / Parsley / Dill / Chervil - - Harvest freely; dry or [Harvest] freeze surplus
-- Cilantro (before bolt) - - Harvest now - bolts [Harvest] fast in heat
-- Basil - - [Prune/Deadhead] Pinch flowers to prolong leaf harvest
+- **[HARVESTING]** Chives / Parsley / Dill / Chervil — — Harvest freely; dry or [Harvest] freeze surplus — source p. 40 — grouped source entry; individual timing unresolved
+- **[HARVESTING / REVIEW ACTION]** Cilantro (before bolt) — — Harvest now — bolts [Harvest] fast in heat — source p. 40
+- **[HARVESTING]** Basil — — [Prune/Deadhead] Pinch flowers to prolong leaf harvest — source p. 40
 
 #### Fruits & Berries
 
-- Strawberries - - Full harvest Wk 1-4[Harvest]
-- Gooseberries - - Ready late June[Harvest]
-- Apple / Pear - - Thin clusters to 1 fruit per spur
+- **[HARVESTING]** Strawberries — — Full harvest Wk 1–4[Harvest] — source p. 40
+- **[REVIEW ACTION]** Gooseberries — — Ready late June[Harvest] — source p. 40
+- **[REVIEW ACTION]** Apple / Pear — — Thin clusters to 1 fruit per spur — source p. 40 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Carrots / Beets (last sow for fall) - Last main sow Wk 1-2[Direct Sow] - Early new potatoes - - Check Wk 3-4 if [Harvest] planted late March
+- **[INDOOR SOWING / SEASONAL MAINTENANCE / REVIEW ACTION]** Carrots / Beets (last sow for fall) — Last main sow Wk 1–2[Direct Sow] — Early new potatoes — — Check Wk 3–4 if [Harvest] planted late March — source p. 40 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Asparagus - - [Prune/Deadhead] Stop harvesting Wk 1- 2; allow fern growth
-- Rhubarb - - Last harvest Wk 1-2; [Harvest] leave plant to rest
-- Artichoke - - Buds forming late June
+- **[HARVESTING]** Asparagus — — [Prune/Deadhead] Stop harvesting Wk 1– 2; allow fern growth — source p. 41
+- **[HARVESTING]** Rhubarb — — Last harvest Wk 1–2; [Harvest] leave plant to rest — source p. 41
+- **[REVIEW ACTION]** Artichoke — — Buds forming late June — source p. 41
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Marigold / Lobelia / Petunia / Snapdragon - - First annuals blooming[Bloom]
-- Nasturtium / Cosmos / Zinnia (early vars.) - - Beginning to bloom; [Bloom] deadhead [Prune/Deadhead]
+- **[FLOWERING]** Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — source p. 43 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; [Bloom] deadhead [Prune/Deadhead] — source p. 43 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Lupine / Iris / Salvia nemorosa / Allium - - Peak early summer [Bloom] perennials
-- Foxglove (Digitalis) / Veronica / Astrantia - - Blooming beautifully[Bloom]
-- Achillea (Yarrow) - - Beginning; excellent [Bloom] pollinator plant
-- Geranium (Cranesbill) - - Full bloom; cut back [Bloom] after for rebloom
+- **[REVIEW ACTION]** Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer [Bloom] perennials — source p. 43 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Foxglove (Digitalis) / Veronica / Astrantia — — Blooming beautifully[Bloom] — source p. 43 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Achillea (Yarrow) — — Beginning; excellent [Bloom] pollinator plant — source p. 43
+- **[FLOWERING]** Geranium (Cranesbill) — — Full bloom; cut back [Bloom] after for rebloom — source p. 43
 
 #### Bulbs & Corms
 
-- Allium / late Iris / first Lily buds - - Blooming; stake tall [Bloom]
-- Allium Gladiolus - - Growing strongly; stake tall varieties
+- **[FLOWERING]** Allium / late Iris / first Lily buds — — Blooming; stake tall [Bloom] — source p. 43 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Allium Gladiolus — — Growing strongly; stake tall varieties — source p. 43
 
 #### Shrubs & Trees (Ornamental)
 
-- Roses (first flush) / Philadelphus / Weigela / Escallonia - - Peak first flush - [Bloom] glorious
-- Philadelphus / Weigela - - [Prune/Deadhead] Prune after bloom finishes (late June)
+- **[REVIEW ACTION]** Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — [Bloom] glorious — source p. 44 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Philadelphus / Weigela — — [Prune/Deadhead] Prune after bloom finishes (late June) — source p. 44 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas - - Peak - harvest Sweet [Bloom]
-- Peas daily Morning Glory - - Climbing and budding
+- **[HARVESTING / REVIEW ACTION]** Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet [Bloom] — source p. 44 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Peas daily Morning Glory — — Climbing and budding — source p. 44
 
 #### Bc Native Plants
 
-- Nootka Rose / Ocean Spray (Holodiscus) - - Blooming - excellent [Bloom] for pollinators
-- Yarrow / Blue-eyed Grass (Sisyrinchium) - - Blooming in meadow [Bloom] areas
+- **[FLOWERING / REVIEW ACTION]** Nootka Rose / Ocean Spray (Holodiscus) — — Blooming — excellent [Bloom] for pollinators — source p. 44 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Yarrow / Blue-eyed Grass (Sisyrinchium) — — Blooming in meadow [Bloom] areas — source p. 44 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia - - Excellent cutting; [Bloom] harvest in morning
+- **[HARVESTING / PROPAGATION]** Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; [Bloom] harvest in morning — source p. 44 — grouped source entry; individual timing unresolved
 
 ## July
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Beans (for fall) / Lettuce (bolt-resistant) - Succession Wk 1-2 [Direct Sow] only -
-- Beets / Carrots / Kale / Chard - Wk 1-2 (last chance [Direct Sow] for Kale/Chard) -
-- Peas / Beans / Zucchini / Cucumber - - Full harvest swing[Harvest]
+- **[SUCCESSION SOWING]** Beans (for fall) / Lettuce (bolt-resistant) — Succession Wk 1–2 [Direct Sow] only — — source p. 46 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Beets / Carrots / Kale / Chard — Wk 1–2 (last chance [Direct Sow] for Kale/Chard) — — source p. 46 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Peas / Beans / Zucchini / Cucumber — — Full harvest swing[Harvest] — source p. 46 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint - - Full harvest; dry and [Harvest] freeze surplus
-- Basil - - [Prune/Deadhead] Pinch flowers continuously to prevent bolt
+- **[HARVESTING]** Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and [Harvest] freeze surplus — source p. 47 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Basil — — [Prune/Deadhead] Pinch flowers continuously to prevent bolt — source p. 47
 
 #### Fruits & Berries
 
-- Blueberries (mid-July onward) - - Peak harvest; pick [Harvest] daily
-- Raspberries (summer- bearing) - - Harvest; remove [Harvest] fruited canes after
-- Red / White Currants / Gooseberries - - Harvest and preserve[Harvest] Early Plums / Tayberry /
-- Everbearing Strawberries - - Beginning to fruit[Harvest]
+- **[HARVESTING]** Blueberries (mid-July onward) — — Peak harvest; pick [Harvest] daily — source p. 47
+- **[HARVESTING]** Raspberries (summer- bearing) — — Harvest; remove [Harvest] fruited canes after — source p. 47
+- **[HARVESTING]** Red / White Currants / Gooseberries — — Harvest and preserve[Harvest] Early Plums / Tayberry / — source p. 47 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Everbearing Strawberries — — Beginning to fruit[Harvest] — source p. 47
 
 #### Roots & Tubers
 
-- Carrots / Beets / Turnips - Last chance Wk 1 only[Direct Sow] Harvest new potatoes[Harvest]
-- Main-crop potatoes - - Lift as tops die back[Harvest]
+- **[HARVESTING]** Carrots / Beets / Turnips — Last chance Wk 1 only[Direct Sow] Harvest new potatoes[Harvest] — source p. 47 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Main-crop potatoes — — Lift as tops die back[Harvest] — source p. 47
 
 #### Perennial Edibles
 
-- Artichoke - - Harvest heads before [Harvest] fully open
-- Rhubarb / Asparagus - - Do NOT harvest; let plants build energy
+- **[HARVESTING]** Artichoke — — Harvest heads before [Harvest] fully open — source p. 48
+- **[HARVESTING]** Rhubarb / Asparagus — — Do NOT harvest; let plants build energy — source p. 48 — grouped source entry; individual timing unresolved
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead]
-- Sweet Pea - - Peak - harvest every [Bloom] day to extend
-- Nasturtium / Calendula (for fall) - Last sow Wk 1[Direct Sow] Blooming continuously[Bloom]
+- **[FLOWERING / PRUNING]** Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — source p. 50 — grouped source entry; individual timing unresolved
+- **[HARVESTING / REVIEW ACTION]** Sweet Pea — — Peak — harvest every [Bloom] day to extend — source p. 50
+- **[FLOWERING]** Nasturtium / Calendula (for fall) — Last sow Wk 1[Direct Sow] Blooming continuously[Bloom] — source p. 50 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Daylily / Echinacea / Rudbeckia / Monarda - - Peak midsummer [Bloom] perennials
-- Agapanthus / Veronicastrum / Penstemon / Shasta Daisy - - Blooming - pollinator [Bloom] paradise
-- Achillea / Kniphofia (Red Hot Poker) - - Peak; deadhead [Prune/Deadhead] to [Bloom] extend
+- **[REVIEW ACTION]** Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer [Bloom] perennials — source p. 50 — grouped source entry; individual timing unresolved
+- **[FLOWERING / REVIEW ACTION]** Agapanthus / Veronicastrum / Penstemon / Shasta Daisy — — Blooming — pollinator [Bloom] paradise — source p. 50 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Achillea / Kniphofia (Red Hot Poker) — — Peak; deadhead [Prune/Deadhead] to [Bloom] extend — source p. 50 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- Oriental / Asiatic Lilies / Gladiolus - - Blooming; stake tall [Bloom] varieties
-- Dahlia (early varieties) - - First dahlias opening[Bloom]
+- **[FLOWERING]** Oriental / Asiatic Lilies / Gladiolus — — Blooming; stake tall [Bloom] varieties — source p. 50 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Dahlia (early varieties) — — First dahlias opening[Bloom] — source p. 50
 
 #### Shrubs & Trees (Ornamental)
 
-- Roses (repeat flush) / Lavender / Hydrangea macrophylla - - Stunning summer [Bloom] display
-- Roses - - [Prune/Deadhead] Deadhead continuously for repeat bloom
-- Lavender - - [Prune/Deadhead] Prune lightly after first flush Wk 2-3
+- **[REVIEW ACTION]** Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer [Bloom] display — source p. 51 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Roses — — [Prune/Deadhead] Deadhead continuously for repeat bloom — source p. 51
+- **[PRUNING]** Lavender — — [Prune/Deadhead] Prune lightly after first flush Wk 2–3 — source p. 51
 
 #### Climbing Vines
 
-- Morning Glory / Clematis viticella / Honeysuckle - - All in gorgeous bloom[Bloom]
-- Cobaea scandens - - Cup-and-saucer vine [Bloom] blooming
+- **[FLOWERING]** Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom[Bloom] — source p. 51 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Cobaea scandens — — Cup-and-saucer vine [Bloom] blooming — source p. 51
 
 #### Bc Native Plants
 
-- Ocean Spray / Yarrow / Spirea douglasii / Fireweed - - BC summer natives at [Bloom] their best
-- Pearly Everlasting (Anaphalis) - - Beginning - excellent [Bloom] for drying
+- **[REVIEW ACTION]** Ocean Spray / Yarrow / Spirea douglasii / Fireweed — — BC summer natives at [Bloom] their best — source p. 51 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Pearly Everlasting (Anaphalis) — — Beginning — excellent [Bloom] for drying — source p. 51
 
 #### Cut Flowers
 
-- Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender - - Best cutting month of [Bloom] the year; harvest in morning
+- **[HARVESTING / PROPAGATION]** Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — source p. 51 — grouped source entry; individual timing unresolved
 
 ## August
 
-### Edibles
+### Vegetables and edible crops
 
 #### Herbs
 
-- All herbs - - Full harvest; dry [Harvest] oregano, thyme, rosemary now
-- Dill / Cilantro seeds - - Save seeds as they dry on plant
+- **[HARVESTING]** All herbs — — Full harvest; dry [Harvest] oregano, thyme, rosemary now — source p. 54
+- **[SEASONAL MAINTENANCE]** Dill / Cilantro seeds — — Save seeds as they dry on plant — source p. 54 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Blueberries (peak August) - - Best month for [Harvest] blueberries
-- Raspberries / Blackberries / Plums - - Harvesting [Harvest] continuously Early Apples / Pears (late
-- Aug) - - First apples ready; [Harvest] pears soon
-- Everbearing Strawberries - - Second crop flush[Harvest]
+- **[REVIEW ACTION]** Blueberries (peak August) — — Best month for [Harvest] blueberries — source p. 54
+- **[HARVESTING]** Raspberries / Blackberries / Plums — — Harvesting [Harvest] continuously Early Apples / Pears (late — source p. 54 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Aug) — — First apples ready; [Harvest] pears soon — source p. 54
+- **[REVIEW ACTION]** Everbearing Strawberries — — Second crop flush[Harvest] — source p. 54
 
 #### Roots & Tubers
 
-- Turnips / Radish - Direct sow Wk 1-2 for [Direct Sow] fall -
-- Potatoes / Carrots / Beets - - Harvest and store[Harvest]
+- **[DIRECT SOWING]** Turnips / Radish — Direct sow Wk 1–2 for [Direct Sow] fall — — source p. 54 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Potatoes / Carrots / Beets — — Harvest and store[Harvest] — source p. 54 — grouped source entry; individual timing unresolved
 
 #### Legumes & Grains
 
-- Beans (full harvest) - - Leave some pods to [Harvest] dry for seed/storage
-- Edamame - - Harvest late Aug when[Harvest] pods are plump
-- Sunflower / Corn - - Sunflower heads [Harvest] mature; corn harvest late Aug
+- **[SEASONAL MAINTENANCE]** Beans (full harvest) — — Leave some pods to [Harvest] dry for seed/storage — source p. 55
+- **[HARVESTING]** Edamame — — Harvest late Aug when[Harvest] pods are plump — source p. 55
+- **[HARVESTING]** Sunflower / Corn — — Sunflower heads [Harvest] mature; corn harvest late Aug — source p. 55 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Artichoke - - Second flush of heads[Harvest]
-- Rhubarb / Asparagus - - Resting; asparagus fern - leave standing
+- **[REVIEW ACTION]** Artichoke — — Second flush of heads[Harvest] — source p. 55
+- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Rhubarb / Asparagus — — Resting; asparagus fern — leave standing — source p. 55 — grouped source entry; individual timing unresolved
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead]
-- Calendula / Pansy / Wallflower (for autumn) - Sow now for [Direct Sow] autumn/spring display -
+- **[PRUNING]** Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — source p. 57 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Calendula / Pansy / Wallflower (for autumn) — Sow now for [Direct Sow] autumn/spring display — — source p. 57 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Rudbeckia / Echinacea / Helenium / Solidago - - Late summer gold and [Bloom] amber tones
-- Sedum 'Autumn Joy' / Anemone japonica - - Beginning to bloom [Bloom] late Aug
-- Early-summer perennials (Geranium, Salvia) - - [Prune/Deadhead] Cut back after bloom to encourage rebloom
+- **[REVIEW ACTION]** Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and [Bloom] amber tones — source p. 57 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Sedum 'Autumn Joy' / Anemone japonica — — Beginning to bloom [Bloom] late Aug — source p. 57 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Early-summer perennials (Geranium, Salvia) — — [Prune/Deadhead] Cut back after bloom to encourage rebloom — source p. 57 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- Dahlia - - Peak bloom - [Bloom]
+- **[FLOWERING / REVIEW ACTION]** Dahlia — — Peak bloom — [Bloom] — source p. 57
 
 #### Shrubs & Trees (Ornamental)
 
-- Hydrangea (all types) / Roses (second flush) / Fuchsia - - Late summer shrub [Bloom] peak
-- Roses - - [Prune/Deadhead] Deadhead; do NOT feed after Aug
-- Wisteria - - [Prune/Deadhead] Second summer prune (Aug); cut to 5 leaves
-- Hydrangea - - Do NOT prune now - wait until spring
+- **[REVIEW ACTION]** Hydrangea (all types) / Roses (second flush) / Fuchsia — — Late summer shrub [Bloom] peak — source p. 58 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Roses — — [Prune/Deadhead] Deadhead; do NOT feed after Aug — source p. 58
+- **[PRUNING]** Wisteria — — [Prune/Deadhead] Second summer prune (Aug); cut to 5 leaves — source p. 58
+- **[PRUNING / REVIEW ACTION]** Hydrangea — — Do NOT prune now — wait until spring — source p. 58
 
 #### Climbing Vines
 
-- Clematis viticella / Passion Flower / Morning Glory - - All in full spectacular [Bloom] bloom
+- **[FLOWERING]** Clematis viticella / Passion Flower / Morning Glory — — All in full spectacular [Bloom] bloom — source p. 58 — grouped source entry; individual timing unresolved
 
 #### Bc Native Plants
 
-- Fireweed / Pearly Everlasting / Goldenrod - - Late summer native [Bloom] bloom; excellent for bees
-- Oregon Grape berries - - Ripe berries - good for jam
+- **[FLOWERING]** Fireweed / Pearly Everlasting / Goldenrod — — Late summer native [Bloom] bloom; excellent for bees — source p. 58 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Oregon Grape berries — — Ripe berries — good for jam — source p. 58
 
 ## September
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Winter Lettuce / Mâche / Corn Salad - Direct sow under cover[Direct Sow] Wk 1-2 -
-- Spinach / Pak Choi / Arugula - Direct sow Wk 1-3[Direct Sow] -
-- Asian Greens / Claytonia - Direct sow Wk 2-3[Direct Sow] -
-- Broccoli / Kale (starts to protected beds) - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] -
-- Tomatoes (last push) - - Last push before frost; [Harvest] ripen indoors if needed
-- Winter Squash / Peppers / Corn / Cucumbers / Eggplant - - Harvest before frost [Harvest] (squash by end Sep)
-- Beets / Carrots / Parsnips / Kale / Chard / Leeks - - Continuing harvest[Harvest]
+- **[DIRECT SOWING]** Winter Lettuce / Mâche / Corn Salad — Direct sow under cover[Direct Sow] Wk 1–2 — — source p. 61 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Spinach / Pak Choi / Arugula — Direct sow Wk 1–3[Direct Sow] — — source p. 61 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Asian Greens / Claytonia — Direct sow Wk 2–3[Direct Sow] — — source p. 61 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Broccoli / Kale (starts to protected beds) — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — source p. 61 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Tomatoes (last push) — — Last push before frost; [Harvest] ripen indoors if needed — source p. 61
+- **[HARVESTING]** Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost [Harvest] (squash by end Sep) — source p. 61 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest[Harvest] — source p. 61 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Parsley (for spring) - Sow Wk 1[Direct Sow] -
-- Chives / Parsley / Basil (pot up) Pot up for indoor winter use - Basil: last chance - make pesto and freeze
+- **[REVIEW ACTION]** Parsley (for spring) — Sow Wk 1[Direct Sow] — — source p. 61
+- **[INDOOR SOWING / REVIEW ACTION]** Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze — source p. 61 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Apples (main season) / Pears / Grapes (late Sep) - - Main apple harvest; [Harvest] store carefully
-- Fall Raspberries / Blackberries / Everbearing Strawberries - - Harvest before first [Harvest] frost
+- **[HARVESTING]** Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; [Harvest] store carefully — source p. 61 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Fall Raspberries / Blackberries / Everbearing Strawberries — — Harvest before first [Harvest] frost — source p. 61 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Overwintering Daikon Radish - Sow Wk 1[Direct Sow] -
+- **[REVIEW ACTION]** Overwintering Daikon Radish — Sow Wk 1[Direct Sow] — — source p. 61
 
 #### Legumes & Grains
 
-- Shell beans / Runner beans - - Harvest last beans; [Harvest] shell for drying
+- **[HARVESTING]** Shell beans / Runner beans — — Harvest last beans; [Harvest] shell for drying — source p. 62 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Garlic - Plant Wk 3-4 (ideal [Plant Bulb/Tuber] window) -
-- Rhubarb crowns (new) - Divide and replant now -
-- Asparagus crowns - Plant Sept-Oct -
+- **[REVIEW ACTION]** Garlic — Plant Wk 3–4 (ideal [Plant Bulb/Tuber] window) — — source p. 62
+- **[DIVIDING]** Rhubarb crowns (new) — Divide and replant now — — source p. 62
+- **[REVIEW ACTION]** Asparagus crowns — Plant Sept–Oct — — source p. 62
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Zinnia / Cosmos / Marigold / Nasturtium / Dahlia - - Still blooming; enjoy [Bloom] the last of summer
-- Cosmos / Calendula / Nigella (self-seeding) - - Do NOT deadhead last flush - let seed fall
-- Winter Pansy / Wallflower - Sow outdoors Wk 1-2[Direct Sow] -
+- **[FLOWERING]** Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — source p. 64 — grouped source entry; individual timing unresolved
+- **[PRUNING / REVIEW ACTION]** Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — source p. 64 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Winter Pansy / Wallflower — Sow outdoors Wk 1–2[Direct Sow] — — source p. 64 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Japanese Anemone / Rudbeckia / Helenium / Sedum - - Peak autumn [Bloom] perennials
-- Aster / Tricyrtis (Toad Lily) / Persicaria - - Beautiful autumn [Bloom] additions
-- Iris / Daylily / Hosta (early-spring types) - [Prune/Deadhead] Divide Wk 1-3 -
+- **[REVIEW ACTION]** Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn [Bloom] perennials — source p. 64 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Aster / Tricyrtis (Toad Lily) / Persicaria — — Beautiful autumn [Bloom] additions — source p. 64 — grouped source entry; individual timing unresolved
+- **[DIVIDING]** Iris / Daylily / Hosta (early-spring types) — [Prune/Deadhead] Divide Wk 1–3 — — source p. 64 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Hydrangea / Caryopteris / Perovskia / late Roses - - Beautiful autumn [Bloom] colour
-- Roses / shrubs (general) - - Do NOT prune - leave until spring
-- Tender shrubs (Agapanthus, Crocosmia) - - Begin mulching crowns[Overwinter/Mulch] with straw
+- **[REVIEW ACTION]** Hydrangea / Caryopteris / Perovskia / late Roses — — Beautiful autumn [Bloom] colour — source p. 65 — grouped source entry; individual timing unresolved
+- **[PRUNING / SEASONAL MAINTENANCE]** Roses / shrubs (general) — — Do NOT prune — leave until spring — source p. 65 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Tender shrubs (Agapanthus, Crocosmia) — — Begin mulching crowns[Overwinter/Mulch] with straw — source p. 65 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- All climbers - - Cut only excessively long shoots - no hard prune.
-- Collect seed pods.
+- **[PRUNING / REVIEW ACTION]** All climbers — — Cut only excessively long shoots — no hard prune. — source p. 65
+- **[REVIEW ACTION]** Collect seed pods. — source p. 65
 
 #### Bc Native Plants
 
-- Aster subspicatus / Goldenrod - - Autumn native bloom[Bloom]
-- Snowberry (Symphoricarpos) - - White berries forming - leave for birds
+- **[FLOWERING]** Aster subspicatus / Goldenrod — — Autumn native bloom[Bloom] — source p. 65 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Snowberry (Symphoricarpos) — — White berries forming — leave for birds — source p. 65
 
 ## October
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Mâche / Claytonia / Winter Spinach - Direct sow under [Direct Sow] cloche Wk 1-2 -
-- Overwintering Onion sets - Direct sow Wk 1-2[Direct Sow] -
-- Overwintering Brassicas - → Transplant under [Indoor Sow] [Indoor Sow] cover -
-- Winter Squash [Frost Risk] - - Harvest ALL before [Harvest] mid-Oct
-- Peppers / Tomatoes (green) - - Last harvest; ripen [Harvest] tomatoes indoors
-- Beets / Carrots / Parsnips - - Harvest; store in damp[Harvest] sand
-- Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac - - Continue harvesting; [Harvest] improve with frost
+- **[DIRECT SOWING]** Mâche / Claytonia / Winter Spinach — Direct sow under [Direct Sow] cloche Wk 1–2 — — source p. 68 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Overwintering Onion sets — Direct sow Wk 1–2[Direct Sow] — — source p. 68
+- **[TRANSPLANTING]** Overwintering Brassicas — → Transplant under [Indoor Sow] [Indoor Sow] cover — — source p. 68
+- **[INDOOR SOWING / HARVESTING]** Winter Squash [Frost Risk] — — Harvest ALL before [Harvest] mid-Oct — source p. 68
+- **[HARVESTING]** Peppers / Tomatoes (green) — — Last harvest; ripen [Harvest] tomatoes indoors — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Beets / Carrots / Parsnips — — Harvest; store in damp[Harvest] sand — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac — — Continue harvesting; [Harvest] improve with frost — source p. 68 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Rosemary (exposed sites) - - Mulch base if in [Overwinter/Mulch] exposed location [Frost Risk]
-- Parsley / Chives Pot up for indoor windowsill - Harvest last Basil; make pesto and freeze
+- **[SEASONAL MAINTENANCE]** Rosemary (exposed sites) — — Mulch base if in [Overwinter/Mulch] exposed location [Frost Risk] — source p. 68
+- **[INDOOR SOWING / HARVESTING]** Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze — source p. 68 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Apples (late) / Pears / Quince - - Last harvest; store in [Harvest] cool dark place
-- Hazelnut / Walnut - - Harvest from ground [Harvest] after drop
+- **[HARVESTING]** Apples (late) / Pears / Quince — — Last harvest; store in [Harvest] cool dark place — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Hazelnut / Walnut — — Harvest from ground [Harvest] after drop — source p. 68 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Garlic - Plant Wk 1-3 (last [Plant Bulb/Tuber] good window) -
-- Parsnips - - Leave some in ground [Harvest] - frost sweetens them
-- Carrots / Beets - - Harvest and store in [Harvest] damp sand
+- **[REVIEW ACTION]** Garlic — Plant Wk 1–3 (last [Plant Bulb/Tuber] good window) — — source p. 69
+- **[REVIEW ACTION]** Parsnips — — Leave some in ground [Harvest] — frost sweetens them — source p. 69
+- **[HARVESTING]** Carrots / Beets — — Harvest and store in [Harvest] damp sand — source p. 69 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Asparagus - - Mulch with straw Wk [Overwinter/Mulch] 3-4
-- Artichoke crowns - - Mulch deeply - [Overwinter/Mulch] borderline hardy [Frost Risk]
-- Rhubarb - Divide Wk 1-2 -
+- **[SEASONAL MAINTENANCE]** Asparagus — — Mulch with straw Wk [Overwinter/Mulch] 3–4 — source p. 69
+- **[REVIEW ACTION]** Artichoke crowns — — Mulch deeply — [Overwinter/Mulch] borderline hardy [Frost Risk] — source p. 69
+- **[DIVIDING]** Rhubarb — Divide Wk 1–2 — — source p. 69
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- All annuals - - [Frost Risk] Remove frost-killed annuals; compost healthy material. Leave self- seeder seeds on soil.
+- **[SEASONAL MAINTENANCE]** All annuals — — [Frost Risk] Remove frost-killed annuals; compost healthy material. Leave self- seeder seeds on soil. — source p. 71
 
 #### Hardy Perennials
 
-- Japanese Anemone / Aster / Sedum / Schizostylis - - Fading; leave stems [Bloom] for winter interest
-- Agapanthus / Crocosmia / Gunnera - - Mulch crowns with [Overwinter/Mulch] straw - borderline hardy
+- **[SEASONAL MAINTENANCE]** Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems [Bloom] for winter interest — source p. 71 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Agapanthus / Crocosmia / Gunnera — — Mulch crowns with [Overwinter/Mulch] straw — borderline hardy — source p. 71 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- Daffodil / Hyacinth / Allium / Crocus / Muscari - Plant Wk 1-3[Plant Bulb/Tuber] -
-- Tulips - Plant Wk 3-4 (late [Plant Bulb/Tuber] planting reduces tulip fire) -
-- Dahlias - - Lift after first hard frost; dry 2 wks; store cool
-- Gladiolus corms - - Dry and store frost-free if not done in Sep
+- **[REVIEW ACTION]** Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — source p. 72 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Tulips — Plant Wk 3–4 (late [Plant Bulb/Tuber] planting reduces tulip fire) — — source p. 72
+- **[SEASONAL MAINTENANCE]** Dahlias — — Lift after first hard frost; dry 2 wks; store cool — source p. 72
+- **[SEASONAL MAINTENANCE]** Gladiolus corms — — Dry and store frost-free if not done in Sep — source p. 72
 
 #### Shrubs & Trees (Ornamental)
 
-- New deciduous shrubs and trees - Plant Oct-Nov (ideal planting time) -
-- Borderline-hardy shrubs (Ceanothus, Abutilon) - - Mulch base deeply; do [Overwinter/Mulch]
-- NOT prune roses
+- **[REVIEW ACTION]** New deciduous shrubs and trees — Plant Oct–Nov (ideal planting time) — — source p. 72
+- **[SEASONAL MAINTENANCE]** Borderline-hardy shrubs (Ceanothus, Abutilon) — — Mulch base deeply; do [Overwinter/Mulch] — source p. 72 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** NOT prune roses — source p. 72
 
 #### Climbing Vines
 
-- All climbers - - Tidy rose ties. Do NOT prune Wisteria or
-- Clematis now.
+- **[PRUNING]** All climbers — — Tidy rose ties. Do NOT prune Wisteria or — source p. 72
+- **[REVIEW ACTION]** Clematis now. — source p. 72
 
 #### Bc Native Plants
 
-- Snowberry / Highbush Cranberry / Red Osier - - Berries for birds; leave all native structure standing
+- **[SEASONAL MAINTENANCE]** Snowberry / Highbush Cranberry / Red Osier — — Berries for birds; leave all native structure standing — source p. 72 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Rudbeckia / Sedum / Schizostylis / Ornamental grasses - - Last cuttable flowers of[Bloom] the season
+- **[REVIEW ACTION]** Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of[Bloom] the season — source p. 73 — grouped source entry; individual timing unresolved
 
 ## November
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Leeks - - Continue harvesting [Harvest] through winter
-- Brussels Sprouts - - Better after frost - [Harvest] sweeter flavour
-- Kale / Chard / Mâche - - Excellent cold-hardy [Harvest] crops
-- Winter Spinach / Claytonia / Overwintering Lettuce - - Harvest under cover [Harvest] only [Frost Risk]
-- Parsnips / Turnips / Celeriac - - Harvest or leave [Harvest] mulched in ground
-- No outdoor sowing this month. Maintain row covers and cloches. Check for slug damage under covers.
+- **[HARVESTING]** Leeks — — Continue harvesting [Harvest] through winter — source p. 75
+- **[REVIEW ACTION]** Brussels Sprouts — — Better after frost — [Harvest] sweeter flavour — source p. 75
+- **[REVIEW ACTION]** Kale / Chard / Mâche — — Excellent cold-hardy [Harvest] crops — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Winter Spinach / Claytonia / Overwintering Lettuce — — Harvest under cover [Harvest] only [Frost Risk] — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Parsnips / Turnips / Celeriac — — Harvest or leave [Harvest] mulched in ground — source p. 75 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** No outdoor sowing this month. Maintain row covers and cloches. Check for slug damage under covers. — source p. 75
 
 #### Herbs
 
-- Parsley / Chives / Rosemary - - Harvest from [Harvest] protected plants
-- Sage / Thyme - - Light harvest; thyme: [Harvest] mulch crowns in exposed sites
+- **[HARVESTING]** Parsley / Chives / Rosemary — — Harvest from [Harvest] protected plants — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Sage / Thyme — — Light harvest; thyme: [Harvest] mulch crowns in exposed sites — source p. 75 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Stored apples / pears - - Check monthly; [Harvest] remove any rotting fruit
-- Bare-root fruit trees / canes - Plant Nov-Feb (ideal) -
-- Currants / Gooseberries - - [Prune/Deadhead] Prune Nov-Feb while dormant
+- **[SEASONAL MAINTENANCE]** Stored apples / pears — — Check monthly; [Harvest] remove any rotting fruit — source p. 76 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Bare-root fruit trees / canes — Plant Nov–Feb (ideal) — — source p. 76 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Currants / Gooseberries — — [Prune/Deadhead] Prune Nov–Feb while dormant — source p. 76 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Parsnips / Carrots / Beets - - Harvest from storage [Harvest] or mulched ground
-- Celeriac - - Harvest as needed [Harvest] from ground
+- **[HARVESTING]** Parsnips / Carrots / Beets — — Harvest from storage [Harvest] or mulched ground — source p. 76 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Celeriac — — Harvest as needed [Harvest] from ground — source p. 76
 
 #### Legumes & Grains
 
-- All legumes & grains - - Nothing to sow or harvest this month
+- **[HARVESTING]** All legumes & grains — — Nothing to sow or harvest this month — source p. 76
 
 #### Perennial Edibles
 
-- Asparagus - - Mulch with straw; [Overwinter/Mulch] leave ferns standing
-- Rhubarb - - Dormant; do not disturb
-- Artichoke - - Crowns mulched with [Overwinter/Mulch] straw [Frost Risk]
-- Garlic (last call) - Plant Wk 1 if not yet [Plant Bulb/Tuber] done -
+- **[SEASONAL MAINTENANCE]** Asparagus — — Mulch with straw; [Overwinter/Mulch] leave ferns standing — source p. 76
+- **[REVIEW ACTION]** Rhubarb — — Dormant; do not disturb — source p. 76
+- **[SEASONAL MAINTENANCE]** Artichoke — — Crowns mulched with [Overwinter/Mulch] straw [Frost Risk] — source p. 76
+- **[REVIEW ACTION]** Garlic (last call) — Plant Wk 1 if not yet [Plant Bulb/Tuber] done — — source p. 76
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- All annuals - - None. Clean beds. Mulch annual beds for spring.
+- **[SEASONAL MAINTENANCE]** All annuals — — None. Clean beds. Mulch annual beds for spring. — source p. 79
 
 #### Hardy Perennials
 
-- Hellebores (Lenten Rose) - - May begin blooming [Bloom] late Nov [Frost Risk]
-- Schizostylis (Kaffir Lily) - - Fading last blooms[Bloom]
-- Most perennials - - Leave all stems standing - winter interest and insect habitat
+- **[FLOWERING]** Hellebores (Lenten Rose) — — May begin blooming [Bloom] late Nov [Frost Risk] — source p. 79
+- **[REVIEW ACTION]** Schizostylis (Kaffir Lily) — — Fading last blooms[Bloom] — source p. 79
+- **[REVIEW ACTION]** Most perennials — — Leave all stems standing — winter interest and insect habitat — source p. 79
 
 #### Bulbs & Corms
 
-- Daffodil / Crocus / Allium / Muscari / Tulips - Last chance to plant [Plant Bulb/Tuber] Wk 1-2
-- All dormant underground Stored Dahlia tubers / Gladiolus corms - - Check stored bulbs for rot; remove soft areas
+- **[SEASONAL MAINTENANCE]** Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — source p. 79 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** All dormant underground Stored Dahlia tubers / Gladiolus corms — — Check stored bulbs for rot; remove soft areas — source p. 79 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Viburnum bodnantense 'Dawn' - - Beginning to bloom - [Bloom] beautifully fragrant [Frost Risk]
-- Mahonia 'Charity' - - Beginning to bloom - [Bloom] bold yellow spikes
-- New bare-root deciduous shrubs and trees - Plant Nov-Mar (ideal) -
-- Tender shrubs (Ceanothus, Myrtle) - - Mulch base protection [Overwinter/Mulch]
+- **[FLOWERING / REVIEW ACTION]** Viburnum bodnantense 'Dawn' — — Beginning to bloom — [Bloom] beautifully fragrant [Frost Risk] — source p. 79
+- **[FLOWERING / REVIEW ACTION]** Mahonia 'Charity' — — Beginning to bloom — [Bloom] bold yellow spikes — source p. 79
+- **[REVIEW ACTION]** New bare-root deciduous shrubs and trees — Plant Nov–Mar (ideal) — — source p. 79
+- **[SEASONAL MAINTENANCE]** Tender shrubs (Ceanothus, Myrtle) — — Mulch base protection [Overwinter/Mulch] — source p. 79 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- All climbers - - Clean up dead annual vines. Secure permanent vine supports for winter storms.
+- **[SEASONAL MAINTENANCE]** All climbers — — Clean up dead annual vines. Secure permanent vine supports for winter storms. — source p. 80
 
 #### Bc Native Plants
 
-- Snowberry (white berries) / Red Osier Dogwood (red stems) - - Excellent winter structure and bird food; leave all in place
+- **[SEASONAL MAINTENANCE]** Snowberry (white berries) / Red Osier Dogwood (red stems) — — Excellent winter structure and bird food; leave all in place — source p. 80 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Viburnum / Mahonia stems / Holly berries - - For fragrant indoor [Bloom] arrangements
-- Dried everlastings (Strawflower, Statice) - - Use dried flower store from summer
+- **[REVIEW ACTION]** Viburnum / Mahonia stems / Holly berries — — For fragrant indoor [Bloom] arrangements — source p. 80 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Dried everlastings (Strawflower, Statice) — — Use dried flower store from summer — source p. 80 — grouped source entry; individual timing unresolved
 
 ## December
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Kale - - Excellent after frost - [Harvest] sweetened by cold
-- Brussels Sprouts - - Best now - frost [Harvest] improves flavour greatly
-- Leeks / Chard (under cover) - - Harvest as needed [Frost Risk][Harvest] Mâche / Claytonia / Winter
-- Spinach (under cover) - - Harvest under glass or [Harvest] polytunnel
-- Parsnips - - Very sweet now - [Harvest] best after hard frost
-- Turnips - - Harvest as needed [Harvest]
+- **[REVIEW ACTION]** Kale — — Excellent after frost — [Harvest] sweetened by cold — source p. 82
+- **[REVIEW ACTION]** Brussels Sprouts — — Best now — frost [Harvest] improves flavour greatly — source p. 82
+- **[HARVESTING]** Leeks / Chard (under cover) — — Harvest as needed [Frost Risk][Harvest] Mâche / Claytonia / Winter — source p. 82 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Spinach (under cover) — — Harvest under glass or [Harvest] polytunnel — source p. 82
+- **[REVIEW ACTION]** Parsnips — — Very sweet now — [Harvest] best after hard frost — source p. 82
+- **[HARVESTING]** Turnips — — Harvest as needed [Harvest] — source p. 82
 
 #### Herbs
 
-- Parsley (under cover / mild spots) - - Harvest lightly [Frost Risk][Harvest]
-- Rosemary / Sage / Thyme - - Frost-hardy; harvest in[Harvest] mild spells
-- Other herbs - - Dormant - use stored/frozen summer herbs
+- **[HARVESTING]** Parsley (under cover / mild spots) — — Harvest lightly [Frost Risk][Harvest] — source p. 83 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Rosemary / Sage / Thyme — — Frost-hardy; harvest in[Harvest] mild spells — source p. 83 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Other herbs — — Dormant — use stored/frozen summer herbs — source p. 83
 
 #### Fruits & Berries
 
-- Stored apples / pears - - Check; remove any rot[Harvest]
-- Bare-root trees and canes - Plant in mild spells Dec- Feb -
-- Apple / Pear - - [Prune/Deadhead] Dormant pruning Dec-
-- Feb (no disease risk)
+- **[SEASONAL MAINTENANCE]** Stored apples / pears — — Check; remove any rot[Harvest] — source p. 83 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Bare-root trees and canes — Plant in mild spells Dec– Feb — — source p. 83
+- **[PRUNING]** Apple / Pear — — [Prune/Deadhead] Dormant pruning Dec– — source p. 83 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Feb (no disease risk) — source p. 83
 
 #### Roots & Tubers
 
-- Parsnips / Carrots / Beets / Celeriac - - Harvest from storage [Harvest] or mulched ground
-- Garlic (overwintering) - - Overwintering underground - nothing to do [Frost Risk]
+- **[HARVESTING]** Parsnips / Carrots / Beets / Celeriac — — Harvest from storage [Harvest] or mulched ground — source p. 83 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Garlic (overwintering) — — Overwintering underground — nothing to do [Frost Risk] — source p. 83
 
 #### Perennial Edibles
 
-- Rhubarb - - Fully dormant. Force under upturned pot for
-- Jan/Feb harvest. Asparagus - - Fully dormant with straw mulch [Frost Risk]
+- **[REVIEW ACTION]** Rhubarb — — Fully dormant. Force under upturned pot for — source p. 84
+- **[SEASONAL MAINTENANCE]** Jan/Feb harvest. Asparagus — — Fully dormant with straw mulch [Frost Risk] — source p. 84 — grouped source entry; individual timing unresolved
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- All annuals - - None. Beds resting.
-- Appreciate the quiet season.
+- **[REVIEW ACTION]** All annuals — — None. Beds resting. — source p. 86
+- **[REVIEW ACTION]** Appreciate the quiet season. — source p. 86
 
 #### Hardy Perennials
 
-- Helleborus niger (Christmas Rose) - - Blooming [Bloom] magnificently [Frost Risk]
-- Euphorbia amygdaloides var. robbiae - - Evergreen; architectural interest year-round
-- All perennial stems - - Leave all stems standing - insect overwintering habitat
+- **[FLOWERING]** Helleborus niger (Christmas Rose) — — Blooming [Bloom] magnificently [Frost Risk] — source p. 86
+- **[REVIEW ACTION]** Euphorbia amygdaloides var. robbiae — — Evergreen; architectural interest year-round — source p. 86
+- **[REVIEW ACTION]** All perennial stems — — Leave all stems standing — insect overwintering habitat — source p. 86
 
 #### Bulbs & Corms
 
-- Spring bulbs (all) outdoors - - Dormant underground [Frost Risk] - spring magic to come
+- **[REVIEW ACTION]** Spring bulbs (all) outdoors — — Dormant underground [Frost Risk] — spring magic to come — source p. 86
 
 #### Shrubs & Trees (Ornamental)
 
-- Viburnum bodnantense 'Dawn' - - Fragrant mid-winter [Bloom] bloom - outstanding
-- Mahonia (all types) - - Peak bloom - bold [Bloom] yellow, sweetly fragrant
-- Witch Hazel (Hamamelis) - - Buds swelling; first spidery blooms soon
-- Garrya elliptica - - Silver catkins emerging - beautiful winter display
-- Wintersweet (Chimonanthus) - - If established - [Bloom] exquisite fragrance [Frost Risk]
+- **[FLOWERING / REVIEW ACTION]** Viburnum bodnantense 'Dawn' — — Fragrant mid-winter [Bloom] bloom — outstanding — source p. 87
+- **[FLOWERING / REVIEW ACTION]** Mahonia (all types) — — Peak bloom — bold [Bloom] yellow, sweetly fragrant — source p. 87
+- **[REVIEW ACTION]** Witch Hazel (Hamamelis) — — Buds swelling; first spidery blooms soon — source p. 87
+- **[REVIEW ACTION]** Garrya elliptica — — Silver catkins emerging — beautiful winter display — source p. 87
+- **[REVIEW ACTION]** Wintersweet (Chimonanthus) — — If established — [Bloom] exquisite fragrance [Frost Risk] — source p. 87
 
 #### Climbing Vines
 
-- All climbers - - Dormant. Check and tighten ties and supports during winter storms.
+- **[SEASONAL MAINTENANCE]** All climbers — — Dormant. Check and tighten ties and supports during winter storms. — source p. 87
 
 #### Bc Native Plants
 
-- Red Osier Dogwood - - Brilliant red stems - outstanding winter interest
-- Holly / Evergreen Huckleberry (Vaccinium ovatum) - - Berries for wildlife; glossy evergreen leaves
+- **[REVIEW ACTION]** Red Osier Dogwood — — Brilliant red stems — outstanding winter interest — source p. 87
+- **[SEASONAL MAINTENANCE]** Holly / Evergreen Huckleberry (Vaccinium ovatum) — — Berries for wildlife; glossy evergreen leaves — source p. 87 — grouped source entry; individual timing unresolved
 
-# Plant Catalog
+# Plant Registry
 
-# Errington Plant Catalog
+# Errington Plant Registry
 
-This file is generated from the plant registry enriched with direct local Errington calendar matches.
+This index preserves the 137 source records. Names and taxonomy already present in the registry are not independently verified. Calendar matches are source transcriptions, not plant-specific growing recommendations; grouped source rows may include crops with different requirements. Generic profile scaffolds are intentionally omitted.
 
 ## Flower
 
 ### Allium
 
-- Latin name: Allium hollandicum
-- Family: Amaryllidaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 7
-- Months: MAY; JUNE; OCTOBER; NOVEMBER
-- Sections: HARDY PERENNIALS; CUT FLOWERS; BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Allium / Centaurea - - Beginning to bloom[Bloom]
-  - MAY: Sweet Peas / Allium / Iris / Aquilegia - - Excellent for cutting[Bloom]
-  - JUNE: Lupine / Iris / Salvia nemorosa / Allium - - Peak early summer [Bloom] perennials
-  - JUNE: Allium / late Iris / first Lily buds - - Blooming; stake tall [Bloom]
-  - JUNE: Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia - - Excellent cutting; [Bloom] harvest in morning
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari - Plant Wk 1-3[Plant Bulb/Tuber] -
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips - Last chance to plant [Plant Bulb/Tuber] Wk 1-2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-allium`
+- Botanical name as recorded (unverified): Allium hollandicum
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Ammi majus
 
-- Latin name: Ammi majus
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-ammi-majus`
+- Botanical name as recorded (unverified): Ammi majus
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Anemone
 
-- Latin name: Anemone coronaria
-- Family: Ranunculaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-anemone`
+- Botanical name as recorded (unverified): Anemone coronaria
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Antirrhinum
 
-- Latin name: Antirrhinum majus
-- Family: Plantaginaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: May duplicate Snapdragons depending on source intent. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-antirrhinum`
+- Botanical name as recorded (unverified): Antirrhinum majus
+- Family as recorded (unverified): Plantaginaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Asters
 
-- Latin name: Symphyotrichum novi-belgii
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; APRIL; SEPTEMBER; OCTOBER
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Hostas / Daylilies / Asters - Divide emerging clumps [Prune/Deadhead] Emerging from ground
-  - APRIL: Hostas / Daylilies / Asters - Divide established clumps [Prune/Deadhead] -
-  - SEPTEMBER: Aster / Tricyrtis (Toad Lily) / Persicaria - - Beautiful autumn [Bloom] additions
-  - OCTOBER: Japanese Anemone / Aster / Sedum / Schizostylis - - Fading; leave stems [Bloom] for winter interest
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-asters`
+- Botanical name as recorded (unverified): Symphyotrichum novi-belgii
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Aubretia
 
-- Latin name: Aubrieta deltoidea
-- Family: Brassicaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Primula / Wallflower / Aubretia / Iberis - - Blooming[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-aubretia`
+- Botanical name as recorded (unverified): Aubrieta deltoidea
+- Family as recorded (unverified): Brassicaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Borage
 
-- Latin name: Borago officinalis
-- Family: Boraginaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage - Direct sow Wk 2-4[Direct Sow] -
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage - Direct sow Wk 1-3[Direct Sow] -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-borage`
+- Botanical name as recorded (unverified): Borago officinalis
+- Family as recorded (unverified): Boraginaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Calendula
 
-- Latin name: Calendula officinalis
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: APRIL; JULY; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage - Direct sow Wk 2-4[Direct Sow] -
-  - JULY: Nasturtium / Calendula (for fall) - Last sow Wk 1[Direct Sow] Blooming continuously[Bloom]
-  - AUGUST: Calendula / Pansy / Wallflower (for autumn) - Sow now for [Direct Sow] autumn/spring display -
-  - SEPTEMBER: Cosmos / Calendula / Nigella (self-seeding) - - Do NOT deadhead last flush - let seed fall
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-calendula`
+- Botanical name as recorded (unverified): Calendula officinalis
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Camassia
 
-- Latin name: Camassia quamash
-- Family: Asparagaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: May align with Camas in native list. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-camassia`
+- Botanical name as recorded (unverified): Camassia quamash
+- Family as recorded (unverified): Asparagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Celosia
 
-- Latin name: Celosia argentea
-- Family: Amaranthaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Celosia / Strawflower / Scabiosa Wk 1-2 - -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-celosia`
+- Botanical name as recorded (unverified): Celosia argentea
+- Family as recorded (unverified): Amaranthaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Cleome
 
-- Latin name: Cleome hassleriana
-- Family: Cleomaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; MAY; JULY; AUGUST
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Nicotiana / Cleome Wk 1 - -
-  - MAY: Zinnias / Cosmos / Nicotiana / Cleome - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] -
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead]
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cleome`
+- Botanical name as recorded (unverified): Cleome hassleriana
+- Family as recorded (unverified): Cleomaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Cornflower
 
-- Latin name: Centaurea cyanus
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cornflower`
+- Botanical name as recorded (unverified): Centaurea cyanus
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Cosmos
 
-- Latin name: Cosmos bipinnatus
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 9
-- Months: MARCH; MAY; JUNE; JULY; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Zinnia / Cosmos Wk 3 - -
-  - MAY: Zinnias / Cosmos / Nicotiana / Cleome - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] -
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage - Direct sow Wk 1-3[Direct Sow] -
-  - JUNE: Nasturtium / Cosmos / Zinnia (early vars.) - - Beginning to bloom; [Bloom] deadhead [Prune/Deadhead]
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead]
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender - - Best cutting month of [Bloom] the year; harvest in morning
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead]
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia - - Still blooming; enjoy [Bloom] the last of summer
-  - SEPTEMBER: Cosmos / Calendula / Nigella (self-seeding) - - Do NOT deadhead last flush - let seed fall
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cosmos`
+- Botanical name as recorded (unverified): Cosmos bipinnatus
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Crocus
 
-- Latin name: Crocus vernus
-- Family: Iridaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: FEBRUARY; MARCH; OCTOBER; NOVEMBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Snowdrops / early Crocus - - Blooming [Frost Risk][Bloom]
-  - MARCH: Daffodils / Crocus / early Tulips - - Blooming - peak [Bloom] spring display
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari - Plant Wk 1-3[Plant Bulb/Tuber] -
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips - Last chance to plant [Plant Bulb/Tuber] Wk 1-2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-crocus`
+- Botanical name as recorded (unverified): Crocus vernus
+- Family as recorded (unverified): Iridaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Daffodil
 
-- Latin name: Narcissus pseudonarcissus
-- Family: Amaryllidaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; OCTOBER; NOVEMBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Daffodils / Crocus / early Tulips - - Blooming - peak [Bloom] spring display
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari - Plant Wk 1-3[Plant Bulb/Tuber] -
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips - Last chance to plant [Plant Bulb/Tuber] Wk 1-2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-daffodil`
+- Botanical name as recorded (unverified): Narcissus pseudonarcissus
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Dahlia
 
-- Latin name: Dahlia pinnata
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: JULY; AUGUST; SEPTEMBER; OCTOBER
-- Sections: BULBS & CORMS; CUT FLOWERS; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JULY: Dahlia (early varieties) - - First dahlias opening[Bloom]
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender - - Best cutting month of [Bloom] the year; harvest in morning
-  - AUGUST: Dahlia - - Peak bloom - [Bloom]
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia - - Still blooming; enjoy [Bloom] the last of summer
-  - OCTOBER: Dahlias - - Lift after first hard frost; dry 2 wks; store cool
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-dahlia`
+- Botanical name as recorded (unverified): Dahlia pinnata
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Daylily
 
-- Latin name: Hemerocallis × hybrida
-- Family: Asphodelaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; APRIL; JULY; SEPTEMBER
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Hostas / Daylilies / Asters - Divide emerging clumps [Prune/Deadhead] Emerging from ground
-  - APRIL: Hostas / Daylilies / Asters - Divide established clumps [Prune/Deadhead] -
-  - JULY: Daylily / Echinacea / Rudbeckia / Monarda - - Peak midsummer [Bloom] perennials
-  - SEPTEMBER: Iris / Daylily / Hosta (early-spring types) - [Prune/Deadhead] Divide Wk 1-3 -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-daylily`
+- Botanical name as recorded (unverified): Hemerocallis × hybrida
+- Family as recorded (unverified): Asphodelaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Delphinium
 
-- Latin name: Delphinium elatum
-- Family: Ranunculaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: FEBRUARY
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Delphinium Wk 1 - -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-delphinium`
+- Botanical name as recorded (unverified): Delphinium elatum
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Echinacea
 
-- Latin name: Echinacea purpurea
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: FEBRUARY; JULY; AUGUST
-- Sections: HARDY PERENNIALS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Echinacea (Coneflower) Wk 2 - -
-  - JULY: Daylily / Echinacea / Rudbeckia / Monarda - - Peak midsummer [Bloom] perennials
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender - - Best cutting month of [Bloom] the year; harvest in morning
-  - AUGUST: Rudbeckia / Echinacea / Helenium / Solidago - - Late summer gold and [Bloom] amber tones
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-echinacea`
+- Botanical name as recorded (unverified): Echinacea purpurea
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Gaillardia
 
-- Latin name: Gaillardia aristata
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Gaillardia Wk 2 - -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-gaillardia`
+- Botanical name as recorded (unverified): Gaillardia aristata
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Gladiolus
 
-- Latin name: Gladiolus × hortulanus
-- Family: Iridaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: JULY
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JULY: Oriental / Asiatic Lilies / Gladiolus - - Blooming; stake tall [Bloom] varieties
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-gladiolus`
+- Botanical name as recorded (unverified): Gladiolus × hortulanus
+- Family as recorded (unverified): Iridaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Hellebores
 
-- Latin name: Helleborus orientalis
-- Family: Ranunculaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; FEBRUARY; NOVEMBER
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Hellebores (Lenten Rose) - - Blooming outdoors; cut[Bloom] tatty foliage
-  - FEBRUARY: Hellebores - - Peak bloom outdoors[Bloom]
-  - NOVEMBER: Hellebores (Lenten Rose) - - May begin blooming [Bloom] late Nov [Frost Risk]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hellebores`
+- Botanical name as recorded (unverified): Helleborus orientalis
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Hyacinth
 
-- Latin name: Hyacinthus orientalis
-- Family: Asparagaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: OCTOBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari - Plant Wk 1-3[Plant Bulb/Tuber] -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hyacinth`
+- Botanical name as recorded (unverified): Hyacinthus orientalis
+- Family as recorded (unverified): Asparagaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Hyacinths
 
-- Latin name: Hyacinthus orientalis
-- Family: Asparagaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: OCTOBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari - Plant Wk 1-3[Plant Bulb/Tuber] -
-- Notes: Shared plan uses plural form. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hyacinths`
+- Botanical name as recorded (unverified): Hyacinthus orientalis
+- Family as recorded (unverified): Asparagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Iberis
 
-- Latin name: Iberis sempervirens
-- Family: Brassicaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Primula / Wallflower / Aubretia / Iberis - - Blooming[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-iberis`
+- Botanical name as recorded (unverified): Iberis sempervirens
+- Family as recorded (unverified): Brassicaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Impatiens
 
-- Latin name: Impatiens walleriana
-- Family: Balsaminaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: MARCH; MAY
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Impatiens Wk 1 - -
-  - MAY: Impatiens / Marigolds / Petunias / Begonias - → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1-2 -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-impatiens`
+- Botanical name as recorded (unverified): Impatiens walleriana
+- Family as recorded (unverified): Balsaminaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Iris
 
-- Latin name: Iris × germanica
-- Family: Iridaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 6
-- Months: MAY; JUNE; SEPTEMBER
-- Sections: HARDY PERENNIALS; CUT FLOWERS; BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Aquilegia / Geranium / Lupine / Iris - - Blooming - peak early[Bloom] perennials
-  - MAY: Sweet Peas / Allium / Iris / Aquilegia - - Excellent for cutting[Bloom]
-  - JUNE: Lupine / Iris / Salvia nemorosa / Allium - - Peak early summer [Bloom] perennials
-  - JUNE: Allium / late Iris / first Lily buds - - Blooming; stake tall [Bloom]
-  - JUNE: Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia - - Excellent cutting; [Bloom] harvest in morning
-  - SEPTEMBER: Iris / Daylily / Hosta (early-spring types) - [Prune/Deadhead] Divide Wk 1-3 -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-iris`
+- Botanical name as recorded (unverified): Iris × germanica
+- Family as recorded (unverified): Iridaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Larkspur
 
-- Latin name: Consolida ajacis
-- Family: Ranunculaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; APRIL
-- Sections: HARDY PERENNIALS; CUT FLOWERS; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Larkspur / Poppy - Direct sow Wk 3-4[Direct Sow] -
-  - MARCH: Larkspur - Direct sow outdoors[Direct Sow] -
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage - Direct sow Wk 2-4[Direct Sow] -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-larkspur`
+- Botanical name as recorded (unverified): Consolida ajacis
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Lavender
 
-- Latin name: Lavandula angustifolia
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JULY
-- Sections: SHRUBS & TREES (Ornamental); CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JULY: Roses (repeat flush) / Lavender / Hydrangea macrophylla - - Stunning summer [Bloom] display
-  - JULY: Lavender - - [Prune/Deadhead] Prune lightly after first flush Wk 2-3
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender - - Best cutting month of [Bloom] the year; harvest in morning
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-lavender`
+- Botanical name as recorded (unverified): Lavandula angustifolia
+- Family as recorded (unverified): Lamiaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Lobelia
 
-- Latin name: Lobelia erinus
-- Family: Campanulaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: JANUARY; JUNE
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Lobelia Late Jan (under lights) - -
-  - JUNE: Marigold / Lobelia / Petunia / Snapdragon - - First annuals blooming[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-lobelia`
+- Botanical name as recorded (unverified): Lobelia erinus
+- Family as recorded (unverified): Campanulaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Marigold
 
-- Latin name: Tagetes patula
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: MARCH; MAY; JUNE; JULY; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Marigold Wk 2 - -
-  - MAY: Impatiens / Marigolds / Petunias / Begonias - → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1-2 -
-  - JUNE: Marigold / Lobelia / Petunia / Snapdragon - - First annuals blooming[Bloom]
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead]
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead]
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia - - Still blooming; enjoy [Bloom] the last of summer
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-marigold`
+- Botanical name as recorded (unverified): Tagetes patula
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Muscari
 
-- Latin name: Muscari armeniacum
-- Family: Asparagaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: OCTOBER; NOVEMBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - OCTOBER: Daffodil / Hyacinth / Allium / Crocus / Muscari - Plant Wk 1-3[Plant Bulb/Tuber] -
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips - Last chance to plant [Plant Bulb/Tuber] Wk 1-2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-muscari`
+- Botanical name as recorded (unverified): Muscari armeniacum
+- Family as recorded (unverified): Asparagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Nasturtium
 
-- Latin name: Tropaeolum majus
-- Family: Tropaeolaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MAY; JUNE; JULY; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage - Direct sow Wk 1-3[Direct Sow] -
-  - JUNE: Nasturtium / Cosmos / Zinnia (early vars.) - - Beginning to bloom; [Bloom] deadhead [Prune/Deadhead]
-  - JULY: Nasturtium / Calendula (for fall) - Last sow Wk 1[Direct Sow] Blooming continuously[Bloom]
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia - - Still blooming; enjoy [Bloom] the last of summer
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-nasturtium`
+- Botanical name as recorded (unverified): Tropaeolum majus
+- Family as recorded (unverified): Tropaeolaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Nicotiana
 
-- Latin name: Nicotiana alata
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; MAY; JULY; AUGUST
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Nicotiana / Cleome Wk 1 - -
-  - MAY: Zinnias / Cosmos / Nicotiana / Cleome - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] -
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead]
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-nicotiana`
+- Botanical name as recorded (unverified): Nicotiana alata
+- Family as recorded (unverified): Solanaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Nigella
 
-- Latin name: Nigella damascena
-- Family: Ranunculaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage - Direct sow Wk 2-4[Direct Sow] -
-  - SEPTEMBER: Cosmos / Calendula / Nigella (self-seeding) - - Do NOT deadhead last flush - let seed fall
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-nigella`
+- Botanical name as recorded (unverified): Nigella damascena
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Orlaya
 
-- Latin name: Orlaya grandiflora
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-orlaya`
+- Botanical name as recorded (unverified): Orlaya grandiflora
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Pansy
 
-- Latin name: Viola × wittrockiana
-- Family: Violaceae
-- Life cycle: Annual
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 3
-- Months: APRIL; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Snapdragons / Pansies / Stocks - → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 -
-  - AUGUST: Calendula / Pansy / Wallflower (for autumn) - Sow now for [Direct Sow] autumn/spring display -
-  - SEPTEMBER: Winter Pansy / Wallflower - Sow outdoors Wk 1-2[Direct Sow] -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-pansy`
+- Botanical name as recorded (unverified): Viola × wittrockiana
+- Family as recorded (unverified): Violaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Peony
 
-- Latin name: Paeonia lactiflora
-- Family: Paeoniaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-peony`
+- Botanical name as recorded (unverified): Paeonia lactiflora
+- Family as recorded (unverified): Paeoniaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Petunias
 
-- Latin name: Petunia × atkinsiana
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; MAY; JUNE
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Petunias Late Jan (under lights) - -
-  - MAY: Impatiens / Marigolds / Petunias / Begonias - → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1-2 -
-  - JUNE: Marigold / Lobelia / Petunia / Snapdragon - - First annuals blooming[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-petunias`
+- Botanical name as recorded (unverified): Petunia × atkinsiana
+- Family as recorded (unverified): Solanaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Poppy
 
-- Latin name: Papaver rhoeas
-- Family: Papaveraceae
-- Life cycle: Annual
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 2
-- Months: MARCH; APRIL
-- Sections: HARDY PERENNIALS; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Larkspur / Poppy - Direct sow Wk 3-4[Direct Sow] -
-  - APRIL: Larkspur / Poppy / Nigella / Calendula / Borage - Direct sow Wk 2-4[Direct Sow] -
-- Notes: Species ambiguity pending. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-poppy`
+- Botanical name as recorded (unverified): Papaver rhoeas
+- Family as recorded (unverified): Papaveraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Primula
 
-- Latin name: Primula vulgaris
-- Family: Primulaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Primula / Wallflower / Aubretia / Iberis - - Blooming[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-primula`
+- Botanical name as recorded (unverified): Primula vulgaris
+- Family as recorded (unverified): Primulaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Rudbeckia
 
-- Latin name: Rudbeckia hirta
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: MARCH; JULY; AUGUST; SEPTEMBER; OCTOBER
-- Sections: HARDY PERENNIALS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Coneflower / Rudbeckia Wk 1 - -
-  - JULY: Daylily / Echinacea / Rudbeckia / Monarda - - Peak midsummer [Bloom] perennials
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender - - Best cutting month of [Bloom] the year; harvest in morning
-  - AUGUST: Rudbeckia / Echinacea / Helenium / Solidago - - Late summer gold and [Bloom] amber tones
-  - SEPTEMBER: Japanese Anemone / Rudbeckia / Helenium / Sedum - - Peak autumn [Bloom] perennials
-  - OCTOBER: Rudbeckia / Sedum / Schizostylis / Ornamental grasses - - Last cuttable flowers of[Bloom] the season
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-rudbeckia`
+- Botanical name as recorded (unverified): Rudbeckia hirta
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Salvia nemorosa
 
-- Latin name: Salvia nemorosa
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: FEBRUARY; JUNE
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Salvia nemorosa Wk 2 - -
-  - JUNE: Lupine / Iris / Salvia nemorosa / Allium - - Peak early summer [Bloom] perennials
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-salvia-nemorosa`
+- Botanical name as recorded (unverified): Salvia nemorosa
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Scabiosa
 
-- Latin name: Scabiosa atropurpurea
-- Family: Caprifoliaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Celosia / Strawflower / Scabiosa Wk 1-2 - -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-scabiosa`
+- Botanical name as recorded (unverified): Scabiosa atropurpurea
+- Family as recorded (unverified): Caprifoliaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Snapdragons
 
-- Latin name: Antirrhinum majus
-- Family: Plantaginaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; APRIL; JUNE
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Snapdragons Late Jan (under lights) - -
-  - APRIL: Snapdragons / Pansies / Stocks - → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 -
-  - JUNE: Marigold / Lobelia / Petunia / Snapdragon - - First annuals blooming[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-snapdragons`
+- Botanical name as recorded (unverified): Antirrhinum majus
+- Family as recorded (unverified): Plantaginaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Snowdrops
 
-- Latin name: Galanthus nivalis
-- Family: Amaryllidaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: JANUARY; FEBRUARY
-- Sections: HARDY PERENNIALS; BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Snowdrops (Galanthus) - - Blooming; divide after [Bloom] bloom if congested
-  - JANUARY: Snowdrops (Galanthus) - - Blooming outdoors [Frost Risk][Bloom]
-  - FEBRUARY: Snowdrops - Divide "in the green" now Blooming - divide [Bloom] congested clumps
-  - FEBRUARY: Snowdrops / early Crocus - - Blooming [Frost Risk][Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-snowdrops`
+- Botanical name as recorded (unverified): Galanthus nivalis
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Statice
 
-- Latin name: Limonium sinuatum
-- Family: Plumbaginaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: FEBRUARY; NOVEMBER
-- Sections: CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Statice Wk 2 - -
-  - NOVEMBER: Dried everlastings (Strawflower, Statice) - - Use dried flower store from summer
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-statice`
+- Botanical name as recorded (unverified): Limonium sinuatum
+- Family as recorded (unverified): Plumbaginaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Stocks
 
-- Latin name: Matthiola incana
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Snapdragons / Pansies / Stocks - → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-stocks`
+- Botanical name as recorded (unverified): Matthiola incana
+- Family as recorded (unverified): Brassicaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Strawflower
 
-- Latin name: Xerochrysum bracteatum
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Celosia / Strawflower / Scabiosa Wk 1-2 - -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-strawflower`
+- Botanical name as recorded (unverified): Xerochrysum bracteatum
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Sunflower
 
-- Latin name: Helianthus annuus
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MAY; JULY; AUGUST
-- Sections: LEGUMES & GRAINS; ANNUAL FLOWERS; CUT FLOWERS
-- Page types: edibles; ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Corn / Sunflower - Direct sow Wk 3-4[Direct Sow] -
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage - Direct sow Wk 1-3[Direct Sow] -
-  - MAY: Sunflower - Direct sow Wk 1-2[Direct Sow] -
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender - - Best cutting month of [Bloom] the year; harvest in morning
-  - AUGUST: Sunflower / Corn - - Sunflower heads [Harvest] mature; corn harvest late Aug
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sunflower`
+- Botanical name as recorded (unverified): Helianthus annuus
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Sweet Pea
 
-- Latin name: Lathyrus odoratus
-- Family: Fabaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 8
-- Months: MARCH; APRIL; MAY; JUNE; JULY
-- Sections: ANNUAL FLOWERS; CLIMBING VINES; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Sweet Peas - Direct sow outdoors [Direct Sow] Wk 3-4 -
-  - APRIL: Sweet Peas - Direct sow Wk 1-2[Direct Sow] -
-  - APRIL: Sweet Peas - → Transplant [Indoor Sow] [Indoor Sow] outdoors Wk 3-4 -
-  - MAY: Sweet Peas / Allium / Iris / Aquilegia - - Excellent for cutting[Bloom]
-  - JUNE: Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas - - Peak - harvest Sweet [Bloom]
-  - JUNE: Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia - - Excellent cutting; [Bloom] harvest in morning
-  - JULY: Sweet Pea - - Peak - harvest every [Bloom] day to extend
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender - - Best cutting month of [Bloom] the year; harvest in morning
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sweet-pea`
+- Botanical name as recorded (unverified): Lathyrus odoratus
+- Family as recorded (unverified): Fabaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Tulip
 
-- Latin name: Tulipa gesneriana
-- Family: Liliaceae
-- Life cycle: Perennial; grown from a bulb, corm, or storage organ
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; OCTOBER; NOVEMBER
-- Sections: BULBS & CORMS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Basal plate and fibrous roots; bulb or corm storage organ.
-- Leaves: Basal or sheathing leaves; strap, linear, or species-specific blades.
-- Flowers: Species-specific flower or inflorescence; generally showy and arranged to attract pollinators.
-- Fruit or seeds: Seed capsule or berry may follow flowering.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Daffodils / Crocus / early Tulips - - Blooming - peak [Bloom] spring display
-  - OCTOBER: Tulips - Plant Wk 3-4 (late [Plant Bulb/Tuber] planting reduces tulip fire) -
-  - NOVEMBER: Daffodil / Crocus / Allium / Muscari / Tulips - Last chance to plant [Plant Bulb/Tuber] Wk 1-2
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-tulip`
+- Botanical name as recorded (unverified): Tulipa gesneriana
+- Family as recorded (unverified): Liliaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Wallflower
 
-- Latin name: Erysimum cheiri
-- Family: Brassicaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: APRIL; AUGUST; SEPTEMBER
-- Sections: HARDY PERENNIALS; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Primula / Wallflower / Aubretia / Iberis - - Blooming[Bloom]
-  - AUGUST: Calendula / Pansy / Wallflower (for autumn) - Sow now for [Direct Sow] autumn/spring display -
-  - SEPTEMBER: Winter Pansy / Wallflower - Sow outdoors Wk 1-2[Direct Sow] -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-wallflower`
+- Botanical name as recorded (unverified): Erysimum cheiri
+- Family as recorded (unverified): Brassicaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Zinnia
 
-- Latin name: Zinnia elegans
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 8
-- Months: MARCH; MAY; JUNE; JULY; AUGUST; SEPTEMBER
-- Sections: ANNUAL FLOWERS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Zinnia / Cosmos Wk 3 - -
-  - MAY: Zinnias / Cosmos / Nicotiana / Cleome - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] -
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage - Direct sow Wk 1-3[Direct Sow] -
-  - JUNE: Nasturtium / Cosmos / Zinnia (early vars.) - - Beginning to bloom; [Bloom] deadhead [Prune/Deadhead]
-  - JULY: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead]
-  - JULY: Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender - - Best cutting month of [Bloom] the year; harvest in morning
-  - AUGUST: Zinnia / Cosmos / Marigold / Cleome / Nicotiana - - Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead]
-  - SEPTEMBER: Zinnia / Cosmos / Marigold / Nasturtium / Dahlia - - Still blooming; enjoy [Bloom] the last of summer
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-zinnia`
+- Botanical name as recorded (unverified): Zinnia elegans
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Fruit
 
 ### Apple
 
-- Latin name: Malus domestica
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 10
-- Months: JANUARY; FEBRUARY; MARCH; MAY; JUNE; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune dormant trees Jan-Feb
-  - FEBRUARY: Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune before bud break (Feb)
-  - MARCH: Apple / Pear / Cherry - - Apply dormant oil spray now
-  - MAY: Apple / Pear - - Thin fruitlets late May (June drop)
-  - JUNE: Apple / Pear - - Thin clusters to 1 fruit per spur
-  - SEPTEMBER: Apples (main season) / Pears / Grapes (late Sep) - - Main apple harvest; [Harvest] store carefully
-  - OCTOBER: Apples (late) / Pears / Quince - - Last harvest; store in [Harvest] cool dark place
-  - NOVEMBER: Stored apples / pears - - Check monthly; [Harvest] remove any rotting fruit
-  - DECEMBER: Stored apples / pears - - Check; remove any rot[Harvest]
-  - DECEMBER: Apple / Pear - - [Prune/Deadhead] Dormant pruning Dec-
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-apple`
+- Botanical name as recorded (unverified): Malus domestica
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Blueberries
 
-- Latin name: Vaccinium corymbosum
-- Family: Ericaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; APRIL; MAY; JULY; AUGUST
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Blueberries - - [Prune/Deadhead] Prune Mar; apply dormant spray
-  - APRIL: Blueberries / Currants - - New growth beginning; feed now
-  - MAY: Blueberries / Gooseberries - - Flowering; set fruit[Bloom]
-  - JULY: Blueberries (mid-July onward) - - Peak harvest; pick [Harvest] daily
-  - AUGUST: Blueberries (peak August) - - Best month for [Harvest] blueberries
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-blueberries`
+- Botanical name as recorded (unverified): Vaccinium corymbosum
+- Family as recorded (unverified): Ericaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cherry
 
-- Latin name: Prunus avium
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; FEBRUARY; MARCH
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune dormant trees Jan-Feb
-  - FEBRUARY: Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune before bud break (Feb)
-  - MARCH: Apple / Pear / Cherry - - Apply dormant oil spray now
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cherry`
+- Botanical name as recorded (unverified): Prunus avium
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Currants
 
-- Latin name: Ribes rubrum
-- Family: Grossulariaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; APRIL; NOVEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Strawberries / Currants / Gooseberries (bare-root) - Mar if ground workable[Direct Sow] -
-  - APRIL: Blueberries / Currants - - New growth beginning; feed now
-  - NOVEMBER: Currants / Gooseberries - - [Prune/Deadhead] Prune Nov-Feb while dormant
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-currants`
+- Botanical name as recorded (unverified): Ribes rubrum
+- Family as recorded (unverified): Grossulariaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Gooseberries
 
-- Latin name: Ribes uva-crispa
-- Family: Grossulariaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; MAY; JUNE; JULY; NOVEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Strawberries / Currants / Gooseberries (bare-root) - Mar if ground workable[Direct Sow] -
-  - MAY: Blueberries / Gooseberries - - Flowering; set fruit[Bloom]
-  - JUNE: Gooseberries - - Ready late June[Harvest]
-  - JULY: Red / White Currants / Gooseberries - - Harvest and preserve[Harvest] Early Plums / Tayberry /
-  - NOVEMBER: Currants / Gooseberries - - [Prune/Deadhead] Prune Nov-Feb while dormant
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-gooseberries`
+- Botanical name as recorded (unverified): Ribes uva-crispa
+- Family as recorded (unverified): Grossulariaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Grapes
 
-- Latin name: Vitis vinifera
-- Family: Vitaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: SEPTEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - SEPTEMBER: Apples (main season) / Pears / Grapes (late Sep) - - Main apple harvest; [Harvest] store carefully
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-grapes`
+- Botanical name as recorded (unverified): Vitis vinifera
+- Family as recorded (unverified): Vitaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Pear
 
-- Latin name: Pyrus communis
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 10
-- Months: JANUARY; FEBRUARY; MARCH; MAY; JUNE; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune dormant trees Jan-Feb
-  - FEBRUARY: Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune before bud break (Feb)
-  - MARCH: Apple / Pear / Cherry - - Apply dormant oil spray now
-  - MAY: Apple / Pear - - Thin fruitlets late May (June drop)
-  - JUNE: Apple / Pear - - Thin clusters to 1 fruit per spur
-  - SEPTEMBER: Apples (main season) / Pears / Grapes (late Sep) - - Main apple harvest; [Harvest] store carefully
-  - OCTOBER: Apples (late) / Pears / Quince - - Last harvest; store in [Harvest] cool dark place
-  - NOVEMBER: Stored apples / pears - - Check monthly; [Harvest] remove any rotting fruit
-  - DECEMBER: Stored apples / pears - - Check; remove any rot[Harvest]
-  - DECEMBER: Apple / Pear - - [Prune/Deadhead] Dormant pruning Dec-
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-pear`
+- Botanical name as recorded (unverified): Pyrus communis
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Plum
 
-- Latin name: Prunus domestica
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; FEBRUARY; AUGUST
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune dormant trees Jan-Feb
-  - FEBRUARY: Apple / Pear / Plum / Cherry - - [Prune/Deadhead] Prune before bud break (Feb)
-  - AUGUST: Raspberries / Blackberries / Plums - - Harvesting [Harvest] continuously Early Apples / Pears (late
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-plum`
+- Botanical name as recorded (unverified): Prunus domestica
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Raspberries
 
-- Latin name: Rubus idaeus
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: APRIL; JULY; AUGUST; SEPTEMBER
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Raspberries - - [Prune/Deadhead] Cut back old canes
-  - JULY: Raspberries (summer- bearing) - - Harvest; remove [Harvest] fruited canes after
-  - AUGUST: Raspberries / Blackberries / Plums - - Harvesting [Harvest] continuously Early Apples / Pears (late
-  - SEPTEMBER: Fall Raspberries / Blackberries / Everbearing Strawberries - - Harvest before first [Harvest] frost
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-raspberries`
+- Botanical name as recorded (unverified): Rubus idaeus
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Strawberries
 
-- Latin name: Fragaria × ananassa
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: FEBRUARY; MARCH; MAY; JUNE
-- Sections: FRUITS & BERRIES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Woody perennial root system; grafted trees may include rootstock-specific traits.
-- Leaves: Alternate or opposite foliage according to the exact genus; use species-level morphology.
-- Flowers: Flowers arranged in species-specific racemes, clusters, umbels, or catkins.
-- Fruit or seeds: Botanical fruit type is species-specific: pome, drupe, berry, aggregate fruit, or grape.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Strawberries (bare-root) - Late Feb if ground [Direct Sow] workable -
-  - MARCH: Strawberries (from seed) Wk 1 (long season needed) - -
-  - MARCH: Strawberries / Currants / Gooseberries (bare-root) - Mar if ground workable[Direct Sow] -
-  - MAY: Strawberries - - Flowers forming; [Bloom] remove 1st-yr runners' flowers
-  - JUNE: Strawberries - - Full harvest Wk 1-4[Harvest]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-strawberries`
+- Botanical name as recorded (unverified): Fragaria × ananassa
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ## Herb
 
 ### Basil
 
-- Latin name: Ocimum basilicum
-- Family: Lamiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 7
-- Months: FEBRUARY; MARCH; MAY; JUNE; JULY; SEPTEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Basil Wk 4 (under lights, warm) - -
-  - MARCH: Basil Wk 1-2 (indoors only) - -
-  - MAY: Basil - → Transplant Wk 2 [Indoor Sow] [Indoor Sow] (soil must be warm) -
-  - JUNE: Basil - - [Prune/Deadhead] Pinch flowers to prolong leaf harvest
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint - - Full harvest; dry and [Harvest] freeze surplus
-  - JULY: Basil - - [Prune/Deadhead] Pinch flowers continuously to prevent bolt
-  - SEPTEMBER: Chives / Parsley / Basil (pot up) Pot up for indoor winter use - Basil: last chance - make pesto and freeze
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-basil`
+- Botanical name as recorded (unverified): Ocimum basilicum
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Chervil
 
-- Latin name: Anthriscus cerefolium
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; JUNE
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Dill / Cilantro / Chervil / Fennel - Direct sow Wk 3-4[Direct Sow] -
-  - JUNE: Chives / Parsley / Dill / Chervil - - Harvest freely; dry or [Harvest] freeze surplus
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-chervil`
+- Botanical name as recorded (unverified): Anthriscus cerefolium
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Chives
 
-- Latin name: Allium schoenoprasum
-- Family: Amaryllidaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: FEBRUARY; APRIL; JUNE; SEPTEMBER; OCTOBER; NOVEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Chives Wk 1-2 - -
-  - APRIL: Chives / Parsley (starts) - → Transplant Wk 3-4[Indoor Sow] [Indoor Sow] -
-  - JUNE: Chives / Parsley / Dill / Chervil - - Harvest freely; dry or [Harvest] freeze surplus
-  - SEPTEMBER: Chives / Parsley / Basil (pot up) Pot up for indoor winter use - Basil: last chance - make pesto and freeze
-  - OCTOBER: Parsley / Chives Pot up for indoor windowsill - Harvest last Basil; make pesto and freeze
-  - NOVEMBER: Parsley / Chives / Rosemary - - Harvest from [Harvest] protected plants
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-chives`
+- Botanical name as recorded (unverified): Allium schoenoprasum
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cilantro
 
-- Latin name: Coriandrum sativum
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; APRIL; MAY; JUNE; JULY
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Cilantro - Direct sow late Mar[Direct Sow] -
-  - APRIL: Dill / Cilantro / Chervil / Fennel - Direct sow Wk 3-4[Direct Sow] -
-  - MAY: Dill / Cilantro / Fennel - Succession direct sow[Direct Sow] -
-  - JUNE: Cilantro (before bolt) - - Harvest now - bolts [Harvest] fast in heat
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint - - Full harvest; dry and [Harvest] freeze surplus
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cilantro`
+- Botanical name as recorded (unverified): Coriandrum sativum
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Dill
 
-- Latin name: Anethum graveolens
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: MARCH; APRIL; MAY; JUNE; JULY; AUGUST
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Dill Wk 1-2 Late Mar direct sow OK[Direct Sow] -
-  - APRIL: Dill / Cilantro / Chervil / Fennel - Direct sow Wk 3-4[Direct Sow] -
-  - MAY: Dill / Cilantro / Fennel - Succession direct sow[Direct Sow] -
-  - JUNE: Chives / Parsley / Dill / Chervil - - Harvest freely; dry or [Harvest] freeze surplus
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint - - Full harvest; dry and [Harvest] freeze surplus
-  - AUGUST: Dill / Cilantro seeds - - Save seeds as they dry on plant
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-dill`
+- Botanical name as recorded (unverified): Anethum graveolens
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Fennel
 
-- Latin name: Foeniculum vulgare
-- Family: Apiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Dill / Cilantro / Chervil / Fennel - Direct sow Wk 3-4[Direct Sow] -
-  - MAY: Dill / Cilantro / Fennel - Succession direct sow[Direct Sow] -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-fennel`
+- Botanical name as recorded (unverified): Foeniculum vulgare
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Oregano
 
-- Latin name: Origanum vulgare
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: MAY; JULY
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Rosemary / Thyme / Oregano - → Transplant now[Indoor Sow] [Indoor Sow] -
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint - - Full harvest; dry and [Harvest] freeze surplus
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-oregano`
+- Botanical name as recorded (unverified): Origanum vulgare
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Parsley
 
-- Latin name: Petroselinum crispum
-- Family: Apiaceae
-- Life cycle: Biennial, often grown as an annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 8
-- Months: FEBRUARY; APRIL; JUNE; JULY; SEPTEMBER; OCTOBER; NOVEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Parsley Wk 1-2 (slow germinator) - -
-  - APRIL: Chives / Parsley (starts) - → Transplant Wk 3-4[Indoor Sow] [Indoor Sow] -
-  - JUNE: Chives / Parsley / Dill / Chervil - - Harvest freely; dry or [Harvest] freeze surplus
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint - - Full harvest; dry and [Harvest] freeze surplus
-  - SEPTEMBER: Parsley (for spring) - Sow Wk 1[Direct Sow] -
-  - SEPTEMBER: Chives / Parsley / Basil (pot up) Pot up for indoor winter use - Basil: last chance - make pesto and freeze
-  - OCTOBER: Parsley / Chives Pot up for indoor windowsill - Harvest last Basil; make pesto and freeze
-  - NOVEMBER: Parsley / Chives / Rosemary - - Harvest from [Harvest] protected plants
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-parsley`
+- Botanical name as recorded (unverified): Petroselinum crispum
+- Family as recorded (unverified): Apiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Rosemary
 
-- Latin name: Salvia rosmarinus
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MAY; OCTOBER; NOVEMBER; DECEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Rosemary / Thyme / Oregano - → Transplant now[Indoor Sow] [Indoor Sow] -
-  - OCTOBER: Rosemary (exposed sites) - - Mulch base if in [Overwinter/Mulch] exposed location [Frost Risk]
-  - NOVEMBER: Parsley / Chives / Rosemary - - Harvest from [Harvest] protected plants
-  - DECEMBER: Rosemary / Sage / Thyme - - Frost-hardy; harvest in[Harvest] mild spells
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-rosemary`
+- Botanical name as recorded (unverified): Salvia rosmarinus
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Thyme
 
-- Latin name: Thymus vulgaris
-- Family: Lamiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MAY; JULY; NOVEMBER; DECEMBER
-- Sections: HERBS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Rosemary / Thyme / Oregano - → Transplant now[Indoor Sow] [Indoor Sow] -
-  - JULY: Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint - - Full harvest; dry and [Harvest] freeze surplus
-  - NOVEMBER: Sage / Thyme - - Light harvest; thyme: [Harvest] mulch crowns in exposed sites
-  - DECEMBER: Rosemary / Sage / Thyme - - Frost-hardy; harvest in[Harvest] mild spells
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-thyme`
+- Botanical name as recorded (unverified): Thymus vulgaris
+- Family as recorded (unverified): Lamiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Native
 
 ### Bleeding Heart
 
-- Latin name: Dicentra formosa
-- Family: Papaveraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - APRIL: Bleeding Heart (Dicentra) / Pacific Trillium - - Blooming in shaded [Bloom] spots
-  - MAY: Camas / Bleeding Heart / Nootka Rose / Bunchberry - - Blooming - peak [Bloom] native season
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-bleeding-heart`
+- Botanical name as recorded (unverified): Dicentra formosa
+- Family as recorded (unverified): Papaveraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Camas
 
-- Latin name: Camassia quamash
-- Family: Asparagaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - APRIL: Camas (Camassia) - - Beginning to bloom[Bloom]
-  - MAY: Camas / Bleeding Heart / Nootka Rose / Bunchberry - - Blooming - peak [Bloom] native season
-- Notes: May align with Camassia in bulb list. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-camas`
+- Botanical name as recorded (unverified): Camassia quamash
+- Family as recorded (unverified): Asparagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Osoberry
 
-- Latin name: Oemleria cerasiformis
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: JANUARY; MARCH
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - JANUARY: Osoberry (Oemleria) - - Buds beginning to swell; earliest native
-  - MARCH: Osoberry / Trillium - - Emerging - do not [Bloom] pick Trillium
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-osoberry`
+- Botanical name as recorded (unverified): Oemleria cerasiformis
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Red-flowering Currant
 
-- Latin name: Ribes sanguineum
-- Family: Grossulariaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: FEBRUARY; MARCH
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - FEBRUARY: Red Flowering Currant (Ribes) - - Buds swelling - bloom coming soon
-  - MARCH: Red Flowering Currant (Ribes) - - Blooming - [Bloom] hummingbird magnet
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-red-flowering-currant`
+- Botanical name as recorded (unverified): Ribes sanguineum
+- Family as recorded (unverified): Grossulariaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Sword Fern
 
-- Latin name: Polystichum munitum
-- Family: Dryopteridaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sword-fern`
+- Botanical name as recorded (unverified): Polystichum munitum
+- Family as recorded (unverified): Dryopteridaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Trillium
 
-- Latin name: Trillium ovatum
-- Family: Melanthiaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific perennial root or rhizome system; do not infer a single organ from the common name.
-- Leaves: Leaves follow the characteristic genus or species; arrangement and shape require species-level verification.
-- Flowers: Species-specific bloom structure; bloom timing in Errington remains calendar-dependent.
-- Fruit or seeds: Fruit or seed structure follows the species; verify before illustration or propagation.
-- Soil: Use a native-plant soil profile matching the species' natural moisture and exposure.
-- Water: Provide supplemental water only during establishment unless the species is naturally moisture-demanding.
-- Spacing: Use mature native-plant size and avoid crowding at establishment.
-- Light: Match sun or shade to the species and local site.
-- Maintenance: Protect soil and leaf litter where appropriate; avoid heavy fertilizer; prune only for structure or safety.
-- Pests and diseases: Favor prevention and local beneficial organisms; treat only confirmed damage.
-- Calendar actions:
-  - MARCH: Osoberry / Trillium - - Emerging - do not [Bloom] pick Trillium
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-trillium`
+- Botanical name as recorded (unverified): Trillium ovatum
+- Family as recorded (unverified): Melanthiaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Ornamental
 
 ### Astilbe
 
-- Latin name: Astilbe × arendsii
-- Family: Saxifragaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-astilbe`
+- Botanical name as recorded (unverified): Astilbe × arendsii
+- Family as recorded (unverified): Saxifragaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Ferns
 
-- Latin name: Fern species / multiple genera
-- Family: Multiple families
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Notes: Group label on source image; may need splitting into species later. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-ferns`
+- Botanical name as recorded (unverified): Fern species / multiple genera
+- Family as recorded (unverified): Multiple families
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Heuchera
 
-- Latin name: Heuchera sanguinea
-- Family: Saxifragaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-heuchera`
+- Botanical name as recorded (unverified): Heuchera sanguinea
+- Family as recorded (unverified): Saxifragaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Hostas
 
-- Latin name: Hosta spp.
-- Family: Asparagaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; APRIL; SEPTEMBER
-- Sections: HARDY PERENNIALS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Calendar actions:
-  - MARCH: Hostas / Daylilies / Asters - Divide emerging clumps [Prune/Deadhead] Emerging from ground
-  - APRIL: Hostas / Daylilies / Asters - Divide established clumps [Prune/Deadhead] -
-  - SEPTEMBER: Iris / Daylily / Hosta (early-spring types) - [Prune/Deadhead] Divide Wk 1-3 -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hostas`
+- Botanical name as recorded (unverified): Hosta spp.
+- Family as recorded (unverified): Asparagaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Ornamental Grasses
 
-- Latin name: Ornamental grass species / multiple genera
-- Family: Poaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Notes: Group label on source image; may need splitting into species later. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-ornamental-grasses`
+- Botanical name as recorded (unverified): Ornamental grass species / multiple genera
+- Family as recorded (unverified): Poaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Sedum
 
-- Latin name: Hylotelephium telephium
-- Family: Crassulaceae
-- Life cycle: Perennial or variable; species-level resolution required
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: SEPTEMBER; OCTOBER
-- Sections: HARDY PERENNIALS; CUT FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Fibrous, rhizomatous, clumping, or fleshy according to the species.
-- Leaves: Species- or genus-specific leaf arrangement and shape; generic label needs disambiguation.
-- Flowers: Species-specific flower form; local bloom timing comes from the Errington calendar if matched.
-- Fruit or seeds: Seed capsule, achene, berry, or no conspicuous fruit according to species.
-- Soil: Choose a well-drained soil matched to the plant; the label and species can vary widely.
-- Water: Water to establish, then match moisture to the specific ornamental's type.
-- Spacing: Allow for mature clump or canopy width; label or cultivar may change the correct spacing.
-- Light: Check the specific species; full sun, shade, and moisture labels may vary across genera.
-- Maintenance: Remove damaged growth, divide where applicable, mulch carefully, and avoid overwatering.
-- Pests and diseases: Monitor for slugs, aphids, mites, scale, and fungal leaf problems; use identification and prevention first.
-- Calendar actions:
-  - SEPTEMBER: Japanese Anemone / Rudbeckia / Helenium / Sedum - - Peak autumn [Bloom] perennials
-  - OCTOBER: Japanese Anemone / Aster / Sedum / Schizostylis - - Fading; leave stems [Bloom] for winter interest
-  - OCTOBER: Rudbeckia / Sedum / Schizostylis / Ornamental grasses - - Last cuttable flowers of[Bloom] the season
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sedum`
+- Botanical name as recorded (unverified): Hylotelephium telephium
+- Family as recorded (unverified): Crassulaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Perennial-Edible
 
 ### Globe Artichoke
 
-- Latin name: Cynara cardunculus var. scolymus
-- Family: Asteraceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: FEBRUARY
-- Sections: PERENNIAL EDIBLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Globe Artichoke Wk 3-4 (needs vernalisation) - -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-globe-artichoke`
+- Botanical name as recorded (unverified): Cynara cardunculus var. scolymus
+- Family as recorded (unverified): Asteraceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Rhubarb
 
-- Latin name: Rheum × hybridum
-- Family: Polygonaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 11
-- Months: JANUARY; FEBRUARY; MARCH; APRIL; MAY; JUNE; JULY; AUGUST; OCTOBER; NOVEMBER; DECEMBER
-- Sections: PERENNIAL EDIBLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Rhubarb - - Fully dormant [Frost Risk]
-  - FEBRUARY: Rhubarb - - Crown tips may appear - leave
-  - MARCH: Rhubarb - - Emerging - do not harvest 1st yr
-  - APRIL: Rhubarb - - Harvest begins Wk 3-4[Harvest]
-  - MAY: Rhubarb - - Harvest stalks; leave [Harvest] some leaves
-  - JUNE: Rhubarb - - Last harvest Wk 1-2; [Harvest] leave plant to rest
-  - JULY: Rhubarb / Asparagus - - Do NOT harvest; let plants build energy
-  - AUGUST: Rhubarb / Asparagus - - Resting; asparagus fern - leave standing
-  - OCTOBER: Rhubarb - Divide Wk 1-2 -
-  - NOVEMBER: Rhubarb - - Dormant; do not disturb
-  - DECEMBER: Rhubarb - - Fully dormant. Force under upturned pot for
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-rhubarb`
+- Botanical name as recorded (unverified): Rheum × hybridum
+- Family as recorded (unverified): Polygonaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ## Shrub-Tree
 
 ### Azalea
 
-- Latin name: Rhododendron spp.
-- Family: Ericaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Magnolia / Camellia / Rhododendron / Azalea - - Stunning spring [Bloom] display
-  - MAY: Rhododendron / Azalea / Lilac / Ceanothus / Weigela - - Spectacular blooms[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-azalea`
+- Botanical name as recorded (unverified): Rhododendron spp.
+- Family as recorded (unverified): Ericaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Buddleja
 
-- Latin name: Buddleja davidii
-- Family: Scrophulariaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: JANUARY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Buddleja / Hydrangea paniculata - - [Prune/Deadhead] Prune hard Jan-Feb
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-buddleja`
+- Botanical name as recorded (unverified): Buddleja davidii
+- Family as recorded (unverified): Scrophulariaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Camellia
 
-- Latin name: Camellia japonica
-- Family: Theaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Magnolia / Camellia / Rhododendron / Azalea - - Stunning spring [Bloom] display
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-camellia`
+- Botanical name as recorded (unverified): Camellia japonica
+- Family as recorded (unverified): Theaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Deutzia
 
-- Latin name: Deutzia gracilis
-- Family: Hydrangeaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-deutzia`
+- Botanical name as recorded (unverified): Deutzia gracilis
+- Family as recorded (unverified): Hydrangeaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Forsythia
 
-- Latin name: Forsythia × intermedia
-- Family: Oleaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: FEBRUARY; MARCH; MAY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Forsythia - - Buds swelling; bloom imminent
-  - MARCH: Forsythia / Pieris - - Blooming[Bloom]
-  - MAY: Forsythia / Kerria / Ribes (spring-blooming) - - [Prune/Deadhead] Prune after bloom finishes
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-forsythia`
+- Botanical name as recorded (unverified): Forsythia × intermedia
+- Family as recorded (unverified): Oleaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Garry Oak
 
-- Latin name: Quercus garryana
-- Family: Fagaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: BC NATIVE PLANTS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Garry Oak - - Leafing out; catkins dropping
-- Notes: Also appears in native list and may need cross-linking. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-garry-oak`
+- Botanical name as recorded (unverified): Quercus garryana
+- Family as recorded (unverified): Fagaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Hydrangea paniculata
 
-- Latin name: Hydrangea paniculata
-- Family: Hydrangeaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: JANUARY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Buddleja / Hydrangea paniculata - - [Prune/Deadhead] Prune hard Jan-Feb
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-hydrangea-paniculata`
+- Botanical name as recorded (unverified): Hydrangea paniculata
+- Family as recorded (unverified): Hydrangeaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Kerria
 
-- Latin name: Kerria japonica
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Spring-flowering shrubs (Forsythia, Kerria) - - [Prune/Deadhead] Prune AFTER bloom; feed roses
-  - MAY: Forsythia / Kerria / Ribes (spring-blooming) - - [Prune/Deadhead] Prune after bloom finishes
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-kerria`
+- Botanical name as recorded (unverified): Kerria japonica
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Magnolia
 
-- Latin name: Magnolia stellata
-- Family: Magnoliaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: APRIL
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Magnolia / Camellia / Rhododendron / Azalea - - Stunning spring [Bloom] display
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-magnolia`
+- Botanical name as recorded (unverified): Magnolia stellata
+- Family as recorded (unverified): Magnoliaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Philadelphus
 
-- Latin name: Philadelphus coronarius
-- Family: Hydrangeaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: JUNE
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JUNE: Roses (first flush) / Philadelphus / Weigela / Escallonia - - Peak first flush - [Bloom] glorious
-  - JUNE: Philadelphus / Weigela - - [Prune/Deadhead] Prune after bloom finishes (late June)
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-philadelphus`
+- Botanical name as recorded (unverified): Philadelphus coronarius
+- Family as recorded (unverified): Hydrangeaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Pieris
 
-- Latin name: Pieris japonica
-- Family: Ericaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Forsythia / Pieris - - Blooming[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-pieris`
+- Botanical name as recorded (unverified): Pieris japonica
+- Family as recorded (unverified): Ericaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Rhododendron
 
-- Latin name: Rhododendron spp.
-- Family: Ericaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 2
-- Months: APRIL; MAY
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Magnolia / Camellia / Rhododendron / Azalea - - Stunning spring [Bloom] display
-  - MAY: Rhododendron / Azalea / Lilac / Ceanothus / Weigela - - Spectacular blooms[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-rhododendron`
+- Botanical name as recorded (unverified): Rhododendron spp.
+- Family as recorded (unverified): Ericaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Roses
 
-- Latin name: Rosa spp.
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 8
-- Months: FEBRUARY; JUNE; JULY; AUGUST; SEPTEMBER
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - FEBRUARY: Roses - - [Prune/Deadhead] Light prune late Feb
-  - JUNE: Roses (first flush) / Philadelphus / Weigela / Escallonia - - Peak first flush - [Bloom] glorious
-  - JULY: Roses (repeat flush) / Lavender / Hydrangea macrophylla - - Stunning summer [Bloom] display
-  - JULY: Roses - - [Prune/Deadhead] Deadhead continuously for repeat bloom
-  - AUGUST: Hydrangea (all types) / Roses (second flush) / Fuchsia - - Late summer shrub [Bloom] peak
-  - AUGUST: Roses - - [Prune/Deadhead] Deadhead; do NOT feed after Aug
-  - SEPTEMBER: Hydrangea / Caryopteris / Perovskia / late Roses - - Beautiful autumn [Bloom] colour
-  - SEPTEMBER: Roses / shrubs (general) - - Do NOT prune - leave until spring
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-roses`
+- Botanical name as recorded (unverified): Rosa spp.
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Spiraea
 
-- Latin name: Spiraea japonica
-- Family: Rosaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-spiraea`
+- Botanical name as recorded (unverified): Spiraea japonica
+- Family as recorded (unverified): Rosaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Witch Hazel
 
-- Latin name: Hamamelis virginiana
-- Family: Hamamelidaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: JANUARY; FEBRUARY; DECEMBER
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - JANUARY: Witch Hazel (Hamamelis) - - Blooming - fragrant [Bloom] winter display
-  - FEBRUARY: Witch Hazel (Hamamelis) - - Blooming - fragrant in[Bloom] mild spells
-  - DECEMBER: Witch Hazel (Hamamelis) - - Buds swelling; first spidery blooms soon
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-witch-hazel`
+- Botanical name as recorded (unverified): Hamamelis virginiana
+- Family as recorded (unverified): Hamamelidaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ## Vegetable
 
 ### Arugula
 
-- Latin name: Eruca vesicaria subsp. sativa
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: MARCH; SEPTEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Radish / Arugula / Mâche - Wk 3-4 (under fleece)[Direct Sow] -
-  - SEPTEMBER: Spinach / Pak Choi / Arugula - Direct sow Wk 1-3[Direct Sow] -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-arugula`
+- Botanical name as recorded (unverified): Eruca vesicaria subsp. sativa
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Asparagus
 
-- Latin name: Asparagus officinalis
-- Family: Asparagaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 9
-- Months: JANUARY; FEBRUARY; APRIL; MAY; JUNE; JULY; AUGUST; OCTOBER; NOVEMBER
-- Sections: PERENNIAL EDIBLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Asparagus - - Fully dormant [Frost Risk]
-  - FEBRUARY: Asparagus - - Still dormant [Frost Risk]
-  - APRIL: Asparagus - - Harvest begins Wk 3-4[Harvest]
-  - MAY: Asparagus - - Full harvest - pick [Harvest] daily
-  - JUNE: Asparagus - - [Prune/Deadhead] Stop harvesting Wk 1- 2; allow fern growth
-  - JULY: Rhubarb / Asparagus - - Do NOT harvest; let plants build energy
-  - AUGUST: Rhubarb / Asparagus - - Resting; asparagus fern - leave standing
-  - OCTOBER: Asparagus - - Mulch with straw Wk [Overwinter/Mulch] 3-4
-  - NOVEMBER: Asparagus - - Mulch with straw; [Overwinter/Mulch] leave ferns standing
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-asparagus`
+- Botanical name as recorded (unverified): Asparagus officinalis
+- Family as recorded (unverified): Asparagaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Beans
 
-- Latin name: Phaseolus vulgaris
-- Family: Fabaceae
-- Life cycle: Annual
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 3
-- Months: JULY; AUGUST
-- Sections: VEGETABLES; LEGUMES & GRAINS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JULY: Beans (for fall) / Lettuce (bolt-resistant) - Succession Wk 1-2 [Direct Sow] only -
-  - JULY: Peas / Beans / Zucchini / Cucumber - - Full harvest swing[Harvest]
-  - AUGUST: Beans (full harvest) - - Leave some pods to [Harvest] dry for seed/storage
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-beans`
+- Botanical name as recorded (unverified): Phaseolus vulgaris
+- Family as recorded (unverified): Fabaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Beets
 
-- Latin name: Beta vulgaris
-- Family: Amaranthaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 13
-- Months: JANUARY; APRIL; MAY; JUNE; JULY; AUGUST; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: ROOTS & TUBERS; VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Potatoes / Carrots / Beets - - Check cold storage; remove rot
-  - APRIL: Carrots / Beets (succession) - Direct sow Wk 3-4[Direct Sow] -
-  - MAY: Beets / Carrots / Lettuce / Chard / Kale - Succession sow Wk 1-[Direct Sow] 4 -
-  - MAY: Carrots / Beets / Parsnips - Succession sow[Direct Sow] -
-  - JUNE: Carrots / Beets (last sow for fall) - Last main sow Wk 1-2[Direct Sow] - Early new potatoes - - Check Wk 3-4 if [Harvest] planted late March
-  - JULY: Beets / Carrots / Kale / Chard - Wk 1-2 (last chance [Direct Sow] for Kale/Chard) -
-  - JULY: Carrots / Beets / Turnips - Last chance Wk 1 only[Direct Sow] Harvest new potatoes[Harvest]
-  - AUGUST: Potatoes / Carrots / Beets - - Harvest and store[Harvest]
-  - SEPTEMBER: Beets / Carrots / Parsnips / Kale / Chard / Leeks - - Continuing harvest[Harvest]
-  - OCTOBER: Beets / Carrots / Parsnips - - Harvest; store in damp[Harvest] sand
-  - OCTOBER: Carrots / Beets - - Harvest and store in [Harvest] damp sand
-  - NOVEMBER: Parsnips / Carrots / Beets - - Harvest from storage [Harvest] or mulched ground
-  - DECEMBER: Parsnips / Carrots / Beets / Celeriac - - Harvest from storage [Harvest] or mulched ground
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-beets`
+- Botanical name as recorded (unverified): Beta vulgaris
+- Family as recorded (unverified): Amaranthaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Bell Pepper
 
-- Latin name: Capsicum annuum
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-bell-pepper`
+- Botanical name as recorded (unverified): Capsicum annuum
+- Family as recorded (unverified): Solanaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Broccoli
 
-- Latin name: Brassica oleracea var. italica
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: MARCH; SEPTEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Broccoli / Cauliflower / Cabbage Wk 1 - -
-  - SEPTEMBER: Broccoli / Kale (starts to protected beds) - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-broccoli`
+- Botanical name as recorded (unverified): Brassica oleracea var. italica
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Brussels Sprouts
 
-- Latin name: Brassica oleracea var. gemmifera
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; OCTOBER; NOVEMBER; DECEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Brussels Sprouts Wk 1-2 - -
-  - OCTOBER: Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac - - Continue harvesting; [Harvest] improve with frost
-  - NOVEMBER: Brussels Sprouts - - Better after frost - [Harvest] sweeter flavour
-  - DECEMBER: Brussels Sprouts - - Best now - frost [Harvest] improves flavour greatly
-- Notes: Normalized from image spelling. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-brussels-sprouts`
+- Botanical name as recorded (unverified): Brassica oleracea var. gemmifera
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cabbage
 
-- Latin name: Brassica oleracea var. capitata
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Broccoli / Cauliflower / Cabbage Wk 1 - -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cabbage`
+- Botanical name as recorded (unverified): Brassica oleracea var. capitata
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Cantaloupe
 
-- Latin name: Cucumis melo
-- Family: Cucurbitaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cantaloupe`
+- Botanical name as recorded (unverified): Cucumis melo
+- Family as recorded (unverified): Cucurbitaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Carrots
 
-- Latin name: Daucus carota subsp. sativus
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 14
-- Months: JANUARY; MARCH; APRIL; MAY; JUNE; JULY; AUGUST; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: ROOTS & TUBERS; VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Potatoes / Carrots / Beets - - Check cold storage; remove rot
-  - MARCH: Carrots - Wk 3-4 under fleece[Direct Sow] -
-  - APRIL: Carrots / Beets (succession) - Direct sow Wk 3-4[Direct Sow] -
-  - MAY: Beets / Carrots / Lettuce / Chard / Kale - Succession sow Wk 1-[Direct Sow] 4 -
-  - MAY: Carrots / Beets / Parsnips - Succession sow[Direct Sow] -
-  - JUNE: Carrots / Beets (last sow for fall) - Last main sow Wk 1-2[Direct Sow] - Early new potatoes - - Check Wk 3-4 if [Harvest] planted late March
-  - JULY: Beets / Carrots / Kale / Chard - Wk 1-2 (last chance [Direct Sow] for Kale/Chard) -
-  - JULY: Carrots / Beets / Turnips - Last chance Wk 1 only[Direct Sow] Harvest new potatoes[Harvest]
-  - AUGUST: Potatoes / Carrots / Beets - - Harvest and store[Harvest]
-  - SEPTEMBER: Beets / Carrots / Parsnips / Kale / Chard / Leeks - - Continuing harvest[Harvest]
-  - OCTOBER: Beets / Carrots / Parsnips - - Harvest; store in damp[Harvest] sand
-  - OCTOBER: Carrots / Beets - - Harvest and store in [Harvest] damp sand
-  - NOVEMBER: Parsnips / Carrots / Beets - - Harvest from storage [Harvest] or mulched ground
-  - DECEMBER: Parsnips / Carrots / Beets / Celeriac - - Harvest from storage [Harvest] or mulched ground
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-carrots`
+- Botanical name as recorded (unverified): Daucus carota subsp. sativus
+- Family as recorded (unverified): Apiaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cauliflower
 
-- Latin name: Brassica oleracea var. botrytis
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MARCH
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Broccoli / Cauliflower / Cabbage Wk 1 - -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cauliflower`
+- Botanical name as recorded (unverified): Brassica oleracea var. botrytis
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Celery
 
-- Latin name: Apium graveolens var. dulce
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: FEBRUARY
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - FEBRUARY: Celery / Celeriac Wk 1 (16 wks to transplant) - -
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-celery`
+- Botanical name as recorded (unverified): Apium graveolens var. dulce
+- Family as recorded (unverified): Apiaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Corn
 
-- Latin name: Zea mays
-- Family: Poaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MAY; AUGUST; SEPTEMBER
-- Sections: VEGETABLES; LEGUMES & GRAINS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MAY: Corn - Direct sow Wk 3-4[Direct Sow] -
-  - MAY: Corn / Sunflower - Direct sow Wk 3-4[Direct Sow] -
-  - AUGUST: Sunflower / Corn - - Sunflower heads [Harvest] mature; corn harvest late Aug
-  - SEPTEMBER: Winter Squash / Peppers / Corn / Cucumbers / Eggplant - - Harvest before frost [Harvest] (squash by end Sep)
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-corn`
+- Botanical name as recorded (unverified): Zea mays
+- Family as recorded (unverified): Poaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Cucumber
 
-- Latin name: Cucumis sativus
-- Family: Cucurbitaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MAY; JULY; SEPTEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MAY: Cucumber / Zucchini / Squash - → Transplant Wk 2-3[Indoor Sow] [Indoor Sow] -
-  - JULY: Peas / Beans / Zucchini / Cucumber - - Full harvest swing[Harvest]
-  - SEPTEMBER: Winter Squash / Peppers / Corn / Cucumbers / Eggplant - - Harvest before frost [Harvest] (squash by end Sep)
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-cucumber`
+- Botanical name as recorded (unverified): Cucumis sativus
+- Family as recorded (unverified): Cucurbitaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Eggplant
 
-- Latin name: Solanum melongena
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: FEBRUARY; MAY; SEPTEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - FEBRUARY: Eggplant (early) Wk 4 - -
-  - MAY: Peppers / Eggplant - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] -
-  - SEPTEMBER: Winter Squash / Peppers / Corn / Cucumbers / Eggplant - - Harvest before frost [Harvest] (squash by end Sep)
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-eggplant`
+- Botanical name as recorded (unverified): Solanum melongena
+- Family as recorded (unverified): Solanaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Garlic
 
-- Latin name: Allium sativum
-- Family: Amaryllidaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: JANUARY; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: VEGETABLES; PERENNIAL EDIBLES; ROOTS & TUBERS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Garlic (overwintering) - - [Frost Risk] Mulch in place; overwintering
-  - SEPTEMBER: Garlic - Plant Wk 3-4 (ideal [Plant Bulb/Tuber] window) -
-  - OCTOBER: Garlic - Plant Wk 1-3 (last [Plant Bulb/Tuber] good window) -
-  - NOVEMBER: Garlic (last call) - Plant Wk 1 if not yet [Plant Bulb/Tuber] done -
-  - DECEMBER: Garlic (overwintering) - - Overwintering underground - nothing to do [Frost Risk]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-garlic`
+- Botanical name as recorded (unverified): Allium sativum
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Kohlrabi
 
-- Latin name: Brassica oleracea var. gongylodes
-- Family: Brassicaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-kohlrabi`
+- Botanical name as recorded (unverified): Brassica oleracea var. gongylodes
+- Family as recorded (unverified): Brassicaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Leeks
 
-- Latin name: Allium ampeloprasum
-- Family: Amaryllidaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: FEBRUARY; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - FEBRUARY: Leeks Wk 1-2 - -
-  - SEPTEMBER: Beets / Carrots / Parsnips / Kale / Chard / Leeks - - Continuing harvest[Harvest]
-  - OCTOBER: Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac - - Continue harvesting; [Harvest] improve with frost
-  - NOVEMBER: Leeks - - Continue harvesting [Harvest] through winter
-  - DECEMBER: Leeks / Chard (under cover) - - Harvest as needed [Frost Risk][Harvest] Mâche / Claytonia / Winter
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-leeks`
+- Botanical name as recorded (unverified): Allium ampeloprasum
+- Family as recorded (unverified): Amaryllidaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Lettuce
 
-- Latin name: Lactuca sativa
-- Family: Asteraceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; MAY; JULY; SEPTEMBER; NOVEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Lettuce / Spinach Wk 1 (indoors) Wk 3-4 under cloche [Frost Risk][Direct Sow] -
-  - MAY: Beets / Carrots / Lettuce / Chard / Kale - Succession sow Wk 1-[Direct Sow] 4 -
-  - JULY: Beans (for fall) / Lettuce (bolt-resistant) - Succession Wk 1-2 [Direct Sow] only -
-  - SEPTEMBER: Winter Lettuce / Mâche / Corn Salad - Direct sow under cover[Direct Sow] Wk 1-2 -
-  - NOVEMBER: Winter Spinach / Claytonia / Overwintering Lettuce - - Harvest under cover [Harvest] only [Frost Risk]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-lettuce`
+- Botanical name as recorded (unverified): Lactuca sativa
+- Family as recorded (unverified): Asteraceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Melons
 
-- Latin name: Cucumis melo
-- Family: Cucurbitaceae
-- Life cycle: Annual
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-melons`
+- Botanical name as recorded (unverified): Cucumis melo
+- Family as recorded (unverified): Cucurbitaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Okra
 
-- Latin name: Abelmoschus esculentus
-- Family: Malvaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-okra`
+- Botanical name as recorded (unverified): Abelmoschus esculentus
+- Family as recorded (unverified): Malvaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Parsnips
 
-- Latin name: Pastinaca sativa
-- Family: Apiaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 9
-- Months: MARCH; MAY; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: ROOTS & TUBERS; VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Parsnips - Wk 3-4 (needs warm [Direct Sow] soil) -
-  - MAY: Carrots / Beets / Parsnips - Succession sow[Direct Sow] -
-  - SEPTEMBER: Beets / Carrots / Parsnips / Kale / Chard / Leeks - - Continuing harvest[Harvest]
-  - OCTOBER: Beets / Carrots / Parsnips - - Harvest; store in damp[Harvest] sand
-  - OCTOBER: Parsnips - - Leave some in ground [Harvest] - frost sweetens them
-  - NOVEMBER: Parsnips / Turnips / Celeriac - - Harvest or leave [Harvest] mulched in ground
-  - NOVEMBER: Parsnips / Carrots / Beets - - Harvest from storage [Harvest] or mulched ground
-  - DECEMBER: Parsnips - - Very sweet now - [Harvest] best after hard frost
-  - DECEMBER: Parsnips / Carrots / Beets / Celeriac - - Harvest from storage [Harvest] or mulched ground
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-parsnips`
+- Botanical name as recorded (unverified): Pastinaca sativa
+- Family as recorded (unverified): Apiaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Peas
 
-- Latin name: Pisum sativum
-- Family: Fabaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 3
-- Months: MARCH; MAY; JULY
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Peas - Wk 3-4 (cold-tolerant) [Direct Sow] -
-  - MAY: Peas (second sowing) - Wk 1-2 for late crop[Direct Sow] -
-  - JULY: Peas / Beans / Zucchini / Cucumber - - Full harvest swing[Harvest]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-peas`
+- Botanical name as recorded (unverified): Pisum sativum
+- Family as recorded (unverified): Fabaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Potatoes
 
-- Latin name: Solanum tuberosum
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 2
-- Months: JANUARY; AUGUST
-- Sections: ROOTS & TUBERS
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - JANUARY: Potatoes / Carrots / Beets - - Check cold storage; remove rot
-  - AUGUST: Potatoes / Carrots / Beets - - Harvest and store[Harvest]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-potatoes`
+- Botanical name as recorded (unverified): Solanum tuberosum
+- Family as recorded (unverified): Solanaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Spinach
 
-- Latin name: Spinacia oleracea
-- Family: Amaranthaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 5
-- Months: MARCH; SEPTEMBER; OCTOBER; NOVEMBER; DECEMBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Lettuce / Spinach Wk 1 (indoors) Wk 3-4 under cloche [Frost Risk][Direct Sow] -
-  - SEPTEMBER: Spinach / Pak Choi / Arugula - Direct sow Wk 1-3[Direct Sow] -
-  - OCTOBER: Mâche / Claytonia / Winter Spinach - Direct sow under [Direct Sow] cloche Wk 1-2 -
-  - NOVEMBER: Winter Spinach / Claytonia / Overwintering Lettuce - - Harvest under cover [Harvest] only [Frost Risk]
-  - DECEMBER: Spinach (under cover) - - Harvest under glass or [Harvest] polytunnel
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-spinach`
+- Botanical name as recorded (unverified): Spinacia oleracea
+- Family as recorded (unverified): Amaranthaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Summer Squash
 
-- Latin name: Cucurbita pepo
-- Family: Cucurbitaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Normalized from image spelling. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-summer-squash`
+- Botanical name as recorded (unverified): Cucurbita pepo
+- Family as recorded (unverified): Cucurbitaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Sweet Potato
 
-- Latin name: Ipomoea batatas
-- Family: Convolvulaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Normalized from image spelling. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-sweet-potato`
+- Botanical name as recorded (unverified): Ipomoea batatas
+- Family as recorded (unverified): Convolvulaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Swiss Chard
 
-- Latin name: Beta vulgaris subsp. cicla
-- Family: Amaranthaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-swiss-chard`
+- Botanical name as recorded (unverified): Beta vulgaris subsp. cicla
+- Family as recorded (unverified): Amaranthaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Tomatoes
 
-- Latin name: Solanum lycopersicum
-- Family: Solanaceae
-- Life cycle: Annual
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 4
-- Months: MARCH; MAY; SEPTEMBER; OCTOBER
-- Sections: VEGETABLES
-- Page types: edibles
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Species-specific root, crown, or storage organ; verify the exact form before illustrating.
-- Leaves: Species-specific arrangement and blade shape; verify exact genus and cultivar.
-- Flowers: Species-specific inflorescence or flower structure.
-- Fruit or seeds: Species-specific fruit, seed pod, achene, capsule, berry, or nut.
-- Soil: Well-drained, fertile soil with organic matter; adjust for the crop's root depth.
-- Water: Keep moisture even during establishment and harvest formation; avoid prolonged waterlogging.
-- Spacing: Use the calendar, seed packet, or mature crop size; do not rely on a registry-wide spacing value.
-- Light: Full sun is usual; leafy cool-season crops tolerate more partial shade.
-- Maintenance: Thin, weed, mulch, and monitor; support or stake as the crop requires.
-- Pests and diseases: Monitor locally for aphids, slugs, caterpillars, fungal leaf spots, and soil-borne disease; identify before treatment.
-- Calendar actions:
-  - MARCH: Tomatoes Wk 1-2 (8-10 wks before transplant) - -
-  - MAY: Tomatoes - → Transplant Wk 1-2[Indoor Sow] [Indoor Sow] (hardened) -
-  - SEPTEMBER: Tomatoes (last push) - - Last push before frost; [Harvest] ripen indoors if needed
-  - OCTOBER: Peppers / Tomatoes (green) - - Last harvest; ripen [Harvest] tomatoes indoors
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-tomatoes`
+- Botanical name as recorded (unverified): Solanum lycopersicum
+- Family as recorded (unverified): Solanaceae
+- Source: `ERRINGTON-CHART-IMAGES` — Planting Calander-Crops.png; Planting Calander-Ornamentals.png
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ## Vine
 
 ### Clematis Group 3
 
-- Latin name: Clematis spp. (pruning Group 3)
-- Family: Ranunculaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: unmatched
-- Calendar matches: 0
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Notes: Pruning-group label rather than a taxon. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-clematis-group-3`
+- Botanical name as recorded (unverified): Clematis spp. (pruning Group 3)
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `pending-verification`
 
 ### Clematis montana
 
-- Latin name: Clematis montana
-- Family: Ranunculaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: MAY
-- Sections: CLIMBING VINES
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MAY: Clematis montana - - Peak bloom - glorious[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-clematis-montana`
+- Botanical name as recorded (unverified): Clematis montana
+- Family as recorded (unverified): Ranunculaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Honeysuckle
 
-- Latin name: Lonicera spp.
-- Family: Caprifoliaceae
-- Life cycle: Perennial
-- Verification status: taxonomy-requires-species-or-cultivar-resolution
-- Match status: matched
-- Calendar matches: 4
-- Months: APRIL; MAY; JUNE; JULY
-- Sections: CLIMBING VINES
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - APRIL: Honeysuckle - - Leafing out; new growth vigorous
-  - MAY: Honeysuckle - - In bud; bloom imminent
-  - JUNE: Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas - - Peak - harvest Sweet [Bloom]
-  - JULY: Morning Glory / Clematis viticella / Honeysuckle - - All in gorgeous bloom[Bloom]
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-honeysuckle`
+- Botanical name as recorded (unverified): Lonicera spp.
+- Family as recorded (unverified): Caprifoliaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `requires-resolution`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Morning Glory
 
-- Latin name: Ipomoea purpurea
-- Family: Convolvulaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 6
-- Months: MARCH; APRIL; MAY; JULY; AUGUST
-- Sections: CLIMBING VINES; ANNUAL FLOWERS
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - MARCH: Morning Glory Wk 3 (indoors) - -
-  - APRIL: Morning Glory - Wait until May -
-  - MAY: Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage - Direct sow Wk 1-3[Direct Sow] -
-  - MAY: Morning Glory / Cobaea scandens - → Transplant [Indoor Sow] [Indoor Sow] outdoors now -
-  - JULY: Morning Glory / Clematis viticella / Honeysuckle - - All in gorgeous bloom[Bloom]
-  - AUGUST: Clematis viticella / Passion Flower / Morning Glory - - All in full spectacular [Bloom] bloom
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
+- Stable plant ID: `plant-morning-glory`
+- Botanical name as recorded (unverified): Ipomoea purpurea
+- Family as recorded (unverified): Convolvulaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
 
 ### Wisteria
 
-- Latin name: Wisteria sinensis
-- Family: Fabaceae
-- Life cycle: Perennial
-- Verification status: bulk-taxonomy-populated
-- Match status: matched
-- Calendar matches: 1
-- Months: AUGUST
-- Sections: SHRUBS & TREES (Ornamental)
-- Page types: ornamentals
-- Illustration brief: generated
-- Illustration prompt: generated
-- Growth habit: Growth habit should be resolved to the exact species or cultivar; this entry provides a category-level source scaffold.
-- Root or storage organ: Perennial or annual anchored root system; species-specific climbing or trailing habit.
-- Leaves: Alternate or opposite leaves according to genus; vine support is an identifying feature.
-- Flowers: Species-specific inflorescence or solitary bloom.
-- Fruit or seeds: Pod, capsule, berry, or dry seed structure according to species.
-- Soil: Fertile, well-drained soil with organic matter unless the species has a known exceptional preference.
-- Water: Provide even establishment moisture; then follow the species' drought, moisture, or wetness preference.
-- Spacing: Base spacing on mature height and spread, not just the common name.
-- Light: Sun requirement is species-specific; the common name alone is not a reliable light label.
-- Maintenance: Mulch, deadhead or divide as appropriate, and monitor for structural or seasonal maintenance.
-- Pests and diseases: Identify the pest or disease locally before control; favor sanitation, cultural prevention, and targeted action.
-- Calendar actions:
-  - AUGUST: Wisteria - - [Prune/Deadhead] Second summer prune (Aug); cut to 5 leaves
-- Notes: Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use. Taxonomy profile synthesized from USDA PLANTS/GBIF taxon concepts and the supplied public-domain references; verify species-level cultivar details before use.
-
-# Illustration Briefs
-
-# Errington Illustration Briefs And Prompts
-
-This file is generated from the enriched plant registry and provides one botanical illustration brief and one matching plate prompt for every plant in scope.
-
-## Flower
-
-### Allium
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MAY, JUNE, OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Allium for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Ammi majus
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Ammi majus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Anemone
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom
-- Root system: show the basal plate and roots emerging from the bulb, corm, or tunicate structure
-- Leaf arrangement: depict strap-like or sheath-forming leaves from base to tip
-- Flower structure: include the bloom in profile and face view with perianth or floral tube detail
-- Fruit or seed structure: show the seed capsule only as a supporting inset if it aids recognition
-- Storage organ: make the bulb, corm, or tunic cross-section a required lower-plate panel
-- Required labeled callouts: storage organ, basal plate, leaf blade, flower profile, flower face, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Anemone for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom, include show the basal plate and roots emerging from the bulb, corm, or tunicate structure, depict depict strap-like or sheath-forming leaves from base to tip, add include the bloom in profile and face view with perianth or floral tube detail, include show the seed capsule only as a supporting inset if it aids recognition, show make the bulb, corm, or tunic cross-section a required lower-plate panel, and label storage organ, basal plate, leaf blade, flower profile, flower face, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Antirrhinum
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Antirrhinum for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Asters
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, SEPTEMBER, OCTOBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Asters for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Aubretia
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Aubretia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Borage
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Borage for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Calendula
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: APRIL, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Calendula for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Camassia
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom
-- Root system: show the basal plate and roots emerging from the bulb, corm, or tunicate structure
-- Leaf arrangement: depict strap-like or sheath-forming leaves from base to tip
-- Flower structure: include the bloom in profile and face view with perianth or floral tube detail
-- Fruit or seed structure: show the seed capsule only as a supporting inset if it aids recognition
-- Storage organ: make the bulb, corm, or tunic cross-section a required lower-plate panel
-- Required labeled callouts: storage organ, basal plate, leaf blade, flower profile, flower face, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Camassia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom, include show the basal plate and roots emerging from the bulb, corm, or tunicate structure, depict depict strap-like or sheath-forming leaves from base to tip, add include the bloom in profile and face view with perianth or floral tube detail, include show the seed capsule only as a supporting inset if it aids recognition, show make the bulb, corm, or tunic cross-section a required lower-plate panel, and label storage organ, basal plate, leaf blade, flower profile, flower face, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Celosia
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Celosia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Cleome
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, MAY, JULY, AUGUST
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Cleome for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Cornflower
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Cornflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Cosmos
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JUNE, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Cosmos for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Crocus
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY, MARCH, OCTOBER, NOVEMBER
-- Whole plant habit: show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom
-- Root system: show the basal plate and roots emerging from the bulb, corm, or tunicate structure
-- Leaf arrangement: depict strap-like or sheath-forming leaves from base to tip
-- Flower structure: include the bloom in profile and face view with perianth or floral tube detail
-- Fruit or seed structure: show the seed capsule only as a supporting inset if it aids recognition
-- Storage organ: make the bulb, corm, or tunic cross-section a required lower-plate panel
-- Required labeled callouts: storage organ, basal plate, leaf blade, flower profile, flower face, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Crocus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering bulb or corm as a complete plant with the underground organ exposed beside the bloom, include show the basal plate and roots emerging from the bulb, corm, or tunicate structure, depict depict strap-like or sheath-forming leaves from base to tip, add include the bloom in profile and face view with perianth or floral tube detail, include show the seed capsule only as a supporting inset if it aids recognition, show make the bulb, corm, or tunic cross-section a required lower-plate panel, and label storage organ, basal plate, leaf blade, flower profile, flower face, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Daffodil
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Daffodil for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Dahlia
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: JULY, AUGUST, SEPTEMBER, OCTOBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Dahlia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Daylily
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, APRIL, JULY, SEPTEMBER
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Daylily for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Delphinium
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Delphinium for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Echinacea
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY, JULY, AUGUST
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Echinacea for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Gaillardia
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Gaillardia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Gladiolus
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JULY
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Gladiolus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Hellebores
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, NOVEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Hellebores for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Hyacinth
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: OCTOBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Hyacinth for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Hyacinths
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: OCTOBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Hyacinths for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Iberis
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Iberis for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Impatiens
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, MAY
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Impatiens for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Iris
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MAY, JUNE, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Iris for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Larkspur
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Larkspur for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Lavender
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: JULY
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Lavender for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Lobelia
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, JUNE
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Lobelia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Marigold
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JUNE, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Marigold for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Muscari
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Muscari for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Nasturtium
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MAY, JUNE, JULY, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Nasturtium for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Nicotiana
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, MAY, JULY, AUGUST
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Nicotiana for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Nigella
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Nigella for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Orlaya
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Orlaya for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Pansy
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, AUGUST, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Pansy for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Peony
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Peony for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Petunias
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, MAY, JUNE
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Petunias for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Poppy
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Poppy for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Primula
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Primula for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Rudbeckia
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, JULY, AUGUST, SEPTEMBER, OCTOBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Rudbeckia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Salvia nemorosa
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, JUNE
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Salvia nemorosa for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Scabiosa
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Scabiosa for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Snapdragons
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, APRIL, JUNE
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Snapdragons for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Snowdrops
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Snowdrops for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Statice
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, NOVEMBER
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Statice for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Stocks
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence
-- Root system: show the root crown and anchoring roots that support the flowering spike
-- Leaf arrangement: depict the lower foliage and its progression up the stem
-- Flower structure: make the spike or raceme the main detail, with individual florets drawn large enough for label callouts
-- Fruit or seed structure: include the developing capsule or seed head when it is useful for recognition or saving seed
-- Storage organ: show corm or tuber detail only when it is central to the plant's life cycle
-- Required labeled callouts: flower spike, individual floret, bud sequence, stem, leaf base, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Stocks for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in vertical flowering habit with an emphasis on stem posture and bloom sequence, include show the root crown and anchoring roots that support the flowering spike, depict depict the lower foliage and its progression up the stem, add make the spike or raceme the main detail, with individual florets drawn large enough for label callouts, include include the developing capsule or seed head when it is useful for recognition or saving seed, show show corm or tuber detail only when it is central to the plant's life cycle, and label flower spike, individual floret, bud sequence, stem, leaf base, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Strawflower
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Strawflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Sunflower
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MAY, JULY, AUGUST
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Sunflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Sweet Pea
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JUNE, JULY
-- Whole plant habit: show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate
-- Root system: show the main root system with fine feeder roots and, where appropriate, nodulated root detail
-- Leaf arrangement: depict compound leaves and leaflet arrangement clearly from side and face views
-- Flower structure: include a papilionaceous flower close-up with banner, wings, and keel labeled
-- Fruit or seed structure: show immature and mature pods with seed arrangement visible
-- Storage organ: note that there is no separate storage organ beyond the seed-bearing pod
-- Required labeled callouts: stem, leaflet, tendril or support point, flower, pod, root nodules, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Sweet Pea for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate, include show the main root system with fine feeder roots and, where appropriate, nodulated root detail, depict depict compound leaves and leaflet arrangement clearly from side and face views, add include a papilionaceous flower close-up with banner, wings, and keel labeled, include show immature and mature pods with seed arrangement visible, show note that there is no separate storage organ beyond the seed-bearing pod, and label stem, leaflet, tendril or support point, flower, pod, root nodules, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Tulip
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Tulip for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Wallflower
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, AUGUST, SEPTEMBER
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Wallflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Zinnia
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JUNE, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view
-- Root system: show the crown and supporting roots beneath the stem base or clump
-- Leaf arrangement: depict the basal or alternate foliage arrangement with clear blade and petiole shape
-- Flower structure: make the composite flower head the primary detail, including ray and disc florets
-- Fruit or seed structure: show spent seed head or achene structure where it is part of the plant's practical use
-- Storage organ: show any tuber or fleshy base only when it is central to overwintering or division
-- Required labeled callouts: flower head, ray florets, disc florets, stem, leaf, crown, root collar
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Zinnia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the flowering ornamental in full bloom habit with one stem profile and one face-on flower view, include show the crown and supporting roots beneath the stem base or clump, depict depict the basal or alternate foliage arrangement with clear blade and petiole shape, add make the composite flower head the primary detail, including ray and disc florets, include show spent seed head or achene structure where it is part of the plant's practical use, show show any tuber or fleshy base only when it is central to overwintering or division, and label flower head, ray florets, disc florets, stem, leaf, crown, root collar. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-## Fruit
-
-### Apple
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, MARCH, MAY, JUNE, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Apple for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Blueberries
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JULY, AUGUST
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Blueberries for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Cherry
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, MARCH
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Cherry for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Currants
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, NOVEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Currants for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Gooseberries
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, MAY, JUNE, JULY, NOVEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Gooseberries for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Grapes
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: SEPTEMBER
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Grapes for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Pear
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, MARCH, MAY, JUNE, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Pear for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Plum
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, AUGUST
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Plum for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Raspberries
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Raspberries for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Strawberries
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, MARCH, MAY, JUNE
-- Whole plant habit: show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit
-- Root system: show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting
-- Leaf arrangement: depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season
-- Flower structure: include blossom detail large enough to show petals, reproductive parts, and cluster arrangement
-- Fruit or seed structure: make the ripe fruit and a cut section or cluster detail a core panel of the plate
-- Storage organ: note that the plant relies on a perennial woody framework rather than a discrete storage organ
-- Required labeled callouts: spur or cane, leaf, blossom, fruit, bud, root flare
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Strawberries for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the orchard tree, cane fruit, or berry shrub in productive habit with one branch or cane bearing bloom and fruit, include show the woody crown or root flare with fibrous feeder roots appropriate to a permanent planting, depict depict the mature leaf arrangement, margins, and attachment points that identify the plant outside fruiting season, add include blossom detail large enough to show petals, reproductive parts, and cluster arrangement, include make the ripe fruit and a cut section or cluster detail a core panel of the plate, show note that the plant relies on a perennial woody framework rather than a discrete storage organ, and label spur or cane, leaf, blossom, fruit, bud, root flare. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-## Herb
-
-### Basil
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, MARCH, MAY, JUNE, JULY, SEPTEMBER
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Basil for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Chervil
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, JUNE
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Chervil for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Chives
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, APRIL, JUNE, SEPTEMBER, OCTOBER, NOVEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Chives for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Cilantro
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JUNE, JULY
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Cilantro for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Dill
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JUNE, JULY, AUGUST
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Dill for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Fennel
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Fennel for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Oregano
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MAY, JULY
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Oregano for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Parsley
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, APRIL, JUNE, JULY, SEPTEMBER, OCTOBER, NOVEMBER
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Parsley for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Rosemary
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MAY, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Rosemary for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Thyme
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MAY, JULY, NOVEMBER, DECEMBER
-- Whole plant habit: show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized
-- Root system: show the root crown and branching feeder roots appropriate to a repeatedly harvested herb
-- Leaf arrangement: depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance
-- Flower structure: include a close-up of the flowering spike, umbel, or cluster used for recognition
-- Fruit or seed structure: show seed structure when it is a common propagation or culinary feature
-- Storage organ: note that most herbs on this list do not use a major storage organ beyond crown tissue
-- Required labeled callouts: cutting point, leaf arrangement, flowering stem, new shoot, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Thyme for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the full herb in harvest stage with repeated cutting points and aromatic foliage emphasized, include show the root crown and branching feeder roots appropriate to a repeatedly harvested herb, depict depict the characteristic leaf arrangement and leaf edge details that distinguish the herb at a glance, add include a close-up of the flowering spike, umbel, or cluster used for recognition, include show seed structure when it is a common propagation or culinary feature, show note that most herbs on this list do not use a major storage organ beyond crown tissue, and label cutting point, leaf arrangement, flowering stem, new shoot, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-## Native
-
-### Bleeding Heart
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Bleeding Heart for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Camas
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Camas for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Osoberry
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, MARCH
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Osoberry for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Red-flowering Currant
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, MARCH
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Red-flowering Currant for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Sword Fern
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Sword Fern for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Trillium
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Trillium for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-## Ornamental
-
-### Astilbe
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Astilbe for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Ferns
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Ferns for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Heuchera
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Heuchera for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Hostas
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, APRIL, SEPTEMBER
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Hostas for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Ornamental Grasses
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Ornamental Grasses for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Sedum
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: SEPTEMBER, OCTOBER
-- Whole plant habit: show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature
-- Root system: show the crown, rhizome, clumping base, or fibrous roots in a division-ready view
-- Leaf arrangement: depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette
-- Flower structure: include the flower stem or bloom only if the species is regularly grown for floral display
-- Fruit or seed structure: show seed heads only when they contribute to winter interest or identification
-- Storage organ: show rhizome, crown division points, or fleshy roots when these matter for maintenance
-- Required labeled callouts: clump base, leaf blade, division point, flower stem, crown, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Sedum for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the clump-forming ornamental in mature habit with foliage architecture as the primary identifying feature, include show the crown, rhizome, clumping base, or fibrous roots in a division-ready view, depict depict the rosette, fan, mound, or arching foliage arrangement with accurate leaf silhouette, add include the flower stem or bloom only if the species is regularly grown for floral display, include show seed heads only when they contribute to winter interest or identification, show show rhizome, crown division points, or fleshy roots when these matter for maintenance, and label clump base, leaf blade, division point, flower stem, crown, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-## Perennial-Edible
-
-### Globe Artichoke
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY
-- Whole plant habit: show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate
-- Root system: show the long-lived crown, rhizome, or storage root system in a clear sectional view
-- Leaf arrangement: depict the mature foliage arrangement that identifies the plant between harvest periods
-- Flower structure: include the flower or flowering stem as a secondary detail when it is diagnostically useful
-- Fruit or seed structure: show seed detail only if it is relevant to identification or propagation
-- Storage organ: make the crown, rhizome, or perennial storage organ a prominent labeled feature
-- Required labeled callouts: crown, emerging shoot, mature foliage, storage organ, flower stalk, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Globe Artichoke for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate, include show the long-lived crown, rhizome, or storage root system in a clear sectional view, depict depict the mature foliage arrangement that identifies the plant between harvest periods, add include the flower or flowering stem as a secondary detail when it is diagnostically useful, include show seed detail only if it is relevant to identification or propagation, show make the crown, rhizome, or perennial storage organ a prominent labeled feature, and label crown, emerging shoot, mature foliage, storage organ, flower stalk, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Rhubarb
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate
-- Root system: show the long-lived crown, rhizome, or storage root system in a clear sectional view
-- Leaf arrangement: depict the mature foliage arrangement that identifies the plant between harvest periods
-- Flower structure: include the flower or flowering stem as a secondary detail when it is diagnostically useful
-- Fruit or seed structure: show seed detail only if it is relevant to identification or propagation
-- Storage organ: make the crown, rhizome, or perennial storage organ a prominent labeled feature
-- Required labeled callouts: crown, emerging shoot, mature foliage, storage organ, flower stalk, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Rhubarb for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate, include show the long-lived crown, rhizome, or storage root system in a clear sectional view, depict depict the mature foliage arrangement that identifies the plant between harvest periods, add include the flower or flowering stem as a secondary detail when it is diagnostically useful, include show seed detail only if it is relevant to identification or propagation, show make the crown, rhizome, or perennial storage organ a prominent labeled feature, and label crown, emerging shoot, mature foliage, storage organ, flower stalk, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-## Shrub-Tree
-
-### Azalea
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Azalea for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Buddleja
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Buddleja for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Camellia
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Camellia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Deutzia
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Deutzia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Forsythia
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, MARCH, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Forsythia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Garry Oak
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Garry Oak for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Hydrangea paniculata
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Hydrangea paniculata for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Kerria
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Kerria for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Magnolia
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Magnolia for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Philadelphus
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JUNE
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Philadelphus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Pieris
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Pieris for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Rhododendron
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Rhododendron for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Roses
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: FEBRUARY, JUNE, JULY, AUGUST, SEPTEMBER
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Roses for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Spiraea
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Spiraea for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Witch Hazel
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: JANUARY, FEBRUARY, DECEMBER
-- Whole plant habit: show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated
-- Root system: show the woody crown, rhizome, or anchoring root system that supports long-term establishment
-- Leaf arrangement: depict the leaf arrangement and margins in an uncluttered diagnostic view
-- Flower structure: include the bloom form or inflorescence that anchors recognition at flowering time
-- Fruit or seed structure: include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature
-- Storage organ: show any rhizome or woody crown only when it affects division, coppice, or habitat value
-- Required labeled callouts: branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Witch Hazel for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the shrub, small tree, or native perennial in mature field-guide habit with branch architecture clearly separated, include show the woody crown, rhizome, or anchoring root system that supports long-term establishment, depict depict the leaf arrangement and margins in an uncluttered diagnostic view, add include the bloom form or inflorescence that anchors recognition at flowering time, include include berries, capsules, nuts, or seed clusters where they are a defining seasonal feature, show show any rhizome or woody crown only when it affects division, coppice, or habitat value, and label branch, bud, leaf arrangement, flower cluster, fruit or seed, root crown. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-## Vegetable
-
-### Arugula
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, SEPTEMBER
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Arugula for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Asparagus
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, FEBRUARY, APRIL, MAY, JUNE, JULY, AUGUST, OCTOBER, NOVEMBER
-- Whole plant habit: show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate
-- Root system: show the long-lived crown, rhizome, or storage root system in a clear sectional view
-- Leaf arrangement: depict the mature foliage arrangement that identifies the plant between harvest periods
-- Flower structure: include the flower or flowering stem as a secondary detail when it is diagnostically useful
-- Fruit or seed structure: show seed detail only if it is relevant to identification or propagation
-- Storage organ: make the crown, rhizome, or perennial storage organ a prominent labeled feature
-- Required labeled callouts: crown, emerging shoot, mature foliage, storage organ, flower stalk, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Asparagus for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the perennial crop in mature clump habit with the harvestable organ highlighted on the same plate, include show the long-lived crown, rhizome, or storage root system in a clear sectional view, depict depict the mature foliage arrangement that identifies the plant between harvest periods, add include the flower or flowering stem as a secondary detail when it is diagnostically useful, include show seed detail only if it is relevant to identification or propagation, show make the crown, rhizome, or perennial storage organ a prominent labeled feature, and label crown, emerging shoot, mature foliage, storage organ, flower stalk, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Beans
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: JULY, AUGUST
-- Whole plant habit: show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate
-- Root system: show the main root system with fine feeder roots and, where appropriate, nodulated root detail
-- Leaf arrangement: depict compound leaves and leaflet arrangement clearly from side and face views
-- Flower structure: include a papilionaceous flower close-up with banner, wings, and keel labeled
-- Fruit or seed structure: show immature and mature pods with seed arrangement visible
-- Storage organ: note that there is no separate storage organ beyond the seed-bearing pod
-- Required labeled callouts: stem, leaflet, tendril or support point, flower, pod, root nodules
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Beans for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate, include show the main root system with fine feeder roots and, where appropriate, nodulated root detail, depict depict compound leaves and leaflet arrangement clearly from side and face views, add include a papilionaceous flower close-up with banner, wings, and keel labeled, include show immature and mature pods with seed arrangement visible, show note that there is no separate storage organ beyond the seed-bearing pod, and label stem, leaflet, tendril or support point, flower, pod, root nodules. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Beets
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the plant in harvest-ready habit with the edible underground portion fully exposed in section view
-- Root system: show the swollen storage root or tuber with feeder roots and crown attachment
-- Leaf arrangement: depict the foliage rosette or stem leaves that identify the crop before lifting
-- Flower structure: include the flower detail only as a secondary inset when it aids identification
-- Fruit or seed structure: show seed structure only if it is a practical recognition feature
-- Storage organ: make the enlarged storage organ the dominant lower-half feature of the plate
-- Required labeled callouts: crown, storage organ, shoulder, feeder roots, leaf blade, petiole
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Beets for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in harvest-ready habit with the edible underground portion fully exposed in section view, include show the swollen storage root or tuber with feeder roots and crown attachment, depict depict the foliage rosette or stem leaves that identify the crop before lifting, add include the flower detail only as a secondary inset when it aids identification, include show seed structure only if it is a practical recognition feature, show make the enlarged storage organ the dominant lower-half feature of the plate, and label crown, storage organ, shoulder, feeder roots, leaf blade, petiole. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Bell Pepper
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Bell Pepper for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Broccoli
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, SEPTEMBER
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Broccoli for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Brussels Sprouts
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Brussels Sprouts for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Cabbage
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Cabbage for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Cantaloupe
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale
-- Root system: show a shallow but spreading root system emerging from the crown
-- Leaf arrangement: depict alternate broad leaves with lobing and petiole attachment clearly labeled
-- Flower structure: include the large trumpet-like flower with male and female bloom distinctions if useful
-- Fruit or seed structure: show the mature fruit and a cut section with seed cavity detail
-- Storage organ: note that the crop does not rely on a separate storage organ beyond the fruit itself
-- Required labeled callouts: crown, vine, tendril, leaf blade, flower, fruit cross-section
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Cantaloupe for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale, include show a shallow but spreading root system emerging from the crown, depict depict alternate broad leaves with lobing and petiole attachment clearly labeled, add include the large trumpet-like flower with male and female bloom distinctions if useful, include show the mature fruit and a cut section with seed cavity detail, show note that the crop does not rely on a separate storage organ beyond the fruit itself, and label crown, vine, tendril, leaf blade, flower, fruit cross-section. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Carrots
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Carrots for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Cauliflower
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Cauliflower for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Celery
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Celery for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Corn
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MAY, AUGUST, SEPTEMBER
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Corn for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Cucumber
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MAY, JULY, SEPTEMBER
-- Whole plant habit: show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale
-- Root system: show a shallow but spreading root system emerging from the crown
-- Leaf arrangement: depict alternate broad leaves with lobing and petiole attachment clearly labeled
-- Flower structure: include the large trumpet-like flower with male and female bloom distinctions if useful
-- Fruit or seed structure: show the mature fruit and a cut section with seed cavity detail
-- Storage organ: note that the crop does not rely on a separate storage organ beyond the fruit itself
-- Required labeled callouts: crown, vine, tendril, leaf blade, flower, fruit cross-section
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Cucumber for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale, include show a shallow but spreading root system emerging from the crown, depict depict alternate broad leaves with lobing and petiole attachment clearly labeled, add include the large trumpet-like flower with male and female bloom distinctions if useful, include show the mature fruit and a cut section with seed cavity detail, show note that the crop does not rely on a separate storage organ beyond the fruit itself, and label crown, vine, tendril, leaf blade, flower, fruit cross-section. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Eggplant
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY, MAY, SEPTEMBER
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Eggplant for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Garlic
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Garlic for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Kohlrabi
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible
-- Root system: show a compact crown with branching feeder roots beneath the soil line
-- Leaf arrangement: depict basal to alternate leaves with lobing, veining, and waxy texture clearly described
-- Flower structure: include a close-up of four-petaled cross-shaped flowers carried in a loose raceme
-- Fruit or seed structure: include narrow siliques or seed pods as the reproductive detail
-- Storage organ: note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi
-- Required labeled callouts: crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Kohlrabi for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show a cool-season brassica in full habit with dense foliage mass and any edible head, stem, or bolting stalk visible, include show a compact crown with branching feeder roots beneath the soil line, depict depict basal to alternate leaves with lobing, veining, and waxy texture clearly described, add include a close-up of four-petaled cross-shaped flowers carried in a loose raceme, include include narrow siliques or seed pods as the reproductive detail, show note that there is no separate storage organ unless the stem itself is swollen, as in kohlrabi, and label crown, outer leaves, inner edible portion, flower raceme, seed pod, feeder roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Leeks
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: FEBRUARY, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible
-- Root system: show a basal plate with roots emerging from the bulb or clump base
-- Leaf arrangement: depict strap-like, hollow, or flattened leaves arising from the base
-- Flower structure: include a spherical or clustered inflorescence detail where flowering is characteristic
-- Fruit or seed structure: include seed capsules only when they help distinguish the plant's reproductive stage
-- Storage organ: show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant
-- Required labeled callouts: bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Leeks for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the upright tufted or bulb-forming plant in full habit with foliage, neck, and underground organ visible, include show a basal plate with roots emerging from the bulb or clump base, depict depict strap-like, hollow, or flattened leaves arising from the base, add include a spherical or clustered inflorescence detail where flowering is characteristic, include include seed capsules only when they help distinguish the plant's reproductive stage, show show bulbs, cloves, or layered storage tissue clearly in cross-section when relevant, and label bulb or clove, basal plate, leaf sheath, scape, flower cluster, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Lettuce
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JULY, SEPTEMBER, NOVEMBER
-- Whole plant habit: show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass
-- Root system: show the shallow root plate or fibrous roots beneath the crown
-- Leaf arrangement: depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated
-- Flower structure: include flowering structure only as a secondary bolt-stage inset when useful
-- Fruit or seed structure: include seed heads only if they are distinctive and aid identification
-- Storage organ: note that no separate storage organ is present; the edible portion is leaf or petiole tissue
-- Required labeled callouts: crown, outer leaf, inner leaf, petiole, midrib, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Lettuce for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass, include show the shallow root plate or fibrous roots beneath the crown, depict depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated, add include flowering structure only as a secondary bolt-stage inset when useful, include include seed heads only if they are distinctive and aid identification, show note that no separate storage organ is present; the edible portion is leaf or petiole tissue, and label crown, outer leaf, inner leaf, petiole, midrib, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Melons
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale
-- Root system: show a shallow but spreading root system emerging from the crown
-- Leaf arrangement: depict alternate broad leaves with lobing and petiole attachment clearly labeled
-- Flower structure: include the large trumpet-like flower with male and female bloom distinctions if useful
-- Fruit or seed structure: show the mature fruit and a cut section with seed cavity detail
-- Storage organ: note that the crop does not rely on a separate storage organ beyond the fruit itself
-- Required labeled callouts: crown, vine, tendril, leaf blade, flower, fruit cross-section
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Melons for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale, include show a shallow but spreading root system emerging from the crown, depict depict alternate broad leaves with lobing and petiole attachment clearly labeled, add include the large trumpet-like flower with male and female bloom distinctions if useful, include show the mature fruit and a cut section with seed cavity detail, show note that the crop does not rely on a separate storage organ beyond the fruit itself, and label crown, vine, tendril, leaf blade, flower, fruit cross-section. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Okra
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the mature plant in full habit with one enlarged detail panel
-- Root system: show the root flare and fine feeder roots with the soil line clearly indicated
-- Leaf arrangement: depict the true leaf arrangement and mature leaf outline in a structure-first view
-- Flower structure: include the characteristic flower structure or inflorescence in a labeled close-up
-- Fruit or seed structure: include fruit, pod, or seed structure when seasonally relevant
-- Storage organ: show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root
-- Required labeled callouts: crown, stem, true leaves, flower detail, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Okra for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the mature plant in full habit with one enlarged detail panel, include show the root flare and fine feeder roots with the soil line clearly indicated, depict depict the true leaf arrangement and mature leaf outline in a structure-first view, add include the characteristic flower structure or inflorescence in a labeled close-up, include include fruit, pod, or seed structure when seasonally relevant, show show storage tissue only if the species uses a bulb, corm, tuber, rhizome, or swollen root, and label crown, stem, true leaves, flower detail, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Parsnips
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible
-- Root system: show a tapered taproot or fibrous crown root system with secondary feeder roots
-- Leaf arrangement: depict finely divided, compound, or strongly cut foliage from both side and top views
-- Flower structure: include a compound umbel or umbel-like bloom structure in a separate labeled detail
-- Fruit or seed structure: include the dry seed or schizocarp form used for identification
-- Storage organ: show the swollen taproot only when the edible organ is the crop focus
-- Required labeled callouts: crown, petiole, leaf division, umbel, seed structure, taproot
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Parsnips for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the entire plant at usable stage with foliage canopy and the edible or diagnostic crown-to-root transition visible, include show a tapered taproot or fibrous crown root system with secondary feeder roots, depict depict finely divided, compound, or strongly cut foliage from both side and top views, add include a compound umbel or umbel-like bloom structure in a separate labeled detail, include include the dry seed or schizocarp form used for identification, show show the swollen taproot only when the edible organ is the crop focus, and label crown, petiole, leaf division, umbel, seed structure, taproot. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Peas
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, JULY
-- Whole plant habit: show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate
-- Root system: show the main root system with fine feeder roots and, where appropriate, nodulated root detail
-- Leaf arrangement: depict compound leaves and leaflet arrangement clearly from side and face views
-- Flower structure: include a papilionaceous flower close-up with banner, wings, and keel labeled
-- Fruit or seed structure: show immature and mature pods with seed arrangement visible
-- Storage organ: note that there is no separate storage organ beyond the seed-bearing pod
-- Required labeled callouts: stem, leaflet, tendril or support point, flower, pod, root nodules
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Peas for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in upright bush or climbing habit with foliage, flower, and pod development across one plate, include show the main root system with fine feeder roots and, where appropriate, nodulated root detail, depict depict compound leaves and leaflet arrangement clearly from side and face views, add include a papilionaceous flower close-up with banner, wings, and keel labeled, include show immature and mature pods with seed arrangement visible, show note that there is no separate storage organ beyond the seed-bearing pod, and label stem, leaflet, tendril or support point, flower, pod, root nodules. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Potatoes
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: JANUARY, AUGUST
-- Whole plant habit: show the plant in harvest-ready habit with the edible underground portion fully exposed in section view
-- Root system: show the swollen storage root or tuber with feeder roots and crown attachment
-- Leaf arrangement: depict the foliage rosette or stem leaves that identify the crop before lifting
-- Flower structure: include the flower detail only as a secondary inset when it aids identification
-- Fruit or seed structure: show seed structure only if it is a practical recognition feature
-- Storage organ: make the enlarged storage organ the dominant lower-half feature of the plate
-- Required labeled callouts: crown, storage organ, shoulder, feeder roots, leaf blade, petiole
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Potatoes for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in harvest-ready habit with the edible underground portion fully exposed in section view, include show the swollen storage root or tuber with feeder roots and crown attachment, depict depict the foliage rosette or stem leaves that identify the crop before lifting, add include the flower detail only as a secondary inset when it aids identification, include show seed structure only if it is a practical recognition feature, show make the enlarged storage organ the dominant lower-half feature of the plate, and label crown, storage organ, shoulder, feeder roots, leaf blade, petiole. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Spinach
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-- Whole plant habit: show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass
-- Root system: show the shallow root plate or fibrous roots beneath the crown
-- Leaf arrangement: depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated
-- Flower structure: include flowering structure only as a secondary bolt-stage inset when useful
-- Fruit or seed structure: include seed heads only if they are distinctive and aid identification
-- Storage organ: note that no separate storage organ is present; the edible portion is leaf or petiole tissue
-- Required labeled callouts: crown, outer leaf, inner leaf, petiole, midrib, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Spinach for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass, include show the shallow root plate or fibrous roots beneath the crown, depict depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated, add include flowering structure only as a secondary bolt-stage inset when useful, include include seed heads only if they are distinctive and aid identification, show note that no separate storage organ is present; the edible portion is leaf or petiole tissue, and label crown, outer leaf, inner leaf, petiole, midrib, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Summer Squash
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale
-- Root system: show a shallow but spreading root system emerging from the crown
-- Leaf arrangement: depict alternate broad leaves with lobing and petiole attachment clearly labeled
-- Flower structure: include the large trumpet-like flower with male and female bloom distinctions if useful
-- Fruit or seed structure: show the mature fruit and a cut section with seed cavity detail
-- Storage organ: note that the crop does not rely on a separate storage organ beyond the fruit itself
-- Required labeled callouts: crown, vine, tendril, leaf blade, flower, fruit cross-section
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Summer Squash for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the sprawling or trained vine with tendrils, large leaves, one flower, and one mature fruit visible at the same scale, include show a shallow but spreading root system emerging from the crown, depict depict alternate broad leaves with lobing and petiole attachment clearly labeled, add include the large trumpet-like flower with male and female bloom distinctions if useful, include show the mature fruit and a cut section with seed cavity detail, show note that the crop does not rely on a separate storage organ beyond the fruit itself, and label crown, vine, tendril, leaf blade, flower, fruit cross-section. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Sweet Potato
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the plant in harvest-ready habit with the edible underground portion fully exposed in section view
-- Root system: show the swollen storage root or tuber with feeder roots and crown attachment
-- Leaf arrangement: depict the foliage rosette or stem leaves that identify the crop before lifting
-- Flower structure: include the flower detail only as a secondary inset when it aids identification
-- Fruit or seed structure: show seed structure only if it is a practical recognition feature
-- Storage organ: make the enlarged storage organ the dominant lower-half feature of the plate
-- Required labeled callouts: crown, storage organ, shoulder, feeder roots, leaf blade, petiole
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Sweet Potato for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant in harvest-ready habit with the edible underground portion fully exposed in section view, include show the swollen storage root or tuber with feeder roots and crown attachment, depict depict the foliage rosette or stem leaves that identify the crop before lifting, add include the flower detail only as a secondary inset when it aids identification, include show seed structure only if it is a practical recognition feature, show make the enlarged storage organ the dominant lower-half feature of the plate, and label crown, storage organ, shoulder, feeder roots, leaf blade, petiole. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Swiss Chard
-
-#### Botanical Illustration Brief
-
-- Source context: local image, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass
-- Root system: show the shallow root plate or fibrous roots beneath the crown
-- Leaf arrangement: depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated
-- Flower structure: include flowering structure only as a secondary bolt-stage inset when useful
-- Fruit or seed structure: include seed heads only if they are distinctive and aid identification
-- Storage organ: note that no separate storage organ is present; the edible portion is leaf or petiole tissue
-- Required labeled callouts: crown, outer leaf, inner leaf, petiole, midrib, roots
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Swiss Chard for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the plant at harvest-ready leafy stage with a strong emphasis on usable foliage mass, include show the shallow root plate or fibrous roots beneath the crown, depict depict rosette or stem-borne leaves with leaf margin, midrib, and petiole structure clearly separated, add include flowering structure only as a secondary bolt-stage inset when useful, include include seed heads only if they are distinctive and aid identification, show note that no separate storage organ is present; the edible portion is leaf or petiole tissue, and label crown, outer leaf, inner leaf, petiole, midrib, roots. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Tomatoes
-
-#### Botanical Illustration Brief
-
-- Source context: local image, matched
-- Local timing emphasis: MARCH, MAY, SEPTEMBER, OCTOBER
-- Whole plant habit: show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail
-- Root system: show a fibrous root system with the main stem base and branching laterals
-- Leaf arrangement: depict alternate leaves with mature blade shape, venation, and surface texture
-- Flower structure: include the star-shaped or fused-petal flower with visible reproductive parts
-- Fruit or seed structure: make the fruit cross-section or mature harvested organ a dedicated diagnostic panel
-- Storage organ: show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present
-- Required labeled callouts: main stem, alternate leaf, flower, fruit or tuber, calyx, root system
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Tomatoes for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the branching warm-season plant in full habit with foliage, flower cluster, and mature fruit or tuber detail, include show a fibrous root system with the main stem base and branching laterals, depict depict alternate leaves with mature blade shape, venation, and surface texture, add include the star-shaped or fused-petal flower with visible reproductive parts, include make the fruit cross-section or mature harvested organ a dedicated diagnostic panel, show show tubers only when the crop forms underground storage, otherwise state that no separate storage organ is present, and label main stem, alternate leaf, flower, fruit or tuber, calyx, root system. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-## Vine
-
-### Clematis Group 3
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, unmatched
-- Local timing emphasis: Pending direct local timing match
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Clematis Group 3 for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Clematis montana
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MAY
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Clematis montana for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Honeysuckle
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: APRIL, MAY, JUNE, JULY
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Honeysuckle for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Morning Glory
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: MARCH, APRIL, MAY, JULY, AUGUST
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Morning Glory for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
-
-### Wisteria
-
-#### Botanical Illustration Brief
-
-- Source context: shared plan, matched
-- Local timing emphasis: AUGUST
-- Whole plant habit: show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem
-- Root system: show the anchored root system at the base of the trained stem
-- Leaf arrangement: depict opposite, alternate, or compound leaves clearly along the climbing stem
-- Flower structure: include the characteristic flowering form in a magnified inset suited to identification
-- Fruit or seed structure: include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity
-- Storage organ: note that no separate storage organ is present unless the species forms a perennial crown or rhizome
-- Required labeled callouts: support, climbing stem, leaf node, flower, fruit or pod, root base
-
-#### Botanical Plate Prompt
-
-Hand-drawn botanical plate of Wisteria for an updated Errington gardening encyclopedia, clean linework, soft neutral palette, cream paper tone, show show the climbing plant with one training support, the twining or clinging habit, and one flowering or fruiting stem, include show the anchored root system at the base of the trained stem, depict depict opposite, alternate, or compound leaves clearly along the climbing stem, add include the characteristic flowering form in a magnified inset suited to identification, include include pods, hips, berries, or seed heads where they are part of the plant's seasonal identity, show note that no separate storage organ is present unless the species forms a perennial crown or rhizome, and label support, climbing stem, leaf node, flower, fruit or pod, root base. Keep the composition structure-led, printable, and consistent with a classic gardening encyclopedia plate.
+- Stable plant ID: `plant-wisteria`
+- Botanical name as recorded (unverified): Wisteria sinensis
+- Family as recorded (unverified): Fabaceae
+- Source: `PROJECT-HANDOFF` — ERRINGTON_ENCYCLOPEDIA_HANDOFF.md
+- Taxonomy status: `pending-verification`
+- Profile status: `pending-verification`
+- Local timing status: `source-record-exists-not-reviewed`
+
+# Source and Verification Policy
+
+# Source and evidence policy
+
+## Evidence hierarchy
+
+Keep the following layers separate and preserve upstream files:
+
+1. Supplied source artifacts, including PDFs and chart images.
+2. Faithful source transcriptions with source ID and page or image location.
+3. Normalized records that retain the original wording.
+4. Independently researched botanical claims with claim-level citations.
+5. Locally reviewed horticultural recommendations.
+6. Edited reader-facing manuscript.
+7. Illustrated assets with creator, license, review, and approval records.
+8. Reproducibly generated publications and quality reports.
+
+Never write editorial interpretations back into an original source file or replace source
+wording with a normalized value. Generated records must retain their source ID, source path,
+page or section where available, and a clear evidence type.
+
+## Current source register
+
+| Source ID | Repository path | Evidence and limits |
+|---|---|---|
+| `ERRINGTON-CALENDAR-PDF` | `Errington BC Zone 8a Planting Calendar.pdf` | Locally supplied 89-page calendar PDF. PDF metadata has no named author and a creation date of 2026-06-28. The source history and independence of this artifact are not established. |
+| `ERRINGTON-CHART-IMAGES` | `Planting Calander-Crops.png`; `Planting Calander-Ornamentals.png` | Chart images visibly labeled Zone 8b. Their text and marks can be transcribed, but visual chart positions and color bands have not been independently reviewed plant by plant. |
+| `CALENDAR-TRANSCRIPTION` | `ERRINGTON_CALENDAR_FULL_TEXT.md`; `errington_calendar_entries.csv` | Text transcription attributed to the supplied calendar PDF. It is not independent corroboration of that PDF. |
+| `PROJECT-HANDOFF` | `ERRINGTON_ENCYCLOPEDIA_HANDOFF.md` | Project-scope and common-name inventory. Not a botanical authority. |
+| `GENERAL-GARDENING-REFERENCE` | `Vegetable_Gardening_Encyclopedia_With_Sp.pdf` | Supplied general reference. Not Errington timing authority; copyright and reuse limits apply. |
+| `USDA-HARDINESS-MAP` | <https://planthardiness.ars.usda.gov/> | Official U.S. hardiness-zone map; reference for the USDA system, not a local frost-date source. Accessed 2026-11-22. |
+| `NRCan-HARDINESS-SITE` | <https://planthardiness.gc.ca/index.php?lang=en&m=17> | Natural Resources Canada explanation of Canadian and USDA hardiness-zone systems; the Canadian system uses multiple climate variables. Accessed 2026-11-22. |
+
+Other sources mentioned in old project notes (including the Eastern Vancouver Island
+pollinator guide and web references) are not checked into this repository. Do not treat
+their statements as independently reverified here. Add a source artifact or a durable URL,
+author/organization, publication date, access date, page/section, and the supported claim
+before relying on them in a published profile.
+
+## Climate and calendar policy
+
+The supplied calendar PDF says Zone 8a; both chart images say Zone 8b. Keep both statements
+with their source locations until an authoritative source resolves the discrepancy. USDA
+hardiness zones describe average annual extreme minimum temperatures and are not Canadian
+Plant Hardiness Zones, frost-date statistics, or a prediction for a particular garden.
+
+The calendar's April 15 and October 15 dates are approximate expected frost anchors as
+reported by the source. They are not guaranteed last/first frost dates. Do not present
+them as observed local climate normals without a named, geographically relevant data source.
+Recommendations must account for site exposure, elevation, cold-air drainage, wind, coastal
+influence, drainage, and season-extension methods where evidence supports those details.
+
+## Status vocabulary
+
+Verification dimensions are independent. In particular, taxonomy verification never
+validates cultivar identity, a profile, local timing, or an illustration. Use
+`pending-verification` until the claim is supported by an identified source and an actual
+review. Use `requires-resolution` when the name cannot be resolved at the current record
+level. `bulk-taxonomy-populated` is historical pipeline metadata only and is not a
+verification state.
+
+Source matches, OCR output, generated prose, generated illustration prompts, and a
+successful build are not independent verification. Record generated material as generated
+and reviewed/approved material separately.

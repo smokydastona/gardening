@@ -1,842 +1,864 @@
 # Errington Monthly Garden Reference
 
-This file is generated from the available Errington calendar text extraction and grouped into monthly edible and ornamental reference sections. The extraction is cross-checked against the checked-in chart images where possible.
+## How to read this calendar
+
+These are source transcriptions, not independently reviewed recommendations. The calendar PDF identifies Zone 8a while both chart images identify Zone 8b; the discrepancy remains unresolved. April 15 and October 15 are approximate source frost anchors, not guaranteed frost dates.
+
+Action labels are mechanically classified from transcribed wording. They are not editorially verified. Plant names joined by a slash or comma are retained as a source group and must not be interpreted as interchangeable crops.
+
+Each entry includes its original source page. Grayscale-readable labels are used instead of relying on the source chart colours.
+
+## Text action key
+
+| Label | Meaning in this transcription |
+|---|---|
+| INDOOR SOWING | Source wording indicates indoor seed starting |
+| DIRECT SOWING | Source wording indicates sowing outdoors |
+| TRANSPLANTING | Source wording indicates moving established plants |
+| SUCCESSION SOWING | Source wording indicates repeat sowing |
+| HARVESTING | Source wording indicates picking or harvest |
+| FLOWERING | Source wording indicates bloom |
+| PRUNING | Source wording indicates pruning or deadheading |
+| DIVIDING | Source wording indicates division |
+| PROPAGATION | Source wording indicates propagation |
+| SEASONAL MAINTENANCE | A seasonal action not matched to another label |
+| REVIEW ACTION | The action could not be classified |
 
 ## January
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Seed & Crop Planning — — Order seed catalogues; plan rotations
-- Garlic (overwintering) — — ❄ Mulch in place; overwintering
-- Kale (overwintered) — — Light harvest if 🌾 protected
-- Chard (overwintered) — — Light harvest if 🌾 protected ❄
-- Stored Squash / Roots — — Check cold storage; remove any rot
+- **[SEASONAL MAINTENANCE]** Seed & Crop Planning — — Order seed catalogues; plan rotations — source p. 4
+- **[SEASONAL MAINTENANCE]** Garlic (overwintering) — — ❄ Mulch in place; overwintering — source p. 4
+- **[HARVESTING]** Kale (overwintered) — — Light harvest if 🌾 protected — source p. 4
+- **[HARVESTING]** Chard (overwintered) — — Light harvest if 🌾 protected ❄ — source p. 4
+- **[SEASONAL MAINTENANCE]** Stored Squash / Roots — — Check cold storage; remove any rot — source p. 4 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Apple / Pear / Plum / Cherry — — ✄ Prune dormant trees Jan–Feb
-- Bare-root fruit stock — — Order from nursery now
+- **[PRUNING]** Apple / Pear / Plum / Cherry — — ✄ Prune dormant trees Jan–Feb — source p. 5 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Bare-root fruit stock — — Order from nursery now — source p. 5
 
 #### Roots & Tubers
 
-- Potatoes / Carrots / Beets — — Check cold storage; remove rot
+- **[SEASONAL MAINTENANCE]** Potatoes / Carrots / Beets — — Check cold storage; remove rot — source p. 5 — grouped source entry; individual timing unresolved
 
 #### Legumes & Grains
 
-- All legumes & grains — — Nothing this month; plan rotations
+- **[SEASONAL MAINTENANCE]** All legumes & grains — — Nothing this month; plan rotations — source p. 5
 
 #### Perennial Edibles
 
-- Rhubarb — — Fully dormant ❄
-- Asparagus — — Fully dormant ❄
+- **[REVIEW ACTION]** Rhubarb — — Fully dormant ❄ — source p. 5
+- **[REVIEW ACTION]** Asparagus — — Fully dormant ❄ — source p. 5
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Snapdragons Late Jan (under lights) — —
-- Petunias Late Jan (under lights) — —
-- Lobelia Late Jan (under lights) — —
+- **[INDOOR SOWING]** Snapdragons Late Jan (under lights) — — — source p. 8
+- **[INDOOR SOWING]** Petunias Late Jan (under lights) — — — source p. 8
+- **[INDOOR SOWING]** Lobelia Late Jan (under lights) — — — source p. 8
 
 #### Hardy Perennials
 
-- Hellebores (Lenten Rose) — — Blooming outdoors; cut🌸 tatty foliage
-- Snowdrops (Galanthus) — — Blooming; divide after 🌸 bloom if congested
+- **[FLOWERING]** Hellebores (Lenten Rose) — — Blooming outdoors; cut🌸 tatty foliage — source p. 8
+- **[FLOWERING / DIVIDING]** Snowdrops (Galanthus) — — Blooming; divide after 🌸 bloom if congested — source p. 8
 
 #### Bulbs & Corms
 
-- Snowdrops (Galanthus) — — Blooming outdoors ❄🌸
-- Forced bulbs (indoors) — — Check for growth; keep🌸 in bright spot
+- **[FLOWERING]** Snowdrops (Galanthus) — — Blooming outdoors ❄🌸 — source p. 8
+- **[SEASONAL MAINTENANCE]** Forced bulbs (indoors) — — Check for growth; keep🌸 in bright spot — source p. 8
 
 #### Shrubs & Trees (Ornamental)
 
-- Witch Hazel (Hamamelis) — — Blooming — fragrant 🌸 winter display
-- Buddleja / Hydrangea paniculata — — ✄ Prune hard Jan–Feb
+- **[FLOWERING / REVIEW ACTION]** Witch Hazel (Hamamelis) — — Blooming — fragrant 🌸 winter display — source p. 8
+- **[PRUNING]** Buddleja / Hydrangea paniculata — — ✄ Prune hard Jan–Feb — source p. 8 — grouped source entry; individual timing unresolved
 
 #### Bc Native Plants
 
-- Osoberry (Oemleria) — — Buds beginning to swell; earliest native
+- **[REVIEW ACTION]** Osoberry (Oemleria) — — Buds beginning to swell; earliest native — source p. 9
 
 #### Cut Flowers
 
-- Amaryllis (forced, indoors) — — Blooming indoors; 🌸 stake tall stems
-- Paperwhite Narcissus (forced) — — Blooming indoors — 🌸 fragrant
+- **[FLOWERING]** Amaryllis (forced, indoors) — — Blooming indoors; 🌸 stake tall stems — source p. 9 — grouped source entry; individual timing unresolved
+- **[FLOWERING / REVIEW ACTION]** Paperwhite Narcissus (forced) — — Blooming indoors — 🌸 fragrant — source p. 9
 
 ## February
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Celery / Celeriac Wk 1 (16 wks to transplant) — —
-- Leeks Wk 1–2 — —
-- Onions Wk 2–4 — —
-- Peppers (early) Wk 3–4 — —
-- Eggplant (early) Wk 4 — —
-- Kale / Chard (overwintered) — — Light harvest if not 🌾 frozen ❄
+- **[INDOOR SOWING]** Celery / Celeriac Wk 1 (16 wks to transplant) — — — source p. 11 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Leeks Wk 1–2 — — — source p. 11
+- **[INDOOR SOWING]** Onions Wk 2–4 — — — source p. 11
+- **[INDOOR SOWING]** Peppers (early) Wk 3–4 — — — source p. 11
+- **[INDOOR SOWING]** Eggplant (early) Wk 4 — — — source p. 11
+- **[HARVESTING]** Kale / Chard (overwintered) — — Light harvest if not 🌾 frozen ❄ — source p. 11 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Parsley Wk 1–2 (slow germinator) — —
-- Chives Wk 1–2 — —
-- Basil Wk 4 (under lights, warm) — —
+- **[INDOOR SOWING]** Parsley Wk 1–2 (slow germinator) — — — source p. 11
+- **[INDOOR SOWING]** Chives Wk 1–2 — — — source p. 11
+- **[INDOOR SOWING]** Basil Wk 4 (under lights, warm) — — — source p. 11
 
 #### Fruits & Berries
 
-- Apple / Pear / Plum / Cherry — — ✄ Prune before bud break (Feb)
-- Grape vines — — ✄ Prune Feb — before sap rises
-- Strawberries (bare-root) — Late Feb if ground 🌿 workable —
+- **[PRUNING]** Apple / Pear / Plum / Cherry — — ✄ Prune before bud break (Feb) — source p. 12 — grouped source entry; individual timing unresolved
+- **[PRUNING / REVIEW ACTION]** Grape vines — — ✄ Prune Feb — before sap rises — source p. 12
+- **[REVIEW ACTION]** Strawberries (bare-root) — Late Feb if ground 🌿 workable — — source p. 12
 
 #### Roots & Tubers
 
-- All root crops — — Too early to sow. Check cold storage.
+- **[SEASONAL MAINTENANCE]** All root crops — — Too early to sow. Check cold storage. — source p. 12
 
 #### Legumes & Grains
 
-- All legumes & grains — — Nothing this month
+- **[REVIEW ACTION]** All legumes & grains — — Nothing this month — source p. 12
 
 #### Perennial Edibles
 
-- Globe Artichoke Wk 3–4 (needs vernalisation) — —
-- Rhubarb — — Crown tips may appear — leave
-- Asparagus — — Still dormant ❄
+- **[INDOOR SOWING]** Globe Artichoke Wk 3–4 (needs vernalisation) — — — source p. 12
+- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Rhubarb — — Crown tips may appear — leave — source p. 12
+- **[REVIEW ACTION]** Asparagus — — Still dormant ❄ — source p. 12
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Hardy Perennials
 
-- Delphinium Wk 1 — —
-- Echinacea (Coneflower) Wk 2 — —
-- Salvia nemorosa Wk 2 — —
-- Hellebores — — Peak bloom outdoors🌸
-- Snowdrops — Divide "in the green" now Blooming — divide 🌸 congested clumps
+- **[INDOOR SOWING]** Delphinium Wk 1 — — — source p. 15
+- **[INDOOR SOWING]** Echinacea (Coneflower) Wk 2 — — — source p. 15
+- **[INDOOR SOWING]** Salvia nemorosa Wk 2 — — — source p. 15
+- **[FLOWERING]** Hellebores — — Peak bloom outdoors🌸 — source p. 15
+- **[FLOWERING / DIVIDING]** Snowdrops — Divide "in the green" now Blooming — divide 🌸 congested clumps — source p. 15
 
 #### Bulbs & Corms
 
-- Anemone corms — Plant outdoors (if not 🍅 frozen) —
-- Snowdrops / early Crocus — — Blooming ❄🌸
+- **[REVIEW ACTION]** Anemone corms — Plant outdoors (if not 🍅 frozen) — — source p. 15
+- **[FLOWERING]** Snowdrops / early Crocus — — Blooming ❄🌸 — source p. 15 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Witch Hazel (Hamamelis) — — Blooming — fragrant in🌸 mild spells
-- Roses — — ✄ Light prune late Feb
-- Forsythia — — Buds swelling; bloom imminent
+- **[FLOWERING / REVIEW ACTION]** Witch Hazel (Hamamelis) — — Blooming — fragrant in🌸 mild spells — source p. 15
+- **[PRUNING]** Roses — — ✄ Light prune late Feb — source p. 15
+- **[FLOWERING]** Forsythia — — Buds swelling; bloom imminent — source p. 15
 
 #### Bc Native Plants
 
-- Indian Plum (Oemleria) — — Earliest native in 🌸 bloom
-- Red Flowering Currant (Ribes) — — Buds swelling — bloom coming soon
+- **[FLOWERING]** Indian Plum (Oemleria) — — Earliest native in 🌸 bloom — source p. 16
+- **[FLOWERING / REVIEW ACTION]** Red Flowering Currant (Ribes) — — Buds swelling — bloom coming soon — source p. 16
 
 #### Cut Flowers
 
-- Lisianthus Wk 1 (16–20 wks to bloom) — —
-- Statice Wk 2 — —
+- **[INDOOR SOWING]** Lisianthus Wk 1 (16–20 wks to bloom) — — — source p. 16
+- **[INDOOR SOWING]** Statice Wk 2 — — — source p. 16
 
 ## March
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Tomatoes Wk 1–2 (8–10 wks before transplant) — —
-- Peppers / Eggplant Continue from Feb — —
-- Broccoli / Cauliflower / Cabbage Wk 1 — —
-- Brussels Sprouts Wk 1–2 — —
-- Kale (new crop) Wk 1–2 — —
-- Lettuce / Spinach Wk 1 (indoors) Wk 3–4 under cloche ❄🌿 —
-- Peas — Wk 3–4 (cold-tolerant) 🌿 —
-- Broad Beans (Fava) — Wk 3–4 ❄🌿 —
-- Radish / Arugula / Mâche — Wk 3–4 (under fleece)🌿 —
+- **[INDOOR SOWING]** Tomatoes Wk 1–2 (8–10 wks before transplant) — — — source p. 18
+- **[REVIEW ACTION]** Peppers / Eggplant Continue from Feb — — — source p. 18 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Broccoli / Cauliflower / Cabbage Wk 1 — — — source p. 18 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Brussels Sprouts Wk 1–2 — — — source p. 18
+- **[INDOOR SOWING]** Kale (new crop) Wk 1–2 — — — source p. 18
+- **[INDOOR SOWING]** Lettuce / Spinach Wk 1 (indoors) Wk 3–4 under cloche ❄🌿 — — source p. 18 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Peas — Wk 3–4 (cold-tolerant) 🌿 — — source p. 18
+- **[REVIEW ACTION]** Broad Beans (Fava) — Wk 3–4 ❄🌿 — — source p. 18
+- **[REVIEW ACTION]** Radish / Arugula / Mâche — Wk 3–4 (under fleece)🌿 — — source p. 18 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Basil Wk 1–2 (indoors only) — —
-- Dill Wk 1–2 Late Mar direct sow OK🌿 —
-- Cilantro — Direct sow late Mar🌿 —
+- **[INDOOR SOWING]** Basil Wk 1–2 (indoors only) — — — source p. 19
+- **[INDOOR SOWING]** Dill Wk 1–2 Late Mar direct sow OK🌿 — — source p. 19
+- **[DIRECT SOWING]** Cilantro — Direct sow late Mar🌿 — — source p. 19
 
 #### Fruits & Berries
 
-- Strawberries (from seed) Wk 1 (long season needed) — —
-- Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable🌿 —
-- Blueberries — — ✄ Prune Mar; apply dormant spray
-- Apple / Pear / Cherry — — Apply dormant oil spray now
+- **[INDOOR SOWING]** Strawberries (from seed) Wk 1 (long season needed) — — — source p. 19
+- **[REVIEW ACTION]** Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable🌿 — — source p. 19 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Blueberries — — ✄ Prune Mar; apply dormant spray — source p. 19
+- **[REVIEW ACTION]** Apple / Pear / Cherry — — Apply dormant oil spray now — source p. 19 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Parsnips — Wk 3–4 (needs warm 🌿 soil) —
-- Carrots — Wk 3–4 under fleece🌿 —
-- Seed Potatoes Chit indoors in light (Mar) — —
-- LEGUMES Peas — Wk 3–4 outdoors ❄🌿 —
-- Broad Beans (Fava) — Wk 3–4 ❄🌿 —
+- **[REVIEW ACTION]** Parsnips — Wk 3–4 (needs warm 🌿 soil) — — source p. 19
+- **[REVIEW ACTION]** Carrots — Wk 3–4 under fleece🌿 — — source p. 19
+- **[REVIEW ACTION]** Seed Potatoes Chit indoors in light (Mar) — — — source p. 19
+- **[REVIEW ACTION]** LEGUMES Peas — Wk 3–4 outdoors ❄🌿 — — source p. 19
+- **[REVIEW ACTION]** Broad Beans (Fava) — Wk 3–4 ❄🌿 — — source p. 19
 
 #### Perennial Edibles
 
-- Globe Artichoke Continue from Feb — —
-- Asparagus crowns — Plant late Mar (if workable) —
-- Rhubarb — — Emerging — do not harvest 1st yr
+- **[REVIEW ACTION]** Globe Artichoke Continue from Feb — — — source p. 20
+- **[REVIEW ACTION]** Asparagus crowns — Plant late Mar (if workable) — — source p. 20
+- **[HARVESTING / REVIEW ACTION]** Rhubarb — — Emerging — do not harvest 1st yr — source p. 20
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Impatiens Wk 1 — —
-- Nicotiana / Cleome Wk 1 — —
-- Marigold Wk 2 — —
-- Zinnia / Cosmos Wk 3 — —
-- Sweet Peas — Direct sow outdoors 🌿 Wk 3–4 —
+- **[INDOOR SOWING]** Impatiens Wk 1 — — — source p. 22
+- **[INDOOR SOWING]** Nicotiana / Cleome Wk 1 — — — source p. 22 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Marigold Wk 2 — — — source p. 22
+- **[INDOOR SOWING]** Zinnia / Cosmos Wk 3 — — — source p. 22 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Sweet Peas — Direct sow outdoors 🌿 Wk 3–4 — — source p. 22
 
 #### Hardy Perennials
 
-- Coneflower / Rudbeckia Wk 1 — —
-- Gaillardia Wk 2 — —
-- Larkspur / Poppy — Direct sow Wk 3–4🌿 —
-- Hostas / Daylilies / Asters — Divide emerging clumps ✄ Emerging from ground
+- **[INDOOR SOWING]** Coneflower / Rudbeckia Wk 1 — — — source p. 22 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Gaillardia Wk 2 — — — source p. 22
+- **[DIRECT SOWING]** Larkspur / Poppy — Direct sow Wk 3–4🌿 — — source p. 22 — grouped source entry; individual timing unresolved
+- **[DIVIDING]** Hostas / Daylilies / Asters — Divide emerging clumps ✄ Emerging from ground — source p. 22 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- Dahlia tubers Pot up indoors Wk 3–4🍅 — —
-- Daffodils / Crocus / early Tulips — — Blooming — peak 🌸 spring display
+- **[INDOOR SOWING]** Dahlia tubers Pot up indoors Wk 3–4🍅 — — — source p. 22
+- **[FLOWERING / REVIEW ACTION]** Daffodils / Crocus / early Tulips — — Blooming — peak 🌸 spring display — source p. 22 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Forsythia / Pieris — — Blooming🌸
-- Summer-flowering shrubs — — ✄ Prune Mar; feed roses
+- **[FLOWERING]** Forsythia / Pieris — — Blooming🌸 — source p. 23 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Summer-flowering shrubs — — ✄ Prune Mar; feed roses — source p. 23
 
 #### Climbing Vines
 
-- Morning Glory Wk 3 (indoors) — —
-- Group 3 Clematis — — ✄ Prune hard early Mar if not done
+- **[INDOOR SOWING]** Morning Glory Wk 3 (indoors) — — — source p. 23
+- **[PRUNING]** Group 3 Clematis — — ✄ Prune hard early Mar if not done — source p. 23
 
 #### Bc Native Plants
 
-- Red Flowering Currant (Ribes) — — Blooming — 🌸 hummingbird magnet
-- Osoberry / Trillium — — Emerging — do not 🌸 pick Trillium
+- **[FLOWERING / REVIEW ACTION]** Red Flowering Currant (Ribes) — — Blooming — 🌸 hummingbird magnet — source p. 23
+- **[HARVESTING / REVIEW ACTION]** Osoberry / Trillium — — Emerging — do not 🌸 pick Trillium — source p. 23 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Celosia / Strawflower / Scabiosa Wk 1–2 — —
-- Larkspur — Direct sow outdoors🌿 —
+- **[INDOOR SOWING]** Celosia / Strawflower / Scabiosa Wk 1–2 — — — source p. 23 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Larkspur — Direct sow outdoors🌿 — — source p. 23
 
 ## April
 
-### Edibles
+### Vegetables and edible crops
 
 #### Herbs
 
-- Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4🌿 —
-- Chives / Parsley (starts) — → Transplant Wk 3–4🌍 🌍 —
+- **[DIRECT SOWING]** Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4🌿 — — source p. 26 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Chives / Parsley (starts) — → Transplant Wk 3–4🌍 🌍 — — source p. 26 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Strawberry runners — Plant outdoors Wk 3–4🌿 —
-- Raspberries — — ✄ Cut back old canes
-- Blueberries / Currants — — New growth beginning; feed now
+- **[REVIEW ACTION]** Strawberry runners — Plant outdoors Wk 3–4🌿 — — source p. 26
+- **[SEASONAL MAINTENANCE]** Raspberries — — ✄ Cut back old canes — source p. 26
+- **[SEASONAL MAINTENANCE]** Blueberries / Currants — — New growth beginning; feed now — source p. 26 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Seed potatoes — Plant Wk 3–4 (after last🌿 frost) —
-- Carrots / Beets (succession) — Direct sow Wk 3–4🌿 —
+- **[REVIEW ACTION]** Seed potatoes — Plant Wk 3–4 (after last🌿 frost) — — source p. 26
+- **[DIRECT SOWING]** Carrots / Beets (succession) — Direct sow Wk 3–4🌿 — — source p. 26 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Asparagus — — Harvest begins Wk 3–4🌾
-- Rhubarb — — Harvest begins Wk 3–4🌾
-- Artichoke — → Transplant 🌍 🌍 outdoors late Apr —
+- **[HARVESTING]** Asparagus — — Harvest begins Wk 3–4🌾 — source p. 27
+- **[HARVESTING]** Rhubarb — — Harvest begins Wk 3–4🌾 — source p. 27
+- **[TRANSPLANTING]** Artichoke — → Transplant 🌍 🌍 outdoors late Apr — — source p. 27
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Snapdragons / Pansies / Stocks — → Transplant cold-🌍 🌍 tolerant after Apr 15 —
-- Sweet Peas — Direct sow Wk 1–2🌿 —
-- Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4🌿 —
+- **[TRANSPLANTING]** Snapdragons / Pansies / Stocks — → Transplant cold-🌍 🌍 tolerant after Apr 15 — — source p. 29 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Sweet Peas — Direct sow Wk 1–2🌿 — — source p. 29
+- **[DIRECT SOWING]** Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4🌿 — — source p. 29 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Primula / Wallflower / Aubretia / Iberis — — Blooming🌸
-- Perennial seedlings (hardened-off) — → Transplant Wk 3–4🌍 🌍 —
-- Hostas / Daylilies / Asters — Divide established clumps ✄ —
+- **[FLOWERING]** Primula / Wallflower / Aubretia / Iberis — — Blooming🌸 — source p. 29 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Perennial seedlings (hardened-off) — → Transplant Wk 3–4🌍 🌍 — — source p. 29
+- **[DIVIDING]** Hostas / Daylilies / Asters — Divide established clumps ✄ — — source p. 29 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring 🌸 display
-- Spring-flowering shrubs (Forsythia, Kerria) — — ✄ Prune AFTER bloom; feed roses
+- **[REVIEW ACTION]** Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring 🌸 display — source p. 30 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Spring-flowering shrubs (Forsythia, Kerria) — — ✄ Prune AFTER bloom; feed roses — source p. 30 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- Sweet Peas — → Transplant 🌍 🌍 outdoors Wk 3–4 —
-- Morning Glory — Wait until May —
-- Honeysuckle — — Leafing out; new growth vigorous
+- **[TRANSPLANTING]** Sweet Peas — → Transplant 🌍 🌍 outdoors Wk 3–4 — — source p. 30
+- **[REVIEW ACTION]** Morning Glory — Wait until May — — source p. 30
+- **[REVIEW ACTION]** Honeysuckle — — Leafing out; new growth vigorous — source p. 30
 
 #### Bc Native Plants
 
-- Bleeding Heart (Dicentra) / Pacific Trillium — — Blooming in shaded 🌸 spots
-- Camas (Camassia) — — Beginning to bloom🌸
-- Garry Oak — — Leafing out; catkins dropping
+- **[FLOWERING]** Bleeding Heart (Dicentra) / Pacific Trillium — — Blooming in shaded 🌸 spots — source p. 30 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Camas (Camassia) — — Beginning to bloom🌸 — source p. 30
+- **[REVIEW ACTION]** Garry Oak — — Leafing out; catkins dropping — source p. 30
 
 ## May
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Tomatoes — → Transplant Wk 1–2🌍 🌍 (hardened) —
-- Peppers / Eggplant — → Transplant Wk 1–2🌍 🌍 —
-- Cucumber / Zucchini / Squash — → Transplant Wk 2–3🌍 🌍 —
-- Beans (French / Runner) — Direct sow Wk 2–4🌿 —
-- Corn — Direct sow Wk 3–4🌿 —
-- Beets / Carrots / Lettuce / Chard / Kale — Succession sow Wk 1–🌿 4 —
-- Peas (second sowing) — Wk 1–2 for late crop🌿 —
+- **[TRANSPLANTING]** Tomatoes — → Transplant Wk 1–2🌍 🌍 (hardened) — — source p. 33
+- **[TRANSPLANTING]** Peppers / Eggplant — → Transplant Wk 1–2🌍 🌍 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Cucumber / Zucchini / Squash — → Transplant Wk 2–3🌍 🌍 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Beans (French / Runner) — Direct sow Wk 2–4🌿 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Corn — Direct sow Wk 3–4🌿 — — source p. 33
+- **[SUCCESSION SOWING]** Beets / Carrots / Lettuce / Chard / Kale — Succession sow Wk 1–🌿 4 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Peas (second sowing) — Wk 1–2 for late crop🌿 — — source p. 33
 
 #### Herbs
 
-- Basil — → Transplant Wk 2 🌍 🌍 (soil must be warm) —
-- Rosemary / Thyme / Oregano — → Transplant now🌍 🌍 —
-- Dill / Cilantro / Fennel — Succession direct sow🌿 —
+- **[TRANSPLANTING]** Basil — → Transplant Wk 2 🌍 🌍 (soil must be warm) — — source p. 33
+- **[TRANSPLANTING]** Rosemary / Thyme / Oregano — → Transplant now🌍 🌍 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING / SUCCESSION SOWING]** Dill / Cilantro / Fennel — Succession direct sow🌿 — — source p. 33 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Strawberries — — Flowers forming; 🌸 remove 1st-yr runners' flowers
-- Blueberries / Gooseberries — — Flowering; set fruit🌸
-- Apple / Pear — — Thin fruitlets late May (June drop)
+- **[SEASONAL MAINTENANCE]** Strawberries — — Flowers forming; 🌸 remove 1st-yr runners' flowers — source p. 33
+- **[FLOWERING]** Blueberries / Gooseberries — — Flowering; set fruit🌸 — source p. 33 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Apple / Pear — — Thin fruitlets late May (June drop) — source p. 33 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Carrots / Beets / Parsnips — Succession sow🌿 —
-- Sweet potato slips — Plant late May (soil 🌿 warm) —
+- **[SUCCESSION SOWING]** Carrots / Beets / Parsnips — Succession sow🌿 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Sweet potato slips — Plant late May (soil 🌿 warm) — — source p. 33
 
 #### Legumes & Grains
 
-- Beans (French / Runner) / Edamame — Direct sow Wk 2–4🌿 —
-- Broad Beans — — In flower — pinch tops 🌸 to deter blackfly
-- Corn / Sunflower — Direct sow Wk 3–4🌿 —
+- **[DIRECT SOWING]** Beans (French / Runner) / Edamame — Direct sow Wk 2–4🌿 — — source p. 34 — grouped source entry; individual timing unresolved
+- **[FLOWERING / REVIEW ACTION]** Broad Beans — — In flower — pinch tops 🌸 to deter blackfly — source p. 34
+- **[DIRECT SOWING]** Corn / Sunflower — Direct sow Wk 3–4🌿 — — source p. 34 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Asparagus — — Full harvest — pick 🌾 daily
-- Rhubarb — — Harvest stalks; leave 🌾 some leaves
-- Artichoke — — Establishing in garden
+- **[HARVESTING]** Asparagus — — Full harvest — pick 🌾 daily — source p. 34
+- **[HARVESTING]** Rhubarb — — Harvest stalks; leave 🌾 some leaves — source p. 34
+- **[REVIEW ACTION]** Artichoke — — Establishing in garden — source p. 34
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Impatiens / Marigolds / Petunias / Begonias — → All frost-tender 🌍 🌍 annuals outdoors Wk 1–2 —
-- Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2🌍 🌍 —
-- Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3🌿 —
+- **[REVIEW ACTION]** Impatiens / Marigolds / Petunias / Begonias — → All frost-tender 🌍 🌍 annuals outdoors Wk 1–2 — — source p. 36 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2🌍 🌍 — — source p. 36 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3🌿 — — source p. 36 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Aquilegia / Geranium / Lupine / Iris — — Blooming — peak early🌸 perennials
-- Allium / Centaurea — — Beginning to bloom🌸
-- Late-emerging perennials — Divide early May ✄ —
+- **[FLOWERING / REVIEW ACTION]** Aquilegia / Geranium / Lupine / Iris — — Blooming — peak early🌸 perennials — source p. 36 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Allium / Centaurea — — Beginning to bloom🌸 — source p. 36 — grouped source entry; individual timing unresolved
+- **[DIVIDING]** Late-emerging perennials — Divide early May ✄ — — source p. 36
 
 #### Shrubs & Trees (Ornamental)
 
-- Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms🌸
-- Forsythia / Kerria / Ribes (spring-blooming) — — ✄ Prune after bloom finishes
+- **[REVIEW ACTION]** Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms🌸 — source p. 37 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Forsythia / Kerria / Ribes (spring-blooming) — — ✄ Prune after bloom finishes — source p. 37 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- Morning Glory / Cobaea scandens — → Transplant 🌍 🌍 outdoors now —
-- Clematis montana — — Peak bloom — glorious🌸
-- Honeysuckle — — In bud; bloom imminent
+- **[TRANSPLANTING]** Morning Glory / Cobaea scandens — → Transplant 🌍 🌍 outdoors now — — source p. 37 — grouped source entry; individual timing unresolved
+- **[FLOWERING / REVIEW ACTION]** Clematis montana — — Peak bloom — glorious🌸 — source p. 37
+- **[FLOWERING]** Honeysuckle — — In bud; bloom imminent — source p. 37
 
 #### Bc Native Plants
 
-- Camas / Bleeding Heart / Nootka Rose / Bunchberry — — Blooming — peak 🌸 native season
+- **[FLOWERING / REVIEW ACTION]** Camas / Bleeding Heart / Nootka Rose / Bunchberry — — Blooming — peak 🌸 native season — source p. 37 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Sunflower — Direct sow Wk 1–2🌿 —
-- Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting🌸
+- **[DIRECT SOWING]** Sunflower — Direct sow Wk 1–2🌿 — — source p. 37
+- **[PROPAGATION]** Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting🌸 — source p. 37 — grouped source entry; individual timing unresolved
 
 ## June
 
-### Edibles
+### Vegetables and edible crops
 
 #### Herbs
 
-- Chives / Parsley / Dill / Chervil — — Harvest freely; dry or 🌾 freeze surplus
-- Cilantro (before bolt) — — Harvest now — bolts 🌾 fast in heat
-- Basil — — ✄ Pinch flowers to prolong leaf harvest
+- **[HARVESTING]** Chives / Parsley / Dill / Chervil — — Harvest freely; dry or 🌾 freeze surplus — source p. 40 — grouped source entry; individual timing unresolved
+- **[HARVESTING / REVIEW ACTION]** Cilantro (before bolt) — — Harvest now — bolts 🌾 fast in heat — source p. 40
+- **[HARVESTING]** Basil — — ✄ Pinch flowers to prolong leaf harvest — source p. 40
 
 #### Fruits & Berries
 
-- Strawberries — — Full harvest Wk 1–4🌾
-- Gooseberries — — Ready late June🌾
-- Apple / Pear — — Thin clusters to 1 fruit per spur
+- **[HARVESTING]** Strawberries — — Full harvest Wk 1–4🌾 — source p. 40
+- **[REVIEW ACTION]** Gooseberries — — Ready late June🌾 — source p. 40
+- **[REVIEW ACTION]** Apple / Pear — — Thin clusters to 1 fruit per spur — source p. 40 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Carrots / Beets (last sow for fall) — Last main sow Wk 1–2🌿 — Early new potatoes — — Check Wk 3–4 if 🌾 planted late March
+- **[INDOOR SOWING / SEASONAL MAINTENANCE / REVIEW ACTION]** Carrots / Beets (last sow for fall) — Last main sow Wk 1–2🌿 — Early new potatoes — — Check Wk 3–4 if 🌾 planted late March — source p. 40 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Asparagus — — ✄ Stop harvesting Wk 1– 2; allow fern growth
-- Rhubarb — — Last harvest Wk 1–2; 🌾 leave plant to rest
-- Artichoke — — Buds forming late June
+- **[HARVESTING]** Asparagus — — ✄ Stop harvesting Wk 1– 2; allow fern growth — source p. 41
+- **[HARVESTING]** Rhubarb — — Last harvest Wk 1–2; 🌾 leave plant to rest — source p. 41
+- **[REVIEW ACTION]** Artichoke — — Buds forming late June — source p. 41
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming🌸
-- Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; 🌸 deadhead ✄
+- **[FLOWERING]** Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming🌸 — source p. 43 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; 🌸 deadhead ✄ — source p. 43 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer 🌸 perennials
-- Foxglove (Digitalis) / Veronica / Astrantia — — Blooming beautifully🌸
-- Achillea (Yarrow) — — Beginning; excellent 🌸 pollinator plant
-- Geranium (Cranesbill) — — Full bloom; cut back 🌸 after for rebloom
+- **[REVIEW ACTION]** Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer 🌸 perennials — source p. 43 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Foxglove (Digitalis) / Veronica / Astrantia — — Blooming beautifully🌸 — source p. 43 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Achillea (Yarrow) — — Beginning; excellent 🌸 pollinator plant — source p. 43
+- **[FLOWERING]** Geranium (Cranesbill) — — Full bloom; cut back 🌸 after for rebloom — source p. 43
 
 #### Bulbs & Corms
 
-- Allium / late Iris / first Lily buds — — Blooming; stake tall 🌸
-- Allium Gladiolus — — Growing strongly; stake tall varieties
+- **[FLOWERING]** Allium / late Iris / first Lily buds — — Blooming; stake tall 🌸 — source p. 43 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Allium Gladiolus — — Growing strongly; stake tall varieties — source p. 43
 
 #### Shrubs & Trees (Ornamental)
 
-- Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — 🌸 glorious
-- Philadelphus / Weigela — — ✄ Prune after bloom finishes (late June)
+- **[REVIEW ACTION]** Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — 🌸 glorious — source p. 44 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Philadelphus / Weigela — — ✄ Prune after bloom finishes (late June) — source p. 44 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet 🌸
-- Peas daily Morning Glory — — Climbing and budding
+- **[HARVESTING / REVIEW ACTION]** Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet 🌸 — source p. 44 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Peas daily Morning Glory — — Climbing and budding — source p. 44
 
 #### Bc Native Plants
 
-- Nootka Rose / Ocean Spray (Holodiscus) — — Blooming — excellent 🌸 for pollinators
-- Yarrow / Blue-eyed Grass (Sisyrinchium) — — Blooming in meadow 🌸 areas
+- **[FLOWERING / REVIEW ACTION]** Nootka Rose / Ocean Spray (Holodiscus) — — Blooming — excellent 🌸 for pollinators — source p. 44 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Yarrow / Blue-eyed Grass (Sisyrinchium) — — Blooming in meadow 🌸 areas — source p. 44 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; 🌸 harvest in morning
+- **[HARVESTING / PROPAGATION]** Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; 🌸 harvest in morning — source p. 44 — grouped source entry; individual timing unresolved
 
 ## July
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Beans (for fall) / Lettuce (bolt-resistant) — Succession Wk 1–2 🌿 only —
-- Beets / Carrots / Kale / Chard — Wk 1–2 (last chance 🌿 for Kale/Chard) —
-- Peas / Beans / Zucchini / Cucumber — — Full harvest swing🌾
+- **[SUCCESSION SOWING]** Beans (for fall) / Lettuce (bolt-resistant) — Succession Wk 1–2 🌿 only — — source p. 46 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Beets / Carrots / Kale / Chard — Wk 1–2 (last chance 🌿 for Kale/Chard) — — source p. 46 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Peas / Beans / Zucchini / Cucumber — — Full harvest swing🌾 — source p. 46 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and 🌾 freeze surplus
-- Basil — — ✄ Pinch flowers continuously to prevent bolt
+- **[HARVESTING]** Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and 🌾 freeze surplus — source p. 47 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Basil — — ✄ Pinch flowers continuously to prevent bolt — source p. 47
 
 #### Fruits & Berries
 
-- Blueberries (mid-July onward) — — Peak harvest; pick 🌾 daily
-- Raspberries (summer- bearing) — — Harvest; remove 🌾 fruited canes after
-- Red / White Currants / Gooseberries — — Harvest and preserve🌾 Early Plums / Tayberry /
-- Everbearing Strawberries — — Beginning to fruit🌾
+- **[HARVESTING]** Blueberries (mid-July onward) — — Peak harvest; pick 🌾 daily — source p. 47
+- **[HARVESTING]** Raspberries (summer- bearing) — — Harvest; remove 🌾 fruited canes after — source p. 47
+- **[HARVESTING]** Red / White Currants / Gooseberries — — Harvest and preserve🌾 Early Plums / Tayberry / — source p. 47 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Everbearing Strawberries — — Beginning to fruit🌾 — source p. 47
 
 #### Roots & Tubers
 
-- Carrots / Beets / Turnips — Last chance Wk 1 only🌿 Harvest new potatoes🌾
-- Main-crop potatoes — — Lift as tops die back🌾
+- **[HARVESTING]** Carrots / Beets / Turnips — Last chance Wk 1 only🌿 Harvest new potatoes🌾 — source p. 47 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Main-crop potatoes — — Lift as tops die back🌾 — source p. 47
 
 #### Perennial Edibles
 
-- Artichoke — — Harvest heads before 🌾 fully open
-- Rhubarb / Asparagus — — Do NOT harvest; let plants build energy
+- **[HARVESTING]** Artichoke — — Harvest heads before 🌾 fully open — source p. 48
+- **[HARVESTING]** Rhubarb / Asparagus — — Do NOT harvest; let plants build energy — source p. 48 — grouped source entry; individual timing unresolved
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; 🌸 deadhead daily ✄
-- Sweet Pea — — Peak — harvest every 🌸 day to extend
-- Nasturtium / Calendula (for fall) — Last sow Wk 1🌿 Blooming continuously🌸
+- **[FLOWERING / PRUNING]** Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; 🌸 deadhead daily ✄ — source p. 50 — grouped source entry; individual timing unresolved
+- **[HARVESTING / REVIEW ACTION]** Sweet Pea — — Peak — harvest every 🌸 day to extend — source p. 50
+- **[FLOWERING]** Nasturtium / Calendula (for fall) — Last sow Wk 1🌿 Blooming continuously🌸 — source p. 50 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer 🌸 perennials
-- Agapanthus / Veronicastrum / Penstemon / Shasta Daisy — — Blooming — pollinator 🌸 paradise
-- Achillea / Kniphofia (Red Hot Poker) — — Peak; deadhead ✄ to 🌸 extend
+- **[REVIEW ACTION]** Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer 🌸 perennials — source p. 50 — grouped source entry; individual timing unresolved
+- **[FLOWERING / REVIEW ACTION]** Agapanthus / Veronicastrum / Penstemon / Shasta Daisy — — Blooming — pollinator 🌸 paradise — source p. 50 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Achillea / Kniphofia (Red Hot Poker) — — Peak; deadhead ✄ to 🌸 extend — source p. 50 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- Oriental / Asiatic Lilies / Gladiolus — — Blooming; stake tall 🌸 varieties
-- Dahlia (early varieties) — — First dahlias opening🌸
+- **[FLOWERING]** Oriental / Asiatic Lilies / Gladiolus — — Blooming; stake tall 🌸 varieties — source p. 50 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Dahlia (early varieties) — — First dahlias opening🌸 — source p. 50
 
 #### Shrubs & Trees (Ornamental)
 
-- Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer 🌸 display
-- Roses — — ✄ Deadhead continuously for repeat bloom
-- Lavender — — ✄ Prune lightly after first flush Wk 2–3
+- **[REVIEW ACTION]** Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer 🌸 display — source p. 51 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Roses — — ✄ Deadhead continuously for repeat bloom — source p. 51
+- **[PRUNING]** Lavender — — ✄ Prune lightly after first flush Wk 2–3 — source p. 51
 
 #### Climbing Vines
 
-- Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom🌸
-- Cobaea scandens — — Cup-and-saucer vine 🌸 blooming
+- **[FLOWERING]** Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom🌸 — source p. 51 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Cobaea scandens — — Cup-and-saucer vine 🌸 blooming — source p. 51
 
 #### Bc Native Plants
 
-- Ocean Spray / Yarrow / Spirea douglasii / Fireweed — — BC summer natives at 🌸 their best
-- Pearly Everlasting (Anaphalis) — — Beginning — excellent 🌸 for drying
+- **[REVIEW ACTION]** Ocean Spray / Yarrow / Spirea douglasii / Fireweed — — BC summer natives at 🌸 their best — source p. 51 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Pearly Everlasting (Anaphalis) — — Beginning — excellent 🌸 for drying — source p. 51
 
 #### Cut Flowers
 
-- Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning
+- **[HARVESTING / PROPAGATION]** Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of 🌸 the year; harvest in morning — source p. 51 — grouped source entry; individual timing unresolved
 
 ## August
 
-### Edibles
+### Vegetables and edible crops
 
 #### Herbs
 
-- All herbs — — Full harvest; dry 🌾 oregano, thyme, rosemary now
-- Dill / Cilantro seeds — — Save seeds as they dry on plant
+- **[HARVESTING]** All herbs — — Full harvest; dry 🌾 oregano, thyme, rosemary now — source p. 54
+- **[SEASONAL MAINTENANCE]** Dill / Cilantro seeds — — Save seeds as they dry on plant — source p. 54 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Blueberries (peak August) — — Best month for 🌾 blueberries
-- Raspberries / Blackberries / Plums — — Harvesting 🌾 continuously Early Apples / Pears (late
-- Aug) — — First apples ready; 🌾 pears soon
-- Everbearing Strawberries — — Second crop flush🌾
+- **[REVIEW ACTION]** Blueberries (peak August) — — Best month for 🌾 blueberries — source p. 54
+- **[HARVESTING]** Raspberries / Blackberries / Plums — — Harvesting 🌾 continuously Early Apples / Pears (late — source p. 54 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Aug) — — First apples ready; 🌾 pears soon — source p. 54
+- **[REVIEW ACTION]** Everbearing Strawberries — — Second crop flush🌾 — source p. 54
 
 #### Roots & Tubers
 
-- Turnips / Radish — Direct sow Wk 1–2 for 🌿 fall —
-- Potatoes / Carrots / Beets — — Harvest and store🌾
+- **[DIRECT SOWING]** Turnips / Radish — Direct sow Wk 1–2 for 🌿 fall — — source p. 54 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Potatoes / Carrots / Beets — — Harvest and store🌾 — source p. 54 — grouped source entry; individual timing unresolved
 
 #### Legumes & Grains
 
-- Beans (full harvest) — — Leave some pods to 🌾 dry for seed/storage
-- Edamame — — Harvest late Aug when🌾 pods are plump
-- Sunflower / Corn — — Sunflower heads 🌾 mature; corn harvest late Aug
+- **[SEASONAL MAINTENANCE]** Beans (full harvest) — — Leave some pods to 🌾 dry for seed/storage — source p. 55
+- **[HARVESTING]** Edamame — — Harvest late Aug when🌾 pods are plump — source p. 55
+- **[HARVESTING]** Sunflower / Corn — — Sunflower heads 🌾 mature; corn harvest late Aug — source p. 55 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Artichoke — — Second flush of heads🌾
-- Rhubarb / Asparagus — — Resting; asparagus fern — leave standing
+- **[REVIEW ACTION]** Artichoke — — Second flush of heads🌾 — source p. 55
+- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Rhubarb / Asparagus — — Resting; asparagus fern — leave standing — source p. 55 — grouped source entry; individual timing unresolved
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; 🌸 deadhead aggressively ✄
-- Calendula / Pansy / Wallflower (for autumn) — Sow now for 🌿 autumn/spring display —
+- **[PRUNING]** Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; 🌸 deadhead aggressively ✄ — source p. 57 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Calendula / Pansy / Wallflower (for autumn) — Sow now for 🌿 autumn/spring display — — source p. 57 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and 🌸 amber tones
-- Sedum 'Autumn Joy' / Anemone japonica — — Beginning to bloom 🌸 late Aug
-- Early-summer perennials (Geranium, Salvia) — — ✄ Cut back after bloom to encourage rebloom
+- **[REVIEW ACTION]** Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and 🌸 amber tones — source p. 57 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Sedum 'Autumn Joy' / Anemone japonica — — Beginning to bloom 🌸 late Aug — source p. 57 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Early-summer perennials (Geranium, Salvia) — — ✄ Cut back after bloom to encourage rebloom — source p. 57 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- Dahlia — — Peak bloom — 🌸
+- **[FLOWERING / REVIEW ACTION]** Dahlia — — Peak bloom — 🌸 — source p. 57
 
 #### Shrubs & Trees (Ornamental)
 
-- Hydrangea (all types) / Roses (second flush) / Fuchsia — — Late summer shrub 🌸 peak
-- Roses — — ✄ Deadhead; do NOT feed after Aug
-- Wisteria — — ✄ Second summer prune (Aug); cut to 5 leaves
-- Hydrangea — — Do NOT prune now — wait until spring
+- **[REVIEW ACTION]** Hydrangea (all types) / Roses (second flush) / Fuchsia — — Late summer shrub 🌸 peak — source p. 58 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Roses — — ✄ Deadhead; do NOT feed after Aug — source p. 58
+- **[PRUNING]** Wisteria — — ✄ Second summer prune (Aug); cut to 5 leaves — source p. 58
+- **[PRUNING / REVIEW ACTION]** Hydrangea — — Do NOT prune now — wait until spring — source p. 58
 
 #### Climbing Vines
 
-- Clematis viticella / Passion Flower / Morning Glory — — All in full spectacular 🌸 bloom
+- **[FLOWERING]** Clematis viticella / Passion Flower / Morning Glory — — All in full spectacular 🌸 bloom — source p. 58 — grouped source entry; individual timing unresolved
 
 #### Bc Native Plants
 
-- Fireweed / Pearly Everlasting / Goldenrod — — Late summer native 🌸 bloom; excellent for bees
-- Oregon Grape berries — — Ripe berries — good for jam
+- **[FLOWERING]** Fireweed / Pearly Everlasting / Goldenrod — — Late summer native 🌸 bloom; excellent for bees — source p. 58 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Oregon Grape berries — — Ripe berries — good for jam — source p. 58
 
 ## September
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Winter Lettuce / Mâche / Corn Salad — Direct sow under cover🌿 Wk 1–2 —
-- Spinach / Pak Choi / Arugula — Direct sow Wk 1–3🌿 —
-- Asian Greens / Claytonia — Direct sow Wk 2–3🌿 —
-- Broccoli / Kale (starts to protected beds) — → Transplant Wk 1–2🌍 🌍 —
-- Tomatoes (last push) — — Last push before frost; 🌾 ripen indoors if needed
-- Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost 🌾 (squash by end Sep)
-- Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest🌾
+- **[DIRECT SOWING]** Winter Lettuce / Mâche / Corn Salad — Direct sow under cover🌿 Wk 1–2 — — source p. 61 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Spinach / Pak Choi / Arugula — Direct sow Wk 1–3🌿 — — source p. 61 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Asian Greens / Claytonia — Direct sow Wk 2–3🌿 — — source p. 61 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Broccoli / Kale (starts to protected beds) — → Transplant Wk 1–2🌍 🌍 — — source p. 61 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Tomatoes (last push) — — Last push before frost; 🌾 ripen indoors if needed — source p. 61
+- **[HARVESTING]** Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost 🌾 (squash by end Sep) — source p. 61 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest🌾 — source p. 61 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Parsley (for spring) — Sow Wk 1🌿 —
-- Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze
+- **[REVIEW ACTION]** Parsley (for spring) — Sow Wk 1🌿 — — source p. 61
+- **[INDOOR SOWING / REVIEW ACTION]** Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze — source p. 61 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; 🌾 store carefully
-- Fall Raspberries / Blackberries / Everbearing Strawberries — — Harvest before first 🌾 frost
+- **[HARVESTING]** Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; 🌾 store carefully — source p. 61 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Fall Raspberries / Blackberries / Everbearing Strawberries — — Harvest before first 🌾 frost — source p. 61 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Overwintering Daikon Radish — Sow Wk 1🌿 —
+- **[REVIEW ACTION]** Overwintering Daikon Radish — Sow Wk 1🌿 — — source p. 61
 
 #### Legumes & Grains
 
-- Shell beans / Runner beans — — Harvest last beans; 🌾 shell for drying
+- **[HARVESTING]** Shell beans / Runner beans — — Harvest last beans; 🌾 shell for drying — source p. 62 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Garlic — Plant Wk 3–4 (ideal 🍅 window) —
-- Rhubarb crowns (new) — Divide and replant now —
-- Asparagus crowns — Plant Sept–Oct —
+- **[REVIEW ACTION]** Garlic — Plant Wk 3–4 (ideal 🍅 window) — — source p. 62
+- **[DIVIDING]** Rhubarb crowns (new) — Divide and replant now — — source p. 62
+- **[REVIEW ACTION]** Asparagus crowns — Plant Sept–Oct — — source p. 62
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy 🌸 the last of summer
-- Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall
-- Winter Pansy / Wallflower — Sow outdoors Wk 1–2🌿 —
+- **[FLOWERING]** Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy 🌸 the last of summer — source p. 64 — grouped source entry; individual timing unresolved
+- **[PRUNING / REVIEW ACTION]** Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — source p. 64 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Winter Pansy / Wallflower — Sow outdoors Wk 1–2🌿 — — source p. 64 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn 🌸 perennials
-- Aster / Tricyrtis (Toad Lily) / Persicaria — — Beautiful autumn 🌸 additions
-- Iris / Daylily / Hosta (early-spring types) — ✄ Divide Wk 1–3 —
+- **[REVIEW ACTION]** Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn 🌸 perennials — source p. 64 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Aster / Tricyrtis (Toad Lily) / Persicaria — — Beautiful autumn 🌸 additions — source p. 64 — grouped source entry; individual timing unresolved
+- **[DIVIDING]** Iris / Daylily / Hosta (early-spring types) — ✄ Divide Wk 1–3 — — source p. 64 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Hydrangea / Caryopteris / Perovskia / late Roses — — Beautiful autumn 🌸 colour
-- Roses / shrubs (general) — — Do NOT prune — leave until spring
-- Tender shrubs (Agapanthus, Crocosmia) — — Begin mulching crowns🌲 with straw
+- **[REVIEW ACTION]** Hydrangea / Caryopteris / Perovskia / late Roses — — Beautiful autumn 🌸 colour — source p. 65 — grouped source entry; individual timing unresolved
+- **[PRUNING / SEASONAL MAINTENANCE]** Roses / shrubs (general) — — Do NOT prune — leave until spring — source p. 65 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Tender shrubs (Agapanthus, Crocosmia) — — Begin mulching crowns🌲 with straw — source p. 65 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- All climbers — — Cut only excessively long shoots — no hard prune.
-- Collect seed pods.
+- **[PRUNING / REVIEW ACTION]** All climbers — — Cut only excessively long shoots — no hard prune. — source p. 65
+- **[REVIEW ACTION]** Collect seed pods. — source p. 65
 
 #### Bc Native Plants
 
-- Aster subspicatus / Goldenrod — — Autumn native bloom🌸
-- Snowberry (Symphoricarpos) — — White berries forming — leave for birds
+- **[FLOWERING]** Aster subspicatus / Goldenrod — — Autumn native bloom🌸 — source p. 65 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Snowberry (Symphoricarpos) — — White berries forming — leave for birds — source p. 65
 
 ## October
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Mâche / Claytonia / Winter Spinach — Direct sow under 🌿 cloche Wk 1–2 —
-- Overwintering Onion sets — Direct sow Wk 1–2🌿 —
-- Overwintering Brassicas — → Transplant under 🌍 🌍 cover —
-- Winter Squash ❄ — — Harvest ALL before 🌾 mid-Oct
-- Peppers / Tomatoes (green) — — Last harvest; ripen 🌾 tomatoes indoors
-- Beets / Carrots / Parsnips — — Harvest; store in damp🌾 sand
-- Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac — — Continue harvesting; 🌾 improve with frost
+- **[DIRECT SOWING]** Mâche / Claytonia / Winter Spinach — Direct sow under 🌿 cloche Wk 1–2 — — source p. 68 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Overwintering Onion sets — Direct sow Wk 1–2🌿 — — source p. 68
+- **[TRANSPLANTING]** Overwintering Brassicas — → Transplant under 🌍 🌍 cover — — source p. 68
+- **[INDOOR SOWING / HARVESTING]** Winter Squash ❄ — — Harvest ALL before 🌾 mid-Oct — source p. 68
+- **[HARVESTING]** Peppers / Tomatoes (green) — — Last harvest; ripen 🌾 tomatoes indoors — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Beets / Carrots / Parsnips — — Harvest; store in damp🌾 sand — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac — — Continue harvesting; 🌾 improve with frost — source p. 68 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- Rosemary (exposed sites) — — Mulch base if in 🌲 exposed location ❄
-- Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze
+- **[SEASONAL MAINTENANCE]** Rosemary (exposed sites) — — Mulch base if in 🌲 exposed location ❄ — source p. 68
+- **[INDOOR SOWING / HARVESTING]** Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze — source p. 68 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Apples (late) / Pears / Quince — — Last harvest; store in 🌾 cool dark place
-- Hazelnut / Walnut — — Harvest from ground 🌾 after drop
+- **[HARVESTING]** Apples (late) / Pears / Quince — — Last harvest; store in 🌾 cool dark place — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Hazelnut / Walnut — — Harvest from ground 🌾 after drop — source p. 68 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Garlic — Plant Wk 1–3 (last 🍅 good window) —
-- Parsnips — — Leave some in ground 🌾 — frost sweetens them
-- Carrots / Beets — — Harvest and store in 🌾 damp sand
+- **[REVIEW ACTION]** Garlic — Plant Wk 1–3 (last 🍅 good window) — — source p. 69
+- **[REVIEW ACTION]** Parsnips — — Leave some in ground 🌾 — frost sweetens them — source p. 69
+- **[HARVESTING]** Carrots / Beets — — Harvest and store in 🌾 damp sand — source p. 69 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- Asparagus — — Mulch with straw Wk 🌲 3–4
-- Artichoke crowns — — Mulch deeply — 🌲 borderline hardy ❄
-- Rhubarb — Divide Wk 1–2 —
+- **[SEASONAL MAINTENANCE]** Asparagus — — Mulch with straw Wk 🌲 3–4 — source p. 69
+- **[REVIEW ACTION]** Artichoke crowns — — Mulch deeply — 🌲 borderline hardy ❄ — source p. 69
+- **[DIVIDING]** Rhubarb — Divide Wk 1–2 — — source p. 69
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- All annuals — — ❄ Remove frost-killed annuals; compost healthy material. Leave self- seeder seeds on soil.
+- **[SEASONAL MAINTENANCE]** All annuals — — ❄ Remove frost-killed annuals; compost healthy material. Leave self- seeder seeds on soil. — source p. 71
 
 #### Hardy Perennials
 
-- Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems 🌸 for winter interest
-- Agapanthus / Crocosmia / Gunnera — — Mulch crowns with 🌲 straw — borderline hardy
+- **[SEASONAL MAINTENANCE]** Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems 🌸 for winter interest — source p. 71 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Agapanthus / Crocosmia / Gunnera — — Mulch crowns with 🌲 straw — borderline hardy — source p. 71 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3🍅 —
-- Tulips — Plant Wk 3–4 (late 🍅 planting reduces tulip fire) —
-- Dahlias — — Lift after first hard frost; dry 2 wks; store cool
-- Gladiolus corms — — Dry and store frost-free if not done in Sep
+- **[REVIEW ACTION]** Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3🍅 — — source p. 72 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Tulips — Plant Wk 3–4 (late 🍅 planting reduces tulip fire) — — source p. 72
+- **[SEASONAL MAINTENANCE]** Dahlias — — Lift after first hard frost; dry 2 wks; store cool — source p. 72
+- **[SEASONAL MAINTENANCE]** Gladiolus corms — — Dry and store frost-free if not done in Sep — source p. 72
 
 #### Shrubs & Trees (Ornamental)
 
-- New deciduous shrubs and trees — Plant Oct–Nov (ideal planting time) —
-- Borderline-hardy shrubs (Ceanothus, Abutilon) — — Mulch base deeply; do 🌲
-- NOT prune roses
+- **[REVIEW ACTION]** New deciduous shrubs and trees — Plant Oct–Nov (ideal planting time) — — source p. 72
+- **[SEASONAL MAINTENANCE]** Borderline-hardy shrubs (Ceanothus, Abutilon) — — Mulch base deeply; do 🌲 — source p. 72 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** NOT prune roses — source p. 72
 
 #### Climbing Vines
 
-- All climbers — — Tidy rose ties. Do NOT prune Wisteria or
-- Clematis now.
+- **[PRUNING]** All climbers — — Tidy rose ties. Do NOT prune Wisteria or — source p. 72
+- **[REVIEW ACTION]** Clematis now. — source p. 72
 
 #### Bc Native Plants
 
-- Snowberry / Highbush Cranberry / Red Osier — — Berries for birds; leave all native structure standing
+- **[SEASONAL MAINTENANCE]** Snowberry / Highbush Cranberry / Red Osier — — Berries for birds; leave all native structure standing — source p. 72 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of🌸 the season
+- **[REVIEW ACTION]** Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of🌸 the season — source p. 73 — grouped source entry; individual timing unresolved
 
 ## November
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Leeks — — Continue harvesting 🌾 through winter
-- Brussels Sprouts — — Better after frost — 🌾 sweeter flavour
-- Kale / Chard / Mâche — — Excellent cold-hardy 🌾 crops
-- Winter Spinach / Claytonia / Overwintering Lettuce — — Harvest under cover 🌾 only ❄
-- Parsnips / Turnips / Celeriac — — Harvest or leave 🌾 mulched in ground
-- No outdoor sowing this month. Maintain row covers and cloches. Check for slug damage under covers.
+- **[HARVESTING]** Leeks — — Continue harvesting 🌾 through winter — source p. 75
+- **[REVIEW ACTION]** Brussels Sprouts — — Better after frost — 🌾 sweeter flavour — source p. 75
+- **[REVIEW ACTION]** Kale / Chard / Mâche — — Excellent cold-hardy 🌾 crops — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Winter Spinach / Claytonia / Overwintering Lettuce — — Harvest under cover 🌾 only ❄ — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Parsnips / Turnips / Celeriac — — Harvest or leave 🌾 mulched in ground — source p. 75 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** No outdoor sowing this month. Maintain row covers and cloches. Check for slug damage under covers. — source p. 75
 
 #### Herbs
 
-- Parsley / Chives / Rosemary — — Harvest from 🌾 protected plants
-- Sage / Thyme — — Light harvest; thyme: 🌾 mulch crowns in exposed sites
+- **[HARVESTING]** Parsley / Chives / Rosemary — — Harvest from 🌾 protected plants — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Sage / Thyme — — Light harvest; thyme: 🌾 mulch crowns in exposed sites — source p. 75 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- Stored apples / pears — — Check monthly; 🌾 remove any rotting fruit
-- Bare-root fruit trees / canes — Plant Nov–Feb (ideal) —
-- Currants / Gooseberries — — ✄ Prune Nov–Feb while dormant
+- **[SEASONAL MAINTENANCE]** Stored apples / pears — — Check monthly; 🌾 remove any rotting fruit — source p. 76 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Bare-root fruit trees / canes — Plant Nov–Feb (ideal) — — source p. 76 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Currants / Gooseberries — — ✄ Prune Nov–Feb while dormant — source p. 76 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- Parsnips / Carrots / Beets — — Harvest from storage 🌾 or mulched ground
-- Celeriac — — Harvest as needed 🌾 from ground
+- **[HARVESTING]** Parsnips / Carrots / Beets — — Harvest from storage 🌾 or mulched ground — source p. 76 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Celeriac — — Harvest as needed 🌾 from ground — source p. 76
 
 #### Legumes & Grains
 
-- All legumes & grains — — Nothing to sow or harvest this month
+- **[HARVESTING]** All legumes & grains — — Nothing to sow or harvest this month — source p. 76
 
 #### Perennial Edibles
 
-- Asparagus — — Mulch with straw; 🌲 leave ferns standing
-- Rhubarb — — Dormant; do not disturb
-- Artichoke — — Crowns mulched with 🌲 straw ❄
-- Garlic (last call) — Plant Wk 1 if not yet 🍅 done —
+- **[SEASONAL MAINTENANCE]** Asparagus — — Mulch with straw; 🌲 leave ferns standing — source p. 76
+- **[REVIEW ACTION]** Rhubarb — — Dormant; do not disturb — source p. 76
+- **[SEASONAL MAINTENANCE]** Artichoke — — Crowns mulched with 🌲 straw ❄ — source p. 76
+- **[REVIEW ACTION]** Garlic (last call) — Plant Wk 1 if not yet 🍅 done — — source p. 76
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- All annuals — — None. Clean beds. Mulch annual beds for spring.
+- **[SEASONAL MAINTENANCE]** All annuals — — None. Clean beds. Mulch annual beds for spring. — source p. 79
 
 #### Hardy Perennials
 
-- Hellebores (Lenten Rose) — — May begin blooming 🌸 late Nov ❄
-- Schizostylis (Kaffir Lily) — — Fading last blooms🌸
-- Most perennials — — Leave all stems standing — winter interest and insect habitat
+- **[FLOWERING]** Hellebores (Lenten Rose) — — May begin blooming 🌸 late Nov ❄ — source p. 79
+- **[REVIEW ACTION]** Schizostylis (Kaffir Lily) — — Fading last blooms🌸 — source p. 79
+- **[REVIEW ACTION]** Most perennials — — Leave all stems standing — winter interest and insect habitat — source p. 79
 
 #### Bulbs & Corms
 
-- Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant 🍅 Wk 1–2
-- All dormant underground Stored Dahlia tubers / Gladiolus corms — — Check stored bulbs for rot; remove soft areas
+- **[SEASONAL MAINTENANCE]** Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant 🍅 Wk 1–2 — source p. 79 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** All dormant underground Stored Dahlia tubers / Gladiolus corms — — Check stored bulbs for rot; remove soft areas — source p. 79 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- Viburnum bodnantense 'Dawn' — — Beginning to bloom — 🌸 beautifully fragrant ❄
-- Mahonia 'Charity' — — Beginning to bloom — 🌸 bold yellow spikes
-- New bare-root deciduous shrubs and trees — Plant Nov–Mar (ideal) —
-- Tender shrubs (Ceanothus, Myrtle) — — Mulch base protection 🌲
+- **[FLOWERING / REVIEW ACTION]** Viburnum bodnantense 'Dawn' — — Beginning to bloom — 🌸 beautifully fragrant ❄ — source p. 79
+- **[FLOWERING / REVIEW ACTION]** Mahonia 'Charity' — — Beginning to bloom — 🌸 bold yellow spikes — source p. 79
+- **[REVIEW ACTION]** New bare-root deciduous shrubs and trees — Plant Nov–Mar (ideal) — — source p. 79
+- **[SEASONAL MAINTENANCE]** Tender shrubs (Ceanothus, Myrtle) — — Mulch base protection 🌲 — source p. 79 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- All climbers — — Clean up dead annual vines. Secure permanent vine supports for winter storms.
+- **[SEASONAL MAINTENANCE]** All climbers — — Clean up dead annual vines. Secure permanent vine supports for winter storms. — source p. 80
 
 #### Bc Native Plants
 
-- Snowberry (white berries) / Red Osier Dogwood (red stems) — — Excellent winter structure and bird food; leave all in place
+- **[SEASONAL MAINTENANCE]** Snowberry (white berries) / Red Osier Dogwood (red stems) — — Excellent winter structure and bird food; leave all in place — source p. 80 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- Viburnum / Mahonia stems / Holly berries — — For fragrant indoor 🌸 arrangements
-- Dried everlastings (Strawflower, Statice) — — Use dried flower store from summer
+- **[REVIEW ACTION]** Viburnum / Mahonia stems / Holly berries — — For fragrant indoor 🌸 arrangements — source p. 80 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Dried everlastings (Strawflower, Statice) — — Use dried flower store from summer — source p. 80 — grouped source entry; individual timing unresolved
 
 ## December
 
-### Edibles
+### Vegetables and edible crops
 
 #### Vegetables
 
-- Kale — — Excellent after frost — 🌾 sweetened by cold
-- Brussels Sprouts — — Best now — frost 🌾 improves flavour greatly
-- Leeks / Chard (under cover) — — Harvest as needed ❄🌾 Mâche / Claytonia / Winter
-- Spinach (under cover) — — Harvest under glass or 🌾 polytunnel
-- Parsnips — — Very sweet now — 🌾 best after hard frost
-- Turnips — — Harvest as needed 🌾
+- **[REVIEW ACTION]** Kale — — Excellent after frost — 🌾 sweetened by cold — source p. 82
+- **[REVIEW ACTION]** Brussels Sprouts — — Best now — frost 🌾 improves flavour greatly — source p. 82
+- **[HARVESTING]** Leeks / Chard (under cover) — — Harvest as needed ❄🌾 Mâche / Claytonia / Winter — source p. 82 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Spinach (under cover) — — Harvest under glass or 🌾 polytunnel — source p. 82
+- **[REVIEW ACTION]** Parsnips — — Very sweet now — 🌾 best after hard frost — source p. 82
+- **[HARVESTING]** Turnips — — Harvest as needed 🌾 — source p. 82
 
 #### Herbs
 
-- Parsley (under cover / mild spots) — — Harvest lightly ❄🌾
-- Rosemary / Sage / Thyme — — Frost-hardy; harvest in🌾 mild spells
-- Other herbs — — Dormant — use stored/frozen summer herbs
+- **[HARVESTING]** Parsley (under cover / mild spots) — — Harvest lightly ❄🌾 — source p. 83 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Rosemary / Sage / Thyme — — Frost-hardy; harvest in🌾 mild spells — source p. 83 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Other herbs — — Dormant — use stored/frozen summer herbs — source p. 83
 
 #### Fruits & Berries
 
-- Stored apples / pears — — Check; remove any rot🌾
-- Bare-root trees and canes — Plant in mild spells Dec– Feb —
-- Apple / Pear — — ✄ Dormant pruning Dec–
-- Feb (no disease risk)
+- **[SEASONAL MAINTENANCE]** Stored apples / pears — — Check; remove any rot🌾 — source p. 83 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Bare-root trees and canes — Plant in mild spells Dec– Feb — — source p. 83
+- **[PRUNING]** Apple / Pear — — ✄ Dormant pruning Dec– — source p. 83 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Feb (no disease risk) — source p. 83
 
 #### Roots & Tubers
 
-- Parsnips / Carrots / Beets / Celeriac — — Harvest from storage 🌾 or mulched ground
-- Garlic (overwintering) — — Overwintering underground — nothing to do ❄
+- **[HARVESTING]** Parsnips / Carrots / Beets / Celeriac — — Harvest from storage 🌾 or mulched ground — source p. 83 — grouped source entry; individual timing unresolved
+- **[REVIEW ACTION]** Garlic (overwintering) — — Overwintering underground — nothing to do ❄ — source p. 83
 
 #### Perennial Edibles
 
-- Rhubarb — — Fully dormant. Force under upturned pot for
-- Jan/Feb harvest. Asparagus — — Fully dormant with straw mulch ❄
+- **[REVIEW ACTION]** Rhubarb — — Fully dormant. Force under upturned pot for — source p. 84
+- **[SEASONAL MAINTENANCE]** Jan/Feb harvest. Asparagus — — Fully dormant with straw mulch ❄ — source p. 84 — grouped source entry; individual timing unresolved
 
-### Ornamentals
+### Flowers and ornamentals
 
 #### Annual Flowers
 
-- All annuals — — None. Beds resting.
-- Appreciate the quiet season.
+- **[REVIEW ACTION]** All annuals — — None. Beds resting. — source p. 86
+- **[REVIEW ACTION]** Appreciate the quiet season. — source p. 86
 
 #### Hardy Perennials
 
-- Helleborus niger (Christmas Rose) — — Blooming 🌸 magnificently ❄
-- Euphorbia amygdaloides var. robbiae — — Evergreen; architectural interest year-round
-- All perennial stems — — Leave all stems standing — insect overwintering habitat
+- **[FLOWERING]** Helleborus niger (Christmas Rose) — — Blooming 🌸 magnificently ❄ — source p. 86
+- **[REVIEW ACTION]** Euphorbia amygdaloides var. robbiae — — Evergreen; architectural interest year-round — source p. 86
+- **[REVIEW ACTION]** All perennial stems — — Leave all stems standing — insect overwintering habitat — source p. 86
 
 #### Bulbs & Corms
 
-- Spring bulbs (all) outdoors — — Dormant underground ❄ — spring magic to come
+- **[REVIEW ACTION]** Spring bulbs (all) outdoors — — Dormant underground ❄ — spring magic to come — source p. 86
 
 #### Shrubs & Trees (Ornamental)
 
-- Viburnum bodnantense 'Dawn' — — Fragrant mid-winter 🌸 bloom — outstanding
-- Mahonia (all types) — — Peak bloom — bold 🌸 yellow, sweetly fragrant
-- Witch Hazel (Hamamelis) — — Buds swelling; first spidery blooms soon
-- Garrya elliptica — — Silver catkins emerging — beautiful winter display
-- Wintersweet (Chimonanthus) — — If established — 🌸 exquisite fragrance ❄
+- **[FLOWERING / REVIEW ACTION]** Viburnum bodnantense 'Dawn' — — Fragrant mid-winter 🌸 bloom — outstanding — source p. 87
+- **[FLOWERING / REVIEW ACTION]** Mahonia (all types) — — Peak bloom — bold 🌸 yellow, sweetly fragrant — source p. 87
+- **[REVIEW ACTION]** Witch Hazel (Hamamelis) — — Buds swelling; first spidery blooms soon — source p. 87
+- **[REVIEW ACTION]** Garrya elliptica — — Silver catkins emerging — beautiful winter display — source p. 87
+- **[REVIEW ACTION]** Wintersweet (Chimonanthus) — — If established — 🌸 exquisite fragrance ❄ — source p. 87
 
 #### Climbing Vines
 
-- All climbers — — Dormant. Check and tighten ties and supports during winter storms.
+- **[SEASONAL MAINTENANCE]** All climbers — — Dormant. Check and tighten ties and supports during winter storms. — source p. 87
 
 #### Bc Native Plants
 
-- Red Osier Dogwood — — Brilliant red stems — outstanding winter interest
-- Holly / Evergreen Huckleberry (Vaccinium ovatum) — — Berries for wildlife; glossy evergreen leaves
+- **[REVIEW ACTION]** Red Osier Dogwood — — Brilliant red stems — outstanding winter interest — source p. 87
+- **[SEASONAL MAINTENANCE]** Holly / Evergreen Huckleberry (Vaccinium ovatum) — — Berries for wildlife; glossy evergreen leaves — source p. 87 — grouped source entry; individual timing unresolved

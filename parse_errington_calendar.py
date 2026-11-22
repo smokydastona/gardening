@@ -363,7 +363,11 @@ def parse_pdf(pdf_path: Path) -> tuple[list[dict[str, str]], list[CalendarEntry]
 
 def write_entries_csv(output_path: Path, entries: list[CalendarEntry]) -> None:
     with output_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(asdict(entries[0]).keys()))
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=list(asdict(entries[0]).keys()),
+            lineterminator="\n",
+        )
         writer.writeheader()
         for entry in entries:
             writer.writerow(asdict(entry))
@@ -409,7 +413,11 @@ def write_aggregate_csv(output_path: Path, rows: list[dict[str, str]]) -> None:
     if not rows:
         return
     with output_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=list(rows[0].keys()),
+            lineterminator="\n",
+        )
         writer.writeheader()
         writer.writerows(rows)
 
