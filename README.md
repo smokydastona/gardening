@@ -15,12 +15,14 @@ review are still incomplete.
 | Errington zone | Unresolved: calendar PDF says 8a; both chart images say 8b |
 | Frost anchors | April 15 and October 15 are approximate source values, not guaranteed dates |
 | Illustrations | 0 approved; 70 image files remain on the separate `illustration-assets` branch pending identity/license review |
-| PDF pipeline | Implemented with source checks, Markdown parsing, embedded fonts, and generated TOC |
+| PDF pipeline | One reproducible build command generates the complete encyclopedia, monthly guide, and illustrated directory |
 | Publication approval | `IN_PROGRESS`; see [publication QA](PUBLICATION_QA_REPORT.md) |
 
 ## Key deliverables
 
 - [Working encyclopedia PDF](Errington_Gardening_Encyclopedia.pdf)
+- Errington Monthly Gardening Guide PDF
+- Errington Illustrated Plant Directory PDF
 - [Editorial manuscript](ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md)
 - [Monthly source calendar](ERRINGTON_MONTHLY_REFERENCE.md)
 - [Plant registry index](ERRINGTON_PLANT_CATALOG.md)
@@ -62,16 +64,8 @@ PowerShell activation: `.venv\Scripts\Activate.ps1`.
 ## Validate and build
 
 ```sh
-python validate_pipeline.py
+python build_all.py
 python -m pytest
-python parse_errington_calendar.py
-python validate_pipeline.py
-python enrich_plant_registry.py
-python build_project_reports.py
-python build_encyclopedia_outputs.py
-python build_final_encyclopedia_pdf.py
-python validate_pipeline.py --publication
-python render_publication.py
 ```
 
 The source record-count snapshot intentionally checks 137 plant rows and 359 calendar rows.

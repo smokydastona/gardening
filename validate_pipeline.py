@@ -38,6 +38,12 @@ REQUIRED_INPUTS = (
     "ERRINGTON_ENCYCLOPEDIA_HANDOFF.md",
 )
 
+RELEASE_PDFS = (
+    "Errington_Gardening_Encyclopedia.pdf",
+    "Errington_Monthly_Gardening_Guide.pdf",
+    "Errington_Illustrated_Plant_Directory.pdf",
+)
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8-sig", newline="") as handle:
@@ -80,6 +86,18 @@ def validate_inputs(base_dir: Path, check_snapshot: bool = True) -> dict[str, in
         "plant-" + re.sub(r"[^A-Za-z0-9]+", "-", row["display_name"]).strip("-").lower()
         for row in registry
     ]
+    if "plant_id" in registry[0]:
+        mismatched_ids = [
+            row["display_name"]
+            for row in registry
+            if row.get("plant_id", "").strip()
+            != "plant-" + re.sub(r"[^A-Za-z0-9]+", "-", row["display_name"]).strip("-").lower()
+        ]
+        if mismatched_ids:
+            raise ValueError(
+                "Plant stable IDs do not match display names: "
+                + ", ".join(mismatched_ids[:20])
+            )
     duplicate_ids = sorted(
         plant_id for plant_id, count in Counter(stable_ids).items() if count > 1
     )
@@ -256,6 +274,29 @@ def validate_publication(base_dir: Path) -> dict[str, int | str]:
     }
 
 
+def validate_publication_set(base_dir: Path) -> dict[str, dict[str, int | str]]:
+    results: dict[str, dict[str, int | str]] = {}
+    for filename in RELEASE_PDFS:
+        path = base_dir / filename
+        if not path.is_file():
+            raise ValueError(f"Missing publication: {filename}")
+        reader = PdfReader(str(path), strict=True)
+        if not reader.pages:
+            raise ValueError(f"Publication PDF has no pages: {filename}")
+        if any(not (page.extract_text() or "").strip() for page in reader.pages[1:]):
+            raise ValueError(f"Publication PDF contains an empty page: {filename}")
+        metadata = reader.metadata or {}
+        author = str(metadata.get("/Author", ""))
+        if not author or "copilot" in author.casefold():
+            raise ValueError(f"Publication PDF has invalid author metadata: {filename}")
+        results[filename] = {
+            "pdf_pages": len(reader.pages),
+            "pdf_bytes": path.stat().st_size,
+            "metadata_author": author,
+        }
+    return results
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate encyclopedia source data and outputs.")
     parser.add_argument("--publication", action="store_true", help="Validate the generated PDF.")
@@ -273,11 +314,12 @@ def main() -> None:
         f"{counts['calendar_months']} months."
     )
     if args.publication:
-        result = validate_publication(base_dir)
-        print(
-            f"PDF validation passed: {result['pdf_pages']} pages, "
-            f"{result['pdf_bytes']} bytes; author={result['metadata_author']}."
-        )
+        results = validate_publication_set(base_dir)
+        for filename, result in results.items():
+            print(
+                f"{filename}: {result['pdf_pages']} pages, "
+                f"{result['pdf_bytes']} bytes; author={result['metadata_author']}."
+            )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,48 @@
+{
+  "location": "Errington, British Columbia",
+  "climate_zone_status": "conflicting-evidence",
+  "zone_sources": [
+    {
+      "source_id": "ERRINGTON-CALENDAR-PDF",
+      "claim": "The supplied calendar PDF identifies Zone 8a.",
+      "url": "",
+      "publication_date": "unknown",
+      "access_date": "2026-11-22",
+      "review_status": "source-extracted-not-resolved"
+    },
+    {
+      "source_id": "ERRINGTON-CHART-IMAGES",
+      "claim": "The supplied crop and ornamental chart images visibly identify Zone 8b.",
+      "url": "",
+      "publication_date": "unknown",
+      "access_date": "2026-11-22",
+      "review_status": "source-extracted-not-resolved"
+    },
+    {
+      "source_id": "NRCan-HARDINESS-SITE",
+      "title": "Canada's Plant Hardiness Site",
+      "organization": "Natural Resources Canada",
+      "url": "https://planthardiness.gc.ca/",
+      "access_date": "2026-11-22",
+      "claim": "Canadian hardiness zones use a multi-variable 1991-2020 Canadian model and a separate USDA extreme-minimum approach.",
+      "review_status": "examined-methodology"
+    }
+  ],
+  "representative_station": {
+    "name": "NANAIMO A",
+    "status": "candidate-not-Errington-normal",
+    "eccc_climate_id": "1025370",
+    "url": "https://climate.weather.gc.ca/climate_normals/results_1981_2010_e.html?searchType=stnProv&lstProvince=BC&climate_id=1025370&dispBack=0",
+    "period": "1981-2010",
+    "latitude": "49.0500",
+    "longitude": "-123.8700",
+    "elevation_m": "28",
+    "selection_limit": "Regional proxy only; distance, elevation, exposure, and microclimate require local validation."
+  },
+  "frost_dates": {
+    "status": "source-anchors-not-independent-normal",
+    "source_pdf_anchors": ["April 15", "October 15"],
+    "candidate_station_statement": "A candidate 1981-2010 Nanaimo A page reports probability dates for spring and fall frost, but no Errington station-level figures or exact probability table were downloaded and reviewed.",
+    "do_not_publish_as": ["guaranteed frost date", "Errington climate normal", "verified 183-day growing season"]
+  }
+}
