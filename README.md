@@ -32,6 +32,7 @@ review are still incomplete.
 - [Repository audit](AUDIT_REPORT.md)
 - [Publication quality report](PUBLICATION_QA_REPORT.md)
 - [Source policy](docs/SOURCE_POLICY.md) and [data dictionary](docs/DATA_DICTIONARY.md)
+- [Research and verification library](docs/RESEARCH_LIBRARY.md)
 
 ## Repository map
 

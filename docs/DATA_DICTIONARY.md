@@ -2,6 +2,14 @@
 
 ## Source records
 
+### `claims/CLAIM_SOURCES.csv`
+
+Claim-level source evidence, with separate rows for individual sources. Record the exact
+claim, source and access details, geographic applicability, confidence, review and status.
+Use notes to connect cross-checks and record agreement, conflicts, limitations and
+publication suitability. See [research library](RESEARCH_LIBRARY.md); a listed candidate
+source is not itself a verified claim.
+
 ### `plant_registry.csv`
 
 The 137-row working plant inventory. Existing names, taxonomy values, and notes are retained

@@ -35,6 +35,10 @@ their statements as independently reverified here. Add a source artifact or a du
 author/organization, publication date, access date, page/section, and the supported claim
 before relying on them in a published profile.
 
+The [research and verification library](RESEARCH_LIBRARY.md) lists candidate external
+resources, their audit limitations, and a claim-level verification matrix. Inclusion is not
+evidence that a source was accessed or that it supports a particular claim.
+
 ## Climate and calendar policy
 
 The supplied calendar PDF says Zone 8a; both chart images say Zone 8b. Keep both statements
