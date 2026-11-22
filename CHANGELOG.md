@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.1 — 2026-11-22
+
+- Added SHA-256 snapshots and build-time checks for supplied calendar documents, chart
+  images, the registry, and calendar transcription records.
+- Updated the plant-directory PDF to embed only approved stable-ID illustrations and to
+  label the zero-approved output accurately.
+- Tested all 70 external-branch PNGs for decoding and dimensions, identified duplicate
+  bytes and cross-plant labels, and kept all candidates unapproved.
+- Added an implementation register and refreshed source, illustration, and publication QA
+  status with current counts and unresolved review gates.
+
 ## 0.2.0 — 2026-11-22
 
 - Added source policy, data dictionary, audit, verification, calendar, illustration, and

@@ -112,3 +112,23 @@ run was available for the final implementation revision at report time.
 **NOT READY**: critical botanical, climate, calendar, illustration, and human publication
 review requirements remain unsatisfied. The software implementation and reproducible build
 are complete enough to support subsequent review.
+
+## 13. Follow-up implementation check
+
+The current working tree adds SHA-256 snapshots for the supplied calendar PDF, chart images,
+plant registry, calendar transcription, and full-text transcription. `validate_pipeline.py`
+now rejects modifications to those files unless the source-hash register is explicitly
+updated. The plant-directory builder embeds only approved, stable-ID illustrations and uses
+an explicit “Illustrations Pending Review” title when none qualify. A focused test covers
+both the zero-approved state and embedding a valid approved asset.
+
+The separate `illustration-assets` branch was inspected at
+`c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5`: 70 valid 1024 × 1536 PNG files contain 68
+unique image byte sequences. Contact-sheet review found visible cross-plant labels, so the
+assets remain unapproved. No individual illustrations were generated in this implementation
+run because image-provider credentials were unavailable. No educational figure collection,
+fully researched plant profiles, or complete worked-example corpus has been produced.
+
+Current build and test commands are recorded in `reports/IMPLEMENTATION_REGISTER.md` and
+`PUBLICATION_QA_REPORT.md`; the current local suite passes 41 tests. All outstanding
+scientific and human review gates remain open.

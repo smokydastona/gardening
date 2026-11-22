@@ -26,7 +26,7 @@ Errington calendar evidence currently disagrees on the hardiness-zone label:
 1. The calendar text extraction says Zone 8a and reports approximately 183 frost-free days, 1,200 mm annual rainfall, and winter lows rarely below -12 C.
 2. Both checked-in calendar images are branded Zone 8b.
 3. Both text and images show approximate last and first frost dates of April 15 and October 15.
-4. The original calendar PDF is not checked into this workspace, so the extraction cannot be verified against its page images here.
+4. The supplied 89-page calendar PDF is checked into the repository. Its text extraction and chart transcriptions can be compared with the source pages, but that page-by-page editorial comparison has not yet been completed.
 
 Keep each claim attributed to its source. Use frost dates as approximate planning anchors, not guarantees, and do not resolve the 8a/8b discrepancy without stronger evidence.
 
@@ -381,16 +381,24 @@ Every illustration must show:
 2. Botanical references override common-name ambiguity.
 3. When uncertainty remains, use conservative and safe horticultural guidance.
 
-## 9. Remaining Required Work
+## 9. Registry Reconciliation And Remaining Required Work
 
-The remaining completion work is exactly this:
+This historical plan enumerates 125 scope entries. The current retained registry contains
+137 records; the 12-record difference must be reconciled by stable identity and category,
+not removed to force the historical count. All 137 evidence templates remain unverified.
+
+The remaining completion work includes:
 
 1. Generate all 125 per-plant botanical taxonomy sets.
 2. Generate all 125 per-plant Errington timing profiles.
 3. Generate all 125 per-plant illustration briefs.
 4. Generate all 125 per-plant illustration prompts.
 5. Assemble all entries into the encyclopedia chapter structure.
+6. Reconcile all 137 current registry identities against the 125 historical plan entries.
+7. Review all 359 calendar transcriptions against the supplied PDF and chart images.
+8. Produce and individually review licensed illustrations; the 70 files on the separate
+   illustration branch include duplicate image bytes and visible cross-plant labels.
 
 ## 10. Operational Handoff Rule
 
-Another assistant should treat this plan, the checked-in calendar extraction and images, the structured data outputs, and the enriched registry as the active working layer. The original Errington calendar PDF is not checked in; do not claim to have re-verified the extraction against it.
+Another assistant should treat this plan, the checked-in source PDF and chart images, the structured data outputs, and the enriched registry as the active working layer. The PDF is available for comparison, but do not claim that every transcription has been visually verified unless the page-by-page review is recorded.

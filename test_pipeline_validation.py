@@ -1,11 +1,20 @@
 import csv
+import hashlib
 
 import pytest
 from pypdf import PdfWriter
 
 import build_project_reports
 from build_project_reports import build_calendar_outputs, build_illustration_manifest, plant_id
-from validate_pipeline import REQUIRED_INPUTS, validate_inputs
+from validate_pipeline import HASHED_SOURCE_FILES, REQUIRED_INPUTS, validate_inputs, validate_source_hashes
+
+
+def write_source_hashes(base_dir):
+    lines = []
+    for filename in HASHED_SOURCE_FILES:
+        digest = hashlib.sha256((base_dir / filename).read_bytes()).hexdigest()
+        lines.append(f"{digest}  {filename}")
+    (base_dir / "SOURCE_SHA256SUMS.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def test_stable_plant_ids_are_normalized() -> None:
@@ -107,6 +116,7 @@ def test_source_count_guard_detects_record_loss(tmp_path) -> None:
         "MARCH,edibles,VEGETABLES,4,Arugula,ARUGULA,Arugula\n",
         encoding="utf-8",
     )
+    write_source_hashes(tmp_path)
 
     counts = validate_inputs(tmp_path, check_snapshot=False)
 
@@ -137,6 +147,19 @@ def test_source_validation_rejects_bad_calendar_month(tmp_path) -> None:
         "FROSTMONTH,edibles,VEGETABLES,4,Arugula,ARUGULA,Arugula\n",
         encoding="utf-8",
     )
+    write_source_hashes(tmp_path)
 
     with pytest.raises(ValueError, match="Invalid calendar months"):
         validate_inputs(tmp_path, check_snapshot=False)
+
+
+def test_source_hash_guard_detects_changed_original(tmp_path) -> None:
+    for filename in HASHED_SOURCE_FILES:
+        (tmp_path / filename).write_bytes(filename.encode("utf-8"))
+    write_source_hashes(tmp_path)
+
+    validate_source_hashes(tmp_path)
+    (tmp_path / "plant_registry.csv").write_text("changed", encoding="utf-8")
+
+    with pytest.raises(ValueError, match="Protected source files changed"):
+        validate_source_hashes(tmp_path)

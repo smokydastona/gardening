@@ -149,3 +149,24 @@ integration. Automated tests and PDF validation are run on
 the implementation branch. Independently researched botanical profiles, local timing
 review, asset licensing/identity review, complete index, and final human editorial/visual
 approval remain outstanding.
+
+## Current implementation check — 2026-11-22
+
+The findings above retain historical baseline observations. Current local verification
+reports 137 registry records, 359 calendar entries, and three PDFs with 101, 10, and 23
+pages. The previous 336-page PDF and Copilot-author metadata refer to an earlier build; the
+current encyclopedia is 101 pages and credits the editorial project. The plant-directory
+PDF embeds only assets with an approved stable-ID manifest entry and hash-bound human-review
+sidecar. With zero approved illustrations, it identifies itself as pending review.
+
+`SOURCE_SHA256SUMS.txt` now protects the supplied calendar PDF, chart images, source
+registry, calendar CSV, and full-text transcription. `validate_pipeline.py` enforces those
+hashes during the reproducible build. The separate illustration branch was examined at
+commit `c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5`: 70 valid portrait PNGs, 68 unique image
+payloads, two duplicate pairs, and observed cross-plant labels. No image was approved or
+generated in this implementation run.
+
+The working build and local tests pass, but CI has not been run for this revision. Full
+resolution print inspection, individual plant research, calendar comparison, educational
+figure development, and human publication approval remain incomplete; see
+`reports/IMPLEMENTATION_REGISTER.md` and `PUBLICATION_QA_REPORT.md`.

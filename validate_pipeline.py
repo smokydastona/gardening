@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import re
 from collections import Counter
 from pathlib import Path
@@ -30,12 +31,21 @@ MONTHS = {
 REQUIRED_INPUTS = (
     "plant_registry.csv",
     "errington_calendar_entries.csv",
+    "SOURCE_SHA256SUMS.txt",
     "Errington BC Zone 8a Planting Calendar.pdf",
     "Planting Calander-Crops.png",
     "Planting Calander-Ornamentals.png",
     "cover.png",
     "ERRINGTON_CALENDAR_FULL_TEXT.md",
     "ERRINGTON_ENCYCLOPEDIA_HANDOFF.md",
+)
+HASHED_SOURCE_FILES = (
+    "Errington BC Zone 8a Planting Calendar.pdf",
+    "Planting Calander-Crops.png",
+    "Planting Calander-Ornamentals.png",
+    "plant_registry.csv",
+    "errington_calendar_entries.csv",
+    "ERRINGTON_CALENDAR_FULL_TEXT.md",
 )
 
 RELEASE_PDFS = (
@@ -50,10 +60,41 @@ def read_csv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def validate_source_hashes(base_dir: Path) -> None:
+    manifest_path = base_dir / "SOURCE_SHA256SUMS.txt"
+    expected: dict[str, str] = {}
+    for line_number, line in enumerate(manifest_path.read_text(encoding="utf-8").splitlines(), 1):
+        match = re.fullmatch(r"([0-9a-f]{64})  (.+)", line)
+        if not match:
+            raise ValueError(f"Invalid source hash manifest line {line_number}")
+        digest, filename = match.groups()
+        if filename in expected:
+            raise ValueError(f"Duplicate source hash entry: {filename}")
+        expected[filename] = digest
+
+    if set(expected) != set(HASHED_SOURCE_FILES):
+        missing = sorted(set(HASHED_SOURCE_FILES) - set(expected))
+        unexpected = sorted(set(expected) - set(HASHED_SOURCE_FILES))
+        raise ValueError(
+            "Source hash manifest entries do not match the protected source set; "
+            f"missing={missing}, unexpected={unexpected}"
+        )
+
+    changed = []
+    for filename in HASHED_SOURCE_FILES:
+        path = base_dir / filename
+        actual = hashlib.sha256(path.read_bytes()).hexdigest()
+        if actual != expected[filename]:
+            changed.append(filename)
+    if changed:
+        raise ValueError("Protected source files changed: " + ", ".join(changed))
+
+
 def validate_inputs(base_dir: Path, check_snapshot: bool = True) -> dict[str, int]:
     missing = [name for name in REQUIRED_INPUTS if not (base_dir / name).is_file()]
     if missing:
         raise ValueError(f"Missing required source inputs: {', '.join(missing)}")
+    validate_source_hashes(base_dir)
 
     registry = read_csv(base_dir / "plant_registry.csv")
     calendar = read_csv(base_dir / "errington_calendar_entries.csv")

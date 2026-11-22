@@ -16,6 +16,10 @@ it, whether it is an original source or a generated compilation, or whether the 
 transcription was independently checked. The file is preserved as supplied source material;
 its provenance remains unresolved.
 
+The supplied PDF, both calendar images, `plant_registry.csv`, the parsed calendar CSV, and
+the full-text transcription have SHA-256 snapshots in `SOURCE_SHA256SUMS.txt`. The build
+fails if any protected source changes without an explicit checksum-manifest update.
+
 The PDF text identifies Zone 8a and reports approximate April 15 and October 15 frost
 anchors, approximately 183 frost-free days, approximately 1,200 mm annual rainfall, and
 winter lows rarely below -12 C. These are source-reported claims, not independently
@@ -58,9 +62,10 @@ verified.
 - The Eastern Vancouver Island pollinator guide and web references mentioned in older notes
   are not checked into this repository; their contents have not been independently
   reverified in this build.
-- Seventy per-plant image files are stored on the separate `illustration-assets` branch.
-  They are not available in the current checkout or CI build and have not been verified for
-  plant identity, creator, license, or publication approval.
+- Seventy image files were inspected on the separate `illustration-assets` branch at
+  `c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5`. All decode as 1024 × 1536 PNGs, but only 68
+  have unique content. Contact-sheet inspection found cross-plant labels; identity, creator,
+  license, and publication approval remain unverified. The branch is not a build dependency.
 
 ## Source use
 

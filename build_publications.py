@@ -9,8 +9,10 @@ from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
+from reportlab.lib.utils import ImageReader
+from reportlab.platypus import Image, SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
 
+from build_final_encyclopedia_pdf import load_plant_illustrations
 
 BASE_DIR = Path(__file__).resolve().parent
 MONTHS = ("JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER")
@@ -58,13 +60,24 @@ def build_monthly_pdf(base_dir: Path) -> Path:
 def build_directory_pdf(base_dir: Path) -> Path:
     registry = read_csv(base_dir / "plant_registry.csv")
     verifications = {row["plant_id"]: row for row in read_csv(base_dir / "plant_verification_register.csv")}
+    illustrations = load_plant_illustrations(base_dir)
     output = base_dir / "Errington_Illustrated_Plant_Directory.pdf"
+    title = (
+        "Errington Illustrated Plant Directory"
+        if illustrations
+        else "Errington Plant Directory — Illustrations Pending Review"
+    )
     styles = getSampleStyleSheet()
-    doc = SimpleDocTemplate(str(output), pagesize=letter, title="Errington Illustrated Plant Directory",
+    doc = SimpleDocTemplate(str(output), pagesize=letter, title=title,
                             author="Errington Gardening Encyclopedia Editorial Project",
-                            subject="Plant directory — botanical identities and illustrations pending review")
-    story = [Paragraph("Errington Illustrated Plant Directory", styles["Title"]),
-             Paragraph("No illustration is approved. Botanical names and profiles remain unverified.", styles["Normal"]),
+                            subject=f"Plant directory — {len(illustrations)} approved illustrations; "
+                                    "botanical identities and profiles remain under review")
+    story = [Paragraph(title, styles["Title"]),
+             Paragraph(
+                 f"{len(illustrations)} of {len(registry)} records have approved illustrations. "
+                 "Botanical names and profiles remain unverified unless noted.",
+                 styles["Normal"],
+             ),
              Spacer(1, 12)]
     for row in sorted(registry, key=lambda item: item["display_name"].casefold()):
         plant_id = row["plant_id"]
@@ -77,6 +90,18 @@ def build_directory_pdf(base_dir: Path) -> Path:
             f"Cultivar: {verification.get('cultivar_status','unreviewed')}<br/>"
             f"Illustration: {verification.get('illustration_status','pending-review')}",
             styles["BodyText"]))
+        illustration = illustrations.get(plant_id)
+        if illustration:
+            reader = ImageReader(str(illustration))
+            image_width, image_height = reader.getSize()
+            scale = min(2.4 * inch / image_width, 3.6 * inch / image_height)
+            image = Image(
+                str(illustration),
+                width=image_width * scale,
+                height=image_height * scale,
+            )
+            image.hAlign = "CENTER"
+            story.extend([Spacer(1, 6), image])
         story.append(Spacer(1, 6))
     doc.build(story)
     return output

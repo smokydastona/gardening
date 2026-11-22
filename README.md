@@ -14,8 +14,8 @@ review are still incomplete.
 | Calendar transcription | 359 entries across all 12 months; grouped rows and action meanings require review |
 | Errington zone | Unresolved: calendar PDF says 8a; both chart images say 8b |
 | Frost anchors | April 15 and October 15 are approximate source values, not guaranteed dates |
-| Illustrations | 0 approved; 70 image files remain on the separate `illustration-assets` branch pending identity/license review |
-| PDF pipeline | One reproducible build command generates the complete encyclopedia, monthly guide, and illustrated directory |
+| Illustrations | 0 approved; 70 image files on the separate `illustration-assets` branch passed PNG/dimension checks but contain duplicate content and visibly misattributed labels; identity/license review remains pending |
+| PDF pipeline | One reproducible build command generates the working encyclopedia, monthly guide, and plant directory; only approved illustrations are embedded |
 | Publication approval | `IN_PROGRESS`; see [publication QA](PUBLICATION_QA_REPORT.md) |
 
 ## Key deliverables
@@ -31,8 +31,13 @@ review are still incomplete.
 - [Illustration audit](ILLUSTRATION_AUDIT.md)
 - [Repository audit](AUDIT_REPORT.md)
 - [Publication quality report](PUBLICATION_QA_REPORT.md)
+- [Implementation register](reports/IMPLEMENTATION_REGISTER.md)
 - [Source policy](docs/SOURCE_POLICY.md) and [data dictionary](docs/DATA_DICTIONARY.md)
 - [Research and verification library](docs/RESEARCH_LIBRARY.md)
+
+The plant-directory PDF is deliberately titled **“Illustrations Pending Review”** while
+there are no approved assets. When stable-ID illustrations pass human review, the same
+build embeds them in their matching profiles; unapproved branch assets are never used.
 
 ## Repository map
 
@@ -41,6 +46,7 @@ review are still incomplete.
 | `Errington BC Zone 8a Planting Calendar.pdf`, chart PNGs | Supplied local calendar artifacts; source history not established |
 | `ERRINGTON_CALENDAR_FULL_TEXT.md`, `errington_calendar_entries.csv/.json` | Source transcription and parsed records |
 | `plant_registry.csv` | Retained plant inventory; do not overwrite with generated data |
+| `SOURCE_SHA256SUMS.txt` | SHA-256 snapshots for protected source records and supplied calendar assets |
 | `plant_registry_enriched.csv` | Derived registry/calendar join |
 | `calendar_actions.csv`, `calendar_review.csv` | Source-linked action classification and review queue |
 | `plant_verification_register.csv` | Stable IDs, source attribution, and independent verification states |

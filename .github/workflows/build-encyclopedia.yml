@@ -52,7 +52,15 @@ jobs:
           python build_final_encyclopedia_pdf.py
           python build_publications.py
           python validate_pipeline.py --publication
-          python render_publication.py --output-dir build/pdf_qa
+          python render_publication.py \
+            --pdf Errington_Gardening_Encyclopedia.pdf \
+            --output-dir build/pdf_qa/encyclopedia
+          python render_publication.py \
+            --pdf Errington_Monthly_Gardening_Guide.pdf \
+            --output-dir build/pdf_qa/monthly
+          python render_publication.py \
+            --pdf Errington_Illustrated_Plant_Directory.pdf \
+            --output-dir build/pdf_qa/directory
 
       - name: Upload encyclopedia outputs
         uses: actions/upload-artifact@v4
@@ -63,10 +71,14 @@ jobs:
             Errington_Gardening_Encyclopedia.pdf
             Errington_Gardening_Encyclopedia_Compiled.md
             AUDIT_REPORT.md
+            SOURCE_AUDIT.md
+            SOURCE_SHA256SUMS.txt
             CALENDAR_REVIEW_REPORT.md
             PLANT_VERIFICATION_REPORT.md
             ILLUSTRATION_AUDIT.md
             PUBLICATION_QA_REPORT.md
+            reports/IMPLEMENTATION_REGISTER.md
+            reports/IMPLEMENTATION_FINAL_REPORT.md
             calendar_actions.csv
             calendar_review.csv
             plant_verification_register.csv
