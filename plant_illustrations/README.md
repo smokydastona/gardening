@@ -93,6 +93,18 @@ authorized to send, and review Google's terms and potential usage charges first.
 The image is a pending candidate, not an approved illustration. No credentials
 or network access are needed for the regular PDF build.
 
+### Copilot cloud agent
+
+For future Copilot cloud agent sessions, add `GEMINI_API_KEY` as an environment
+secret in the repository's `copilot` environment under **Settings → Environments**.
+Create the `copilot` environment first if it does not exist. Do not put the key
+in the repository, workflow file, or chat. The cloud setup workflow installs the
+project and Gemini SDK into `.venv`; invoke the generator with
+`.venv/bin/python generate_illustrations.py`. The setup workflow must be on the
+default branch to run for new sessions. If the agent firewall blocks Gemini,
+review its allowlist for `generativelanguage.googleapis.com`; do not disable it
+without understanding the security implications.
+
 ## Optional local backends
 
 Install upstream dependencies and model checkpoints in separate environments.
