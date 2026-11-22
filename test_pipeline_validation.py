@@ -176,3 +176,11 @@ def test_generated_asset_counts_cover_registry_and_figure_library() -> None:
     assert len(candidates) == registry_count == 137
     assert len(manifests) == registry_count
     assert len(figures) == 36
+
+
+def test_reenie_beanie_font_is_bundled() -> None:
+    font = Path("fonts/ReenieBeanie.ttf")
+    license_file = Path("fonts/OFL-ReenieBeanie.txt")
+    assert font.is_file()
+    assert font.stat().st_size > 100000
+    assert "SIL OPEN FONT LICENSE" in license_file.read_text(encoding="utf-8")

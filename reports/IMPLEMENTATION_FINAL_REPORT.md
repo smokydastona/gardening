@@ -73,7 +73,7 @@ No botanical accuracy or license was fabricated or approved.
 
 Generated and rendered:
 
-- Complete encyclopedia: 302 pages
+- Complete encyclopedia: 265 pages
 - Monthly guide: 10 pages
 - Illustrated directory: 137 pages
 - Botanical illustration collection: 138 pages
@@ -133,13 +133,14 @@ approved publication assets. Provider credentials were unavailable, and fully re
 plant profiles and claim-level citations remain to be produced.
 
 Current build and test commands are recorded in `reports/IMPLEMENTATION_REGISTER.md` and
-`PUBLICATION_QA_REPORT.md`; the current local suite passes 43 tests. All outstanding
+`PUBLICATION_QA_REPORT.md`; the current local suite passes 44 tests. All outstanding
 scientific and human review gates remain open.
 
 ## 14. Asset completion follow-up
 
 The implementation now generates and embeds 137 concept plant candidates, 36 educational
-figure concepts and 18 worked examples. The complete supplement is included in the
-302-page encyclopedia, and standalone botanical and figure collections contain 138 and
+figure concepts and 18 worked examples. Reenie Beanie is used throughout the publication
+and generated assets. The complete supplement is included in the 265-page encyclopedia,
+and standalone botanical and figure collections contain 138 and
 37 pages respectively. None of these concepts is human-botanical approved. They are
 production assets for review, not evidence of accepted taxonomy or cultivation.

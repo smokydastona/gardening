@@ -10,12 +10,24 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.lib.utils import ImageReader
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Image, SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
 
 from build_final_encyclopedia_pdf import load_plant_illustrations
 
 BASE_DIR = Path(__file__).resolve().parent
 MONTHS = ("JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER")
+FONT_NAME = "ReenieBeanie"
+FONT_PATH = BASE_DIR / "fonts" / "ReenieBeanie.ttf"
+pdfmetrics.registerFont(TTFont(FONT_NAME, str(FONT_PATH)))
+
+
+def publication_styles():
+    styles = getSampleStyleSheet()
+    for style in styles.byName.values():
+        style.fontName = FONT_NAME
+    return styles
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -38,7 +50,7 @@ def load_candidate_manifest(base_dir: Path) -> dict[str, Path]:
 def build_monthly_pdf(base_dir: Path) -> Path:
     entries = read_csv(base_dir / "errington_calendar_entries.csv")
     output = base_dir / "Errington_Monthly_Gardening_Guide.pdf"
-    styles = getSampleStyleSheet()
+    styles = publication_styles()
     doc = SimpleDocTemplate(str(output), pagesize=letter, title="Errington Monthly Gardening Guide",
                             author="Errington Gardening Encyclopedia Editorial Project",
                             subject="Unverified source transcription; not a planting recommendation")
@@ -80,7 +92,7 @@ def build_directory_pdf(base_dir: Path) -> Path:
         if illustrations
         else "Errington Plant Directory — Concept Candidates"
     )
-    styles = getSampleStyleSheet()
+    styles = publication_styles()
     doc = SimpleDocTemplate(str(output), pagesize=letter, title=title,
                             author="Errington Gardening Encyclopedia Editorial Project",
                             subject=f"Plant directory — {len(illustrations)} approved illustrations; "
@@ -132,7 +144,7 @@ def build_botanical_collection_pdf(base_dir: Path) -> Path:
     registry = read_csv(base_dir / "plant_registry.csv")
     candidates = load_candidate_manifest(base_dir)
     output = base_dir / "Errington_Botanical_Illustration_Collection.pdf"
-    styles = getSampleStyleSheet()
+    styles = publication_styles()
     doc = SimpleDocTemplate(
         str(output),
         pagesize=letter,
@@ -180,7 +192,7 @@ def build_figure_collection_pdf(base_dir: Path) -> Path:
     manifest = base_dir / "educational_figures" / "figure_manifest.csv"
     figures = read_csv(manifest)
     output = base_dir / "Errington_Educational_Figure_Collection.pdf"
-    styles = getSampleStyleSheet()
+    styles = publication_styles()
     doc = SimpleDocTemplate(
         str(output),
         pagesize=letter,

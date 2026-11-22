@@ -85,6 +85,12 @@ do not bypass this guard to conceal data loss. The chart OCR script is an extrac
 not part of the reproducible publication build: OCR output must be reviewed before replacing
 the checked-in transcription.
 
+## Typography
+
+All publication and generated illustration text uses **Reenie Beanie**, from
+[Google Fonts](https://fonts.google.com/specimen/Reenie+Beanie). The bundled TTF and
+SIL Open Font License are stored in `fonts/`.
+
 ## Evidence and accuracy limitations
 
 Original/source files, transcriptions, structured records, editorial interpretation, and

@@ -2,6 +2,9 @@
 
 ## 0.2.1 — 2026-11-22
 
+- Switched the encyclopedia, supporting PDFs, illustration annotations and generated
+  educational assets to the bundled Reenie Beanie TTF.
+
 - Added reproducible concept-art production: 137 stable-ID plant candidates, 36 educational
   figures, and 18 worked examples.
 - Expanded publication output to five PDFs, including a botanical illustration collection

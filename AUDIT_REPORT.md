@@ -155,7 +155,8 @@ approval remain outstanding.
 The findings above retain historical baseline observations. Current local verification
 reports 137 registry records, 359 calendar entries, and three PDFs with 101, 10, and 23
 pages. The previous 336-page PDF and Copilot-author metadata refer to an earlier build; the
-current encyclopedia is 302 pages and credits the editorial project. The plant-directory
+current encyclopedia is 265 pages and credits the editorial project. Reenie Beanie is now
+registered for publication and generated illustration text. The plant-directory
 PDF contains 137 stable-ID concept candidates; standalone botanical and figure collections
 contain 138 and 37 pages. No candidate is approved by a stable-ID manifest and human-review
 sidecar.

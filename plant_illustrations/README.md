@@ -153,10 +153,10 @@ with coordinates expressed as fractions of image width and height:
 
 Use `{"labels": []}` for a title and border without callouts. Positions and
 leader lines must be adjusted for the particular image; use only labels
-supported by the evidence. The title and callouts use **The Girl Next Door**
-by Kimberly Geswein by default. The bundled font is from
-[Google Fonts](https://github.com/google/fonts/tree/90abd17b4f97671435798b6147b698aa9087612f/ofl/thegirlnextdoor)
-and is licensed under the [SIL Open Font License 1.1](../fonts/OFL-TheGirlNextDoor.txt).
+supported by the evidence. The title and callouts use **Reenie Beanie** by James Grieshaber by default.
+The bundled font is available through
+[Google Fonts](https://fonts.google.com/specimen/Reenie+Beanie)
+and is licensed under the [SIL Open Font License 1.1](../fonts/OFL-ReenieBeanie.txt).
 
 ```sh
 python generate_illustrations.py annotate --plant Arugula --candidate o1-32 \

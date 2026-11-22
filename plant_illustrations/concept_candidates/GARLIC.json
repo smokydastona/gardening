@@ -8,7 +8,7 @@
   "approval_status": "NOT_APPROVED",
   "provider": "local-concept-renderer",
   "model": "category-silhouette-v1",
-  "image_sha256": "74c3751db061eda591e18e2d48d13d485a2c4eb521faec81d1382a1be0bae000",
+  "image_sha256": "9c658014fd57a39369252bf86857d7c9f94edda76741c360a183e9572ae53fcf",
   "dimensions": [
     1024,
     1536

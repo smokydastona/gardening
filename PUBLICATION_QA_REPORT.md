@@ -13,12 +13,12 @@ or editorial content are correct.
 | C — Local horticultural accuracy | `FAILED` | 8a/8b conflict unresolved; no independently sourced Errington frost normals or plant-specific local timings. |
 | D — Illustration integrity | `PARTIAL — concept art complete, approval incomplete` | 137 concept candidates and 36 educational figures are present. 0 are human-botanical approved. The 70 historical branch images decode as 1024 × 1536 PNGs, but 68 are unique and cross-plant labels were found. |
 | E — Editorial quality | `PARTIAL` | Source limitations and verification labels are included. Complete claim-level bibliography, index, and editorial sign-off remain outstanding. |
-| F — Publication quality | `PARTIAL` | Current PDFs have 302, 10, 137, 138, and 37 pages. Concept plates and figures are embedded in dedicated PDFs and the encyclopedia supplement. Print-resolution review remains open. |
-| G — Software quality | `PARTIAL` | `build_all.py`, data validation, and 43 tests pass locally. CI status is not claimed until a GitHub Actions run succeeds. |
+| F — Publication quality | `PARTIAL` | Current PDFs have 265, 10, 137, 138, and 37 pages. Reenie Beanie is used across publications and generated text; concept plates and figures are embedded in dedicated PDFs and the encyclopedia supplement. Print-resolution review remains open. |
+| G — Software quality | `PARTIAL` | `build_all.py`, data validation, and 44 tests pass locally. CI status is not claimed until a GitHub Actions run succeeds. |
 
 ## Latest build and visual scan — 2026-11-22
 
-The regenerated products are `Errington_Gardening_Encyclopedia.pdf` (302 pages),
+The regenerated products are `Errington_Gardening_Encyclopedia.pdf` (265 pages),
 `Errington_Monthly_Gardening_Guide.pdf` (10 pages),
 `Errington_Illustrated_Plant_Directory.pdf` (137 pages),
 `Errington_Botanical_Illustration_Collection.pdf` (138 pages), and

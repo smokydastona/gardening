@@ -105,26 +105,24 @@ def register_font(font_name: str, regular_path: Path, bold_path: Path | None = N
 
 
 def register_fonts() -> dict[str, str]:
-    font_dir = Path(reportlab.__file__).resolve().parent / "fonts"
-    regular, bold = register_font(
-        "BookText",
-        font_dir / "Vera.ttf",
-        font_dir / "VeraBd.ttf",
-    )
-    pdfmetrics.registerFont(TTFont("BookItalic", str(font_dir / "VeraIt.ttf")))
-    pdfmetrics.registerFont(TTFont("BookBoldItalic", str(font_dir / "VeraBI.ttf")))
+    font_dir = Path(__file__).resolve().parent / "fonts"
+    regular = "ReenieBeanie"
+    pdfmetrics.registerFont(TTFont(regular, str(font_dir / "ReenieBeanie.ttf")))
+    pdfmetrics.registerFont(TTFont("BookText", str(font_dir / "ReenieBeanie.ttf")))
+    pdfmetrics.registerFont(TTFont("BookItalic", str(font_dir / "ReenieBeanie.ttf")))
+    pdfmetrics.registerFont(TTFont("BookBoldItalic", str(font_dir / "ReenieBeanie.ttf")))
     pdfmetrics.registerFontFamily(
-        "BookText",
+        regular,
         normal=regular,
-        bold=bold,
-        italic="BookItalic",
-        boldItalic="BookBoldItalic",
+        bold=regular,
+        italic=regular,
+        boldItalic=regular,
     )
     return {
         "display": regular,
-        "display_bold": bold,
+        "display_bold": regular,
         "body": regular,
-        "body_bold": bold,
+        "body_bold": regular,
     }
 
 

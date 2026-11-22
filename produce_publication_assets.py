@@ -18,7 +18,7 @@ GREEN = "#51664e"
 TERRACOTTA = "#b56f4a"
 OCHRE = "#c59b54"
 FONT_DIR = BASE / "fonts"
-FONT = FONT_DIR / "TheGirlNextDoor.ttf"
+FONT = FONT_DIR / "ReenieBeanie.ttf"
 
 
 def read_csv(name: str) -> list[dict[str, str]]:

@@ -38,7 +38,7 @@ undocumented details. No other species or decorative objects."""
 TRAITS = ("growth_habit", "leaf_arrangement", "leaf_morphology", "diagnostic_features")
 DEFAULT_MODEL = "gpt-image-2.6-sunburst"
 DEFAULT_GEMINI_MODEL = "gemini-2.5-flash-image"
-DEFAULT_FONT = Path(__file__).with_name("fonts") / "TheGirlNextDoor.ttf"
+DEFAULT_FONT = Path(__file__).with_name("fonts") / "ReenieBeanie.ttf"
 
 
 def write_json(path: Path, data: dict) -> None:
@@ -601,7 +601,7 @@ def main() -> int:
     annotation.add_argument("--output-candidate", required=True)
     annotation.add_argument("--layout", required=True, help="JSON file of reviewed label positions")
     annotation.add_argument("--font", default=str(DEFAULT_FONT),
-                            help="Licensed TrueType/OpenType font (default: The Girl Next Door)")
+                            help="Licensed TrueType/OpenType font (default: Reenie Beanie)")
     approval = commands.add_parser("approve")
     approval.add_argument("--plant", required=True)
     approval.add_argument("--candidate", required=True)
