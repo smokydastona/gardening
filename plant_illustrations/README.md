@@ -11,7 +11,9 @@ An image is not eligible for the publication PDF until its identity and botanica
 plausibility have been checked, its creator and license are documented, and review notes
 are recorded for the plant ID. Set `approval_status=approved` only after that review. The
 PDF builder fails if an approved asset is missing or has an invalid filename; unapproved
-images are never embedded.
+images are never embedded. The reviewed sidecar's plant key must match the stable plant
+ID. Rebuilding preserves existing manifest entries and stops on orphaned IDs rather than
+discarding review data.
 
 The separate `illustration-assets` branch contains 70 image files, but those assets are not
 retrieved by CI or the deterministic build. Their identity, attribution, and license remain
@@ -42,8 +44,9 @@ no longer appear in the PDF, including those restored from `illustration-assets`
 
 ## Evidence and generation
 
-From the repository root, install `requirements.txt` and, for the OpenAI
-backend, install `openai` separately. Create templates:
+From the repository root, install `requirements.lock.txt` and, for the OpenAI
+backend, install `openai` separately. For Gemini, install the optional
+`google-genai` SDK separately. Create templates:
 
 ```sh
 python generate_illustrations.py templates
@@ -72,6 +75,23 @@ reference is explicitly not botanical evidence. Output is a portrait PNG under
 asset directory. The prompt deliberately omits generated lettering and borders;
 add them before final review using the optional annotation step below. Style
 conformity must be checked by the reviewer, not inferred from the prompt.
+
+For Gemini image generation:
+
+```sh
+python -m pip install google-genai==3.6.1
+python generate_illustrations.py generate --plant Arugula --backend gemini \
+  --candidate gemini-1
+```
+
+Set `GEMINI_API_KEY` securely in your environment; never commit it or share it
+in a chat. Replace any key that has already been exposed. The default model is
+`gemini-2.5-flash-image`; use `--model` to select another available Gemini
+image-generation model. Gemini receives the evidence photographs, any optional
+style reference or PlantGen render, and the prompt. Use only material you are
+authorized to send, and review Google's terms and potential usage charges first.
+The image is a pending candidate, not an approved illustration. No credentials
+or network access are needed for the regular PDF build.
 
 ## Optional local backends
 

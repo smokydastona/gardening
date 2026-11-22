@@ -112,8 +112,8 @@ builds the publication PDF.
 - Nine generated `.pyc` files were committed; there was no `.gitignore`.
 - README links included absolute Windows paths. Build inputs otherwise require no network;
   the publication pipeline avoids runtime network access. The optional illustration
-  generator has an explicit OpenAI backend that sends user-selected evidence images to
-  that provider; it is not invoked by CI or the publication build.
+  generator has explicit OpenAI and Gemini backends that send user-selected evidence images
+  to the selected provider; neither is invoked by CI or the publication build.
 - The general reference PDF is treated as a topical source only; its contents are not
   copied into the generated publication.
 

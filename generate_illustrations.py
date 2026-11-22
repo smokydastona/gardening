@@ -7,6 +7,7 @@ import argparse
 import base64
 import csv
 import hashlib
+import io
 import json
 import os
 import shutil
@@ -36,6 +37,7 @@ undocumented details. No other species or decorative objects."""
 
 TRAITS = ("growth_habit", "leaf_arrangement", "leaf_morphology", "diagnostic_features")
 DEFAULT_MODEL = "gpt-image-2.6-sunburst"
+DEFAULT_GEMINI_MODEL = "gemini-2.5-flash-image"
 DEFAULT_FONT = Path(__file__).with_name("fonts") / "TheGirlNextDoor.ttf"
 
 
@@ -188,9 +190,46 @@ def generate_openai(prompt: str, output: Path, model: str, refs: list[Path]) -> 
     output.write_bytes(base64.b64decode(result.data[0].b64_json, validate=True))
 
 
+def generate_gemini(prompt: str, output: Path, model: str, refs: list[Path]) -> None:
+    if not os.environ.get("GEMINI_API_KEY"):
+        raise RuntimeError("GEMINI_API_KEY is not set")
+    try:
+        from google import genai
+        from google.genai import errors, types
+    except ImportError as exc:
+        raise RuntimeError(
+            "Install the optional Gemini SDK: python -m pip install google-genai==3.6.1"
+        ) from exc
+    from PIL import Image
+
+    with ExitStack() as stack:
+        images = [stack.enter_context(Image.open(path)) for path in refs]
+        try:
+            response = genai.Client(api_key=os.environ["GEMINI_API_KEY"]).models.generate_content(
+                model=model,
+                contents=[prompt, *images],
+                config=types.GenerateContentConfig(
+                    response_modalities=["IMAGE"],
+                    image_config=types.ImageConfig(aspect_ratio="2:3"),
+                ),
+            )
+        except errors.APIError as exc:
+            raise RuntimeError(f"Gemini image request failed (HTTP {exc.code}).") from exc
+    for part in response.parts or []:
+        data = part.inline_data
+        if data and data.mime_type and data.mime_type.startswith("image/") and data.data:
+            with Image.open(io.BytesIO(data.data)) as image:
+                image.save(output, format="PNG")
+            return
+    raise RuntimeError("Gemini returned no image; the request may have been blocked or refused.")
+
+
 def run_backend(args: argparse.Namespace, prompt: str, output: Path, refs: list[Path]) -> str:
     if args.backend == "openai":
         generate_openai(prompt, output, args.model or DEFAULT_MODEL, refs)
+        return "photographs"
+    if args.backend == "gemini":
+        generate_gemini(prompt, output, args.model or DEFAULT_GEMINI_MODEL, refs)
         return "photographs"
     if args.backend == "o1":
         if not args.backend_dir or not args.model:
@@ -365,6 +404,7 @@ def generate(args: argparse.Namespace, repo: Path, row: dict[str, str]) -> None:
         verify_image(generated, portrait=True)
         model = {
             "openai": args.model or DEFAULT_MODEL,
+            "gemini": args.model or DEFAULT_GEMINI_MODEL,
             "o1": args.model,
             "i1": "HiDream-ai/HiDream-I1-Full",
             "kandinsky": "kandinskylab/Kandinsky-5.0-T2I-Lite",
@@ -373,7 +413,7 @@ def generate(args: argparse.Namespace, repo: Path, row: dict[str, str]) -> None:
             "schema_version": 1, "asset_id": key, "display_name": row["display_name"],
             "file": output.name, "status": "pending-human-review", "backend": args.backend,
             "model": model, "model_type": args.model_type if args.backend in ("o1", "i1") else None,
-            "seed": args.seed if args.backend != "openai" else None,
+            "seed": args.seed if args.backend not in ("openai", "gemini") else None,
             "conditioning": conditioning, "generated_at_utc": datetime.now(timezone.utc).isoformat(),
             "prompt": prompt, "prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
             "image_sha256": sha256_file(generated), "evidence": evidence,
@@ -448,7 +488,7 @@ def main() -> int:
     review_parser.add_argument("--output", type=Path, required=True)
     generation = commands.add_parser("generate")
     generation.add_argument("--plant", required=True)
-    generation.add_argument("--backend", choices=("openai", "o1", "i1", "kandinsky"), default="openai")
+    generation.add_argument("--backend", choices=("openai", "gemini", "o1", "i1", "kandinsky"), default="openai")
     generation.add_argument("--backend-dir")
     generation.add_argument("--backend-python", default=sys.executable)
     generation.add_argument("--model")

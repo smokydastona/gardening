@@ -228,7 +228,11 @@ def build_calendar_outputs(entries: list[dict[str, str]], registry: list[dict[st
     write_csv("calendar_review.csv", CALENDAR_REVIEW_COLUMNS, review_rows)
 
 
-def build_plant_register(registry: list[dict[str, str]], calendar: list[dict[str, str]]) -> None:
+def build_plant_register(
+    registry: list[dict[str, str]],
+    calendar: list[dict[str, str]],
+    approved_plant_ids: set[str],
+) -> None:
     calendar_names = {normalize_key(row["plant_text"]) for row in calendar}
     rows = []
     for row in registry:
@@ -271,18 +275,48 @@ def build_plant_register(registry: list[dict[str, str]], calendar: list[dict[str
                 "cultivar_status": "requires-resolution" if resolved_taxonomy else "pending-verification",
                 "profile_status": "pending-verification",
                 "timing_status": "source-record-exists-not-reviewed" if has_calendar_record else "pending-verification",
-                "illustration_status": "pending-review",
+                "illustration_status": (
+                    "illustration-approved"
+                    if plant_id(row["display_name"]) in approved_plant_ids
+                    else "pending-review"
+                ),
             }
         )
     write_csv("plant_verification_register.csv", PLANT_REGISTER_COLUMNS, rows)
 
 
 def build_illustration_manifest(registry: list[dict[str, str]]) -> None:
+    filename = "plant_illustrations/illustration_manifest.csv"
+    manifest_path = BASE_DIR / filename
+    existing: dict[str, dict[str, str]] = {}
+    if manifest_path.exists():
+        with manifest_path.open(encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            if reader.fieldnames != list(ILLUSTRATION_COLUMNS):
+                raise ValueError(f"Unexpected illustration manifest columns: {manifest_path}")
+            for row in reader:
+                identifier = row["plant_id"]
+                if not identifier or identifier in existing or None in row:
+                    raise ValueError(f"Invalid or duplicate illustration plant ID: {identifier!r}")
+                existing[identifier] = row
+    registry_ids = {plant_id(row["display_name"]) for row in registry}
+    if len(registry_ids) != len(registry):
+        raise ValueError("Duplicate plant IDs in illustration registry")
+    orphaned = existing.keys() - registry_ids
+    if orphaned:
+        raise ValueError(
+            "Illustration manifest has plant IDs absent from registry; resolve without "
+            f"discarding review data: {', '.join(sorted(orphaned))}"
+        )
     rows = []
     for row in registry:
+        identifier = plant_id(row["display_name"])
+        if identifier in existing:
+            rows.append(existing[identifier])
+            continue
         rows.append(
             {
-                "plant_id": plant_id(row["display_name"]),
+                "plant_id": identifier,
                 "filename": f"{normalize_key(row['display_name'])}.png",
                 "common_name": row["display_name"],
                 "botanical_name_as_recorded": row.get("latin_name", ""),
@@ -295,13 +329,14 @@ def build_illustration_manifest(registry: list[dict[str, str]]) -> None:
                 "reviewer_notes": "Filename is a request only; no image-to-plant association is approved.",
             }
         )
-    write_csv("plant_illustrations/illustration_manifest.csv", ILLUSTRATION_COLUMNS, rows)
+    write_csv(filename, ILLUSTRATION_COLUMNS, rows)
 
 
 def build_status_reports(
     registry: list[dict[str, str]],
     entries: list[dict[str, str]],
     review_rows: list[dict[str, str]],
+    approved_count: int,
 ) -> None:
     taxonomy_resolution_count = sum(
         row.get("verification_status", "").startswith(
@@ -326,7 +361,7 @@ def build_status_reports(
         "| Individually reviewed horticultural profiles | 0 |",
         "| Locally reviewed planting timings | 0 |",
         f"| Records without claim-level source citations | {unreviewed_source_claims} |",
-        "| Approved illustrations | 0 |",
+        f"| Approved illustrations | {approved_count} |",
         "",
         "Taxonomy values already present in `plant_registry.csv` are retained as recorded data, "
         "but `bulk-taxonomy-populated` is not verification. The register keeps taxonomy, cultivar, "
@@ -376,17 +411,19 @@ def build_status_reports(
     illustration_lines = [
         "# Illustration audit",
         "",
-        "## Status: `IN_PROGRESS` — no image approved for publication",
+        "## Status: `IN_PROGRESS` — illustration review remains incomplete",
         "",
-        f"The plant registry contains {len(registry)} records. The current checkout contains no "
-        "per-plant image files. The `illustration-assets` branch has a separate collection of "
-        "70 image files, but the assets are not checked out by this deterministic build and "
-        "their visual identities, creators, licenses, and review histories have not been "
-        "independently established.",
+        f"The plant registry contains {len(registry)} records. {approved_count} illustration "
+        "associations have an approved manifest entry and valid human-review sidecar. "
+        "The original audit found 70 images on the separate `illustration-assets` branch, "
+        "without documented identity, creator, license, or review history.",
         "",
         "The stable-ID manifest at `plant_illustrations/illustration_manifest.csv` does not "
-        "associate any image based on a filename alone. Every asset remains `pending` review "
-        "and `not-approved`; no unreviewed plant art is embedded in the publication.",
+        "associate any image based on a filename alone. The PDF builder requires both a "
+        "stable plant ID and a valid hash-bound review sidecar.",
+        "",
+        "The candidate-generation workflow can use optional OpenAI or Gemini backends. "
+        "A generated candidate is not botanical evidence or an approved illustration.",
         "",
         "Before approval, retrieve the external assets under controlled review, check identity, "
         "anatomy, resolution, duplicates, attribution, and license, then record reviewer notes "
@@ -402,10 +439,13 @@ def main() -> None:
     registry = read_csv("plant_registry.csv")
     entries = read_csv("errington_calendar_entries.csv")
     build_calendar_outputs(entries, registry)
-    build_plant_register(registry, entries)
     build_illustration_manifest(registry)
+    from build_final_encyclopedia_pdf import load_plant_illustrations
+
+    approved_plant_ids = set(load_plant_illustrations(BASE_DIR))
+    build_plant_register(registry, entries, approved_plant_ids)
     review_rows = read_csv("calendar_review.csv")
-    build_status_reports(registry, entries, review_rows)
+    build_status_reports(registry, entries, review_rows, len(approved_plant_ids))
     print(
         f"Built provenance registers for {len(registry)} plants and "
         f"{len(entries)} calendar transcriptions."

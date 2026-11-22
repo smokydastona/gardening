@@ -46,6 +46,8 @@ def publication_problem(image: Path) -> str | None:
             return "not approved"
         if metadata.get("asset_id") != keyify(image.stem) or metadata.get("file") != image.name:
             return "image identity mismatch"
+        if evidence.get("plant_key") != metadata.get("asset_id"):
+            return "evidence plant identity mismatch"
         if metadata.get("image_sha256") != sha256_file(image):
             return "image changed after review"
         if metadata.get("evidence_sha256") != sha256_json(evidence):

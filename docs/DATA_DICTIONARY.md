@@ -52,7 +52,9 @@ the locally supplied calendar PDF.
 One row per stable plant ID. A filename is a naming suggestion only; it is not an
 image-to-plant association. Creator, license, generation, review, and approval are recorded
 independently. No image may be embedded as approved unless `approval_status=approved` and
-the exact asset exists.
+the exact asset exists, its plant identity matches the stable ID, and its hash-bound
+human-review sidecar passes validation. Builds preserve existing manifest entries; an
+orphaned ID or unexpected manifest columns cause an error rather than discarding review data.
 
 ## Generated files
 

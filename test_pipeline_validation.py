@@ -4,12 +4,45 @@ import pytest
 from pypdf import PdfWriter
 
 import build_project_reports
-from build_project_reports import build_calendar_outputs, plant_id
+from build_project_reports import build_calendar_outputs, build_illustration_manifest, plant_id
 from validate_pipeline import REQUIRED_INPUTS, validate_inputs
 
 
 def test_stable_plant_ids_are_normalized() -> None:
     assert plant_id("Clematis Group 3") == "plant-clematis-group-3"
+
+
+def test_illustration_rebuild_preserves_review_data_and_rejects_record_loss(tmp_path, monkeypatch):
+    monkeypatch.setattr(build_project_reports, "BASE_DIR", tmp_path)
+    (tmp_path / "plant_illustrations").mkdir()
+    registry = [{"display_name": "Iris", "latin_name": "Iris germanica"}]
+    build_illustration_manifest(registry)
+    manifest = tmp_path / "plant_illustrations" / "illustration_manifest.csv"
+    with manifest.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    rows[0].update(
+        filename="IRIS.png",
+        image_source="original",
+        creator="Artist",
+        license="CC0",
+        review_status="reviewed",
+        approval_status="approved",
+        reviewer_notes="Compared against cited specimens",
+    )
+    with manifest.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=build_project_reports.ILLUSTRATION_COLUMNS)
+        writer.writeheader()
+        writer.writerows(rows)
+
+    build_illustration_manifest(registry + [{"display_name": "Rose"}])
+    with manifest.open(encoding="utf-8", newline="") as handle:
+        result = list(csv.DictReader(handle))
+    assert result[0] == rows[0]
+    assert result[1]["approval_status"] == "not-approved"
+    before = manifest.read_bytes()
+    with pytest.raises(ValueError, match="absent from registry"):
+        build_illustration_manifest(registry)
+    assert manifest.read_bytes() == before
 
 
 def test_calendar_build_preserves_grouped_transcriptions_without_plant_assignment(tmp_path, monkeypatch) -> None:

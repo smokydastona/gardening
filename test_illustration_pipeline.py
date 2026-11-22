@@ -12,7 +12,7 @@ from PIL import Image
 import generate_illustrations as generator
 from build_encyclopedia_outputs import build_illustration_asset_manifest
 from build_final_encyclopedia_pdf import SOURCE_FILES, build_pdf, load_plant_illustrations
-from illustration_assets import ORGANS
+from illustration_assets import ORGANS, sha256_json
 
 
 def image(path: Path, color: str = "red") -> None:
@@ -77,6 +77,23 @@ def test_import_approve_and_publication_gate(ready, capsys):
     approve_manifest(repo)
     assets = load_plant_illustrations(repo)
     assert assets["plant-iris"].name == "IRIS.png"
+    manifest = repo / "plant_illustrations" / "illustration_manifest.csv"
+    manifest.write_text(
+        "plant_id,filename,approval_status\nplant-rose,IRIS.png,approved\n",
+        encoding="utf-8",
+    )
+    with pytest.raises(ValueError, match="does not match plant ID"):
+        load_plant_illustrations(repo)
+    approve_manifest(repo)
+    sidecar = assets["plant-iris"].with_suffix(".json")
+    original = sidecar.read_text(encoding="utf-8")
+    mismatched = json.loads(original)
+    mismatched["evidence"]["plant_key"] = "ROSE"
+    mismatched["evidence_sha256"] = sha256_json(mismatched["evidence"])
+    sidecar.write_text(json.dumps(mismatched), encoding="utf-8")
+    with pytest.raises(ValueError, match="matching evidence"):
+        load_plant_illustrations(repo)
+    sidecar.write_text(original, encoding="utf-8")
     build_illustration_asset_manifest(repo)
     with (repo / "plant_illustrations" / "illustration_asset_manifest.csv").open(newline="") as handle:
         assert next(csv.DictReader(handle))["asset_status"] == "pending-review"
@@ -153,6 +170,88 @@ def test_openai_uses_photographs_and_portrait_size(ready, monkeypatch):
     assert run_cli(["--repo", str(repo), "generate", "--plant", "Iris"]) == 0
     metadata = json.loads((repo / "plant_illustrations/pending_review/IRIS/openai-32.json").read_text())
     assert metadata["conditioning"] == "photographs"
+
+
+def test_gemini_uses_references_and_records_pending_candidate(ready, monkeypatch):
+    repo, _, _ = ready
+    buf = io.BytesIO()
+    Image.new("RGB", (20, 30), "red").save(buf, format="JPEG")
+
+    def generate_content(**kwargs):
+        assert kwargs["model"] == "custom-gemini-image"
+        assert len(kwargs["contents"]) == 4
+        assert all(isinstance(item, Image.Image) for item in kwargs["contents"][1:])
+        assert kwargs["config"].response_modalities == ["IMAGE"]
+        assert kwargs["config"].image_config.aspect_ratio == "2:3"
+        return SimpleNamespace(parts=[SimpleNamespace(
+            inline_data=SimpleNamespace(mime_type="image/jpeg", data=buf.getvalue())
+        )])
+
+    install_fake_gemini(monkeypatch, generate_content)
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    assert run_cli([
+        "--repo", str(repo), "generate", "--plant", "Iris", "--backend", "gemini",
+        "--model", "custom-gemini-image", "--style-reference", str(repo / "ref0.png"),
+    ]) == 0
+    pending = repo / "plant_illustrations/pending_review/IRIS"
+    metadata = json.loads((pending / "gemini-32.json").read_text())
+    assert metadata["status"] == "pending-human-review"
+    assert metadata["backend"] == "gemini"
+    assert metadata["model"] == "custom-gemini-image"
+    assert metadata["conditioning"] == "photographs"
+    assert metadata["seed"] is None
+    assert "test-key" not in json.dumps(metadata)
+    with Image.open(pending / "gemini-32.png") as candidate:
+        assert candidate.format == "PNG"
+        assert candidate.height > candidate.width
+    assert not load_plant_illustrations(repo)
+
+
+def install_fake_gemini(monkeypatch, generate_content):
+    import types as python_types
+
+    class APIError(Exception):
+        code = 400
+
+    sdk = python_types.ModuleType("google.genai")
+    sdk.Client = lambda **kwargs: SimpleNamespace(
+        models=SimpleNamespace(generate_content=generate_content)
+    )
+    sdk.errors = SimpleNamespace(APIError=APIError)
+    sdk.types = SimpleNamespace(
+        GenerateContentConfig=lambda **kwargs: SimpleNamespace(**kwargs),
+        ImageConfig=lambda **kwargs: SimpleNamespace(**kwargs),
+    )
+    google = python_types.ModuleType("google")
+    google.genai = sdk
+    monkeypatch.setitem(sys.modules, "google", google)
+    monkeypatch.setitem(sys.modules, "google.genai", sdk)
+    return APIError
+
+
+def test_gemini_reports_missing_key_and_empty_or_failed_response(ready, monkeypatch, capsys):
+    repo, _, _ = ready
+    args = ["--repo", str(repo), "generate", "--plant", "Iris", "--backend", "gemini"]
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    assert run_cli(args) == 1
+    assert "GEMINI_API_KEY is not set" in capsys.readouterr().err
+
+    should_fail = False
+
+    def respond(**kwargs):
+        if should_fail:
+            raise error_type("provider rejected request")
+        return SimpleNamespace(parts=[])
+
+    error_type = install_fake_gemini(monkeypatch, respond)
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    assert run_cli(args) == 1
+    assert "returned no image" in capsys.readouterr().err
+    assert not (repo / "plant_illustrations/pending_review/IRIS/gemini-32.png").exists()
+
+    should_fail = True
+    assert run_cli(args) == 1
+    assert "Gemini image request failed (HTTP 400)" in capsys.readouterr().err
 
 
 @pytest.mark.parametrize("backend", ["o1", "i1", "kandinsky"])

@@ -14,7 +14,7 @@ or editorial content are correct.
 | D — Illustration integrity | `FAILED` | 0 approved illustrations; 70 external-branch images have not been identity/license reviewed. |
 | E — Editorial quality | `PARTIAL` | Source limitations and verification labels are included. Complete claim-level bibliography, index, and editorial sign-off remain outstanding. |
 | F — Publication quality | `PARTIAL` | Rebuilt 101-page PDF passes automated metadata, embedded-font, text, page-count, and one-page TOC checks. All pages were rendered and contact sheets visually scanned at overview scale; full-resolution visual approval remains open. |
-| G — Software quality | `PARTIAL` | Local build and automated tests pass (22 tests); reproducibility is tested. CI status is not claimed until a GitHub Actions run succeeds. |
+| G — Software quality | `PARTIAL` | Local build and automated tests pass (37 tests); reproducibility is tested. CI status is not claimed until a GitHub Actions run succeeds. |
 
 Required human visual checklist:
 

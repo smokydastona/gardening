@@ -453,6 +453,11 @@ def load_plant_illustrations(base_dir: Path) -> dict[str, Path]:
                     f"Approved illustration for {plant_id} lacks valid matching evidence "
                     "and human-review sidecar."
                 )
+            expected_id = f"plant-{keyify(image_name.stem).lower().replace('_', '-')}"
+            if plant_id != expected_id:
+                raise ValueError(
+                    f"Approved illustration {filename} does not match plant ID {plant_id}."
+                )
             illustration_map[plant_id] = image_path
     return illustration_map
 
