@@ -1,0 +1,139 @@
+Generated candidates: none
+Blocked records: 137
+Arugula: taxon not human verified
+Asparagus: taxon not human verified
+Beans: taxon not human verified
+Beets: taxon not human verified
+Bell Pepper: taxon not human verified
+Broccoli: taxon not human verified
+Brussels Sprouts: taxon not human verified
+Cabbage: taxon not human verified
+Cantaloupe: taxon not human verified
+Carrots: taxon not human verified
+Cauliflower: taxon not human verified
+Celery: taxon not human verified
+Corn: taxon not human verified
+Cucumber: taxon not human verified
+Garlic: taxon not human verified
+Kohlrabi: taxon not human verified
+Leeks: taxon not human verified
+Lettuce: taxon not human verified
+Eggplant: taxon not human verified
+Melons: taxon not human verified
+Okra: taxon not human verified
+Parsnips: taxon not human verified
+Peas: taxon not human verified
+Potatoes: taxon not human verified
+Spinach: taxon not human verified
+Sweet Potato: taxon not human verified
+Summer Squash: taxon not human verified
+Swiss Chard: taxon not human verified
+Tomatoes: taxon not human verified
+Marigold: taxon not human verified
+Zinnia: taxon not human verified
+Cosmos: taxon not human verified
+Nasturtium: taxon not human verified
+Sunflower: taxon not human verified
+Sweet Pea: taxon not human verified
+Calendula: taxon not human verified
+Dahlia: taxon not human verified
+Peony: taxon not human verified
+Iris: taxon not human verified
+Daylily: taxon not human verified
+Lavender: taxon not human verified
+Echinacea: taxon not human verified
+Rudbeckia: taxon not human verified
+Tulip: taxon not human verified
+Daffodil: taxon not human verified
+Crocus: taxon not human verified
+Allium: taxon not human verified
+Hyacinth: taxon not human verified
+Hostas: taxon not human verified
+Ferns: taxon not human verified
+Ornamental Grasses: taxon not human verified
+Sedum: taxon not human verified
+Heuchera: taxon not human verified
+Astilbe: taxon not human verified
+Rosemary: taxon not human verified
+Thyme: taxon not human verified
+Oregano: taxon not human verified
+Parsley: taxon not human verified
+Chives: taxon not human verified
+Basil: taxon not human verified
+Dill: taxon not human verified
+Cilantro: taxon not human verified
+Chervil: taxon not human verified
+Fennel: taxon not human verified
+Apple: taxon not human verified
+Pear: taxon not human verified
+Plum: taxon not human verified
+Cherry: taxon not human verified
+Grapes: taxon not human verified
+Strawberries: taxon not human verified
+Raspberries: taxon not human verified
+Blueberries: taxon not human verified
+Currants: taxon not human verified
+Gooseberries: taxon not human verified
+Rhubarb: taxon not human verified
+Globe Artichoke: taxon not human verified
+Snapdragons: taxon not human verified
+Petunias: taxon not human verified
+Lobelia: taxon not human verified
+Pansy: taxon not human verified
+Stocks: taxon not human verified
+Statice: taxon not human verified
+Antirrhinum: taxon not human verified
+Impatiens: taxon not human verified
+Nicotiana: taxon not human verified
+Cleome: taxon not human verified
+Larkspur: taxon not human verified
+Poppy: taxon not human verified
+Nigella: taxon not human verified
+Borage: taxon not human verified
+Cornflower: taxon not human verified
+Ammi majus: taxon not human verified
+Orlaya: taxon not human verified
+Celosia: taxon not human verified
+Strawflower: taxon not human verified
+Scabiosa: taxon not human verified
+Hellebores: taxon not human verified
+Snowdrops: taxon not human verified
+Delphinium: taxon not human verified
+Salvia nemorosa: taxon not human verified
+Gaillardia: taxon not human verified
+Asters: taxon not human verified
+Primula: taxon not human verified
+Wallflower: taxon not human verified
+Aubretia: taxon not human verified
+Iberis: taxon not human verified
+Hyacinths: taxon not human verified
+Muscari: taxon not human verified
+Gladiolus: taxon not human verified
+Anemone: taxon not human verified
+Camassia: taxon not human verified
+Witch Hazel: taxon not human verified
+Buddleja: taxon not human verified
+Deutzia: taxon not human verified
+Hydrangea paniculata: taxon not human verified
+Roses: taxon not human verified
+Forsythia: taxon not human verified
+Philadelphus: taxon not human verified
+Pieris: taxon not human verified
+Magnolia: taxon not human verified
+Camellia: taxon not human verified
+Rhododendron: taxon not human verified
+Spiraea: taxon not human verified
+Azalea: taxon not human verified
+Kerria: taxon not human verified
+Garry Oak: taxon not human verified
+Wisteria: taxon not human verified
+Clematis Group 3: taxon not human verified
+Clematis montana: taxon not human verified
+Honeysuckle: taxon not human verified
+Morning Glory: taxon not human verified
+Osoberry: taxon not human verified
+Red-flowering Currant: taxon not human verified
+Trillium: taxon not human verified
+Bleeding Heart: taxon not human verified
+Camas: taxon not human verified
+Sword Fern: taxon not human verified
