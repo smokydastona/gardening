@@ -14,8 +14,11 @@ on:
 jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
+    environment: copilot
     permissions:
       contents: read
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,3 +31,11 @@ jobs:
           python -m venv .venv
           .venv/bin/python -m pip install -r requirements.lock.txt google-genai==3.6.1
           .venv/bin/python -m pip check
+      - name: Check Gemini secret availability
+        env:
+          GEMINI_API_KEY_PRESENT: ${{ secrets.GEMINI_API_KEY != '' }}
+        run: |
+          .venv/bin/python - <<'PY'
+          import os
+          print("GEMINI_API_KEY=" + ("set" if os.environ.get("GEMINI_API_KEY") else "unset"))
+          PY

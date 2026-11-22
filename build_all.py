@@ -19,7 +19,6 @@ def main() -> None:
     run(["parse_errington_calendar.py"])
     run(["enrich_plant_registry.py"])
     run(["build_project_reports.py"])
-    run(["generate_placeholder_illustrations.py"])
     run(["build_encyclopedia_outputs.py"])
     run(["build_final_encyclopedia_pdf.py"])
     run(["build_publications.py"])

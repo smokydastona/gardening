@@ -1,0 +1,94 @@
+name: Generate Gemini Illustration Candidates
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    environment: copilot
+    permissions:
+      contents: write
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.lock.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements.lock.txt google-genai==3.6.1
+          python -m pip check
+      - name: Check Gemini secret without exposing it
+        run: |
+          python - <<'PY'
+          import os
+          if not os.environ.get("GEMINI_API_KEY"):
+              raise SystemExit("GEMINI_API_KEY is not available in the copilot environment")
+          print("GEMINI_API_KEY is available")
+          PY
+      - name: Generate verified-evidence Gemini candidates
+        run: |
+          set -e
+          python - <<'PY'
+          import csv
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          repo = Path.cwd()
+          evidence_dir = repo / "botanical_evidence"
+          generated = []
+          blocked = []
+          with (repo / "plant_registry.csv").open(encoding="utf-8-sig", newline="") as handle:
+              for row in csv.DictReader(handle):
+                  key = "".join(ch if ch.isalnum() else "_" for ch in row["display_name"].upper())
+                  while "__" in key:
+                      key = key.replace("__", "_")
+                  key = key.strip("_")
+                  path = evidence_dir / f"{key}.json"
+                  if not path.is_file():
+                      blocked.append((row["display_name"], "evidence template missing"))
+                      continue
+                  evidence = json.loads(path.read_text(encoding="utf-8"))
+                  if evidence.get("taxon_verified") is not True:
+                      blocked.append((row["display_name"], "taxon not human verified"))
+                      continue
+                  candidate = f"gemini-${{ github.run_id }}"
+                  try:
+                      subprocess.run(
+                          [sys.executable, "generate_illustrations.py", "generate",
+                           "--plant", row["display_name"], "--backend", "gemini",
+                           "--candidate", candidate],
+                          cwd=repo,
+                          check=True,
+                      )
+                      generated.append(row["display_name"])
+                  except subprocess.CalledProcessError as exc:
+                      blocked.append((row["display_name"], f"generation failed with exit {exc.returncode}"))
+
+          report = repo / "gemini_generation_report.txt"
+          report.write_text(
+              "Generated candidates: " + (", ".join(generated) if generated else "none") + "\n"
+              + "Blocked records: " + str(len(blocked)) + "\n"
+              + "\n".join(f"{name}: {reason}" for name, reason in blocked),
+              encoding="utf-8",
+          )
+          print(f"Generated: {len(generated)}; blocked: {len(blocked)}")
+          PY
+      - name: Commit pending candidates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add plant_illustrations/pending_review gemini_generation_report.txt
+          if git diff --cached --quiet; then
+            echo "No Gemini candidates or report changes to commit"
+          else
+            git diff --cached --quiet gemini_generation_report.txt || true
+            git -c commit.gpgsign=false commit -m "Generate Gemini illustration candidates" -m "Co-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>"
+            git push
+          fi
