@@ -1,6 +1,6 @@
 # Errington Monthly Garden Reference
 
-This file is generated from the direct local Errington calendar PDF and grouped into monthly edible and ornamental reference sections.
+This file is generated from the available Errington calendar text extraction and grouped into monthly edible and ornamental reference sections. The extraction is cross-checked against the checked-in chart images where possible.
 
 ## January
 

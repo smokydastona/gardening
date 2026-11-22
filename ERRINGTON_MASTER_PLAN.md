@@ -6,7 +6,7 @@ This file is the authoritative implementation blueprint for continuing the Errin
 
 ## 1. Project Purpose
 
-Create a scientifically accurate, region-specific, print-ready gardening encyclopedia for Errington, BC, Central Vancouver Island, localized to Zone 8a and nearby 8b microclimates.
+Create a scientifically accurate, region-specific, print-ready gardening encyclopedia for Errington, BC, Central Vancouver Island. Preserve source-specific climate labels and distinguish Errington data from broader Eastern Vancouver Island ecoregion information.
 
 The encyclopedia must integrate:
 
@@ -21,26 +21,23 @@ The encyclopedia must integrate:
 
 ## 2. Climate And Zone Baseline
 
-Authoritative local baseline from the direct Errington calendar source:
+Errington calendar evidence currently disagrees on the hardiness-zone label:
 
-1. Zone: 8a, with 8b microclimate considerations.
-2. Last frost: April 15.
-3. First frost: October 15.
-4. Frost-free days: approximately 183.
-5. Annual rainfall: approximately 1,200 mm.
-6. Winter low: rarely below -12 C.
-7. Seasonal pattern: wet winters, dry July and August, long daylight summers, maritime influence.
+1. The calendar text extraction says Zone 8a and reports approximately 183 frost-free days, 1,200 mm annual rainfall, and winter lows rarely below -12 C.
+2. Both checked-in calendar images are branded Zone 8b.
+3. Both text and images show approximate last and first frost dates of April 15 and October 15.
+4. The original calendar PDF is not checked into this workspace, so the extraction cannot be verified against its page images here.
 
-These values override generic external gardening sources when timing conflicts arise.
+Keep each claim attributed to its source. Use frost dates as approximate planning anchors, not guarantees, and do not resolve the 8a/8b discrepancy without stronger evidence.
 
 ## 3. Data Sources
 
 ### Primary Authoritative Sources
 
-1. [Errington BC Zone 8a Planting Calendar.pdf](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Errington%20BC%20Zone%208a%20Planting%20Calendar.pdf)
-2. [ERRINGTON_CALENDAR_FULL_TEXT.md](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ERRINGTON_CALENDAR_FULL_TEXT.md)
-3. [Planting Calander-Crops.png](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Crops.png)
-4. [Planting Calander-Ornamentals.png](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Ornamentals.png)
+1. [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md) and the checked-in crop and ornamental calendar images.
+2. The session-provided 2017 *Selecting Plants for Pollinators: Eastern Vancouver Island* PDF for regional pollinator habitat context only.
+3. User-provided plant references: [Encyclopedia of Plants and Flowers](https://archive.org/details/encyclopediaofplantsandflowers), [Trees, Leaves, Flowers and Seeds: A Visual Encyclopedia of the Plant Kingdom](https://archive.org/details/trees-leaves-flowers-and-seeds-a-visual-encyclopedia-of-the-plant-kingdom-dk-2019/mode/2up), and [Illustrated Encyclopedia](https://archive.org/details/illustratedencyc00wrig/page/38/mode/2up).
+4. [Vegetable_Gardening_Encyclopedia_With_Sp.pdf](Vegetable_Gardening_Encyclopedia_With_Sp.pdf), the supplied Reader's Digest gardening reference for general topics.
 
 ### Botanical Verification Sources
 
@@ -94,6 +91,7 @@ These values override generic external gardening sources when timing conflicts a
 2. Native shrubs.
 3. Native trees.
 4. Native bulbs.
+5. Pollinator habitat and seasonal food resources.
 
 ### Part VI - Pests And Diseases
 
@@ -395,4 +393,4 @@ The remaining completion work is exactly this:
 
 ## 10. Operational Handoff Rule
 
-Another AI assistant should treat this file, the direct Errington PDF, the structured CSV and JSON outputs, and the enriched registry as the active implementation blueprint and working data layer for completing the encyclopedia.
+Another assistant should treat this plan, the checked-in calendar extraction and images, the structured data outputs, and the enriched registry as the active working layer. The original Errington calendar PDF is not checked in; do not claim to have re-verified the extraction against it.

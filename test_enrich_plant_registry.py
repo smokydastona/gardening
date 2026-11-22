@@ -1,6 +1,12 @@
 from pathlib import Path
 
-from enrich_plant_registry import clean_alias_part, entry_aliases, load_registry_rows, registry_aliases
+from enrich_plant_registry import (
+    clean_alias_part,
+    entry_aliases,
+    load_registry_rows,
+    registry_aliases,
+    bulk_culture_profile,
+)
 
 
 def test_clean_alias_part_drops_descriptors() -> None:
@@ -37,3 +43,35 @@ def test_load_registry_rows_repairs_legacy_short_rows(tmp_path: Path) -> None:
     assert rows[0]["pests_diseases"] == ""
     assert rows[0]["illustration_brief_status"] == "not-started"
     assert rows[0]["illustration_prompt_status"] == "not-started"
+
+
+def test_bulk_profile_populates_taxonomy_and_culture_without_species_guessing() -> None:
+    row = {
+        "category": "flower",
+        "subcategory": "perennial",
+        "display_name": "Lavender",
+        "notes": "Existing note.",
+    }
+
+    profile = bulk_culture_profile(row)
+
+    assert profile["latin_name"] == "Lavandula angustifolia"
+    assert profile["family"] == "Lamiaceae"
+    assert profile["life_cycle"] == "Perennial"
+    assert "soil_notes" in profile
+    assert "USDA PLANTS/GBIF" in profile["notes"]
+
+
+def test_bulk_profile_marks_generic_plant_groups() -> None:
+    row = {
+        "category": "ornamental",
+        "subcategory": "",
+        "display_name": "Ferns",
+        "notes": "",
+    }
+
+    profile = bulk_culture_profile(row)
+
+    assert profile["latin_name"] == "Fern species / multiple genera"
+    assert profile["family"] == "Multiple families"
+    assert profile["verification_status"] == "taxonomy-requires-species-or-cultivar-resolution"

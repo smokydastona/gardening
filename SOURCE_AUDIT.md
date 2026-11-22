@@ -6,41 +6,21 @@ This file records the current source set, what each source can support, and wher
 
 ## Source Priority
 
-1. Direct local Errington calendar PDF in this workspace.
-2. Local Errington calendar images in this workspace.
-3. User-provided Errington calendar details preserved in the shared Copilot plan.
-4. Local generic vegetable encyclopedia PDF for structure and general non-local reference.
-5. External authoritative botanical and horticultural references for later verification.
+1. Errington calendar text extraction and the checked-in crop and ornamental images. Preserve the images' Zone 8b label and the text extraction's Zone 8a label as an unresolved conflict.
+2. The 2017 Eastern Vancouver Island pollinator guide for regional ecology and pollinator-habitat guidance, not Errington-specific timing.
+3. The user-supplied plant reference books for plant facts, with exact edition and page citations verified before publication.
+4. The Reader's Digest gardening PDF for general practices, not local climate or planting dates.
+5. Authoritative botanical and horticultural references for verification where the supplied sources do not resolve a plant-level fact.
 
 ## Local Sources
 
-### Direct Errington Calendar PDF
+### Errington Calendar Text Extraction
 
-File: [Errington BC Zone 8a Planting Calendar.pdf](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Errington%20BC%20Zone%208a%20Planting%20Calendar.pdf)
+File: [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md). The original 89-page calendar PDF referred to in project records is not checked into this workspace; the extraction has 89 page headings.
 
-Supports:
+The extraction reports Zone 8a, approximate last and first frost dates of April 15 and October 15, approximately 183 frost-free days, approximately 1,200 mm annual rainfall, and winter lows rarely below -12 C. It contains monthly edible and ornamental timing records. These are source-reported values; extraction formatting and the absent original PDF limit direct re-verification.
 
-1. Direct local climate summary for Errington, BC, Zone 8a.
-2. Monthly edible crop tables.
-3. Monthly flower and ornamental tables.
-4. Local frost guidance and monthly tips.
-5. Structured timing entries that are substantially richer than the summary chart images.
-
-Verified facts:
-
-1. The PDF is 89 pages long.
-2. It extracts readable text with `pypdf`.
-3. It explicitly states: Zone 8a, last frost approximately April 15, first frost approximately October 15, frost-free period approximately 183 days, annual rainfall approximately 1,200 mm, winter lows rarely below -12 C.
-4. It is organized as monthly two-page spreads with Page A for edible crops and Page B for flowers and ornamentals.
-
-Derived workspace artifacts:
-
-1. [ERRINGTON_CALENDAR_FULL_TEXT.md](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ERRINGTON_CALENDAR_FULL_TEXT.md) is a searchable full-text extraction of the PDF.
-
-Limitations:
-
-1. Page text is readable but still imperfect in formatting after extraction.
-2. The PDF does not remove the need for later botanical verification of Latin names and families.
+The summary images independently show the April 15 and October 15 frost anchors but are branded Zone 8b. Preserve the Zone 8a/8b discrepancy; do not silently select one label.
 
 ### Errington Crop Calendar Image
 
@@ -76,7 +56,26 @@ Limitations:
 2. Several notes are only partly legible.
 3. Not all likely ornamental scope from the broader plan is visible here.
 
-### Generic Vegetable Encyclopedia PDF
+### Eastern Vancouver Island Pollinator Guide
+
+File: session-provided `E.Vancouver.Isl.2017.ver6.pdf`, titled *Selecting Plants for Pollinators: A Guide for Gardeners, Farmers, and Land Managers in the Eastern Vancouver Island Ecoregion*. PDF metadata dates its creation to 2017; the guide credits Pollinator Partnership Canada and the North American Pollinator Protection Campaign.
+
+Supports regional ecoregion context, pollinator food/shelter/water needs, home-landscape practices, nesting habitat, and a regional plant table with flowering periods (pp. 3, 6, 10, 12-21).
+
+Limitations:
+
+1. The Eastern Vancouver Island ecoregion is broader than Errington; its climate ranges and bloom periods are not Errington-specific measurements.
+2. The uploaded PDF is outside the repository and is not included in CI builds. The encyclopedia contains an attributed original summary of selected guidance, not a transcription of the guide.
+
+### User-Provided Plant Reference Books
+
+1. *Encyclopedia of Plants and Flowers*: https://archive.org/details/encyclopediaofplantsandflowers
+2. *Trees, Leaves, Flowers and Seeds: A Visual Encyclopedia of the Plant Kingdom* (DK, 2019): https://archive.org/details/trees-leaves-flowers-and-seeds-a-visual-encyclopedia-of-the-plant-kingdom-dk-2019/mode/2up
+3. *Illustrated Encyclopedia*: https://archive.org/details/illustratedencyc00wrig/page/38/mode/2up
+
+Use these as reference sources for plant entries. Confirm the exact title, edition, and page for each claim before citing it in the encyclopedia. Do not copy their prose or illustrations into the compiled work.
+
+### Reader's Digest Gardening Reference PDF
 
 File: [Vegetable_Gardening_Encyclopedia_With_Sp.pdf](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Vegetable_Gardening_Encyclopedia_With_Sp.pdf)
 
@@ -85,7 +84,7 @@ Verified facts:
 1. The file is locally readable with Python and `pypdf`.
 2. It is 261 pages long.
 3. It appears to be a general vegetable gardening encyclopedia rather than an Errington-local document.
-4. It includes usable PDF bookmarks that expose its high-level structure.
+4. It includes PDF bookmarks that expose its high-level structure. The file metadata does not identify a title, author, or publication details.
 
 Recovered bookmark structure:
 
@@ -123,9 +122,11 @@ Use these labels in working files:
 3. `backbone-generic` for structure or general guidance taken from the PDF.
 4. `pending-verification` for anything that still needs direct confirmation.
 
+For new material, record the source and page alongside the claim. Keep ecoregion-level facts separate from Errington observations, and keep source wording and artwork out of the encyclopedia unless reuse permission is established.
+
 ## Immediate Next Work
 
-1. Parse the direct Errington PDF into structured monthly and per-plant timing data.
-2. Populate [plant_registry.csv](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_registry.csv) from the direct local PDF before relying on the summary images.
-3. Use the summary images as cross-checks rather than as the main timing source.
-4. Continue drafting the encyclopedia from direct local text instead of image inference wherever possible.
+1. Recover or obtain the original Errington calendar PDF so the extracted monthly data can be checked against its pages.
+2. Resolve the 8a/8b label discrepancy only if a source establishes which label applies; otherwise keep both claims.
+3. The 137-record registry now has bulk taxonomy and cultural profiles. Resolve the entries marked `taxonomy-requires-species-or-cultivar-resolution` and add cultivar-specific values.
+4. Keep pollinator guide climate and bloom data labeled as Eastern Vancouver Island ecoregion-wide rather than Errington-specific.

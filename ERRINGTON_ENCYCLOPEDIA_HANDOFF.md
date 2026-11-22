@@ -8,33 +8,37 @@ This file is intended as a complete handoff brief for another AI assistant so th
 
 ## Source Hierarchy
 
-Use sources in this order when there is a conflict:
+Assign authority by subject rather than using one source to override every other source:
 
-1. Local Errington calendar artifacts in this workspace.
-2. User-provided Errington calendar content summarized in the shared Copilot conversation.
-3. Authoritative botanical and horticultural references for taxonomy and morphology.
-4. Conservative inference only when data cannot be verified directly.
+1. Errington timing: calendar text extraction plus checked-in crop and ornamental images. Preserve the Zone 8a text / Zone 8b image discrepancy.
+2. Pollinator habitat and regional ecology: the 2017 Eastern Vancouver Island pollinator guide, labeled as ecoregion-wide.
+3. Plant facts: the user-provided plant reference books, with exact edition and page citations verified for each claim.
+4. General gardening practices: the Reader's Digest gardening PDF, not local timing.
+5. If evidence is incomplete or conflicting, mark it pending instead of guessing.
 
 ## Local Workspace Artifacts
 
-Verified files currently present:
+Relevant checked-in files:
 
-1. [Errington BC Zone 8a Planting Calendar.pdf](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Errington%20BC%20Zone%208a%20Planting%20Calendar.pdf)
-2. [Planting Calander-Crops.png](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Crops.png)
-3. [Planting Calander-Ornamentals.png](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Ornamentals.png)
-4. [ERRINGTON_CALENDAR_FULL_TEXT.md](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/ERRINGTON_CALENDAR_FULL_TEXT.md)
+1. [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md), a text extraction whose original 89-page calendar PDF is not checked into this workspace.
+2. [Planting Calander-Crops.png](Planting%20Calander-Crops.png)
+3. [Planting Calander-Ornamentals.png](Planting%20Calander-Ornamentals.png)
+4. [Vegetable_Gardening_Encyclopedia_With_Sp.pdf](Vegetable_Gardening_Encyclopedia_With_Sp.pdf), the supplied Reader's Digest reference PDF.
+5. The session-provided `E.Vancouver.Isl.2017.ver6.pdf`, *Selecting Plants for Pollinators: Eastern Vancouver Island*; it is not checked into the repository.
 
-The direct Errington PDF is now the strongest local source. The summary chart images remain useful cross-checks for scope, legends, and visible plant lists. The extracted markdown file makes the PDF searchable inside the workspace.
+The user also supplied three Internet Archive plant-reference books. Their source links and intended use are recorded in [ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md](ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md). Use them for attributed factual synthesis, not copied prose or illustrations.
+
+The checked-in calendar extraction provides monthly text, while the chart images allow visual checks of the legend, plant lists, and the Zone 8b branding. The absent original calendar PDF prevents verifying the extraction against its page images.
 
 ## Verified From Local Images
 
 ### Climate Anchors
 
-Both local images explicitly show:
+The checked-in chart images show:
 
 1. Last expected frost date: April 15.
 2. First expected frost date: October 15.
-3. The project is branded as an Errington 8b calendar.
+3. Both images are branded as Errington 8b calendars. The separate calendar text extraction says Zone 8a; retain both labels as an unresolved discrepancy.
 
 ### Edible Calendar Legend
 

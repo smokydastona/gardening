@@ -4,15 +4,16 @@ This workspace contains the local source material, extraction scripts, tests, st
 
 ## Source Files
 
-Primary local source:
+Primary local calendar evidence:
 
-1. [Errington BC Zone 8a Planting Calendar.pdf](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Errington%20BC%20Zone%208a%20Planting%20Calendar.pdf)
+1. [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md), a text extraction; the original calendar PDF is not checked into this workspace.
 
 Supporting local sources:
 
-1. [Planting Calander-Crops.png](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Crops.png)
-2. [Planting Calander-Ornamentals.png](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Planting%20Calander-Ornamentals.png)
-3. [Vegetable_Gardening_Encyclopedia_With_Sp.pdf](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Vegetable_Gardening_Encyclopedia_With_Sp.pdf)
+1. [Planting Calander-Crops.png](Planting%20Calander-Crops.png)
+2. [Planting Calander-Ornamentals.png](Planting%20Calander-Ornamentals.png)
+3. [Vegetable_Gardening_Encyclopedia_With_Sp.pdf](Vegetable_Gardening_Encyclopedia_With_Sp.pdf), the supplied Reader's Digest gardening reference.
+4. The user-provided 2017 Eastern Vancouver Island pollinator guide and Internet Archive plant references are documented in [ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md](ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md); they are not checked into this repository.
 
 ## Python Environment
 
@@ -91,6 +92,6 @@ Working project records:
 
 ## Implementation Notes
 
-1. The direct Errington PDF is the authoritative local timing source in this workspace.
-2. The chart images are retained as cross-checks and for OCR-based extraction artifacts.
-3. The original vegetable encyclopedia PDF is used for structure, illustration plates, and general gardening guidance, but it does not override Errington-specific timing.
+1. The available calendar text extraction supplies detailed monthly entries; its source PDF is absent, so transcription accuracy remains a limitation.
+2. The chart images independently support the frost dates and plant lists, and label the calendar Zone 8b. The text extraction labels it Zone 8a; retain this conflict.
+3. The Reader's Digest PDF can inform general gardening topics but does not override local timing. Do not copy its prose or illustrations into the encyclopedia.

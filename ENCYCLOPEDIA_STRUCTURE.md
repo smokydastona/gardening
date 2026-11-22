@@ -10,6 +10,8 @@ This file maps the intended Errington encyclopedia chapters to the currently ava
 2. The vegetable PDF can supply general structure and non-local gardening topics.
 3. Do not borrow generic timing from the PDF when local timing is missing.
 4. Plant-level claims stay `pending-verification` until entered into [plant_registry.csv](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_registry.csv).
+5. Preserve the calendar text extraction's Zone 8a label and the chart images' Zone 8b label as an unresolved discrepancy.
+6. Pollinator guidance from the 2017 Eastern Vancouver Island guide is ecoregion-wide, not Errington-specific.
 
 ## Source Backbone
 
@@ -21,6 +23,10 @@ This file maps the intended Errington encyclopedia chapters to the currently ava
 ### Generic Structural Source
 
 1. [Vegetable_Gardening_Encyclopedia_With_Sp.pdf](/c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/Vegetable_Gardening_Encyclopedia_With_Sp.pdf)
+
+### Regional Ecological Source
+
+1. Session-provided `E.Vancouver.Isl.2017.ver6.pdf`, *Selecting Plants for Pollinators: Eastern Vancouver Island*. Use it for summarized habitat guidance and regional plant context; do not treat its ecoregion bloom periods as Errington calendar dates.
 
 Recovered PDF sections:
 
@@ -112,8 +118,8 @@ Source fit: local ornamental chart for some ornamentals, shared plan for woody s
 Status: mixed; herbaceous ornamentals are locally supported, woody plants are still plan-level.
 
 17. BC Natives And Ecological Gardening
-Source fit: shared plan only.
-Status: scaffold only until native list is directly verified.
+Source fit: shared plan plus the Eastern Vancouver Island pollinator guide for regional habitat principles.
+Status: habitat overview can be drafted; native plant-level details and local bloom dates still need verification.
 
 ### Part 5: Harvest, Storage, And Use
 

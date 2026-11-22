@@ -58,7 +58,7 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
     if not rows:
         raise RuntimeError(f"No rows available to write to {path.name}.")
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -319,7 +319,7 @@ def build_monthly_reference(base_dir: Path) -> None:
     for entry in entries:
         grouped[entry["month"]][entry["page_type"]][entry["section"]].append(entry)
 
-    parts = ["# Errington Monthly Garden Reference", "", "This file is generated from the direct local Errington calendar PDF and grouped into monthly edible and ornamental reference sections.", ""]
+    parts = ["# Errington Monthly Garden Reference", "", "This file is generated from the available Errington calendar text extraction and grouped into monthly edible and ornamental reference sections. The extraction is cross-checked against the checked-in chart images where possible.", ""]
     for month in MONTH_ORDER:
         month_data = grouped.get(month)
         if not month_data:
@@ -350,6 +350,14 @@ def build_plant_catalog(base_dir: Path) -> None:
         parts.extend([f"## {category.title()}", ""])
         for row in sorted(grouped[category], key=lambda current: current["display_name"]):
             parts.extend([f"### {row['display_name']}", ""])
+            if row.get("latin_name"):
+                parts.append(f"- Latin name: {row['latin_name']}")
+            if row.get("family"):
+                parts.append(f"- Family: {row['family']}")
+            if row.get("life_cycle"):
+                parts.append(f"- Life cycle: {row['life_cycle']}")
+            if row.get("verification_status"):
+                parts.append(f"- Verification status: {row['verification_status']}")
             parts.append(f"- Match status: {row['calendar_match_status']}")
             parts.append(f"- Calendar matches: {row['calendar_match_count']}")
             if row["calendar_months"]:
@@ -362,6 +370,21 @@ def build_plant_catalog(base_dir: Path) -> None:
                 parts.append(f"- Illustration brief: {row['illustration_brief_status']}")
             if row["illustration_prompt_status"]:
                 parts.append(f"- Illustration prompt: {row['illustration_prompt_status']}")
+            for field, label in [
+                ("growth_habit", "Growth habit"),
+                ("root_or_storage_organ", "Root or storage organ"),
+                ("leaf_arrangement_shape", "Leaves"),
+                ("flower_structure", "Flowers"),
+                ("fruit_seed_structure", "Fruit or seeds"),
+                ("soil_notes", "Soil"),
+                ("water_notes", "Water"),
+                ("spacing_notes", "Spacing"),
+                ("light_notes", "Light"),
+                ("maintenance_notes", "Maintenance"),
+                ("pests_diseases", "Pests and diseases"),
+            ]:
+                if row.get(field):
+                    parts.append(f"- {label}: {row[field]}")
             if row["calendar_actions"]:
                 parts.append("- Calendar actions:")
                 for action in row["calendar_actions"].split(" || "):

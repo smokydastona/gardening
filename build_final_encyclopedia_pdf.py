@@ -1,12 +1,9 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
-from io import BytesIO
 from pathlib import Path
 import re
 from xml.sax.saxutils import escape
 
-from pypdf import PdfReader
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
@@ -19,10 +16,9 @@ from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, 
 
 
 TITLE = "Errington Gardening Encyclopedia"
-SUBTITLE = "Updated Edition Based on the Vegetable Gardening Encyclopedia"
+SUBTITLE = "Errington-local growing calendar and plant catalog"
 OUTPUT_PDF = "Errington_Gardening_Encyclopedia.pdf"
 OUTPUT_MD = "Errington_Gardening_Encyclopedia_Compiled.md"
-REFERENCE_PDF = "Vegetable_Gardening_Encyclopedia_With_Sp.pdf"
 COVER_IMAGE = "cover.png"
 PLANT_ILLUSTRATIONS_DIR = "plant_illustrations"
 PLANT_ILLUSTRATION_EXTENSIONS = (".png", ".jpg", ".jpeg", ".tif", ".tiff", ".webp")
@@ -33,6 +29,7 @@ ACCENT_COLOR = colors.HexColor("#51664e")
 MUTED_COLOR = colors.HexColor("#7b756c")
 
 SOURCE_FILES = [
+    ("Core Handbook", "ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md", "Local climate notes, gardening foundations, and regional pollinator guidance with source limits."),
     ("Monthly Reference", "ERRINGTON_MONTHLY_REFERENCE.md", "Month-by-month scheduling aligned to the local planting calendar."),
     ("Plant Catalog", "ERRINGTON_PLANT_CATALOG.md", "Plant-by-plant notes grounded in the parsed Errington registry and calendar matches."),
     ("Illustration Briefs", "ERRINGTON_ILLUSTRATION_BRIEFS_AND_PROMPTS.md", "Per-plant botanical illustration briefs and matching hand-drawn plate prompts for the full plant registry."),
@@ -60,15 +57,6 @@ REPLACEMENTS = {
     "’": "'",
     " ": " ",
 }
-
-
-@dataclass
-class Illustration:
-    name: str
-    page_number: int
-    data: bytes
-    width: int
-    height: int
 
 
 def register_font(font_name: str, regular_path: Path, bold_path: Path | None = None) -> tuple[str, str]:
@@ -134,37 +122,6 @@ def compile_markdown(base_dir: Path, sections: list[dict[str, str]]) -> str:
     compiled = "\n".join(blocks).strip() + "\n"
     (base_dir / OUTPUT_MD).write_text(compiled, encoding="utf-8")
     return compiled
-
-
-def extract_reference_illustrations(base_dir: Path, limit: int = 24) -> list[Illustration]:
-    reader = PdfReader(str(base_dir / REFERENCE_PDF))
-    illustrations: list[Illustration] = []
-    seen_names: set[str] = set()
-    for page_number, page in enumerate(reader.pages, 1):
-        images = list(page.images) if hasattr(page, "images") else []
-        for image in images:
-            if image.name in seen_names or len(illustrations) >= limit:
-                continue
-            try:
-                width, height = ImageReader(BytesIO(image.data)).getSize()
-            except Exception:
-                continue
-            if width < 220 or height < 220:
-                continue
-            seen_names.add(image.name)
-            illustrations.append(
-                Illustration(
-                    name=image.name,
-                    page_number=page_number,
-                    data=image.data,
-                    width=width,
-                    height=height,
-                )
-            )
-            break
-        if len(illustrations) >= limit:
-            break
-    return illustrations
 
 
 def build_styles(fonts: dict[str, str]) -> dict[str, ParagraphStyle]:
@@ -340,11 +297,6 @@ def build_styles(fonts: dict[str, str]) -> dict[str, ParagraphStyle]:
     return styles
 
 
-def make_illustration(illustration: Illustration, max_width: float, max_height: float) -> RLImage:
-    scale = min(max_width / illustration.width, max_height / illustration.height)
-    return RLImage(BytesIO(illustration.data), width=illustration.width * scale, height=illustration.height * scale)
-
-
 def make_cover_image(image_path: Path, max_width: float, max_height: float) -> RLImage:
     cover = ImageReader(str(image_path))
     image_width, image_height = cover.getSize()
@@ -388,7 +340,7 @@ def add_cover(story: list, base_dir: Path, doc_width: float, doc_height: float) 
 
 def add_front_matter(story: list, styles: dict[str, ParagraphStyle], sections: list[dict[str, str]]) -> None:
     story.append(Paragraph("Contents", styles["FrontMatterHeading"]))
-    story.append(Paragraph("This edition keeps the reference encyclopedia's illustrated feel while replacing generic timing with Errington-specific local scheduling.", styles["Lead"]))
+    story.append(Paragraph("This original reference brings together Errington calendar evidence, an attributed regional pollinator summary, a plant catalog, and illustration briefs. Source scope and unresolved conflicts are identified in the handbook.", styles["Lead"]))
     for index, section in enumerate(sections, 1):
         story.append(Paragraph(f"{index}. {paragraph_text(section['title'])}", styles["TocEntry"]))
         story.append(Paragraph(paragraph_text(section["deck"]), styles["Caption"]))
@@ -399,30 +351,12 @@ def add_section_opener(
     story: list,
     styles: dict[str, ParagraphStyle],
     section: dict[str, str],
-    doc_width: float,
-    illustration: Illustration | None,
 ) -> None:
     story.append(Spacer(1, 0.55 * inch))
-    story.append(Paragraph("Updated Reference Section", styles["SectionKicker"]))
+    story.append(Paragraph("Errington Encyclopedia", styles["SectionKicker"]))
     story.append(Paragraph(paragraph_text(section["title"]), styles["SectionTitle"]))
     story.append(Paragraph(paragraph_text(section["deck"]), styles["SectionDeck"]))
-    if illustration is not None:
-        story.append(make_illustration(illustration, doc_width, 3.35 * inch))
-        story.append(Spacer(1, 0.08 * inch))
-        story.append(Paragraph(f"Illustration plate adapted from the reference encyclopedia, page {illustration.page_number}.", styles["Caption"]))
     story.append(PageBreak())
-
-
-def add_inline_plate(
-    story: list,
-    styles: dict[str, ParagraphStyle],
-    illustration: Illustration,
-    doc_width: float,
-) -> None:
-    story.append(Spacer(1, 0.12 * inch))
-    story.append(make_illustration(illustration, doc_width * 0.72, 2.25 * inch))
-    story.append(Spacer(1, 0.04 * inch))
-    story.append(Paragraph(f"Reference plate, page {illustration.page_number}.", styles["Caption"]))
 
 
 def add_plant_illustration(
@@ -442,12 +376,10 @@ def add_markdown_lines(
     styles: dict[str, ParagraphStyle],
     section_title: str,
     text: str,
-    art_queue: list[Illustration],
     plant_illustrations: dict[str, Path],
     doc_width: float,
 ) -> None:
     first_body = True
-    h2_count = 0
     for raw_line in text.splitlines():
         line = raw_line.rstrip()
         stripped = line.strip()
@@ -460,9 +392,6 @@ def add_markdown_lines(
             continue
         if stripped.startswith("## "):
             story.append(Paragraph(paragraph_text(stripped[3:].strip()), styles["H2"]))
-            h2_count += 1
-            if art_queue and h2_count % 6 == 0:
-                add_inline_plate(story, styles, art_queue.pop(0), doc_width)
             first_body = True
             continue
         if stripped.startswith("### "):
@@ -524,7 +453,6 @@ def build_pdf(base_dir: Path) -> Path:
     styles = build_styles(fonts)
     sections = load_sections(base_dir)
     compile_markdown(base_dir, sections)
-    illustrations = extract_reference_illustrations(base_dir)
     plant_illustrations = load_plant_illustrations(base_dir)
     output_path = base_dir / OUTPUT_PDF
     doc = SimpleDocTemplate(
@@ -542,16 +470,8 @@ def build_pdf(base_dir: Path) -> Path:
     add_cover(story, base_dir, doc.width, doc.height)
     add_front_matter(story, styles, sections)
     for index, section in enumerate(sections):
-        opener_art = illustrations.pop(0) if illustrations else None
-        add_section_opener(story, styles, section, doc_width, opener_art)
-        section_art: list[Illustration] = []
-        if index < len(sections) - 1:
-            section_art = illustrations[:3]
-            del illustrations[:3]
-        else:
-            section_art = illustrations[:]
-            illustrations.clear()
-        add_markdown_lines(story, styles, section["title"], section["text"], section_art, plant_illustrations, doc_width)
+        add_section_opener(story, styles, section)
+        add_markdown_lines(story, styles, section["title"], section["text"], plant_illustrations, doc_width)
         if index < len(sections) - 1:
             story.append(PageBreak())
     doc.build(story, onFirstPage=draw_cover, onLaterPages=draw_page_chrome)
