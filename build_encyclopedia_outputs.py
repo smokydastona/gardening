@@ -5,6 +5,8 @@ from collections import defaultdict
 from pathlib import Path
 import re
 
+from illustration_assets import approved_assets
+
 
 MONTH_ORDER = [
     "JANUARY",
@@ -77,17 +79,7 @@ def preferred_illustration_filename(display_name: str) -> str:
 
 
 def load_existing_illustration_assets(illustrations_dir: Path) -> dict[str, Path]:
-    if not illustrations_dir.exists():
-        return {}
-
-    assets: dict[str, Path] = {}
-    for path in illustrations_dir.iterdir():
-        if not path.is_file() or path.suffix.lower() not in ILLUSTRATION_EXTENSIONS:
-            continue
-        key = normalize_key(path.stem)
-        if key and key not in assets:
-            assets[key] = path
-    return assets
+    return approved_assets(illustrations_dir)
 
 
 def profile_for_row(row: dict[str, str]) -> dict[str, str | list[str]]:

@@ -3,3 +3,4 @@ rapidocr-onnxruntime==1.4.4
 opencv-python-headless==4.13.0.92
 pytest==9.0.3
 reportlab==5.0.0
+Pillow==13.0.0

@@ -9,6 +9,10 @@ on:
       - '.github/workflows/build-encyclopedia.yml'
       - 'build_encyclopedia_outputs.py'
       - 'build_final_encyclopedia_pdf.py'
+      - 'illustration_assets.py'
+      - 'generate_illustrations.py'
+      - 'illustration_i1.py'
+      - 'fonts/**'
       - 'enrich_plant_registry.py'
       - 'extract_calendar_data.py'
       - 'parse_errington_calendar.py'
@@ -30,6 +34,10 @@ on:
       - '.github/workflows/build-encyclopedia.yml'
       - 'build_encyclopedia_outputs.py'
       - 'build_final_encyclopedia_pdf.py'
+      - 'illustration_assets.py'
+      - 'generate_illustrations.py'
+      - 'illustration_i1.py'
+      - 'fonts/**'
       - 'enrich_plant_registry.py'
       - 'extract_calendar_data.py'
       - 'parse_errington_calendar.py'
@@ -71,6 +79,11 @@ jobs:
       - name: Restore committed plant illustration assets
         run: |
           git checkout "$ILLUSTRATION_ASSET_REF" -- 'plant_illustrations/*.png'
+          git ls-tree -r --name-only "$ILLUSTRATION_ASSET_REF" -- plant_illustrations/ |
+            (grep -E '^plant_illustrations/[^/]+\.json$' || true) |
+            while IFS= read -r path; do
+              git checkout "$ILLUSTRATION_ASSET_REF" -- "$path"
+            done
 
       - name: Run tests
         run: python -m pytest

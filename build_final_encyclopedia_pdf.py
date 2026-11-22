@@ -14,6 +14,8 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Image as RLImage
 from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
+from illustration_assets import approved_assets
+
 
 TITLE = "Errington Gardening Encyclopedia"
 SUBTITLE = "Errington-local growing calendar and plant catalog"
@@ -316,18 +318,7 @@ def make_local_image(image_path: Path, max_width: float, max_height: float) -> R
 
 
 def load_plant_illustrations(base_dir: Path) -> dict[str, Path]:
-    illustrations_dir = base_dir / PLANT_ILLUSTRATIONS_DIR
-    if not illustrations_dir.exists():
-        return {}
-
-    illustration_map: dict[str, Path] = {}
-    for path in illustrations_dir.iterdir():
-        if not path.is_file() or path.suffix.lower() not in PLANT_ILLUSTRATION_EXTENSIONS:
-            continue
-        key = normalize_key(path.stem)
-        if key and key not in illustration_map:
-            illustration_map[key] = path
-    return illustration_map
+    return approved_assets(base_dir / PLANT_ILLUSTRATIONS_DIR)
 
 
 def add_cover(story: list, base_dir: Path, doc_width: float, doc_height: float) -> None:
@@ -366,7 +357,7 @@ def add_plant_illustration(
     doc_width: float,
 ) -> None:
     story.append(Spacer(1, 0.1 * inch))
-    story.append(make_local_image(image_path, doc_width * 0.82, 2.45 * inch))
+    story.append(make_local_image(image_path, doc_width * 0.95, 5.5 * inch))
     story.append(Spacer(1, 0.05 * inch))
     story.append(Paragraph(f"Scientific illustration asset: {paragraph_text(image_path.name)}", styles["Caption"]))
 

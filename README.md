@@ -57,10 +57,10 @@ Behavior:
 
 1. Triggers on `workflow_dispatch`, pushes to `main`, and pull requests that touch the build inputs.
 2. Checks out the repository on GitHub-hosted runners, so it uses the assets committed to the repo rather than local-only files.
-3. Restores the committed plant illustration PNG assets from the dedicated `illustration-assets` branch before the build, so the current checkout can stay lean without losing the remote build inputs.
+3. Restores illustration PNG assets and approval sidecars from the dedicated `illustration-assets` branch. Only human-reviewed assets whose image and evidence hashes match are included; legacy assets without approval are skipped.
 4. Installs dependencies, runs the full test suite, rebuilds the encyclopedia outputs, and uploads the PDF and generated artifacts as a workflow artifact named `encyclopedia-build`.
 
-If you want the build to include plant illustrations, add the actual image files to [plant_illustrations](c:/Users/smoky/OneDrive/Desktop/Homemade%20Mods/My%20Gardening%20Encyclopedia/plant_illustrations) and push them. The workflow runner will use those committed assets automatically.
+For evidence preparation, generation, review and publication, see [the illustration workflow](plant_illustrations/README.md). Commit approved images and their JSON sidecars together on the asset branch.
 
 The current workflow restores plant illustration assets from `origin/illustration-assets`.
 
