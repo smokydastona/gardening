@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "asset_id": "GOOSEBERRIES",
+  "display_name": "Gooseberries",
+  "file": "pending-placeholder.png",
+  "status": "pending-human-review",
+  "backend": "local-pending-placeholder",
+  "model": "deterministic-plant-card-v1",
+  "conditioning": "none",
+  "generated_at_utc": "2026-11-22T07:03:49.937358+00:00",
+  "provenance": "Repository-generated neutral workflow placeholder; does not depict the species.",
+  "creator": "Errington Gardening Encyclopedia pipeline",
+  "license": "Unclaimed; placeholder is not a botanical illustration and must not be published as such.",
+  "image_sha256": "c0341b483332f09e1f32ae4e488fa2f1d31317075e9dff2bea2a78192a0b8d65",
+  "evidence": {
+    "plant_key": "GOOSEBERRIES",
+    "display_name": "Gooseberries",
+    "registry_latin_name_candidate": "Ribes uva-crispa",
+    "accepted_name": "",
+    "taxon_verified": false,
+    "taxonomic_authority": "",
+    "cultivar_or_group": "",
+    "diagnostic_traits": {
+      "growth_habit": "",
+      "leaf_arrangement": "",
+      "leaf_morphology": "",
+      "diagnostic_features": "",
+      "flower_structure": "",
+      "fruit_or_seed_structure": "",
+      "root_or_storage_structure": "",
+      "known_variation_or_uncertainty": ""
+    },
+    "reference_images": [
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "whole plant"
+      },
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "diagnostic close-up"
+      }
+    ],
+    "sources": [
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      }
+    ],
+    "human_verification": {
+      "reviewer": "",
+      "date": "",
+      "notes": ""
+    },
+    "plantgen_species": ""
+  },
+  "evidence_sha256": "631d204e728d3f6fc5e1399e06687c13c43e5f420d528062f921f1ad90ef2203",
+  "reference_sha256": [],
+  "style_reference_sha256": null,
+  "plantgen_sha256": null
+}

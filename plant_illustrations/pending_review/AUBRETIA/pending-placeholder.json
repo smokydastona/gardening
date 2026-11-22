@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "asset_id": "AUBRETIA",
+  "display_name": "Aubretia",
+  "file": "pending-placeholder.png",
+  "status": "pending-human-review",
+  "backend": "local-pending-placeholder",
+  "model": "deterministic-plant-card-v1",
+  "conditioning": "none",
+  "generated_at_utc": "2026-11-22T07:03:50.978744+00:00",
+  "provenance": "Repository-generated neutral workflow placeholder; does not depict the species.",
+  "creator": "Errington Gardening Encyclopedia pipeline",
+  "license": "Unclaimed; placeholder is not a botanical illustration and must not be published as such.",
+  "image_sha256": "357f49054c9b676fd53242b63b3f5fc29d7f7812ea470c08043dd738fc67dee0",
+  "evidence": {
+    "plant_key": "AUBRETIA",
+    "display_name": "Aubretia",
+    "registry_latin_name_candidate": "Aubrieta deltoidea",
+    "accepted_name": "",
+    "taxon_verified": false,
+    "taxonomic_authority": "",
+    "cultivar_or_group": "",
+    "diagnostic_traits": {
+      "growth_habit": "",
+      "leaf_arrangement": "",
+      "leaf_morphology": "",
+      "diagnostic_features": "",
+      "flower_structure": "",
+      "fruit_or_seed_structure": "",
+      "root_or_storage_structure": "",
+      "known_variation_or_uncertainty": ""
+    },
+    "reference_images": [
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "whole plant"
+      },
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "diagnostic close-up"
+      }
+    ],
+    "sources": [
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      }
+    ],
+    "human_verification": {
+      "reviewer": "",
+      "date": "",
+      "notes": ""
+    },
+    "plantgen_species": ""
+  },
+  "evidence_sha256": "e39d5cef635004ba6e7b2661880f114c5fbc2b8426470a98a096daad3f6f16f2",
+  "reference_sha256": [],
+  "style_reference_sha256": null,
+  "plantgen_sha256": null
+}

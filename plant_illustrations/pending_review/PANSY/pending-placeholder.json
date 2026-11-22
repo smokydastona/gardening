@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "asset_id": "PANSY",
+  "display_name": "Pansy",
+  "file": "pending-placeholder.png",
+  "status": "pending-human-review",
+  "backend": "local-pending-placeholder",
+  "model": "deterministic-plant-card-v1",
+  "conditioning": "none",
+  "generated_at_utc": "2026-11-22T07:03:50.136118+00:00",
+  "provenance": "Repository-generated neutral workflow placeholder; does not depict the species.",
+  "creator": "Errington Gardening Encyclopedia pipeline",
+  "license": "Unclaimed; placeholder is not a botanical illustration and must not be published as such.",
+  "image_sha256": "770ee2bfb56b0e81289c55eb21e1461a313d3279baf8e7986543c1c8f5919c5d",
+  "evidence": {
+    "plant_key": "PANSY",
+    "display_name": "Pansy",
+    "registry_latin_name_candidate": "Viola × wittrockiana",
+    "accepted_name": "",
+    "taxon_verified": false,
+    "taxonomic_authority": "",
+    "cultivar_or_group": "",
+    "diagnostic_traits": {
+      "growth_habit": "",
+      "leaf_arrangement": "",
+      "leaf_morphology": "",
+      "diagnostic_features": "",
+      "flower_structure": "",
+      "fruit_or_seed_structure": "",
+      "root_or_storage_structure": "",
+      "known_variation_or_uncertainty": ""
+    },
+    "reference_images": [
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "whole plant"
+      },
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "diagnostic close-up"
+      }
+    ],
+    "sources": [
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      }
+    ],
+    "human_verification": {
+      "reviewer": "",
+      "date": "",
+      "notes": ""
+    },
+    "plantgen_species": ""
+  },
+  "evidence_sha256": "e902bdd1731a6ea6b184de8393f2892a2bdeee945f987ece10ade2fcb5cf2079",
+  "reference_sha256": [],
+  "style_reference_sha256": null,
+  "plantgen_sha256": null
+}

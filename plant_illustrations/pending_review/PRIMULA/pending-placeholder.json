@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "asset_id": "PRIMULA",
+  "display_name": "Primula",
+  "file": "pending-placeholder.png",
+  "status": "pending-human-review",
+  "backend": "local-pending-placeholder",
+  "model": "deterministic-plant-card-v1",
+  "conditioning": "none",
+  "generated_at_utc": "2026-11-22T07:03:50.899713+00:00",
+  "provenance": "Repository-generated neutral workflow placeholder; does not depict the species.",
+  "creator": "Errington Gardening Encyclopedia pipeline",
+  "license": "Unclaimed; placeholder is not a botanical illustration and must not be published as such.",
+  "image_sha256": "fab0ca44a051d8d6da19962f183b7dc45e555e9cf21715f4cb888b61974b0c26",
+  "evidence": {
+    "plant_key": "PRIMULA",
+    "display_name": "Primula",
+    "registry_latin_name_candidate": "Primula vulgaris",
+    "accepted_name": "",
+    "taxon_verified": false,
+    "taxonomic_authority": "",
+    "cultivar_or_group": "",
+    "diagnostic_traits": {
+      "growth_habit": "",
+      "leaf_arrangement": "",
+      "leaf_morphology": "",
+      "diagnostic_features": "",
+      "flower_structure": "",
+      "fruit_or_seed_structure": "",
+      "root_or_storage_structure": "",
+      "known_variation_or_uncertainty": ""
+    },
+    "reference_images": [
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "whole plant"
+      },
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "diagnostic close-up"
+      }
+    ],
+    "sources": [
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      }
+    ],
+    "human_verification": {
+      "reviewer": "",
+      "date": "",
+      "notes": ""
+    },
+    "plantgen_species": ""
+  },
+  "evidence_sha256": "154ffce87683100fa7c076c0c19837d00d0488a04d419d49e9b2d010191539cb",
+  "reference_sha256": [],
+  "style_reference_sha256": null,
+  "plantgen_sha256": null
+}

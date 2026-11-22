@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "asset_id": "CHIVES",
+  "display_name": "Chives",
+  "file": "pending-placeholder.png",
+  "status": "pending-human-review",
+  "backend": "local-pending-placeholder",
+  "model": "deterministic-plant-card-v1",
+  "conditioning": "none",
+  "generated_at_utc": "2026-11-22T07:03:49.441960+00:00",
+  "provenance": "Repository-generated neutral workflow placeholder; does not depict the species.",
+  "creator": "Errington Gardening Encyclopedia pipeline",
+  "license": "Unclaimed; placeholder is not a botanical illustration and must not be published as such.",
+  "image_sha256": "2c39cb3f1e7e15573abc8ee7b6d01c3613551c1a93e3f88a2e690b05c3507f93",
+  "evidence": {
+    "plant_key": "CHIVES",
+    "display_name": "Chives",
+    "registry_latin_name_candidate": "Allium schoenoprasum",
+    "accepted_name": "",
+    "taxon_verified": false,
+    "taxonomic_authority": "",
+    "cultivar_or_group": "",
+    "diagnostic_traits": {
+      "growth_habit": "",
+      "leaf_arrangement": "",
+      "leaf_morphology": "",
+      "diagnostic_features": "",
+      "flower_structure": "",
+      "fruit_or_seed_structure": "",
+      "root_or_storage_structure": "",
+      "known_variation_or_uncertainty": ""
+    },
+    "reference_images": [
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "whole plant"
+      },
+      {
+        "path": "",
+        "source_url": "",
+        "creator": "",
+        "license": "",
+        "view": "diagnostic close-up"
+      }
+    ],
+    "sources": [
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "supports": ""
+      }
+    ],
+    "human_verification": {
+      "reviewer": "",
+      "date": "",
+      "notes": ""
+    },
+    "plantgen_species": ""
+  },
+  "evidence_sha256": "f8b4ac61e687747e1a10eea05878b7e9a6dd05c25ae95aac4e94d93168425e69",
+  "reference_sha256": [],
+  "style_reference_sha256": null,
+  "plantgen_sha256": null
+}

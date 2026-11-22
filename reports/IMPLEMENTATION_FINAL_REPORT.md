@@ -65,9 +65,9 @@ review fields remain. No new individual planting dates were invented.
 ## 7. Illustration review
 
 Approved assets: 0.
-Pending candidates: 0.
+Pending candidates: 137 neutral placeholder cards.
 Unapproved/untouched external assets: 70 separate-branch images remain outside the build.
-No license or botanical accuracy was fabricated or approved.
+No botanical accuracy or license was fabricated or approved.
 
 ## 8. Publication improvements
 

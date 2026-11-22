@@ -31,6 +31,7 @@ GitHub Actions workflows, botanical evidence templates, and an illustration revi
 | Calendar entries | 359 |
 | Calendar months | 12 |
 | Approved illustrations | 0 |
+| Neutral pending placeholder cards | 137 |
 | Verified taxonomy records | 0 |
 | Individually reviewed profiles | 0 |
 | Claim-level source records | 2 for Arugula identity; all other claims remain unreconciled |

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import re
 from pathlib import Path
 
 from reportlab.lib import colors
@@ -10,6 +11,8 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
+from reportlab.platypus import Image as RLImage
+from reportlab.lib.utils import ImageReader
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -77,6 +80,16 @@ def build_directory_pdf(base_dir: Path) -> Path:
             f"Cultivar: {verification.get('cultivar_status','unreviewed')}<br/>"
             f"Illustration: {verification.get('illustration_status','pending-review')}",
             styles["BodyText"]))
+        key = re.sub(r"[^A-Z0-9]+", "_", row["display_name"].upper()).strip("_")
+        placeholder = base_dir / "plant_illustrations" / "pending_review" / key / "pending-placeholder.png"
+        if placeholder.is_file():
+            story.append(RLImage(str(placeholder), width=1.25*inch, height=1.875*inch))
+            story.append(Paragraph(
+                "Figure pending review — neutral placeholder, not a botanical depiction.",
+                styles["Normal"],
+            ))
+        else:
+            story.append(Paragraph("Figure missing — pending generation.", styles["Normal"]))
         story.append(Spacer(1, 6))
     doc.build(story)
     return output
