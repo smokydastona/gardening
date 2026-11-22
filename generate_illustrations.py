@@ -475,6 +475,95 @@ def approve(args: argparse.Namespace, repo: Path, row: dict[str, str]) -> None:
     print(f"Approved: {target}; commit the PNG and JSON sidecar together.")
 
 
+def generate_pending_candidates(args: argparse.Namespace, repo: Path, rows: list[dict[str, str]]) -> None:
+    """Generate Gemini concept candidates without claiming botanical verification.
+
+    These candidates are review material only. They do not satisfy the human
+    evidence gate and cannot be approved or embedded by the publication builder.
+    """
+    candidate = args.candidate
+    if not valid_candidate(candidate):
+        raise ValueError("Invalid candidate name")
+    model = args.model or DEFAULT_GEMINI_MODEL
+    pending_root = repo / args.pending_dir
+    generated: list[str] = []
+    blocked: list[str] = []
+
+    for row in rows:
+        key = keyify(row["display_name"])
+        pending = pending_root / key
+        pending.mkdir(parents=True, exist_ok=True)
+        output = pending / f"{candidate}.png"
+        sidecar = output.with_suffix(".json")
+        if output.exists() and sidecar.exists():
+            generated.append(row["display_name"])
+            continue
+
+        evidence_path = repo / args.evidence_dir / f"{key}.json"
+        evidence = json.loads(evidence_path.read_text(encoding="utf-8")) if evidence_path.is_file() else evidence_template(row)
+        prompt = (
+            f"Create one useful, portrait 2:3 botanical illustration concept for {row['display_name']}. "
+            "This common name is unverified and may describe several taxa or cultivars. "
+            "Do not claim a scientific identity, invent a cultivar, add text or labels, or depict a guaranteed anatomical arrangement. "
+            "Use a coherent warm-paper field-guide composition with fine ink linework and restrained natural watercolor. "
+            "Make the whole specimen, growth habit, leaves, flowers, fruit, and roots recognizable enough for a human reviewer to work from, "
+            "but leave uncertain structures understated rather than fictional. No borders, lettering, border text, or watermark."
+        )
+
+        try:
+            with tempfile.TemporaryDirectory(prefix="gemini-candidate-", dir=pending) as temp:
+                temporary = Path(temp) / "candidate.png"
+                last_error: Exception | None = None
+                for attempt in range(3):
+                    try:
+                        generate_gemini(prompt, temporary, model, [])
+                        break
+                    except (RuntimeError, OSError) as exc:
+                        last_error = exc
+                        import time
+                        time.sleep(2 * (attempt + 1))
+                else:
+                    raise RuntimeError(str(last_error or "Gemini candidate generation failed"))
+                verify_image(temporary, portrait=True)
+                metadata = {
+                    "schema_version": 1,
+                    "asset_id": key,
+                    "display_name": row["display_name"],
+                    "file": output.name,
+                    "status": "pending-human-review",
+                    "backend": "gemini",
+                    "model": model,
+                    "conditioning": "text-only; common-name concept",
+                    "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+                    "prompt": prompt,
+                    "prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
+                    "image_sha256": sha256_file(temporary),
+                    "evidence": evidence,
+                    "evidence_sha256": sha256_json(evidence),
+                    "reference_sha256": [],
+                    "style_reference_sha256": None,
+                    "plantgen_sha256": None,
+                    "provenance": "Gemini concept candidate; not botanical evidence, not independently identified, and not licensed for publication.",
+                }
+                shutil.copyfile(temporary, output)
+                write_json(sidecar, metadata)
+            generated.append(row["display_name"])
+            print(f"Pending Gemini candidate: {output}")
+        except (OSError, ValueError, RuntimeError) as exc:
+            blocked.append(f"{row['display_name']}: {exc}")
+            print(f"Blocked {row['display_name']}: {exc}", file=sys.stderr)
+
+    report = repo / "gemini_generation_report.txt"
+    report.write_text(
+        f"Generated candidates: {len(generated)}\n"
+        f"Blocked records: {len(blocked)}\n"
+        + "\n".join(blocked)
+        + "\n",
+        encoding="utf-8",
+    )
+    print(f"Generated pending Gemini candidates: {len(generated)}; blocked: {len(blocked)}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo", type=Path, default=Path.cwd())
@@ -486,6 +575,9 @@ def main() -> int:
     commands.add_parser("templates")
     review_parser = commands.add_parser("review-template")
     review_parser.add_argument("--output", type=Path, required=True)
+    pending_candidates = commands.add_parser("generate-pending-candidates")
+    pending_candidates.add_argument("--candidate", required=True)
+    pending_candidates.add_argument("--model")
     generation = commands.add_parser("generate")
     generation.add_argument("--plant", required=True)
     generation.add_argument("--backend", choices=("openai", "gemini", "o1", "i1", "kandinsky"), default="openai")
@@ -536,6 +628,8 @@ def main() -> int:
             print(f"Created {created} evidence templates; verification is required before generation.")
         elif args.command == "generate":
             generate(args, repo, select_row(rows, args.plant))
+        elif args.command == "generate-pending-candidates":
+            generate_pending_candidates(args, repo, rows)
         elif args.command == "import":
             import_candidate(args, repo, select_row(rows, args.plant))
         elif args.command == "annotate":
