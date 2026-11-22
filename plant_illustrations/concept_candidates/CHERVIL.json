@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CHERVIL",
+  "plant_id": "plant-chervil",
+  "display_name": "Chervil",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "9abef54b78e8c24e20993255a144ca5b0ff9b5ceba306b9f9fd4e758139d49da",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

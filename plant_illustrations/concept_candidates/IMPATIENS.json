@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "IMPATIENS",
+  "plant_id": "plant-impatiens",
+  "display_name": "Impatiens",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "5e64dc2399f362ea0798ccac29df1db7bd97025f5e8ed4cd9f709802e72b974e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

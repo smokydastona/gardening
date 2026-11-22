@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CLEOME",
+  "plant_id": "plant-cleome",
+  "display_name": "Cleome",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "aa8764b3022bd07c32d97f357a0d287b3a7c2ebc285a0a43f6cb2e30f189dcd1",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

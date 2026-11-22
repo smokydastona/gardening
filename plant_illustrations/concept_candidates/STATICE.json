@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "STATICE",
+  "plant_id": "plant-statice",
+  "display_name": "Statice",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "9f4157a4f264505e474cf5792d7f061deb925bcb9b76af80fd09f917d20ce92e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

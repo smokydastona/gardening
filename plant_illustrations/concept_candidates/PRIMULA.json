@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "PRIMULA",
+  "plant_id": "plant-primula",
+  "display_name": "Primula",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "b410c90688ee7a9485f2e9e0395c8ac9807e49ee4197f8b56524bfa740d2278e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

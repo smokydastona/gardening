@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CORN",
+  "plant_id": "plant-corn",
+  "display_name": "Corn",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "7909db2228e50475919bf2403bc44b1b6bdcb9c10ee6a927bb6a1c00eaee466c",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

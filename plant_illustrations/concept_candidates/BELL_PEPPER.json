@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "BELL_PEPPER",
+  "plant_id": "plant-bell-pepper",
+  "display_name": "Bell Pepper",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "66bc429fddc6066fd91ac20054f586fc4f6764588dd685a1c16a72c6ff9ee559",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

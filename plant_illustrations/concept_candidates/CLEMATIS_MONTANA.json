@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CLEMATIS_MONTANA",
+  "plant_id": "plant-clematis-montana",
+  "display_name": "Clematis montana",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "4fb77c271a9f1d172f5269556c8b3ab443768eebd119e6ff1a74f4bd1acea963",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

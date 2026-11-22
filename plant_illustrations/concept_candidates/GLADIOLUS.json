@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "GLADIOLUS",
+  "plant_id": "plant-gladiolus",
+  "display_name": "Gladiolus",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "028db8597407624003c45c898bab843ec44a8d477c45459d23aa5aeb5de4830f",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

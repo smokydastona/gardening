@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "AUBRETIA",
+  "plant_id": "plant-aubretia",
+  "display_name": "Aubretia",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a0a7ae0cf6b1b59cccb5f980ae9877908c053d53fb85e5a7df90b1cff542c3fa",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

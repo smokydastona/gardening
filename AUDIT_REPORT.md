@@ -155,9 +155,10 @@ approval remain outstanding.
 The findings above retain historical baseline observations. Current local verification
 reports 137 registry records, 359 calendar entries, and three PDFs with 101, 10, and 23
 pages. The previous 336-page PDF and Copilot-author metadata refer to an earlier build; the
-current encyclopedia is 101 pages and credits the editorial project. The plant-directory
-PDF embeds only assets with an approved stable-ID manifest entry and hash-bound human-review
-sidecar. With zero approved illustrations, it identifies itself as pending review.
+current encyclopedia is 302 pages and credits the editorial project. The plant-directory
+PDF contains 137 stable-ID concept candidates; standalone botanical and figure collections
+contain 138 and 37 pages. No candidate is approved by a stable-ID manifest and human-review
+sidecar.
 
 `SOURCE_SHA256SUMS.txt` now protects the supplied calendar PDF, chart images, source
 registry, calendar CSV, and full-text transcription. `validate_pipeline.py` enforces those

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SNOWDROPS",
+  "plant_id": "plant-snowdrops",
+  "display_name": "Snowdrops",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "2abed4a3ff25e45e294c2a929b7d6df6c9dfc6e076fe0ea7005979782f048151",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "NASTURTIUM",
+  "plant_id": "plant-nasturtium",
+  "display_name": "Nasturtium",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "348273a5e66042a2d1f6bbc33bb3f865037a46368afc7ce5c3f0b5110ad14d12",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

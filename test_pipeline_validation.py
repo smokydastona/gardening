@@ -7,6 +7,7 @@ from pypdf import PdfWriter
 import build_project_reports
 from build_project_reports import build_calendar_outputs, build_illustration_manifest, plant_id
 from validate_pipeline import HASHED_SOURCE_FILES, REQUIRED_INPUTS, validate_inputs, validate_source_hashes
+from pathlib import Path
 
 
 def write_source_hashes(base_dir):
@@ -163,3 +164,15 @@ def test_source_hash_guard_detects_changed_original(tmp_path) -> None:
 
     with pytest.raises(ValueError, match="Protected source files changed"):
         validate_source_hashes(tmp_path)
+
+
+def test_generated_asset_counts_cover_registry_and_figure_library() -> None:
+    candidate_dir = Path("plant_illustrations/concept_candidates")
+    candidates = list(candidate_dir.glob("*.png"))
+    manifests = list(candidate_dir.glob("*.json"))
+    figures = list(Path("educational_figures").glob("FIG-*.png"))
+    with Path("plant_registry.csv").open(encoding="utf-8-sig", newline="") as handle:
+        registry_count = sum(1 for _ in csv.DictReader(handle))
+    assert len(candidates) == registry_count == 137
+    assert len(manifests) == registry_count
+    assert len(figures) == 36

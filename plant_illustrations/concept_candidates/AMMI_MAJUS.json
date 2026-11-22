@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "AMMI_MAJUS",
+  "plant_id": "plant-ammi-majus",
+  "display_name": "Ammi majus",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "34f1f70cb82c116f8e845b2c236e4c605438af629270b8f27be4ba16ead30d57",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

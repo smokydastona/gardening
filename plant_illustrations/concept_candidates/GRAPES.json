@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "GRAPES",
+  "plant_id": "plant-grapes",
+  "display_name": "Grapes",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "103c0f5e2e980d022461b5e0ac59f36bef81ea133d8a0ea283998f23894d29da",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

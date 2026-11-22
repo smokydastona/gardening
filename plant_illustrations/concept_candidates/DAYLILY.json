@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "DAYLILY",
+  "plant_id": "plant-daylily",
+  "display_name": "Daylily",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "f43b32e11c35af9bb4534010cb703bb3a64c154113ef2f279a5dbc348a88017f",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

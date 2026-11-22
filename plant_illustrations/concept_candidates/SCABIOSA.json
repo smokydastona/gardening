@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SCABIOSA",
+  "plant_id": "plant-scabiosa",
+  "display_name": "Scabiosa",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "97801ea0f58da644edfd244a87160a5e53440b80ea3b41a5138e504d21d7320b",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

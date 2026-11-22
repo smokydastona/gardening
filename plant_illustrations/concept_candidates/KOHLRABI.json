@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "KOHLRABI",
+  "plant_id": "plant-kohlrabi",
+  "display_name": "Kohlrabi",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "47ed9dea15f571ea15ee92eed6280cde52c92b597fcb03e4e8b1800ff54e822d",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

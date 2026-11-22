@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "WALLFLOWER",
+  "plant_id": "plant-wallflower",
+  "display_name": "Wallflower",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "7a6bf8a0a92cbd904de164f24823c5fae7c8f2af5d962f8b2da5d456617c36c9",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

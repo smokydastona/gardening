@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "HOSTAS",
+  "plant_id": "plant-hostas",
+  "display_name": "Hostas",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "4d5eeb95c923eec023cb52e27910edda61d5bd7fcffaff1795da844a9c8bde6e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

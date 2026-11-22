@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "APPLE",
+  "plant_id": "plant-apple",
+  "display_name": "Apple",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "e89b03f0312b92913045475ec93f9ebf46b660eedea2d29f835d3082df947e4c",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

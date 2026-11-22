@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "ASPARAGUS",
+  "plant_id": "plant-asparagus",
+  "display_name": "Asparagus",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "db54d042059d8ed6d3dccc9d53e921e4a51031a4453a0129dfc80bcc22d3735c",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

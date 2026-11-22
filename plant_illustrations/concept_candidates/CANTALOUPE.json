@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CANTALOUPE",
+  "plant_id": "plant-cantaloupe",
+  "display_name": "Cantaloupe",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "b489f5f6fd10c3dfecaa2a8ee09bb4113a5658cb7a6436cf0b94fb82dfd1a812",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

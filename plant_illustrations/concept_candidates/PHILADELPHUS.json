@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "PHILADELPHUS",
+  "plant_id": "plant-philadelphus",
+  "display_name": "Philadelphus",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "cc04a0bc0b8810913b6fd0eb7a513aa3e9c7db0885a7138559a81b7e5b65935f",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

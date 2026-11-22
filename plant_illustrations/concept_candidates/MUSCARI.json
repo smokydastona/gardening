@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "MUSCARI",
+  "plant_id": "plant-muscari",
+  "display_name": "Muscari",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "3094f4f73d307721ff7bc95780df8bd35b04d32189460ea1355b353f5ee2ca8b",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

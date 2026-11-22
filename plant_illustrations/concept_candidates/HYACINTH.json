@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "HYACINTH",
+  "plant_id": "plant-hyacinth",
+  "display_name": "Hyacinth",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "303195be95002d87e6738e4bdb0e930e29475d37463cd0d8dafd9ce30f84dc27",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

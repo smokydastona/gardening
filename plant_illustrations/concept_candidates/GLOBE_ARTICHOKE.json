@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "GLOBE_ARTICHOKE",
+  "plant_id": "plant-globe-artichoke",
+  "display_name": "Globe Artichoke",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "6cac58d26e599916fa863ad807d12325bb9f681a618d15b690d6246c8ff6cde8",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

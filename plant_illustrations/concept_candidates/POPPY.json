@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "POPPY",
+  "plant_id": "plant-poppy",
+  "display_name": "Poppy",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "2d33a207e0ae7769d32067749417c54dfe06f248f3b927b61a0e58f99bda3ce4",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

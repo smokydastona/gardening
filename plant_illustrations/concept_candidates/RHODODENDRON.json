@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "RHODODENDRON",
+  "plant_id": "plant-rhododendron",
+  "display_name": "Rhododendron",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "2cc799f889a0bd006af586a44a425185ed6ae758e2dd195aa8a395699a33dd9d",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

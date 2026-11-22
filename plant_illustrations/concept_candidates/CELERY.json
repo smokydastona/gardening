@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CELERY",
+  "plant_id": "plant-celery",
+  "display_name": "Celery",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "8ac23839da52697db8fbebe2703aaa71e3a73ca312d0c2de87247736b99a2e8c",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

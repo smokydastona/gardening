@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "BEANS",
+  "plant_id": "plant-beans",
+  "display_name": "Beans",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "2d3a5be9d425fdf9e45cf2a93d1cc1ad646a04866e5669736e81f645afd153fb",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

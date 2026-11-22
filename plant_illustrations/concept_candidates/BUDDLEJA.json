@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "BUDDLEJA",
+  "plant_id": "plant-buddleja",
+  "display_name": "Buddleja",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "f80ea3b34ca45925bf0f03870aa0aa831bf82c0ddc472ed1ed33a5dc3829a288",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

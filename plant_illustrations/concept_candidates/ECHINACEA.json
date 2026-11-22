@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "ECHINACEA",
+  "plant_id": "plant-echinacea",
+  "display_name": "Echinacea",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "515257c63cce4e43097acb7bfb2faa5c7071271a7cbc0c9f0256a38e9b1a3cef",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "LOBELIA",
+  "plant_id": "plant-lobelia",
+  "display_name": "Lobelia",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "38237bbae0b1f67c10d7a821a4a9faf1661a9566de63c633919224ba8fa57d53",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

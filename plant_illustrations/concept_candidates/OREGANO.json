@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "OREGANO",
+  "plant_id": "plant-oregano",
+  "display_name": "Oregano",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "72f1f7f555acd563c4db3ed2f4ad4a41024151b23304ad917222a6e846c85c51",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

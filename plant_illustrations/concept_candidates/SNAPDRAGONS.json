@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SNAPDRAGONS",
+  "plant_id": "plant-snapdragons",
+  "display_name": "Snapdragons",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "8b5c5a249e5fb1749a3931ce14111c13bda111438111102fda0829ee1eed267e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

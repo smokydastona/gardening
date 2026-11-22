@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "PETUNIAS",
+  "plant_id": "plant-petunias",
+  "display_name": "Petunias",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "7700228121a413073e7a45e1995a73f08551b6f7a1c206deb9a3225a40b0166a",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

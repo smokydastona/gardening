@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "RED_FLOWERING_CURRANT",
+  "plant_id": "plant-red-flowering-currant",
+  "display_name": "Red-flowering Currant",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "d2475b20916904a504549f9f9660a03bb2732d77508795e564a0503601b426f4",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

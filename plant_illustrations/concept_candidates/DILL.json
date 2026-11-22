@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "DILL",
+  "plant_id": "plant-dill",
+  "display_name": "Dill",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "f73f74ad0d347367fe848b90f0ef0bbfe2b8eb3c57b2a277c8cbde4d71f0caa9",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

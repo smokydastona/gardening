@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CALENDULA",
+  "plant_id": "plant-calendula",
+  "display_name": "Calendula",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "c01dbdc7c1f4b853cb4f0e90b4617cdac660ef5c8d221ef0fadf46980e95a22e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "DAFFODIL",
+  "plant_id": "plant-daffodil",
+  "display_name": "Daffodil",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "e52c8b3da05f4963f5fdaeb375b7cca322e7aef7e67407b5d31af80ad944f6a3",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

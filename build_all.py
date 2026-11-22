@@ -16,6 +16,7 @@ def run(command: list[str]) -> None:
 
 def main() -> None:
     run(["validate_pipeline.py"])
+    run(["produce_publication_assets.py"])
     run(["parse_errington_calendar.py"])
     run(["enrich_plant_registry.py"])
     run(["build_project_reports.py"])

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CHIVES",
+  "plant_id": "plant-chives",
+  "display_name": "Chives",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "cc535422ac6bc3b4068194245171ca923418fe296f4feee67cf37b14de7e2a73",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

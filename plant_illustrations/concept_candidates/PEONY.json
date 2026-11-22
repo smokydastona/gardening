@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "PEONY",
+  "plant_id": "plant-peony",
+  "display_name": "Peony",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "8bfb32cb947716b481cafb2e14644d8da3b536636ff96cf40d9272c8c63b9d9d",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

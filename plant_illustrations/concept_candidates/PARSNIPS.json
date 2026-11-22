@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "PARSNIPS",
+  "plant_id": "plant-parsnips",
+  "display_name": "Parsnips",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "90b20f7fd1d82b0542049459db68a6a64dec1797a6c5f41fd31ed3e3f0d23ad4",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

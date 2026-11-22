@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "MARIGOLD",
+  "plant_id": "plant-marigold",
+  "display_name": "Marigold",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "194b7403037f32224a22058f8de3f738bed997a95d902ea19f7d917ea4c316ea",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

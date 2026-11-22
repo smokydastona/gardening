@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CAMELLIA",
+  "plant_id": "plant-camellia",
+  "display_name": "Camellia",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "8b4d828ef7cd3047fe627459f6c2b4024aad7953bc5be8988c23d02b1e43c5e7",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

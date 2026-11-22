@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "PEAR",
+  "plant_id": "plant-pear",
+  "display_name": "Pear",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "6d581045f4e7756beca8596f8f388c397f6a54dac35da48e3a5f30a28938e29a",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

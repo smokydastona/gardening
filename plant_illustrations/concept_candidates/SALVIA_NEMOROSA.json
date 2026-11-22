@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SALVIA_NEMOROSA",
+  "plant_id": "plant-salvia-nemorosa",
+  "display_name": "Salvia nemorosa",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a8868592ed7c1b2118d64a540182041d146df40fd3a17dc85533dbec11ab6725",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

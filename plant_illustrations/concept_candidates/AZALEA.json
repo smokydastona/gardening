@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "AZALEA",
+  "plant_id": "plant-azalea",
+  "display_name": "Azalea",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "ec6a39f3c56c63b3cd5c4a2963b869b5c7777e5c9b779e31cffc27c6bef7e762",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SPINACH",
+  "plant_id": "plant-spinach",
+  "display_name": "Spinach",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "02bc944ec69e36bf5fd7d468589455b272655bd260b510d3eb2f21cdb17720b7",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

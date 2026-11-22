@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CORNFLOWER",
+  "plant_id": "plant-cornflower",
+  "display_name": "Cornflower",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "46f8cdc4627421061c24d18558cd7b779de8ea42a287ee8588a1f8818f3b2c04",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

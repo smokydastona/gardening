@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "HYDRANGEA_PANICULATA",
+  "plant_id": "plant-hydrangea-paniculata",
+  "display_name": "Hydrangea paniculata",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "dd762ff537d0e3b34f45e9c620be000c794551e183d56cdaa8be32cec3916c6e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

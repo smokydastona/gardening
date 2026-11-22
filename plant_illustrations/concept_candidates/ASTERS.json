@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "ASTERS",
+  "plant_id": "plant-asters",
+  "display_name": "Asters",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "049f002b482f18fae5e1f053dc72b7311902c14671f410b57d0c5b903e0c3173",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

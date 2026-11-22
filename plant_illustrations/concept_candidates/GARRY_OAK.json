@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "GARRY_OAK",
+  "plant_id": "plant-garry-oak",
+  "display_name": "Garry Oak",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "734c12ed4734b4246812be0e9e33ae8e3aab69063d70e0dafc6c2821b13938e6",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

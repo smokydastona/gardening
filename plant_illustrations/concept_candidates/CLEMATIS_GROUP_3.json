@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CLEMATIS_GROUP_3",
+  "plant_id": "plant-clematis-group-3",
+  "display_name": "Clematis Group 3",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a05bd5073a36c38dc5d544d890561d2b06f2e79a642b96d6ab3bf4b34edda80c",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

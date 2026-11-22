@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SUMMER_SQUASH",
+  "plant_id": "plant-summer-squash",
+  "display_name": "Summer Squash",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "2e1f6815b9716aea2e7b7243ce3c3d5bb722bb8d0aa54e629966539b2800bcdc",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

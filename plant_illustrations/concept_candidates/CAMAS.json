@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CAMAS",
+  "plant_id": "plant-camas",
+  "display_name": "Camas",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "b17b6e5b9e1b4bd33fa4c50088ce40794787bffff19a07af9dc5071b7318f6c9",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

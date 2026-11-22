@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SWEET_POTATO",
+  "plant_id": "plant-sweet-potato",
+  "display_name": "Sweet Potato",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a9781704ed5bd4b1941a26269cb0733479f0c826fdfdc03e3a140e7ddaf8a101",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "STRAWBERRIES",
+  "plant_id": "plant-strawberries",
+  "display_name": "Strawberries",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "39dfab85f1c9a876736b63520bb4d4406103bd7c190468c6adf082f034e8f0de",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

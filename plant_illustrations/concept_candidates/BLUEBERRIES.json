@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "BLUEBERRIES",
+  "plant_id": "plant-blueberries",
+  "display_name": "Blueberries",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "21678688038c919709745edafb2856630cf66802c7f4797c1b101800197035b1",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

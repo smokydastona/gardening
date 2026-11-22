@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "ROSEMARY",
+  "plant_id": "plant-rosemary",
+  "display_name": "Rosemary",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "4f6326da462def92b3b06a5d745dbd9e7f3958d195831709e3757ce0fd1768cf",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -73,9 +73,11 @@ No botanical accuracy or license was fabricated or approved.
 
 Generated and rendered:
 
-- Complete encyclopedia: 101 pages
+- Complete encyclopedia: 302 pages
 - Monthly guide: 10 pages
-- Illustrated directory: 23 pages
+- Illustrated directory: 137 pages
+- Botanical illustration collection: 138 pages
+- Educational figure collection: 37 pages
 
 The three products were built from shared source data. Contact sheets were rendered for every
 page and overview-scanned. Print-readable full-resolution page and content sign-off remains
@@ -90,7 +92,7 @@ Executed:
 - `python validate_pipeline.py --publication`
 - Rendered all pages for all three PDFs
 
-Actual test result: 39 passed.
+Actual test result: 43 passed.
 Actual PDF validation: all three PDFs are present, non-empty, and have intentional author metadata.
 
 ## 10. CI results
@@ -118,17 +120,26 @@ are complete enough to support subsequent review.
 The current working tree adds SHA-256 snapshots for the supplied calendar PDF, chart images,
 plant registry, calendar transcription, and full-text transcription. `validate_pipeline.py`
 now rejects modifications to those files unless the source-hash register is explicitly
-updated. The plant-directory builder embeds only approved, stable-ID illustrations and uses
-an explicit “Illustrations Pending Review” title when none qualify. A focused test covers
-both the zero-approved state and embedding a valid approved asset.
+updated. The plant-directory builder includes all stable-ID concept candidates and labels
+them as unapproved. Separate approval sidecars remain required for approved assets. A
+focused test covers both the zero-approved state and embedding a valid approved asset.
 
 The separate `illustration-assets` branch was inspected at
 `c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5`: 70 valid 1024 × 1536 PNG files contain 68
 unique image byte sequences. Contact-sheet review found visible cross-plant labels, so the
-assets remain unapproved. No individual illustrations were generated in this implementation
-run because image-provider credentials were unavailable. No educational figure collection,
-fully researched plant profiles, or complete worked-example corpus has been produced.
+assets remain unapproved. 137 local concept candidates and 36 educational concept figures
+were generated in this implementation run; they are not species-specific evidence or
+approved publication assets. Provider credentials were unavailable, and fully researched
+plant profiles and claim-level citations remain to be produced.
 
 Current build and test commands are recorded in `reports/IMPLEMENTATION_REGISTER.md` and
-`PUBLICATION_QA_REPORT.md`; the current local suite passes 41 tests. All outstanding
+`PUBLICATION_QA_REPORT.md`; the current local suite passes 43 tests. All outstanding
 scientific and human review gates remain open.
+
+## 14. Asset completion follow-up
+
+The implementation now generates and embeds 137 concept plant candidates, 36 educational
+figure concepts and 18 worked examples. The complete supplement is included in the
+302-page encyclopedia, and standalone botanical and figure collections contain 138 and
+37 pages respectively. None of these concepts is human-botanical approved. They are
+production assets for review, not evidence of accepted taxonomy or cultivation.

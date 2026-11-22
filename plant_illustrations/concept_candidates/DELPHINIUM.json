@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "DELPHINIUM",
+  "plant_id": "plant-delphinium",
+  "display_name": "Delphinium",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "ee4505fdb21ba5d7b449fe0ab3357533203ab13d117624cd5e54609d4e2455f0",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

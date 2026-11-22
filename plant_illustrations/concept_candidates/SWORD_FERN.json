@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SWORD_FERN",
+  "plant_id": "plant-sword-fern",
+  "display_name": "Sword Fern",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "48244f98eb47704020e025483c55f7fd262b6087c992068bd357f6b8ff3c89db",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "ASTILBE",
+  "plant_id": "plant-astilbe",
+  "display_name": "Astilbe",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "d18bffb06fca9396ddcedd947f2e9b7c2e3b4b52e7a9a6e0a308b6c4a35742f4",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

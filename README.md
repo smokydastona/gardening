@@ -16,6 +16,7 @@ review are still incomplete.
 | Frost anchors | April 15 and October 15 are approximate source values, not guaranteed dates |
 | Illustrations | 0 approved; 70 image files on the separate `illustration-assets` branch passed PNG/dimension checks but contain duplicate content and visibly misattributed labels; identity/license review remains pending |
 | PDF pipeline | One reproducible build command generates the working encyclopedia, monthly guide, and plant directory; only approved illustrations are embedded |
+| Generated supplement | 137 concept plant plates, 36 educational figures, and 18 worked examples are included; all concept art remains explicitly unapproved |
 | Publication approval | `IN_PROGRESS`; see [publication QA](PUBLICATION_QA_REPORT.md) |
 
 ## Key deliverables
@@ -23,6 +24,9 @@ review are still incomplete.
 - [Working encyclopedia PDF](Errington_Gardening_Encyclopedia.pdf)
 - Errington Monthly Gardening Guide PDF
 - Errington Illustrated Plant Directory PDF
+- [Errington Botanical Illustration Collection PDF](Errington_Botanical_Illustration_Collection.pdf)
+- [Errington Educational Figure Collection PDF](Errington_Educational_Figure_Collection.pdf)
+- [Complete plant, figure, and worked-example supplement](ERRINGTON_COMPLETE_SUPPLEMENT.md)
 - [Editorial manuscript](ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md)
 - [Monthly source calendar](ERRINGTON_MONTHLY_REFERENCE.md)
 - [Plant registry index](ERRINGTON_PLANT_CATALOG.md)
@@ -35,9 +39,9 @@ review are still incomplete.
 - [Source policy](docs/SOURCE_POLICY.md) and [data dictionary](docs/DATA_DICTIONARY.md)
 - [Research and verification library](docs/RESEARCH_LIBRARY.md)
 
-The plant-directory PDF is deliberately titled **“Illustrations Pending Review”** while
-there are no approved assets. When stable-ID illustrations pass human review, the same
-build embeds them in their matching profiles; unapproved branch assets are never used.
+The plant-directory PDF includes all 137 stable-ID concept candidates with an explicit
+unapproved status. Approved assets remain separate from candidates, and branch assets
+are never embedded until identity, license, anatomy and human review are complete.
 
 ## Repository map
 

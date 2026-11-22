@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "TOMATOES",
+  "plant_id": "plant-tomatoes",
+  "display_name": "Tomatoes",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "e2322da6588c1f81a152acc66953dfd78ea9fd7f9584842033447f1ca4075377",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

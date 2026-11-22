@@ -2,6 +2,11 @@
 
 ## 0.2.1 — 2026-11-22
 
+- Added reproducible concept-art production: 137 stable-ID plant candidates, 36 educational
+  figures, and 18 worked examples.
+- Expanded publication output to five PDFs, including a botanical illustration collection
+  and an educational figure collection.
+
 - Added SHA-256 snapshots and build-time checks for supplied calendar documents, chart
   images, the registry, and calendar transcription records.
 - Updated the plant-directory PDF to embed only approved stable-ID illustrations and to

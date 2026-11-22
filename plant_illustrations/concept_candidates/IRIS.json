@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "IRIS",
+  "plant_id": "plant-iris",
+  "display_name": "Iris",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "5103d17f850d4a7b2735625105cfff98413dc77af6ac414c09581a97ca98c5e3",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

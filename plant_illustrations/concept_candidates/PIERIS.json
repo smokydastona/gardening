@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "PIERIS",
+  "plant_id": "plant-pieris",
+  "display_name": "Pieris",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "433d9445bd692f75feddaf7acebdbefb0f2698ad8534b3a96f5a4d735eba0084",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

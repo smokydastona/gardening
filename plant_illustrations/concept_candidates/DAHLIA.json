@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "DAHLIA",
+  "plant_id": "plant-dahlia",
+  "display_name": "Dahlia",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a41794eb0838cf3fa3601fe7d75b76c19dff5b8bbc84feb4f8268ee71847691b",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "ALLIUM",
+  "plant_id": "plant-allium",
+  "display_name": "Allium",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "f0c428860a38c477bfac57bb35a5b326f6d0832bbb7f139fdeb8eca0b6ff7b45",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "KERRIA",
+  "plant_id": "plant-kerria",
+  "display_name": "Kerria",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "9c26971ec0e9882bf42b71384bb34cc904f09c584e0475e9531f88c7f00bf946",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

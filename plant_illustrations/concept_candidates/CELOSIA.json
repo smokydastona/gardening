@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CELOSIA",
+  "plant_id": "plant-celosia",
+  "display_name": "Celosia",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "09875941ea15ccb2b64572aa72553a63f764c637a5fea7a69f1ac2eb2e7fe0c9",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

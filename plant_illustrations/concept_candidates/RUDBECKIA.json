@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "RUDBECKIA",
+  "plant_id": "plant-rudbeckia",
+  "display_name": "Rudbeckia",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "dc0fac5c55f8e532dab7ca1baeef64371af2be075cf3d1a4d5002fab34e36e00",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

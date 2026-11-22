@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "IBERIS",
+  "plant_id": "plant-iberis",
+  "display_name": "Iberis",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "ced5d6e0e4d303a4bb3251e7f9539372a76e32fd6ada888ae10e24b800603e45",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

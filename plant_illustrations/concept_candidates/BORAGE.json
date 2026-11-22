@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "BORAGE",
+  "plant_id": "plant-borage",
+  "display_name": "Borage",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "2a6c5c55d5d6f6e623b8c8a3f987519720900200780f14b5ed15ab73de8f9400",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

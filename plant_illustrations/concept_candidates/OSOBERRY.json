@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "OSOBERRY",
+  "plant_id": "plant-osoberry",
+  "display_name": "Osoberry",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "7cafdcea7bbd91b8a23079933e2fbbffb96358bc07a33e1d81675a5e8b38c0bc",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "HONEYSUCKLE",
+  "plant_id": "plant-honeysuckle",
+  "display_name": "Honeysuckle",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "676916eafb9a76382cc628e6eaa2c96b8283e5f0d34a88898c003888a7626b31",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

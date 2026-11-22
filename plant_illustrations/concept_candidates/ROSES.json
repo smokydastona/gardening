@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "ROSES",
+  "plant_id": "plant-roses",
+  "display_name": "Roses",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "8efdb12b638b07bdbbf5607e20f5721127bc4e8def04aa4aa3c47d92a95a3f2f",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "WISTERIA",
+  "plant_id": "plant-wisteria",
+  "display_name": "Wisteria",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "d2d144850005acaccae24e948b31a23c5a23b6edeba29f7f0c621e5306cd282c",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

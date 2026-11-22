@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "FORSYTHIA",
+  "plant_id": "plant-forsythia",
+  "display_name": "Forsythia",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "9ff971a2d621f5445cc8416aae1739dbb6ec7a5f3439ca56635da6c48b6a5930",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

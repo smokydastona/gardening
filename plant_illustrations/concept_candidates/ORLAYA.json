@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "ORLAYA",
+  "plant_id": "plant-orlaya",
+  "display_name": "Orlaya",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "2ee111430e55626fec0b0563bee98634c823ef4ad6d3abf79440b557986247bc",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

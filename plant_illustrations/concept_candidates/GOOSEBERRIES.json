@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "GOOSEBERRIES",
+  "plant_id": "plant-gooseberries",
+  "display_name": "Gooseberries",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "53881eb5080a5c540beda6d396b85a34483d8633d26b707aaf103bf61b4bbcfb",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

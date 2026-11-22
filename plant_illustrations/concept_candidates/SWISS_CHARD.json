@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SWISS_CHARD",
+  "plant_id": "plant-swiss-chard",
+  "display_name": "Swiss Chard",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "20cb51282b4738e755cbf57c0679226b40f8f79819ca7c78de2497251c259389",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

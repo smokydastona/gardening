@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "THYME",
+  "plant_id": "plant-thyme",
+  "display_name": "Thyme",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "3388ffc18b4c75f2d6adebf60e8057738f7b9b14ef16cb01369352e8a1c693b4",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

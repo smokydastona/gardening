@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CAULIFLOWER",
+  "plant_id": "plant-cauliflower",
+  "display_name": "Cauliflower",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a6c12c02a0199b2c10dc6c3a7e79f8136777e55d9e5cfd73d212cdde345d4e45",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

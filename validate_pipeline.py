@@ -38,6 +38,7 @@ REQUIRED_INPUTS = (
     "cover.png",
     "ERRINGTON_CALENDAR_FULL_TEXT.md",
     "ERRINGTON_ENCYCLOPEDIA_HANDOFF.md",
+    "ERRINGTON_COMPLETE_SUPPLEMENT.md",
 )
 HASHED_SOURCE_FILES = (
     "Errington BC Zone 8a Planting Calendar.pdf",
@@ -52,6 +53,8 @@ RELEASE_PDFS = (
     "Errington_Gardening_Encyclopedia.pdf",
     "Errington_Monthly_Gardening_Guide.pdf",
     "Errington_Illustrated_Plant_Directory.pdf",
+    "Errington_Botanical_Illustration_Collection.pdf",
+    "Errington_Educational_Figure_Collection.pdf",
 )
 
 

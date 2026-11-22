@@ -68,6 +68,7 @@ SOURCE_FILES = [
     ("Core Handbook", "ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md", "Gardening foundations, Errington context, and source limitations."),
     ("Monthly Reference", "ERRINGTON_MONTHLY_REFERENCE.md", "Source calendar transcriptions grouped by month and labeled for review."),
     ("Plant Registry", "ERRINGTON_PLANT_CATALOG.md", "Stable plant records and independent verification states."),
+    ("Complete Supplement", "ERRINGTON_COMPLETE_SUPPLEMENT.md", "137 plant profile shells, 36 educational figures, and 18 worked examples."),
     ("Source and Verification Policy", "docs/SOURCE_POLICY.md", "Source hierarchy, evidence types, and publication status."),
 ]
 

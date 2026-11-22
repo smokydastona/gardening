@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SUNFLOWER",
+  "plant_id": "plant-sunflower",
+  "display_name": "Sunflower",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "42b47a35eeba852b867b10600cb7dafd22c9589a8d511258d49fd4e46ee87050",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

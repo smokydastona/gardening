@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "CUCUMBER",
+  "plant_id": "plant-cucumber",
+  "display_name": "Cucumber",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a04c23ffd4d8cdf5e627e89e0ed8c09cdeceeaa353ce2b96155559f12be57c3e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

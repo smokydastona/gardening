@@ -61,6 +61,12 @@ jobs:
           python render_publication.py \
             --pdf Errington_Illustrated_Plant_Directory.pdf \
             --output-dir build/pdf_qa/directory
+          python render_publication.py \
+            --pdf Errington_Botanical_Illustration_Collection.pdf \
+            --output-dir build/pdf_qa/botanical
+          python render_publication.py \
+            --pdf Errington_Educational_Figure_Collection.pdf \
+            --output-dir build/pdf_qa/figures
 
       - name: Upload encyclopedia outputs
         uses: actions/upload-artifact@v4
@@ -94,3 +100,8 @@ jobs:
             build/pdf_qa/
             Errington_Monthly_Gardening_Guide.pdf
             Errington_Illustrated_Plant_Directory.pdf
+            Errington_Botanical_Illustration_Collection.pdf
+            Errington_Educational_Figure_Collection.pdf
+            ERRINGTON_COMPLETE_SUPPLEMENT.md
+            plant_illustrations/concept_candidates/
+            educational_figures/

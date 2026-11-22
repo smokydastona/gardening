@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "TULIP",
+  "plant_id": "plant-tulip",
+  "display_name": "Tulip",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a61c15b80ff95f240a8bb019ab52d482f5dabb1dfd518815b683623e8f04f9af",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

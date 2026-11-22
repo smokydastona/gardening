@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "TRILLIUM",
+  "plant_id": "plant-trillium",
+  "display_name": "Trillium",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "ed82b70b385a2de0fb54eb211903233a39d50cc6ebcd4f95f2770e16d3734193",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

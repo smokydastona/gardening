@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "POTATOES",
+  "plant_id": "plant-potatoes",
+  "display_name": "Potatoes",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a05ec84918ff8e15d27652554fe6fcf8374cee9ca3b2074b7153fad0ed38b087",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

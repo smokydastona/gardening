@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "SEDUM",
+  "plant_id": "plant-sedum",
+  "display_name": "Sedum",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "a5c0c8a9373e4e9efff8dd1b180c5a8e44e9de349c0b4d5345bacf66e0c11f49",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

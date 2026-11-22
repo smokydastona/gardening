@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "ZINNIA",
+  "plant_id": "plant-zinnia",
+  "display_name": "Zinnia",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "386675b9c77053610c29dcd98bf37548df37fe2773547b57dcdcd72cea8e3b4f",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": "DEUTZIA",
+  "plant_id": "plant-deutzia",
+  "display_name": "Deutzia",
+  "status": "CANDIDATE_GENERATED",
+  "review_status": "REVIEW_PENDING",
+  "approval_status": "NOT_APPROVED",
+  "provider": "local-concept-renderer",
+  "model": "category-silhouette-v1",
+  "image_sha256": "127e4a77b9cf163646725c0ec291e89da7aeb5387f8c37a727e19a7d0cbc05d3",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "evidence_status": "no species-specific evidence reviewed",
+  "limitations": "Category silhouette only; do not interpret as a verified botanical specimen."
+}
