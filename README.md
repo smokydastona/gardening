@@ -100,6 +100,11 @@ visual review, and reviewer notes. The separate `illustration-assets` branch is 
 runtime build dependency; assets from it must be reviewed and explicitly added to the
 manifest before embedding.
 
+See the [botanical illustration workflow](plant_illustrations/README.md) for evidence
+requirements, generation, review, and approval. The workflow build uses only checked-in
+files; it does not fetch assets from another branch. Approved image files and their JSON
+sidecars must be committed with the stable-ID manifest.
+
 ## Contributions
 
 Keep source evidence immutable, cite claims at the record level, and update the

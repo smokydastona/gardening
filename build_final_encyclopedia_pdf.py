@@ -30,6 +30,8 @@ from reportlab.platypus import (
 )
 from reportlab.platypus.tableofcontents import TableOfContents
 
+from illustration_assets import approved_assets, keyify
+
 
 TITLE = "Errington Gardening Encyclopedia"
 SUBTITLE = "Source transcriptions and working plant registry for Errington, BC"
@@ -420,27 +422,38 @@ def make_local_image(image_path: Path, max_width: float, max_height: float) -> R
 
 
 def load_plant_illustrations(base_dir: Path) -> dict[str, Path]:
-    manifest_path = base_dir / PLANT_ILLUSTRATIONS_DIR / "illustration_manifest.csv"
+    illustrations_dir = base_dir / PLANT_ILLUSTRATIONS_DIR
+    manifest_path = illustrations_dir / "illustration_manifest.csv"
     if not manifest_path.exists():
         raise FileNotFoundError(f"Required illustration manifest is missing: {manifest_path}")
     import csv
 
+    reviewed_assets = approved_assets(illustrations_dir)
     illustration_map: dict[str, Path] = {}
+    seen_plant_ids: set[str] = set()
     with manifest_path.open(encoding="utf-8", newline="") as handle:
         for row in csv.DictReader(handle):
             if row.get("approval_status") != "approved":
                 continue
+            plant_id = row.get("plant_id", "").strip()
+            if not plant_id or plant_id in seen_plant_ids:
+                raise ValueError(f"Missing or duplicate approved illustration plant ID: {plant_id!r}")
+            seen_plant_ids.add(plant_id)
             filename = row.get("filename", "")
             image_name = Path(filename)
             if image_name.name != filename or image_name.suffix.lower() not in PLANT_ILLUSTRATION_EXTENSIONS:
                 raise ValueError(f"Invalid approved illustration filename: {filename!r}")
-            image_path = base_dir / PLANT_ILLUSTRATIONS_DIR / image_name
+            image_path = illustrations_dir / image_name
             if not image_path.is_file():
                 raise FileNotFoundError(
-                    f"Approved illustration for {row.get('plant_id', 'unknown plant')} "
-                    f"is missing: {image_path}"
+                    f"Approved illustration for {plant_id} is missing: {image_path}"
                 )
-            illustration_map[row["plant_id"]] = image_path
+            if reviewed_assets.get(keyify(image_name.stem)) != image_path:
+                raise ValueError(
+                    f"Approved illustration for {plant_id} lacks valid matching evidence "
+                    "and human-review sidecar."
+                )
+            illustration_map[plant_id] = image_path
     return illustration_map
 
 
@@ -496,7 +509,7 @@ def add_plant_illustration(
     doc_width: float,
 ) -> None:
     story.append(Spacer(1, 0.1 * inch))
-    story.append(make_local_image(image_path, doc_width * 0.82, 2.45 * inch))
+    story.append(make_local_image(image_path, doc_width * 0.95, 5.5 * inch))
     story.append(Spacer(1, 0.05 * inch))
     story.append(Paragraph(f"Scientific illustration asset: {paragraph_text(image_path.name)}", styles["Caption"]))
 

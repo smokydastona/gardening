@@ -111,7 +111,9 @@ builds the publication PDF.
   main checkout, and absence was not clearly surfaced.
 - Nine generated `.pyc` files were committed; there was no `.gitignore`.
 - README links included absolute Windows paths. Build inputs otherwise require no network;
-  the new publication pipeline avoids runtime network access.
+  the publication pipeline avoids runtime network access. The optional illustration
+  generator has an explicit OpenAI backend that sends user-selected evidence images to
+  that provider; it is not invoked by CI or the publication build.
 - The general reference PDF is treated as a topical source only; its contents are not
   copied into the generated publication.
 
@@ -126,7 +128,7 @@ builds the publication PDF.
 | A-05 | High / P1 | Grouped calendar entries could imply same crop timing | Retained verbatim, explicitly flagged, and listed in `calendar_review.csv` |
 | A-06 | High / P1 | No typed calendar action/provenance model | Added generated action register with source/page and mechanical classification status |
 | A-07 | High / P1 | Enrichment overwrote source registry | `enrich_plant_registry.py` now writes only derived output |
-| A-08 | High / P1 | Illustration assignment/approval conflated | Stable-ID manifest separates unknown generation, pending review, and not-approved status |
+| A-08 | High / P1 | Illustration assignment/approval conflated | Stable-ID manifest and hash-bound human-review sidecars gate publication; generation remains pending until explicit review |
 | A-09 | High / P1 | External illustration branch dependency | Removed from deterministic build; branch assets remain separate and unapproved |
 | A-10 | High / P1 | PDF author falsely identified | Rebuilt metadata credits the project, not Copilot |
 | A-11 | High / P1 | Markdown parser and TOC inadequate | Markdown AST renderer, real headings/lists/tables, multi-pass page-numbered TOC implemented |
@@ -142,7 +144,8 @@ builds the publication PDF.
 
 Implemented: source immutability, provenance registers, record-count validation, calendar
 review export, stable plant IDs, separate illustration approval state, deterministic
-Markdown/PDF rendering, and CI integration. Automated tests and PDF validation are run on
+Markdown/PDF rendering, an evidence-gated illustration candidate/review workflow, and CI
+integration. Automated tests and PDF validation are run on
 the implementation branch. Independently researched botanical profiles, local timing
 review, asset licensing/identity review, complete index, and final human editorial/visual
 approval remain outstanding.

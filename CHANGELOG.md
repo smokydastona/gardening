@@ -12,6 +12,8 @@
   automatically paginated table of contents, and project-appropriate metadata.
 - Added a complete pinned dependency lock and rendering of every PDF page into review
   images/contact sheets.
+- Added evidence templates, pending-candidate generation, human botanical/style review,
+  hash-bound approval sidecars, and stable-ID manifest gating for illustrations.
 - Added source-integrity validation and updated CI to build without the untracked
   illustration-assets branch.
 - Kept botanical profiles, local timing, illustrations, and publication approval pending
