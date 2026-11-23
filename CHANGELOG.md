@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased
+
+- Added the initial `src/gardening` package and unified `gardening` command for validation,
+  calendar, illustration, figure, report, test, and publication workflows.
+- Migrated calendar parsing/OCR, registry normalization, source validation, and the
+  hash-bound illustration publication gate into focused package modules; retained root
+  compatibility commands.
+- Organized tests into unit and integration suites and added branch-tree and migration
+  inventories with blob IDs, SHA-256, sizes, duplicate-path candidates, and timestamps.
+- Added perceptual-hash screening that reports possible near-duplicate artwork without
+  making automated identity or approval decisions.
+- Audited the historical illustration branch without merging it; recorded the 70 reviewed
+  plant candidates and deferred copying its roughly 249 MB unapproved image set.
+
 ## 0.2.1 — 2026-11-22
 
 - Switched the encyclopedia, supporting PDFs, illustration annotations and generated
