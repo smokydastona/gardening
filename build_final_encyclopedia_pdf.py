@@ -121,8 +121,8 @@ def register_fonts() -> dict[str, str]:
     return {
         "display": regular,
         "display_bold": regular,
-        "body": regular,
-        "body_bold": regular,
+        "body": "Times-Roman",
+        "body_bold": "Times-Bold",
     }
 
 
@@ -525,7 +525,24 @@ def add_markdown_lines(
     text: str,
     plant_illustrations: dict[str, Path],
     doc_width: float,
+    base_dir: Path,
 ) -> None:
+    def markdown_image(node: dict) -> tuple[RLImage, str]:
+        image_url = node.get("attrs", {}).get("url", "")
+        image_parts = urlsplit(image_url)
+        if image_parts.scheme or image_parts.netloc:
+            raise ValueError(f"External Markdown images are not supported in publications: {image_url}")
+        image_path = (base_dir / image_parts.path).resolve()
+        if not image_path.is_relative_to(base_dir.resolve()):
+            raise ValueError(f"Markdown image path escapes the publication root: {image_url}")
+        if not image_path.is_file():
+            raise FileNotFoundError(f"Markdown image is missing: {image_path}")
+        if "educational_figures" in image_path.parts:
+            max_width, max_height = doc_width * 0.9, 3.5 * inch
+        else:
+            max_width, max_height = doc_width * 0.72, 4.2 * inch
+        return make_local_image(image_path, max_width, max_height), inline(node.get("children", []))
+
     def inline(nodes: list[dict]) -> str:
         output = []
         for node in nodes:
@@ -552,13 +569,31 @@ def add_markdown_lines(
                 else:
                     output.append(label)
             elif kind == "image":
-                output.append(inline(node.get("children", [])) or "[image]")
+                output.append(inline(node.get("children", [])))
             else:
                 output.append(inline(node.get("children", [])))
         return "".join(output)
 
     def paragraph(nodes: list[dict], style_name: str) -> Paragraph:
         return Paragraph(inline(nodes), styles[style_name])
+
+    def paragraph_content(nodes: list[dict]) -> None:
+        text_nodes: list[dict] = []
+        for node in nodes:
+            if node["type"] != "image":
+                text_nodes.append(node)
+                continue
+            if text_nodes and inline(text_nodes).strip():
+                story.append(paragraph(text_nodes, "Body"))
+            text_nodes = []
+            image, alt_text = markdown_image(node)
+            story.append(Spacer(1, 0.04 * inch))
+            story.append(image)
+            if alt_text.strip():
+                story.append(Paragraph(paragraph_text(alt_text), styles["Caption"]))
+            story.append(Spacer(1, 0.06 * inch))
+        if text_nodes and inline(text_nodes).strip():
+            story.append(paragraph(text_nodes, "Body"))
 
     def list_flowable(token: dict, depth: int = 0) -> ListFlowable:
         ordered = token.get("attrs", {}).get("ordered", False)
@@ -608,7 +643,7 @@ def add_markdown_lines(
                 if image_path is not None:
                     add_plant_illustration(story, styles, image_path, doc_width)
         elif kind == "paragraph":
-            story.append(paragraph(token.get("children", []), "Body"))
+            paragraph_content(token.get("children", []))
         elif kind == "block_text":
             story.append(paragraph(token.get("children", []), "Body"))
         elif kind == "list":
@@ -734,7 +769,15 @@ def build_pdf(base_dir: Path) -> Path:
         section_heading._bookmark_key = f"section-{index + 1}"
         add_section_opener(story, styles, section)
         story[-3] = section_heading
-        add_markdown_lines(story, styles, section["title"], section["text"], plant_illustrations, doc_width)
+        add_markdown_lines(
+            story,
+            styles,
+            section["title"],
+            section["text"],
+            plant_illustrations,
+            doc_width,
+            base_dir,
+        )
         for flowable in story:
             if (
                 isinstance(flowable, Paragraph)

@@ -24,6 +24,7 @@ def test_authoritative_registry_counts_and_claim_links() -> None:
 
 def test_three_publication_pdf_set(tmp_path: Path) -> None:
     shutil.copy("errington_calendar_entries.csv", tmp_path)
+    shutil.copy("calendar_actions.csv", tmp_path)
     shutil.copy("plant_registry.csv", tmp_path)
     shutil.copy("plant_verification_register.csv", tmp_path)
     (tmp_path / "plant_illustrations").mkdir()
@@ -33,7 +34,10 @@ def test_three_publication_pdf_set(tmp_path: Path) -> None:
     )
     monthly = build_monthly_pdf(tmp_path)
     directory = build_directory_pdf(tmp_path)
-    assert PdfReader(str(monthly)).pages
+    monthly_reader = PdfReader(str(monthly))
+    monthly_text = "\n".join(page.extract_text() or "" for page in monthly_reader.pages)
+    assert "Wk 3–4 (cold-tolerant)" in monthly_text
+    assert "Direct sowing" in monthly_text
     reader = PdfReader(str(directory))
     assert reader.pages
     assert reader.metadata["/Title"] == "Errington Plant Directory — Concept Candidates"

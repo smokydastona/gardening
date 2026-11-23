@@ -322,9 +322,19 @@ def build_monthly_reference(base_dir: Path) -> None:
         "pruning": "PRUNING",
         "dividing": "DIVIDING",
         "propagation": "PROPAGATION",
+        "planting": "PLANTING",
+        "frost-risk": "FROST RISK",
         "seasonal-maintenance": "SEASONAL MAINTENANCE",
-        "unclassified": "REVIEW ACTION",
+        "seasonal-observation": "SOURCE OBSERVATION",
+        "unclassified": "REVIEW REQUIRED",
     }
+    source_markers = ("🌍", "🌿", "🌾", "🌸", "❄", "✄", "🍅", "🌲", "💡", "📖", "📌", "🏞", "✓")
+
+    def reader_facing_transcription(text: str) -> str:
+        for marker in source_markers:
+            text = text.replace(marker, " ")
+        return re.sub(r"\s+", " ", text).strip()
+
     parts = [
         "# Errington Monthly Garden Reference",
         "",
@@ -336,8 +346,9 @@ def build_monthly_reference(base_dir: Path) -> None:
         "frost anchors, not guaranteed frost dates.",
         "",
         "Action labels are mechanically classified from transcribed wording. They are not "
-        "editorially verified. Plant names joined by a slash or comma are retained as a "
-        "source group and must not be interpreted as interchangeable crops.",
+        "editorially verified. Source pictograms are omitted from this reader-facing line; "
+        "the exact transcription is retained in calendar_actions.csv. Plant names joined "
+        "by a slash or comma remain source groups and are not interchangeable crops.",
         "",
         "Each entry includes its original source page. Grayscale-readable labels are used "
         "instead of relying on the source chart colours.",
@@ -355,8 +366,11 @@ def build_monthly_reference(base_dir: Path) -> None:
         "| PRUNING | Source wording indicates pruning or deadheading |",
         "| DIVIDING | Source wording indicates division |",
         "| PROPAGATION | Source wording indicates propagation |",
+        "| PLANTING | Source wording indicates a planting operation |",
+        "| FROST RISK | Source wording indicates frost or cold risk |",
         "| SEASONAL MAINTENANCE | A seasonal action not matched to another label |",
-        "| REVIEW ACTION | The action could not be classified |",
+        "| SOURCE OBSERVATION | Source records a plant or seasonal state, not a task |",
+        "| REVIEW REQUIRED | The wording needs editorial interpretation |",
         "",
     ]
     for month in MONTH_ORDER:
@@ -378,14 +392,14 @@ def build_monthly_reference(base_dir: Path) -> None:
                         for action in entry["action_types"].split(";")
                         if action.strip()
                     ]
-                    action_label = " / ".join(action_names) if action_names else "REVIEW ACTION"
+                    action_label = " / ".join(action_names) if action_names else "REVIEW REQUIRED"
                     group_note = (
                         " — grouped source entry; individual timing unresolved"
                         if entry["grouped_plant_text"] == "true"
                         else ""
                     )
                     parts.append(
-                        f"- **[{action_label}]** {entry['source_transcription']} "
+                        f"- **[{action_label}]** {reader_facing_transcription(entry['source_transcription'])} "
                         f"— source p. {entry['page_number']}{group_note}"
                     )
                 parts.append("")

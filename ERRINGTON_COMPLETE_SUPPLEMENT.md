@@ -5959,185 +5959,601 @@ before final human approval.
 
 # Practical worked examples
 
-Each example gives an objective, materials, preparation, procedure, expected result, common mistakes and troubleshooting.
+These examples demonstrate procedures; they do not supply unsupported plant-specific timing, spacing, or treatment recommendations.
+Each example distinguishes the task from its expected outcome and includes actionable troubleshooting.
 
-## Example 01: Planning a raised vegetable bed
+## Example 01: Plan and prepare a raised vegetable bed
 
-**Objective:** Use one 4 ft x 8 ft bed; 32 sq ft.
-**Materials:** Tape, stakes, compost, soil test.
-**Preparation:** Map orientation and access; mark corners; add 8-12 in of soil mix; leave 24 in paths.
-**Procedure:** A flat, accessible bed with full sun and 32 sq ft planting area.
-**Expected result:** Deep paths, untreated edging, and compacted soil.
-**Common mistakes:** Measure sun and drainage before planting; correct compaction.
-**Troubleshooting:** Not specified
+**Objective:** Lay out a reachable 4 × 8 ft bed (32 sq ft) at a site suitable for the selected crops.
+**Difficulty and time:** Beginner; about 1–2 hours for layout, excluding delivery and construction.
+**Materials:** Tape, stakes, string, level, shovel, site map, and bed material selected for food-growing use.
+**Prerequisites:** Check site history, access to water, drainage, sun exposure, utilities, slope, and any contamination concern before excavation or filling.
+**Preparation:** Mark the actual bed footprint and paths; test reach from every side; observe sun and wet spots rather than assuming them.
 
-## Example 02: Preparing soil
+**Procedure**
 
-**Objective:** Assess and improve a loam bed.
-**Materials:** Soil test, fork, compost.
-**Preparation:** Avoid wet digging; remove weeds; incorporate mature compost only as indicated; rake level.
-**Procedure:** Stable, friable soil and even drainage.
-**Expected result:** Working saturated soil or adding excess amendments.
-**Common mistakes:** Retest and correct drainage before replanting.
-**Troubleshooting:** Not specified
+1. Stake a 4 × 8 ft rectangle and measure the inside dimensions.
+2. Confirm the center can be reached without stepping on growing soil; widen paths only to suit actual access and tools.
+3. Remove persistent weeds and loosen compacted underlying soil only when it is workable and safe to dig.
+4. Select a suitable fill based on intended crops and site conditions; use a soil test to guide nutrient amendments.
+5. Estimate geometric volume as length × width × fill depth, then confirm settling and delivery quantity with the supplier.
+6. Fill, level, water to settle, and recheck drainage and low spots before planting.
 
-## Example 03: Starting seeds indoors
+**Expected result:** A stable, accessible 32 sq ft bed with documented fill and no assumed nutrient or drainage diagnosis.
 
-**Objective:** Start a cool-season tray.
-**Materials:** Seed tray, sterile mix, labels, light.
-**Preparation:** Sanitize tray; fill; sow at packet depth; label; mist; provide 14-16 hr light.
-**Procedure:** Even germination and compact seedlings.
-**Expected result:** Overwatering, deep sowing and heat mats misused for cool crops.
-**Common mistakes:** Vent, thin and reduce moisture.
-**Troubleshooting:** Not specified
+**Common mistakes**
 
-## Example 04: Calculating planting spacing
+- Making the bed too wide to reach its center.
+- Filling over a drainage, contamination, or compaction problem without assessment.
+- Adding fertilizer or lime without a diagnosis.
 
-**Objective:** Fit 32 lettuce transplants in 32 sq ft.
-**Materials:** Tape, seed packet spacing.
-**Preparation:** Use 12 in on-center spacing; 4 columns x 8 rows on a 4 x 8 bed.
-**Procedure:** Eight staggered short rows.
-**Expected result:** Mixing mature spread and row spacing.
-**Common mistakes:** Check the exact cultivar and recalculate.
-**Troubleshooting:** Not specified
+**Troubleshooting**
 
-## Example 05: Transplanting seedlings
+- Water pools: pause planting and investigate the bed and underlying drainage.
+- Fill settles unevenly: top up with the same suitable material and recheck level.
+- Access is awkward: adjust the path or bed width before installing permanent irrigation.
 
-**Objective:** Move hardened starts safely.
-**Materials:** Plant tags, trowel, water.
-**Preparation:** Water before; plant to correct depth; firm gently; water at soil line.
-**Procedure:** No wilt after establishment.
-**Expected result:** Planting too deep or leaving air pockets.
-**Common mistakes:** Rewater and add mulch away from stems.
-**Troubleshooting:** Not specified
+**Local considerations:** Use the supplied frost dates only as approximate source anchors; site exposure and soil conditions vary within Errington.
+**References:** OSU Extension, Raised Bed Gardening (FS 270), https://extension.oregonstate.edu/catalog/fs-270-raised-bed-gardening; BC Soil Nutrient Management, https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/agricultural-land-and-environment/soil-nutrients/management.
 
-## Example 06: Hardening off plants
+## Example 02: Assess and prepare garden soil
 
-**Objective:** Adapt indoor plants to outdoor conditions.
-**Materials:** Tray, sheltered location.
-**Preparation:** Day 1-2 shade and wind protection; increase light and exposure; bring in if frost threatens.
-**Procedure:** Plants tolerate direct outdoor conditions.
-**Expected result:** Sunburn, wind damage or skipped frost protection.
-**Common mistakes:** Restart gradual exposure.
-**Troubleshooting:** Not specified
+**Objective:** Observe a proposed bed and decide what evidence is needed before disturbing or amending its soil.
+**Difficulty and time:** Beginner; 30–60 minutes for inspection, plus laboratory turnaround if a test is submitted.
+**Materials:** Trowel, clean sample container, notebook, labels, and laboratory supplies if testing.
+**Prerequisites:** Know the intended growing area and crop group; follow the selected laboratory's sampling instructions.
+**Preparation:** Compare several locations after wet and dry weather; keep visibly different areas as separate observations or samples.
 
-## Example 07: Planning succession crops
+**Procedure**
 
-**Objective:** Sow radish or lettuce every 14 days.
-**Materials:** Seed, labels, calendar.
-**Preparation:** Divide a bed into blocks; sow block one; repeat after 14 days.
-**Procedure:** Continuous small harvests.
-**Expected result:** Oversowing one large harvest window.
-**Common mistakes:** Thin and stagger sowings.
-**Troubleshooting:** Not specified
+1. Record standing water, crusting, compaction, construction debris, and where the surface dries first.
+2. Check a small soil handful at working depth; wait if it smears or forms a dense wet mass.
+3. Inspect a small profile for abrupt fill layers or dense pans without cutting important roots or utilities.
+4. Submit a representative sample when pH or nutrient decisions are needed.
+5. Use the report and crop-specific guidance to choose an amendment; otherwise avoid speculative inputs.
 
-## Example 08: Crop rotation
+**Expected result:** A documented soil condition and a justified next step: wait, sample, amend conservatively, or address a physical site issue.
 
-**Objective:** Rotate four crop families.
-**Materials:** Bed map and labels.
-**Preparation:** Group nightshades, brassicas, legumes and roots; move each group one bed annually.
-**Procedure:** Rotation notes and reduced repeated-family pressure.
-**Expected result:** Assuming rotation replaces pest diagnosis.
-**Common mistakes:** Keep records and diagnose symptoms.
-**Troubleshooting:** Not specified
+**Common mistakes**
 
-## Example 09: Supporting climbing plants
+- Working saturated soil and compacting it further.
+- Treating a jar texture test or leaf color as a complete fertility diagnosis.
+- Applying lime, fertilizer, manure, or concentrated amendment without evidence.
 
-**Objective:** Support peas or pole beans.
-**Materials:** Netting, stakes, ties.
-**Preparation:** Install support before planting; direct seedlings beside support; loose-tie growth.
-**Procedure:** Stable vines and harvest access.
-**Expected result:** Tying tightly or staking after roots are disturbed.
-**Common mistakes:** Replace damaged ties with soft, slack loops.
-**Troubleshooting:** Not specified
+**Troubleshooting**
 
-## Example 10: Pruning shrubs and perennials
+- Soil smears when squeezed: wait for it to dry to a workable condition.
+- A sample has mixed soil types: resample distinct areas separately.
+- Test results are unclear: ask the laboratory or qualified local advisor to interpret them for the intended crop.
 
-**Objective:** Remove dead or crossing growth safely.
-**Materials:** Clean shears, gloves.
-**Preparation:** Identify live wood and branch union; remove dead wood; avoid spring-blooming shrub cuts after bud set.
-**Procedure:** Healthy structure and accurate timing.
-**Expected result:** Heavy pruning at the wrong season.
-**Common mistakes:** Stop and confirm species timing.
-**Troubleshooting:** Not specified
+**Local considerations:** No property-specific soil condition is established by the Errington calendar; inspect each garden independently.
+**References:** BC Soil Nutrient Management, https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/agricultural-land-and-environment/soil-nutrients/management.
 
-## Example 11: Dividing perennials
+## Example 03: Start seeds indoors
 
-**Objective:** Divide a crowded clump.
-**Materials:** Fork, knife, labels.
-**Preparation:** Lift dormant or post-bloom clump; divide at natural joins; replant promptly.
-**Procedure:** Two or more viable divisions.
-**Expected result:** Planting pieces too deep or dividing in frost/heat.
-**Common mistakes:** Replant and water; reserve uncertain species for review.
-**Troubleshooting:** Not specified
+**Objective:** Sow a small, labeled batch using instructions for the identified crop and seed lot.
+**Difficulty and time:** Beginner; 20–40 minutes to sow, followed by routine checks.
+**Materials:** Clean draining containers, suitable seed-starting medium, labels, seeds, water, and appropriate light.
+**Prerequisites:** Check the packet or plant-specific source for sowing depth, germination temperature, light response, and whether indoor sowing is appropriate.
+**Preparation:** Clean reused containers; prepare labels before sowing; moisten the medium evenly without saturating it.
 
-## Example 12: Growing berries
+**Procedure**
 
-**Objective:** Establish a small berry row.
-**Materials:** Berry starts, mulch, supports.
-**Preparation:** Improve drainage; set at nursery depth; mulch; net if appropriate.
-**Procedure:** Healthy growth and harvestable fruit.
-**Expected result:** Mulch against crowns or overfeeding.
-**Common mistakes:** Remove mulch from crowns and verify nutrient needs.
-**Troubleshooting:** Not specified
+1. Fill containers loosely and level the surface.
+2. Sow at the source-stated depth and label crop, cultivar if known, and date.
+3. Provide the stated germination conditions and keep the medium evenly moist.
+4. After emergence, provide adequate light, airflow, and room for seedlings.
+5. Thin or transplant gently; handle seedlings by a leaf rather than crushing the stem.
 
-## Example 13: Managing irrigation
+**Expected result:** Clearly identified seedlings that emerge under the selected source's conditions and remain compact and healthy.
 
-**Objective:** Water a 4 x 8 bed efficiently.
-**Materials:** Irrigation tubing, controller, catch cups.
-**Preparation:** Zone bed; measure application; water the root zone in the morning as needed.
-**Procedure:** Even moisture without runoff.
-**Expected result:** Daily shallow watering or saturated soil.
-**Common mistakes:** Check soil below surface and adjust.
-**Troubleshooting:** Not specified
+**Common mistakes**
 
-## Example 14: Diagnosing plant problems
+- Applying one depth or temperature to all seeds.
+- Keeping containers waterlogged or allowing the surface to dry during germination.
+- Using weak light that produces elongated seedlings.
 
-**Objective:** Separate similar symptoms.
-**Materials:** Notebook, hand lens.
-**Preparation:** Observe distribution, soil moisture, roots and damage pattern; use an IPM decision tree.
-**Procedure:** Narrowed diagnosis and a conservative next step.
-**Expected result:** Treating every yellow leaf as deficiency.
-**Common mistakes:** Review pest/disease evidence and consult qualified local support.
-**Troubleshooting:** Not specified
+**Troubleshooting**
 
-## Example 15: Protecting from frost
+- No emergence: check seed age, depth, temperature, and moisture before resowing.
+- Seedlings stretch: improve light placement and spacing according to fixture guidance.
+- Algae or persistent wetness: improve drainage and reduce excess water; do not abruptly dry emerging seeds.
 
-**Objective:** Protect a tender transplant row.
-**Materials:** Cover, stakes, weight.
-**Preparation:** Anchor cover before frost; keep fabric from stems; remove in morning if warming.
-**Procedure:** Reduced radiative frost exposure.
-**Expected result:** Sealing plants in wet plastic or leaving covers in sun.
-**Common mistakes:** Use breathable cover and remove promptly.
-**Troubleshooting:** Not specified
+**Local considerations:** Indoor sowing dates in the supplied calendar are transcriptions, not independently verified plant-specific recommendations.
+**References:** Use the seed supplier's crop-specific instructions; regional context: OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region.
 
-## Example 16: Harvesting and preserving produce
+## Example 04: Calculate plant spacing
 
-**Objective:** Harvest and preserve small beans.
-**Materials:** Basket, clean knife, freezer boxes.
-**Preparation:** Harvest when tender; chill promptly; blanch or freeze according to verified guidance.
-**Procedure:** Fresh, labelled preserved produce.
-**Expected result:** Freezing raw unverified produce or unsafe water-bath assumptions.
-**Common mistakes:** Use tested preservation directions.
-**Troubleshooting:** Not specified
+**Objective:** Convert a verified spacing recommendation into a measured layout without confusing row spacing and plant spacing.
+**Difficulty and time:** Beginner; 15–30 minutes.
+**Materials:** Tape, string, stakes, bed plan, and a source giving spacing for the identified crop or cultivar.
+**Prerequisites:** Confirm whether the source specifies plant-to-plant distance, row spacing, or both; do not substitute a generic value.
+**Preparation:** Measure the usable inside length and width, accounting for edge clearance, paths, supports, and mature canopy.
 
-## Example 17: Establishing pollinator habitat
+**Procedure**
 
-**Objective:** Create a season-long pollinator strip.
-**Materials:** Native plants, mulch, water.
-**Preparation:** Plan spring to fall bloom, avoid pesticides, preserve bare-soil and shelter zones.
-**Procedure:** Diverse, pesticide-minimized habitat.
-**Expected result:** Claiming that every exotic ornamental is native support.
-**Common mistakes:** Use verified regional native lists.
-**Troubleshooting:** Not specified
+1. Write the source's recommended plant and row distances separately.
+2. Convert bed dimensions and spacing to the same units.
+3. Estimate a grid with floor(usable length ÷ plant spacing) × floor(usable width ÷ row spacing).
+4. Mark a small test section and check that mature plants and access will fit.
+5. Revise the count for the actual cultivar and layout before planting the whole bed.
 
-## Example 18: Establishing a compost bin
+**Expected result:** A layout whose assumptions and source spacing are recorded; the arithmetic is not mistaken for a crop recommendation.
 
-**Objective:** Produce a stable compost pile.
-**Materials:** Lidded bin, browns, greens, fork.
-**Preparation:** Layer browns and greens, maintain damp sponge moisture and aerate.
-**Procedure:** Dark, earthy compost with little odour.
-**Expected result:** Adding meat/disease material or soggy greens.
-**Common mistakes:** Balance carbon, moisture and aeration.
-**Troubleshooting:** Not specified
+**Common mistakes**
+
+- Using an unsupported universal 12-inch lettuce spacing.
+- Treating mature plant spread as the same measure as row spacing.
+- Counting to the bed edge without clearance.
+
+**Troubleshooting**
+
+- Plants overlap early: compare the source's spacing definition and cultivar size; thin or harvest only as appropriate.
+- Rows are difficult to reach: add access before planting the remaining bed.
+- The calculation yields too many plants: reduce count for edge clearance and mature canopy.
+
+**Local considerations:** No single spacing value is established for all Errington sites or cultivars.
+**References:** Use the identified cultivar's seed packet or a crop-specific extension reference; this is a calculation method, not crop spacing advice.
+
+## Example 05: Transplant seedlings
+
+**Objective:** Move a healthy, hardened seedling into prepared soil with minimal root disturbance.
+**Difficulty and time:** Beginner; about 10–20 minutes per small group.
+**Materials:** Labeled seedlings, hand trowel, water, and suitable temporary protection if needed.
+**Prerequisites:** Confirm identity, species-specific planting depth, root-ball condition, soil workability, and current forecast.
+**Preparation:** Water the root ball if dry; prepare the planting position and protection before removing seedlings from containers.
+
+**Procedure**
+
+1. Make a hole that accommodates the root ball without sharply bending roots.
+2. Set the plant at the depth appropriate to its species.
+3. Backfill and firm gently so the plant is supported without compressing wet soil.
+4. Water in when appropriate for the plant and soil; label the planting.
+5. Check establishment and root-zone moisture over the following days.
+
+**Expected result:** A stable transplant at species-appropriate depth with roots in contact with moist, aerated soil.
+
+**Common mistakes**
+
+- Planting every species at the same depth.
+- Leaving large air gaps or crushing the stem while handling.
+- Transplanting an unhardened plant into harsh sun, wind, or frost risk.
+
+**Troubleshooting**
+
+- Plant wilts: check root-ball moisture, wind, sun exposure, and planting depth before adding water.
+- Plant rocks in the hole: firm the surrounding soil gently and support it until established.
+- Leaves scorch: provide suitable temporary shade and reassess exposure; do not assume nutrient deficiency.
+
+**Local considerations:** The April 15 source anchor is approximate and is not a universal transplant date.
+**References:** OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region.
+
+## Example 06: Harden off transplants
+
+**Objective:** Acclimate indoor-grown plants to outdoor light, wind, and temperature without prescribing a universal schedule.
+**Difficulty and time:** Beginner; repeated short checks over several days, adjusted to plant and weather.
+**Materials:** Seedling tray, sheltered outdoor area, labels, and a way to bring plants back under protection.
+**Prerequisites:** Know the crop's tolerance and ensure a safe indoor or protected location is available if weather changes.
+**Preparation:** Choose mild conditions and a protected site; postpone exposure during harsh wind, damaging cold, or intense sun.
+
+**Procedure**
+
+1. Begin with brief exposure in shade or bright shelter.
+2. Inspect leaf condition and moisture before extending the next exposure.
+3. Gradually increase duration, light, and airflow only while plants tolerate the change.
+4. Return plants to protection when conditions exceed their known tolerance.
+5. Plant out only after hardening and site conditions are both suitable.
+
+**Expected result:** Plants tolerate the intended outdoor location without sudden sun or wind injury.
+
+**Common mistakes**
+
+- Treating seven days as a fixed prescription for every crop and weather pattern.
+- Leaving trays exposed to strong sun, drying wind, or unexpected cold.
+- Assuming hardening off makes a frost-sensitive plant frost-hardy.
+
+**Troubleshooting**
+
+- Bleached or scorched leaves: return to shade and resume more gradually after recovery.
+- Leaves wilt outdoors: check moisture and wind exposure; shorten the next session.
+- Forecast worsens: delay planting and protect plants rather than completing a schedule by date.
+
+**Local considerations:** Outdoor exposure should respond to the actual garden forecast; the local frost anchors are not guarantees.
+**References:** OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region.
+
+## Example 07: Plan succession crops
+
+**Objective:** Spread sowing and harvest workload using crop-specific maturity and seasonal limits.
+**Difficulty and time:** Beginner; 20–40 minutes to plan, repeated sowing as conditions allow.
+**Materials:** Bed map, labels, seed source, calendar, and harvest notes.
+**Prerequisites:** Confirm crop identity, days-to-maturity interpretation, seasonal suitability, and whether later sowings fit local conditions.
+**Preparation:** Choose a modest bed area and define the first crop and observable condition that will free the next block.
+
+**Procedure**
+
+1. Divide the available area into labeled blocks.
+2. Read the crop-specific sowing interval and maturity guidance; do not assume a universal 14-day interval.
+3. Sow the first block and record date, conditions, and quantity.
+4. Make the next sowing only if the crop source and remaining season support it.
+5. Compare emergence and harvest timing; adjust the next year's interval from records.
+
+**Expected result:** Staggered, traceable sowings sized to household use and actual bed availability.
+
+**Common mistakes**
+
+- Repeating a fixed interval without checking crop or seasonal guidance.
+- Sowing more blocks than can be watered, harvested, or used.
+- Planting a follow-on crop before the bed is available.
+
+**Troubleshooting**
+
+- Later sowing fails to emerge: check temperature, moisture, seed depth, and seasonal suitability.
+- Harvests overlap: lengthen the next interval only if the crop's remaining window permits.
+- Bed is not free: shift the sowing based on an observable harvest trigger.
+
+**Local considerations:** Do not infer local sowing windows from a generic calendar when the supplied record is unreviewed.
+**References:** Use crop-specific seed-packet or extension timing; the local calendar remains a transcription requiring review.
+
+## Example 08: Plan crop rotation by family
+
+**Objective:** Record successive crops by verified botanical family to reduce repeated-family concentration where practical.
+**Difficulty and time:** Intermediate; about 30–60 minutes for a multi-bed map.
+**Materials:** Bed map, plant registry with verified family fields, and planting records.
+**Prerequisites:** Resolve plant identity and family first; a common name such as “roots” is not a family.
+**Preparation:** Label beds and list crop families; mark perennials and crops that cannot be moved annually.
+
+**Procedure**
+
+1. Assign each identified annual crop to its verified family.
+2. Keep crops from the same family together only where useful for planning, not as a biological guarantee.
+3. Map family locations for each year and move susceptible annual groups when space permits.
+4. Record exceptions, perennial crops, and the reason a crop remained in place.
+5. Continue scouting and managing pests; rotation alone does not diagnose or prevent every problem.
+
+**Expected result:** A rotation record based on botanical families rather than edible portions, with limitations visible.
+
+**Common mistakes**
+
+- Treating all root crops as one family.
+- Assuming family rotation guarantees pest or disease control.
+- Assigning a family from an ambiguous common name.
+
+**Troubleshooting**
+
+- Family is uncertain: leave it unresolved and verify taxonomy before assigning a rotation group.
+- Too few beds: rotate only where practical and combine with other prevention strategies.
+- A problem recurs despite rotation: identify the causal organism and site conditions rather than extending rotation blindly.
+
+**Local considerations:** The registry's recorded families are not all independently verified; confirm a taxon before using it as a rotation fact.
+**References:** Taxonomic family claims require a current botanical source; no family-level control outcome is guaranteed here.
+
+## Example 09: Support climbing plants
+
+**Objective:** Install a stable support before climbing growth becomes difficult to handle.
+**Difficulty and time:** Beginner; 30–60 minutes depending on support and site.
+**Materials:** Support stakes or frame, suitable netting or trellis, ties, mallet, and gloves.
+**Prerequisites:** Identify the plant's mature height, climbing method, expected crop load, and the support's wind and soil anchorage needs.
+**Preparation:** Position support to preserve access and avoid shading neighboring plants; install anchors before sowing or transplanting.
+
+**Procedure**
+
+1. Choose a support rated for the mature plant and fruit or pod load.
+2. Secure posts or frame in stable ground, checking for overhead or buried hazards.
+3. Attach mesh or crossbars without sharp exposed ends.
+4. Guide young stems loosely; do not constrict expanding growth.
+5. Inspect ties and anchors after wind and as plant weight increases.
+
+**Expected result:** A stable, accessible plant with room for growth and no constricting ties.
+
+**Common mistakes**
+
+- Choosing a light support for a heavy mature crop.
+- Installing stakes through established roots.
+- Tying stems tightly or blocking airflow.
+
+**Troubleshooting**
+
+- Support leans: unload if safe and reinforce anchors before adding more plant weight.
+- Stem is constricted: replace the tie with a loose, soft loop.
+- Plant will not climb: verify its growth habit; some plants require tying rather than twining.
+
+**Local considerations:** Wind exposure varies by garden; inspect supports after local wind events.
+**References:** Select support dimensions and anchoring for the identified plant and site; no universal weight rating is assumed.
+
+## Example 10: Prune a shrub or perennial safely
+
+**Objective:** Make only justified, well-placed cuts after identifying the plant and its flowering or regrowth habit.
+**Difficulty and time:** Intermediate; 20–60 minutes depending on plant size.
+**Materials:** Clean, sharp pruners or saw appropriate to branch diameter, gloves, and plant label.
+**Prerequisites:** Identify the species or cultivar and consult its recommended pruning season, flowering wood, and local safety guidance.
+**Preparation:** Observe the whole plant, distinguish dead from live wood, and identify branch unions before cutting.
+
+**Procedure**
+
+1. Remove only clearly dead, damaged, or crossing material when the cut is safe and appropriate.
+2. Use a clean tool suited to the branch; avoid tearing or leaving a long stub.
+3. Keep cuts outside the branch collar where present; do not flush-cut the trunk.
+4. Stop before major renovation if species-specific timing or response is unknown.
+5. Clean tools between plants when disease spread is a concern.
+
+**Expected result:** Limited, deliberate cuts that preserve the plant's structure and do not claim a species-specific pruning schedule.
+
+**Common mistakes**
+
+- Pruning a spring-flowering plant at an unverified time and removing flower buds.
+- Making indiscriminate heavy cuts to an unidentified shrub.
+- Cutting flush to the trunk or leaving ragged tears.
+
+**Troubleshooting**
+
+- A cut reveals discolored tissue: stop and seek a diagnosis before removing more.
+- Plant fails to flower: review species, pruning date, light, and prior year's growth.
+- Branch is too large for hand pruners: use an appropriate saw or consult a qualified arborist.
+
+**Local considerations:** The calendar's grouped pruning entries do not establish one timing for all listed tree or shrub species.
+**References:** Species-specific pruning guidance is required before timing or renovation cuts.
+
+## Example 11: Divide a perennial
+
+**Objective:** Assess whether an identified perennial can be divided and re-establish viable divisions.
+**Difficulty and time:** Intermediate; 30–90 minutes depending on root mass.
+**Materials:** Garden fork, clean sharp knife or spade, labels, water, and prepared planting area.
+**Prerequisites:** Identify species, confirm suitable division season and growth form, and check soil moisture and forecast.
+**Preparation:** Prepare the new site before lifting; water the plant if soil is dry and mark the original planting depth.
+
+**Procedure**
+
+1. Lift only the amount of root system that can be replanted promptly.
+2. Separate at natural crowns, rhizomes, or rooted sections as appropriate to the species.
+3. Retain viable roots and growing points on each division.
+4. Replant at the species-appropriate depth, water as appropriate, and label.
+5. Monitor establishment and protect from conditions beyond the plant's tolerance.
+
+**Expected result:** Labeled divisions with viable growing points and minimal time exposed above ground.
+
+**Common mistakes**
+
+- Applying one calendar window to all perennials.
+- Making divisions without roots or growing points.
+- Leaving lifted material exposed until roots dry.
+
+**Troubleshooting**
+
+- Division wilts: check root contact and moisture; reduce stress without waterlogging.
+- No growth returns: verify viability, depth, and whether the species is dormant.
+- Clump resists separation: stop rather than forcing an unknown root structure.
+
+**Local considerations:** The supplied ornamental calendar has division cues, but they are transcriptions, not universal species advice.
+**References:** Use an identified plant's propagation reference for timing and division form.
+
+## Example 12: Plan a berry planting
+
+**Objective:** Prepare a site plan for one identified berry species before purchasing or planting stock.
+**Difficulty and time:** Intermediate; 1–2 hours for site assessment and layout.
+**Materials:** Site map, tape, soil test supplies if needed, labels, and species-specific nursery guidance.
+**Prerequisites:** Choose the berry species and cultivar; verify mature size, pollination requirements, light, soil, drainage, spacing, and pruning needs.
+**Preparation:** Assess sunlight, water access, drainage, access for harvest, and whether netting or support is needed.
+
+**Procedure**
+
+1. Record site measurements and existing constraints.
+2. Compare the site's soil and exposure with a reliable source for the selected berry.
+3. Check cultivar pollination and mature-size information before setting row spacing.
+4. Prepare supports or protection before planting if the verified plan requires them.
+5. Plant at the nursery- or species-specified depth and label each plant.
+
+**Expected result:** A species-specific planting plan; this generic example intentionally supplies no unsupported berry spacing or pruning date.
+
+**Common mistakes**
+
+- Treating strawberries, cane berries, currants, and blueberries as having one soil or pruning requirement.
+- Planting before checking drainage or mature size.
+- Applying fertilizer or mulch against crowns without plant-specific guidance.
+
+**Troubleshooting**
+
+- Poor establishment: review planting depth, root condition, moisture, and site match.
+- Little fruit: verify age, cultivar, pollination needs, light, and pruning history.
+- Crowded row: compare mature size with the plan before moving established plants.
+
+**Local considerations:** Local timing must be checked for the chosen species; grouped berry entries in the source calendar are not interchangeable.
+**References:** Use species- and cultivar-specific extension or nursery guidance; no single berry profile is implied.
+
+## Example 13: Measure irrigation delivery
+
+**Objective:** Check whether a watering system delivers water evenly and wets the intended root zone.
+**Difficulty and time:** Beginner; 30–60 minutes.
+**Materials:** Catch cups, ruler, timer, notebook, and trowel or soil probe.
+**Prerequisites:** Know which zone is being tested; do not run electrical or pressurized equipment outside its instructions.
+**Preparation:** Place catch cups at the beginning, middle, and end of the irrigation line; note recent rain and soil condition.
+
+**Procedure**
+
+1. Run the system for a recorded interval.
+2. Compare collected amounts to locate uneven output; clear or repair emitters according to the product instructions.
+3. Check soil moisture below the surface in several parts of the bed.
+4. Adjust duration or emitter layout in a small step, then repeat the measurement.
+5. Record the setting and repeat checks as plants and weather change.
+
+**Expected result:** A measured distribution and root-zone check rather than a fixed daily schedule.
+
+**Common mistakes**
+
+- Assuming all emitters deliver the same amount.
+- Judging moisture only from the soil surface.
+- Using a water-volume conversion as a universal irrigation prescription.
+
+**Troubleshooting**
+
+- One cup collects much less: check blockage, pressure, or line length.
+- Runoff begins: reduce application rate or split the run, then recheck infiltration.
+- Soil is wet but plants wilt: investigate roots, drainage, and plant stress rather than adding water automatically.
+
+**Local considerations:** Summer dry-spell descriptions are source-reported; respond to measured soil and current conditions.
+**References:** OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region.
+
+## Example 14: Diagnose a plant problem
+
+**Objective:** Narrow possible causes before treatment by recording symptoms, distribution, and site conditions.
+**Difficulty and time:** Beginner; 15–45 minutes for initial checks.
+**Materials:** Notebook, phone or camera, hand lens, plant label, and clean sample bag if a diagnostic service requests it.
+**Prerequisites:** Do not apply a pesticide or fertilizer until a likely cause and appropriate action are supported.
+**Preparation:** Photograph the whole plant, affected area, and close details; note date and recent changes.
+
+**Procedure**
+
+1. Describe the symptom without naming a pest or disease.
+2. Map whether one plant, one species, one bed edge, or many plants are affected.
+3. Check leaf surfaces, stems, root-zone moisture, drainage, and recent weather or management changes.
+4. Compare several diagnostic features with a reliable source or ask a qualified diagnostic service.
+5. Choose the least disruptive justified action and record the result for follow-up.
+
+**Expected result:** A documented differential and next check, not an unsupported diagnosis from one symptom.
+
+**Common mistakes**
+
+- Treating every yellow leaf as a nutrient deficiency.
+- Confusing waterlogged roots with drought.
+- Spraying before identifying a target organism.
+
+**Troubleshooting**
+
+- Symptoms spread quickly: isolate affected material where safe and seek timely diagnostic help.
+- No pest is visible: review water, roots, weather, exposure, and recent changes.
+- First intervention fails: revisit the diagnosis rather than escalating product use.
+
+**Local considerations:** A verified Errington-specific pest and disease matrix is not yet available.
+**References:** Use current BC plant diagnostic or extension guidance appropriate to the identified plant and symptom.
+
+## Example 15: Protect a plant from frost
+
+**Objective:** Reduce exposure during a forecast cold event without treating a calendar anchor as a guarantee.
+**Difficulty and time:** Beginner; 10–20 minutes before the event, plus checks during warming.
+**Materials:** Suitable frost cloth or cover, hoops if needed, clips or weights, and forecast source.
+**Prerequisites:** Identify plant tolerance and cover instructions; have protection sized to the bed and wind exposure.
+**Preparation:** Check the forecast, locate supports, and plan how to vent or remove cover as conditions change.
+
+**Procedure**
+
+1. Install hoops or supports so the cover does not crush foliage.
+2. Drape and secure the cover before the event, closing gaps while avoiding damage to the plant.
+3. Use plastic only with an appropriate support and follow its instructions; do not leave plants sealed in sun.
+4. Check conditions and remove or vent the cover as temperatures rise.
+5. Inspect damage after the event before deciding whether pruning or replacement is needed.
+
+**Expected result:** A secured, temporary protection setup with an active removal/venting plan.
+
+**Common mistakes**
+
+- Assuming April 15 or October 15 guarantees frost-free conditions.
+- Allowing plastic to touch foliage or overheat plants.
+- Leaving an unsecured cover in wind.
+
+**Troubleshooting**
+
+- Cover lifts: secure edges and add support without crushing plants.
+- Plants overheat: vent or remove cover promptly when safe.
+- Injury appears despite cover: record forecast and site conditions; cover performance varies.
+
+**Local considerations:** The supplied frost dates are approximate anchors; check current forecast and garden microclimate.
+**References:** Follow the cover manufacturer's instructions and plant-specific cold-tolerance source.
+
+## Example 16: Harvest and preserve produce safely
+
+**Objective:** Prepare a small, identified harvest for one preservation method using a current tested procedure.
+**Difficulty and time:** Beginner for freezing; food-safety procedures vary by method.
+**Materials:** Clean basket, potable water, clean utensils, labeled containers, and tested recipe or preservation instructions.
+**Prerequisites:** Identify the crop and preservation method; use tested, current directions for blanching, freezing, drying, fermenting, or canning.
+**Preparation:** Check maturity cues for the crop, clean work surfaces, prepare containers, and reserve time to process promptly.
+
+**Procedure**
+
+1. Harvest only sound, correctly identified produce at the stage specified by a reliable crop source.
+2. Sort and wash as directed for the chosen preservation method.
+3. Follow the current tested method exactly, including preparation, processing, and storage steps.
+4. Label the food with contents and date; store under the method's stated conditions.
+5. Discard food when safety is uncertain; do not taste it to decide whether it is safe.
+
+**Expected result:** Labeled produce processed under a tested procedure; the example does not invent times, temperatures, or canning recipes.
+
+**Common mistakes**
+
+- Using an untested canning recipe or changing proportions and processing time.
+- Freezing without following the crop's quality and preparation guidance.
+- Assuming appearance or smell proves food safety.
+
+**Troubleshooting**
+
+- A jar seal fails: follow current food-safety guidance for the specific product and elapsed time; do not assume it is shelf stable.
+- Freezer containers are unlabeled: identify contents only if certain; otherwise do not guess.
+- Processing instructions are missing: pause and obtain a tested procedure before proceeding.
+
+**Local considerations:** Harvest dates and maturity depend on the crop and actual season; the supplied calendar is not a food-safety authority.
+**References:** National Center for Home Food Preservation, https://nchfp.uga.edu/; follow its current tested recipes and guidance.
+
+## Example 17: Plan a pollinator-supportive garden area
+
+**Objective:** Plan habitat resources for identified local pollinators without labeling unverified plants as native or beneficial.
+**Difficulty and time:** Intermediate; 1–2 hours for a first site and plant list.
+**Materials:** Site map, locally appropriate plant references, labels, water-source plan, and habitat observation notebook.
+**Prerequisites:** Verify candidate plant identities and regional status; check invasive-plant guidance and site conditions.
+**Preparation:** Map sun, soil moisture, nesting habitat, existing vegetation, and pesticide exposure.
+
+**Procedure**
+
+1. Select a small area and list habitat needs to investigate: flowering resources, host plants, shelter, nesting substrate, and water.
+2. Use authoritative regional sources to select suitable plants and confirm names before purchase.
+3. Plan a varied sequence of bloom only where supported by regional plant references; do not infer Errington dates from a wider ecoregion.
+4. Retain suitable undisturbed habitat where safe and compatible with the garden.
+5. Observe visitors and plant performance over seasons; revise the plan from evidence.
+
+**Expected result:** A site-specific habitat plan with verified plant identities and explicit unknowns.
+
+**Common mistakes**
+
+- Calling every ornamental a native plant or pollinator resource.
+- Removing all nesting habitat or applying pesticides prophylactically.
+- Treating a regional bloom table as an Errington-specific calendar.
+
+**Troubleshooting**
+
+- Few visits observed: check bloom availability, weather, observation timing, and plant establishment before assuming failure.
+- Plant identity uncertain: do not use it as a native reference until verified.
+- Water source attracts pests or becomes stagnant: change or remove it using appropriate local guidance.
+
+**Local considerations:** The Eastern Vancouver Island pollinator guide cited in the draft is not available for verification; the plant list remains pending.
+**References:** Verify plant identity and native status through E-Flora BC and regional ecological sources before publication.
+
+## Example 18: Set up a composting trial
+
+**Objective:** Start a small, observable compost batch using suitable materials while avoiding unsupported exact ratios.
+**Difficulty and time:** Beginner; 30–60 minutes to set up, with periodic monitoring.
+**Materials:** Ventilated bin or contained pile, suitable plant-based materials, fork, water source, and thermometer if available.
+**Prerequisites:** Check local wildlife, nuisance, and municipal guidance; exclude materials inappropriate for the chosen system.
+**Preparation:** Choose a drained, accessible location; gather a mix of dry structural material and moist fresh plant material.
+
+**Procedure**
+
+1. Add a loose mixture of dry and fresh suitable material; avoid packing it tightly.
+2. Moisten evenly so the material is damp, not saturated; do not rely on a fixed ratio unless a chosen source specifies one.
+3. Check odor, moisture, and airflow periodically; turn or loosen if the system is compacted and the method calls for aeration.
+4. Add dry material if overly wet, or water gradually if too dry.
+5. Use finished material only when it is mature for the intended application and its source is known.
+
+**Expected result:** A monitored batch with documented inputs and an adjustment path, not a guaranteed composting timeline.
+
+**Common mistakes**
+
+- Adding unsuitable food or diseased material without checking local and system guidance.
+- Making the pile waterlogged or tightly compacted.
+- Assuming color alone proves maturity.
+
+**Troubleshooting**
+
+- Strong sour or rotten odor: check excess moisture and compaction; add suitable dry structure and aerate if appropriate.
+- Pile is dry and inactive: add water gradually and check material mix.
+- Wildlife accesses the bin: secure it and revise inputs according to local guidance.
+
+**Local considerations:** Choose a secure location that does not create runoff or wildlife conflict on the property.
+**References:** Use current provincial or municipal composting guidance for accepted materials and wildlife considerations.
 

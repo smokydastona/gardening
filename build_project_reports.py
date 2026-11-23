@@ -31,7 +31,10 @@ ACTION_ORDER = (
     "pruning",
     "dividing",
     "propagation",
+    "planting",
+    "frost-risk",
     "seasonal-maintenance",
+    "seasonal-observation",
     "unclassified",
 )
 CALENDAR_SOURCE_ID = "ERRINGTON-CALENDAR-PDF"
@@ -133,34 +136,47 @@ def action_types_for_entry(entry: dict[str, str]) -> list[str]:
     indoor_text = entry.get("indoor_sow", "").strip()
     direct_text = entry.get("direct_sow_or_transplant", "").strip().casefold()
     action_text = entry.get("harvest_bloom_action", "").strip().casefold()
+    source_text = entry.get("row_text", "").strip().casefold()
+    full_text = " ".join((direct_text, action_text, source_text))
+    if "🌿" in direct_text:
+        found.add("direct-sowing")
     checks = (
         ("succession-sowing", r"\bsuccession\b"),
-        ("direct-sowing", r"\bdirect sow\b|\bsow outdoors?\b"),
+        ("direct-sowing", r"\bdirect[\s-]+sow(?:ing)?\b|\bsow(?:ing)?\s+outdoors?\b"),
         ("transplanting", r"\btransplant(?:ing)?\b|\bplant out\b"),
         ("harvesting", r"\bharvest(?:ing)?\b|\bpick(?:ing)?\b"),
         ("flowering", r"\bbloom(?:ing)?\b|\bflower(?:ing)?\b"),
-        ("pruning", r"\bprun(?:e|ing)\b|\bdeadhead(?:ing)?\b"),
+        ("pruning", r"\bprun(?:e|ing)\b|\bdeadhead(?:ing)?\b|\bcut(?:ting)?\s+(?:back|off|out|away|down|tatty|damaged|dead)\b"),
         ("dividing", r"\bdivid(?:e|ing)\b"),
         ("propagation", r"\bpropagat(?:e|ion|ing)\b|\bcuttings?\b|\blayering\b"),
+        ("planting", r"\bplant(?:ing)?\b|\bset out\b"),
+        ("frost-risk", r"\bfrost\b|\bfrozen\b|\bfreeze\b"),
     )
     if indoor_text:
         found.add("indoor-sowing")
     for action, pattern in checks:
-        if re.search(pattern, direct_text):
+        if re.search(pattern, full_text):
             found.add(action)
-        if re.search(pattern, action_text):
-            found.add(action)
-    if direct_text and not any(re.search(pattern, direct_text) for _action, pattern in checks):
+    if full_text and not found and re.search(
+        r"\b(dormant|dormancy|buds? (?:beginning|swelling)|nothing this month|"
+        r"no (?:work|task|activity)|emerging|leafing out|growth (?:begins|slows))\b",
+        full_text,
+    ):
+        found.add("seasonal-observation")
+    maintenance_pattern = (
+        r"\b(mulch|water|weed|support|feed|protect|check|plan|order|clean|remove|"
+        r"leave|allow|store|cover|stake|keep|cut back|thin|divide|prune)\w*\b"
+    )
+    if re.search(maintenance_pattern, full_text):
+        found.add("seasonal-maintenance")
+    if (
+        direct_text
+        and "🌿" not in direct_text
+        and not any(re.search(pattern, full_text) for _action, pattern in checks)
+    ):
         found.add("unclassified")
-    if action_text and not any(re.search(pattern, action_text) for _action, pattern in checks):
-        if re.search(
-            r"\b(mulch|water|weed|support|feed|protect|check|plan|order|"
-            r"clean|remove|leave|allow|store|cover|stake|cut back)\w*\b",
-            action_text,
-        ):
-            found.add("seasonal-maintenance")
-        else:
-            found.add("unclassified")
+    elif full_text and not found:
+        found.add("unclassified")
     if not found:
         found.add("unclassified")
     return [action for action in ACTION_ORDER if action in found]

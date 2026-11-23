@@ -88,3 +88,42 @@ def test_illustration_loader_ignores_unapproved_and_fails_for_missing_approved(t
     )
     with pytest.raises(FileNotFoundError, match="ARUGULA.png"):
         load_plant_illustrations(tmp_path)
+
+
+def test_markdown_artwork_is_embedded_in_encyclopedia(tmp_path: Path) -> None:
+    for title, file_name, _deck in SOURCE_FILES:
+        path = tmp_path / file_name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        content = f"# {title}\n\nText.\n"
+        if title == "Complete Supplement":
+            content += "\n**Concept plate:** ![Concept plate](artwork.png)\n"
+        path.write_text(content, encoding="utf-8")
+    Image.new("RGB", (200, 300), "#f6f0e2").save(tmp_path / "cover.png")
+    Image.new("RGB", (80, 120), "#51664e").save(tmp_path / "artwork.png")
+    (tmp_path / "plant_illustrations").mkdir()
+    (tmp_path / "plant_illustrations" / "illustration_manifest.csv").write_text(
+        "plant_id,filename,approval_status\n", encoding="utf-8"
+    )
+
+    output = build_pdf(tmp_path)
+    reader = PdfReader(str(output))
+
+    assert sum(len(page.images) for page in reader.pages) >= 2
+
+
+def test_missing_markdown_artwork_fails_pdf_build(tmp_path: Path) -> None:
+    for title, file_name, _deck in SOURCE_FILES:
+        path = tmp_path / file_name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        content = f"# {title}\n\nText.\n"
+        if title == "Complete Supplement":
+            content += "\n![Missing plate](missing.png)\n"
+        path.write_text(content, encoding="utf-8")
+    Image.new("RGB", (200, 300), "#f6f0e2").save(tmp_path / "cover.png")
+    (tmp_path / "plant_illustrations").mkdir()
+    (tmp_path / "plant_illustrations" / "illustration_manifest.csv").write_text(
+        "plant_id,filename,approval_status\n", encoding="utf-8"
+    )
+
+    with pytest.raises(FileNotFoundError, match="Markdown image is missing"):
+        build_pdf(tmp_path)

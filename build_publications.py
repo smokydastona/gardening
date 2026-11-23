@@ -4,10 +4,11 @@ from __future__ import annotations
 
 import csv
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 from reportlab.lib import colors
-from reportlab.lib.pagesizes import letter
-from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.pagesizes import landscape, letter
+from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
@@ -26,13 +27,21 @@ pdfmetrics.registerFont(TTFont(FONT_NAME, str(FONT_PATH)))
 def publication_styles():
     styles = getSampleStyleSheet()
     for style in styles.byName.values():
-        style.fontName = FONT_NAME
+        style.fontName = "Times-Roman"
+    for style_name in ("Title", "Heading1", "Heading2", "Heading3"):
+        styles[style_name].fontName = FONT_NAME
     return styles
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
+
+
+def clean_source_pictograms(text: str) -> str:
+    for marker in ("🌍", "🌿", "🌾", "🌸", "❄", "✄", "🍅", "🌲", "💡", "📖", "📌", "🏞", "✓"):
+        text = text.replace(marker, " ")
+    return " ".join(text.split())
 
 
 def load_candidate_manifest(base_dir: Path) -> dict[str, Path]:
@@ -49,34 +58,101 @@ def load_candidate_manifest(base_dir: Path) -> dict[str, Path]:
 
 def build_monthly_pdf(base_dir: Path) -> Path:
     entries = read_csv(base_dir / "errington_calendar_entries.csv")
+    actions = read_csv(base_dir / "calendar_actions.csv")
+    action_labels = {
+        "indoor-sowing": "Indoor sowing",
+        "direct-sowing": "Direct sowing",
+        "transplanting": "Transplanting",
+        "succession-sowing": "Succession sowing",
+        "harvesting": "Harvesting",
+        "flowering": "Flowering",
+        "pruning": "Pruning",
+        "dividing": "Dividing",
+        "propagation": "Propagation",
+        "planting": "Planting",
+        "frost-risk": "Frost risk",
+        "seasonal-maintenance": "Seasonal maintenance",
+        "seasonal-observation": "Source observation",
+        "unclassified": "Review required",
+    }
+    action_by_entry = {
+        (row["month"], row["page_number"], row["plant_text"], row["source_transcription"]):
+            " / ".join(
+                action_labels.get(action.strip(), action.strip())
+                for action in row["action_types"].split(";")
+                if action.strip()
+            )
+        for row in actions
+    }
     output = base_dir / "Errington_Monthly_Gardening_Guide.pdf"
     styles = publication_styles()
-    doc = SimpleDocTemplate(str(output), pagesize=letter, title="Errington Monthly Gardening Guide",
+    cell_style = ParagraphStyle(
+        "MonthlyCell",
+        parent=styles["BodyText"],
+        fontName="Times-Roman",
+        fontSize=8,
+        leading=9.5,
+        spaceAfter=0,
+    )
+    header_style = ParagraphStyle(
+        "MonthlyHeader",
+        parent=cell_style,
+        fontName="Times-Bold",
+        textColor=colors.white,
+    )
+    doc = SimpleDocTemplate(str(output), pagesize=landscape(letter), title="Errington Monthly Gardening Guide",
                             author="Errington Gardening Encyclopedia Editorial Project",
                             subject="Unverified source transcription; not a planting recommendation")
     story = [Paragraph("Errington Monthly Gardening Guide", styles["Title"]),
-             Paragraph("Working source-transcription guide — evidence not yet reviewed", styles["Normal"]),
-             Spacer(1, 12)]
-    for month in MONTHS:
+             Paragraph(
+                 "Working source transcription — not a reviewed planting recommendation. "
+                 "Pictograms are omitted from display; original rows remain in the source CSV.",
+                 styles["Normal"],
+             ),
+             Spacer(1, 12),
+             PageBreak()]
+    for month_index, month in enumerate(MONTHS):
+        if month_index:
+            story.append(PageBreak())
         month_rows = [row for row in entries if row["month"] == month]
         story.append(Paragraph(month.title(), styles["Heading1"]))
         if not month_rows:
             story.append(Paragraph("No documented tasks in the supplied source transcription.", styles["BodyText"]))
         else:
-            data = [["Plant/source text","Source timing/action","Evidence state"]]
+            data = [[
+                Paragraph(label, header_style)
+                for label in ("Plant/source text", "Timing/action", "Action label", "Source page", "Evidence state")
+            ]]
             for row in month_rows:
-                data.append([row["plant_text"], row["row_text"], "Source transcription; unverified"])
-            table = Table(data, colWidths=[1.8*inch, 3.7*inch, 1.2*inch], repeatRows=1)
+                action_key = (
+                    row["month"],
+                    row.get("page_number", ""),
+                    row["plant_text"],
+                    row["row_text"],
+                )
+                data.append([
+                    Paragraph(escape(clean_source_pictograms(row["plant_text"])), cell_style),
+                    Paragraph(escape(clean_source_pictograms(row["row_text"])), cell_style),
+                    Paragraph(escape(action_by_entry.get(action_key, "Review required")), cell_style),
+                    Paragraph(escape(row.get("page_number", "")), cell_style),
+                    Paragraph("Transcription; unverified", cell_style),
+                ])
+            table = Table(
+                data,
+                colWidths=[1.65 * inch, 3.1 * inch, 1.45 * inch, 0.65 * inch, 1.3 * inch],
+                repeatRows=1,
+            )
             table.setStyle(TableStyle([
                 ("BACKGROUND",(0,0),(-1,0),colors.HexColor("#51664e")),
                 ("TEXTCOLOR",(0,0),(-1,0),colors.white),
                 ("GRID",(0,0),(-1,-1),0.25,colors.HexColor("#9c9c92")),
                 ("VALIGN",(0,0),(-1,-1),"TOP"),
-                ("FONTSIZE",(0,0),(-1,-1),7),
-                ("LEADING",(0,0),(-1,-1),9),
+                ("LEFTPADDING",(0,0),(-1,-1),4),
+                ("RIGHTPADDING",(0,0),(-1,-1),4),
+                ("TOPPADDING",(0,0),(-1,-1),3),
+                ("BOTTOMPADDING",(0,0),(-1,-1),3),
             ]))
             story.append(table)
-        story.append(Spacer(1, 8))
     doc.build(story)
     return output
 

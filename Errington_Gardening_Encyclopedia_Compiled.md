@@ -558,7 +558,7 @@ The registry contains 137 records and previously generated taxonomy and cultural
 
 These are source transcriptions, not independently reviewed recommendations. The calendar PDF identifies Zone 8a while both chart images identify Zone 8b; the discrepancy remains unresolved. April 15 and October 15 are approximate source frost anchors, not guaranteed frost dates.
 
-Action labels are mechanically classified from transcribed wording. They are not editorially verified. Plant names joined by a slash or comma are retained as a source group and must not be interpreted as interchangeable crops.
+Action labels are mechanically classified from transcribed wording. They are not editorially verified. Source pictograms are omitted from this reader-facing line; the exact transcription is retained in calendar_actions.csv. Plant names joined by a slash or comma remain source groups and are not interchangeable crops.
 
 Each entry includes its original source page. Grayscale-readable labels are used instead of relying on the source chart colours.
 
@@ -575,8 +575,11 @@ Each entry includes its original source page. Grayscale-readable labels are used
 | PRUNING | Source wording indicates pruning or deadheading |
 | DIVIDING | Source wording indicates division |
 | PROPAGATION | Source wording indicates propagation |
+| PLANTING | Source wording indicates a planting operation |
+| FROST RISK | Source wording indicates frost or cold risk |
 | SEASONAL MAINTENANCE | A seasonal action not matched to another label |
-| REVIEW ACTION | The action could not be classified |
+| SOURCE OBSERVATION | Source records a plant or seasonal state, not a task |
+| REVIEW REQUIRED | The wording needs editorial interpretation |
 
 ## January
 
@@ -585,14 +588,14 @@ Each entry includes its original source page. Grayscale-readable labels are used
 #### Vegetables
 
 - **[SEASONAL MAINTENANCE]** Seed & Crop Planning — — Order seed catalogues; plan rotations — source p. 4
-- **[SEASONAL MAINTENANCE]** Garlic (overwintering) — — [Frost Risk] Mulch in place; overwintering — source p. 4
-- **[HARVESTING]** Kale (overwintered) — — Light harvest if [Harvest] protected — source p. 4
-- **[HARVESTING]** Chard (overwintered) — — Light harvest if [Harvest] protected [Frost Risk] — source p. 4
+- **[SEASONAL MAINTENANCE]** Garlic (overwintering) — — Mulch in place; overwintering — source p. 4
+- **[HARVESTING / SEASONAL MAINTENANCE]** Kale (overwintered) — — Light harvest if protected — source p. 4
+- **[HARVESTING / SEASONAL MAINTENANCE]** Chard (overwintered) — — Light harvest if protected — source p. 4
 - **[SEASONAL MAINTENANCE]** Stored Squash / Roots — — Check cold storage; remove any rot — source p. 4 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- **[PRUNING]** Apple / Pear / Plum / Cherry — — [Prune/Deadhead] Prune dormant trees Jan–Feb — source p. 5 — grouped source entry; individual timing unresolved
+- **[PRUNING / SEASONAL MAINTENANCE]** Apple / Pear / Plum / Cherry — — Prune dormant trees Jan–Feb — source p. 5 — grouped source entry; individual timing unresolved
 - **[SEASONAL MAINTENANCE]** Bare-root fruit stock — — Order from nursery now — source p. 5
 
 #### Roots & Tubers
@@ -601,12 +604,12 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Legumes & Grains
 
-- **[SEASONAL MAINTENANCE]** All legumes & grains — — Nothing this month; plan rotations — source p. 5
+- **[SEASONAL MAINTENANCE / SOURCE OBSERVATION]** All legumes & grains — — Nothing this month; plan rotations — source p. 5
 
 #### Perennial Edibles
 
-- **[REVIEW ACTION]** Rhubarb — — Fully dormant [Frost Risk] — source p. 5
-- **[REVIEW ACTION]** Asparagus — — Fully dormant [Frost Risk] — source p. 5
+- **[SOURCE OBSERVATION]** Rhubarb — — Fully dormant — source p. 5
+- **[SOURCE OBSERVATION]** Asparagus — — Fully dormant — source p. 5
 
 ### Flowers and ornamentals
 
@@ -618,27 +621,27 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Hardy Perennials
 
-- **[FLOWERING]** Hellebores (Lenten Rose) — — Blooming outdoors; cut[Bloom] tatty foliage — source p. 8
-- **[FLOWERING / DIVIDING]** Snowdrops (Galanthus) — — Blooming; divide after [Bloom] bloom if congested — source p. 8
+- **[FLOWERING]** Hellebores (Lenten Rose) — — Blooming outdoors; cut tatty foliage — source p. 8
+- **[FLOWERING / DIVIDING / SEASONAL MAINTENANCE]** Snowdrops (Galanthus) — — Blooming; divide after bloom if congested — source p. 8
 
 #### Bulbs & Corms
 
-- **[FLOWERING]** Snowdrops (Galanthus) — — Blooming outdoors [Frost Risk][Bloom] — source p. 8
-- **[SEASONAL MAINTENANCE]** Forced bulbs (indoors) — — Check for growth; keep[Bloom] in bright spot — source p. 8
+- **[FLOWERING]** Snowdrops (Galanthus) — — Blooming outdoors — source p. 8
+- **[SEASONAL MAINTENANCE]** Forced bulbs (indoors) — — Check for growth; keep in bright spot — source p. 8
 
 #### Shrubs & Trees (Ornamental)
 
-- **[FLOWERING / REVIEW ACTION]** Witch Hazel (Hamamelis) — — Blooming — fragrant [Bloom] winter display — source p. 8
-- **[PRUNING]** Buddleja / Hydrangea paniculata — — [Prune/Deadhead] Prune hard Jan–Feb — source p. 8 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Witch Hazel (Hamamelis) — — Blooming — fragrant winter display — source p. 8
+- **[PRUNING / SEASONAL MAINTENANCE]** Buddleja / Hydrangea paniculata — — Prune hard Jan–Feb — source p. 8 — grouped source entry; individual timing unresolved
 
 #### Bc Native Plants
 
-- **[REVIEW ACTION]** Osoberry (Oemleria) — — Buds beginning to swell; earliest native — source p. 9
+- **[SOURCE OBSERVATION]** Osoberry (Oemleria) — — Buds beginning to swell; earliest native — source p. 9
 
 #### Cut Flowers
 
-- **[FLOWERING]** Amaryllis (forced, indoors) — — Blooming indoors; [Bloom] stake tall stems — source p. 9 — grouped source entry; individual timing unresolved
-- **[FLOWERING / REVIEW ACTION]** Paperwhite Narcissus (forced) — — Blooming indoors — [Bloom] fragrant — source p. 9
+- **[FLOWERING / SEASONAL MAINTENANCE]** Amaryllis (forced, indoors) — — Blooming indoors; stake tall stems — source p. 9 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Paperwhite Narcissus (forced) — — Blooming indoors — fragrant — source p. 9
 
 ## February
 
@@ -646,12 +649,12 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Vegetables
 
-- **[INDOOR SOWING]** Celery / Celeriac Wk 1 (16 wks to transplant) — — — source p. 11 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING / TRANSPLANTING]** Celery / Celeriac Wk 1 (16 wks to transplant) — — — source p. 11 — grouped source entry; individual timing unresolved
 - **[INDOOR SOWING]** Leeks Wk 1–2 — — — source p. 11
 - **[INDOOR SOWING]** Onions Wk 2–4 — — — source p. 11
 - **[INDOOR SOWING]** Peppers (early) Wk 3–4 — — — source p. 11
 - **[INDOOR SOWING]** Eggplant (early) Wk 4 — — — source p. 11
-- **[HARVESTING]** Kale / Chard (overwintered) — — Light harvest if not [Harvest] frozen [Frost Risk] — source p. 11 — grouped source entry; individual timing unresolved
+- **[HARVESTING / FROST RISK]** Kale / Chard (overwintered) — — Light harvest if not frozen — source p. 11 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
@@ -661,9 +664,9 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Fruits & Berries
 
-- **[PRUNING]** Apple / Pear / Plum / Cherry — — [Prune/Deadhead] Prune before bud break (Feb) — source p. 12 — grouped source entry; individual timing unresolved
-- **[PRUNING / REVIEW ACTION]** Grape vines — — [Prune/Deadhead] Prune Feb — before sap rises — source p. 12
-- **[REVIEW ACTION]** Strawberries (bare-root) — Late Feb if ground [Direct Sow] workable — — source p. 12
+- **[PRUNING / SEASONAL MAINTENANCE]** Apple / Pear / Plum / Cherry — — Prune before bud break (Feb) — source p. 12 — grouped source entry; individual timing unresolved
+- **[PRUNING / SEASONAL MAINTENANCE]** Grape vines — — Prune Feb — before sap rises — source p. 12
+- **[DIRECT SOWING]** Strawberries (bare-root) — Late Feb if ground workable — — source p. 12
 
 #### Roots & Tubers
 
@@ -671,13 +674,13 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Legumes & Grains
 
-- **[REVIEW ACTION]** All legumes & grains — — Nothing this month — source p. 12
+- **[SOURCE OBSERVATION]** All legumes & grains — — Nothing this month — source p. 12
 
 #### Perennial Edibles
 
 - **[INDOOR SOWING]** Globe Artichoke Wk 3–4 (needs vernalisation) — — — source p. 12
-- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Rhubarb — — Crown tips may appear — leave — source p. 12
-- **[REVIEW ACTION]** Asparagus — — Still dormant [Frost Risk] — source p. 12
+- **[SEASONAL MAINTENANCE / REVIEW REQUIRED]** Rhubarb — — Crown tips may appear — leave — source p. 12
+- **[SOURCE OBSERVATION]** Asparagus — — Still dormant — source p. 12
 
 ### Flowers and ornamentals
 
@@ -686,28 +689,28 @@ Each entry includes its original source page. Grayscale-readable labels are used
 - **[INDOOR SOWING]** Delphinium Wk 1 — — — source p. 15
 - **[INDOOR SOWING]** Echinacea (Coneflower) Wk 2 — — — source p. 15
 - **[INDOOR SOWING]** Salvia nemorosa Wk 2 — — — source p. 15
-- **[FLOWERING]** Hellebores — — Peak bloom outdoors[Bloom] — source p. 15
-- **[FLOWERING / DIVIDING]** Snowdrops — Divide "in the green" now Blooming — divide [Bloom] congested clumps — source p. 15
+- **[FLOWERING]** Hellebores — — Peak bloom outdoors — source p. 15
+- **[FLOWERING / DIVIDING / SEASONAL MAINTENANCE]** Snowdrops — Divide "in the green" now Blooming — divide congested clumps — source p. 15
 
 #### Bulbs & Corms
 
-- **[REVIEW ACTION]** Anemone corms — Plant outdoors (if not [Plant Bulb/Tuber] frozen) — — source p. 15
-- **[FLOWERING]** Snowdrops / early Crocus — — Blooming [Frost Risk][Bloom] — source p. 15 — grouped source entry; individual timing unresolved
+- **[PLANTING / FROST RISK / SEASONAL MAINTENANCE]** Anemone corms — Plant outdoors (if not frozen) — — source p. 15
+- **[FLOWERING]** Snowdrops / early Crocus — — Blooming — source p. 15 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- **[FLOWERING / REVIEW ACTION]** Witch Hazel (Hamamelis) — — Blooming — fragrant in[Bloom] mild spells — source p. 15
-- **[PRUNING]** Roses — — [Prune/Deadhead] Light prune late Feb — source p. 15
+- **[FLOWERING]** Witch Hazel (Hamamelis) — — Blooming — fragrant in mild spells — source p. 15
+- **[PRUNING / SEASONAL MAINTENANCE]** Roses — — Light prune late Feb — source p. 15
 - **[FLOWERING]** Forsythia — — Buds swelling; bloom imminent — source p. 15
 
 #### Bc Native Plants
 
-- **[FLOWERING]** Indian Plum (Oemleria) — — Earliest native in [Bloom] bloom — source p. 16
-- **[FLOWERING / REVIEW ACTION]** Red Flowering Currant (Ribes) — — Buds swelling — bloom coming soon — source p. 16
+- **[FLOWERING]** Indian Plum (Oemleria) — — Earliest native in bloom — source p. 16
+- **[FLOWERING]** Red Flowering Currant (Ribes) — — Buds swelling — bloom coming soon — source p. 16
 
 #### Cut Flowers
 
-- **[INDOOR SOWING]** Lisianthus Wk 1 (16–20 wks to bloom) — — — source p. 16
+- **[INDOOR SOWING / FLOWERING]** Lisianthus Wk 1 (16–20 wks to bloom) — — — source p. 16
 - **[INDOOR SOWING]** Statice Wk 2 — — — source p. 16
 
 ## March
@@ -716,42 +719,42 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Vegetables
 
-- **[INDOOR SOWING]** Tomatoes Wk 1–2 (8–10 wks before transplant) — — — source p. 18
-- **[REVIEW ACTION]** Peppers / Eggplant Continue from Feb — — — source p. 18 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING / TRANSPLANTING]** Tomatoes Wk 1–2 (8–10 wks before transplant) — — — source p. 18
+- **[REVIEW REQUIRED]** Peppers / Eggplant Continue from Feb — — — source p. 18 — grouped source entry; individual timing unresolved
 - **[INDOOR SOWING]** Broccoli / Cauliflower / Cabbage Wk 1 — — — source p. 18 — grouped source entry; individual timing unresolved
 - **[INDOOR SOWING]** Brussels Sprouts Wk 1–2 — — — source p. 18
 - **[INDOOR SOWING]** Kale (new crop) Wk 1–2 — — — source p. 18
-- **[INDOOR SOWING]** Lettuce / Spinach Wk 1 (indoors) Wk 3–4 under cloche [Frost Risk][Direct Sow] — — source p. 18 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Peas — Wk 3–4 (cold-tolerant) [Direct Sow] — — source p. 18
-- **[REVIEW ACTION]** Broad Beans (Fava) — Wk 3–4 [Frost Risk][Direct Sow] — — source p. 18
-- **[REVIEW ACTION]** Radish / Arugula / Mâche — Wk 3–4 (under fleece)[Direct Sow] — — source p. 18 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Lettuce / Spinach Wk 1 (indoors) Wk 3–4 under cloche — — source p. 18 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Peas — Wk 3–4 (cold-tolerant) — — source p. 18
+- **[DIRECT SOWING]** Broad Beans (Fava) — Wk 3–4 — — source p. 18
+- **[DIRECT SOWING]** Radish / Arugula / Mâche — Wk 3–4 (under fleece) — — source p. 18 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
 - **[INDOOR SOWING]** Basil Wk 1–2 (indoors only) — — — source p. 19
-- **[INDOOR SOWING]** Dill Wk 1–2 Late Mar direct sow OK[Direct Sow] — — source p. 19
-- **[DIRECT SOWING]** Cilantro — Direct sow late Mar[Direct Sow] — — source p. 19
+- **[INDOOR SOWING / DIRECT SOWING]** Dill Wk 1–2 Late Mar direct sow OK — — source p. 19
+- **[DIRECT SOWING]** Cilantro — Direct sow late Mar — — source p. 19
 
 #### Fruits & Berries
 
 - **[INDOOR SOWING]** Strawberries (from seed) Wk 1 (long season needed) — — — source p. 19
-- **[REVIEW ACTION]** Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable[Direct Sow] — — source p. 19 — grouped source entry; individual timing unresolved
-- **[PRUNING]** Blueberries — — [Prune/Deadhead] Prune Mar; apply dormant spray — source p. 19
-- **[REVIEW ACTION]** Apple / Pear / Cherry — — Apply dormant oil spray now — source p. 19 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable — — source p. 19 — grouped source entry; individual timing unresolved
+- **[PRUNING / SEASONAL MAINTENANCE]** Blueberries — — Prune Mar; apply dormant spray — source p. 19
+- **[SOURCE OBSERVATION]** Apple / Pear / Cherry — — Apply dormant oil spray now — source p. 19 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- **[REVIEW ACTION]** Parsnips — Wk 3–4 (needs warm [Direct Sow] soil) — — source p. 19
-- **[REVIEW ACTION]** Carrots — Wk 3–4 under fleece[Direct Sow] — — source p. 19
-- **[REVIEW ACTION]** Seed Potatoes Chit indoors in light (Mar) — — — source p. 19
-- **[REVIEW ACTION]** LEGUMES Peas — Wk 3–4 outdoors [Frost Risk][Direct Sow] — — source p. 19
-- **[REVIEW ACTION]** Broad Beans (Fava) — Wk 3–4 [Frost Risk][Direct Sow] — — source p. 19
+- **[DIRECT SOWING]** Parsnips — Wk 3–4 (needs warm soil) — — source p. 19
+- **[DIRECT SOWING]** Carrots — Wk 3–4 under fleece — — source p. 19
+- **[REVIEW REQUIRED]** Seed Potatoes Chit indoors in light (Mar) — — — source p. 19
+- **[DIRECT SOWING]** LEGUMES Peas — Wk 3–4 outdoors — — source p. 19
+- **[DIRECT SOWING]** Broad Beans (Fava) — Wk 3–4 — — source p. 19
 
 #### Perennial Edibles
 
-- **[REVIEW ACTION]** Globe Artichoke Continue from Feb — — — source p. 20
-- **[REVIEW ACTION]** Asparagus crowns — Plant late Mar (if workable) — — source p. 20
-- **[HARVESTING / REVIEW ACTION]** Rhubarb — — Emerging — do not harvest 1st yr — source p. 20
+- **[REVIEW REQUIRED]** Globe Artichoke Continue from Feb — — — source p. 20
+- **[PLANTING / SEASONAL MAINTENANCE]** Asparagus crowns — Plant late Mar (if workable) — — source p. 20
+- **[HARVESTING]** Rhubarb — — Emerging — do not harvest 1st yr — source p. 20
 
 ### Flowers and ornamentals
 
@@ -761,39 +764,39 @@ Each entry includes its original source page. Grayscale-readable labels are used
 - **[INDOOR SOWING]** Nicotiana / Cleome Wk 1 — — — source p. 22 — grouped source entry; individual timing unresolved
 - **[INDOOR SOWING]** Marigold Wk 2 — — — source p. 22
 - **[INDOOR SOWING]** Zinnia / Cosmos Wk 3 — — — source p. 22 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Sweet Peas — Direct sow outdoors [Direct Sow] Wk 3–4 — — source p. 22
+- **[DIRECT SOWING]** Sweet Peas — Direct sow outdoors Wk 3–4 — — source p. 22
 
 #### Hardy Perennials
 
 - **[INDOOR SOWING]** Coneflower / Rudbeckia Wk 1 — — — source p. 22 — grouped source entry; individual timing unresolved
 - **[INDOOR SOWING]** Gaillardia Wk 2 — — — source p. 22
-- **[DIRECT SOWING]** Larkspur / Poppy — Direct sow Wk 3–4[Direct Sow] — — source p. 22 — grouped source entry; individual timing unresolved
-- **[DIVIDING]** Hostas / Daylilies / Asters — Divide emerging clumps [Prune/Deadhead] Emerging from ground — source p. 22 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Larkspur / Poppy — Direct sow Wk 3–4 — — source p. 22 — grouped source entry; individual timing unresolved
+- **[DIVIDING / SEASONAL MAINTENANCE]** Hostas / Daylilies / Asters — Divide emerging clumps Emerging from ground — source p. 22 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- **[INDOOR SOWING]** Dahlia tubers Pot up indoors Wk 3–4[Plant Bulb/Tuber] — — — source p. 22
-- **[FLOWERING / REVIEW ACTION]** Daffodils / Crocus / early Tulips — — Blooming — peak [Bloom] spring display — source p. 22 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING]** Dahlia tubers Pot up indoors Wk 3–4 — — — source p. 22
+- **[FLOWERING]** Daffodils / Crocus / early Tulips — — Blooming — peak spring display — source p. 22 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- **[FLOWERING]** Forsythia / Pieris — — Blooming[Bloom] — source p. 23 — grouped source entry; individual timing unresolved
-- **[PRUNING]** Summer-flowering shrubs — — [Prune/Deadhead] Prune Mar; feed roses — source p. 23
+- **[FLOWERING]** Forsythia / Pieris — — Blooming — source p. 23 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING / SEASONAL MAINTENANCE]** Summer-flowering shrubs — — Prune Mar; feed roses — source p. 23
 
 #### Climbing Vines
 
 - **[INDOOR SOWING]** Morning Glory Wk 3 (indoors) — — — source p. 23
-- **[PRUNING]** Group 3 Clematis — — [Prune/Deadhead] Prune hard early Mar if not done — source p. 23
+- **[PRUNING / SEASONAL MAINTENANCE]** Group 3 Clematis — — Prune hard early Mar if not done — source p. 23
 
 #### Bc Native Plants
 
-- **[FLOWERING / REVIEW ACTION]** Red Flowering Currant (Ribes) — — Blooming — [Bloom] hummingbird magnet — source p. 23
-- **[HARVESTING / REVIEW ACTION]** Osoberry / Trillium — — Emerging — do not [Bloom] pick Trillium — source p. 23 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Red Flowering Currant (Ribes) — — Blooming — hummingbird magnet — source p. 23
+- **[HARVESTING]** Osoberry / Trillium — — Emerging — do not pick Trillium — source p. 23 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
 - **[INDOOR SOWING]** Celosia / Strawflower / Scabiosa Wk 1–2 — — — source p. 23 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Larkspur — Direct sow outdoors[Direct Sow] — — source p. 23
+- **[DIRECT SOWING]** Larkspur — Direct sow outdoors — — source p. 23
 
 ## April
 
@@ -801,56 +804,56 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Herbs
 
-- **[DIRECT SOWING]** Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — source p. 26 — grouped source entry; individual timing unresolved
-- **[TRANSPLANTING]** Chives / Parsley (starts) — → Transplant Wk 3–4[Indoor Sow] [Indoor Sow] — — source p. 26 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4 — — source p. 26 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Chives / Parsley (starts) — → Transplant Wk 3–4 — — source p. 26 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- **[REVIEW ACTION]** Strawberry runners — Plant outdoors Wk 3–4[Direct Sow] — — source p. 26
-- **[SEASONAL MAINTENANCE]** Raspberries — — [Prune/Deadhead] Cut back old canes — source p. 26
+- **[DIRECT SOWING / PLANTING / SEASONAL MAINTENANCE]** Strawberry runners — Plant outdoors Wk 3–4 — — source p. 26
+- **[PRUNING / SEASONAL MAINTENANCE]** Raspberries — — Cut back old canes — source p. 26
 - **[SEASONAL MAINTENANCE]** Blueberries / Currants — — New growth beginning; feed now — source p. 26 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- **[REVIEW ACTION]** Seed potatoes — Plant Wk 3–4 (after last[Direct Sow] frost) — — source p. 26
-- **[DIRECT SOWING]** Carrots / Beets (succession) — Direct sow Wk 3–4[Direct Sow] — — source p. 26 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING / PLANTING / FROST RISK / SEASONAL MAINTENANCE]** Seed potatoes — Plant Wk 3–4 (after last frost) — — source p. 26
+- **[DIRECT SOWING / SUCCESSION SOWING]** Carrots / Beets (succession) — Direct sow Wk 3–4 — — source p. 26 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- **[HARVESTING]** Asparagus — — Harvest begins Wk 3–4[Harvest] — source p. 27
-- **[HARVESTING]** Rhubarb — — Harvest begins Wk 3–4[Harvest] — source p. 27
-- **[TRANSPLANTING]** Artichoke — → Transplant [Indoor Sow] [Indoor Sow] outdoors late Apr — — source p. 27
+- **[HARVESTING]** Asparagus — — Harvest begins Wk 3–4 — source p. 27
+- **[HARVESTING]** Rhubarb — — Harvest begins Wk 3–4 — source p. 27
+- **[TRANSPLANTING]** Artichoke — → Transplant outdoors late Apr — — source p. 27
 
 ### Flowers and ornamentals
 
 #### Annual Flowers
 
-- **[TRANSPLANTING]** Snapdragons / Pansies / Stocks — → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 — — source p. 29 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Sweet Peas — Direct sow Wk 1–2[Direct Sow] — — source p. 29
-- **[DIRECT SOWING]** Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — source p. 29 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Snapdragons / Pansies / Stocks — → Transplant cold- tolerant after Apr 15 — — source p. 29 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Sweet Peas — Direct sow Wk 1–2 — — source p. 29
+- **[DIRECT SOWING]** Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4 — — source p. 29 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- **[FLOWERING]** Primula / Wallflower / Aubretia / Iberis — — Blooming[Bloom] — source p. 29 — grouped source entry; individual timing unresolved
-- **[TRANSPLANTING]** Perennial seedlings (hardened-off) — → Transplant Wk 3–4[Indoor Sow] [Indoor Sow] — — source p. 29
-- **[DIVIDING]** Hostas / Daylilies / Asters — Divide established clumps [Prune/Deadhead] — — source p. 29 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Primula / Wallflower / Aubretia / Iberis — — Blooming — source p. 29 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Perennial seedlings (hardened-off) — → Transplant Wk 3–4 — — source p. 29
+- **[DIVIDING / SEASONAL MAINTENANCE]** Hostas / Daylilies / Asters — Divide established clumps — — source p. 29 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- **[REVIEW ACTION]** Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — source p. 30 — grouped source entry; individual timing unresolved
-- **[FLOWERING / PRUNING]** Spring-flowering shrubs (Forsythia, Kerria) — — [Prune/Deadhead] Prune AFTER bloom; feed roses — source p. 30 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring display — source p. 30 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING / SEASONAL MAINTENANCE]** Spring-flowering shrubs (Forsythia, Kerria) — — Prune AFTER bloom; feed roses — source p. 30 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- **[TRANSPLANTING]** Sweet Peas — → Transplant [Indoor Sow] [Indoor Sow] outdoors Wk 3–4 — — source p. 30
-- **[REVIEW ACTION]** Morning Glory — Wait until May — — source p. 30
-- **[REVIEW ACTION]** Honeysuckle — — Leafing out; new growth vigorous — source p. 30
+- **[TRANSPLANTING]** Sweet Peas — → Transplant outdoors Wk 3–4 — — source p. 30
+- **[REVIEW REQUIRED]** Morning Glory — Wait until May — — source p. 30
+- **[SOURCE OBSERVATION]** Honeysuckle — — Leafing out; new growth vigorous — source p. 30
 
 #### Bc Native Plants
 
-- **[FLOWERING]** Bleeding Heart (Dicentra) / Pacific Trillium — — Blooming in shaded [Bloom] spots — source p. 30 — grouped source entry; individual timing unresolved
-- **[FLOWERING]** Camas (Camassia) — — Beginning to bloom[Bloom] — source p. 30
-- **[REVIEW ACTION]** Garry Oak — — Leafing out; catkins dropping — source p. 30
+- **[FLOWERING]** Bleeding Heart (Dicentra) / Pacific Trillium — — Blooming in shaded spots — source p. 30 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Camas (Camassia) — — Beginning to bloom — source p. 30
+- **[SOURCE OBSERVATION]** Garry Oak — — Leafing out; catkins dropping — source p. 30
 
 ## May
 
@@ -858,76 +861,76 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Vegetables
 
-- **[TRANSPLANTING]** Tomatoes — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] (hardened) — — source p. 33
-- **[TRANSPLANTING]** Peppers / Eggplant — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — source p. 33 — grouped source entry; individual timing unresolved
-- **[TRANSPLANTING]** Cucumber / Zucchini / Squash — → Transplant Wk 2–3[Indoor Sow] [Indoor Sow] — — source p. 33 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Beans (French / Runner) — Direct sow Wk 2–4[Direct Sow] — — source p. 33 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Corn — Direct sow Wk 3–4[Direct Sow] — — source p. 33
-- **[SUCCESSION SOWING]** Beets / Carrots / Lettuce / Chard / Kale — Succession sow Wk 1–[Direct Sow] 4 — — source p. 33 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Peas (second sowing) — Wk 1–2 for late crop[Direct Sow] — — source p. 33
+- **[TRANSPLANTING]** Tomatoes — → Transplant Wk 1–2 (hardened) — — source p. 33
+- **[TRANSPLANTING]** Peppers / Eggplant — → Transplant Wk 1–2 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Cucumber / Zucchini / Squash — → Transplant Wk 2–3 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Beans (French / Runner) — Direct sow Wk 2–4 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Corn — Direct sow Wk 3–4 — — source p. 33
+- **[DIRECT SOWING / SUCCESSION SOWING]** Beets / Carrots / Lettuce / Chard / Kale — Succession sow Wk 1– 4 — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Peas (second sowing) — Wk 1–2 for late crop — — source p. 33
 
 #### Herbs
 
-- **[TRANSPLANTING]** Basil — → Transplant Wk 2 [Indoor Sow] [Indoor Sow] (soil must be warm) — — source p. 33
-- **[TRANSPLANTING]** Rosemary / Thyme / Oregano — → Transplant now[Indoor Sow] [Indoor Sow] — — source p. 33 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING / SUCCESSION SOWING]** Dill / Cilantro / Fennel — Succession direct sow[Direct Sow] — — source p. 33 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Basil — → Transplant Wk 2 (soil must be warm) — — source p. 33
+- **[TRANSPLANTING]** Rosemary / Thyme / Oregano — → Transplant now — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING / SUCCESSION SOWING]** Dill / Cilantro / Fennel — Succession direct sow — — source p. 33 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- **[SEASONAL MAINTENANCE]** Strawberries — — Flowers forming; [Bloom] remove 1st-yr runners' flowers — source p. 33
-- **[FLOWERING]** Blueberries / Gooseberries — — Flowering; set fruit[Bloom] — source p. 33 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Apple / Pear — — Thin fruitlets late May (June drop) — source p. 33 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Strawberries — — Flowers forming; remove 1st-yr runners' flowers — source p. 33
+- **[FLOWERING]** Blueberries / Gooseberries — — Flowering; set fruit — source p. 33 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Apple / Pear — — Thin fruitlets late May (June drop) — source p. 33 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- **[SUCCESSION SOWING]** Carrots / Beets / Parsnips — Succession sow[Direct Sow] — — source p. 33 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Sweet potato slips — Plant late May (soil [Direct Sow] warm) — — source p. 33
+- **[DIRECT SOWING / SUCCESSION SOWING]** Carrots / Beets / Parsnips — Succession sow — — source p. 33 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING / PLANTING / SEASONAL MAINTENANCE]** Sweet potato slips — Plant late May (soil warm) — — source p. 33
 
 #### Legumes & Grains
 
-- **[DIRECT SOWING]** Beans (French / Runner) / Edamame — Direct sow Wk 2–4[Direct Sow] — — source p. 34 — grouped source entry; individual timing unresolved
-- **[FLOWERING / REVIEW ACTION]** Broad Beans — — In flower — pinch tops [Bloom] to deter blackfly — source p. 34
-- **[DIRECT SOWING]** Corn / Sunflower — Direct sow Wk 3–4[Direct Sow] — — source p. 34 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Beans (French / Runner) / Edamame — Direct sow Wk 2–4 — — source p. 34 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Broad Beans — — In flower — pinch tops to deter blackfly — source p. 34
+- **[DIRECT SOWING]** Corn / Sunflower — Direct sow Wk 3–4 — — source p. 34 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- **[HARVESTING]** Asparagus — — Full harvest — pick [Harvest] daily — source p. 34
-- **[HARVESTING]** Rhubarb — — Harvest stalks; leave [Harvest] some leaves — source p. 34
-- **[REVIEW ACTION]** Artichoke — — Establishing in garden — source p. 34
+- **[HARVESTING]** Asparagus — — Full harvest — pick daily — source p. 34
+- **[HARVESTING / SEASONAL MAINTENANCE]** Rhubarb — — Harvest stalks; leave some leaves — source p. 34
+- **[REVIEW REQUIRED]** Artichoke — — Establishing in garden — source p. 34
 
 ### Flowers and ornamentals
 
 #### Annual Flowers
 
-- **[REVIEW ACTION]** Impatiens / Marigolds / Petunias / Begonias — → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1–2 — — source p. 36 — grouped source entry; individual timing unresolved
-- **[TRANSPLANTING]** Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — source p. 36 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — source p. 36 — grouped source entry; individual timing unresolved
+- **[FROST RISK]** Impatiens / Marigolds / Petunias / Begonias — → All frost-tender annuals outdoors Wk 1–2 — — source p. 36 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING]** Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2 — — source p. 36 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3 — — source p. 36 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- **[FLOWERING / REVIEW ACTION]** Aquilegia / Geranium / Lupine / Iris — — Blooming — peak early[Bloom] perennials — source p. 36 — grouped source entry; individual timing unresolved
-- **[FLOWERING]** Allium / Centaurea — — Beginning to bloom[Bloom] — source p. 36 — grouped source entry; individual timing unresolved
-- **[DIVIDING]** Late-emerging perennials — Divide early May [Prune/Deadhead] — — source p. 36
+- **[FLOWERING]** Aquilegia / Geranium / Lupine / Iris — — Blooming — peak early perennials — source p. 36 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Allium / Centaurea — — Beginning to bloom — source p. 36 — grouped source entry; individual timing unresolved
+- **[DIVIDING / SEASONAL MAINTENANCE]** Late-emerging perennials — Divide early May — — source p. 36
 
 #### Shrubs & Trees (Ornamental)
 
-- **[REVIEW ACTION]** Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms[Bloom] — source p. 37 — grouped source entry; individual timing unresolved
-- **[FLOWERING / PRUNING]** Forsythia / Kerria / Ribes (spring-blooming) — — [Prune/Deadhead] Prune after bloom finishes — source p. 37 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms — source p. 37 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING / SEASONAL MAINTENANCE]** Forsythia / Kerria / Ribes (spring-blooming) — — Prune after bloom finishes — source p. 37 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- **[TRANSPLANTING]** Morning Glory / Cobaea scandens — → Transplant [Indoor Sow] [Indoor Sow] outdoors now — — source p. 37 — grouped source entry; individual timing unresolved
-- **[FLOWERING / REVIEW ACTION]** Clematis montana — — Peak bloom — glorious[Bloom] — source p. 37
+- **[TRANSPLANTING]** Morning Glory / Cobaea scandens — → Transplant outdoors now — — source p. 37 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Clematis montana — — Peak bloom — glorious — source p. 37
 - **[FLOWERING]** Honeysuckle — — In bud; bloom imminent — source p. 37
 
 #### Bc Native Plants
 
-- **[FLOWERING / REVIEW ACTION]** Camas / Bleeding Heart / Nootka Rose / Bunchberry — — Blooming — peak [Bloom] native season — source p. 37 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Camas / Bleeding Heart / Nootka Rose / Bunchberry — — Blooming — peak native season — source p. 37 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- **[DIRECT SOWING]** Sunflower — Direct sow Wk 1–2[Direct Sow] — — source p. 37
-- **[PROPAGATION]** Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting[Bloom] — source p. 37 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Sunflower — Direct sow Wk 1–2 — — source p. 37
+- **[PROPAGATION]** Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting — source p. 37 — grouped source entry; individual timing unresolved
 
 ## June
 
@@ -935,63 +938,63 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Herbs
 
-- **[HARVESTING]** Chives / Parsley / Dill / Chervil — — Harvest freely; dry or [Harvest] freeze surplus — source p. 40 — grouped source entry; individual timing unresolved
-- **[HARVESTING / REVIEW ACTION]** Cilantro (before bolt) — — Harvest now — bolts [Harvest] fast in heat — source p. 40
-- **[HARVESTING]** Basil — — [Prune/Deadhead] Pinch flowers to prolong leaf harvest — source p. 40
+- **[HARVESTING / FROST RISK]** Chives / Parsley / Dill / Chervil — — Harvest freely; dry or freeze surplus — source p. 40 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Cilantro (before bolt) — — Harvest now — bolts fast in heat — source p. 40
+- **[HARVESTING]** Basil — — Pinch flowers to prolong leaf harvest — source p. 40
 
 #### Fruits & Berries
 
-- **[HARVESTING]** Strawberries — — Full harvest Wk 1–4[Harvest] — source p. 40
-- **[REVIEW ACTION]** Gooseberries — — Ready late June[Harvest] — source p. 40
-- **[REVIEW ACTION]** Apple / Pear — — Thin clusters to 1 fruit per spur — source p. 40 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Strawberries — — Full harvest Wk 1–4 — source p. 40
+- **[REVIEW REQUIRED]** Gooseberries — — Ready late June — source p. 40
+- **[SEASONAL MAINTENANCE]** Apple / Pear — — Thin clusters to 1 fruit per spur — source p. 40 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- **[INDOOR SOWING / SEASONAL MAINTENANCE / REVIEW ACTION]** Carrots / Beets (last sow for fall) — Last main sow Wk 1–2[Direct Sow] — Early new potatoes — — Check Wk 3–4 if [Harvest] planted late March — source p. 40 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING / SEASONAL MAINTENANCE / REVIEW REQUIRED]** Carrots / Beets (last sow for fall) — Last main sow Wk 1–2 — Early new potatoes — — Check Wk 3–4 if planted late March — source p. 40 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- **[HARVESTING]** Asparagus — — [Prune/Deadhead] Stop harvesting Wk 1– 2; allow fern growth — source p. 41
-- **[HARVESTING]** Rhubarb — — Last harvest Wk 1–2; [Harvest] leave plant to rest — source p. 41
-- **[REVIEW ACTION]** Artichoke — — Buds forming late June — source p. 41
+- **[HARVESTING / SEASONAL MAINTENANCE]** Asparagus — — Stop harvesting Wk 1– 2; allow fern growth — source p. 41
+- **[HARVESTING / PLANTING / SEASONAL MAINTENANCE]** Rhubarb — — Last harvest Wk 1–2; leave plant to rest — source p. 41
+- **[REVIEW REQUIRED]** Artichoke — — Buds forming late June — source p. 41
 
 ### Flowers and ornamentals
 
 #### Annual Flowers
 
-- **[FLOWERING]** Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — source p. 43 — grouped source entry; individual timing unresolved
-- **[FLOWERING / PRUNING]** Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; [Bloom] deadhead [Prune/Deadhead] — source p. 43 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming — source p. 43 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; deadhead — source p. 43 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- **[REVIEW ACTION]** Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer [Bloom] perennials — source p. 43 — grouped source entry; individual timing unresolved
-- **[FLOWERING]** Foxglove (Digitalis) / Veronica / Astrantia — — Blooming beautifully[Bloom] — source p. 43 — grouped source entry; individual timing unresolved
-- **[SEASONAL MAINTENANCE]** Achillea (Yarrow) — — Beginning; excellent [Bloom] pollinator plant — source p. 43
-- **[FLOWERING]** Geranium (Cranesbill) — — Full bloom; cut back [Bloom] after for rebloom — source p. 43
+- **[REVIEW REQUIRED]** Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer perennials — source p. 43 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Foxglove (Digitalis) / Veronica / Astrantia — — Blooming beautifully — source p. 43 — grouped source entry; individual timing unresolved
+- **[PLANTING / SEASONAL MAINTENANCE]** Achillea (Yarrow) — — Beginning; excellent pollinator plant — source p. 43
+- **[FLOWERING / PRUNING / SEASONAL MAINTENANCE]** Geranium (Cranesbill) — — Full bloom; cut back after for rebloom — source p. 43
 
 #### Bulbs & Corms
 
-- **[FLOWERING]** Allium / late Iris / first Lily buds — — Blooming; stake tall [Bloom] — source p. 43 — grouped source entry; individual timing unresolved
+- **[FLOWERING / SEASONAL MAINTENANCE]** Allium / late Iris / first Lily buds — — Blooming; stake tall — source p. 43 — grouped source entry; individual timing unresolved
 - **[SEASONAL MAINTENANCE]** Allium Gladiolus — — Growing strongly; stake tall varieties — source p. 43
 
 #### Shrubs & Trees (Ornamental)
 
-- **[REVIEW ACTION]** Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — [Bloom] glorious — source p. 44 — grouped source entry; individual timing unresolved
-- **[FLOWERING / PRUNING]** Philadelphus / Weigela — — [Prune/Deadhead] Prune after bloom finishes (late June) — source p. 44 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — glorious — source p. 44 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING / SEASONAL MAINTENANCE]** Philadelphus / Weigela — — Prune after bloom finishes (late June) — source p. 44 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- **[HARVESTING / REVIEW ACTION]** Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet [Bloom] — source p. 44 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Peas daily Morning Glory — — Climbing and budding — source p. 44
+- **[HARVESTING]** Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet — source p. 44 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Peas daily Morning Glory — — Climbing and budding — source p. 44
 
 #### Bc Native Plants
 
-- **[FLOWERING / REVIEW ACTION]** Nootka Rose / Ocean Spray (Holodiscus) — — Blooming — excellent [Bloom] for pollinators — source p. 44 — grouped source entry; individual timing unresolved
-- **[FLOWERING]** Yarrow / Blue-eyed Grass (Sisyrinchium) — — Blooming in meadow [Bloom] areas — source p. 44 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Nootka Rose / Ocean Spray (Holodiscus) — — Blooming — excellent for pollinators — source p. 44 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Yarrow / Blue-eyed Grass (Sisyrinchium) — — Blooming in meadow areas — source p. 44 — grouped source entry; individual timing unresolved
 
 #### Cut Flowers
 
-- **[HARVESTING / PROPAGATION]** Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; [Bloom] harvest in morning — source p. 44 — grouped source entry; individual timing unresolved
+- **[HARVESTING / PROPAGATION]** Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; harvest in morning — source p. 44 — grouped source entry; individual timing unresolved
 
 ## July
 
@@ -999,70 +1002,70 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Vegetables
 
-- **[SUCCESSION SOWING]** Beans (for fall) / Lettuce (bolt-resistant) — Succession Wk 1–2 [Direct Sow] only — — source p. 46 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Beets / Carrots / Kale / Chard — Wk 1–2 (last chance [Direct Sow] for Kale/Chard) — — source p. 46 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Peas / Beans / Zucchini / Cucumber — — Full harvest swing[Harvest] — source p. 46 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING / SUCCESSION SOWING]** Beans (for fall) / Lettuce (bolt-resistant) — Succession Wk 1–2 only — — source p. 46 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Beets / Carrots / Kale / Chard — Wk 1–2 (last chance for Kale/Chard) — — source p. 46 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Peas / Beans / Zucchini / Cucumber — — Full harvest swing — source p. 46 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- **[HARVESTING]** Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and [Harvest] freeze surplus — source p. 47 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Basil — — [Prune/Deadhead] Pinch flowers continuously to prevent bolt — source p. 47
+- **[HARVESTING / FROST RISK]** Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and freeze surplus — source p. 47 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Basil — — Pinch flowers continuously to prevent bolt — source p. 47
 
 #### Fruits & Berries
 
-- **[HARVESTING]** Blueberries (mid-July onward) — — Peak harvest; pick [Harvest] daily — source p. 47
-- **[HARVESTING]** Raspberries (summer- bearing) — — Harvest; remove [Harvest] fruited canes after — source p. 47
-- **[HARVESTING]** Red / White Currants / Gooseberries — — Harvest and preserve[Harvest] Early Plums / Tayberry / — source p. 47 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Everbearing Strawberries — — Beginning to fruit[Harvest] — source p. 47
+- **[HARVESTING]** Blueberries (mid-July onward) — — Peak harvest; pick daily — source p. 47
+- **[HARVESTING / SEASONAL MAINTENANCE]** Raspberries (summer- bearing) — — Harvest; remove fruited canes after — source p. 47
+- **[HARVESTING]** Red / White Currants / Gooseberries — — Harvest and preserve Early Plums / Tayberry / — source p. 47 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Everbearing Strawberries — — Beginning to fruit — source p. 47
 
 #### Roots & Tubers
 
-- **[HARVESTING]** Carrots / Beets / Turnips — Last chance Wk 1 only[Direct Sow] Harvest new potatoes[Harvest] — source p. 47 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Main-crop potatoes — — Lift as tops die back[Harvest] — source p. 47
+- **[HARVESTING]** Carrots / Beets / Turnips — Last chance Wk 1 only Harvest new potatoes — source p. 47 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Main-crop potatoes — — Lift as tops die back — source p. 47
 
 #### Perennial Edibles
 
-- **[HARVESTING]** Artichoke — — Harvest heads before [Harvest] fully open — source p. 48
-- **[HARVESTING]** Rhubarb / Asparagus — — Do NOT harvest; let plants build energy — source p. 48 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Artichoke — — Harvest heads before fully open — source p. 48
+- **[HARVESTING / SEASONAL MAINTENANCE]** Rhubarb / Asparagus — — Do NOT harvest; let plants build energy — source p. 48 — grouped source entry; individual timing unresolved
 
 ### Flowers and ornamentals
 
 #### Annual Flowers
 
-- **[FLOWERING / PRUNING]** Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — source p. 50 — grouped source entry; individual timing unresolved
-- **[HARVESTING / REVIEW ACTION]** Sweet Pea — — Peak — harvest every [Bloom] day to extend — source p. 50
-- **[FLOWERING]** Nasturtium / Calendula (for fall) — Last sow Wk 1[Direct Sow] Blooming continuously[Bloom] — source p. 50 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; deadhead daily — source p. 50 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Sweet Pea — — Peak — harvest every day to extend — source p. 50
+- **[FLOWERING]** Nasturtium / Calendula (for fall) — Last sow Wk 1 Blooming continuously — source p. 50 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- **[REVIEW ACTION]** Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer [Bloom] perennials — source p. 50 — grouped source entry; individual timing unresolved
-- **[FLOWERING / REVIEW ACTION]** Agapanthus / Veronicastrum / Penstemon / Shasta Daisy — — Blooming — pollinator [Bloom] paradise — source p. 50 — grouped source entry; individual timing unresolved
-- **[PRUNING]** Achillea / Kniphofia (Red Hot Poker) — — Peak; deadhead [Prune/Deadhead] to [Bloom] extend — source p. 50 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer perennials — source p. 50 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Agapanthus / Veronicastrum / Penstemon / Shasta Daisy — — Blooming — pollinator paradise — source p. 50 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Achillea / Kniphofia (Red Hot Poker) — — Peak; deadhead to extend — source p. 50 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- **[FLOWERING]** Oriental / Asiatic Lilies / Gladiolus — — Blooming; stake tall [Bloom] varieties — source p. 50 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Dahlia (early varieties) — — First dahlias opening[Bloom] — source p. 50
+- **[FLOWERING / SEASONAL MAINTENANCE]** Oriental / Asiatic Lilies / Gladiolus — — Blooming; stake tall varieties — source p. 50 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Dahlia (early varieties) — — First dahlias opening — source p. 50
 
 #### Shrubs & Trees (Ornamental)
 
-- **[REVIEW ACTION]** Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer [Bloom] display — source p. 51 — grouped source entry; individual timing unresolved
-- **[FLOWERING / PRUNING]** Roses — — [Prune/Deadhead] Deadhead continuously for repeat bloom — source p. 51
-- **[PRUNING]** Lavender — — [Prune/Deadhead] Prune lightly after first flush Wk 2–3 — source p. 51
+- **[REVIEW REQUIRED]** Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer display — source p. 51 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING]** Roses — — Deadhead continuously for repeat bloom — source p. 51
+- **[PRUNING / SEASONAL MAINTENANCE]** Lavender — — Prune lightly after first flush Wk 2–3 — source p. 51
 
 #### Climbing Vines
 
-- **[FLOWERING]** Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom[Bloom] — source p. 51 — grouped source entry; individual timing unresolved
-- **[FLOWERING]** Cobaea scandens — — Cup-and-saucer vine [Bloom] blooming — source p. 51
+- **[FLOWERING]** Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom — source p. 51 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Cobaea scandens — — Cup-and-saucer vine blooming — source p. 51
 
 #### Bc Native Plants
 
-- **[REVIEW ACTION]** Ocean Spray / Yarrow / Spirea douglasii / Fireweed — — BC summer natives at [Bloom] their best — source p. 51 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Pearly Everlasting (Anaphalis) — — Beginning — excellent [Bloom] for drying — source p. 51
+- **[REVIEW REQUIRED]** Ocean Spray / Yarrow / Spirea douglasii / Fireweed — — BC summer natives at their best — source p. 51 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Pearly Everlasting (Anaphalis) — — Beginning — excellent for drying — source p. 51
 
 #### Cut Flowers
 
-- **[HARVESTING / PROPAGATION]** Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — source p. 51 — grouped source entry; individual timing unresolved
+- **[HARVESTING / PROPAGATION]** Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of the year; harvest in morning — source p. 51 — grouped source entry; individual timing unresolved
 
 ## August
 
@@ -1070,64 +1073,64 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Herbs
 
-- **[HARVESTING]** All herbs — — Full harvest; dry [Harvest] oregano, thyme, rosemary now — source p. 54
-- **[SEASONAL MAINTENANCE]** Dill / Cilantro seeds — — Save seeds as they dry on plant — source p. 54 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** All herbs — — Full harvest; dry oregano, thyme, rosemary now — source p. 54
+- **[PLANTING / SEASONAL MAINTENANCE]** Dill / Cilantro seeds — — Save seeds as they dry on plant — source p. 54 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- **[REVIEW ACTION]** Blueberries (peak August) — — Best month for [Harvest] blueberries — source p. 54
-- **[HARVESTING]** Raspberries / Blackberries / Plums — — Harvesting [Harvest] continuously Early Apples / Pears (late — source p. 54 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Aug) — — First apples ready; [Harvest] pears soon — source p. 54
-- **[REVIEW ACTION]** Everbearing Strawberries — — Second crop flush[Harvest] — source p. 54
+- **[REVIEW REQUIRED]** Blueberries (peak August) — — Best month for blueberries — source p. 54
+- **[HARVESTING]** Raspberries / Blackberries / Plums — — Harvesting continuously Early Apples / Pears (late — source p. 54 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Aug) — — First apples ready; pears soon — source p. 54
+- **[REVIEW REQUIRED]** Everbearing Strawberries — — Second crop flush — source p. 54
 
 #### Roots & Tubers
 
-- **[DIRECT SOWING]** Turnips / Radish — Direct sow Wk 1–2 for [Direct Sow] fall — — source p. 54 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Potatoes / Carrots / Beets — — Harvest and store[Harvest] — source p. 54 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Turnips / Radish — Direct sow Wk 1–2 for fall — — source p. 54 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Potatoes / Carrots / Beets — — Harvest and store — source p. 54 — grouped source entry; individual timing unresolved
 
 #### Legumes & Grains
 
-- **[SEASONAL MAINTENANCE]** Beans (full harvest) — — Leave some pods to [Harvest] dry for seed/storage — source p. 55
-- **[HARVESTING]** Edamame — — Harvest late Aug when[Harvest] pods are plump — source p. 55
-- **[HARVESTING]** Sunflower / Corn — — Sunflower heads [Harvest] mature; corn harvest late Aug — source p. 55 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Beans (full harvest) — — Leave some pods to dry for seed/storage — source p. 55
+- **[HARVESTING]** Edamame — — Harvest late Aug when pods are plump — source p. 55
+- **[HARVESTING]** Sunflower / Corn — — Sunflower heads mature; corn harvest late Aug — source p. 55 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- **[REVIEW ACTION]** Artichoke — — Second flush of heads[Harvest] — source p. 55
-- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Rhubarb / Asparagus — — Resting; asparagus fern — leave standing — source p. 55 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Artichoke — — Second flush of heads — source p. 55
+- **[SEASONAL MAINTENANCE / REVIEW REQUIRED]** Rhubarb / Asparagus — — Resting; asparagus fern — leave standing — source p. 55 — grouped source entry; individual timing unresolved
 
 ### Flowers and ornamentals
 
 #### Annual Flowers
 
-- **[PRUNING]** Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — source p. 57 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Calendula / Pansy / Wallflower (for autumn) — Sow now for [Direct Sow] autumn/spring display — — source p. 57 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; deadhead aggressively — source p. 57 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Calendula / Pansy / Wallflower (for autumn) — Sow now for autumn/spring display — — source p. 57 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- **[REVIEW ACTION]** Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and [Bloom] amber tones — source p. 57 — grouped source entry; individual timing unresolved
-- **[FLOWERING]** Sedum 'Autumn Joy' / Anemone japonica — — Beginning to bloom [Bloom] late Aug — source p. 57 — grouped source entry; individual timing unresolved
-- **[FLOWERING]** Early-summer perennials (Geranium, Salvia) — — [Prune/Deadhead] Cut back after bloom to encourage rebloom — source p. 57 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and amber tones — source p. 57 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Sedum 'Autumn Joy' / Anemone japonica — — Beginning to bloom late Aug — source p. 57 — grouped source entry; individual timing unresolved
+- **[FLOWERING / PRUNING / SEASONAL MAINTENANCE]** Early-summer perennials (Geranium, Salvia) — — Cut back after bloom to encourage rebloom — source p. 57 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- **[FLOWERING / REVIEW ACTION]** Dahlia — — Peak bloom — [Bloom] — source p. 57
+- **[FLOWERING]** Dahlia — — Peak bloom — — source p. 57
 
 #### Shrubs & Trees (Ornamental)
 
-- **[REVIEW ACTION]** Hydrangea (all types) / Roses (second flush) / Fuchsia — — Late summer shrub [Bloom] peak — source p. 58 — grouped source entry; individual timing unresolved
-- **[PRUNING]** Roses — — [Prune/Deadhead] Deadhead; do NOT feed after Aug — source p. 58
-- **[PRUNING]** Wisteria — — [Prune/Deadhead] Second summer prune (Aug); cut to 5 leaves — source p. 58
-- **[PRUNING / REVIEW ACTION]** Hydrangea — — Do NOT prune now — wait until spring — source p. 58
+- **[REVIEW REQUIRED]** Hydrangea (all types) / Roses (second flush) / Fuchsia — — Late summer shrub peak — source p. 58 — grouped source entry; individual timing unresolved
+- **[PRUNING / SEASONAL MAINTENANCE]** Roses — — Deadhead; do NOT feed after Aug — source p. 58
+- **[PRUNING / SEASONAL MAINTENANCE]** Wisteria — — Second summer prune (Aug); cut to 5 leaves — source p. 58
+- **[PRUNING / SEASONAL MAINTENANCE]** Hydrangea — — Do NOT prune now — wait until spring — source p. 58
 
 #### Climbing Vines
 
-- **[FLOWERING]** Clematis viticella / Passion Flower / Morning Glory — — All in full spectacular [Bloom] bloom — source p. 58 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Clematis viticella / Passion Flower / Morning Glory — — All in full spectacular bloom — source p. 58 — grouped source entry; individual timing unresolved
 
 #### Bc Native Plants
 
-- **[FLOWERING]** Fireweed / Pearly Everlasting / Goldenrod — — Late summer native [Bloom] bloom; excellent for bees — source p. 58 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Oregon Grape berries — — Ripe berries — good for jam — source p. 58
+- **[FLOWERING]** Fireweed / Pearly Everlasting / Goldenrod — — Late summer native bloom; excellent for bees — source p. 58 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Oregon Grape berries — — Ripe berries — good for jam — source p. 58
 
 ## September
 
@@ -1135,67 +1138,67 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Vegetables
 
-- **[DIRECT SOWING]** Winter Lettuce / Mâche / Corn Salad — Direct sow under cover[Direct Sow] Wk 1–2 — — source p. 61 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Spinach / Pak Choi / Arugula — Direct sow Wk 1–3[Direct Sow] — — source p. 61 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Asian Greens / Claytonia — Direct sow Wk 2–3[Direct Sow] — — source p. 61 — grouped source entry; individual timing unresolved
-- **[TRANSPLANTING]** Broccoli / Kale (starts to protected beds) — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — source p. 61 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Tomatoes (last push) — — Last push before frost; [Harvest] ripen indoors if needed — source p. 61
-- **[HARVESTING]** Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost [Harvest] (squash by end Sep) — source p. 61 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest[Harvest] — source p. 61 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING / SEASONAL MAINTENANCE]** Winter Lettuce / Mâche / Corn Salad — Direct sow under cover Wk 1–2 — — source p. 61 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Spinach / Pak Choi / Arugula — Direct sow Wk 1–3 — — source p. 61 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Asian Greens / Claytonia — Direct sow Wk 2–3 — — source p. 61 — grouped source entry; individual timing unresolved
+- **[TRANSPLANTING / SEASONAL MAINTENANCE]** Broccoli / Kale (starts to protected beds) — → Transplant Wk 1–2 — — source p. 61 — grouped source entry; individual timing unresolved
+- **[FROST RISK]** Tomatoes (last push) — — Last push before frost; ripen indoors if needed — source p. 61
+- **[HARVESTING / FROST RISK]** Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost (squash by end Sep) — source p. 61 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Beets / Carrots / Parsnips / Kale / Chard / Leeks — — Continuing harvest — source p. 61 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- **[REVIEW ACTION]** Parsley (for spring) — Sow Wk 1[Direct Sow] — — source p. 61
-- **[INDOOR SOWING / REVIEW ACTION]** Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze — source p. 61 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Parsley (for spring) — Sow Wk 1 — — source p. 61
+- **[INDOOR SOWING / FROST RISK]** Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze — source p. 61 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- **[HARVESTING]** Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; [Harvest] store carefully — source p. 61 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Fall Raspberries / Blackberries / Everbearing Strawberries — — Harvest before first [Harvest] frost — source p. 61 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; store carefully — source p. 61 — grouped source entry; individual timing unresolved
+- **[HARVESTING / FROST RISK]** Fall Raspberries / Blackberries / Everbearing Strawberries — — Harvest before first frost — source p. 61 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- **[REVIEW ACTION]** Overwintering Daikon Radish — Sow Wk 1[Direct Sow] — — source p. 61
+- **[DIRECT SOWING]** Overwintering Daikon Radish — Sow Wk 1 — — source p. 61
 
 #### Legumes & Grains
 
-- **[HARVESTING]** Shell beans / Runner beans — — Harvest last beans; [Harvest] shell for drying — source p. 62 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Shell beans / Runner beans — — Harvest last beans; shell for drying — source p. 62 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- **[REVIEW ACTION]** Garlic — Plant Wk 3–4 (ideal [Plant Bulb/Tuber] window) — — source p. 62
-- **[DIVIDING]** Rhubarb crowns (new) — Divide and replant now — — source p. 62
-- **[REVIEW ACTION]** Asparagus crowns — Plant Sept–Oct — — source p. 62
+- **[PLANTING / SEASONAL MAINTENANCE]** Garlic — Plant Wk 3–4 (ideal window) — — source p. 62
+- **[DIVIDING / SEASONAL MAINTENANCE]** Rhubarb crowns (new) — Divide and replant now — — source p. 62
+- **[PLANTING / SEASONAL MAINTENANCE]** Asparagus crowns — Plant Sept–Oct — — source p. 62
 
 ### Flowers and ornamentals
 
 #### Annual Flowers
 
-- **[FLOWERING]** Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — source p. 64 — grouped source entry; individual timing unresolved
-- **[PRUNING / REVIEW ACTION]** Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — source p. 64 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Winter Pansy / Wallflower — Sow outdoors Wk 1–2[Direct Sow] — — source p. 64 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy the last of summer — source p. 64 — grouped source entry; individual timing unresolved
+- **[PRUNING]** Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — source p. 64 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Winter Pansy / Wallflower — Sow outdoors Wk 1–2 — — source p. 64 — grouped source entry; individual timing unresolved
 
 #### Hardy Perennials
 
-- **[REVIEW ACTION]** Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn [Bloom] perennials — source p. 64 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Aster / Tricyrtis (Toad Lily) / Persicaria — — Beautiful autumn [Bloom] additions — source p. 64 — grouped source entry; individual timing unresolved
-- **[DIVIDING]** Iris / Daylily / Hosta (early-spring types) — [Prune/Deadhead] Divide Wk 1–3 — — source p. 64 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn perennials — source p. 64 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Aster / Tricyrtis (Toad Lily) / Persicaria — — Beautiful autumn additions — source p. 64 — grouped source entry; individual timing unresolved
+- **[DIVIDING / SEASONAL MAINTENANCE]** Iris / Daylily / Hosta (early-spring types) — Divide Wk 1–3 — — source p. 64 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- **[REVIEW ACTION]** Hydrangea / Caryopteris / Perovskia / late Roses — — Beautiful autumn [Bloom] colour — source p. 65 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Hydrangea / Caryopteris / Perovskia / late Roses — — Beautiful autumn colour — source p. 65 — grouped source entry; individual timing unresolved
 - **[PRUNING / SEASONAL MAINTENANCE]** Roses / shrubs (general) — — Do NOT prune — leave until spring — source p. 65 — grouped source entry; individual timing unresolved
-- **[SEASONAL MAINTENANCE]** Tender shrubs (Agapanthus, Crocosmia) — — Begin mulching crowns[Overwinter/Mulch] with straw — source p. 65 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Tender shrubs (Agapanthus, Crocosmia) — — Begin mulching crowns with straw — source p. 65 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
-- **[PRUNING / REVIEW ACTION]** All climbers — — Cut only excessively long shoots — no hard prune. — source p. 65
-- **[REVIEW ACTION]** Collect seed pods. — source p. 65
+- **[PRUNING / SEASONAL MAINTENANCE]** All climbers — — Cut only excessively long shoots — no hard prune. — source p. 65
+- **[REVIEW REQUIRED]** Collect seed pods. — source p. 65
 
 #### Bc Native Plants
 
-- **[FLOWERING]** Aster subspicatus / Goldenrod — — Autumn native bloom[Bloom] — source p. 65 — grouped source entry; individual timing unresolved
-- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Snowberry (Symphoricarpos) — — White berries forming — leave for birds — source p. 65
+- **[FLOWERING]** Aster subspicatus / Goldenrod — — Autumn native bloom — source p. 65 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE / REVIEW REQUIRED]** Snowberry (Symphoricarpos) — — White berries forming — leave for birds — source p. 65
 
 ## October
 
@@ -1203,64 +1206,64 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Vegetables
 
-- **[DIRECT SOWING]** Mâche / Claytonia / Winter Spinach — Direct sow under [Direct Sow] cloche Wk 1–2 — — source p. 68 — grouped source entry; individual timing unresolved
-- **[DIRECT SOWING]** Overwintering Onion sets — Direct sow Wk 1–2[Direct Sow] — — source p. 68
-- **[TRANSPLANTING]** Overwintering Brassicas — → Transplant under [Indoor Sow] [Indoor Sow] cover — — source p. 68
-- **[INDOOR SOWING / HARVESTING]** Winter Squash [Frost Risk] — — Harvest ALL before [Harvest] mid-Oct — source p. 68
-- **[HARVESTING]** Peppers / Tomatoes (green) — — Last harvest; ripen [Harvest] tomatoes indoors — source p. 68 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Beets / Carrots / Parsnips — — Harvest; store in damp[Harvest] sand — source p. 68 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac — — Continue harvesting; [Harvest] improve with frost — source p. 68 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Mâche / Claytonia / Winter Spinach — Direct sow under cloche Wk 1–2 — — source p. 68 — grouped source entry; individual timing unresolved
+- **[DIRECT SOWING]** Overwintering Onion sets — Direct sow Wk 1–2 — — source p. 68
+- **[TRANSPLANTING / SEASONAL MAINTENANCE]** Overwintering Brassicas — → Transplant under cover — — source p. 68
+- **[INDOOR SOWING / HARVESTING]** Winter Squash — — Harvest ALL before mid-Oct — source p. 68
+- **[HARVESTING]** Peppers / Tomatoes (green) — — Last harvest; ripen tomatoes indoors — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Beets / Carrots / Parsnips — — Harvest; store in damp sand — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING / FROST RISK]** Leeks / Kale / Chard / Brussels Sprouts / Turnips / Celeriac — — Continue harvesting; improve with frost — source p. 68 — grouped source entry; individual timing unresolved
 
 #### Herbs
 
-- **[SEASONAL MAINTENANCE]** Rosemary (exposed sites) — — Mulch base if in [Overwinter/Mulch] exposed location [Frost Risk] — source p. 68
-- **[INDOOR SOWING / HARVESTING]** Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze — source p. 68 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Rosemary (exposed sites) — — Mulch base if in exposed location — source p. 68
+- **[INDOOR SOWING / HARVESTING / FROST RISK]** Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze — source p. 68 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- **[HARVESTING]** Apples (late) / Pears / Quince — — Last harvest; store in [Harvest] cool dark place — source p. 68 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Hazelnut / Walnut — — Harvest from ground [Harvest] after drop — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Apples (late) / Pears / Quince — — Last harvest; store in cool dark place — source p. 68 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Hazelnut / Walnut — — Harvest from ground after drop — source p. 68 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- **[REVIEW ACTION]** Garlic — Plant Wk 1–3 (last [Plant Bulb/Tuber] good window) — — source p. 69
-- **[REVIEW ACTION]** Parsnips — — Leave some in ground [Harvest] — frost sweetens them — source p. 69
-- **[HARVESTING]** Carrots / Beets — — Harvest and store in [Harvest] damp sand — source p. 69 — grouped source entry; individual timing unresolved
+- **[PLANTING / SEASONAL MAINTENANCE]** Garlic — Plant Wk 1–3 (last good window) — — source p. 69
+- **[FROST RISK / SEASONAL MAINTENANCE]** Parsnips — — Leave some in ground — frost sweetens them — source p. 69
+- **[HARVESTING / SEASONAL MAINTENANCE]** Carrots / Beets — — Harvest and store in damp sand — source p. 69 — grouped source entry; individual timing unresolved
 
 #### Perennial Edibles
 
-- **[SEASONAL MAINTENANCE]** Asparagus — — Mulch with straw Wk [Overwinter/Mulch] 3–4 — source p. 69
-- **[REVIEW ACTION]** Artichoke crowns — — Mulch deeply — [Overwinter/Mulch] borderline hardy [Frost Risk] — source p. 69
-- **[DIVIDING]** Rhubarb — Divide Wk 1–2 — — source p. 69
+- **[SEASONAL MAINTENANCE]** Asparagus — — Mulch with straw Wk 3–4 — source p. 69
+- **[SEASONAL MAINTENANCE / REVIEW REQUIRED]** Artichoke crowns — — Mulch deeply — borderline hardy — source p. 69
+- **[DIVIDING / SEASONAL MAINTENANCE]** Rhubarb — Divide Wk 1–2 — — source p. 69
 
 ### Flowers and ornamentals
 
 #### Annual Flowers
 
-- **[SEASONAL MAINTENANCE]** All annuals — — [Frost Risk] Remove frost-killed annuals; compost healthy material. Leave self- seeder seeds on soil. — source p. 71
+- **[FROST RISK / SEASONAL MAINTENANCE]** All annuals — — Remove frost-killed annuals; compost healthy material. Leave self- seeder seeds on soil. — source p. 71
 
 #### Hardy Perennials
 
-- **[SEASONAL MAINTENANCE]** Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems [Bloom] for winter interest — source p. 71 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Agapanthus / Crocosmia / Gunnera — — Mulch crowns with [Overwinter/Mulch] straw — borderline hardy — source p. 71 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems for winter interest — source p. 71 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE / REVIEW REQUIRED]** Agapanthus / Crocosmia / Gunnera — — Mulch crowns with straw — borderline hardy — source p. 71 — grouped source entry; individual timing unresolved
 
 #### Bulbs & Corms
 
-- **[REVIEW ACTION]** Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — source p. 72 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Tulips — Plant Wk 3–4 (late [Plant Bulb/Tuber] planting reduces tulip fire) — — source p. 72
-- **[SEASONAL MAINTENANCE]** Dahlias — — Lift after first hard frost; dry 2 wks; store cool — source p. 72
-- **[SEASONAL MAINTENANCE]** Gladiolus corms — — Dry and store frost-free if not done in Sep — source p. 72
+- **[PLANTING / SEASONAL MAINTENANCE]** Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3 — — source p. 72 — grouped source entry; individual timing unresolved
+- **[PLANTING / SEASONAL MAINTENANCE]** Tulips — Plant Wk 3–4 (late planting reduces tulip fire) — — source p. 72
+- **[FROST RISK / SEASONAL MAINTENANCE]** Dahlias — — Lift after first hard frost; dry 2 wks; store cool — source p. 72
+- **[FROST RISK / SEASONAL MAINTENANCE]** Gladiolus corms — — Dry and store frost-free if not done in Sep — source p. 72
 
 #### Shrubs & Trees (Ornamental)
 
-- **[REVIEW ACTION]** New deciduous shrubs and trees — Plant Oct–Nov (ideal planting time) — — source p. 72
-- **[SEASONAL MAINTENANCE]** Borderline-hardy shrubs (Ceanothus, Abutilon) — — Mulch base deeply; do [Overwinter/Mulch] — source p. 72 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** NOT prune roses — source p. 72
+- **[PLANTING / SEASONAL MAINTENANCE]** New deciduous shrubs and trees — Plant Oct–Nov (ideal planting time) — — source p. 72
+- **[SEASONAL MAINTENANCE]** Borderline-hardy shrubs (Ceanothus, Abutilon) — — Mulch base deeply; do — source p. 72 — grouped source entry; individual timing unresolved
+- **[PRUNING / SEASONAL MAINTENANCE]** NOT prune roses — source p. 72
 
 #### Climbing Vines
 
-- **[PRUNING]** All climbers — — Tidy rose ties. Do NOT prune Wisteria or — source p. 72
-- **[REVIEW ACTION]** Clematis now. — source p. 72
+- **[PRUNING / SEASONAL MAINTENANCE]** All climbers — — Tidy rose ties. Do NOT prune Wisteria or — source p. 72
+- **[REVIEW REQUIRED]** Clematis now. — source p. 72
 
 #### Bc Native Plants
 
@@ -1268,7 +1271,7 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Cut Flowers
 
-- **[REVIEW ACTION]** Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of[Bloom] the season — source p. 73 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of the season — source p. 73 — grouped source entry; individual timing unresolved
 
 ## November
 
@@ -1276,28 +1279,28 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Vegetables
 
-- **[HARVESTING]** Leeks — — Continue harvesting [Harvest] through winter — source p. 75
-- **[REVIEW ACTION]** Brussels Sprouts — — Better after frost — [Harvest] sweeter flavour — source p. 75
-- **[REVIEW ACTION]** Kale / Chard / Mâche — — Excellent cold-hardy [Harvest] crops — source p. 75 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Winter Spinach / Claytonia / Overwintering Lettuce — — Harvest under cover [Harvest] only [Frost Risk] — source p. 75 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Parsnips / Turnips / Celeriac — — Harvest or leave [Harvest] mulched in ground — source p. 75 — grouped source entry; individual timing unresolved
-- **[INDOOR SOWING]** No outdoor sowing this month. Maintain row covers and cloches. Check for slug damage under covers. — source p. 75
+- **[HARVESTING]** Leeks — — Continue harvesting through winter — source p. 75
+- **[FROST RISK]** Brussels Sprouts — — Better after frost — sweeter flavour — source p. 75
+- **[REVIEW REQUIRED]** Kale / Chard / Mâche — — Excellent cold-hardy crops — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Winter Spinach / Claytonia / Overwintering Lettuce — — Harvest under cover only — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Parsnips / Turnips / Celeriac — — Harvest or leave mulched in ground — source p. 75 — grouped source entry; individual timing unresolved
+- **[INDOOR SOWING / SEASONAL MAINTENANCE]** No outdoor sowing this month. Maintain row covers and cloches. Check for slug damage under covers. — source p. 75
 
 #### Herbs
 
-- **[HARVESTING]** Parsley / Chives / Rosemary — — Harvest from [Harvest] protected plants — source p. 75 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Sage / Thyme — — Light harvest; thyme: [Harvest] mulch crowns in exposed sites — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Parsley / Chives / Rosemary — — Harvest from protected plants — source p. 75 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Sage / Thyme — — Light harvest; thyme: mulch crowns in exposed sites — source p. 75 — grouped source entry; individual timing unresolved
 
 #### Fruits & Berries
 
-- **[SEASONAL MAINTENANCE]** Stored apples / pears — — Check monthly; [Harvest] remove any rotting fruit — source p. 76 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Bare-root fruit trees / canes — Plant Nov–Feb (ideal) — — source p. 76 — grouped source entry; individual timing unresolved
-- **[PRUNING]** Currants / Gooseberries — — [Prune/Deadhead] Prune Nov–Feb while dormant — source p. 76 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE]** Stored apples / pears — — Check monthly; remove any rotting fruit — source p. 76 — grouped source entry; individual timing unresolved
+- **[PLANTING / SEASONAL MAINTENANCE]** Bare-root fruit trees / canes — Plant Nov–Feb (ideal) — — source p. 76 — grouped source entry; individual timing unresolved
+- **[PRUNING / SEASONAL MAINTENANCE]** Currants / Gooseberries — — Prune Nov–Feb while dormant — source p. 76 — grouped source entry; individual timing unresolved
 
 #### Roots & Tubers
 
-- **[HARVESTING]** Parsnips / Carrots / Beets — — Harvest from storage [Harvest] or mulched ground — source p. 76 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Celeriac — — Harvest as needed [Harvest] from ground — source p. 76
+- **[HARVESTING / SEASONAL MAINTENANCE]** Parsnips / Carrots / Beets — — Harvest from storage or mulched ground — source p. 76 — grouped source entry; individual timing unresolved
+- **[HARVESTING]** Celeriac — — Harvest as needed from ground — source p. 76
 
 #### Legumes & Grains
 
@@ -1305,10 +1308,10 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Perennial Edibles
 
-- **[SEASONAL MAINTENANCE]** Asparagus — — Mulch with straw; [Overwinter/Mulch] leave ferns standing — source p. 76
-- **[REVIEW ACTION]** Rhubarb — — Dormant; do not disturb — source p. 76
-- **[SEASONAL MAINTENANCE]** Artichoke — — Crowns mulched with [Overwinter/Mulch] straw [Frost Risk] — source p. 76
-- **[REVIEW ACTION]** Garlic (last call) — Plant Wk 1 if not yet [Plant Bulb/Tuber] done — — source p. 76
+- **[SEASONAL MAINTENANCE]** Asparagus — — Mulch with straw; leave ferns standing — source p. 76
+- **[SOURCE OBSERVATION]** Rhubarb — — Dormant; do not disturb — source p. 76
+- **[SEASONAL MAINTENANCE]** Artichoke — — Crowns mulched with straw — source p. 76
+- **[PLANTING / SEASONAL MAINTENANCE]** Garlic (last call) — Plant Wk 1 if not yet done — — source p. 76
 
 ### Flowers and ornamentals
 
@@ -1318,21 +1321,21 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Hardy Perennials
 
-- **[FLOWERING]** Hellebores (Lenten Rose) — — May begin blooming [Bloom] late Nov [Frost Risk] — source p. 79
-- **[REVIEW ACTION]** Schizostylis (Kaffir Lily) — — Fading last blooms[Bloom] — source p. 79
-- **[REVIEW ACTION]** Most perennials — — Leave all stems standing — winter interest and insect habitat — source p. 79
+- **[FLOWERING]** Hellebores (Lenten Rose) — — May begin blooming late Nov — source p. 79
+- **[REVIEW REQUIRED]** Schizostylis (Kaffir Lily) — — Fading last blooms — source p. 79
+- **[SEASONAL MAINTENANCE / REVIEW REQUIRED]** Most perennials — — Leave all stems standing — winter interest and insect habitat — source p. 79
 
 #### Bulbs & Corms
 
-- **[SEASONAL MAINTENANCE]** Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — source p. 79 — grouped source entry; individual timing unresolved
-- **[SEASONAL MAINTENANCE]** All dormant underground Stored Dahlia tubers / Gladiolus corms — — Check stored bulbs for rot; remove soft areas — source p. 79 — grouped source entry; individual timing unresolved
+- **[PLANTING / SEASONAL MAINTENANCE]** Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant Wk 1–2 — source p. 79 — grouped source entry; individual timing unresolved
+- **[SEASONAL MAINTENANCE / SOURCE OBSERVATION]** All dormant underground Stored Dahlia tubers / Gladiolus corms — — Check stored bulbs for rot; remove soft areas — source p. 79 — grouped source entry; individual timing unresolved
 
 #### Shrubs & Trees (Ornamental)
 
-- **[FLOWERING / REVIEW ACTION]** Viburnum bodnantense 'Dawn' — — Beginning to bloom — [Bloom] beautifully fragrant [Frost Risk] — source p. 79
-- **[FLOWERING / REVIEW ACTION]** Mahonia 'Charity' — — Beginning to bloom — [Bloom] bold yellow spikes — source p. 79
-- **[REVIEW ACTION]** New bare-root deciduous shrubs and trees — Plant Nov–Mar (ideal) — — source p. 79
-- **[SEASONAL MAINTENANCE]** Tender shrubs (Ceanothus, Myrtle) — — Mulch base protection [Overwinter/Mulch] — source p. 79 — grouped source entry; individual timing unresolved
+- **[FLOWERING]** Viburnum bodnantense 'Dawn' — — Beginning to bloom — beautifully fragrant — source p. 79
+- **[FLOWERING]** Mahonia 'Charity' — — Beginning to bloom — bold yellow spikes — source p. 79
+- **[PLANTING / SEASONAL MAINTENANCE]** New bare-root deciduous shrubs and trees — Plant Nov–Mar (ideal) — — source p. 79
+- **[SEASONAL MAINTENANCE]** Tender shrubs (Ceanothus, Myrtle) — — Mulch base protection — source p. 79 — grouped source entry; individual timing unresolved
 
 #### Climbing Vines
 
@@ -1344,8 +1347,8 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Cut Flowers
 
-- **[REVIEW ACTION]** Viburnum / Mahonia stems / Holly berries — — For fragrant indoor [Bloom] arrangements — source p. 80 — grouped source entry; individual timing unresolved
-- **[FLOWERING]** Dried everlastings (Strawflower, Statice) — — Use dried flower store from summer — source p. 80 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Viburnum / Mahonia stems / Holly berries — — For fragrant indoor arrangements — source p. 80 — grouped source entry; individual timing unresolved
+- **[FLOWERING / SEASONAL MAINTENANCE]** Dried everlastings (Strawflower, Statice) — — Use dried flower store from summer — source p. 80 — grouped source entry; individual timing unresolved
 
 ## December
 
@@ -1353,68 +1356,68 @@ Each entry includes its original source page. Grayscale-readable labels are used
 
 #### Vegetables
 
-- **[REVIEW ACTION]** Kale — — Excellent after frost — [Harvest] sweetened by cold — source p. 82
-- **[REVIEW ACTION]** Brussels Sprouts — — Best now — frost [Harvest] improves flavour greatly — source p. 82
-- **[HARVESTING]** Leeks / Chard (under cover) — — Harvest as needed [Frost Risk][Harvest] Mâche / Claytonia / Winter — source p. 82 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Spinach (under cover) — — Harvest under glass or [Harvest] polytunnel — source p. 82
-- **[REVIEW ACTION]** Parsnips — — Very sweet now — [Harvest] best after hard frost — source p. 82
-- **[HARVESTING]** Turnips — — Harvest as needed [Harvest] — source p. 82
+- **[FROST RISK]** Kale — — Excellent after frost — sweetened by cold — source p. 82
+- **[FROST RISK]** Brussels Sprouts — — Best now — frost improves flavour greatly — source p. 82
+- **[HARVESTING / SEASONAL MAINTENANCE]** Leeks / Chard (under cover) — — Harvest as needed Mâche / Claytonia / Winter — source p. 82 — grouped source entry; individual timing unresolved
+- **[HARVESTING / SEASONAL MAINTENANCE]** Spinach (under cover) — — Harvest under glass or polytunnel — source p. 82
+- **[FROST RISK]** Parsnips — — Very sweet now — best after hard frost — source p. 82
+- **[HARVESTING]** Turnips — — Harvest as needed — source p. 82
 
 #### Herbs
 
-- **[HARVESTING]** Parsley (under cover / mild spots) — — Harvest lightly [Frost Risk][Harvest] — source p. 83 — grouped source entry; individual timing unresolved
-- **[HARVESTING]** Rosemary / Sage / Thyme — — Frost-hardy; harvest in[Harvest] mild spells — source p. 83 — grouped source entry; individual timing unresolved
-- **[SEASONAL MAINTENANCE / REVIEW ACTION]** Other herbs — — Dormant — use stored/frozen summer herbs — source p. 83
+- **[HARVESTING / SEASONAL MAINTENANCE]** Parsley (under cover / mild spots) — — Harvest lightly — source p. 83 — grouped source entry; individual timing unresolved
+- **[HARVESTING / FROST RISK]** Rosemary / Sage / Thyme — — Frost-hardy; harvest in mild spells — source p. 83 — grouped source entry; individual timing unresolved
+- **[FROST RISK / SEASONAL MAINTENANCE]** Other herbs — — Dormant — use stored/frozen summer herbs — source p. 83
 
 #### Fruits & Berries
 
-- **[SEASONAL MAINTENANCE]** Stored apples / pears — — Check; remove any rot[Harvest] — source p. 83 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Bare-root trees and canes — Plant in mild spells Dec– Feb — — source p. 83
-- **[PRUNING]** Apple / Pear — — [Prune/Deadhead] Dormant pruning Dec– — source p. 83 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Feb (no disease risk) — source p. 83
+- **[SEASONAL MAINTENANCE]** Stored apples / pears — — Check; remove any rot — source p. 83 — grouped source entry; individual timing unresolved
+- **[PLANTING / SEASONAL MAINTENANCE]** Bare-root trees and canes — Plant in mild spells Dec– Feb — — source p. 83
+- **[PRUNING]** Apple / Pear — — Dormant pruning Dec– — source p. 83 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Feb (no disease risk) — source p. 83
 
 #### Roots & Tubers
 
-- **[HARVESTING]** Parsnips / Carrots / Beets / Celeriac — — Harvest from storage [Harvest] or mulched ground — source p. 83 — grouped source entry; individual timing unresolved
-- **[REVIEW ACTION]** Garlic (overwintering) — — Overwintering underground — nothing to do [Frost Risk] — source p. 83
+- **[HARVESTING / SEASONAL MAINTENANCE]** Parsnips / Carrots / Beets / Celeriac — — Harvest from storage or mulched ground — source p. 83 — grouped source entry; individual timing unresolved
+- **[REVIEW REQUIRED]** Garlic (overwintering) — — Overwintering underground — nothing to do — source p. 83
 
 #### Perennial Edibles
 
-- **[REVIEW ACTION]** Rhubarb — — Fully dormant. Force under upturned pot for — source p. 84
-- **[SEASONAL MAINTENANCE]** Jan/Feb harvest. Asparagus — — Fully dormant with straw mulch [Frost Risk] — source p. 84 — grouped source entry; individual timing unresolved
+- **[SOURCE OBSERVATION]** Rhubarb — — Fully dormant. Force under upturned pot for — source p. 84
+- **[HARVESTING / SEASONAL MAINTENANCE]** Jan/Feb harvest. Asparagus — — Fully dormant with straw mulch — source p. 84 — grouped source entry; individual timing unresolved
 
 ### Flowers and ornamentals
 
 #### Annual Flowers
 
-- **[REVIEW ACTION]** All annuals — — None. Beds resting. — source p. 86
-- **[REVIEW ACTION]** Appreciate the quiet season. — source p. 86
+- **[REVIEW REQUIRED]** All annuals — — None. Beds resting. — source p. 86
+- **[REVIEW REQUIRED]** Appreciate the quiet season. — source p. 86
 
 #### Hardy Perennials
 
-- **[FLOWERING]** Helleborus niger (Christmas Rose) — — Blooming [Bloom] magnificently [Frost Risk] — source p. 86
-- **[REVIEW ACTION]** Euphorbia amygdaloides var. robbiae — — Evergreen; architectural interest year-round — source p. 86
-- **[REVIEW ACTION]** All perennial stems — — Leave all stems standing — insect overwintering habitat — source p. 86
+- **[FLOWERING]** Helleborus niger (Christmas Rose) — — Blooming magnificently — source p. 86
+- **[REVIEW REQUIRED]** Euphorbia amygdaloides var. robbiae — — Evergreen; architectural interest year-round — source p. 86
+- **[SEASONAL MAINTENANCE / REVIEW REQUIRED]** All perennial stems — — Leave all stems standing — insect overwintering habitat — source p. 86
 
 #### Bulbs & Corms
 
-- **[REVIEW ACTION]** Spring bulbs (all) outdoors — — Dormant underground [Frost Risk] — spring magic to come — source p. 86
+- **[SOURCE OBSERVATION / REVIEW REQUIRED]** Spring bulbs (all) outdoors — — Dormant underground — spring magic to come — source p. 86
 
 #### Shrubs & Trees (Ornamental)
 
-- **[FLOWERING / REVIEW ACTION]** Viburnum bodnantense 'Dawn' — — Fragrant mid-winter [Bloom] bloom — outstanding — source p. 87
-- **[FLOWERING / REVIEW ACTION]** Mahonia (all types) — — Peak bloom — bold [Bloom] yellow, sweetly fragrant — source p. 87
-- **[REVIEW ACTION]** Witch Hazel (Hamamelis) — — Buds swelling; first spidery blooms soon — source p. 87
-- **[REVIEW ACTION]** Garrya elliptica — — Silver catkins emerging — beautiful winter display — source p. 87
-- **[REVIEW ACTION]** Wintersweet (Chimonanthus) — — If established — [Bloom] exquisite fragrance [Frost Risk] — source p. 87
+- **[FLOWERING]** Viburnum bodnantense 'Dawn' — — Fragrant mid-winter bloom — outstanding — source p. 87
+- **[FLOWERING]** Mahonia (all types) — — Peak bloom — bold yellow, sweetly fragrant — source p. 87
+- **[SOURCE OBSERVATION]** Witch Hazel (Hamamelis) — — Buds swelling; first spidery blooms soon — source p. 87
+- **[SOURCE OBSERVATION / REVIEW REQUIRED]** Garrya elliptica — — Silver catkins emerging — beautiful winter display — source p. 87
+- **[REVIEW REQUIRED]** Wintersweet (Chimonanthus) — — If established — exquisite fragrance — source p. 87
 
 #### Climbing Vines
 
-- **[SEASONAL MAINTENANCE]** All climbers — — Dormant. Check and tighten ties and supports during winter storms. — source p. 87
+- **[SEASONAL MAINTENANCE / SOURCE OBSERVATION]** All climbers — — Dormant. Check and tighten ties and supports during winter storms. — source p. 87
 
 #### Bc Native Plants
 
-- **[REVIEW ACTION]** Red Osier Dogwood — — Brilliant red stems — outstanding winter interest — source p. 87
+- **[REVIEW REQUIRED]** Red Osier Dogwood — — Brilliant red stems — outstanding winter interest — source p. 87
 - **[SEASONAL MAINTENANCE]** Holly / Evergreen Huckleberry (Vaccinium ovatum) — — Berries for wildlife; glossy evergreen leaves — source p. 87 — grouped source entry; individual timing unresolved
 
 # Plant Registry
@@ -8774,187 +8777,603 @@ before final human approval.
 
 # Practical worked examples
 
-Each example gives an objective, materials, preparation, procedure, expected result, common mistakes and troubleshooting.
+These examples demonstrate procedures; they do not supply unsupported plant-specific timing, spacing, or treatment recommendations.
+Each example distinguishes the task from its expected outcome and includes actionable troubleshooting.
 
-## Example 01: Planning a raised vegetable bed
+## Example 01: Plan and prepare a raised vegetable bed
 
-**Objective:** Use one 4 ft x 8 ft bed; 32 sq ft.
-**Materials:** Tape, stakes, compost, soil test.
-**Preparation:** Map orientation and access; mark corners; add 8-12 in of soil mix; leave 24 in paths.
-**Procedure:** A flat, accessible bed with full sun and 32 sq ft planting area.
-**Expected result:** Deep paths, untreated edging, and compacted soil.
-**Common mistakes:** Measure sun and drainage before planting; correct compaction.
-**Troubleshooting:** Not specified
+**Objective:** Lay out a reachable 4 × 8 ft bed (32 sq ft) at a site suitable for the selected crops.
+**Difficulty and time:** Beginner; about 1–2 hours for layout, excluding delivery and construction.
+**Materials:** Tape, stakes, string, level, shovel, site map, and bed material selected for food-growing use.
+**Prerequisites:** Check site history, access to water, drainage, sun exposure, utilities, slope, and any contamination concern before excavation or filling.
+**Preparation:** Mark the actual bed footprint and paths; test reach from every side; observe sun and wet spots rather than assuming them.
 
-## Example 02: Preparing soil
+**Procedure**
 
-**Objective:** Assess and improve a loam bed.
-**Materials:** Soil test, fork, compost.
-**Preparation:** Avoid wet digging; remove weeds; incorporate mature compost only as indicated; rake level.
-**Procedure:** Stable, friable soil and even drainage.
-**Expected result:** Working saturated soil or adding excess amendments.
-**Common mistakes:** Retest and correct drainage before replanting.
-**Troubleshooting:** Not specified
+1. Stake a 4 × 8 ft rectangle and measure the inside dimensions.
+2. Confirm the center can be reached without stepping on growing soil; widen paths only to suit actual access and tools.
+3. Remove persistent weeds and loosen compacted underlying soil only when it is workable and safe to dig.
+4. Select a suitable fill based on intended crops and site conditions; use a soil test to guide nutrient amendments.
+5. Estimate geometric volume as length × width × fill depth, then confirm settling and delivery quantity with the supplier.
+6. Fill, level, water to settle, and recheck drainage and low spots before planting.
 
-## Example 03: Starting seeds indoors
+**Expected result:** A stable, accessible 32 sq ft bed with documented fill and no assumed nutrient or drainage diagnosis.
 
-**Objective:** Start a cool-season tray.
-**Materials:** Seed tray, sterile mix, labels, light.
-**Preparation:** Sanitize tray; fill; sow at packet depth; label; mist; provide 14-16 hr light.
-**Procedure:** Even germination and compact seedlings.
-**Expected result:** Overwatering, deep sowing and heat mats misused for cool crops.
-**Common mistakes:** Vent, thin and reduce moisture.
-**Troubleshooting:** Not specified
+**Common mistakes**
 
-## Example 04: Calculating planting spacing
+- Making the bed too wide to reach its center.
+- Filling over a drainage, contamination, or compaction problem without assessment.
+- Adding fertilizer or lime without a diagnosis.
 
-**Objective:** Fit 32 lettuce transplants in 32 sq ft.
-**Materials:** Tape, seed packet spacing.
-**Preparation:** Use 12 in on-center spacing; 4 columns x 8 rows on a 4 x 8 bed.
-**Procedure:** Eight staggered short rows.
-**Expected result:** Mixing mature spread and row spacing.
-**Common mistakes:** Check the exact cultivar and recalculate.
-**Troubleshooting:** Not specified
+**Troubleshooting**
 
-## Example 05: Transplanting seedlings
+- Water pools: pause planting and investigate the bed and underlying drainage.
+- Fill settles unevenly: top up with the same suitable material and recheck level.
+- Access is awkward: adjust the path or bed width before installing permanent irrigation.
 
-**Objective:** Move hardened starts safely.
-**Materials:** Plant tags, trowel, water.
-**Preparation:** Water before; plant to correct depth; firm gently; water at soil line.
-**Procedure:** No wilt after establishment.
-**Expected result:** Planting too deep or leaving air pockets.
-**Common mistakes:** Rewater and add mulch away from stems.
-**Troubleshooting:** Not specified
+**Local considerations:** Use the supplied frost dates only as approximate source anchors; site exposure and soil conditions vary within Errington.
+**References:** OSU Extension, Raised Bed Gardening (FS 270), https://extension.oregonstate.edu/catalog/fs-270-raised-bed-gardening; BC Soil Nutrient Management, https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/agricultural-land-and-environment/soil-nutrients/management.
 
-## Example 06: Hardening off plants
+## Example 02: Assess and prepare garden soil
 
-**Objective:** Adapt indoor plants to outdoor conditions.
-**Materials:** Tray, sheltered location.
-**Preparation:** Day 1-2 shade and wind protection; increase light and exposure; bring in if frost threatens.
-**Procedure:** Plants tolerate direct outdoor conditions.
-**Expected result:** Sunburn, wind damage or skipped frost protection.
-**Common mistakes:** Restart gradual exposure.
-**Troubleshooting:** Not specified
+**Objective:** Observe a proposed bed and decide what evidence is needed before disturbing or amending its soil.
+**Difficulty and time:** Beginner; 30–60 minutes for inspection, plus laboratory turnaround if a test is submitted.
+**Materials:** Trowel, clean sample container, notebook, labels, and laboratory supplies if testing.
+**Prerequisites:** Know the intended growing area and crop group; follow the selected laboratory's sampling instructions.
+**Preparation:** Compare several locations after wet and dry weather; keep visibly different areas as separate observations or samples.
 
-## Example 07: Planning succession crops
+**Procedure**
 
-**Objective:** Sow radish or lettuce every 14 days.
-**Materials:** Seed, labels, calendar.
-**Preparation:** Divide a bed into blocks; sow block one; repeat after 14 days.
-**Procedure:** Continuous small harvests.
-**Expected result:** Oversowing one large harvest window.
-**Common mistakes:** Thin and stagger sowings.
-**Troubleshooting:** Not specified
+1. Record standing water, crusting, compaction, construction debris, and where the surface dries first.
+2. Check a small soil handful at working depth; wait if it smears or forms a dense wet mass.
+3. Inspect a small profile for abrupt fill layers or dense pans without cutting important roots or utilities.
+4. Submit a representative sample when pH or nutrient decisions are needed.
+5. Use the report and crop-specific guidance to choose an amendment; otherwise avoid speculative inputs.
 
-## Example 08: Crop rotation
+**Expected result:** A documented soil condition and a justified next step: wait, sample, amend conservatively, or address a physical site issue.
 
-**Objective:** Rotate four crop families.
-**Materials:** Bed map and labels.
-**Preparation:** Group nightshades, brassicas, legumes and roots; move each group one bed annually.
-**Procedure:** Rotation notes and reduced repeated-family pressure.
-**Expected result:** Assuming rotation replaces pest diagnosis.
-**Common mistakes:** Keep records and diagnose symptoms.
-**Troubleshooting:** Not specified
+**Common mistakes**
 
-## Example 09: Supporting climbing plants
+- Working saturated soil and compacting it further.
+- Treating a jar texture test or leaf color as a complete fertility diagnosis.
+- Applying lime, fertilizer, manure, or concentrated amendment without evidence.
 
-**Objective:** Support peas or pole beans.
-**Materials:** Netting, stakes, ties.
-**Preparation:** Install support before planting; direct seedlings beside support; loose-tie growth.
-**Procedure:** Stable vines and harvest access.
-**Expected result:** Tying tightly or staking after roots are disturbed.
-**Common mistakes:** Replace damaged ties with soft, slack loops.
-**Troubleshooting:** Not specified
+**Troubleshooting**
 
-## Example 10: Pruning shrubs and perennials
+- Soil smears when squeezed: wait for it to dry to a workable condition.
+- A sample has mixed soil types: resample distinct areas separately.
+- Test results are unclear: ask the laboratory or qualified local advisor to interpret them for the intended crop.
 
-**Objective:** Remove dead or crossing growth safely.
-**Materials:** Clean shears, gloves.
-**Preparation:** Identify live wood and branch union; remove dead wood; avoid spring-blooming shrub cuts after bud set.
-**Procedure:** Healthy structure and accurate timing.
-**Expected result:** Heavy pruning at the wrong season.
-**Common mistakes:** Stop and confirm species timing.
-**Troubleshooting:** Not specified
+**Local considerations:** No property-specific soil condition is established by the Errington calendar; inspect each garden independently.
+**References:** BC Soil Nutrient Management, https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/agricultural-land-and-environment/soil-nutrients/management.
 
-## Example 11: Dividing perennials
+## Example 03: Start seeds indoors
 
-**Objective:** Divide a crowded clump.
-**Materials:** Fork, knife, labels.
-**Preparation:** Lift dormant or post-bloom clump; divide at natural joins; replant promptly.
-**Procedure:** Two or more viable divisions.
-**Expected result:** Planting pieces too deep or dividing in frost/heat.
-**Common mistakes:** Replant and water; reserve uncertain species for review.
-**Troubleshooting:** Not specified
+**Objective:** Sow a small, labeled batch using instructions for the identified crop and seed lot.
+**Difficulty and time:** Beginner; 20–40 minutes to sow, followed by routine checks.
+**Materials:** Clean draining containers, suitable seed-starting medium, labels, seeds, water, and appropriate light.
+**Prerequisites:** Check the packet or plant-specific source for sowing depth, germination temperature, light response, and whether indoor sowing is appropriate.
+**Preparation:** Clean reused containers; prepare labels before sowing; moisten the medium evenly without saturating it.
 
-## Example 12: Growing berries
+**Procedure**
 
-**Objective:** Establish a small berry row.
-**Materials:** Berry starts, mulch, supports.
-**Preparation:** Improve drainage; set at nursery depth; mulch; net if appropriate.
-**Procedure:** Healthy growth and harvestable fruit.
-**Expected result:** Mulch against crowns or overfeeding.
-**Common mistakes:** Remove mulch from crowns and verify nutrient needs.
-**Troubleshooting:** Not specified
+1. Fill containers loosely and level the surface.
+2. Sow at the source-stated depth and label crop, cultivar if known, and date.
+3. Provide the stated germination conditions and keep the medium evenly moist.
+4. After emergence, provide adequate light, airflow, and room for seedlings.
+5. Thin or transplant gently; handle seedlings by a leaf rather than crushing the stem.
 
-## Example 13: Managing irrigation
+**Expected result:** Clearly identified seedlings that emerge under the selected source's conditions and remain compact and healthy.
 
-**Objective:** Water a 4 x 8 bed efficiently.
-**Materials:** Irrigation tubing, controller, catch cups.
-**Preparation:** Zone bed; measure application; water the root zone in the morning as needed.
-**Procedure:** Even moisture without runoff.
-**Expected result:** Daily shallow watering or saturated soil.
-**Common mistakes:** Check soil below surface and adjust.
-**Troubleshooting:** Not specified
+**Common mistakes**
 
-## Example 14: Diagnosing plant problems
+- Applying one depth or temperature to all seeds.
+- Keeping containers waterlogged or allowing the surface to dry during germination.
+- Using weak light that produces elongated seedlings.
 
-**Objective:** Separate similar symptoms.
-**Materials:** Notebook, hand lens.
-**Preparation:** Observe distribution, soil moisture, roots and damage pattern; use an IPM decision tree.
-**Procedure:** Narrowed diagnosis and a conservative next step.
-**Expected result:** Treating every yellow leaf as deficiency.
-**Common mistakes:** Review pest/disease evidence and consult qualified local support.
-**Troubleshooting:** Not specified
+**Troubleshooting**
 
-## Example 15: Protecting from frost
+- No emergence: check seed age, depth, temperature, and moisture before resowing.
+- Seedlings stretch: improve light placement and spacing according to fixture guidance.
+- Algae or persistent wetness: improve drainage and reduce excess water; do not abruptly dry emerging seeds.
 
-**Objective:** Protect a tender transplant row.
-**Materials:** Cover, stakes, weight.
-**Preparation:** Anchor cover before frost; keep fabric from stems; remove in morning if warming.
-**Procedure:** Reduced radiative frost exposure.
-**Expected result:** Sealing plants in wet plastic or leaving covers in sun.
-**Common mistakes:** Use breathable cover and remove promptly.
-**Troubleshooting:** Not specified
+**Local considerations:** Indoor sowing dates in the supplied calendar are transcriptions, not independently verified plant-specific recommendations.
+**References:** Use the seed supplier's crop-specific instructions; regional context: OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region.
 
-## Example 16: Harvesting and preserving produce
+## Example 04: Calculate plant spacing
 
-**Objective:** Harvest and preserve small beans.
-**Materials:** Basket, clean knife, freezer boxes.
-**Preparation:** Harvest when tender; chill promptly; blanch or freeze according to verified guidance.
-**Procedure:** Fresh, labelled preserved produce.
-**Expected result:** Freezing raw unverified produce or unsafe water-bath assumptions.
-**Common mistakes:** Use tested preservation directions.
-**Troubleshooting:** Not specified
+**Objective:** Convert a verified spacing recommendation into a measured layout without confusing row spacing and plant spacing.
+**Difficulty and time:** Beginner; 15–30 minutes.
+**Materials:** Tape, string, stakes, bed plan, and a source giving spacing for the identified crop or cultivar.
+**Prerequisites:** Confirm whether the source specifies plant-to-plant distance, row spacing, or both; do not substitute a generic value.
+**Preparation:** Measure the usable inside length and width, accounting for edge clearance, paths, supports, and mature canopy.
 
-## Example 17: Establishing pollinator habitat
+**Procedure**
 
-**Objective:** Create a season-long pollinator strip.
-**Materials:** Native plants, mulch, water.
-**Preparation:** Plan spring to fall bloom, avoid pesticides, preserve bare-soil and shelter zones.
-**Procedure:** Diverse, pesticide-minimized habitat.
-**Expected result:** Claiming that every exotic ornamental is native support.
-**Common mistakes:** Use verified regional native lists.
-**Troubleshooting:** Not specified
+1. Write the source's recommended plant and row distances separately.
+2. Convert bed dimensions and spacing to the same units.
+3. Estimate a grid with floor(usable length ÷ plant spacing) × floor(usable width ÷ row spacing).
+4. Mark a small test section and check that mature plants and access will fit.
+5. Revise the count for the actual cultivar and layout before planting the whole bed.
 
-## Example 18: Establishing a compost bin
+**Expected result:** A layout whose assumptions and source spacing are recorded; the arithmetic is not mistaken for a crop recommendation.
 
-**Objective:** Produce a stable compost pile.
-**Materials:** Lidded bin, browns, greens, fork.
-**Preparation:** Layer browns and greens, maintain damp sponge moisture and aerate.
-**Procedure:** Dark, earthy compost with little odour.
-**Expected result:** Adding meat/disease material or soggy greens.
-**Common mistakes:** Balance carbon, moisture and aeration.
-**Troubleshooting:** Not specified
+**Common mistakes**
+
+- Using an unsupported universal 12-inch lettuce spacing.
+- Treating mature plant spread as the same measure as row spacing.
+- Counting to the bed edge without clearance.
+
+**Troubleshooting**
+
+- Plants overlap early: compare the source's spacing definition and cultivar size; thin or harvest only as appropriate.
+- Rows are difficult to reach: add access before planting the remaining bed.
+- The calculation yields too many plants: reduce count for edge clearance and mature canopy.
+
+**Local considerations:** No single spacing value is established for all Errington sites or cultivars.
+**References:** Use the identified cultivar's seed packet or a crop-specific extension reference; this is a calculation method, not crop spacing advice.
+
+## Example 05: Transplant seedlings
+
+**Objective:** Move a healthy, hardened seedling into prepared soil with minimal root disturbance.
+**Difficulty and time:** Beginner; about 10–20 minutes per small group.
+**Materials:** Labeled seedlings, hand trowel, water, and suitable temporary protection if needed.
+**Prerequisites:** Confirm identity, species-specific planting depth, root-ball condition, soil workability, and current forecast.
+**Preparation:** Water the root ball if dry; prepare the planting position and protection before removing seedlings from containers.
+
+**Procedure**
+
+1. Make a hole that accommodates the root ball without sharply bending roots.
+2. Set the plant at the depth appropriate to its species.
+3. Backfill and firm gently so the plant is supported without compressing wet soil.
+4. Water in when appropriate for the plant and soil; label the planting.
+5. Check establishment and root-zone moisture over the following days.
+
+**Expected result:** A stable transplant at species-appropriate depth with roots in contact with moist, aerated soil.
+
+**Common mistakes**
+
+- Planting every species at the same depth.
+- Leaving large air gaps or crushing the stem while handling.
+- Transplanting an unhardened plant into harsh sun, wind, or frost risk.
+
+**Troubleshooting**
+
+- Plant wilts: check root-ball moisture, wind, sun exposure, and planting depth before adding water.
+- Plant rocks in the hole: firm the surrounding soil gently and support it until established.
+- Leaves scorch: provide suitable temporary shade and reassess exposure; do not assume nutrient deficiency.
+
+**Local considerations:** The April 15 source anchor is approximate and is not a universal transplant date.
+**References:** OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region.
+
+## Example 06: Harden off transplants
+
+**Objective:** Acclimate indoor-grown plants to outdoor light, wind, and temperature without prescribing a universal schedule.
+**Difficulty and time:** Beginner; repeated short checks over several days, adjusted to plant and weather.
+**Materials:** Seedling tray, sheltered outdoor area, labels, and a way to bring plants back under protection.
+**Prerequisites:** Know the crop's tolerance and ensure a safe indoor or protected location is available if weather changes.
+**Preparation:** Choose mild conditions and a protected site; postpone exposure during harsh wind, damaging cold, or intense sun.
+
+**Procedure**
+
+1. Begin with brief exposure in shade or bright shelter.
+2. Inspect leaf condition and moisture before extending the next exposure.
+3. Gradually increase duration, light, and airflow only while plants tolerate the change.
+4. Return plants to protection when conditions exceed their known tolerance.
+5. Plant out only after hardening and site conditions are both suitable.
+
+**Expected result:** Plants tolerate the intended outdoor location without sudden sun or wind injury.
+
+**Common mistakes**
+
+- Treating seven days as a fixed prescription for every crop and weather pattern.
+- Leaving trays exposed to strong sun, drying wind, or unexpected cold.
+- Assuming hardening off makes a frost-sensitive plant frost-hardy.
+
+**Troubleshooting**
+
+- Bleached or scorched leaves: return to shade and resume more gradually after recovery.
+- Leaves wilt outdoors: check moisture and wind exposure; shorten the next session.
+- Forecast worsens: delay planting and protect plants rather than completing a schedule by date.
+
+**Local considerations:** Outdoor exposure should respond to the actual garden forecast; the local frost anchors are not guarantees.
+**References:** OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region.
+
+## Example 07: Plan succession crops
+
+**Objective:** Spread sowing and harvest workload using crop-specific maturity and seasonal limits.
+**Difficulty and time:** Beginner; 20–40 minutes to plan, repeated sowing as conditions allow.
+**Materials:** Bed map, labels, seed source, calendar, and harvest notes.
+**Prerequisites:** Confirm crop identity, days-to-maturity interpretation, seasonal suitability, and whether later sowings fit local conditions.
+**Preparation:** Choose a modest bed area and define the first crop and observable condition that will free the next block.
+
+**Procedure**
+
+1. Divide the available area into labeled blocks.
+2. Read the crop-specific sowing interval and maturity guidance; do not assume a universal 14-day interval.
+3. Sow the first block and record date, conditions, and quantity.
+4. Make the next sowing only if the crop source and remaining season support it.
+5. Compare emergence and harvest timing; adjust the next year's interval from records.
+
+**Expected result:** Staggered, traceable sowings sized to household use and actual bed availability.
+
+**Common mistakes**
+
+- Repeating a fixed interval without checking crop or seasonal guidance.
+- Sowing more blocks than can be watered, harvested, or used.
+- Planting a follow-on crop before the bed is available.
+
+**Troubleshooting**
+
+- Later sowing fails to emerge: check temperature, moisture, seed depth, and seasonal suitability.
+- Harvests overlap: lengthen the next interval only if the crop's remaining window permits.
+- Bed is not free: shift the sowing based on an observable harvest trigger.
+
+**Local considerations:** Do not infer local sowing windows from a generic calendar when the supplied record is unreviewed.
+**References:** Use crop-specific seed-packet or extension timing; the local calendar remains a transcription requiring review.
+
+## Example 08: Plan crop rotation by family
+
+**Objective:** Record successive crops by verified botanical family to reduce repeated-family concentration where practical.
+**Difficulty and time:** Intermediate; about 30–60 minutes for a multi-bed map.
+**Materials:** Bed map, plant registry with verified family fields, and planting records.
+**Prerequisites:** Resolve plant identity and family first; a common name such as “roots” is not a family.
+**Preparation:** Label beds and list crop families; mark perennials and crops that cannot be moved annually.
+
+**Procedure**
+
+1. Assign each identified annual crop to its verified family.
+2. Keep crops from the same family together only where useful for planning, not as a biological guarantee.
+3. Map family locations for each year and move susceptible annual groups when space permits.
+4. Record exceptions, perennial crops, and the reason a crop remained in place.
+5. Continue scouting and managing pests; rotation alone does not diagnose or prevent every problem.
+
+**Expected result:** A rotation record based on botanical families rather than edible portions, with limitations visible.
+
+**Common mistakes**
+
+- Treating all root crops as one family.
+- Assuming family rotation guarantees pest or disease control.
+- Assigning a family from an ambiguous common name.
+
+**Troubleshooting**
+
+- Family is uncertain: leave it unresolved and verify taxonomy before assigning a rotation group.
+- Too few beds: rotate only where practical and combine with other prevention strategies.
+- A problem recurs despite rotation: identify the causal organism and site conditions rather than extending rotation blindly.
+
+**Local considerations:** The registry's recorded families are not all independently verified; confirm a taxon before using it as a rotation fact.
+**References:** Taxonomic family claims require a current botanical source; no family-level control outcome is guaranteed here.
+
+## Example 09: Support climbing plants
+
+**Objective:** Install a stable support before climbing growth becomes difficult to handle.
+**Difficulty and time:** Beginner; 30–60 minutes depending on support and site.
+**Materials:** Support stakes or frame, suitable netting or trellis, ties, mallet, and gloves.
+**Prerequisites:** Identify the plant's mature height, climbing method, expected crop load, and the support's wind and soil anchorage needs.
+**Preparation:** Position support to preserve access and avoid shading neighboring plants; install anchors before sowing or transplanting.
+
+**Procedure**
+
+1. Choose a support rated for the mature plant and fruit or pod load.
+2. Secure posts or frame in stable ground, checking for overhead or buried hazards.
+3. Attach mesh or crossbars without sharp exposed ends.
+4. Guide young stems loosely; do not constrict expanding growth.
+5. Inspect ties and anchors after wind and as plant weight increases.
+
+**Expected result:** A stable, accessible plant with room for growth and no constricting ties.
+
+**Common mistakes**
+
+- Choosing a light support for a heavy mature crop.
+- Installing stakes through established roots.
+- Tying stems tightly or blocking airflow.
+
+**Troubleshooting**
+
+- Support leans: unload if safe and reinforce anchors before adding more plant weight.
+- Stem is constricted: replace the tie with a loose, soft loop.
+- Plant will not climb: verify its growth habit; some plants require tying rather than twining.
+
+**Local considerations:** Wind exposure varies by garden; inspect supports after local wind events.
+**References:** Select support dimensions and anchoring for the identified plant and site; no universal weight rating is assumed.
+
+## Example 10: Prune a shrub or perennial safely
+
+**Objective:** Make only justified, well-placed cuts after identifying the plant and its flowering or regrowth habit.
+**Difficulty and time:** Intermediate; 20–60 minutes depending on plant size.
+**Materials:** Clean, sharp pruners or saw appropriate to branch diameter, gloves, and plant label.
+**Prerequisites:** Identify the species or cultivar and consult its recommended pruning season, flowering wood, and local safety guidance.
+**Preparation:** Observe the whole plant, distinguish dead from live wood, and identify branch unions before cutting.
+
+**Procedure**
+
+1. Remove only clearly dead, damaged, or crossing material when the cut is safe and appropriate.
+2. Use a clean tool suited to the branch; avoid tearing or leaving a long stub.
+3. Keep cuts outside the branch collar where present; do not flush-cut the trunk.
+4. Stop before major renovation if species-specific timing or response is unknown.
+5. Clean tools between plants when disease spread is a concern.
+
+**Expected result:** Limited, deliberate cuts that preserve the plant's structure and do not claim a species-specific pruning schedule.
+
+**Common mistakes**
+
+- Pruning a spring-flowering plant at an unverified time and removing flower buds.
+- Making indiscriminate heavy cuts to an unidentified shrub.
+- Cutting flush to the trunk or leaving ragged tears.
+
+**Troubleshooting**
+
+- A cut reveals discolored tissue: stop and seek a diagnosis before removing more.
+- Plant fails to flower: review species, pruning date, light, and prior year's growth.
+- Branch is too large for hand pruners: use an appropriate saw or consult a qualified arborist.
+
+**Local considerations:** The calendar's grouped pruning entries do not establish one timing for all listed tree or shrub species.
+**References:** Species-specific pruning guidance is required before timing or renovation cuts.
+
+## Example 11: Divide a perennial
+
+**Objective:** Assess whether an identified perennial can be divided and re-establish viable divisions.
+**Difficulty and time:** Intermediate; 30–90 minutes depending on root mass.
+**Materials:** Garden fork, clean sharp knife or spade, labels, water, and prepared planting area.
+**Prerequisites:** Identify species, confirm suitable division season and growth form, and check soil moisture and forecast.
+**Preparation:** Prepare the new site before lifting; water the plant if soil is dry and mark the original planting depth.
+
+**Procedure**
+
+1. Lift only the amount of root system that can be replanted promptly.
+2. Separate at natural crowns, rhizomes, or rooted sections as appropriate to the species.
+3. Retain viable roots and growing points on each division.
+4. Replant at the species-appropriate depth, water as appropriate, and label.
+5. Monitor establishment and protect from conditions beyond the plant's tolerance.
+
+**Expected result:** Labeled divisions with viable growing points and minimal time exposed above ground.
+
+**Common mistakes**
+
+- Applying one calendar window to all perennials.
+- Making divisions without roots or growing points.
+- Leaving lifted material exposed until roots dry.
+
+**Troubleshooting**
+
+- Division wilts: check root contact and moisture; reduce stress without waterlogging.
+- No growth returns: verify viability, depth, and whether the species is dormant.
+- Clump resists separation: stop rather than forcing an unknown root structure.
+
+**Local considerations:** The supplied ornamental calendar has division cues, but they are transcriptions, not universal species advice.
+**References:** Use an identified plant's propagation reference for timing and division form.
+
+## Example 12: Plan a berry planting
+
+**Objective:** Prepare a site plan for one identified berry species before purchasing or planting stock.
+**Difficulty and time:** Intermediate; 1–2 hours for site assessment and layout.
+**Materials:** Site map, tape, soil test supplies if needed, labels, and species-specific nursery guidance.
+**Prerequisites:** Choose the berry species and cultivar; verify mature size, pollination requirements, light, soil, drainage, spacing, and pruning needs.
+**Preparation:** Assess sunlight, water access, drainage, access for harvest, and whether netting or support is needed.
+
+**Procedure**
+
+1. Record site measurements and existing constraints.
+2. Compare the site's soil and exposure with a reliable source for the selected berry.
+3. Check cultivar pollination and mature-size information before setting row spacing.
+4. Prepare supports or protection before planting if the verified plan requires them.
+5. Plant at the nursery- or species-specified depth and label each plant.
+
+**Expected result:** A species-specific planting plan; this generic example intentionally supplies no unsupported berry spacing or pruning date.
+
+**Common mistakes**
+
+- Treating strawberries, cane berries, currants, and blueberries as having one soil or pruning requirement.
+- Planting before checking drainage or mature size.
+- Applying fertilizer or mulch against crowns without plant-specific guidance.
+
+**Troubleshooting**
+
+- Poor establishment: review planting depth, root condition, moisture, and site match.
+- Little fruit: verify age, cultivar, pollination needs, light, and pruning history.
+- Crowded row: compare mature size with the plan before moving established plants.
+
+**Local considerations:** Local timing must be checked for the chosen species; grouped berry entries in the source calendar are not interchangeable.
+**References:** Use species- and cultivar-specific extension or nursery guidance; no single berry profile is implied.
+
+## Example 13: Measure irrigation delivery
+
+**Objective:** Check whether a watering system delivers water evenly and wets the intended root zone.
+**Difficulty and time:** Beginner; 30–60 minutes.
+**Materials:** Catch cups, ruler, timer, notebook, and trowel or soil probe.
+**Prerequisites:** Know which zone is being tested; do not run electrical or pressurized equipment outside its instructions.
+**Preparation:** Place catch cups at the beginning, middle, and end of the irrigation line; note recent rain and soil condition.
+
+**Procedure**
+
+1. Run the system for a recorded interval.
+2. Compare collected amounts to locate uneven output; clear or repair emitters according to the product instructions.
+3. Check soil moisture below the surface in several parts of the bed.
+4. Adjust duration or emitter layout in a small step, then repeat the measurement.
+5. Record the setting and repeat checks as plants and weather change.
+
+**Expected result:** A measured distribution and root-zone check rather than a fixed daily schedule.
+
+**Common mistakes**
+
+- Assuming all emitters deliver the same amount.
+- Judging moisture only from the soil surface.
+- Using a water-volume conversion as a universal irrigation prescription.
+
+**Troubleshooting**
+
+- One cup collects much less: check blockage, pressure, or line length.
+- Runoff begins: reduce application rate or split the run, then recheck infiltration.
+- Soil is wet but plants wilt: investigate roots, drainage, and plant stress rather than adding water automatically.
+
+**Local considerations:** Summer dry-spell descriptions are source-reported; respond to measured soil and current conditions.
+**References:** OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region.
+
+## Example 14: Diagnose a plant problem
+
+**Objective:** Narrow possible causes before treatment by recording symptoms, distribution, and site conditions.
+**Difficulty and time:** Beginner; 15–45 minutes for initial checks.
+**Materials:** Notebook, phone or camera, hand lens, plant label, and clean sample bag if a diagnostic service requests it.
+**Prerequisites:** Do not apply a pesticide or fertilizer until a likely cause and appropriate action are supported.
+**Preparation:** Photograph the whole plant, affected area, and close details; note date and recent changes.
+
+**Procedure**
+
+1. Describe the symptom without naming a pest or disease.
+2. Map whether one plant, one species, one bed edge, or many plants are affected.
+3. Check leaf surfaces, stems, root-zone moisture, drainage, and recent weather or management changes.
+4. Compare several diagnostic features with a reliable source or ask a qualified diagnostic service.
+5. Choose the least disruptive justified action and record the result for follow-up.
+
+**Expected result:** A documented differential and next check, not an unsupported diagnosis from one symptom.
+
+**Common mistakes**
+
+- Treating every yellow leaf as a nutrient deficiency.
+- Confusing waterlogged roots with drought.
+- Spraying before identifying a target organism.
+
+**Troubleshooting**
+
+- Symptoms spread quickly: isolate affected material where safe and seek timely diagnostic help.
+- No pest is visible: review water, roots, weather, exposure, and recent changes.
+- First intervention fails: revisit the diagnosis rather than escalating product use.
+
+**Local considerations:** A verified Errington-specific pest and disease matrix is not yet available.
+**References:** Use current BC plant diagnostic or extension guidance appropriate to the identified plant and symptom.
+
+## Example 15: Protect a plant from frost
+
+**Objective:** Reduce exposure during a forecast cold event without treating a calendar anchor as a guarantee.
+**Difficulty and time:** Beginner; 10–20 minutes before the event, plus checks during warming.
+**Materials:** Suitable frost cloth or cover, hoops if needed, clips or weights, and forecast source.
+**Prerequisites:** Identify plant tolerance and cover instructions; have protection sized to the bed and wind exposure.
+**Preparation:** Check the forecast, locate supports, and plan how to vent or remove cover as conditions change.
+
+**Procedure**
+
+1. Install hoops or supports so the cover does not crush foliage.
+2. Drape and secure the cover before the event, closing gaps while avoiding damage to the plant.
+3. Use plastic only with an appropriate support and follow its instructions; do not leave plants sealed in sun.
+4. Check conditions and remove or vent the cover as temperatures rise.
+5. Inspect damage after the event before deciding whether pruning or replacement is needed.
+
+**Expected result:** A secured, temporary protection setup with an active removal/venting plan.
+
+**Common mistakes**
+
+- Assuming April 15 or October 15 guarantees frost-free conditions.
+- Allowing plastic to touch foliage or overheat plants.
+- Leaving an unsecured cover in wind.
+
+**Troubleshooting**
+
+- Cover lifts: secure edges and add support without crushing plants.
+- Plants overheat: vent or remove cover promptly when safe.
+- Injury appears despite cover: record forecast and site conditions; cover performance varies.
+
+**Local considerations:** The supplied frost dates are approximate anchors; check current forecast and garden microclimate.
+**References:** Follow the cover manufacturer's instructions and plant-specific cold-tolerance source.
+
+## Example 16: Harvest and preserve produce safely
+
+**Objective:** Prepare a small, identified harvest for one preservation method using a current tested procedure.
+**Difficulty and time:** Beginner for freezing; food-safety procedures vary by method.
+**Materials:** Clean basket, potable water, clean utensils, labeled containers, and tested recipe or preservation instructions.
+**Prerequisites:** Identify the crop and preservation method; use tested, current directions for blanching, freezing, drying, fermenting, or canning.
+**Preparation:** Check maturity cues for the crop, clean work surfaces, prepare containers, and reserve time to process promptly.
+
+**Procedure**
+
+1. Harvest only sound, correctly identified produce at the stage specified by a reliable crop source.
+2. Sort and wash as directed for the chosen preservation method.
+3. Follow the current tested method exactly, including preparation, processing, and storage steps.
+4. Label the food with contents and date; store under the method's stated conditions.
+5. Discard food when safety is uncertain; do not taste it to decide whether it is safe.
+
+**Expected result:** Labeled produce processed under a tested procedure; the example does not invent times, temperatures, or canning recipes.
+
+**Common mistakes**
+
+- Using an untested canning recipe or changing proportions and processing time.
+- Freezing without following the crop's quality and preparation guidance.
+- Assuming appearance or smell proves food safety.
+
+**Troubleshooting**
+
+- A jar seal fails: follow current food-safety guidance for the specific product and elapsed time; do not assume it is shelf stable.
+- Freezer containers are unlabeled: identify contents only if certain; otherwise do not guess.
+- Processing instructions are missing: pause and obtain a tested procedure before proceeding.
+
+**Local considerations:** Harvest dates and maturity depend on the crop and actual season; the supplied calendar is not a food-safety authority.
+**References:** National Center for Home Food Preservation, https://nchfp.uga.edu/; follow its current tested recipes and guidance.
+
+## Example 17: Plan a pollinator-supportive garden area
+
+**Objective:** Plan habitat resources for identified local pollinators without labeling unverified plants as native or beneficial.
+**Difficulty and time:** Intermediate; 1–2 hours for a first site and plant list.
+**Materials:** Site map, locally appropriate plant references, labels, water-source plan, and habitat observation notebook.
+**Prerequisites:** Verify candidate plant identities and regional status; check invasive-plant guidance and site conditions.
+**Preparation:** Map sun, soil moisture, nesting habitat, existing vegetation, and pesticide exposure.
+
+**Procedure**
+
+1. Select a small area and list habitat needs to investigate: flowering resources, host plants, shelter, nesting substrate, and water.
+2. Use authoritative regional sources to select suitable plants and confirm names before purchase.
+3. Plan a varied sequence of bloom only where supported by regional plant references; do not infer Errington dates from a wider ecoregion.
+4. Retain suitable undisturbed habitat where safe and compatible with the garden.
+5. Observe visitors and plant performance over seasons; revise the plan from evidence.
+
+**Expected result:** A site-specific habitat plan with verified plant identities and explicit unknowns.
+
+**Common mistakes**
+
+- Calling every ornamental a native plant or pollinator resource.
+- Removing all nesting habitat or applying pesticides prophylactically.
+- Treating a regional bloom table as an Errington-specific calendar.
+
+**Troubleshooting**
+
+- Few visits observed: check bloom availability, weather, observation timing, and plant establishment before assuming failure.
+- Plant identity uncertain: do not use it as a native reference until verified.
+- Water source attracts pests or becomes stagnant: change or remove it using appropriate local guidance.
+
+**Local considerations:** The Eastern Vancouver Island pollinator guide cited in the draft is not available for verification; the plant list remains pending.
+**References:** Verify plant identity and native status through E-Flora BC and regional ecological sources before publication.
+
+## Example 18: Set up a composting trial
+
+**Objective:** Start a small, observable compost batch using suitable materials while avoiding unsupported exact ratios.
+**Difficulty and time:** Beginner; 30–60 minutes to set up, with periodic monitoring.
+**Materials:** Ventilated bin or contained pile, suitable plant-based materials, fork, water source, and thermometer if available.
+**Prerequisites:** Check local wildlife, nuisance, and municipal guidance; exclude materials inappropriate for the chosen system.
+**Preparation:** Choose a drained, accessible location; gather a mix of dry structural material and moist fresh plant material.
+
+**Procedure**
+
+1. Add a loose mixture of dry and fresh suitable material; avoid packing it tightly.
+2. Moisten evenly so the material is damp, not saturated; do not rely on a fixed ratio unless a chosen source specifies one.
+3. Check odor, moisture, and airflow periodically; turn or loosen if the system is compacted and the method calls for aeration.
+4. Add dry material if overly wet, or water gradually if too dry.
+5. Use finished material only when it is mature for the intended application and its source is known.
+
+**Expected result:** A monitored batch with documented inputs and an adjustment path, not a guaranteed composting timeline.
+
+**Common mistakes**
+
+- Adding unsuitable food or diseased material without checking local and system guidance.
+- Making the pile waterlogged or tightly compacted.
+- Assuming color alone proves maturity.
+
+**Troubleshooting**
+
+- Strong sour or rotten odor: check excess moisture and compaction; add suitable dry structure and aerate if appropriate.
+- Pile is dry and inactive: add water gradually and check material mix.
+- Wildlife accesses the bin: secure it and revise inputs according to local guidance.
+
+**Local considerations:** Choose a secure location that does not create runoff or wildlife conflict on the property.
+**References:** Use current provincial or municipal composting guidance for accepted materials and wildlife considerations.
 
 # Source and Verification Policy
 

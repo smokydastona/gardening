@@ -334,42 +334,548 @@ def produce_supplement(candidate_manifest: list[dict], figures: list[dict]) -> P
         ])
 
     examples = [
-        ("Planning a raised vegetable bed","Use one 4 ft x 8 ft bed; 32 sq ft.","Tape, stakes, compost, soil test.","Map orientation and access; mark corners; add 8-12 in of soil mix; leave 24 in paths.","A flat, accessible bed with full sun and 32 sq ft planting area.","Deep paths, untreated edging, and compacted soil.","Measure sun and drainage before planting; correct compaction."),
-        ("Preparing soil","Assess and improve a loam bed.","Soil test, fork, compost.","Avoid wet digging; remove weeds; incorporate mature compost only as indicated; rake level.","Stable, friable soil and even drainage.","Working saturated soil or adding excess amendments.","Retest and correct drainage before replanting."),
-        ("Starting seeds indoors","Start a cool-season tray.","Seed tray, sterile mix, labels, light.","Sanitize tray; fill; sow at packet depth; label; mist; provide 14-16 hr light.","Even germination and compact seedlings.","Overwatering, deep sowing and heat mats misused for cool crops.","Vent, thin and reduce moisture."),
-        ("Calculating planting spacing","Fit 32 lettuce transplants in 32 sq ft.","Tape, seed packet spacing.","Use 12 in on-center spacing; 4 columns x 8 rows on a 4 x 8 bed.","Eight staggered short rows.","Mixing mature spread and row spacing.","Check the exact cultivar and recalculate."),
-        ("Transplanting seedlings","Move hardened starts safely.","Plant tags, trowel, water.","Water before; plant to correct depth; firm gently; water at soil line.","No wilt after establishment.","Planting too deep or leaving air pockets.","Rewater and add mulch away from stems."),
-        ("Hardening off plants","Adapt indoor plants to outdoor conditions.","Tray, sheltered location.","Day 1-2 shade and wind protection; increase light and exposure; bring in if frost threatens.","Plants tolerate direct outdoor conditions.","Sunburn, wind damage or skipped frost protection.","Restart gradual exposure."),
-        ("Planning succession crops","Sow radish or lettuce every 14 days.","Seed, labels, calendar.","Divide a bed into blocks; sow block one; repeat after 14 days.","Continuous small harvests.","Oversowing one large harvest window.","Thin and stagger sowings."),
-        ("Crop rotation","Rotate four crop families.","Bed map and labels.","Group nightshades, brassicas, legumes and roots; move each group one bed annually.","Rotation notes and reduced repeated-family pressure.","Assuming rotation replaces pest diagnosis.","Keep records and diagnose symptoms."),
-        ("Supporting climbing plants","Support peas or pole beans.","Netting, stakes, ties.","Install support before planting; direct seedlings beside support; loose-tie growth.","Stable vines and harvest access.","Tying tightly or staking after roots are disturbed.","Replace damaged ties with soft, slack loops."),
-        ("Pruning shrubs and perennials","Remove dead or crossing growth safely.","Clean shears, gloves.","Identify live wood and branch union; remove dead wood; avoid spring-blooming shrub cuts after bud set.","Healthy structure and accurate timing.","Heavy pruning at the wrong season.","Stop and confirm species timing."),
-        ("Dividing perennials","Divide a crowded clump.","Fork, knife, labels.","Lift dormant or post-bloom clump; divide at natural joins; replant promptly.","Two or more viable divisions.","Planting pieces too deep or dividing in frost/heat.","Replant and water; reserve uncertain species for review."),
-        ("Growing berries","Establish a small berry row.","Berry starts, mulch, supports.","Improve drainage; set at nursery depth; mulch; net if appropriate.","Healthy growth and harvestable fruit.","Mulch against crowns or overfeeding.","Remove mulch from crowns and verify nutrient needs."),
-        ("Managing irrigation","Water a 4 x 8 bed efficiently.","Irrigation tubing, controller, catch cups.","Zone bed; measure application; water the root zone in the morning as needed.","Even moisture without runoff.","Daily shallow watering or saturated soil.","Check soil below surface and adjust."),
-        ("Diagnosing plant problems","Separate similar symptoms.","Notebook, hand lens.","Observe distribution, soil moisture, roots and damage pattern; use an IPM decision tree.","Narrowed diagnosis and a conservative next step.","Treating every yellow leaf as deficiency.","Review pest/disease evidence and consult qualified local support."),
-        ("Protecting from frost","Protect a tender transplant row.","Cover, stakes, weight.","Anchor cover before frost; keep fabric from stems; remove in morning if warming.","Reduced radiative frost exposure.","Sealing plants in wet plastic or leaving covers in sun.","Use breathable cover and remove promptly."),
-        ("Harvesting and preserving produce","Harvest and preserve small beans.","Basket, clean knife, freezer boxes.","Harvest when tender; chill promptly; blanch or freeze according to verified guidance.","Fresh, labelled preserved produce.","Freezing raw unverified produce or unsafe water-bath assumptions.","Use tested preservation directions."),
-        ("Establishing pollinator habitat","Create a season-long pollinator strip.","Native plants, mulch, water.","Plan spring to fall bloom, avoid pesticides, preserve bare-soil and shelter zones.","Diverse, pesticide-minimized habitat.","Claiming that every exotic ornamental is native support.","Use verified regional native lists."),
-        ("Establishing a compost bin","Produce a stable compost pile.","Lidded bin, browns, greens, fork.","Layer browns and greens, maintain damp sponge moisture and aerate.","Dark, earthy compost with little odour.","Adding meat/disease material or soggy greens.","Balance carbon, moisture and aeration."),
+        {
+            "title": "Plan and prepare a raised vegetable bed",
+            "objective": "Lay out a reachable 4 × 8 ft bed (32 sq ft) at a site suitable for the selected crops.",
+            "difficulty": "Beginner; about 1–2 hours for layout, excluding delivery and construction.",
+            "materials": "Tape, stakes, string, level, shovel, site map, and bed material selected for food-growing use.",
+            "prerequisites": "Check site history, access to water, drainage, sun exposure, utilities, slope, and any contamination concern before excavation or filling.",
+            "preparation": "Mark the actual bed footprint and paths; test reach from every side; observe sun and wet spots rather than assuming them.",
+            "procedure": [
+                "Stake a 4 × 8 ft rectangle and measure the inside dimensions.",
+                "Confirm the center can be reached without stepping on growing soil; widen paths only to suit actual access and tools.",
+                "Remove persistent weeds and loosen compacted underlying soil only when it is workable and safe to dig.",
+                "Select a suitable fill based on intended crops and site conditions; use a soil test to guide nutrient amendments.",
+                "Estimate geometric volume as length × width × fill depth, then confirm settling and delivery quantity with the supplier.",
+                "Fill, level, water to settle, and recheck drainage and low spots before planting."
+            ],
+            "result": "A stable, accessible 32 sq ft bed with documented fill and no assumed nutrient or drainage diagnosis.",
+            "mistakes": [
+                "Making the bed too wide to reach its center.",
+                "Filling over a drainage, contamination, or compaction problem without assessment.",
+                "Adding fertilizer or lime without a diagnosis."
+            ],
+            "troubleshooting": [
+                "Water pools: pause planting and investigate the bed and underlying drainage.",
+                "Fill settles unevenly: top up with the same suitable material and recheck level.",
+                "Access is awkward: adjust the path or bed width before installing permanent irrigation."
+            ],
+            "local": "Use the supplied frost dates only as approximate source anchors; site exposure and soil conditions vary within Errington.",
+            "references": "OSU Extension, Raised Bed Gardening (FS 270), https://extension.oregonstate.edu/catalog/fs-270-raised-bed-gardening; BC Soil Nutrient Management, https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/agricultural-land-and-environment/soil-nutrients/management."
+        },
+        {
+            "title": "Assess and prepare garden soil",
+            "objective": "Observe a proposed bed and decide what evidence is needed before disturbing or amending its soil.",
+            "difficulty": "Beginner; 30–60 minutes for inspection, plus laboratory turnaround if a test is submitted.",
+            "materials": "Trowel, clean sample container, notebook, labels, and laboratory supplies if testing.",
+            "prerequisites": "Know the intended growing area and crop group; follow the selected laboratory's sampling instructions.",
+            "preparation": "Compare several locations after wet and dry weather; keep visibly different areas as separate observations or samples.",
+            "procedure": [
+                "Record standing water, crusting, compaction, construction debris, and where the surface dries first.",
+                "Check a small soil handful at working depth; wait if it smears or forms a dense wet mass.",
+                "Inspect a small profile for abrupt fill layers or dense pans without cutting important roots or utilities.",
+                "Submit a representative sample when pH or nutrient decisions are needed.",
+                "Use the report and crop-specific guidance to choose an amendment; otherwise avoid speculative inputs."
+            ],
+            "result": "A documented soil condition and a justified next step: wait, sample, amend conservatively, or address a physical site issue.",
+            "mistakes": [
+                "Working saturated soil and compacting it further.",
+                "Treating a jar texture test or leaf color as a complete fertility diagnosis.",
+                "Applying lime, fertilizer, manure, or concentrated amendment without evidence."
+            ],
+            "troubleshooting": [
+                "Soil smears when squeezed: wait for it to dry to a workable condition.",
+                "A sample has mixed soil types: resample distinct areas separately.",
+                "Test results are unclear: ask the laboratory or qualified local advisor to interpret them for the intended crop."
+            ],
+            "local": "No property-specific soil condition is established by the Errington calendar; inspect each garden independently.",
+            "references": "BC Soil Nutrient Management, https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/agricultural-land-and-environment/soil-nutrients/management."
+        },
+        {
+            "title": "Start seeds indoors",
+            "objective": "Sow a small, labeled batch using instructions for the identified crop and seed lot.",
+            "difficulty": "Beginner; 20–40 minutes to sow, followed by routine checks.",
+            "materials": "Clean draining containers, suitable seed-starting medium, labels, seeds, water, and appropriate light.",
+            "prerequisites": "Check the packet or plant-specific source for sowing depth, germination temperature, light response, and whether indoor sowing is appropriate.",
+            "preparation": "Clean reused containers; prepare labels before sowing; moisten the medium evenly without saturating it.",
+            "procedure": [
+                "Fill containers loosely and level the surface.",
+                "Sow at the source-stated depth and label crop, cultivar if known, and date.",
+                "Provide the stated germination conditions and keep the medium evenly moist.",
+                "After emergence, provide adequate light, airflow, and room for seedlings.",
+                "Thin or transplant gently; handle seedlings by a leaf rather than crushing the stem."
+            ],
+            "result": "Clearly identified seedlings that emerge under the selected source's conditions and remain compact and healthy.",
+            "mistakes": [
+                "Applying one depth or temperature to all seeds.",
+                "Keeping containers waterlogged or allowing the surface to dry during germination.",
+                "Using weak light that produces elongated seedlings."
+            ],
+            "troubleshooting": [
+                "No emergence: check seed age, depth, temperature, and moisture before resowing.",
+                "Seedlings stretch: improve light placement and spacing according to fixture guidance.",
+                "Algae or persistent wetness: improve drainage and reduce excess water; do not abruptly dry emerging seeds."
+            ],
+            "local": "Indoor sowing dates in the supplied calendar are transcriptions, not independently verified plant-specific recommendations.",
+            "references": "Use the seed supplier's crop-specific instructions; regional context: OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region."
+        },
+        {
+            "title": "Calculate plant spacing",
+            "objective": "Convert a verified spacing recommendation into a measured layout without confusing row spacing and plant spacing.",
+            "difficulty": "Beginner; 15–30 minutes.",
+            "materials": "Tape, string, stakes, bed plan, and a source giving spacing for the identified crop or cultivar.",
+            "prerequisites": "Confirm whether the source specifies plant-to-plant distance, row spacing, or both; do not substitute a generic value.",
+            "preparation": "Measure the usable inside length and width, accounting for edge clearance, paths, supports, and mature canopy.",
+            "procedure": [
+                "Write the source's recommended plant and row distances separately.",
+                "Convert bed dimensions and spacing to the same units.",
+                "Estimate a grid with floor(usable length ÷ plant spacing) × floor(usable width ÷ row spacing).",
+                "Mark a small test section and check that mature plants and access will fit.",
+                "Revise the count for the actual cultivar and layout before planting the whole bed."
+            ],
+            "result": "A layout whose assumptions and source spacing are recorded; the arithmetic is not mistaken for a crop recommendation.",
+            "mistakes": [
+                "Using an unsupported universal 12-inch lettuce spacing.",
+                "Treating mature plant spread as the same measure as row spacing.",
+                "Counting to the bed edge without clearance."
+            ],
+            "troubleshooting": [
+                "Plants overlap early: compare the source's spacing definition and cultivar size; thin or harvest only as appropriate.",
+                "Rows are difficult to reach: add access before planting the remaining bed.",
+                "The calculation yields too many plants: reduce count for edge clearance and mature canopy."
+            ],
+            "local": "No single spacing value is established for all Errington sites or cultivars.",
+            "references": "Use the identified cultivar's seed packet or a crop-specific extension reference; this is a calculation method, not crop spacing advice."
+        },
+        {
+            "title": "Transplant seedlings",
+            "objective": "Move a healthy, hardened seedling into prepared soil with minimal root disturbance.",
+            "difficulty": "Beginner; about 10–20 minutes per small group.",
+            "materials": "Labeled seedlings, hand trowel, water, and suitable temporary protection if needed.",
+            "prerequisites": "Confirm identity, species-specific planting depth, root-ball condition, soil workability, and current forecast.",
+            "preparation": "Water the root ball if dry; prepare the planting position and protection before removing seedlings from containers.",
+            "procedure": [
+                "Make a hole that accommodates the root ball without sharply bending roots.",
+                "Set the plant at the depth appropriate to its species.",
+                "Backfill and firm gently so the plant is supported without compressing wet soil.",
+                "Water in when appropriate for the plant and soil; label the planting.",
+                "Check establishment and root-zone moisture over the following days."
+            ],
+            "result": "A stable transplant at species-appropriate depth with roots in contact with moist, aerated soil.",
+            "mistakes": [
+                "Planting every species at the same depth.",
+                "Leaving large air gaps or crushing the stem while handling.",
+                "Transplanting an unhardened plant into harsh sun, wind, or frost risk."
+            ],
+            "troubleshooting": [
+                "Plant wilts: check root-ball moisture, wind, sun exposure, and planting depth before adding water.",
+                "Plant rocks in the hole: firm the surrounding soil gently and support it until established.",
+                "Leaves scorch: provide suitable temporary shade and reassess exposure; do not assume nutrient deficiency."
+            ],
+            "local": "The April 15 source anchor is approximate and is not a universal transplant date.",
+            "references": "OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region."
+        },
+        {
+            "title": "Harden off transplants",
+            "objective": "Acclimate indoor-grown plants to outdoor light, wind, and temperature without prescribing a universal schedule.",
+            "difficulty": "Beginner; repeated short checks over several days, adjusted to plant and weather.",
+            "materials": "Seedling tray, sheltered outdoor area, labels, and a way to bring plants back under protection.",
+            "prerequisites": "Know the crop's tolerance and ensure a safe indoor or protected location is available if weather changes.",
+            "preparation": "Choose mild conditions and a protected site; postpone exposure during harsh wind, damaging cold, or intense sun.",
+            "procedure": [
+                "Begin with brief exposure in shade or bright shelter.",
+                "Inspect leaf condition and moisture before extending the next exposure.",
+                "Gradually increase duration, light, and airflow only while plants tolerate the change.",
+                "Return plants to protection when conditions exceed their known tolerance.",
+                "Plant out only after hardening and site conditions are both suitable."
+            ],
+            "result": "Plants tolerate the intended outdoor location without sudden sun or wind injury.",
+            "mistakes": [
+                "Treating seven days as a fixed prescription for every crop and weather pattern.",
+                "Leaving trays exposed to strong sun, drying wind, or unexpected cold.",
+                "Assuming hardening off makes a frost-sensitive plant frost-hardy."
+            ],
+            "troubleshooting": [
+                "Bleached or scorched leaves: return to shade and resume more gradually after recovery.",
+                "Leaves wilt outdoors: check moisture and wind exposure; shorten the next session.",
+                "Forecast worsens: delay planting and protect plants rather than completing a schedule by date."
+            ],
+            "local": "Outdoor exposure should respond to the actual garden forecast; the local frost anchors are not guarantees.",
+            "references": "OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region."
+        },
+        {
+            "title": "Plan succession crops",
+            "objective": "Spread sowing and harvest workload using crop-specific maturity and seasonal limits.",
+            "difficulty": "Beginner; 20–40 minutes to plan, repeated sowing as conditions allow.",
+            "materials": "Bed map, labels, seed source, calendar, and harvest notes.",
+            "prerequisites": "Confirm crop identity, days-to-maturity interpretation, seasonal suitability, and whether later sowings fit local conditions.",
+            "preparation": "Choose a modest bed area and define the first crop and observable condition that will free the next block.",
+            "procedure": [
+                "Divide the available area into labeled blocks.",
+                "Read the crop-specific sowing interval and maturity guidance; do not assume a universal 14-day interval.",
+                "Sow the first block and record date, conditions, and quantity.",
+                "Make the next sowing only if the crop source and remaining season support it.",
+                "Compare emergence and harvest timing; adjust the next year's interval from records."
+            ],
+            "result": "Staggered, traceable sowings sized to household use and actual bed availability.",
+            "mistakes": [
+                "Repeating a fixed interval without checking crop or seasonal guidance.",
+                "Sowing more blocks than can be watered, harvested, or used.",
+                "Planting a follow-on crop before the bed is available."
+            ],
+            "troubleshooting": [
+                "Later sowing fails to emerge: check temperature, moisture, seed depth, and seasonal suitability.",
+                "Harvests overlap: lengthen the next interval only if the crop's remaining window permits.",
+                "Bed is not free: shift the sowing based on an observable harvest trigger."
+            ],
+            "local": "Do not infer local sowing windows from a generic calendar when the supplied record is unreviewed.",
+            "references": "Use crop-specific seed-packet or extension timing; the local calendar remains a transcription requiring review."
+        },
+        {
+            "title": "Plan crop rotation by family",
+            "objective": "Record successive crops by verified botanical family to reduce repeated-family concentration where practical.",
+            "difficulty": "Intermediate; about 30–60 minutes for a multi-bed map.",
+            "materials": "Bed map, plant registry with verified family fields, and planting records.",
+            "prerequisites": "Resolve plant identity and family first; a common name such as “roots” is not a family.",
+            "preparation": "Label beds and list crop families; mark perennials and crops that cannot be moved annually.",
+            "procedure": [
+                "Assign each identified annual crop to its verified family.",
+                "Keep crops from the same family together only where useful for planning, not as a biological guarantee.",
+                "Map family locations for each year and move susceptible annual groups when space permits.",
+                "Record exceptions, perennial crops, and the reason a crop remained in place.",
+                "Continue scouting and managing pests; rotation alone does not diagnose or prevent every problem."
+            ],
+            "result": "A rotation record based on botanical families rather than edible portions, with limitations visible.",
+            "mistakes": [
+                "Treating all root crops as one family.",
+                "Assuming family rotation guarantees pest or disease control.",
+                "Assigning a family from an ambiguous common name."
+            ],
+            "troubleshooting": [
+                "Family is uncertain: leave it unresolved and verify taxonomy before assigning a rotation group.",
+                "Too few beds: rotate only where practical and combine with other prevention strategies.",
+                "A problem recurs despite rotation: identify the causal organism and site conditions rather than extending rotation blindly."
+            ],
+            "local": "The registry's recorded families are not all independently verified; confirm a taxon before using it as a rotation fact.",
+            "references": "Taxonomic family claims require a current botanical source; no family-level control outcome is guaranteed here."
+        },
+        {
+            "title": "Support climbing plants",
+            "objective": "Install a stable support before climbing growth becomes difficult to handle.",
+            "difficulty": "Beginner; 30–60 minutes depending on support and site.",
+            "materials": "Support stakes or frame, suitable netting or trellis, ties, mallet, and gloves.",
+            "prerequisites": "Identify the plant's mature height, climbing method, expected crop load, and the support's wind and soil anchorage needs.",
+            "preparation": "Position support to preserve access and avoid shading neighboring plants; install anchors before sowing or transplanting.",
+            "procedure": [
+                "Choose a support rated for the mature plant and fruit or pod load.",
+                "Secure posts or frame in stable ground, checking for overhead or buried hazards.",
+                "Attach mesh or crossbars without sharp exposed ends.",
+                "Guide young stems loosely; do not constrict expanding growth.",
+                "Inspect ties and anchors after wind and as plant weight increases."
+            ],
+            "result": "A stable, accessible plant with room for growth and no constricting ties.",
+            "mistakes": [
+                "Choosing a light support for a heavy mature crop.",
+                "Installing stakes through established roots.",
+                "Tying stems tightly or blocking airflow."
+            ],
+            "troubleshooting": [
+                "Support leans: unload if safe and reinforce anchors before adding more plant weight.",
+                "Stem is constricted: replace the tie with a loose, soft loop.",
+                "Plant will not climb: verify its growth habit; some plants require tying rather than twining."
+            ],
+            "local": "Wind exposure varies by garden; inspect supports after local wind events.",
+            "references": "Select support dimensions and anchoring for the identified plant and site; no universal weight rating is assumed."
+        },
+        {
+            "title": "Prune a shrub or perennial safely",
+            "objective": "Make only justified, well-placed cuts after identifying the plant and its flowering or regrowth habit.",
+            "difficulty": "Intermediate; 20–60 minutes depending on plant size.",
+            "materials": "Clean, sharp pruners or saw appropriate to branch diameter, gloves, and plant label.",
+            "prerequisites": "Identify the species or cultivar and consult its recommended pruning season, flowering wood, and local safety guidance.",
+            "preparation": "Observe the whole plant, distinguish dead from live wood, and identify branch unions before cutting.",
+            "procedure": [
+                "Remove only clearly dead, damaged, or crossing material when the cut is safe and appropriate.",
+                "Use a clean tool suited to the branch; avoid tearing or leaving a long stub.",
+                "Keep cuts outside the branch collar where present; do not flush-cut the trunk.",
+                "Stop before major renovation if species-specific timing or response is unknown.",
+                "Clean tools between plants when disease spread is a concern."
+            ],
+            "result": "Limited, deliberate cuts that preserve the plant's structure and do not claim a species-specific pruning schedule.",
+            "mistakes": [
+                "Pruning a spring-flowering plant at an unverified time and removing flower buds.",
+                "Making indiscriminate heavy cuts to an unidentified shrub.",
+                "Cutting flush to the trunk or leaving ragged tears."
+            ],
+            "troubleshooting": [
+                "A cut reveals discolored tissue: stop and seek a diagnosis before removing more.",
+                "Plant fails to flower: review species, pruning date, light, and prior year's growth.",
+                "Branch is too large for hand pruners: use an appropriate saw or consult a qualified arborist."
+            ],
+            "local": "The calendar's grouped pruning entries do not establish one timing for all listed tree or shrub species.",
+            "references": "Species-specific pruning guidance is required before timing or renovation cuts."
+        },
+        {
+            "title": "Divide a perennial",
+            "objective": "Assess whether an identified perennial can be divided and re-establish viable divisions.",
+            "difficulty": "Intermediate; 30–90 minutes depending on root mass.",
+            "materials": "Garden fork, clean sharp knife or spade, labels, water, and prepared planting area.",
+            "prerequisites": "Identify species, confirm suitable division season and growth form, and check soil moisture and forecast.",
+            "preparation": "Prepare the new site before lifting; water the plant if soil is dry and mark the original planting depth.",
+            "procedure": [
+                "Lift only the amount of root system that can be replanted promptly.",
+                "Separate at natural crowns, rhizomes, or rooted sections as appropriate to the species.",
+                "Retain viable roots and growing points on each division.",
+                "Replant at the species-appropriate depth, water as appropriate, and label.",
+                "Monitor establishment and protect from conditions beyond the plant's tolerance."
+            ],
+            "result": "Labeled divisions with viable growing points and minimal time exposed above ground.",
+            "mistakes": [
+                "Applying one calendar window to all perennials.",
+                "Making divisions without roots or growing points.",
+                "Leaving lifted material exposed until roots dry."
+            ],
+            "troubleshooting": [
+                "Division wilts: check root contact and moisture; reduce stress without waterlogging.",
+                "No growth returns: verify viability, depth, and whether the species is dormant.",
+                "Clump resists separation: stop rather than forcing an unknown root structure."
+            ],
+            "local": "The supplied ornamental calendar has division cues, but they are transcriptions, not universal species advice.",
+            "references": "Use an identified plant's propagation reference for timing and division form."
+        },
+        {
+            "title": "Plan a berry planting",
+            "objective": "Prepare a site plan for one identified berry species before purchasing or planting stock.",
+            "difficulty": "Intermediate; 1–2 hours for site assessment and layout.",
+            "materials": "Site map, tape, soil test supplies if needed, labels, and species-specific nursery guidance.",
+            "prerequisites": "Choose the berry species and cultivar; verify mature size, pollination requirements, light, soil, drainage, spacing, and pruning needs.",
+            "preparation": "Assess sunlight, water access, drainage, access for harvest, and whether netting or support is needed.",
+            "procedure": [
+                "Record site measurements and existing constraints.",
+                "Compare the site's soil and exposure with a reliable source for the selected berry.",
+                "Check cultivar pollination and mature-size information before setting row spacing.",
+                "Prepare supports or protection before planting if the verified plan requires them.",
+                "Plant at the nursery- or species-specified depth and label each plant."
+            ],
+            "result": "A species-specific planting plan; this generic example intentionally supplies no unsupported berry spacing or pruning date.",
+            "mistakes": [
+                "Treating strawberries, cane berries, currants, and blueberries as having one soil or pruning requirement.",
+                "Planting before checking drainage or mature size.",
+                "Applying fertilizer or mulch against crowns without plant-specific guidance."
+            ],
+            "troubleshooting": [
+                "Poor establishment: review planting depth, root condition, moisture, and site match.",
+                "Little fruit: verify age, cultivar, pollination needs, light, and pruning history.",
+                "Crowded row: compare mature size with the plan before moving established plants."
+            ],
+            "local": "Local timing must be checked for the chosen species; grouped berry entries in the source calendar are not interchangeable.",
+            "references": "Use species- and cultivar-specific extension or nursery guidance; no single berry profile is implied."
+        },
+        {
+            "title": "Measure irrigation delivery",
+            "objective": "Check whether a watering system delivers water evenly and wets the intended root zone.",
+            "difficulty": "Beginner; 30–60 minutes.",
+            "materials": "Catch cups, ruler, timer, notebook, and trowel or soil probe.",
+            "prerequisites": "Know which zone is being tested; do not run electrical or pressurized equipment outside its instructions.",
+            "preparation": "Place catch cups at the beginning, middle, and end of the irrigation line; note recent rain and soil condition.",
+            "procedure": [
+                "Run the system for a recorded interval.",
+                "Compare collected amounts to locate uneven output; clear or repair emitters according to the product instructions.",
+                "Check soil moisture below the surface in several parts of the bed.",
+                "Adjust duration or emitter layout in a small step, then repeat the measurement.",
+                "Record the setting and repeat checks as plants and weather change."
+            ],
+            "result": "A measured distribution and root-zone check rather than a fixed daily schedule.",
+            "mistakes": [
+                "Assuming all emitters deliver the same amount.",
+                "Judging moisture only from the soil surface.",
+                "Using a water-volume conversion as a universal irrigation prescription."
+            ],
+            "troubleshooting": [
+                "One cup collects much less: check blockage, pressure, or line length.",
+                "Runoff begins: reduce application rate or split the run, then recheck infiltration.",
+                "Soil is wet but plants wilt: investigate roots, drainage, and plant stress rather than adding water automatically."
+            ],
+            "local": "Summer dry-spell descriptions are source-reported; respond to measured soil and current conditions.",
+            "references": "OSU Extension, Growing Vegetables in the Pacific Northwest Coastal Region, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region."
+        },
+        {
+            "title": "Diagnose a plant problem",
+            "objective": "Narrow possible causes before treatment by recording symptoms, distribution, and site conditions.",
+            "difficulty": "Beginner; 15–45 minutes for initial checks.",
+            "materials": "Notebook, phone or camera, hand lens, plant label, and clean sample bag if a diagnostic service requests it.",
+            "prerequisites": "Do not apply a pesticide or fertilizer until a likely cause and appropriate action are supported.",
+            "preparation": "Photograph the whole plant, affected area, and close details; note date and recent changes.",
+            "procedure": [
+                "Describe the symptom without naming a pest or disease.",
+                "Map whether one plant, one species, one bed edge, or many plants are affected.",
+                "Check leaf surfaces, stems, root-zone moisture, drainage, and recent weather or management changes.",
+                "Compare several diagnostic features with a reliable source or ask a qualified diagnostic service.",
+                "Choose the least disruptive justified action and record the result for follow-up."
+            ],
+            "result": "A documented differential and next check, not an unsupported diagnosis from one symptom.",
+            "mistakes": [
+                "Treating every yellow leaf as a nutrient deficiency.",
+                "Confusing waterlogged roots with drought.",
+                "Spraying before identifying a target organism."
+            ],
+            "troubleshooting": [
+                "Symptoms spread quickly: isolate affected material where safe and seek timely diagnostic help.",
+                "No pest is visible: review water, roots, weather, exposure, and recent changes.",
+                "First intervention fails: revisit the diagnosis rather than escalating product use."
+            ],
+            "local": "A verified Errington-specific pest and disease matrix is not yet available.",
+            "references": "Use current BC plant diagnostic or extension guidance appropriate to the identified plant and symptom."
+        },
+        {
+            "title": "Protect a plant from frost",
+            "objective": "Reduce exposure during a forecast cold event without treating a calendar anchor as a guarantee.",
+            "difficulty": "Beginner; 10–20 minutes before the event, plus checks during warming.",
+            "materials": "Suitable frost cloth or cover, hoops if needed, clips or weights, and forecast source.",
+            "prerequisites": "Identify plant tolerance and cover instructions; have protection sized to the bed and wind exposure.",
+            "preparation": "Check the forecast, locate supports, and plan how to vent or remove cover as conditions change.",
+            "procedure": [
+                "Install hoops or supports so the cover does not crush foliage.",
+                "Drape and secure the cover before the event, closing gaps while avoiding damage to the plant.",
+                "Use plastic only with an appropriate support and follow its instructions; do not leave plants sealed in sun.",
+                "Check conditions and remove or vent the cover as temperatures rise.",
+                "Inspect damage after the event before deciding whether pruning or replacement is needed."
+            ],
+            "result": "A secured, temporary protection setup with an active removal/venting plan.",
+            "mistakes": [
+                "Assuming April 15 or October 15 guarantees frost-free conditions.",
+                "Allowing plastic to touch foliage or overheat plants.",
+                "Leaving an unsecured cover in wind."
+            ],
+            "troubleshooting": [
+                "Cover lifts: secure edges and add support without crushing plants.",
+                "Plants overheat: vent or remove cover promptly when safe.",
+                "Injury appears despite cover: record forecast and site conditions; cover performance varies."
+            ],
+            "local": "The supplied frost dates are approximate anchors; check current forecast and garden microclimate.",
+            "references": "Follow the cover manufacturer's instructions and plant-specific cold-tolerance source."
+        },
+        {
+            "title": "Harvest and preserve produce safely",
+            "objective": "Prepare a small, identified harvest for one preservation method using a current tested procedure.",
+            "difficulty": "Beginner for freezing; food-safety procedures vary by method.",
+            "materials": "Clean basket, potable water, clean utensils, labeled containers, and tested recipe or preservation instructions.",
+            "prerequisites": "Identify the crop and preservation method; use tested, current directions for blanching, freezing, drying, fermenting, or canning.",
+            "preparation": "Check maturity cues for the crop, clean work surfaces, prepare containers, and reserve time to process promptly.",
+            "procedure": [
+                "Harvest only sound, correctly identified produce at the stage specified by a reliable crop source.",
+                "Sort and wash as directed for the chosen preservation method.",
+                "Follow the current tested method exactly, including preparation, processing, and storage steps.",
+                "Label the food with contents and date; store under the method's stated conditions.",
+                "Discard food when safety is uncertain; do not taste it to decide whether it is safe."
+            ],
+            "result": "Labeled produce processed under a tested procedure; the example does not invent times, temperatures, or canning recipes.",
+            "mistakes": [
+                "Using an untested canning recipe or changing proportions and processing time.",
+                "Freezing without following the crop's quality and preparation guidance.",
+                "Assuming appearance or smell proves food safety."
+            ],
+            "troubleshooting": [
+                "A jar seal fails: follow current food-safety guidance for the specific product and elapsed time; do not assume it is shelf stable.",
+                "Freezer containers are unlabeled: identify contents only if certain; otherwise do not guess.",
+                "Processing instructions are missing: pause and obtain a tested procedure before proceeding."
+            ],
+            "local": "Harvest dates and maturity depend on the crop and actual season; the supplied calendar is not a food-safety authority.",
+            "references": "National Center for Home Food Preservation, https://nchfp.uga.edu/; follow its current tested recipes and guidance."
+        },
+        {
+            "title": "Plan a pollinator-supportive garden area",
+            "objective": "Plan habitat resources for identified local pollinators without labeling unverified plants as native or beneficial.",
+            "difficulty": "Intermediate; 1–2 hours for a first site and plant list.",
+            "materials": "Site map, locally appropriate plant references, labels, water-source plan, and habitat observation notebook.",
+            "prerequisites": "Verify candidate plant identities and regional status; check invasive-plant guidance and site conditions.",
+            "preparation": "Map sun, soil moisture, nesting habitat, existing vegetation, and pesticide exposure.",
+            "procedure": [
+                "Select a small area and list habitat needs to investigate: flowering resources, host plants, shelter, nesting substrate, and water.",
+                "Use authoritative regional sources to select suitable plants and confirm names before purchase.",
+                "Plan a varied sequence of bloom only where supported by regional plant references; do not infer Errington dates from a wider ecoregion.",
+                "Retain suitable undisturbed habitat where safe and compatible with the garden.",
+                "Observe visitors and plant performance over seasons; revise the plan from evidence."
+            ],
+            "result": "A site-specific habitat plan with verified plant identities and explicit unknowns.",
+            "mistakes": [
+                "Calling every ornamental a native plant or pollinator resource.",
+                "Removing all nesting habitat or applying pesticides prophylactically.",
+                "Treating a regional bloom table as an Errington-specific calendar."
+            ],
+            "troubleshooting": [
+                "Few visits observed: check bloom availability, weather, observation timing, and plant establishment before assuming failure.",
+                "Plant identity uncertain: do not use it as a native reference until verified.",
+                "Water source attracts pests or becomes stagnant: change or remove it using appropriate local guidance."
+            ],
+            "local": "The Eastern Vancouver Island pollinator guide cited in the draft is not available for verification; the plant list remains pending.",
+            "references": "Verify plant identity and native status through E-Flora BC and regional ecological sources before publication."
+        },
+        {
+            "title": "Set up a composting trial",
+            "objective": "Start a small, observable compost batch using suitable materials while avoiding unsupported exact ratios.",
+            "difficulty": "Beginner; 30–60 minutes to set up, with periodic monitoring.",
+            "materials": "Ventilated bin or contained pile, suitable plant-based materials, fork, water source, and thermometer if available.",
+            "prerequisites": "Check local wildlife, nuisance, and municipal guidance; exclude materials inappropriate for the chosen system.",
+            "preparation": "Choose a drained, accessible location; gather a mix of dry structural material and moist fresh plant material.",
+            "procedure": [
+                "Add a loose mixture of dry and fresh suitable material; avoid packing it tightly.",
+                "Moisten evenly so the material is damp, not saturated; do not rely on a fixed ratio unless a chosen source specifies one.",
+                "Check odor, moisture, and airflow periodically; turn or loosen if the system is compacted and the method calls for aeration.",
+                "Add dry material if overly wet, or water gradually if too dry.",
+                "Use finished material only when it is mature for the intended application and its source is known."
+            ],
+            "result": "A monitored batch with documented inputs and an adjustment path, not a guaranteed composting timeline.",
+            "mistakes": [
+                "Adding unsuitable food or diseased material without checking local and system guidance.",
+                "Making the pile waterlogged or tightly compacted.",
+                "Assuming color alone proves maturity."
+            ],
+            "troubleshooting": [
+                "Strong sour or rotten odor: check excess moisture and compaction; add suitable dry structure and aerate if appropriate.",
+                "Pile is dry and inactive: add water gradually and check material mix.",
+                "Wildlife accesses the bin: secure it and revise inputs according to local guidance."
+            ],
+            "local": "Choose a secure location that does not create runoff or wildlife conflict on the property.",
+            "references": "Use current provincial or municipal composting guidance for accepted materials and wildlife considerations."
+        },
     ]
 
-    lines.extend(["# Practical worked examples", "", "Each example gives an objective, materials, preparation, procedure, expected result, common mistakes and troubleshooting.", ""])
+    lines.extend([
+        "# Practical worked examples",
+        "",
+        "These examples demonstrate procedures; they do not supply unsupported plant-specific timing, spacing, or treatment recommendations.",
+        "Each example distinguishes the task from its expected outcome and includes actionable troubleshooting.",
+        "",
+    ])
     for index, example in enumerate(examples, 1):
-        title = example[0]
-        fields = list(example[1:])
-        fields.extend(["Not specified"] * (7 - len(fields)))
-        objective, materials, prep, procedure, expected, mistakes, trouble = fields
         lines.extend([
-            f"## Example {index:02d}: {title}",
+            f"## Example {index:02d}: {example['title']}",
             "",
-            f"**Objective:** {objective}",
-            f"**Materials:** {materials}",
-            f"**Preparation:** {prep}",
-            f"**Procedure:** {procedure}",
-            f"**Expected result:** {expected}",
-            f"**Common mistakes:** {mistakes}",
-            f"**Troubleshooting:** {trouble}",
+            f"**Objective:** {example['objective']}",
+            f"**Difficulty and time:** {example['difficulty']}",
+            f"**Materials:** {example['materials']}",
+            f"**Prerequisites:** {example['prerequisites']}",
+            f"**Preparation:** {example['preparation']}",
+            "",
+            "**Procedure**",
+            "",
+        ])
+        lines.extend(f"{step_index}. {step}" for step_index, step in enumerate(example["procedure"], 1))
+        lines.extend([
+            "",
+            f"**Expected result:** {example['result']}",
+            "",
+            "**Common mistakes**",
+            "",
+        ])
+        lines.extend(f"- {mistake}" for mistake in example["mistakes"])
+        lines.extend(["", "**Troubleshooting**", ""])
+        lines.extend(f"- {item}" for item in example["troubleshooting"])
+        lines.extend([
+            "",
+            f"**Local considerations:** {example['local']}",
+            f"**References:** {example['references']}",
             "",
         ])
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -5,7 +5,12 @@ import pytest
 from pypdf import PdfWriter
 
 import build_project_reports
-from build_project_reports import build_calendar_outputs, build_illustration_manifest, plant_id
+from build_project_reports import (
+    action_types_for_entry,
+    build_calendar_outputs,
+    build_illustration_manifest,
+    plant_id,
+)
 from validate_pipeline import HASHED_SOURCE_FILES, REQUIRED_INPUTS, validate_inputs, validate_source_hashes
 from pathlib import Path
 
@@ -20,6 +25,34 @@ def write_source_hashes(base_dir):
 
 def test_stable_plant_ids_are_normalized() -> None:
     assert plant_id("Clematis Group 3") == "plant-clematis-group-3"
+
+
+def test_calendar_action_classifier_uses_transcribed_row_and_separates_observations() -> None:
+    peas = action_types_for_entry(
+        {
+            "row_text": "Peas — Wk 3–4 (cold-tolerant) direct sow",
+            "direct_sow_or_transplant": "",
+            "harvest_bloom_action": "",
+        }
+    )
+    icon_marked_sowing = action_types_for_entry(
+        {
+            "row_text": "Peas — Wk 3–4 (cold-tolerant) 🌿",
+            "direct_sow_or_transplant": "Wk 3–4 (cold-tolerant) 🌿",
+            "harvest_bloom_action": "",
+        }
+    )
+    dormant = action_types_for_entry(
+        {
+            "row_text": "Rhubarb — Fully dormant",
+            "direct_sow_or_transplant": "",
+            "harvest_bloom_action": "",
+        }
+    )
+
+    assert peas == ["direct-sowing"]
+    assert icon_marked_sowing == ["direct-sowing"]
+    assert dormant == ["seasonal-observation"]
 
 
 def test_illustration_rebuild_preserves_review_data_and_rejects_record_loss(tmp_path, monkeypatch):
