@@ -17,9 +17,17 @@ pages, but is not a live check. Additional URLs in this expanded library have no
 individually checked. Recheck availability and redirects from a working network before
 replacing a link or recording an access date for a claim.
 
-The workflow service had no registered workflows and its documentation was unavailable
-because extensions were not configured. Direct HTTP checks and search-index evidence were
-used instead. The Environment Canada
+The agent workflow service had no registered workflows and its documentation was unavailable
+because extensions were not configured. The manually dispatched Build Encyclopedia GitHub
+Actions workflow also runs `check_research_links.py` on a GitHub-hosted runner, checking
+the URLs in this library and the previously blocked guide, climate, and GBIF links. Download
+the `research-link-check` artifact for the access time, status, redirects, and errors; a
+failed check makes the job fail, but the report is still uploaded. Run it from Actions or
+with `gh workflow run build-encyclopedia.yml --ref <branch>` once the change is available
+on that branch. The runner is an alternative network, not a guaranteed DNS bypass: DNS,
+HTTP, access-control, and runner failures still need investigation. A reachable URL does
+not verify its content, support a claim, or grant reuse rights. Review the original source
+and record claim-level evidence separately. The Environment Canada
 [historical data search](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html)
 was indexed as a possible alternative to the `www.climat` URL below, but its live availability
 and any redirect from the original are unconfirmed.

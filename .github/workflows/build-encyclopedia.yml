@@ -13,6 +13,27 @@ permissions:
   contents: read
 
 jobs:
+  research-links:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Check candidate research links
+        run: python3 check_research_links.py
+
+      - name: Upload link check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-link-check
+          if-no-files-found: error
+          path: build/research-link-check.json
+
   build:
     runs-on: ubuntu-latest
 
