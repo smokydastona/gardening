@@ -1,0 +1,71 @@
+source_commit,source_image,visually_plausible_component_for_crop,exclude_or_verify,publication_status
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,allium.png,"Flower head and strap-like foliage","Verify the Allium taxon; exclude the onion-like bulb and seed insets unless verified.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Ammi majus.png,"Compound umbel and finely divided foliage","Verify the species; exclude root, fruit, and seed details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,anemone.png,"Open flower and lobed foliage","Anemone is taxonomically broad; exclude generic pod, seed, and root panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Antirrhinum.png,"Flowering spike and stem leaves","The umbel label is wrong for a snapdragon spike; exclude seed and root insets.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Asters.png,"Daisy-like flower heads and narrow foliage","Asters is not a resolved species; exclude generic seed and root panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Aubretia.png,"Low flowering mat and small leaves","The bulb/tuber-like base is not credible for Aubrieta; crop above ground only.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Azalea.png,"Flower clusters and leafy shrub tip","Azalea identity/cultivar is unresolved; exclude bulb-like roots and seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Bleeding Heart.png,"Arching heart-shaped flowers and divided leaves","Exclude the bulbous root and generic pod/seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Borage.png,"Blue star-shaped flowers and foliage","Verify species and flower color; exclude bulb-like roots and seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,calendula.png,"Flower heads and upper foliage","The flower form is plausible; verify achene detail and avoid the root inset.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Camassia.png,"Flower spike and strap-like leaves","Verify local species; exclude generic root and seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,camellia.png,"Flowering branch and glossy leaves","Exclude the bulb-like roots and verify the fruit/capsule before using it.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Celosia.png,"Plume and crested inflorescences","The inflorescence forms are plausible; exclude bulb-like roots and seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Cleome.png,"Flower cluster and palmate foliage","Exclude bulb-like roots and verify pod/seed details against the species.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Columbine.png,"Spurred flowers and divided leaves","Exclude bulb-like roots and verify capsule/seed details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,cornflower.png,"Blue flower head and narrow leaves","The head is plausible; verify involucral bracts and achene details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,cosmos.png,"Flower head and feathery foliage","The aerial habit is plausible; exclude generic root and seed insets.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,crocus.png,"Flower, linear leaves, and corm","Verify the Crocus species; exclude the generic seed panel.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Daffodil.png,"Trumpet flower, linear leaves, and bulb","The seed inset is cross-plant content; verify perianth/corona details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Dahlia.png,"Composite flower heads and tuberous roots","This mixes flower forms; verify cultivar group and exclude generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Daylily.png,"Flower and strap-like foliage","Verify Hemerocallis identity/cultivar and the fleshy root depiction.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,delphinium.png,"Spurred flower spike and divided leaves","Exclude generic roots and verify pod/seed details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Deutzia.png,"Flowering branch and serrated leaves","Exclude bulb-like roots and verify fruit details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,echinacea.png,"Ray florets and spiny central cone","The flower head is plausible; exclude the unrelated caterpillar-like inset and verify leaves.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Forsythia.png,"Yellow flowering branch and opposite leaves","Verify species and exclude generic seed/root insets.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,foxglove.png,"Bell-shaped flower spike and leaves","Verify flower markings and species; exclude generic seed/root details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Gaillardia.png,"Composite flower heads and foliage","Exclude bulb-like roots and verify head/leaf details against the taxon.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Gladiolus.png,"Flower spike, sword-shaped leaves, and corm","Exclude generic seed panels and verify the illustrated flower form.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Hellebore.png,"Flower and palmate leaves","Exclude the bulbous root and seed panels; exact duplicate of hellebores.png.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,hellebores.png,"Flower and palmate leaves","Exclude the bulbous root and seed panels; exact duplicate of Hellebore.png.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,hollyhock.png,"Flowering stem and broad leaves","Verify the mallow-family fruit/seed structure; exclude the generic root inset.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Hyacinth.png,"Flower spike, strap leaves, and bulb","The seed panel is explicitly labeled Gladiolus; exclude it and verify flower details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Hyacinths.png,"Flower spike, strap leaves, and bulbs","The seed panel is mislabeled; compare with Hyacinth.png before using either.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Hydrangea paniculata.png,"Panicle and serrated foliage","Verify the cultivar and inflorescence; exclude bulb-like roots.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Iberis.png,"White flower clusters and narrow foliage","Iberis is unresolved to species; exclude bulb-like roots and seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Impatiens.png,"Flowers and oval foliage","Verify species/cultivar; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Iris.png,"Flower, sword-shaped leaves, and rhizome","Iris is taxonomically broad; verify flower form and rhizome before cropping.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Kerria.png,"Yellow flowers and serrated leaves","Verify flower form/species; exclude bulb-like roots and seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Larkspur.png,"Spurred flower spike and divided leaves","The seed panel is labeled Marigold; exclude it and verify the taxon.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,lavender.png,"Flower spikes and narrow leaves","Verify Lavandula species/cultivar; exclude generic root and seed insets.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Lobelia.png,"Small flowers and flowering stems","Lobelia is broad; exclude bulb-like roots and verify the species.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,lupine.png,"Flower spike, palmate leaves, and pods","The seed panel is labeled Marigold; exclude it and verify pod details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Magnolia.png,"Flowering branch and large leaves","Verify species; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,marigold.png,"Composite flower heads and pinnate foliage","Verify Tagetes species; exclude bulb-like roots and seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Morning Glory.png,"Twining stem, trumpet flowers, and heart-shaped leaves","Verify species; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Muscari.png,"Flower spike, strap leaves, and bulb","Verify the species; exclude generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Nasturtium.png,"Flowers and peltate leaves","The aerial form is plausible; exclude the bulb-like root and seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Nicotiana.png,"Trumpet flowers and foliage","Verify species/cultivar; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,nigella.png,"Flower, finely divided foliage, and capsule","The capsule is potentially useful; verify species and exclude generic root details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Orlaya.png,"Compound umbel and divided leaves","Verify species; exclude bulb-like roots and generic fruit/seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Pansy.png,"Flower faces and basal foliage","Verify Viola group/cultivar; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Peony.png,"Flower and divided foliage","Exclude the onion-like root depiction; verify species/cultivar and fruit details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Petunias.png,"Trumpet flowers and foliage","Verify species/cultivar; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Philadelphus.png,"Flower clusters and ovate leaves","Verify species; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Pieris.png,"Drooping flower clusters and evergreen leaves","Verify species/cultivar; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,poppy.png,"Flower, capsule, and divided foliage","Poppy is unresolved to species; verify capsule and avoid the generic root depiction.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Primula.png,"Flower cluster and rosette leaves","Primula is unresolved to species; exclude bulb-like roots and seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,ranunculus.png,"Flower and divided leaves","Ranunculus is taxonomically broad; exact duplicate of Ranunculus.png.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Ranunculus.png,"Flower and divided leaves","Ranunculus is taxonomically broad; exact duplicate of ranunculus.png.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Rhododendron.png,"Flower cluster and leathery leaves","Verify species/cultivar; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Rudbeckia.png,"Composite flower heads and foliage","Exclude bulb-like roots and verify head/leaf details against the species.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Salvia nemorosa.png,"Flower spikes and opposite leaves","Verify species and inflorescence; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Scabiosa.png,"Pincushion flower heads and foliage","Verify species; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Snapdragon.png,"Flower spike and leaves","Likely duplicates the Antirrhinum subject; verify whether this is a distinct asset.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Spiraea.png,"Flower clusters and serrated leaves","Verify species/cultivar; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,sunflower.png,"Large flower head and coarse leaves","The flower head is plausible; root and seed labels need taxon-specific verification.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Sweet Pea.png,"Climbing stem, tendrils, compound leaves, and flowers","Verify cultivar/species; exclude generic seed/root panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Tulip.png,"Flower, strap leaves, and bulb","The seed panel is labeled Camassia; exclude it and verify bulb/flower details.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,Weigela.png,"Trumpet flowers and flowering branch","Verify species/cultivar; exclude bulb-like roots and generic seed panels.",withheld-unverified
+c7bdbde9e5fc81c514a40decc7b9bfcdb1f00da5,zinnia.png,"Composite flower heads and opposite leaves","The inflorescence is plausible; verify leaf/seed details and exclude the generic root panel.",withheld-unverified

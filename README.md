@@ -15,7 +15,7 @@ review are still incomplete.
 | Errington zone | Unresolved: calendar PDF says 8a; both chart images say 8b |
 | Frost anchors | April 15 and October 15 are approximate source values, not guaranteed dates |
 | Core handbook | Expanded foundations on climate risk, microclimates, planning, soil, raised beds, seed starting, watering, and plant-health diagnosis; plant-specific research remains pending |
-| Illustrations | 0 approved; 70 image files on the separate `illustration-assets` branch passed PNG/dimension checks but contain duplicate content and visibly misattributed labels; identity/license review remains pending |
+| Illustrations | 0 approved; owner-confirmed 70-image branch set includes exact duplicates and visibly mismatched labels; taxonomic and anatomical review remains pending |
 | PDF pipeline | One reproducible build command generates the working encyclopedia, monthly guide, plant directory, and two illustration review registers; only approved plant artwork is embedded |
 | Generated supplement | 137 plant concept plates, 36 educational figure concepts, and 18 worked examples are retained as working assets; all unapproved artwork is withheld from PDFs |
 | Publication approval | `IN_PROGRESS`; see [publication QA](PUBLICATION_QA_REPORT.md) |
@@ -35,6 +35,7 @@ review are still incomplete.
 - [Plant verification report](PLANT_VERIFICATION_REPORT.md)
 - [Calendar review report](CALENDAR_REVIEW_REPORT.md)
 - [Illustration audit](ILLUSTRATION_AUDIT.md)
+- [Individual review of all 70 illustrations from the `illustration-assets` branch](reports/ILLUSTRATION_BRANCH_REVIEW.csv)
 - [Repository audit](AUDIT_REPORT.md)
 - [Publication quality report](PUBLICATION_QA_REPORT.md)
 - [Implementation register](reports/IMPLEMENTATION_REGISTER.md)
@@ -44,7 +45,7 @@ review are still incomplete.
 The plant directory lists all 137 stable-ID records without displaying unapproved candidate
 art. Generated candidates remain in the working source assets for review, but are not
 embedded in any PDF. Approved plant assets remain separate from candidates, and branch
-artwork is never embedded until identity, anatomy, licensing and human review are complete.
+artwork is never embedded until identity, anatomy and independent human review are complete.
 
 ## Repository map
 

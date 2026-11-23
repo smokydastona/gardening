@@ -11,7 +11,7 @@ or editorial content are correct.
 | A — Source integrity | `PARTIAL` | Original supplied files retained; 137 plants and 359 calendar entries are count-checked. Calendar PDF authorship/history is unknown; transcription requires further comparison. |
 | B — Botanical accuracy | `FAILED` | 0 independently verified taxonomy records and 0 individually reviewed horticultural profiles. |
 | C — Local horticultural accuracy | `FAILED` | 8a/8b conflict unresolved; no independently sourced Errington frost normals or plant-specific local timings. |
-| D — Illustration integrity | `PARTIAL — unapproved artwork withheld` | 0 botanical illustrations and 0 educational figures are approved. Generated candidates and 70 historical branch images are excluded from all PDFs pending identity, anatomy, licensing, and independent review. |
+| D — Illustration integrity | `PARTIAL — unapproved artwork withheld` | 0 botanical illustrations and 0 educational figures are approved. The owner confirms rights to the 70 branch images; they and the generated candidates are excluded from all PDFs pending identity, anatomy, and independent botanical review. |
 | E — Editorial quality | `PARTIAL` | The core handbook now includes expanded climate-risk, microclimate, planning, botany, soil, bed-building, propagation, irrigation, and diagnostic instruction. Complete claim-level bibliography, plant-specific research, and editorial sign-off remain outstanding. |
 | F — Publication quality | `PARTIAL` | Current PDFs have 305, 25, 25, 138, and 37 pages. Only the encyclopedia cover image is embedded; all other PDFs contain no images. Display headings use Reenie Beanie; body text uses Times-Roman. Full-publication print review remains open. |
 | G — Software quality | `PARTIAL` | `build_all.py`, publication validation, and 49 tests pass locally. CI status is not claimed until a GitHub Actions run succeeds. |
@@ -33,8 +33,10 @@ PDFs have not received a full visual scan; publication review remains open.
 The directory lists all 137 registry records without displaying unapproved artwork. The 137
 generated plant candidates, 36 generated figure concepts, and 70 historical branch images
 are withheld from all PDFs. No candidate or figure is represented as scientifically
-approved. Branch assets require individual identity, anatomy, attribution, licensing, and
-human review before publication.
+approved. The owner confirms rights to the branch assets, but each requires individual
+identity and anatomical review before publication. `reports/ILLUSTRATION_BRANCH_REVIEW.csv` records the
+visually plausible components and the specific structures to exclude or verify for each
+of the 70 branch images; its crop suggestions are not approvals.
 
 Required human visual checklist:
 
