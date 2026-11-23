@@ -59,6 +59,25 @@ Use the frost anchors only as approximate source planning indicators, not assura
 
 Errington gardening therefore involves protected starts, outdoor transitions, harvest timing, bloom display, and perennial maintenance throughout the year.
 
+### Turning a climate label into a garden decision
+
+A hardiness zone describes winter survival potential under a particular mapping system; it does not promise a frost-free growing season or predict the weather in a particular garden. USDA and Natural Resources Canada use different systems and inputs. A zone, a frost-date estimate, the length of a frost-free period, and a thermometer reading are four different kinds of information. Do not convert one into another.
+
+For each planting decision, keep four questions separate:
+
+1. **Can this perennial survive typical winter cold here?** Check a stated hardiness rating and its system, plus local survival records. This does not establish whether a seedling is ready to go outdoors this week.
+2. **Is frost plausible soon?** Check the current local forecast and your own garden observations. These do not establish a guaranteed frost-free date.
+3. **Is the soil workable?** Check moisture and structure by hand. This does not establish the plant's exact temperature requirement.
+4. **Is this crop appropriate here?** Check guidance for the named crop or cultivar and compare it with your own season records. One garden's result does not guarantee success across Errington.
+
+Use the plant profile's evidence and current conditions together. If either is unknown, record the uncertainty and choose a reversible, low-cost step—such as sowing a small trial or keeping a transplant protected—rather than committing the whole bed.
+
+### Observe before assigning a microclimate
+
+Map the growing area and mark buildings, fences, trees, slope, drains, paths, and water access. For at least a week in the season you plan to garden, note where direct sun falls in the morning, midday, and late afternoon. Repeat when tree leaves or sun angle change. Mark observations, not assumptions: “sun until 11 a.m.” is more useful than “part shade.”
+
+After rain or irrigation, record where water stands and where surfaces dry first. Note wind direction and shelter, especially at plant height. Low points may collect cold air; a wall may shelter wind but reflect heat. Treat these as hypotheses until repeated observations support them. One thermometer reading from one night is not a climate normal. If you use a min/max thermometer, record its location, height, date, and protection so readings from different places can be compared honestly.
+
 ## 4. Frost Dates, Risk Windows, And Seasonal Rules
 
 The source-reported April 15 and October 15 anchors are not guaranteed frost dates or independently calculated local averages. Check current forecasts and observe the garden before acting.
@@ -87,6 +106,24 @@ The source-reported April 15 and October 15 anchors are not guaranteed frost dat
 2. It is the right time to review what the garden produced, what failed, and what should be changed.
 3. It is also the right time to prepare indoor sowing plans for the coming season.
 
+### Spring frost decision routine
+
+1. **Identify the plant and stage.** A newly emerged seedling, hardened transplant, established perennial, and dormant bulb do not have the same risk.
+2. **Check the forecast for the garden area.** Note the forecast minimum, wind, cloud cover, and whether protection can be installed before evening. A forecast is still uncertain.
+3. **Check the site and soil.** A protected patio may differ from an exposed low bed. Wet, cold soil can delay establishment even when air temperatures look acceptable.
+4. **Choose a response.** Delay, plant a small trial, harden off, or apply a suitable temporary cover. Follow plant-specific guidance for temperature limits and cover handling.
+5. **Record what happened.** Note minimum temperature, location, protection, and plant response. Repeated notes are more useful than memory.
+
+### Frost-protection checklist
+
+- Have the cover, hoops, clips, and weights ready before the forecast event.
+- Use a cover that will not crush or abrade foliage; secure it against wind.
+- Keep plastic from resting directly on leaves unless the product is specifically designed for that use.
+- Remove, vent, or adjust covers when conditions warm, following the material's instructions; a covered bed can overheat.
+- Inspect after the event and distinguish cold injury from drought, disease, or physical damage before treating.
+
+**Worked example — a tender transplant with a cool forecast.** A gardener has a tomato transplant ready, but the forecast and exposed bed suggest a cold night. The calendar date alone does not settle the decision. The gardener checks the plant's verified temperature guidance, compares the forecast with a sheltered site, and either delays planting or uses a suitable cover with a plan to remove or vent it. Only one or two plants go out first. The gardener records the minimum temperature, cover, and result before scaling up. This is a risk-management trial, not a claim that a particular date is safe in Errington.
+
 ## 5. Planning The Garden
 
 The local vegetable encyclopedia PDF is clear on one point that applies directly to Errington: a successful garden begins with a plan, not with impulse planting. The source argues that it is easier to revise beds, spacing, and planting order on paper than to correct mistakes after the ground is full.
@@ -112,6 +149,30 @@ The PDF also emphasizes recordkeeping. That advice is worth adopting directly. A
 6. Watering and fertility notes.
 7. Overwintering or division notes for ornamentals.
 
+### Site survey and map
+
+Sketch the property or growing area and mark fixed features: buildings, fences, trees, paths, taps, drains, slopes, and existing beds. Add a north arrow. Record direct sun at morning, midday, and late afternoon; repeat in the season when you intend to grow because tree leaf-out, shadows, and sun angle change. Note wind exposure, places where water stands, dry edges near roofs or tree roots, and practical routes for a hose, wheelbarrow, and harvest basket.
+
+Do not assume a south-facing wall is always beneficial: reflected heat can stress some plants, and shelter can reduce air movement. Match the micro-site to the plant rather than labeling an entire yard “sunny” or “sheltered.”
+
+### Access, mature size, and bed layout
+
+Draw each bed to scale. Keep its center reachable from an edge, or split it into narrower sections with a path. Avoid layouts that require stepping on growing soil: repeated traffic compacts it. Put tall or trellised plants where their shade will not unintentionally fall over smaller sun-demanding crops; verify mature size and support needs for the actual plant, not just its common name. Mark supports, irrigation lines, permanent plantings, and paths before digging.
+
+For a rectangular bed, convert the planting area to the same units as the recommended spacing. If the plant-specific source recommends spacing of `s` inches in both directions, a rough upper-bound grid count is:
+
+`floor(bed length in inches / s) × floor(bed width in inches / s)`
+
+This estimate ignores edge clearance, access, staggered arrangements, mature canopy, trellis orientation, and whether the source describes spacing between plants or rows. Always follow the plant-specific recommendation and allow working room.
+
+**Worked example — marking a 4-by-8-foot bed.** The bed is 48 by 96 inches. A hypothetical crop with a verified 12-inch spacing could fit at most 4 × 8 positions on a simple 12-inch grid before edge clearance or access is considered. The gardener draws that grid, checks the crop source for row and edge recommendations, then reduces the count if needed. The 12-inch value demonstrates arithmetic; it is not a recommendation for any named crop.
+
+### Succession planning and the garden ledger
+
+Divide the growing area into labeled blocks. For each block, record the first crop, the condition that will signal its finish, the next crop's verified requirements, and the time needed to prepare the bed. When local timing is uncertain, use observable triggers—such as a crop being harvested or a bed becoming available—instead of inventing a date. Do not schedule a second crop solely because a generic calendar says it should fit.
+
+Record the map, seed or plant source, sowing and transplant dates, weather notes, harvest quantity, pest observations, and changes for next year. Record failures as well as successes; an unsuccessful planting still reveals something if its location and method were noted.
+
 ## 6. Soil Preparation And Bed Building
 
 The soil chapter in the PDF provides the right general backbone: soil must supply water, nutrients, gases, and stable support for roots. That principle transfers cleanly to the Errington project because every plant in the local scope depends on the same fundamentals even when exact timing differs.
@@ -133,6 +194,42 @@ Recommended bed-building workflow:
 5. Prepare support locations early for crops that climb, sprawl, or need staking.
 
 The PDF also reinforces a practical economic point: good tools and deliberate bed preparation save corrective labor later. For this encyclopedia, that means bed layout and soil improvement are part of the crop plan, not separate chores.
+
+### Diagnose before amending
+
+“Rich soil” is not a diagnosis. Compaction, poor drainage, unsuitable pH, salinity, or an imbalance of nutrients cannot be reliably corrected by adding compost or fertilizer at random.
+
+- **Texture** is the relative proportion of sand, silt, and clay particles. It changes slowly.
+- **Structure** is how particles form aggregates and pore spaces. Traffic, wet cultivation, roots, and organic matter influence it.
+- **Drainage** describes how water moves through and away from the rooting zone. A heavy-looking soil is not automatically waterlogged, and a sandy-looking surface is not proof that the full root zone drains well.
+- **Organic matter** supports soil structure and biological activity, but it does not replace a nutrient test or guarantee that a mix is suitable.
+- **pH and nutrients** are measured with a defined method. Visual guesses are not a substitute for an appropriate soil analysis.
+
+Compare several parts of the proposed bed after rain and again after a dry interval. Note standing water, crusting, cracking, compaction, root penetration, and how long the surface remains wet. Dig a small inspection hole in an inconspicuous spot and look for abrupt fill layers, construction debris, dense pans, or persistent water. A hand-texture or settling-jar demonstration can help compare samples, but it is only rough screening; it does not provide reliable pH, nutrient, salinity, or drainage diagnosis.
+
+When crop performance, soil history, or proposed amendments raise a nutrient or pH question, use a reputable laboratory and follow its sampling instructions. The result is useful only if it represents the area being managed and is interpreted for the intended crop. BC soil-management guidance emphasizes matching management to soil conditions and test information rather than applying nutrients without a basis [S1].
+
+### Work soil at the right moisture
+
+Take a handful from the working depth and squeeze gently. If it smears, glistens, or stays in a dense sticky mass, wait. If it crumbles into aggregates with gentle pressure, it is more workable. This is a practical field check, not a laboratory measurement. Working wet soil can destroy structure and leave compacted clods that persist after drying.
+
+For established beds, prefer the least disturbance needed to prepare a planting space. Remove perennial weeds carefully, loosen only where compaction is present and soil is workable, and keep regular paths in paths. Do not dig deeply through tree roots or unknown utilities.
+
+### Amend conservatively
+
+Before adding lime, sulfur, fertilizer, manure, or a concentrated amendment, identify the problem and check a soil test or authoritative crop-specific recommendation. The wrong amendment can make a bed harder to manage. Mature, known compost can be used as an organic-matter input, but its source and quality matter; avoid assuming any material labeled “compost” is low in salts, weed seeds, or contaminants. Keep amendments off plant crowns and follow the product label.
+
+### Raised-bed design and volume calculation
+
+Raised beds can make access and soil management easier, but a frame alone does not solve a drainage or contaminated-soil problem. Decide first whether an in-ground bed, low mound, or framed bed fits the site. Check access, slope, water supply, material safety, and the condition of the underlying ground. Choose a width that allows the center to be reached from the edges, and leave a path wide enough for the equipment actually used. OSU Extension's raised-bed guidance likewise recommends assessing the site, choosing a workable bed width, and using a soil test to guide nutrient decisions [S2]. Its specific recommendations are regional guidance, not a prescription for every Errington property.
+
+For a rectangular bed, multiply length × width × fill depth in the same units, then convert cubic feet to cubic yards by dividing by 27. A 4 × 8-foot bed filled 8 inches deep has a nominal volume of:
+
+`4 ft × 8 ft × (8/12 ft) = 21.3 cubic feet ≈ 0.79 cubic yard`
+
+This is geometric volume, not a guaranteed purchase quantity. Settling, the bed's shape, existing soil, and the material's moisture and compaction alter the delivered amount. Confirm volume and intended use with the supplier; this arithmetic does not prescribe a soil mix.
+
+**Worked example — preparing one vegetable bed.** The gardener maps sun, access, and water; checks the native soil and site history; marks the frame and paths; removes persistent weeds; and checks whether the ground can be worked without smearing. The gardener selects a growing medium appropriate to the bed and intended crops, estimates volume from the inside dimensions, and checks whether a test is warranted before adding nutrients. After filling, the gardener waters to settle the medium, checks for low spots, and records what was delivered. The result is a reachable, documented bed—not an assumption that all raised-bed soil is fertile.
 
 ## 7. Planting Methods And Seasonal Setup
 
@@ -157,6 +254,49 @@ For Errington, that yields the following operating guidance:
 
 The PDF also highlights the value of straight, organized planting lines and deliberate spacing. Even without exact local spacing tables transcribed yet, the structural lesson still applies: orderly planting improves weeding, watering, harvesting, and observation.
 
+### Botanical clues for choosing a task
+
+Plant names and life histories tell you what kind of care question to ask, but they do not replace a profile for the identified plant.
+
+- **Annual, biennial, perennial:** These describe a plant's life cycle, not its winter hardiness. A perennial may still be injured by local cold or wet soil; an annual may reseed; a biennial may be grown for leaves in its first season and reproductive structures later. Verify the plant and intended harvest.
+- **Roots:** Roots anchor the plant and absorb water and minerals; some also store reserves. A shallow root zone can dry quickly, while damage to a plant's main roots can disrupt establishment. Look for roots before dividing or transplanting, and do not assume every below-ground storage organ is a root.
+- **Stems and growing points:** Stems support leaves and flowers and carry growth points. A pruning cut can remove a flowering or regrowth point, so identify where a plant forms new shoots and flowers before pruning. The correct cut and season depend on the species and whether it flowers on old or new growth.
+- **Leaves:** Leaf arrangement, shape, margin, attachment, and venation help describe a plant. Record several traits from mature and young growth; a single leaf or damaged specimen is rarely enough to settle an identification.
+- **Flowers, fruits, and seeds:** Flower structure can support identification and indicates the reproductive stage. Fruits generally contain seeds, though seedless forms occur; familiar culinary labels do not always map neatly to botanical fruit types. For garden work, record whether a crop is being grown for leaves, roots, flowers, fruits, or seeds, because harvest stage changes what part is protected or removed.
+- **Storage organs and spores:** Bulbs, corms, tubers, and rhizomes differ in structure and should not be used as interchangeable names. Ferns reproduce by spores rather than flowers and seeds. Check the plant's identified profile before lifting, dividing, or storing an underground structure.
+
+Plant families group related taxa and can help organize a collection or flag questions for succession planning, shared pests, or compatible care. Family membership alone does not prove that two plants have the same requirements or that a companion-planting claim is valid. Use the accepted name and family from a taxonomic source, then verify the cultivation claim for the plant concerned. Common names can refer to unrelated plants, so a family-level guess is not a substitute for resolving the registry identity.
+
+### Indoor seed-starting sequence
+
+Seeds vary in germination temperature, light response, depth, and storage life. Follow the packet or a reliable plant-specific reference. Do not bury every seed at the same depth: where the source gives no depth, mark the value as unknown and seek a source before sowing a large batch.
+
+1. **Select the crop and quantity.** Check whether the plant is normally started indoors or direct sown, and whether the seed is still viable. Label every container with crop, cultivar if known, and sowing date.
+2. **Prepare clean containers.** Provide drainage holes and a clean, suitable seed-starting medium. Clean reused containers. Garden soil may compact in small containers and can bring weeds or organisms with it.
+3. **Sow to the plant-specific depth.** Moisten the medium evenly, sow the seed, cover only as directed, and label immediately.
+4. **Provide stated germination conditions.** Check the seed source for temperature and light needs. Keep the medium moist, not saturated; standing water limits air around roots.
+5. **After emergence, provide strong light and air movement.** Keep seedlings from becoming elongated and weak. Follow the light fixture's safe distance and operating instructions. Rotate trays if light is uneven.
+6. **Thin or transplant carefully.** Keep the strongest seedlings at appropriate spacing. Handle by a leaf rather than crushing the delicate stem; water the medium first if roots are stuck.
+7. **Harden off gradually.** Before permanent outdoor planting, increase exposure to outdoor light, wind, and temperature over several days. Begin in a protected, shaded location and increase exposure as plants tolerate it. Bring plants in or protect them when conditions exceed their known tolerance. A calendar date alone does not complete hardening. OSU Extension describes gradual exposure before transplanting in its Pacific Northwest coastal guidance; that regional source does not establish Errington-specific dates [S3].
+
+### Direct-sowing procedure
+
+Prepare a fine, level seedbed only when soil is workable. Follow the crop's depth and spacing guidance, water gently so seeds are not displaced, and keep the surface from drying during germination. Mark rows and labels before sowing. If a row fails, check moisture, depth, temperature, seed age, and disturbance before sowing again; changing one variable at a time makes the result informative.
+
+### Transplanting checklist
+
+- The plant identity and planting depth are known.
+- The transplant is healthy and has been hardened off.
+- Soil is workable and the site is ready; forecast risk has been considered.
+- The root ball is moist but not waterlogged.
+- The hole accommodates roots without bending them sharply.
+- The plant is set at the depth appropriate to its species.
+- Soil is firmed gently, watered in as appropriate, and labeled.
+- Temporary protection and support are ready if needed.
+- The plant is checked again for establishment, moisture, and pests.
+
+**Worked example — a tray of seedlings.** A gardener starts a small test batch from one seed packet, labels each cell, and notes the source's depth and temperature instructions. Once seedlings emerge, the gardener gives them adequate light and checks moisture by feel instead of watering by the clock. Before transplanting, the gardener gradually exposes them to outdoor conditions, then plants a few first in a prepared bed. If they wilt or scorch, the gardener checks the root ball, exposure, wind, and moisture before changing the rest of the batch.
+
 ## 8. Garden Care, Water, Mulch, And Maintenance
 
 The PDF's care chapter frames the garden correctly: planting is only the beginning. Once the garden is established, the main production risks come from neglect of routine tasks.
@@ -177,6 +317,31 @@ Practical maintenance principles for this manuscript:
 2. Perennials reward intervention at the right maintenance moment rather than constant disturbance.
 3. The garden should be inspected often enough that weeds, drought stress, and pest pressure are caught early.
 
+### Decide whether to water
+
+Water needs depend on plant species, growth stage, root depth, soil, exposure, wind, rainfall, and container size. A fixed “water every few days” schedule can overwater one bed and underwater another. Check moisture below the dry surface, near active roots, in several places: under a canopy, near an edge, and at the end of a drip line. A trowel or finger is enough for a shallow check; a soil probe helps compare deeper locations.
+
+Look for plants whose leaves wilt at a time of day when the species normally remains firm, but confirm soil moisture before concluding drought—waterlogging and root injury can also cause wilt. When watering is needed, apply it slowly enough to soak the intended rooting depth without runoff, then recheck. Drip lines and soaker hoses can reduce wet foliage, but only if their output is checked; a clogged emitter can leave one plant dry while its neighbor receives water. Place a simple catch container along a line to compare delivery at different points.
+
+**Water-volume calculation (conversion only).** One inch of water spread over one square foot is about 0.623 US gallons. A 4 × 8-foot bed covers 32 square feet, so one inch over that area would be about 20 US gallons before runoff, evaporation, or uneven delivery. This conversion explains volume; it is not a recommendation to apply an inch at each watering.
+
+### Mulch with a purpose
+
+Mulch can buffer surface moisture and reduce weed emergence, but material, depth, timing, and plant type matter. Keep mulch from resting against stems or crowns, avoid burying low-growing foliage, and leave an appropriate area open around seedlings until established. A heavy layer can obstruct small seedlings; a dry mulch layer can intercept light rain before it reaches soil. Lift a corner and check below rather than judging by surface appearance.
+
+### Ten-minute bed inspection
+
+Walk the bed slowly and look at the same things each time:
+
+1. New growth, leaf undersides, stems, and the soil line.
+2. Moisture at root depth in more than one location.
+3. Weeds before they set seed or entangle crops.
+4. Ties, stakes, cages, and trellis anchors before plants lean.
+5. Mulch gaps, exposed irrigation fittings, and standing water.
+6. Anything unusual; photograph and date it before removing or treating.
+
+This routine turns maintenance into early observation. It is not a substitute for identifying an issue before choosing a treatment.
+
 ## 9. Garden Health And Preventive Management
 
 The PDF describes the correct general pattern: pests and diseases exploit stress, crowding, neglect, and delayed response. That guidance remains useful even though the local source set does not yet contain a verified Errington-specific pest matrix.
@@ -189,6 +354,30 @@ The preventive system supported by the source set is therefore conservative and 
 4. Treat records as a plant-health tool so recurring issues can be traced and reduced over time.
 
 This manuscript does not yet assert a finalized local pest-by-pest catalog because that would require source verification not currently present in the workspace.
+
+### A repeatable diagnostic method
+
+1. **Describe without diagnosing.** Record the plant's accepted name if known, affected part, symptom, date first noticed, and how quickly it is changing.
+2. **Map the pattern.** One plant, one species, one bed edge, or many unrelated plants? A sharp boundary can suggest a site or irrigation issue; a spreading pattern merits closer inspection.
+3. **Inspect both sides and the root zone.** Look for insects, eggs, webbing, feeding marks, lesions, stem injury, root discoloration, standing water, and dry soil. Use a hand lens or photograph for small details.
+4. **Check recent changes.** Planting, pruning, weather, irrigation adjustments, fertilizer, mulch, or nearby construction can help explain timing.
+5. **Compare with a reliable diagnostic reference.** Match several diagnostic features, not just one photograph or symptom. Ask a qualified diagnostic service when the stakes or uncertainty are high.
+6. **Choose the least disruptive effective action.** Correct a confirmed watering or cultural issue first. Protect beneficial organisms and follow current product labels and local rules if a treatment is justified.
+7. **Recheck and record.** Note what changed and when. If the problem worsens, revisit the diagnosis rather than escalating automatically.
+
+Use these symptom checks to guide observation, not to make a diagnosis:
+
+- **Wilting:** Check moisture at root depth, drainage, stem damage, recent heat, or transplanting. Do not assume the plant simply needs more water.
+- **General yellowing:** Note which leaves are affected, check root moisture, and consider a soil test or normal aging. Do not infer a specific nutrient deficiency from color alone.
+- **Holes or missing edges:** Inspect leaf undersides, timing, feeding pattern, and nearby hosts. Do not assume every hole requires pesticide.
+- **Spots or mildew-like growth:** Check whether marks affect one leaf age or are spreading, and note air movement and wetness. Do not identify a disease from a single image.
+- **Stunting:** Check roots, compaction, crowding, light, water, and planting depth. Do not assume additional fertilizer will solve it.
+
+### Integrated pest management in practice
+
+Prevention begins with correct identification, suitable plant choice, healthy establishment, sanitation where appropriate, and regular observation. Tolerate minor damage when the plant is not at meaningful risk. Use physical exclusion or hand removal only where safe and appropriate. Preserve beneficial organisms and habitat. If a pesticide is being considered, identify the target, confirm the product is labeled for that plant and use, read all directions, protect pollinators, and obey applicable rules. Never apply a product “just in case.”
+
+**Worked example — leaves with new holes.** The gardener photographs the leaf and both surfaces, checks nearby plants, looks for an insect or fresh feeding, and checks whether damage is increasing. If one mature plant has a few holes and no organism is found, the gardener records and rechecks rather than spraying. If damage spreads, the gardener seeks an identification using clear photographs and plant details. The result is a better-supported decision, not a promise that the damage is harmless.
 
 ## 10. Pollinator-Supportive Gardening On Eastern Vancouver Island
 
@@ -351,6 +540,9 @@ The current source set supports a clear operating model for the final book.
 
 [E1] Supplied *Errington BC Zone 8a Planting Calendar* PDF, 89 pages, author and source history unknown, creation date shown in PDF metadata as 2026-06-28; the derived transcription is `ERRINGTON_CALENDAR_FULL_TEXT.md`. The chart images are separate source artifacts labeled Zone 8b.
 [1] The earlier draft cites Pollinator Partnership Canada and the North American Pollinator Protection Campaign, *Selecting Plants for Pollinators: A Guide for Gardeners, Farmers, and Land Managers in the Eastern Vancouver Island Ecoregion* (2017), especially pp. 3, 6, 10, 12-21. The PDF is not present in the repository; citation details and claims require rechecking. The stated scope is broader than Errington.
+[S1] Government of British Columbia, “Soil Nutrient Management,” including the “Management” section, https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/agricultural-land-and-environment/soil-nutrients/management. Provincial guidance; not a soil test or property-specific recommendation.
+[S2] Oregon State University Extension Service, *Raised Bed Gardening*, FS 270, https://extension.oregonstate.edu/catalog/fs-270-raised-bed-gardening. General bed-design guidance; regional recommendations must be adapted to the site.
+[S3] Oregon State University Extension Service, *Growing Vegetables in the Pacific Northwest Coastal Region*, EM 9695, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region. Coastal-region general guidance; not a local Errington calendar.
 
 The Internet Archive references listed in the editorial standard are source works, not text to be copied into this encyclopedia. Plant-level taxonomy, morphology, care, and timing still require traceable, plant-specific citations. A blank or unmatched registry field remains unverified rather than being filled by guesswork.
 

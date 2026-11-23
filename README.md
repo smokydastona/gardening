@@ -14,6 +14,7 @@ review are still incomplete.
 | Calendar transcription | 359 entries across all 12 months; grouped rows and action meanings require review |
 | Errington zone | Unresolved: calendar PDF says 8a; both chart images say 8b |
 | Frost anchors | April 15 and October 15 are approximate source values, not guaranteed dates |
+| Core handbook | Expanded foundations on climate risk, microclimates, planning, soil, raised beds, seed starting, watering, and plant-health diagnosis; plant-specific research remains pending |
 | Illustrations | 0 approved; 70 image files on the separate `illustration-assets` branch passed PNG/dimension checks but contain duplicate content and visibly misattributed labels; identity/license review remains pending |
 | PDF pipeline | One reproducible build command generates the working encyclopedia, monthly guide, and plant directory; only approved illustrations are embedded |
 | Generated supplement | 137 concept plant plates, 36 educational figures, and 18 worked examples are included; all concept art remains explicitly unapproved |
@@ -22,6 +23,7 @@ review are still incomplete.
 ## Key deliverables
 
 - [Working encyclopedia PDF](Errington_Gardening_Encyclopedia.pdf)
+- The current encyclopedia build is 274 pages; its expanded core handbook appears in the opening chapters.
 - Errington Monthly Gardening Guide PDF
 - Errington Illustrated Plant Directory PDF
 - [Errington Botanical Illustration Collection PDF](Errington_Botanical_Illustration_Collection.pdf)
