@@ -3,7 +3,10 @@ from pathlib import Path
 from pypdf import PdfReader
 from PIL import Image
 import pytest
+from reportlab.pdfgen.canvas import Canvas
 
+import build_final_encyclopedia_pdf as encyclopedia
+import validate_pipeline
 from build_final_encyclopedia_pdf import (
     OUTPUT_MD,
     SOURCE_FILES,
@@ -30,7 +33,9 @@ def test_compiled_encyclopedia_includes_core_handbook(tmp_path: Path) -> None:
     assert (tmp_path / OUTPUT_MD).read_text(encoding="utf-8") == compiled
 
 
-def test_pdf_build_has_paginated_contents_metadata_and_markdown_formatting(tmp_path: Path) -> None:
+def test_pdf_build_has_paginated_contents_metadata_and_markdown_formatting(
+    tmp_path: Path, monkeypatch
+) -> None:
     for title, file_name, _deck in SOURCE_FILES:
         path = tmp_path / file_name
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -69,6 +74,30 @@ def test_pdf_build_has_paginated_contents_metadata_and_markdown_formatting(tmp_p
     build_pdf(tmp_path)
     assert output.read_bytes() == first_build
 
+    original_styles = encyclopedia.NOTE_STYLES
+    monochrome = tuple(
+        (font, encyclopedia.colors.black, size, angle)
+        for font, _ink, size, angle in original_styles
+    )
+    monkeypatch.setattr(encyclopedia, "NOTE_STYLES", monochrome)
+    build_pdf(tmp_path)
+    with pytest.raises(ValueError, match="three distinct ink colors"):
+        validate_publication(tmp_path)
+
+    one_hand = tuple(
+        ("IndieFlower", ink, size, angle) for _font, ink, size, angle in original_styles
+    )
+    monkeypatch.setattr(encyclopedia, "NOTE_STYLES", one_hand)
+    build_pdf(tmp_path)
+    with pytest.raises(ValueError, match="three embedded handwriting fonts"):
+        validate_publication(tmp_path)
+
+    monkeypatch.setattr(encyclopedia.GardenNote, "draw", lambda self: None)
+    build_pdf(tmp_path)
+    monkeypatch.setattr(validate_pipeline, "RELEASE_PDFS", (output.name,))
+    with pytest.raises(ValueError, match="too few or poorly distributed notes"):
+        validate_pipeline.validate_publication_set(tmp_path)
+
 
 def test_illustration_loader_ignores_unapproved_and_fails_for_missing_approved(tmp_path: Path) -> None:
     directory = tmp_path / "plant_illustrations"
@@ -88,6 +117,23 @@ def test_illustration_loader_ignores_unapproved_and_fails_for_missing_approved(t
     )
     with pytest.raises(FileNotFoundError, match="ARUGULA.png"):
         load_plant_illustrations(tmp_path)
+
+
+def test_theme_gate_rejects_notes_confined_to_one_end(tmp_path: Path) -> None:
+    encyclopedia.register_fonts()
+    pdf = tmp_path / "concentrated-notes.pdf"
+    canvas = Canvas(str(pdf))
+    for page in range(10):
+        if 1 <= page <= 3:
+            for item in range(2):
+                note = encyclopedia.GardenNote(f"Observation {page}-{item}.", page + item)
+                note.wrap(350, 500)
+                note.drawOn(canvas, 30, 500 - item * 60)
+        canvas.showPage()
+    canvas.save()
+
+    with pytest.raises(ValueError, match="poorly distributed notes"):
+        validate_pipeline.validate_annotation_theme(PdfReader(str(pdf)))
 
 
 def test_unapproved_markdown_artwork_is_withheld_from_encyclopedia(tmp_path: Path) -> None:

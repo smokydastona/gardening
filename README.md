@@ -17,6 +17,7 @@ review are still incomplete.
 | Core handbook | Expanded foundations on climate risk, microclimates, planning, soil, raised beds, seed starting, watering, and plant-health diagnosis; plant-specific research remains pending |
 | Illustrations | 0 approved; owner-confirmed 70-image branch set includes exact duplicates and visibly mismatched labels; taxonomic and anatomical review remains pending |
 | PDF pipeline | One reproducible build command generates the working encyclopedia, monthly guide, plant directory, and two illustration review registers; only approved plant artwork is embedded |
+| Encyclopedia design | Pre-owned-book styling with editorial handwritten-style notes in multiple fonts and ink colors; automated theme gate and human visual review are mandatory |
 | Encyclopedia field index | 137 plant records are cross-referenced to verbatim calendar mentions and available claim research; taxonomy and timing remain explicitly unverified |
 | Learning aids | 18 practical worked examples and 36 figure concepts are included in the encyclopedia; unreviewed figure artwork is withheld |
 | Publication approval | `IN_PROGRESS`; see [publication QA](PUBLICATION_QA_REPORT.md) |
@@ -96,10 +97,13 @@ the checked-in transcription.
 
 ## Typography
 
-Display headings and generated illustration text use **Reenie Beanie**, from
-[Google Fonts](https://fonts.google.com/specimen/Reenie+Beanie). The bundled TTF and
-SIL Open Font License are stored in `fonts/`. Publication body text uses Times-Roman for
-readability.
+The encyclopedia's aged-paper treatment and varied handwritten-style notes are a mandatory
+design theme for every edition, not evidence of actual past owners or independent research.
+Its notes use **Reenie Beanie**, **Indie Flower**, and **Architects Daughter** in distinct
+ink colors; the bundled fonts and their SIL Open Font Licenses are in `fonts/`. Body text
+uses Times-Roman for readability. The publication build checks note distribution, embedded
+fonts, ink colors, and minimum size, and a human must review the full edition visually
+before release. See [build and release](docs/BUILD_AND_RELEASE.md).
 
 ## Evidence and accuracy limitations
 

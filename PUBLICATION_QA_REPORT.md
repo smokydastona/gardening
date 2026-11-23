@@ -13,12 +13,13 @@ or editorial content are correct.
 | C — Local horticultural accuracy | `FAILED` | 8a/8b conflict unresolved; no independently sourced Errington frost normals or plant-specific local timings. |
 | D — Illustration integrity | `PARTIAL — unapproved artwork withheld` | 0 botanical illustrations and 0 educational figures are approved. The owner confirms rights to the 70 branch images; they and the generated candidates are excluded from all PDFs pending identity, anatomy, and independent botanical review. Figure concept descriptions are listed in the encyclopedia, not presented as reviewed diagrams. |
 | E — Editorial quality | `PARTIAL` | The core handbook includes expanded climate-risk, microclimate, planning, botany, soil, bed-building, propagation, irrigation, and diagnostic instruction. The plant index now cross-references exact calendar transcriptions and available claim research without treating them as recommendations. A complete claim-level bibliography, plant-specific research, and editorial sign-off remain outstanding. |
-| F — Publication quality | `PARTIAL` | Current PDFs have 195, 25, 25, 138, and 37 pages. Only the encyclopedia cover image is embedded; all other PDFs contain no images. Display headings use Reenie Beanie; body text uses Times-Roman. Full-publication print review remains open. |
-| G — Software quality | `PARTIAL` | `build_all.py`, publication validation, and 52 tests pass locally. CI status is not claimed until a GitHub Actions run succeeds. |
+| F — Publication quality | `PARTIAL` | Current PDFs have 204, 25, 25, 138, and 37 pages. Only the encyclopedia cover image is embedded; all other PDFs contain no images. Body text uses Times-Roman. Full-publication print review remains open. |
+| G — Software quality | `PARTIAL` | `build_all.py`, publication validation, and 58 tests pass locally. The current design change has not yet been validated by CI. |
+| H — Pre-owned encyclopedia theme | `PARTIAL — release blocked` | The automated gate requires distributed editorial notes in three embedded handwriting fonts and at least three ink colors. Representative pages were inspected, but a full human print-size review of the theme and legibility remains mandatory. |
 
 ## Latest build and visual scan
 
-The regenerated products are `Errington_Gardening_Encyclopedia.pdf` (195 pages),
+The regenerated products are `Errington_Gardening_Encyclopedia.pdf` (204 pages),
 `Errington_Monthly_Gardening_Guide.pdf` (25 pages),
 `Errington_Illustrated_Plant_Directory.pdf` (25 pages),
 `Errington_Botanical_Illustration_Collection.pdf` (138 pages), and
@@ -32,6 +33,12 @@ and identify where artwork is pending. The monthly
 guide uses wrapping table cells and separates months; extracted-text checks confirm long
 calendar entries and the source-marked pea sowing action remain intact. The current rebuilt
 PDFs have not received a full visual scan; publication review remains open.
+
+The encyclopedia includes aged-paper styling and editorial handwritten-style notes in
+Reenie Beanie, Indie Flower, and Architects Daughter, with several pen-ink colors. The
+front matter identifies these as design additions, not historical annotations or
+independent evidence. The theme is a mandatory release gate for every edition; automated
+structural checks do not replace a complete human visual review.
 
 The encyclopedia's plant field index lists all 137 registry records, links each to matching
 calendar source rows and available claim research, and omits generic profile boilerplate.
@@ -49,6 +56,8 @@ Required human visual checklist:
 - [ ] Inspect every page at print-readable resolution.
 - [ ] Check clipping, missing glyphs, blank pages, text/image overlap, page breaks, margins,
   running headers, and page numbers.
+- [ ] Confirm the pre-owned-book appearance, varied handwritten notes and inks, contrast,
+  and print-size readability throughout the encyclopedia.
 - [ ] Verify every table and every TOC page number/link against the rendered PDF.
 - [ ] Review each proposed illustration individually before approving or embedding it.
 - [ ] Sign off editorial accuracy and confirm the climate-zone discrepancy is either

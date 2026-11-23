@@ -12,12 +12,13 @@ from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
-from reportlab.lib.utils import ImageReader
+from reportlab.lib.utils import ImageReader, simpleSplit
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Image as RLImage
 from reportlab.platypus import (
     HRFlowable,
+    Flowable,
     ListFlowable,
     ListItem,
     PageBreak,
@@ -63,6 +64,58 @@ PAPER_COLOR = colors.HexColor("#f6f0e2")
 INK_COLOR = colors.HexColor("#2d2a26")
 ACCENT_COLOR = colors.HexColor("#51664e")
 MUTED_COLOR = colors.HexColor("#7b756c")
+
+NOTE_STYLES = (
+    ("IndieFlower", colors.HexColor("#304e6c"), 11.5, -1.0),
+    ("ArchitectsDaughter", colors.HexColor("#75483a"), 10.5, 0.8),
+    ("ReenieBeanie", colors.HexColor("#3d604a"), 15, -0.5),
+)
+SECTION_NOTES = {
+    "Core Handbook": "Keep a record of what you notice in your own garden.",
+    "Monthly Reference": "These dates are source notes, not a local frost forecast.",
+    "Plant Registry": "Recorded names still need independent verification.",
+    "Plant Field Index and Learning Aids": "A grouped row is not a plant-specific planting date.",
+    "Source and Verification Policy": "Check the evidence before treating a note as advice.",
+}
+MONTH_NOTES = (
+    "What is different in your garden this month?",
+    "Keep the source page handy when comparing entries.",
+    "Weather and exposure can vary from one garden to another.",
+    "A source date is a starting point for review, not a promise.",
+    "Record what you observe alongside the calendar.",
+    "Remember that grouped entries may need separate review.",
+)
+INDEX_NOTES = (
+    "Check for grouped calendar entries mentioning {plant}.",
+    "Look for the original source pages for {plant}.",
+    "A missing calendar match does not establish a date for {plant}.",
+    "Review the evidence before relying on the name {plant}.",
+)
+REGISTRY_NOTES = (
+    "Check the recorded name for {plant} before using it.",
+    "Look at the source and review status for {plant}.",
+    "Does the common name {plant} refer to more than one plant?",
+    "Keep timing and identification separate for {plant}.",
+)
+CORE_NOTES = {
+    1: "Notice how conditions change from one part of the garden to another.",
+    2: "A calendar transcription is not the same as reviewed advice.",
+    3: "The two source zone labels still need to be reconciled.",
+    4: "Keep actual frost observations alongside the source dates.",
+    5: "A sketch can capture sun, shade and access through the year.",
+    6: "Check drainage before choosing where to place a bed.",
+    7: "Label sowings with the date and seed source.",
+    8: "Check the soil as well as the calendar before watering.",
+    9: "Identify the problem before choosing a treatment.",
+    10: "Record which flowers visiting insects actually use.",
+    11: "These crops still need plant-specific verification.",
+    12: "Check the plant identity before relying on a common name.",
+    13: "Keep harvest and storage observations with the crop notes.",
+    14: "Keep review status visible as this book develops.",
+    15: "Source scope is not the same as verified coverage.",
+    16: "Follow each claim back to its evidence.",
+}
+NOTE_LABELS = ("Note: ", "Remember: ", "Check: ", "For later: ", "In the margin: ")
 
 SOURCE_FILES = [
     ("Core Handbook", "ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md", "Gardening foundations, Errington context, and source limitations."),
@@ -111,6 +164,10 @@ def register_fonts() -> dict[str, str]:
     pdfmetrics.registerFont(TTFont("BookText", str(font_dir / "ReenieBeanie.ttf")))
     pdfmetrics.registerFont(TTFont("BookItalic", str(font_dir / "ReenieBeanie.ttf")))
     pdfmetrics.registerFont(TTFont("BookBoldItalic", str(font_dir / "ReenieBeanie.ttf")))
+    pdfmetrics.registerFont(TTFont("IndieFlower", str(font_dir / "IndieFlower-Regular.ttf")))
+    pdfmetrics.registerFont(
+        TTFont("ArchitectsDaughter", str(font_dir / "ArchitectsDaughter-Regular.ttf"))
+    )
     pdfmetrics.registerFontFamily(
         regular,
         normal=regular,
@@ -483,6 +540,13 @@ def add_front_matter(story: list, styles: dict[str, ParagraphStyle]) -> None:
             styles["TocLead"],
         )
     )
+    story.append(
+        Paragraph(
+            "The handwritten-style notes are editorial design additions, not historical "
+            "annotations or independent evidence.",
+            styles["TocLead"],
+        )
+    )
     story.append(Paragraph("Contents", styles["FrontMatterHeading"]))
     toc = TableOfContents()
     toc.levelStyles = [
@@ -494,15 +558,50 @@ def add_front_matter(story: list, styles: dict[str, ParagraphStyle]) -> None:
     story.append(PageBreak())
 
 
+class GardenNote(Flowable):
+    def __init__(self, text: str, variant: int) -> None:
+        super().__init__()
+        self.text = NOTE_LABELS[variant % len(NOTE_LABELS)] + text
+        self.font, self.ink, self.font_size, self.angle = NOTE_STYLES[variant % len(NOTE_STYLES)]
+        self.variant = variant
+        self.indent = 12 + (variant % 3) * 11
+        self.lines: list[str] = []
+
+    def wrap(self, avail_width: float, avail_height: float) -> tuple[float, float]:
+        self.width = avail_width
+        self.lines = simpleSplit(self.text, self.font, self.font_size, avail_width - self.indent - 20)
+        self.height = len(self.lines) * (self.font_size + 3) + 15
+        return self.width, self.height
+
+    def draw(self) -> None:
+        self.canv.saveState()
+        self.canv.translate(self.indent, self.height - self.font_size - 4)
+        self.canv.rotate(self.angle)
+        self.canv.setFillColor(self.ink)
+        self.canv.setStrokeColor(self.ink)
+        self.canv.setLineWidth(0.45)
+        self.canv.line(-7, 2, -4, -self.font_size * len(self.lines))
+        self.canv.setFont(self.font, self.font_size)
+        for index, line in enumerate(self.lines):
+            self.canv.drawString(0, -index * (self.font_size + 3), line)
+        if self.variant % 3 == 1:
+            baseline = -(len(self.lines) - 1) * (self.font_size + 3)
+            self.canv.line(1, baseline - 3, 35, baseline - 3.5)
+        self.canv.restoreState()
+
+
 def add_section_opener(
     story: list,
     styles: dict[str, ParagraphStyle],
     section: dict[str, str],
+    heading: Paragraph,
+    index: int,
 ) -> None:
     story.append(Spacer(1, 0.55 * inch))
     story.append(Paragraph("Errington Encyclopedia", styles["SectionKicker"]))
-    story.append(Paragraph(paragraph_text(section["title"]), styles["SectionTitle"]))
+    story.append(heading)
     story.append(Paragraph(paragraph_text(section["deck"]), styles["SectionDeck"]))
+    story.append(GardenNote(SECTION_NOTES[section["title"]], index))
     story.append(PageBreak())
 
 
@@ -633,6 +732,8 @@ def add_markdown_lines(
         )
 
     ast = MARKDOWN(text)
+    note_index = 0
+    heading_count = 0
     for token in ast:
         kind = token["type"]
         if kind == "blank_line":
@@ -649,6 +750,21 @@ def add_markdown_lines(
             ):
                 heading._toc_level = 1
             story.append(heading)
+            note_text: str | None = None
+            if level == 2 and section_title == "Monthly Reference" and heading_text in MONTH_NAMES:
+                note_text = MONTH_NOTES[note_index % len(MONTH_NOTES)]
+            elif level == 3 and section_title in ("Plant Registry", "Plant Field Index and Learning Aids"):
+                heading_count += 1
+                if heading_count % 5 == 1:
+                    notes = REGISTRY_NOTES if section_title == "Plant Registry" else INDEX_NOTES
+                    note_text = notes[note_index % len(notes)].format(plant=heading.getPlainText())
+            elif level == 2 and section_title == "Core Handbook":
+                match = re.match(r"(\d+)\.", heading.getPlainText())
+                if match:
+                    note_text = CORE_NOTES.get(int(match.group(1)))
+            if note_text is not None:
+                story.append(GardenNote(note_text, note_index))
+                note_index += 1
             if level == 3 and section_title == "Plant Registry":
                 plant_key = f"plant-{normalize_key(heading.getPlainText()).lower().replace('_', '-')}"
                 image_path = plant_illustrations.get(plant_key)
@@ -737,6 +853,13 @@ def draw_page_chrome(canvas, doc) -> None:
     canvas.saveState()
     canvas.setFillColor(PAPER_COLOR)
     canvas.rect(0, 0, doc.pagesize[0], doc.pagesize[1], fill=1, stroke=0)
+    canvas.setFillColor(colors.HexColor("#efe5d2"))
+    canvas.rect(0, 0, 0.13 * inch, doc.pagesize[1], fill=1, stroke=0)
+    canvas.rect(doc.pagesize[0] - 0.1 * inch, 0, 0.1 * inch, doc.pagesize[1], fill=1, stroke=0)
+    canvas.setStrokeColor(colors.HexColor("#e4d7bf"))
+    canvas.setLineWidth(0.7)
+    canvas.line(0.16 * inch, 0.2 * inch, 0.16 * inch, doc.pagesize[1] - 0.2 * inch)
+    canvas.line(doc.pagesize[0] - 0.16 * inch, 0.2 * inch, doc.pagesize[0] - 0.16 * inch, doc.pagesize[1] - 0.2 * inch)
     canvas.setStrokeColor(colors.HexColor("#cbb99b"))
     canvas.setLineWidth(0.5)
     canvas.line(doc.leftMargin, doc.pagesize[1] - 0.45 * inch, doc.pagesize[0] - doc.rightMargin, doc.pagesize[1] - 0.45 * inch)
@@ -779,8 +902,7 @@ def build_pdf(base_dir: Path) -> Path:
         section_heading = Paragraph(paragraph_text(section["title"]), styles["SectionTitle"])
         section_heading._toc_level = 0
         section_heading._bookmark_key = f"section-{index + 1}"
-        add_section_opener(story, styles, section)
-        story[-3] = section_heading
+        add_section_opener(story, styles, section, section_heading, index)
         add_markdown_lines(
             story,
             styles,

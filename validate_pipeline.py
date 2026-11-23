@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import math
 import re
 from collections import Counter
 from pathlib import Path
@@ -57,6 +58,10 @@ RELEASE_PDFS = (
     "Errington_Botanical_Illustration_Collection.pdf",
     "Errington_Educational_Figure_Collection.pdf",
 )
+HANDWRITING_FONTS = frozenset(
+    ("IndieFlower-Regular", "ArchitectsDaughter-Regular", "ReenieBeanie")
+)
+NOTE_LABEL = re.compile(r"^(?:Note|Remember|Check|For later|In the margin):\s+\S")
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -229,6 +234,61 @@ def validate_inputs(base_dir: Path, check_snapshot: bool = True) -> dict[str, in
     }
 
 
+def validate_annotation_theme(reader: PdfReader) -> None:
+    notes: list[tuple[int, str, str, tuple[float, ...]]] = []
+    for page_index, page in enumerate(reader.pages[1:], start=1):
+        fill_color: tuple[float, ...] | None = None
+        color_stack: list[tuple[float, ...] | None] = []
+
+        def capture_color(operator, operands, _cm, _tm):
+            nonlocal fill_color
+            if operator == b"q":
+                color_stack.append(fill_color)
+            elif operator == b"Q" and color_stack:
+                fill_color = color_stack.pop()
+            elif operator == b"rg":
+                fill_color = tuple(round(float(value), 4) for value in operands)
+            elif operator in (b"g", b"k"):
+                fill_color = None
+
+        def capture_note(text, _cm, _tm, font, font_size):
+            if (
+                not NOTE_LABEL.match(text.strip())
+                or font is None
+                or fill_color is None
+                or font_size < 10
+            ):
+                return
+            name = str(font.get("/BaseFont", "")).split("+")[-1]
+            descriptor = font.get("/FontDescriptor")
+            if name not in HANDWRITING_FONTS or not descriptor:
+                return
+            descriptor = descriptor.get_object()
+            if not any(descriptor.get(key) for key in ("/FontFile", "/FontFile2", "/FontFile3")):
+                return
+            notes.append((page_index, text.strip(), name, fill_color))
+
+        page.extract_text(visitor_text=capture_note, visitor_operand_before=capture_color)
+
+    required_notes = max(5, math.ceil(len(reader.pages) / 10))
+    required_pages = max(3, math.ceil(len(reader.pages) / 20))
+    note_pages = {note[0] for note in notes}
+    if (
+        len(notes) < required_notes
+        or len(note_pages) < required_pages
+        or len({note[1] for note in notes}) < 5
+        or not note_pages
+        or min(note_pages) > len(reader.pages) * 0.3
+        or max(note_pages) < len(reader.pages) * 0.7
+    ):
+        raise ValueError("Encyclopedia annotation theme gate: too few or poorly distributed notes.")
+    if {note[2] for note in notes} != HANDWRITING_FONTS or len({note[3] for note in notes}) < 3:
+        raise ValueError(
+            "Encyclopedia annotation theme gate: notes require three embedded handwriting fonts "
+            "and three distinct ink colors."
+        )
+
+
 def validate_publication(base_dir: Path) -> dict[str, int | str]:
     pdf_path = base_dir / "Errington_Gardening_Encyclopedia.pdf"
     if not pdf_path.is_file():
@@ -312,6 +372,7 @@ def validate_publication(base_dir: Path) -> dict[str, int | str]:
             break
     if not embedded_font:
         raise ValueError("Publication PDF has no embedded fonts.")
+    validate_annotation_theme(reader)
     return {
         "pdf_pages": len(reader.pages),
         "pdf_bytes": pdf_path.stat().st_size,
@@ -322,6 +383,9 @@ def validate_publication(base_dir: Path) -> dict[str, int | str]:
 def validate_publication_set(base_dir: Path) -> dict[str, dict[str, int | str]]:
     results: dict[str, dict[str, int | str]] = {}
     for filename in RELEASE_PDFS:
+        if filename == "Errington_Gardening_Encyclopedia.pdf":
+            results[filename] = validate_publication(base_dir)
+            continue
         path = base_dir / filename
         if not path.is_file():
             raise ValueError(f"Missing publication: {filename}")
