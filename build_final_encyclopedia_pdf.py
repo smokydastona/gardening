@@ -72,6 +72,7 @@ NOTE_STYLES = (
 )
 SECTION_NOTES = {
     "Core Handbook": "One sentence in the ledger can save a whole season of guesswork.",
+    "Grower's Handbook": "A blank in the log is better than a borrowed number.",
     "Monthly Reference": "Read the source page before carrying a date across to the bed.",
     "Plant Registry": "A familiar common name is a clue, not a botanical identity.",
     "Plant Field Index and Learning Aids": "Keep separate notes for the name, the source, and the result.",
@@ -119,6 +120,7 @@ NOTE_LABELS = ("Note: ", "Remember: ", "Check: ", "For later: ", "In the margin:
 
 SOURCE_FILES = [
     ("Core Handbook", "ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md", "Gardening foundations, Errington context, and source limitations."),
+    ("Grower's Handbook", "ERRINGTON_GROWER_HANDBOOK.md", "Practical skills, a plant-profile template, and field records."),
     ("Monthly Reference", "ERRINGTON_MONTHLY_REFERENCE.md", "Source calendar transcriptions grouped by month and labeled for review."),
     ("Plant Registry", "ERRINGTON_PLANT_CATALOG.md", "Stable plant records and independent verification states."),
     ("Plant Field Index and Learning Aids", "ERRINGTON_COMPLETE_SUPPLEMENT.md", "Plant-by-plant calendar cross-references, claim notes, educational figure concepts, and practical examples."),
@@ -652,7 +654,9 @@ def add_markdown_lines(
             kind = node["type"]
             if kind in {"text", "inline_html"}:
                 output.append(paragraph_text(node.get("raw", "")))
-            elif kind in {"softbreak", "linebreak"}:
+            elif kind == "softbreak":
+                output.append(" ")
+            elif kind == "linebreak":
                 output.append("<br/>")
             elif kind == "strong":
                 output.append(f"<b>{inline(node.get('children', []))}</b>")
@@ -779,15 +783,21 @@ def add_markdown_lines(
         elif kind == "table":
             table_rows = []
             for row in token.get("children", []):
-                if row["type"] not in {"table_head", "table_body"}:
-                    continue
-                for table_row in row.get("children", []):
+                if row["type"] == "table_head":
                     table_rows.append(
                         [
-                            paragraph(cell.get("children", []), "TableHeader" if cell.get("attrs", {}).get("head") else "TableCell")
-                            for cell in table_row.get("children", [])
+                            paragraph(cell.get("children", []), "TableHeader")
+                            for cell in row.get("children", [])
                         ]
                     )
+                elif row["type"] == "table_body":
+                    for table_row in row.get("children", []):
+                        table_rows.append(
+                            [
+                                paragraph(cell.get("children", []), "TableCell")
+                                for cell in table_row.get("children", [])
+                            ]
+                        )
             if table_rows:
                 column_count = max(len(row) for row in table_rows)
                 table = Table(

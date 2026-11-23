@@ -22,6 +22,15 @@ OCHRE = "#c59b54"
 FONT_DIR = BASE / "fonts"
 FONT = FONT_DIR / "ReenieBeanie.ttf"
 
+PLANT_SECTIONS = (
+    ("Vegetables and Perennial Edibles", frozenset({"vegetable", "perennial-edible"})),
+    ("Herbs", frozenset({"herb"})),
+    ("Fruits and Berries", frozenset({"fruit"})),
+    ("Flowers, Ornamentals, Shrubs, Trees, and Vines", frozenset({"flower", "ornamental", "shrub-tree", "vine"})),
+    ("Native Plant Candidates", frozenset({"native"})),
+    ("Other Plant Records", frozenset({""})),
+)
+
 
 def read_csv(name: str) -> list[dict[str, str]]:
     with (BASE / name).open(encoding="utf-8-sig", newline="") as handle:
@@ -269,10 +278,38 @@ def produce_supplement(candidate_manifest: list[dict], figures: list[dict]) -> P
         "verbatim with their source month and page. When a source row names multiple plants,",
         "the whole grouped row is retained; it does not establish a separate timing for each",
         "plant. All recorded taxonomy remains unverified; names marked for resolution need further research.",
+        "Entries are alphabetical within their recorded categories; a category, including",
+        "native status, is a project classification and is not independent verification.",
+        "For the full field layout and evidence requirements, see the Grower's Handbook.",
         "",
     ]
 
+    section_by_category = {
+        category: section
+        for section, categories in PLANT_SECTIONS
+        for category in categories
+    }
+    unknown_categories = sorted({
+        row.get("category", "") for row in rows
+        if row.get("category", "") not in section_by_category
+    })
+    if unknown_categories:
+        raise ValueError(f"Unrecognized plant categories: {', '.join(unknown_categories)}")
+    section_order = {section: index for index, (section, _) in enumerate(PLANT_SECTIONS)}
+    rows = sorted(
+        rows,
+        key=lambda row: (
+            section_order[section_by_category[row.get("category", "")]],
+            row["display_name"].casefold(),
+            row.get("plant_id", ""),
+        ),
+    )
+    current_section = None
     for row in rows:
+        section = section_by_category[row.get("category", "")]
+        if section != current_section:
+            lines.extend([f"## {section}", ""])
+            current_section = section
         aliases = registry_aliases(row)
         plant_matches = [
             entry
@@ -288,14 +325,16 @@ def produce_supplement(candidate_manifest: list[dict], figures: list[dict]) -> P
         lines.extend([
             f"### {row['display_name']}",
             "",
-            f"**Stable plant ID:** `{row['plant_id']}`",
-            f"**Category:** {row.get('category') or 'Unresolved'}",
+            f"**Stable plant ID:** `{row['plant_id']}`\\",
+            f"**Category:** {row.get('category') or 'Unresolved'}\\",
             "**Botanical name as recorded (unverified):** "
-            f"{row.get('latin_name') or 'Unresolved'}",
+            f"{row.get('latin_name') or 'Unresolved'}\\",
             "**Family as recorded (unverified):** "
-            f"{row.get('family') or 'Unresolved'}",
+            f"{row.get('family') or 'Unresolved'}\\",
             "**Life cycle as recorded (unverified):** "
-            f"{row.get('life_cycle') or 'Unresolved'}",
+            f"{row.get('life_cycle') or 'Unresolved'}\\",
+            "**Growing profile:** Plant-specific light, water, soil, hardiness, size, "
+            "planting, cultivation, pests, harvest, and storage remain pending verification.",
             "",
             "**Errington calendar source mentions**",
             "",

@@ -30,6 +30,8 @@ def test_compiled_encyclopedia_includes_core_handbook(tmp_path: Path) -> None:
 
     assert "# Core Handbook" in compiled
     assert "Content from ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md." in compiled
+    assert "# Grower's Handbook" in compiled
+    assert "Content from ERRINGTON_GROWER_HANDBOOK.md." in compiled
     assert (tmp_path / OUTPUT_MD).read_text(encoding="utf-8") == compiled
 
 
@@ -41,7 +43,9 @@ def test_pdf_build_has_paginated_contents_metadata_and_markdown_formatting(
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(
             f"# {title}\n\nA **bold** claim and *emphasis*.\n\n"
-            "- Parent\n  - Nested child\n\n| A | B |\n|---|---|\n| x | y |\n",
+            "- Parent\n  - Nested child\n\nA wrapped\nparagraph.\n\n"
+            "First line.\\\nSecond line.\n\n"
+            "| First heading | Second heading |\n|---|---|\n| x | y |\n",
             encoding="utf-8",
         )
     Image.new("RGB", (200, 300), "#f6f0e2").save(tmp_path / "cover.png")
@@ -61,6 +65,11 @@ def test_pdf_build_has_paginated_contents_metadata_and_markdown_formatting(
     assert "Source and Verification Policy" in toc_pages[0]
     assert "Nested child" in extracted
     assert "A bold claim and emphasis." in extracted
+    assert "Grower's Handbook" in extracted
+    assert "A wrapped paragraph." in extracted
+    assert "First line.\nSecond line." in extracted
+    assert "First heading" in extracted
+    assert "Second heading" in extracted
     assert reader.metadata["/Title"] == "Errington Gardening Encyclopedia"
     assert "Copilot" not in reader.metadata["/Author"]
     assert reader.outline

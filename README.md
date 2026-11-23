@@ -15,10 +15,11 @@ review are still incomplete.
 | Errington zone | Unresolved: calendar PDF says 8a; both chart images say 8b |
 | Frost anchors | April 15 and October 15 are approximate source values, not guaranteed dates |
 | Core handbook | Expanded foundations on climate risk, microclimates, planning, soil, raised beds, seed starting, watering, and plant-health diagnosis; plant-specific research remains pending |
+| Grower's handbook | Working skills chapters, standardized plant-profile template, seasonal worksheets, calculations, and garden logs; external sources still need direct review |
 | Illustrations | 0 approved; owner-confirmed 70-image branch set includes exact duplicates and visibly mismatched labels; taxonomic and anatomical review remains pending |
 | PDF pipeline | One reproducible build command generates the working encyclopedia, monthly guide, plant directory, and two illustration review registers; only approved plant artwork is embedded |
 | Encyclopedia design | Pre-owned-book styling with editorial handwritten-style notes in multiple fonts and ink colors; automated theme gate and human visual review are mandatory |
-| Encyclopedia field index | 137 plant records are cross-referenced to verbatim calendar mentions and available claim research; taxonomy and timing remain explicitly unverified |
+| Encyclopedia field index | 137 plant records are alphabetized within recorded categories and cross-referenced to verbatim calendar mentions and available claim research; growing profiles, taxonomy, and timing remain unverified |
 | Learning aids | 18 practical worked examples and 36 figure concepts are included in the encyclopedia; unreviewed figure artwork is withheld |
 | Publication approval | `IN_PROGRESS`; see [publication QA](PUBLICATION_QA_REPORT.md) |
 
@@ -33,6 +34,7 @@ review are still incomplete.
 - [Errington Educational Figure Collection PDF](Errington_Educational_Figure_Collection.pdf)
 - [Plant field index, figure concepts, and worked examples](ERRINGTON_COMPLETE_SUPPLEMENT.md)
 - [Editorial manuscript](ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md)
+- [Grower's handbook and field reference](ERRINGTON_GROWER_HANDBOOK.md)
 - [Monthly source calendar](ERRINGTON_MONTHLY_REFERENCE.md)
 - [Plant registry index](ERRINGTON_PLANT_CATALOG.md)
 - [Plant verification report](PLANT_VERIFICATION_REPORT.md)
@@ -42,6 +44,8 @@ review are still incomplete.
 - [Repository audit](AUDIT_REPORT.md)
 - [Publication quality report](PUBLICATION_QA_REPORT.md)
 - [Implementation register](reports/IMPLEMENTATION_REGISTER.md)
+- [Current generated release status](reports/CURRENT_RELEASE_STATUS.md)
+- [125-entry plan to 137-record registry reconciliation](reports/PLANT_SCOPE_RECONCILIATION.csv)
 - [Source policy](docs/SOURCE_POLICY.md) and [data dictionary](docs/DATA_DICTIONARY.md)
 - [Research and verification library](docs/RESEARCH_LIBRARY.md)
 
@@ -87,6 +91,7 @@ PowerShell activation: `.venv\Scripts\Activate.ps1`.
 ```sh
 python build_all.py
 python -m pytest
+python generate_release_status.py
 ```
 
 The source record-count snapshot intentionally checks 137 plant rows and 359 calendar rows.

@@ -1,0 +1,140 @@
+record_type,historical_section,historical_name,registry_plant_id,registry_name,occurrence,name_reconciliation
+historical-entry,Vegetables,Arugula,plant-arugula,Arugula,1,Exact case-insensitive name match
+historical-entry,Vegetables,Asparagus,plant-asparagus,Asparagus,1,Exact case-insensitive name match
+historical-entry,Vegetables,Beans,plant-beans,Beans,1,Exact case-insensitive name match
+historical-entry,Vegetables,Beets,plant-beets,Beets,1,Exact case-insensitive name match
+historical-entry,Vegetables,Bell Pepper,plant-bell-pepper,Bell Pepper,1,Exact case-insensitive name match
+historical-entry,Vegetables,Broccoli,plant-broccoli,Broccoli,1,Exact case-insensitive name match
+historical-entry,Vegetables,Brussels Sprouts,plant-brussels-sprouts,Brussels Sprouts,1,Exact case-insensitive name match
+historical-entry,Vegetables,Cabbage,plant-cabbage,Cabbage,1,Exact case-insensitive name match
+historical-entry,Vegetables,Cantaloupe,plant-cantaloupe,Cantaloupe,1,Exact case-insensitive name match
+historical-entry,Vegetables,Carrots,plant-carrots,Carrots,1,Exact case-insensitive name match
+historical-entry,Vegetables,Cauliflower,plant-cauliflower,Cauliflower,1,Exact case-insensitive name match
+historical-entry,Vegetables,Celery,plant-celery,Celery,1,Exact case-insensitive name match
+historical-entry,Vegetables,Corn,plant-corn,Corn,1,Exact case-insensitive name match
+historical-entry,Vegetables,Cucumber,plant-cucumber,Cucumber,1,Exact case-insensitive name match
+historical-entry,Vegetables,Garlic,plant-garlic,Garlic,1,Exact case-insensitive name match
+historical-entry,Vegetables,Kohlrabi,plant-kohlrabi,Kohlrabi,1,Exact case-insensitive name match
+historical-entry,Vegetables,Leeks,plant-leeks,Leeks,1,Exact case-insensitive name match
+historical-entry,Vegetables,Lettuce,plant-lettuce,Lettuce,1,Exact case-insensitive name match
+historical-entry,Vegetables,Eggplant,plant-eggplant,Eggplant,1,Exact case-insensitive name match
+historical-entry,Vegetables,Melons,plant-melons,Melons,1,Exact case-insensitive name match
+historical-entry,Vegetables,Okra,plant-okra,Okra,1,Exact case-insensitive name match
+historical-entry,Vegetables,Parsnips,plant-parsnips,Parsnips,1,Exact case-insensitive name match
+historical-entry,Vegetables,Peas,plant-peas,Peas,1,Exact case-insensitive name match
+historical-entry,Vegetables,Potatoes,plant-potatoes,Potatoes,1,Exact case-insensitive name match
+historical-entry,Vegetables,Spinach,plant-spinach,Spinach,1,Exact case-insensitive name match
+historical-entry,Vegetables,Sweet Potato,plant-sweet-potato,Sweet Potato,1,Exact case-insensitive name match
+historical-entry,Vegetables,Summer Squash,plant-summer-squash,Summer Squash,1,Exact case-insensitive name match
+historical-entry,Vegetables,Swiss Chard,plant-swiss-chard,Swiss Chard,1,Exact case-insensitive name match
+historical-entry,Vegetables,Tomatoes,plant-tomatoes,Tomatoes,1,Exact case-insensitive name match
+historical-entry,Herbs,Rosemary,plant-rosemary,Rosemary,1,Exact case-insensitive name match
+historical-entry,Herbs,Thyme,plant-thyme,Thyme,1,Exact case-insensitive name match
+historical-entry,Herbs,Oregano,plant-oregano,Oregano,1,Exact case-insensitive name match
+historical-entry,Herbs,Parsley,plant-parsley,Parsley,1,Exact case-insensitive name match
+historical-entry,Herbs,Chives,plant-chives,Chives,1,Exact case-insensitive name match
+historical-entry,Herbs,Basil,plant-basil,Basil,1,Exact case-insensitive name match
+historical-entry,Herbs,Dill,plant-dill,Dill,1,Exact case-insensitive name match
+historical-entry,Herbs,Cilantro,plant-cilantro,Cilantro,1,Exact case-insensitive name match
+historical-entry,Herbs,Chervil,plant-chervil,Chervil,1,Exact case-insensitive name match
+historical-entry,Herbs,Fennel,plant-fennel,Fennel,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Apple,plant-apple,Apple,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Pear,plant-pear,Pear,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Plum,plant-plum,Plum,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Cherry,plant-cherry,Cherry,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Grapes,plant-grapes,Grapes,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Strawberries,plant-strawberries,Strawberries,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Raspberries,plant-raspberries,Raspberries,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Blueberries,plant-blueberries,Blueberries,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Currants,plant-currants,Currants,1,Exact case-insensitive name match
+historical-entry,Fruits And Berries,Gooseberries,plant-gooseberries,Gooseberries,1,Exact case-insensitive name match
+historical-entry,Perennial Edibles,Rhubarb,plant-rhubarb,Rhubarb,1,Exact case-insensitive name match
+repeated-historical-entry,Perennial Edibles,Asparagus,plant-asparagus,Asparagus,2,Exact case-insensitive name match
+historical-entry,Perennial Edibles,Globe Artichoke,plant-globe-artichoke,Globe Artichoke,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Snapdragons,plant-snapdragons,Snapdragons,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Petunias,plant-petunias,Petunias,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Lobelia,plant-lobelia,Lobelia,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Pansy,plant-pansy,Pansy,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Stocks,plant-stocks,Stocks,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Statice,plant-statice,Statice,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Antirrhinum,plant-antirrhinum,Antirrhinum,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Impatiens,plant-impatiens,Impatiens,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Nicotiana,plant-nicotiana,Nicotiana,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Cleome,plant-cleome,Cleome,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Marigold,plant-marigold,Marigold,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Zinnia,plant-zinnia,Zinnia,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Cosmos,plant-cosmos,Cosmos,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Sweet Peas,plant-sweet-pea,Sweet Pea,1,Plural form in historical scope list
+historical-entry,Annual Flowers,Larkspur,plant-larkspur,Larkspur,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Poppy,plant-poppy,Poppy,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Nigella,plant-nigella,Nigella,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Calendula,plant-calendula,Calendula,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Borage,plant-borage,Borage,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Cornflower,plant-cornflower,Cornflower,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Ammi majus,plant-ammi-majus,Ammi majus,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Orlaya,plant-orlaya,Orlaya,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Celosia,plant-celosia,Celosia,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Strawflower,plant-strawflower,Strawflower,1,Exact case-insensitive name match
+historical-entry,Annual Flowers,Scabiosa,plant-scabiosa,Scabiosa,1,Exact case-insensitive name match
+historical-entry,Perennials,Hellebores,plant-hellebores,Hellebores,1,Exact case-insensitive name match
+historical-entry,Perennials,Snowdrops,plant-snowdrops,Snowdrops,1,Exact case-insensitive name match
+historical-entry,Perennials,Delphinium,plant-delphinium,Delphinium,1,Exact case-insensitive name match
+historical-entry,Perennials,Echinacea,plant-echinacea,Echinacea,1,Exact case-insensitive name match
+historical-entry,Perennials,Salvia nemorosa,plant-salvia-nemorosa,Salvia nemorosa,1,Exact case-insensitive name match
+historical-entry,Perennials,Rudbeckia,plant-rudbeckia,Rudbeckia,1,Exact case-insensitive name match
+historical-entry,Perennials,Gaillardia,plant-gaillardia,Gaillardia,1,Exact case-insensitive name match
+historical-entry,Perennials,Hostas,plant-hostas,Hostas,1,Exact case-insensitive name match
+historical-entry,Perennials,Daylilies,plant-daylily,Daylily,1,Plural form in historical scope list
+historical-entry,Perennials,Asters,plant-asters,Asters,1,Exact case-insensitive name match
+historical-entry,Perennials,Primula,plant-primula,Primula,1,Exact case-insensitive name match
+historical-entry,Perennials,Wallflower,plant-wallflower,Wallflower,1,Exact case-insensitive name match
+historical-entry,Perennials,Aubretia,plant-aubretia,Aubretia,1,Exact case-insensitive name match
+historical-entry,Perennials,Iberis,plant-iberis,Iberis,1,Exact case-insensitive name match
+historical-entry,"Bulbs, Corms, And Tubers",Tulips,plant-tulip,Tulip,1,Plural form in historical scope list
+historical-entry,"Bulbs, Corms, And Tubers",Daffodils,plant-daffodil,Daffodil,1,Plural form in historical scope list
+historical-entry,"Bulbs, Corms, And Tubers",Hyacinths,plant-hyacinths,Hyacinths,1,Exact case-insensitive name match
+historical-entry,"Bulbs, Corms, And Tubers",Muscari,plant-muscari,Muscari,1,Exact case-insensitive name match
+historical-entry,"Bulbs, Corms, And Tubers",Allium,plant-allium,Allium,1,Exact case-insensitive name match
+historical-entry,"Bulbs, Corms, And Tubers",Dahlia,plant-dahlia,Dahlia,1,Exact case-insensitive name match
+historical-entry,"Bulbs, Corms, And Tubers",Gladiolus,plant-gladiolus,Gladiolus,1,Exact case-insensitive name match
+historical-entry,"Bulbs, Corms, And Tubers",Anemone,plant-anemone,Anemone,1,Exact case-insensitive name match
+historical-entry,"Bulbs, Corms, And Tubers",Crocus,plant-crocus,Crocus,1,Exact case-insensitive name match
+historical-entry,"Bulbs, Corms, And Tubers",Camassia,plant-camassia,Camassia,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Witch Hazel,plant-witch-hazel,Witch Hazel,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Buddleja,plant-buddleja,Buddleja,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Hydrangea paniculata,plant-hydrangea-paniculata,Hydrangea paniculata,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Roses,plant-roses,Roses,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Forsythia,plant-forsythia,Forsythia,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Pieris,plant-pieris,Pieris,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Magnolia,plant-magnolia,Magnolia,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Camellia,plant-camellia,Camellia,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Rhododendron,plant-rhododendron,Rhododendron,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Azalea,plant-azalea,Azalea,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Kerria,plant-kerria,Kerria,1,Exact case-insensitive name match
+historical-entry,Shrubs And Trees,Garry Oak,plant-garry-oak,Garry Oak,1,Exact case-insensitive name match
+historical-entry,Vines,Wisteria,plant-wisteria,Wisteria,1,Exact case-insensitive name match
+historical-entry,Vines,Clematis Group 3,plant-clematis-group-3,Clematis Group 3,1,Exact case-insensitive name match
+historical-entry,Vines,Clematis montana,plant-clematis-montana,Clematis montana,1,Exact case-insensitive name match
+historical-entry,Vines,Honeysuckle,plant-honeysuckle,Honeysuckle,1,Exact case-insensitive name match
+historical-entry,Vines,Morning Glory,plant-morning-glory,Morning Glory,1,Exact case-insensitive name match
+historical-entry,BC Natives,Osoberry,plant-osoberry,Osoberry,1,Exact case-insensitive name match
+historical-entry,BC Natives,Red-flowering currant,plant-red-flowering-currant,Red-flowering Currant,1,Exact case-insensitive name match
+historical-entry,BC Natives,Trillium,plant-trillium,Trillium,1,Exact case-insensitive name match
+historical-entry,BC Natives,Bleeding Heart,plant-bleeding-heart,Bleeding Heart,1,Exact case-insensitive name match
+historical-entry,BC Natives,Camas,plant-camas,Camas,1,Exact case-insensitive name match
+repeated-historical-entry,BC Natives,Garry Oak,plant-garry-oak,Garry Oak,2,Exact case-insensitive name match
+historical-entry,BC Natives,Sword Fern,plant-sword-fern,Sword Fern,1,Exact case-insensitive name match
+registry-additional-scope,,,plant-astilbe,Astilbe,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-deutzia,Deutzia,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-ferns,Ferns,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-heuchera,Heuchera,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-hyacinth,Hyacinth,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-iris,Iris,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-lavender,Lavender,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-nasturtium,Nasturtium,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-ornamental-grasses,Ornamental Grasses,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-peony,Peony,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-philadelphus,Philadelphus,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-sedum,Sedum,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-spiraea,Spiraea,,Retained registry record not listed in historical 125-entry plan
+registry-additional-scope,,,plant-sunflower,Sunflower,,Retained registry record not listed in historical 125-entry plan

@@ -146,3 +146,30 @@ def test_supplement_cross_references_calendar_without_presenting_boilerplate_as_
     assert "Growth habit should be resolved" not in text
     assert "Well-drained, fertile soil" not in text
     assert "Artwork withheld" not in text
+    assert "**Growing profile:** Plant-specific" in text
+    assert "remain pending verification" in text
+
+
+def test_supplement_groups_and_alphabetizes_without_promoting_native_status(
+    tmp_path, monkeypatch
+) -> None:
+    monkeypatch.setattr(produce_publication_assets, "BASE", tmp_path)
+    (tmp_path / "plant_registry.csv").write_text(
+        "plant_id,category,display_name\n"
+        "plant-tomatoes,vegetable,Tomatoes\n"
+        "plant-trillium,native,Trillium\n"
+        "plant-arugula,vegetable,Arugula\n"
+        "plant-basil,herb,Basil\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "errington_calendar_entries.csv").write_text(
+        "plant_normalized,month,row_text\n", encoding="utf-8"
+    )
+
+    text = produce_publication_assets.produce_supplement([], []).read_text(encoding="utf-8")
+
+    assert text.index("## Vegetables and Perennial Edibles") < text.index("### Arugula")
+    assert text.index("### Arugula") < text.index("### Tomatoes") < text.index("## Herbs")
+    assert text.index("## Herbs") < text.index("### Basil") < text.index("## Native Plant Candidates")
+    assert text.index("## Native Plant Candidates") < text.index("### Trillium")
+    assert "native status, is a project classification" in text

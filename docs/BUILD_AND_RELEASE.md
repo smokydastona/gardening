@@ -8,11 +8,18 @@ Create the locked Python environment and run:
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock.txt
 .venv/bin/python build_all.py
+.venv/bin/python generate_release_status.py
 ```
 
 `build_all.py` validates source counts, rebuilds calendar and registry outputs, regenerates the
 three PDFs, and validates all release PDFs. It fails on source, build, or publication validation
 errors.
+
+`generate_release_status.py` validates source checksums and the authoritative registry,
+reconciles all historical master-plan entries against the retained registry, checks asset
+hashes and approval states, and reports the current PDF files and page counts. It writes
+`reports/CURRENT_RELEASE_STATUS.md` and `reports/PLANT_SCOPE_RECONCILIATION.csv`. It does
+not run tests or CI and does not infer scientific verification or human approval.
 
 ## Generated deliverables
 
@@ -23,6 +30,10 @@ errors.
 Generated Markdown, CSV, reports, and PDFs are outputs. Source PDFs and chart images, the
 plant registry, the calendar transcription, botanical evidence, claims, and release records
 remain source or evidence inputs.
+
+`ERRINGTON_GROWER_HANDBOOK.md` is editorial source included in the encyclopedia. Its profile
+template and worksheets do not supply verified plant-specific values. The listed external
+source summaries require direct source and claim review before publication.
 
 ## Release gating
 

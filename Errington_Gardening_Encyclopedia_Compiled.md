@@ -562,6 +562,339 @@ The Internet Archive references listed in the editorial standard are source work
 
 The registry contains 137 records and previously generated taxonomy and cultural-profile fields. Those values have no claim-level citations in this repository and are not verified; generic profile scaffolds are omitted from the generated plant index. Fifteen entries are already marked for species/cultivar resolution. No plant taxonomy, horticultural profile, or local timing is independently verified in this build. Calendar transcription and plant inventory remain separate from future reviewed recommendations.
 
+# Grower's Handbook
+
+# Grower's Handbook: Skills and Field Reference
+
+This working handbook is for the moment when you have a question in the garden and a pencil in
+your pocket. It extends the core chapters; it does not turn the source calendar or the plant
+registry into verified recommendations. The source-reported frost anchors are approximately
+April 15 and October 15, not guarantees. The calendar's Zone 8a and the charts' Zone 8b remain
+unreconciled. Check current conditions, the plant's identity, and a suitable source before acting.
+
+The extension resources at the end support general principles, not specific Errington dates.
+They were located through indexed summaries; their full pages were not accessible for this draft
+and require direct review before release. Plant-specific profiles, local climate measurements,
+illustrations, and final human review remain incomplete.
+
+## Part 1: Know Your Place
+
+### Climate, weather, and the garden
+
+A hardiness zone is not a forecast, a frost date, or a measure of summer heat. Note which
+zone system and map produced a rating before comparing it with a plant label. The source
+calendar describes wet winters and dry summer spells; it is not a set of independently checked
+local rainfall normals. A site's rain gauge and thermometer are useful observations, but a
+single year cannot establish a climate normal.
+
+Growing degree days (GDD) are another way to describe accumulated warmth, not a planting date.
+One common daily calculation is the average of that day's maximum and minimum temperatures,
+minus a stated base temperature, with negative results set to zero. Sum the daily values over
+the chosen period. Species and models use different bases, thresholds, units, and start dates;
+record the method and source. No Errington GDD baseline is established here.
+
+### Walk the site before laying out beds
+
+Draw buildings, paths, trees, slope, taps, drains, and existing plants. Record direct sun at
+morning, midday, and afternoon during the growing season; repeat after leaves emerge or shadows
+change. Mark exposed corners, sheltered walls, frost-prone low points, and areas that stay wet
+after rain as observations to investigate, not fixed climate facts.
+
+Measure the distance to water and the reach from each bed edge. Put tall supports where their
+shade and weight are manageable. Keep paths usable with a full watering can. If adding a hoop
+house or cold frame, plan ventilation, wind anchoring, access, and a way to monitor heat; a
+cover can overheat plants even during cold weather. Check underground services before digging.
+
+## Part 2: Soil, Plants, and Water
+
+### What a plant is doing
+
+Roots anchor plants and take up water and minerals; stems support growth and move materials;
+leaves capture light for photosynthesis and lose water through transpiration. Flowers, fruits,
+and seeds are reproductive structures. The plant's life stage matters: a seedling, a flowering
+plant, and a dormant perennial do not need identical care.
+
+Annual, biennial, and perennial describe life cycles, not a promise of winter survival. Use
+the botanical name and cultivar where known; common names may refer to several plants. Scientific
+names can change as taxonomic authorities revise their work, so record the authority and date.
+
+### Soil texture, structure, and pH
+
+Sand, silt, and clay describe particle-size proportions; structure describes how particles
+and pore spaces are arranged. A texture triangle classifies measured proportions, not drainage
+by itself. Soil with a higher cation exchange capacity can retain more positively charged
+nutrients, but that measure alone does not tell you what nutrients are available. Soil pH
+affects nutrient availability, and preferred pH varies with the plant [H1].
+
+Take representative samples according to a reputable laboratory's instructions. Ask which
+tests and recommendations suit the intended crop and area. Do not prescribe lime, sulfur,
+biochar, fertilizer, or a standard potting recipe merely because a bed looks pale or heavy.
+Compost, castings, pumice, and vermiculite differ in properties and quality; use a documented
+mix appropriate to the container and crop, and check ingredients and drainage before scaling up.
+Do not work soil when it smears into a sticky mass.
+
+### Compost and soil life
+
+A compost heap needs suitable feedstocks, moisture, air, and time. Dry carbon-rich material
+and fresh nitrogen-rich material each have a role; a carbon-to-nitrogen ratio describes their
+chemistry, not the number of buckets to mix. A managed hot pile needs monitoring and turning;
+a cooler pile generally takes longer. Leaf mold and worm composting are other ways to process
+different materials [H2].
+
+Finished compost is a soil amendment, not a guaranteed balanced fertilizer. Avoid adding
+material whose contamination or handling history is unknown; follow current local guidance
+for manure and food crops. Fungi and other organisms decompose organic matter. Some fungi
+also form associations with plant roots, but adding an inoculant is not automatically
+necessary or useful. Match any product to evidence and site conditions.
+
+### Nutrition and water
+
+Fertilizer labels give nitrogen, phosphate, and potash as N-P-K; the numbers are not a
+complete soil diagnosis. Plants also need calcium, magnesium, sulfur, and small amounts of
+other nutrients. Organic and synthetic products release nutrients differently according to
+the material and conditions. Base rates and timing on a soil test, the crop, and the product
+label; avoid runoff and never assume more is better [H1].
+
+Before watering, check below the surface at root depth in several spots. Apply water slowly
+enough to enter the soil, then check again. Drip systems need inspection for leaks and blocked
+emitters; hand watering needs enough time to reach roots. Mulch can reduce evaporation and
+weeds, but leave a gap at crowns and check moisture underneath. Sheet mulch, living mulch, and
+cover crops each compete for space or affect timing: identify the material or species, its
+termination method, and the next crop before using it. Cover crops are not a substitute for
+a soil test [H2].
+
+## Part 3: Make More Plants and Plan Crops
+
+### Seed starting and transplanting
+
+Start with the packet and a clean, drainable container. Note the crop, cultivar, seed source,
+date, sowing depth, germination temperature, and any light requirement. Use a suitable
+seed-starting medium; moist is not the same as saturated. Bottom heat and lights are tools,
+not universal settings: follow the seed supplier's requirements and the equipment's safety
+instructions. Label trays immediately.
+
+When seedlings emerge, give them suitable light and room. Gradually introduce transplants to
+outdoor light, wind, and temperature before planting; bring them back under protection if
+conditions exceed their tolerance. Soil blocks, cell trays, and pots each need attentive
+watering. Choose container size and timing for the crop, not a single schedule for every seed
+[H3]. The local monthly reference is a source transcription, not a validated sowing schedule.
+
+### Cuttings, division, and grafting
+
+Propagation begins with a correctly identified, healthy parent and permission to propagate
+it. Clean tools and containers; label the parent and date. Stem and root cuttings, layering,
+and division have different requirements. Check a species-specific guide for the tissue,
+season, rooting conditions, and aftercare. Not every perennial tolerates division [H4].
+
+Grafting joins compatible plant parts; success depends on the specific rootstock, scion,
+technique, and aftercare. Seek current crop-specific instruction before cutting valuable
+trees. Do not move suspect pests or diseases with shared plant material.
+
+### Saving seed without surprises
+
+Before collecting seed, record the parent, cultivar, whether it is open-pollinated or an F1
+hybrid, and how the species is pollinated. Seed from an F1 may not reproduce the parent's
+characteristics; open-pollinated plants can still cross. Isolation distance, population size,
+hand-pollination, and whether a crop needs a second season depend on the species. Choose a
+crop-specific reference before saving seed [H5].
+
+Keep lots separate and labeled. Wet and dry seed cleaning methods differ by crop; do not
+ferment every seed. Dry and store according to the relevant guidance. For a small germination
+check, count a known number of seeds, provide the species' suitable conditions, and record
+how many make normal seedlings and when. A home test is a sample, not a guarantee of field
+performance.
+
+### Rotation, intercropping, and companions
+
+Keep a map of what grew in each bed and when. Rotating related crops may help manage some
+shared pests and diseases, but it does not eliminate every problem, particularly where hosts
+are widespread or pathogens persist. Determine the actual plant family and the pest's
+biology before choosing a rotation [H6].
+
+Intercropping and succession can make good use of space when light, water, access, and harvest
+times fit. A companion or trap-crop claim needs evidence for the named plants and target pest;
+do not treat a popular pairing as a guaranteed control. Observe and record results.
+
+## Part 4: A Consistent Plant Profile
+
+Use the same headings for each verified species or cultivar. A blank is useful: write
+**pending verification**, **not applicable**, or **not recorded**, rather than borrowing a
+number from a similar crop. Record the source, section, date accessed, geography, and review
+status for each substantive claim. The existing field index is an inventory and calendar
+cross-reference; it is not yet a completed profile library.
+
+### Profile template
+
+**Identity:** common name; accepted botanical name and authority; family; cultivar;
+life cycle; native or adapted status and its geographic scope; identity-review status.
+
+**Quick specifications:** hardiness rating and system; light; water; soil pH; mature height
+and spread; days to maturity and the starting point for that count. Include units and whether
+the value is cultivar-specific.
+
+**Planting and propagation:** indoor start relative to a stated frost reference; direct sow
+or transplant window; seed depth; in-row and row spacing; germination temperature; propagation
+method. Separate regional guidance from an independently checked local recommendation.
+
+**Cultivation:** nutrient needs and source for any feeding rate; supports and pruning;
+overwintering; cultivar suitability and limitations. Give the growing stage and conditions.
+
+**Neighbors and rotation:** family and possible rotation considerations; specific companion,
+antagonistic, or trap-crop claims only with evidence for the named pairing and context.
+
+**Pests, diseases, and disorders:** relevant identified threats; signs to investigate;
+prevention and cultural controls; beneficial organisms; when to seek diagnosis. Check Canadian
+product labels and local rules before recommending a pesticide.
+
+**Harvest, use, and storage:** maturity cues and harvest method; curing where applicable;
+temperature, duration, and food-safety source. Identify toxic or inedible parts where a
+reliable source supports the warning. Medicinal use needs its own qualified evidence and is
+not inferred from a plant's culinary use.
+
+**Evidence and review:** citation for each claim; source scope; dates; taxonomic,
+horticultural, local-timing, and illustration review as separate states. A calendar match
+alone does not verify a plant-specific date.
+
+## Part 5: Observe, Diagnose, and Respond
+
+### A field decision path
+
+1. **What plant and stage?** Record identity or mark it unresolved. Photograph the whole
+   plant, the affected part, and the site.
+2. **Where is the pattern?** One plant, one cultivar, one irrigated edge, or many species?
+   Note when the change began and what happened just before it.
+3. **What is present?** Look for feeding, insects, fungal growth, lesions, damaged stems,
+   dry or saturated roots, and signs of physical injury. A symptom alone is not a diagnosis.
+4. **Compare possibilities.** Weather, water, soil, and mechanical damage are nonliving
+   causes; insects and disease organisms are living causes. Either can produce similar
+   symptoms, and both can occur together. Consult a diagnostic guide or service [H7].
+5. **Choose and check a response.** Tolerate minor damage when practical, correct a confirmed
+   site problem, or use a suitable physical control. Record the result; reconsider if the
+   condition spreads.
+
+### Diseases, insects, weeds, and visitors
+
+Fungal, bacterial, and viral diseases differ in cause and management. Damping-off, mildew,
+blight, and root rot are descriptions or disease groups, not a license to diagnose from one
+spot. Use crop-specific diagnostic resources and inspect the whole pattern [H7].
+
+Feeding insects can chew or suck; beneficial predators and pollinators may be present at the
+same time. Identify the organism and life stage before removing it. Exclusion, sanitation,
+and monitoring are often useful first steps, but every intervention has tradeoffs. If a
+pesticide is justified, use a currently registered Canadian product labeled for the plant,
+target, and site, and follow its directions and local rules.
+
+For weeds, identify the plant and whether it returns from seed, roots, rhizomes, or other
+parts; removing the top alone may not solve the latter. For deer, birds, or rodents, choose
+a securely installed barrier suited to the visitor and inspect it for trapped wildlife.
+Netting and fencing require maintenance and safe access; follow applicable wildlife rules.
+
+## Part 6: Field Reference and Record Sheets
+
+### Twelve-month almanac
+
+Use the Monthly Reference for the source's full twelve-month entries, page numbers, and
+action labels. Those mechanically classified rows are not independently reviewed; grouped
+plant names must stay grouped. Use this repeatable checklist each month rather than copying a
+date into a plant-specific recommendation:
+
+| Month | Sow indoors | Direct sow | Transplant | Prune / maintain | Harvest | Soil / prep |
+|---|---|---|---|---|---|---|
+| January | _____ | _____ | _____ | _____ | _____ | _____ |
+| February | _____ | _____ | _____ | _____ | _____ | _____ |
+| March | _____ | _____ | _____ | _____ | _____ | _____ |
+| April | _____ | _____ | _____ | _____ | _____ | _____ |
+| May | _____ | _____ | _____ | _____ | _____ | _____ |
+| June | _____ | _____ | _____ | _____ | _____ | _____ |
+| July | _____ | _____ | _____ | _____ | _____ | _____ |
+| August | _____ | _____ | _____ | _____ | _____ | _____ |
+| September | _____ | _____ | _____ | _____ | _____ | _____ |
+| October | _____ | _____ | _____ | _____ | _____ | _____ |
+| November | _____ | _____ | _____ | _____ | _____ | _____ |
+| December | _____ | _____ | _____ | _____ | _____ | _____ |
+
+Add a source and actual weather to each decision in the garden log. A blank cell means you
+have not entered a task; it is not proof that no task is possible.
+
+### Master planting and spacing chart
+
+Copy this row for each crop **and cultivar**, then fill it from reviewed sources. A consolidated
+chart of measured planting windows, depths, spacing, maturity, and expected yield for every
+plant is not yet available. Yield depends on cultivar, site, season, and method: record its
+units and evidence, not a promise.
+
+| Crop / cultivar | Indoor start and source | Direct sow / transplant and source | Depth | In-row / row spacing | Days to maturity | Yield / row length |
+|---|---|---|---|---|---|---|
+| _____ | Pending | Pending | Pending | Pending | Pending | Pending |
+
+### Autumn and winter planning
+
+For each proposed overwintered crop, record the cultivar, its independently supported cold
+tolerance, date sown, expected maturity, protection, and an alternative if weather changes.
+The source calendar contains winter entries, but its grouped rows and timing remain unverified.
+Check the current forecast and actual plant condition; a covered bed can overheat or trap excess
+moisture. Do not assume a generic cold-hardiness label guarantees a winter harvest.
+
+### Useful conversions
+
+For a rectangular bed, multiply length × width × fill depth in the **same units**. Cubic feet
+divided by 27 gives cubic yards. A 4 × 8-foot bed filled 6 inches deep needs 4 × 8 × 0.5 =
+16 cubic feet, or about 0.59 cubic yards, before settling and waste. Measure the actual
+interior and adjust for an existing soil layer.
+
+For a liquid product, read the label's rate and units. If it says one part concentrate to
+N parts water, total parts are N + 1; divide the desired final volume by N + 1 for the
+concentrate volume. For example, 1 part concentrate plus 9 parts water makes 10 parts total:
+100 mL concentrate plus 900 mL water makes 1 litre. This is arithmetic, not a product-use
+recommendation; labels expressed in a different way must be calculated differently.
+
+Seed longevity varies by species, storage conditions, and lot. A species-by-species longevity
+chart is pending sources and review. Use packet dates, storage records, and a germination
+test rather than claiming that a particular lot will remain viable for a fixed number of years.
+
+### Copyable grower logs
+
+**Bed map:** bed ID _____; dimensions _____; path/access _____; sun observations and dates
+_____; water source _____; previous crops _____.
+
+**Seed inventory:** plant and cultivar _____; supplier/lot _____; received _____; stored
+_____; packet instructions/source _____; germination test date and result _____.
+
+**Planting and care:** bed _____; plant/cultivar _____; sow or transplant date _____;
+conditions _____; water/amendments and source _____; changes or symptoms _____.
+
+**Harvest:** crop/cultivar _____; bed _____; date _____; quantity and units _____;
+maturity cue _____; quality/storage result _____; next year's note _____.
+
+### Pocket glossary
+
+- **Cultivar:** a selected cultivated plant with a name distinct from its species name.
+- **Direct sow:** place seed in the site where it is intended to grow.
+- **Hardening off:** gradual adjustment of protected plants to outdoor conditions.
+- **Mulch:** material placed on the soil surface for a purpose such as moisture or weed management.
+- **Perennial:** a plant that can live more than two years under suitable conditions.
+- **pH:** a measure of acidity or alkalinity; it is not a fertilizer analysis.
+- **Transplant:** a young plant moved from its starting container or site to another location.
+
+## Sources and scope for this working addition
+
+Indexed source summaries were consulted on 2026-11-23. These links are research leads and
+general horticultural references; full-page access and claim-level human review are still
+required before publication. Their geography is not Errington.
+
+- [H1] North Carolina State University Extension, *Extension Gardener Handbook: Soils and Plant Nutrients*, soil properties, pH, CEC, and nutrients; publication date not established. <https://content.ces.ncsu.edu/extension-gardener-handbook/1-soils-and-plant-nutrients>
+- [H2] Oregon State University Extension, *Garden soil and compost*, compost and soil-management overview; publication date not established. <https://extension.oregonstate.edu/gardening/soil-compost>
+- [H3] Oregon State University Extension, *Propagating Plants from Seed*, PNW 170, seed selection and indoor and outdoor starting; 2014. <https://extension.oregonstate.edu/catalog/pub/pnw-170-propagating-plants-seed>
+- [H4] University of Minnesota Extension, *How and when to divide perennials*, division methods and plant-specific limitations; publication date not established. <https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/dividing-perennials>
+- [H5] Colorado State University Extension, *Saving Seed*, pollination, hybrid seed, and seed collection; publication date not established. <https://extension.colostate.edu/resource/saving-seed/>
+- [H6] Washington State University, *The Pacific Northwest Gardener's Handbook*, chapter 7, vegetable gardening and rotation; publication date not established. <https://extension.wsu.edu/pnw-gardeners-handbook/chapter-7-vegetable-gardening/>
+- [H7] University of Minnesota Extension, *Diagnose a problem*, plant, insect, and weed diagnostic resources; publication date not established. <https://apps.extension.umn.edu/garden/diagnose/index.html>
+
+For food preservation, use current public-health guidance and tested methods. Health Canada's
+[home canning safety](https://www.canada.ca/en/health-canada/services/general-food-safety-tips/home-canning-safety.html)
+and [sprout safety](https://www.canada.ca/en/health-canada/services/food-safety-fruits-vegetables/sprouts.html)
+pages are starting points, not crop-specific storage tables.
+
 # Monthly Reference
 
 # Errington Monthly Garden Reference
@@ -2843,14 +3176,20 @@ are a cross-reference, not additional planting advice. Calendar matches are show
 verbatim with their source month and page. When a source row names multiple plants,
 the whole grouped row is retained; it does not establish a separate timing for each
 plant. All recorded taxonomy remains unverified; names marked for resolution need further research.
+Entries are alphabetical within their recorded categories; a category, including
+native status, is a project classification and is not independent verification.
+For the full field layout and evidence requirements, see the Grower's Handbook.
+
+## Vegetables and Perennial Edibles
 
 ### Arugula
 
-**Stable plant ID:** `plant-arugula`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Eruca vesicaria subsp. sativa
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-arugula`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Eruca vesicaria subsp. sativa\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -2864,11 +3203,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Asparagus
 
-**Stable plant ID:** `plant-asparagus`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Asparagus officinalis
-**Family as recorded (unverified):** Asparagaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-asparagus`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Asparagus officinalis\
+**Family as recorded (unverified):** Asparagaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -2888,11 +3228,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Beans
 
-**Stable plant ID:** `plant-beans`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Phaseolus vulgaris
-**Family as recorded (unverified):** Fabaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-beans`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Phaseolus vulgaris\
+**Family as recorded (unverified):** Fabaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -2906,11 +3247,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Beets
 
-**Stable plant ID:** `plant-beets`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Beta vulgaris
-**Family as recorded (unverified):** Amaranthaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-beets`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Beta vulgaris\
+**Family as recorded (unverified):** Amaranthaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -2934,11 +3276,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Bell Pepper
 
-**Stable plant ID:** `plant-bell-pepper`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Capsicum annuum
-**Family as recorded (unverified):** Solanaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-bell-pepper`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Capsicum annuum\
+**Family as recorded (unverified):** Solanaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -2950,11 +3293,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Broccoli
 
-**Stable plant ID:** `plant-broccoli`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Brassica oleracea var. italica
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-broccoli`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Brassica oleracea var. italica\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -2967,11 +3311,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Brussels Sprouts
 
-**Stable plant ID:** `plant-brussels-sprouts`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Brassica oleracea var. gemmifera
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-brussels-sprouts`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Brassica oleracea var. gemmifera\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -2986,11 +3331,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Cabbage
 
-**Stable plant ID:** `plant-cabbage`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Brassica oleracea var. capitata
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-cabbage`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Brassica oleracea var. capitata\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3002,11 +3348,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Cantaloupe
 
-**Stable plant ID:** `plant-cantaloupe`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Cucumis melo
-**Family as recorded (unverified):** Cucurbitaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-cantaloupe`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Cucumis melo\
+**Family as recorded (unverified):** Cucurbitaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3018,11 +3365,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Carrots
 
-**Stable plant ID:** `plant-carrots`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Daucus carota subsp. sativus
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-carrots`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Daucus carota subsp. sativus\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3047,11 +3395,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Cauliflower
 
-**Stable plant ID:** `plant-cauliflower`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Brassica oleracea var. botrytis
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-cauliflower`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Brassica oleracea var. botrytis\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3063,11 +3412,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Celery
 
-**Stable plant ID:** `plant-celery`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Apium graveolens var. dulce
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-celery`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Apium graveolens var. dulce\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3079,11 +3429,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Corn
 
-**Stable plant ID:** `plant-corn`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Zea mays
-**Family as recorded (unverified):** Poaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-corn`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Zea mays\
+**Family as recorded (unverified):** Poaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3098,11 +3449,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Cucumber
 
-**Stable plant ID:** `plant-cucumber`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Cucumis sativus
-**Family as recorded (unverified):** Cucurbitaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-cucumber`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Cucumis sativus\
+**Family as recorded (unverified):** Cucurbitaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3114,13 +3466,33 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
+### Eggplant
+
+**Stable plant ID:** `plant-eggplant`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Solanum melongena\
+**Family as recorded (unverified):** Solanaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **FEBRUARY, source p. 11** — Eggplant (early) Wk 4 — —
+- **MAY, source p. 33** — Peppers / Eggplant — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 61** — Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost [Harvest] (squash by end Sep) — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
 ### Garlic
 
-**Stable plant ID:** `plant-garlic`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Allium sativum
-**Family as recorded (unverified):** Amaryllidaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-garlic`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Allium sativum\
+**Family as recorded (unverified):** Amaryllidaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3134,13 +3506,31 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
+### Globe Artichoke
+
+**Stable plant ID:** `plant-globe-artichoke`\
+**Category:** perennial-edible\
+**Botanical name as recorded (unverified):** Cynara cardunculus var. scolymus\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **FEBRUARY, source p. 12** — Globe Artichoke Wk 3–4 (needs vernalisation) — —
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
 ### Kohlrabi
 
-**Stable plant ID:** `plant-kohlrabi`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Brassica oleracea var. gongylodes
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-kohlrabi`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Brassica oleracea var. gongylodes\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3152,11 +3542,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Leeks
 
-**Stable plant ID:** `plant-leeks`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Allium ampeloprasum
-**Family as recorded (unverified):** Amaryllidaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-leeks`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Allium ampeloprasum\
+**Family as recorded (unverified):** Amaryllidaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3172,11 +3563,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Lettuce
 
-**Stable plant ID:** `plant-lettuce`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Lactuca sativa
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-lettuce`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Lactuca sativa\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3190,31 +3582,14 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Eggplant
-
-**Stable plant ID:** `plant-eggplant`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Solanum melongena
-**Family as recorded (unverified):** Solanaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **FEBRUARY, source p. 11** — Eggplant (early) Wk 4 — —
-- **MAY, source p. 33** — Peppers / Eggplant — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 61** — Winter Squash / Peppers / Corn / Cucumbers / Eggplant — — Harvest before frost [Harvest] (squash by end Sep) — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
 ### Melons
 
-**Stable plant ID:** `plant-melons`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Cucumis melo
-**Family as recorded (unverified):** Cucurbitaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-melons`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Cucumis melo\
+**Family as recorded (unverified):** Cucurbitaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3226,11 +3601,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Okra
 
-**Stable plant ID:** `plant-okra`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Abelmoschus esculentus
-**Family as recorded (unverified):** Malvaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-okra`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Abelmoschus esculentus\
+**Family as recorded (unverified):** Malvaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3242,11 +3618,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Parsnips
 
-**Stable plant ID:** `plant-parsnips`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Pastinaca sativa
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-parsnips`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Pastinaca sativa\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3266,11 +3643,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Peas
 
-**Stable plant ID:** `plant-peas`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Pisum sativum
-**Family as recorded (unverified):** Fabaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-peas`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Pisum sativum\
+**Family as recorded (unverified):** Fabaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3284,11 +3662,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Potatoes
 
-**Stable plant ID:** `plant-potatoes`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Solanum tuberosum
-**Family as recorded (unverified):** Solanaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-potatoes`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Solanum tuberosum\
+**Family as recorded (unverified):** Solanaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3299,13 +3678,41 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
+### Rhubarb
+
+**Stable plant ID:** `plant-rhubarb`\
+**Category:** perennial-edible\
+**Botanical name as recorded (unverified):** Rheum × hybridum\
+**Family as recorded (unverified):** Polygonaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JANUARY, source p. 5** — Rhubarb — — Fully dormant [Frost Risk]
+- **FEBRUARY, source p. 12** — Rhubarb — — Crown tips may appear — leave
+- **MARCH, source p. 20** — Rhubarb — — Emerging — do not harvest 1st yr
+- **APRIL, source p. 27** — Rhubarb — — Harvest begins Wk 3–4[Harvest]
+- **MAY, source p. 34** — Rhubarb — — Harvest stalks; leave [Harvest] some leaves
+- **JUNE, source p. 41** — Rhubarb — — Last harvest Wk 1–2; [Harvest] leave plant to rest
+- **JULY, source p. 48** — Rhubarb / Asparagus — — Do NOT harvest; let plants build energy — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 55** — Rhubarb / Asparagus — — Resting; asparagus fern — leave standing — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 69** — Rhubarb — Divide Wk 1–2 —
+- **NOVEMBER, source p. 76** — Rhubarb — — Dormant; do not disturb
+- **DECEMBER, source p. 84** — Rhubarb — — Fully dormant. Force under upturned pot for
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
 ### Spinach
 
-**Stable plant ID:** `plant-spinach`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Spinacia oleracea
-**Family as recorded (unverified):** Amaranthaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-spinach`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Spinacia oleracea\
+**Family as recorded (unverified):** Amaranthaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3319,13 +3726,14 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Sweet Potato
+### Summer Squash
 
-**Stable plant ID:** `plant-sweet-potato`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Ipomoea batatas
-**Family as recorded (unverified):** Convolvulaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-summer-squash`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Cucurbita pepo\
+**Family as recorded (unverified):** Cucurbitaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3335,13 +3743,14 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Summer Squash
+### Sweet Potato
 
-**Stable plant ID:** `plant-summer-squash`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Cucurbita pepo
-**Family as recorded (unverified):** Cucurbitaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-sweet-potato`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Ipomoea batatas\
+**Family as recorded (unverified):** Convolvulaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3353,11 +3762,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Swiss Chard
 
-**Stable plant ID:** `plant-swiss-chard`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Beta vulgaris subsp. cicla
-**Family as recorded (unverified):** Amaranthaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-swiss-chard`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Beta vulgaris subsp. cicla\
+**Family as recorded (unverified):** Amaranthaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3369,11 +3779,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Tomatoes
 
-**Stable plant ID:** `plant-tomatoes`
-**Category:** vegetable
-**Botanical name as recorded (unverified):** Solanum lycopersicum
-**Family as recorded (unverified):** Solanaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-tomatoes`\
+**Category:** vegetable\
+**Botanical name as recorded (unverified):** Solanum lycopersicum\
+**Family as recorded (unverified):** Solanaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3386,515 +3797,127 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Marigold
+## Herbs
 
-**Stable plant ID:** `plant-marigold`
-**Category:** flower
-**Botanical name as recorded (unverified):** Tagetes patula
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Annual
+### Basil
 
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Marigold Wk 2 — —
-- **MAY, source p. 36** — Impatiens / Marigolds / Petunias / Begonias — → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1–2 — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Zinnia
-
-**Stable plant ID:** `plant-zinnia`
-**Category:** flower
-**Botanical name as recorded (unverified):** Zinnia elegans
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-basil`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Ocimum basilicum\
+**Family as recorded (unverified):** Lamiaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **MARCH, source p. 22** — Zinnia / Cosmos Wk 3 — — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 36** — Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; [Bloom] deadhead [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Cosmos
-
-**Stable plant ID:** `plant-cosmos`
-**Category:** flower
-**Botanical name as recorded (unverified):** Cosmos bipinnatus
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Zinnia / Cosmos Wk 3 — — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 36** — Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; [Bloom] deadhead [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Nasturtium
-
-**Stable plant ID:** `plant-nasturtium`
-**Category:** flower
-**Botanical name as recorded (unverified):** Tropaeolum majus
-**Family as recorded (unverified):** Tropaeolaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; [Bloom] deadhead [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Nasturtium / Calendula (for fall) — Last sow Wk 1[Direct Sow] Blooming continuously[Bloom] — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Sunflower
-
-**Stable plant ID:** `plant-sunflower`
-**Category:** flower
-**Botanical name as recorded (unverified):** Helianthus annuus
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MAY, source p. 34** — Corn / Sunflower — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 37** — Sunflower — Direct sow Wk 1–2[Direct Sow] —
-- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 55** — Sunflower / Corn — — Sunflower heads [Harvest] mature; corn harvest late Aug — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Sweet Pea
-
-**Stable plant ID:** `plant-sweet-pea`
-**Category:** flower
-**Botanical name as recorded (unverified):** Lathyrus odoratus
-**Family as recorded (unverified):** Fabaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Sweet Peas — Direct sow outdoors [Direct Sow] Wk 3–4 —
-- **APRIL, source p. 29** — Sweet Peas — Direct sow Wk 1–2[Direct Sow] —
-- **APRIL, source p. 30** — Sweet Peas — → Transplant [Indoor Sow] [Indoor Sow] outdoors Wk 3–4 —
-- **MAY, source p. 37** — Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting[Bloom] — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 44** — Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet [Bloom] — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 44** — Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; [Bloom] harvest in morning — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Sweet Pea — — Peak — harvest every [Bloom] day to extend
-- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Calendula
-
-**Stable plant ID:** `plant-calendula`
-**Category:** flower
-**Botanical name as recorded (unverified):** Calendula officinalis
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Nasturtium / Calendula (for fall) — Last sow Wk 1[Direct Sow] Blooming continuously[Bloom] — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Calendula / Pansy / Wallflower (for autumn) — Sow now for [Direct Sow] autumn/spring display — — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Dahlia
-
-**Stable plant ID:** `plant-dahlia`
-**Category:** flower
-**Botanical name as recorded (unverified):** Dahlia pinnata
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **JULY, source p. 50** — Dahlia (early varieties) — — First dahlias opening[Bloom]
-- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Dahlia — — Peak bloom — [Bloom]
-- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 72** — Dahlias — — Lift after first hard frost; dry 2 wks; store cool
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Peony
-
-**Stable plant ID:** `plant-peony`
-**Category:** flower
-**Botanical name as recorded (unverified):** Paeonia lactiflora
-**Family as recorded (unverified):** Paeoniaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- No matching plant-specific calendar row in the current transcription.
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Iris
-
-**Stable plant ID:** `plant-iris`
-**Category:** flower
-**Botanical name as recorded (unverified):** Iris × germanica
-**Family as recorded (unverified):** Iridaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MAY, source p. 36** — Aquilegia / Geranium / Lupine / Iris — — Blooming — peak early[Bloom] perennials — grouped source entry; individual timing is unresolved
-- **MAY, source p. 37** — Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting[Bloom] — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer [Bloom] perennials — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Allium / late Iris / first Lily buds — — Blooming; stake tall [Bloom] — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 44** — Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; [Bloom] harvest in morning — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Iris / Daylily / Hosta (early-spring types) — [Prune/Deadhead] Divide Wk 1–3 — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Daylily
-
-**Stable plant ID:** `plant-daylily`
-**Category:** flower
-**Botanical name as recorded (unverified):** Hemerocallis × hybrida
-**Family as recorded (unverified):** Asphodelaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Hostas / Daylilies / Asters — Divide emerging clumps [Prune/Deadhead] Emerging from ground — grouped source entry; individual timing is unresolved
-- **APRIL, source p. 29** — Hostas / Daylilies / Asters — Divide established clumps [Prune/Deadhead] — — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer [Bloom] perennials — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Iris / Daylily / Hosta (early-spring types) — [Prune/Deadhead] Divide Wk 1–3 — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Lavender
-
-**Stable plant ID:** `plant-lavender`
-**Category:** flower
-**Botanical name as recorded (unverified):** Lavandula angustifolia
-**Family as recorded (unverified):** Lamiaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **JULY, source p. 51** — Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer [Bloom] display — grouped source entry; individual timing is unresolved
-- **JULY, source p. 51** — Lavender — — [Prune/Deadhead] Prune lightly after first flush Wk 2–3
-- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Echinacea
-
-**Stable plant ID:** `plant-echinacea`
-**Category:** flower
-**Botanical name as recorded (unverified):** Echinacea purpurea
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **FEBRUARY, source p. 15** — Echinacea (Coneflower) Wk 2 — —
-- **JULY, source p. 50** — Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer [Bloom] perennials — grouped source entry; individual timing is unresolved
-- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and [Bloom] amber tones — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Rudbeckia
-
-**Stable plant ID:** `plant-rudbeckia`
-**Category:** flower
-**Botanical name as recorded (unverified):** Rudbeckia hirta
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Coneflower / Rudbeckia Wk 1 — — — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer [Bloom] perennials — grouped source entry; individual timing is unresolved
-- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and [Bloom] amber tones — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn [Bloom] perennials — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 73** — Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of[Bloom] the season — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Tulip
-
-**Stable plant ID:** `plant-tulip`
-**Category:** flower
-**Botanical name as recorded (unverified):** Tulipa gesneriana
-**Family as recorded (unverified):** Liliaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Daffodils / Crocus / early Tulips — — Blooming — peak [Bloom] spring display — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 72** — Tulips — Plant Wk 3–4 (late [Plant Bulb/Tuber] planting reduces tulip fire) —
-- **NOVEMBER, source p. 79** — Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Daffodil
-
-**Stable plant ID:** `plant-daffodil`
-**Category:** flower
-**Botanical name as recorded (unverified):** Narcissus pseudonarcissus
-**Family as recorded (unverified):** Amaryllidaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Daffodils / Crocus / early Tulips — — Blooming — peak [Bloom] spring display — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 72** — Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — grouped source entry; individual timing is unresolved
-- **NOVEMBER, source p. 79** — Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Crocus
-
-**Stable plant ID:** `plant-crocus`
-**Category:** flower
-**Botanical name as recorded (unverified):** Crocus vernus
-**Family as recorded (unverified):** Iridaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
-
-**Errington calendar source mentions**
-
-- **FEBRUARY, source p. 15** — Snowdrops / early Crocus — — Blooming [Frost Risk][Bloom] — grouped source entry; individual timing is unresolved
-- **MARCH, source p. 22** — Daffodils / Crocus / early Tulips — — Blooming — peak [Bloom] spring display — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 72** — Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — grouped source entry; individual timing is unresolved
-- **NOVEMBER, source p. 79** — Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Allium
-
-**Stable plant ID:** `plant-allium`
-**Category:** flower
-**Botanical name as recorded (unverified):** Allium hollandicum
-**Family as recorded (unverified):** Amaryllidaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
-
-**Errington calendar source mentions**
-
-- **MAY, source p. 36** — Allium / Centaurea — — Beginning to bloom[Bloom] — grouped source entry; individual timing is unresolved
-- **MAY, source p. 37** — Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting[Bloom] — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer [Bloom] perennials — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Allium / late Iris / first Lily buds — — Blooming; stake tall [Bloom] — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 44** — Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; [Bloom] harvest in morning — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 72** — Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — grouped source entry; individual timing is unresolved
-- **NOVEMBER, source p. 79** — Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Hyacinth
-
-**Stable plant ID:** `plant-hyacinth`
-**Category:** flower
-**Botanical name as recorded (unverified):** Hyacinthus orientalis
-**Family as recorded (unverified):** Asparagaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
-
-**Errington calendar source mentions**
-
-- **OCTOBER, source p. 72** — Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Hostas
-
-**Stable plant ID:** `plant-hostas`
-**Category:** ornamental
-**Botanical name as recorded (unverified):** Hosta spp.
-**Family as recorded (unverified):** Asparagaceae
-**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Hostas / Daylilies / Asters — Divide emerging clumps [Prune/Deadhead] Emerging from ground — grouped source entry; individual timing is unresolved
-- **APRIL, source p. 29** — Hostas / Daylilies / Asters — Divide established clumps [Prune/Deadhead] — — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Iris / Daylily / Hosta (early-spring types) — [Prune/Deadhead] Divide Wk 1–3 — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Ferns
-
-**Stable plant ID:** `plant-ferns`
-**Category:** ornamental
-**Botanical name as recorded (unverified):** Fern species / multiple genera
-**Family as recorded (unverified):** Multiple families
-**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required
-
-**Errington calendar source mentions**
-
-- No matching plant-specific calendar row in the current transcription.
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Ornamental Grasses
-
-**Stable plant ID:** `plant-ornamental-grasses`
-**Category:** ornamental
-**Botanical name as recorded (unverified):** Ornamental grass species / multiple genera
-**Family as recorded (unverified):** Poaceae
-**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required
-
-**Errington calendar source mentions**
-
-- No matching plant-specific calendar row in the current transcription.
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Sedum
-
-**Stable plant ID:** `plant-sedum`
-**Category:** ornamental
-**Botanical name as recorded (unverified):** Hylotelephium telephium
-**Family as recorded (unverified):** Crassulaceae
-**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required
-
-**Errington calendar source mentions**
-
-- **SEPTEMBER, source p. 64** — Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn [Bloom] perennials — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 71** — Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems [Bloom] for winter interest — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 73** — Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of[Bloom] the season — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Heuchera
-
-**Stable plant ID:** `plant-heuchera`
-**Category:** ornamental
-**Botanical name as recorded (unverified):** Heuchera sanguinea
-**Family as recorded (unverified):** Saxifragaceae
-**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required
-
-**Errington calendar source mentions**
-
-- No matching plant-specific calendar row in the current transcription.
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Astilbe
-
-**Stable plant ID:** `plant-astilbe`
-**Category:** ornamental
-**Botanical name as recorded (unverified):** Astilbe × arendsii
-**Family as recorded (unverified):** Saxifragaceae
-**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required
-
-**Errington calendar source mentions**
-
-- No matching plant-specific calendar row in the current transcription.
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Rosemary
-
-**Stable plant ID:** `plant-rosemary`
-**Category:** herb
-**Botanical name as recorded (unverified):** Salvia rosmarinus
-**Family as recorded (unverified):** Lamiaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MAY, source p. 33** — Rosemary / Thyme / Oregano — → Transplant now[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 68** — Rosemary (exposed sites) — — Mulch base if in [Overwinter/Mulch] exposed location [Frost Risk]
-- **NOVEMBER, source p. 75** — Parsley / Chives / Rosemary — — Harvest from [Harvest] protected plants — grouped source entry; individual timing is unresolved
-- **DECEMBER, source p. 83** — Rosemary / Sage / Thyme — — Frost-hardy; harvest in[Harvest] mild spells — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Thyme
-
-**Stable plant ID:** `plant-thyme`
-**Category:** herb
-**Botanical name as recorded (unverified):** Thymus vulgaris
-**Family as recorded (unverified):** Lamiaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MAY, source p. 33** — Rosemary / Thyme / Oregano — → Transplant now[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
+- **FEBRUARY, source p. 11** — Basil Wk 4 (under lights, warm) — —
+- **MARCH, source p. 19** — Basil Wk 1–2 (indoors only) — —
+- **MAY, source p. 33** — Basil — → Transplant Wk 2 [Indoor Sow] [Indoor Sow] (soil must be warm) —
+- **JUNE, source p. 40** — Basil — — [Prune/Deadhead] Pinch flowers to prolong leaf harvest
 - **JULY, source p. 47** — Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
-- **NOVEMBER, source p. 75** — Sage / Thyme — — Light harvest; thyme: [Harvest] mulch crowns in exposed sites — grouped source entry; individual timing is unresolved
-- **DECEMBER, source p. 83** — Rosemary / Sage / Thyme — — Frost-hardy; harvest in[Harvest] mild spells — grouped source entry; individual timing is unresolved
+- **JULY, source p. 47** — Basil — — [Prune/Deadhead] Pinch flowers continuously to prevent bolt
+- **SEPTEMBER, source p. 61** — Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Chervil
+
+**Stable plant ID:** `plant-chervil`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Anthriscus cerefolium\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 26** — Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 40** — Chives / Parsley / Dill / Chervil — — Harvest freely; dry or [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Chives
+
+**Stable plant ID:** `plant-chives`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Allium schoenoprasum\
+**Family as recorded (unverified):** Amaryllidaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **FEBRUARY, source p. 11** — Chives Wk 1–2 — —
+- **APRIL, source p. 26** — Chives / Parsley (starts) — → Transplant Wk 3–4[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 40** — Chives / Parsley / Dill / Chervil — — Harvest freely; dry or [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 61** — Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 68** — Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze — grouped source entry; individual timing is unresolved
+- **NOVEMBER, source p. 75** — Parsley / Chives / Rosemary — — Harvest from [Harvest] protected plants — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Cilantro
+
+**Stable plant ID:** `plant-cilantro`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Coriandrum sativum\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 19** — Cilantro — Direct sow late Mar[Direct Sow] —
+- **APRIL, source p. 26** — Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 33** — Dill / Cilantro / Fennel — Succession direct sow[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 40** — Cilantro (before bolt) — — Harvest now — bolts [Harvest] fast in heat
+- **JULY, source p. 47** — Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Dill
+
+**Stable plant ID:** `plant-dill`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Anethum graveolens\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 19** — Dill Wk 1–2 Late Mar direct sow OK[Direct Sow] —
+- **APRIL, source p. 26** — Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 33** — Dill / Cilantro / Fennel — Succession direct sow[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 40** — Chives / Parsley / Dill / Chervil — — Harvest freely; dry or [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
+- **JULY, source p. 47** — Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 54** — Dill / Cilantro seeds — — Save seeds as they dry on plant — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Fennel
+
+**Stable plant ID:** `plant-fennel`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Foeniculum vulgare\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 26** — Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 33** — Dill / Cilantro / Fennel — Succession direct sow[Direct Sow] — — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
@@ -3902,11 +3925,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Oregano
 
-**Stable plant ID:** `plant-oregano`
-**Category:** herb
-**Botanical name as recorded (unverified):** Origanum vulgare
-**Family as recorded (unverified):** Lamiaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-oregano`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Origanum vulgare\
+**Family as recorded (unverified):** Lamiaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3919,11 +3943,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Parsley
 
-**Stable plant ID:** `plant-parsley`
-**Category:** herb
-**Botanical name as recorded (unverified):** Petroselinum crispum
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Biennial, often grown as an annual
+**Stable plant ID:** `plant-parsley`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Petroselinum crispum\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Biennial, often grown as an annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -3940,131 +3965,56 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Chives
+### Rosemary
 
-**Stable plant ID:** `plant-chives`
-**Category:** herb
-**Botanical name as recorded (unverified):** Allium schoenoprasum
-**Family as recorded (unverified):** Amaryllidaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-rosemary`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Salvia rosmarinus\
+**Family as recorded (unverified):** Lamiaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **FEBRUARY, source p. 11** — Chives Wk 1–2 — —
-- **APRIL, source p. 26** — Chives / Parsley (starts) — → Transplant Wk 3–4[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 40** — Chives / Parsley / Dill / Chervil — — Harvest freely; dry or [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 61** — Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 68** — Parsley / Chives Pot up for indoor windowsill — Harvest last Basil; make pesto and freeze — grouped source entry; individual timing is unresolved
+- **MAY, source p. 33** — Rosemary / Thyme / Oregano — → Transplant now[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 68** — Rosemary (exposed sites) — — Mulch base if in [Overwinter/Mulch] exposed location [Frost Risk]
 - **NOVEMBER, source p. 75** — Parsley / Chives / Rosemary — — Harvest from [Harvest] protected plants — grouped source entry; individual timing is unresolved
+- **DECEMBER, source p. 83** — Rosemary / Sage / Thyme — — Frost-hardy; harvest in[Harvest] mild spells — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Basil
+### Thyme
 
-**Stable plant ID:** `plant-basil`
-**Category:** herb
-**Botanical name as recorded (unverified):** Ocimum basilicum
-**Family as recorded (unverified):** Lamiaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-thyme`\
+**Category:** herb\
+**Botanical name as recorded (unverified):** Thymus vulgaris\
+**Family as recorded (unverified):** Lamiaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **FEBRUARY, source p. 11** — Basil Wk 4 (under lights, warm) — —
-- **MARCH, source p. 19** — Basil Wk 1–2 (indoors only) — —
-- **MAY, source p. 33** — Basil — → Transplant Wk 2 [Indoor Sow] [Indoor Sow] (soil must be warm) —
-- **JUNE, source p. 40** — Basil — — [Prune/Deadhead] Pinch flowers to prolong leaf harvest
+- **MAY, source p. 33** — Rosemary / Thyme / Oregano — → Transplant now[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
 - **JULY, source p. 47** — Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
-- **JULY, source p. 47** — Basil — — [Prune/Deadhead] Pinch flowers continuously to prevent bolt
-- **SEPTEMBER, source p. 61** — Chives / Parsley / Basil (pot up) Pot up for indoor winter use — Basil: last chance — make pesto and freeze — grouped source entry; individual timing is unresolved
+- **NOVEMBER, source p. 75** — Sage / Thyme — — Light harvest; thyme: [Harvest] mulch crowns in exposed sites — grouped source entry; individual timing is unresolved
+- **DECEMBER, source p. 83** — Rosemary / Sage / Thyme — — Frost-hardy; harvest in[Harvest] mild spells — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Dill
-
-**Stable plant ID:** `plant-dill`
-**Category:** herb
-**Botanical name as recorded (unverified):** Anethum graveolens
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 19** — Dill Wk 1–2 Late Mar direct sow OK[Direct Sow] —
-- **APRIL, source p. 26** — Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 33** — Dill / Cilantro / Fennel — Succession direct sow[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 40** — Chives / Parsley / Dill / Chervil — — Harvest freely; dry or [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
-- **JULY, source p. 47** — Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 54** — Dill / Cilantro seeds — — Save seeds as they dry on plant — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Cilantro
-
-**Stable plant ID:** `plant-cilantro`
-**Category:** herb
-**Botanical name as recorded (unverified):** Coriandrum sativum
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 19** — Cilantro — Direct sow late Mar[Direct Sow] —
-- **APRIL, source p. 26** — Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 33** — Dill / Cilantro / Fennel — Succession direct sow[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 40** — Cilantro (before bolt) — — Harvest now — bolts [Harvest] fast in heat
-- **JULY, source p. 47** — Basil / Dill / Cilantro / Parsley / Thyme / Oregano / Mint — — Full harvest; dry and [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Chervil
-
-**Stable plant ID:** `plant-chervil`
-**Category:** herb
-**Botanical name as recorded (unverified):** Anthriscus cerefolium
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **APRIL, source p. 26** — Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 40** — Chives / Parsley / Dill / Chervil — — Harvest freely; dry or [Harvest] freeze surplus — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Fennel
-
-**Stable plant ID:** `plant-fennel`
-**Category:** herb
-**Botanical name as recorded (unverified):** Foeniculum vulgare
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **APRIL, source p. 26** — Dill / Cilantro / Chervil / Fennel — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 33** — Dill / Cilantro / Fennel — Succession direct sow[Direct Sow] — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
+## Fruits and Berries
 
 ### Apple
 
-**Stable plant ID:** `plant-apple`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Malus domestica
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-apple`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Malus domestica\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4083,13 +4033,111 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
+### Blueberries
+
+**Stable plant ID:** `plant-blueberries`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Vaccinium corymbosum\
+**Family as recorded (unverified):** Ericaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 19** — Blueberries — — [Prune/Deadhead] Prune Mar; apply dormant spray
+- **APRIL, source p. 26** — Blueberries / Currants — — New growth beginning; feed now — grouped source entry; individual timing is unresolved
+- **MAY, source p. 33** — Blueberries / Gooseberries — — Flowering; set fruit[Bloom] — grouped source entry; individual timing is unresolved
+- **JULY, source p. 47** — Blueberries (mid-July onward) — — Peak harvest; pick [Harvest] daily
+- **AUGUST, source p. 54** — Blueberries (peak August) — — Best month for [Harvest] blueberries
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Cherry
+
+**Stable plant ID:** `plant-cherry`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Prunus avium\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JANUARY, source p. 5** — Apple / Pear / Plum / Cherry — — [Prune/Deadhead] Prune dormant trees Jan–Feb — grouped source entry; individual timing is unresolved
+- **FEBRUARY, source p. 12** — Apple / Pear / Plum / Cherry — — [Prune/Deadhead] Prune before bud break (Feb) — grouped source entry; individual timing is unresolved
+- **MARCH, source p. 19** — Apple / Pear / Cherry — — Apply dormant oil spray now — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Currants
+
+**Stable plant ID:** `plant-currants`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Ribes rubrum\
+**Family as recorded (unverified):** Grossulariaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 19** — Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **APRIL, source p. 26** — Blueberries / Currants — — New growth beginning; feed now — grouped source entry; individual timing is unresolved
+- **NOVEMBER, source p. 76** — Currants / Gooseberries — — [Prune/Deadhead] Prune Nov–Feb while dormant — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Gooseberries
+
+**Stable plant ID:** `plant-gooseberries`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Ribes uva-crispa\
+**Family as recorded (unverified):** Grossulariaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 19** — Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 33** — Blueberries / Gooseberries — — Flowering; set fruit[Bloom] — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 40** — Gooseberries — — Ready late June[Harvest]
+- **JULY, source p. 47** — Red / White Currants / Gooseberries — — Harvest and preserve[Harvest] Early Plums / Tayberry / — grouped source entry; individual timing is unresolved
+- **NOVEMBER, source p. 76** — Currants / Gooseberries — — [Prune/Deadhead] Prune Nov–Feb while dormant — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Grapes
+
+**Stable plant ID:** `plant-grapes`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Vitis vinifera\
+**Family as recorded (unverified):** Vitaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **SEPTEMBER, source p. 61** — Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; [Harvest] store carefully — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
 ### Pear
 
-**Stable plant ID:** `plant-pear`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Pyrus communis
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-pear`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Pyrus communis\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4110,11 +4158,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Plum
 
-**Stable plant ID:** `plant-plum`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Prunus domestica
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-plum`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Prunus domestica\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4126,35 +4175,21 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Cherry
+### Raspberries
 
-**Stable plant ID:** `plant-cherry`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Prunus avium
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 5** — Apple / Pear / Plum / Cherry — — [Prune/Deadhead] Prune dormant trees Jan–Feb — grouped source entry; individual timing is unresolved
-- **FEBRUARY, source p. 12** — Apple / Pear / Plum / Cherry — — [Prune/Deadhead] Prune before bud break (Feb) — grouped source entry; individual timing is unresolved
-- **MARCH, source p. 19** — Apple / Pear / Cherry — — Apply dormant oil spray now — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Grapes
-
-**Stable plant ID:** `plant-grapes`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Vitis vinifera
-**Family as recorded (unverified):** Vitaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-raspberries`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Rubus idaeus\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **SEPTEMBER, source p. 61** — Apples (main season) / Pears / Grapes (late Sep) — — Main apple harvest; [Harvest] store carefully — grouped source entry; individual timing is unresolved
+- **APRIL, source p. 26** — Raspberries — — [Prune/Deadhead] Cut back old canes
+- **JULY, source p. 47** — Raspberries (summer- bearing) — — Harvest; remove [Harvest] fruited canes after
+- **AUGUST, source p. 54** — Raspberries / Blackberries / Plums — — Harvesting [Harvest] continuously Early Apples / Pears (late — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 61** — Fall Raspberries / Blackberries / Everbearing Strawberries — — Harvest before first [Harvest] frost — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
@@ -4162,11 +4197,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Strawberries
 
-**Stable plant ID:** `plant-strawberries`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Fragaria × ananassa
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-strawberries`\
+**Category:** fruit\
+**Botanical name as recorded (unverified):** Fragaria × ananassa\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4180,380 +4216,26 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Raspberries
+## Flowers, Ornamentals, Shrubs, Trees, and Vines
 
-**Stable plant ID:** `plant-raspberries`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Rubus idaeus
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
+### Allium
 
-**Errington calendar source mentions**
-
-- **APRIL, source p. 26** — Raspberries — — [Prune/Deadhead] Cut back old canes
-- **JULY, source p. 47** — Raspberries (summer- bearing) — — Harvest; remove [Harvest] fruited canes after
-- **AUGUST, source p. 54** — Raspberries / Blackberries / Plums — — Harvesting [Harvest] continuously Early Apples / Pears (late — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 61** — Fall Raspberries / Blackberries / Everbearing Strawberries — — Harvest before first [Harvest] frost — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Blueberries
-
-**Stable plant ID:** `plant-blueberries`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Vaccinium corymbosum
-**Family as recorded (unverified):** Ericaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-allium`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Allium hollandicum\
+**Family as recorded (unverified):** Amaryllidaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **MARCH, source p. 19** — Blueberries — — [Prune/Deadhead] Prune Mar; apply dormant spray
-- **APRIL, source p. 26** — Blueberries / Currants — — New growth beginning; feed now — grouped source entry; individual timing is unresolved
-- **MAY, source p. 33** — Blueberries / Gooseberries — — Flowering; set fruit[Bloom] — grouped source entry; individual timing is unresolved
-- **JULY, source p. 47** — Blueberries (mid-July onward) — — Peak harvest; pick [Harvest] daily
-- **AUGUST, source p. 54** — Blueberries (peak August) — — Best month for [Harvest] blueberries
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Currants
-
-**Stable plant ID:** `plant-currants`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Ribes rubrum
-**Family as recorded (unverified):** Grossulariaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 19** — Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **APRIL, source p. 26** — Blueberries / Currants — — New growth beginning; feed now — grouped source entry; individual timing is unresolved
-- **NOVEMBER, source p. 76** — Currants / Gooseberries — — [Prune/Deadhead] Prune Nov–Feb while dormant — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Gooseberries
-
-**Stable plant ID:** `plant-gooseberries`
-**Category:** fruit
-**Botanical name as recorded (unverified):** Ribes uva-crispa
-**Family as recorded (unverified):** Grossulariaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 19** — Strawberries / Currants / Gooseberries (bare-root) — Mar if ground workable[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 33** — Blueberries / Gooseberries — — Flowering; set fruit[Bloom] — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 40** — Gooseberries — — Ready late June[Harvest]
-- **JULY, source p. 47** — Red / White Currants / Gooseberries — — Harvest and preserve[Harvest] Early Plums / Tayberry / — grouped source entry; individual timing is unresolved
-- **NOVEMBER, source p. 76** — Currants / Gooseberries — — [Prune/Deadhead] Prune Nov–Feb while dormant — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Rhubarb
-
-**Stable plant ID:** `plant-rhubarb`
-**Category:** perennial-edible
-**Botanical name as recorded (unverified):** Rheum × hybridum
-**Family as recorded (unverified):** Polygonaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 5** — Rhubarb — — Fully dormant [Frost Risk]
-- **FEBRUARY, source p. 12** — Rhubarb — — Crown tips may appear — leave
-- **MARCH, source p. 20** — Rhubarb — — Emerging — do not harvest 1st yr
-- **APRIL, source p. 27** — Rhubarb — — Harvest begins Wk 3–4[Harvest]
-- **MAY, source p. 34** — Rhubarb — — Harvest stalks; leave [Harvest] some leaves
-- **JUNE, source p. 41** — Rhubarb — — Last harvest Wk 1–2; [Harvest] leave plant to rest
-- **JULY, source p. 48** — Rhubarb / Asparagus — — Do NOT harvest; let plants build energy — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 55** — Rhubarb / Asparagus — — Resting; asparagus fern — leave standing — grouped source entry; individual timing is unresolved
-- **OCTOBER, source p. 69** — Rhubarb — Divide Wk 1–2 —
-- **NOVEMBER, source p. 76** — Rhubarb — — Dormant; do not disturb
-- **DECEMBER, source p. 84** — Rhubarb — — Fully dormant. Force under upturned pot for
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Globe Artichoke
-
-**Stable plant ID:** `plant-globe-artichoke`
-**Category:** perennial-edible
-**Botanical name as recorded (unverified):** Cynara cardunculus var. scolymus
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **FEBRUARY, source p. 12** — Globe Artichoke Wk 3–4 (needs vernalisation) — —
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Snapdragons
-
-**Stable plant ID:** `plant-snapdragons`
-**Category:** flower
-**Botanical name as recorded (unverified):** Antirrhinum majus
-**Family as recorded (unverified):** Plantaginaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 8** — Snapdragons Late Jan (under lights) — —
-- **APRIL, source p. 29** — Snapdragons / Pansies / Stocks — → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Petunias
-
-**Stable plant ID:** `plant-petunias`
-**Category:** flower
-**Botanical name as recorded (unverified):** Petunia × atkinsiana
-**Family as recorded (unverified):** Solanaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 8** — Petunias Late Jan (under lights) — —
-- **MAY, source p. 36** — Impatiens / Marigolds / Petunias / Begonias — → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1–2 — — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 43** — Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Lobelia
-
-**Stable plant ID:** `plant-lobelia`
-**Category:** flower
-**Botanical name as recorded (unverified):** Lobelia erinus
-**Family as recorded (unverified):** Campanulaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 8** — Lobelia Late Jan (under lights) — —
-- **JUNE, source p. 43** — Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Pansy
-
-**Stable plant ID:** `plant-pansy`
-**Category:** flower
-**Botanical name as recorded (unverified):** Viola × wittrockiana
-**Family as recorded (unverified):** Violaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **APRIL, source p. 29** — Snapdragons / Pansies / Stocks — → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 — — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Calendula / Pansy / Wallflower (for autumn) — Sow now for [Direct Sow] autumn/spring display — — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Winter Pansy / Wallflower — Sow outdoors Wk 1–2[Direct Sow] — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Stocks
-
-**Stable plant ID:** `plant-stocks`
-**Category:** flower
-**Botanical name as recorded (unverified):** Matthiola incana
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **APRIL, source p. 29** — Snapdragons / Pansies / Stocks — → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Statice
-
-**Stable plant ID:** `plant-statice`
-**Category:** flower
-**Botanical name as recorded (unverified):** Limonium sinuatum
-**Family as recorded (unverified):** Plumbaginaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **FEBRUARY, source p. 16** — Statice Wk 2 — —
-- **NOVEMBER, source p. 80** — Dried everlastings (Strawflower, Statice) — — Use dried flower store from summer — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Antirrhinum
-
-**Stable plant ID:** `plant-antirrhinum`
-**Category:** flower
-**Botanical name as recorded (unverified):** Antirrhinum majus
-**Family as recorded (unverified):** Plantaginaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- No matching plant-specific calendar row in the current transcription.
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Impatiens
-
-**Stable plant ID:** `plant-impatiens`
-**Category:** flower
-**Botanical name as recorded (unverified):** Impatiens walleriana
-**Family as recorded (unverified):** Balsaminaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Impatiens Wk 1 — —
-- **MAY, source p. 36** — Impatiens / Marigolds / Petunias / Begonias — → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1–2 — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Nicotiana
-
-**Stable plant ID:** `plant-nicotiana`
-**Category:** flower
-**Botanical name as recorded (unverified):** Nicotiana alata
-**Family as recorded (unverified):** Solanaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Nicotiana / Cleome Wk 1 — — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 36** — Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Cleome
-
-**Stable plant ID:** `plant-cleome`
-**Category:** flower
-**Botanical name as recorded (unverified):** Cleome hassleriana
-**Family as recorded (unverified):** Cleomaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Nicotiana / Cleome Wk 1 — — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 36** — Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
-- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Larkspur
-
-**Stable plant ID:** `plant-larkspur`
-**Category:** flower
-**Botanical name as recorded (unverified):** Consolida ajacis
-**Family as recorded (unverified):** Ranunculaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Larkspur / Poppy — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **MARCH, source p. 23** — Larkspur — Direct sow outdoors[Direct Sow] —
-- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Poppy
-
-**Stable plant ID:** `plant-poppy`
-**Category:** flower
-**Botanical name as recorded (unverified):** Papaver rhoeas
-**Family as recorded (unverified):** Papaveraceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Larkspur / Poppy — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Nigella
-
-**Stable plant ID:** `plant-nigella`
-**Category:** flower
-**Botanical name as recorded (unverified):** Nigella damascena
-**Family as recorded (unverified):** Ranunculaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Borage
-
-**Stable plant ID:** `plant-borage`
-**Category:** flower
-**Botanical name as recorded (unverified):** Borago officinalis
-**Family as recorded (unverified):** Boraginaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Cornflower
-
-**Stable plant ID:** `plant-cornflower`
-**Category:** flower
-**Botanical name as recorded (unverified):** Centaurea cyanus
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- No matching plant-specific calendar row in the current transcription.
+- **MAY, source p. 36** — Allium / Centaurea — — Beginning to bloom[Bloom] — grouped source entry; individual timing is unresolved
+- **MAY, source p. 37** — Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting[Bloom] — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer [Bloom] perennials — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Allium / late Iris / first Lily buds — — Blooming; stake tall [Bloom] — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 44** — Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; [Bloom] harvest in morning — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 72** — Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — grouped source entry; individual timing is unresolved
+- **NOVEMBER, source p. 79** — Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
@@ -4561,11 +4243,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Ammi majus
 
-**Stable plant ID:** `plant-ammi-majus`
-**Category:** flower
-**Botanical name as recorded (unverified):** Ammi majus
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-ammi-majus`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Ammi majus\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4575,13 +4258,14 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Orlaya
+### Anemone
 
-**Stable plant ID:** `plant-orlaya`
-**Category:** flower
-**Botanical name as recorded (unverified):** Orlaya grandiflora
-**Family as recorded (unverified):** Apiaceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-anemone`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Anemone coronaria\
+**Family as recorded (unverified):** Ranunculaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4591,135 +4275,18 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Celosia
+### Antirrhinum
 
-**Stable plant ID:** `plant-celosia`
-**Category:** flower
-**Botanical name as recorded (unverified):** Celosia argentea
-**Family as recorded (unverified):** Amaranthaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 23** — Celosia / Strawflower / Scabiosa Wk 1–2 — — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Strawflower
-
-**Stable plant ID:** `plant-strawflower`
-**Category:** flower
-**Botanical name as recorded (unverified):** Xerochrysum bracteatum
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Annual
+**Stable plant ID:** `plant-antirrhinum`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Antirrhinum majus\
+**Family as recorded (unverified):** Plantaginaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **MARCH, source p. 23** — Celosia / Strawflower / Scabiosa Wk 1–2 — — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Scabiosa
-
-**Stable plant ID:** `plant-scabiosa`
-**Category:** flower
-**Botanical name as recorded (unverified):** Scabiosa atropurpurea
-**Family as recorded (unverified):** Caprifoliaceae
-**Life cycle as recorded (unverified):** Annual
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 23** — Celosia / Strawflower / Scabiosa Wk 1–2 — — — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Hellebores
-
-**Stable plant ID:** `plant-hellebores`
-**Category:** flower
-**Botanical name as recorded (unverified):** Helleborus orientalis
-**Family as recorded (unverified):** Ranunculaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 8** — Hellebores (Lenten Rose) — — Blooming outdoors; cut[Bloom] tatty foliage
-- **FEBRUARY, source p. 15** — Hellebores — — Peak bloom outdoors[Bloom]
-- **NOVEMBER, source p. 79** — Hellebores (Lenten Rose) — — May begin blooming [Bloom] late Nov [Frost Risk]
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Snowdrops
-
-**Stable plant ID:** `plant-snowdrops`
-**Category:** flower
-**Botanical name as recorded (unverified):** Galanthus nivalis
-**Family as recorded (unverified):** Amaryllidaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 8** — Snowdrops (Galanthus) — — Blooming; divide after [Bloom] bloom if congested
-- **JANUARY, source p. 8** — Snowdrops (Galanthus) — — Blooming outdoors [Frost Risk][Bloom]
-- **FEBRUARY, source p. 15** — Snowdrops — Divide "in the green" now Blooming — divide [Bloom] congested clumps
-- **FEBRUARY, source p. 15** — Snowdrops / early Crocus — — Blooming [Frost Risk][Bloom] — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Delphinium
-
-**Stable plant ID:** `plant-delphinium`
-**Category:** flower
-**Botanical name as recorded (unverified):** Delphinium elatum
-**Family as recorded (unverified):** Ranunculaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **FEBRUARY, source p. 15** — Delphinium Wk 1 — —
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Salvia nemorosa
-
-**Stable plant ID:** `plant-salvia-nemorosa`
-**Category:** flower
-**Botanical name as recorded (unverified):** Salvia nemorosa
-**Family as recorded (unverified):** Lamiaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **FEBRUARY, source p. 15** — Salvia nemorosa Wk 2 — —
-- **JUNE, source p. 43** — Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer [Bloom] perennials — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Gaillardia
-
-**Stable plant ID:** `plant-gaillardia`
-**Category:** flower
-**Botanical name as recorded (unverified):** Gaillardia aristata
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 22** — Gaillardia Wk 2 — —
+- No matching plant-specific calendar row in the current transcription.
 
 **Available plant-claim research notes**
 
@@ -4727,11 +4294,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Asters
 
-**Stable plant ID:** `plant-asters`
-**Category:** flower
-**Botanical name as recorded (unverified):** Symphyotrichum novi-belgii
-**Family as recorded (unverified):** Asteraceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-asters`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Symphyotrichum novi-belgii\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4744,35 +4312,18 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Primula
+### Astilbe
 
-**Stable plant ID:** `plant-primula`
-**Category:** flower
-**Botanical name as recorded (unverified):** Primula vulgaris
-**Family as recorded (unverified):** Primulaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **APRIL, source p. 29** — Primula / Wallflower / Aubretia / Iberis — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Wallflower
-
-**Stable plant ID:** `plant-wallflower`
-**Category:** flower
-**Botanical name as recorded (unverified):** Erysimum cheiri
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-astilbe`\
+**Category:** ornamental\
+**Botanical name as recorded (unverified):** Astilbe × arendsii\
+**Family as recorded (unverified):** Saxifragaceae\
+**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **APRIL, source p. 29** — Primula / Wallflower / Aubretia / Iberis — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 57** — Calendula / Pansy / Wallflower (for autumn) — Sow now for [Direct Sow] autumn/spring display — — grouped source entry; individual timing is unresolved
-- **SEPTEMBER, source p. 64** — Winter Pansy / Wallflower — Sow outdoors Wk 1–2[Direct Sow] — — grouped source entry; individual timing is unresolved
+- No matching plant-specific calendar row in the current transcription.
 
 **Available plant-claim research notes**
 
@@ -4780,11 +4331,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Aubretia
 
-**Stable plant ID:** `plant-aubretia`
-**Category:** flower
-**Botanical name as recorded (unverified):** Aubrieta deltoidea
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-aubretia`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Aubrieta deltoidea\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4794,29 +4346,530 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Iberis
+### Azalea
 
-**Stable plant ID:** `plant-iberis`
-**Category:** flower
-**Botanical name as recorded (unverified):** Iberis sempervirens
-**Family as recorded (unverified):** Brassicaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-azalea`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Rhododendron spp.\
+**Family as recorded (unverified):** Ericaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **APRIL, source p. 29** — Primula / Wallflower / Aubretia / Iberis — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
+- **APRIL, source p. 30** — Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — grouped source entry; individual timing is unresolved
+- **MAY, source p. 37** — Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms[Bloom] — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Hyacinths
+### Borage
 
-**Stable plant ID:** `plant-hyacinths`
-**Category:** flower
-**Botanical name as recorded (unverified):** Hyacinthus orientalis
-**Family as recorded (unverified):** Asparagaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
+**Stable plant ID:** `plant-borage`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Borago officinalis\
+**Family as recorded (unverified):** Boraginaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Buddleja
+
+**Stable plant ID:** `plant-buddleja`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Buddleja davidii\
+**Family as recorded (unverified):** Scrophulariaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JANUARY, source p. 8** — Buddleja / Hydrangea paniculata — — [Prune/Deadhead] Prune hard Jan–Feb — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Calendula
+
+**Stable plant ID:** `plant-calendula`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Calendula officinalis\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Nasturtium / Calendula (for fall) — Last sow Wk 1[Direct Sow] Blooming continuously[Bloom] — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Calendula / Pansy / Wallflower (for autumn) — Sow now for [Direct Sow] autumn/spring display — — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Camassia
+
+**Stable plant ID:** `plant-camassia`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Camassia quamash\
+**Family as recorded (unverified):** Asparagaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- No matching plant-specific calendar row in the current transcription.
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Camellia
+
+**Stable plant ID:** `plant-camellia`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Camellia japonica\
+**Family as recorded (unverified):** Theaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 30** — Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Celosia
+
+**Stable plant ID:** `plant-celosia`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Celosia argentea\
+**Family as recorded (unverified):** Amaranthaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 23** — Celosia / Strawflower / Scabiosa Wk 1–2 — — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Clematis Group 3
+
+**Stable plant ID:** `plant-clematis-group-3`\
+**Category:** vine\
+**Botanical name as recorded (unverified):** Clematis spp. (pruning Group 3)\
+**Family as recorded (unverified):** Ranunculaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- No matching plant-specific calendar row in the current transcription.
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Clematis montana
+
+**Stable plant ID:** `plant-clematis-montana`\
+**Category:** vine\
+**Botanical name as recorded (unverified):** Clematis montana\
+**Family as recorded (unverified):** Ranunculaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MAY, source p. 37** — Clematis montana — — Peak bloom — glorious[Bloom]
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Cleome
+
+**Stable plant ID:** `plant-cleome`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Cleome hassleriana\
+**Family as recorded (unverified):** Cleomaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Nicotiana / Cleome Wk 1 — — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 36** — Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Cornflower
+
+**Stable plant ID:** `plant-cornflower`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Centaurea cyanus\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- No matching plant-specific calendar row in the current transcription.
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Cosmos
+
+**Stable plant ID:** `plant-cosmos`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Cosmos bipinnatus\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Zinnia / Cosmos Wk 3 — — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 36** — Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; [Bloom] deadhead [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Crocus
+
+**Stable plant ID:** `plant-crocus`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Crocus vernus\
+**Family as recorded (unverified):** Iridaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **FEBRUARY, source p. 15** — Snowdrops / early Crocus — — Blooming [Frost Risk][Bloom] — grouped source entry; individual timing is unresolved
+- **MARCH, source p. 22** — Daffodils / Crocus / early Tulips — — Blooming — peak [Bloom] spring display — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 72** — Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — grouped source entry; individual timing is unresolved
+- **NOVEMBER, source p. 79** — Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Daffodil
+
+**Stable plant ID:** `plant-daffodil`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Narcissus pseudonarcissus\
+**Family as recorded (unverified):** Amaryllidaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Daffodils / Crocus / early Tulips — — Blooming — peak [Bloom] spring display — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 72** — Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — grouped source entry; individual timing is unresolved
+- **NOVEMBER, source p. 79** — Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Dahlia
+
+**Stable plant ID:** `plant-dahlia`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Dahlia pinnata\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JULY, source p. 50** — Dahlia (early varieties) — — First dahlias opening[Bloom]
+- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Dahlia — — Peak bloom — [Bloom]
+- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 72** — Dahlias — — Lift after first hard frost; dry 2 wks; store cool
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Daylily
+
+**Stable plant ID:** `plant-daylily`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Hemerocallis × hybrida\
+**Family as recorded (unverified):** Asphodelaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Hostas / Daylilies / Asters — Divide emerging clumps [Prune/Deadhead] Emerging from ground — grouped source entry; individual timing is unresolved
+- **APRIL, source p. 29** — Hostas / Daylilies / Asters — Divide established clumps [Prune/Deadhead] — — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer [Bloom] perennials — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Iris / Daylily / Hosta (early-spring types) — [Prune/Deadhead] Divide Wk 1–3 — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Delphinium
+
+**Stable plant ID:** `plant-delphinium`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Delphinium elatum\
+**Family as recorded (unverified):** Ranunculaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **FEBRUARY, source p. 15** — Delphinium Wk 1 — —
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Deutzia
+
+**Stable plant ID:** `plant-deutzia`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Deutzia gracilis\
+**Family as recorded (unverified):** Hydrangeaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- No matching plant-specific calendar row in the current transcription.
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Echinacea
+
+**Stable plant ID:** `plant-echinacea`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Echinacea purpurea\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **FEBRUARY, source p. 15** — Echinacea (Coneflower) Wk 2 — —
+- **JULY, source p. 50** — Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer [Bloom] perennials — grouped source entry; individual timing is unresolved
+- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and [Bloom] amber tones — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Ferns
+
+**Stable plant ID:** `plant-ferns`\
+**Category:** ornamental\
+**Botanical name as recorded (unverified):** Fern species / multiple genera\
+**Family as recorded (unverified):** Multiple families\
+**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- No matching plant-specific calendar row in the current transcription.
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Forsythia
+
+**Stable plant ID:** `plant-forsythia`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Forsythia × intermedia\
+**Family as recorded (unverified):** Oleaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **FEBRUARY, source p. 15** — Forsythia — — Buds swelling; bloom imminent
+- **MARCH, source p. 23** — Forsythia / Pieris — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
+- **MAY, source p. 37** — Forsythia / Kerria / Ribes (spring-blooming) — — [Prune/Deadhead] Prune after bloom finishes — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Gaillardia
+
+**Stable plant ID:** `plant-gaillardia`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Gaillardia aristata\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Gaillardia Wk 2 — —
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Garry Oak
+
+**Stable plant ID:** `plant-garry-oak`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Quercus garryana\
+**Family as recorded (unverified):** Fagaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 30** — Garry Oak — — Leafing out; catkins dropping
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Gladiolus
+
+**Stable plant ID:** `plant-gladiolus`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Gladiolus × hortulanus\
+**Family as recorded (unverified):** Iridaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JULY, source p. 50** — Oriental / Asiatic Lilies / Gladiolus — — Blooming; stake tall [Bloom] varieties — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Hellebores
+
+**Stable plant ID:** `plant-hellebores`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Helleborus orientalis\
+**Family as recorded (unverified):** Ranunculaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JANUARY, source p. 8** — Hellebores (Lenten Rose) — — Blooming outdoors; cut[Bloom] tatty foliage
+- **FEBRUARY, source p. 15** — Hellebores — — Peak bloom outdoors[Bloom]
+- **NOVEMBER, source p. 79** — Hellebores (Lenten Rose) — — May begin blooming [Bloom] late Nov [Frost Risk]
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Heuchera
+
+**Stable plant ID:** `plant-heuchera`\
+**Category:** ornamental\
+**Botanical name as recorded (unverified):** Heuchera sanguinea\
+**Family as recorded (unverified):** Saxifragaceae\
+**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- No matching plant-specific calendar row in the current transcription.
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Honeysuckle
+
+**Stable plant ID:** `plant-honeysuckle`\
+**Category:** vine\
+**Botanical name as recorded (unverified):** Lonicera spp.\
+**Family as recorded (unverified):** Caprifoliaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 30** — Honeysuckle — — Leafing out; new growth vigorous
+- **MAY, source p. 37** — Honeysuckle — — In bud; bloom imminent
+- **JUNE, source p. 44** — Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet [Bloom] — grouped source entry; individual timing is unresolved
+- **JULY, source p. 51** — Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom[Bloom] — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Hostas
+
+**Stable plant ID:** `plant-hostas`\
+**Category:** ornamental\
+**Botanical name as recorded (unverified):** Hosta spp.\
+**Family as recorded (unverified):** Asparagaceae\
+**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Hostas / Daylilies / Asters — Divide emerging clumps [Prune/Deadhead] Emerging from ground — grouped source entry; individual timing is unresolved
+- **APRIL, source p. 29** — Hostas / Daylilies / Asters — Divide established clumps [Prune/Deadhead] — — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Iris / Daylily / Hosta (early-spring types) — [Prune/Deadhead] Divide Wk 1–3 — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Hyacinth
+
+**Stable plant ID:** `plant-hyacinth`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Hyacinthus orientalis\
+**Family as recorded (unverified):** Asparagaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4826,13 +4879,240 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
+### Hyacinths
+
+**Stable plant ID:** `plant-hyacinths`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Hyacinthus orientalis\
+**Family as recorded (unverified):** Asparagaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **OCTOBER, source p. 72** — Daffodil / Hyacinth / Allium / Crocus / Muscari — Plant Wk 1–3[Plant Bulb/Tuber] — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Hydrangea paniculata
+
+**Stable plant ID:** `plant-hydrangea-paniculata`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Hydrangea paniculata\
+**Family as recorded (unverified):** Hydrangeaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JANUARY, source p. 8** — Buddleja / Hydrangea paniculata — — [Prune/Deadhead] Prune hard Jan–Feb — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Iberis
+
+**Stable plant ID:** `plant-iberis`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Iberis sempervirens\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 29** — Primula / Wallflower / Aubretia / Iberis — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Impatiens
+
+**Stable plant ID:** `plant-impatiens`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Impatiens walleriana\
+**Family as recorded (unverified):** Balsaminaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Impatiens Wk 1 — —
+- **MAY, source p. 36** — Impatiens / Marigolds / Petunias / Begonias — → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1–2 — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Iris
+
+**Stable plant ID:** `plant-iris`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Iris × germanica\
+**Family as recorded (unverified):** Iridaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MAY, source p. 36** — Aquilegia / Geranium / Lupine / Iris — — Blooming — peak early[Bloom] perennials — grouped source entry; individual timing is unresolved
+- **MAY, source p. 37** — Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting[Bloom] — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer [Bloom] perennials — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Allium / late Iris / first Lily buds — — Blooming; stake tall [Bloom] — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 44** — Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; [Bloom] harvest in morning — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Iris / Daylily / Hosta (early-spring types) — [Prune/Deadhead] Divide Wk 1–3 — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Kerria
+
+**Stable plant ID:** `plant-kerria`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Kerria japonica\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 30** — Spring-flowering shrubs (Forsythia, Kerria) — — [Prune/Deadhead] Prune AFTER bloom; feed roses — grouped source entry; individual timing is unresolved
+- **MAY, source p. 37** — Forsythia / Kerria / Ribes (spring-blooming) — — [Prune/Deadhead] Prune after bloom finishes — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Larkspur
+
+**Stable plant ID:** `plant-larkspur`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Consolida ajacis\
+**Family as recorded (unverified):** Ranunculaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Larkspur / Poppy — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **MARCH, source p. 23** — Larkspur — Direct sow outdoors[Direct Sow] —
+- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Lavender
+
+**Stable plant ID:** `plant-lavender`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Lavandula angustifolia\
+**Family as recorded (unverified):** Lamiaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JULY, source p. 51** — Roses (repeat flush) / Lavender / Hydrangea macrophylla — — Stunning summer [Bloom] display — grouped source entry; individual timing is unresolved
+- **JULY, source p. 51** — Lavender — — [Prune/Deadhead] Prune lightly after first flush Wk 2–3
+- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Lobelia
+
+**Stable plant ID:** `plant-lobelia`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Lobelia erinus\
+**Family as recorded (unverified):** Campanulaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JANUARY, source p. 8** — Lobelia Late Jan (under lights) — —
+- **JUNE, source p. 43** — Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Magnolia
+
+**Stable plant ID:** `plant-magnolia`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Magnolia stellata\
+**Family as recorded (unverified):** Magnoliaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 30** — Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Marigold
+
+**Stable plant ID:** `plant-marigold`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Tagetes patula\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Marigold Wk 2 — —
+- **MAY, source p. 36** — Impatiens / Marigolds / Petunias / Begonias — → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1–2 — — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Morning Glory
+
+**Stable plant ID:** `plant-morning-glory`\
+**Category:** vine\
+**Botanical name as recorded (unverified):** Ipomoea purpurea\
+**Family as recorded (unverified):** Convolvulaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 23** — Morning Glory Wk 3 (indoors) — —
+- **APRIL, source p. 30** — Morning Glory — Wait until May —
+- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 37** — Morning Glory / Cobaea scandens — → Transplant [Indoor Sow] [Indoor Sow] outdoors now — — grouped source entry; individual timing is unresolved
+- **JULY, source p. 51** — Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom[Bloom] — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 58** — Clematis viticella / Passion Flower / Morning Glory — — All in full spectacular [Bloom] bloom — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
 ### Muscari
 
-**Stable plant ID:** `plant-muscari`
-**Category:** flower
-**Botanical name as recorded (unverified):** Muscari armeniacum
-**Family as recorded (unverified):** Asparagaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
+**Stable plant ID:** `plant-muscari`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Muscari armeniacum\
+**Family as recorded (unverified):** Asparagaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4843,29 +5123,72 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Gladiolus
+### Nasturtium
 
-**Stable plant ID:** `plant-gladiolus`
-**Category:** flower
-**Botanical name as recorded (unverified):** Gladiolus × hortulanus
-**Family as recorded (unverified):** Iridaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
+**Stable plant ID:** `plant-nasturtium`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Tropaeolum majus\
+**Family as recorded (unverified):** Tropaeolaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **JULY, source p. 50** — Oriental / Asiatic Lilies / Gladiolus — — Blooming; stake tall [Bloom] varieties — grouped source entry; individual timing is unresolved
+- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; [Bloom] deadhead [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Nasturtium / Calendula (for fall) — Last sow Wk 1[Direct Sow] Blooming continuously[Bloom] — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Anemone
+### Nicotiana
 
-**Stable plant ID:** `plant-anemone`
-**Category:** flower
-**Botanical name as recorded (unverified):** Anemone coronaria
-**Family as recorded (unverified):** Ranunculaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
+**Stable plant ID:** `plant-nicotiana`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Nicotiana alata\
+**Family as recorded (unverified):** Solanaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Nicotiana / Cleome Wk 1 — — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 36** — Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Nigella
+
+**Stable plant ID:** `plant-nigella`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Nigella damascena\
+**Family as recorded (unverified):** Ranunculaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Cosmos / Calendula / Nigella (self-seeding) — — Do NOT deadhead last flush — let seed fall — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Orlaya
+
+**Stable plant ID:** `plant-orlaya`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Orlaya grandiflora\
+**Family as recorded (unverified):** Apiaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4875,63 +5198,14 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Camassia
+### Ornamental Grasses
 
-**Stable plant ID:** `plant-camassia`
-**Category:** flower
-**Botanical name as recorded (unverified):** Camassia quamash
-**Family as recorded (unverified):** Asparagaceae
-**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ
-
-**Errington calendar source mentions**
-
-- No matching plant-specific calendar row in the current transcription.
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Witch Hazel
-
-**Stable plant ID:** `plant-witch-hazel`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Hamamelis virginiana
-**Family as recorded (unverified):** Hamamelidaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 8** — Witch Hazel (Hamamelis) — — Blooming — fragrant [Bloom] winter display
-- **FEBRUARY, source p. 15** — Witch Hazel (Hamamelis) — — Blooming — fragrant in[Bloom] mild spells
-- **DECEMBER, source p. 87** — Witch Hazel (Hamamelis) — — Buds swelling; first spidery blooms soon
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Buddleja
-
-**Stable plant ID:** `plant-buddleja`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Buddleja davidii
-**Family as recorded (unverified):** Scrophulariaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 8** — Buddleja / Hydrangea paniculata — — [Prune/Deadhead] Prune hard Jan–Feb — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Deutzia
-
-**Stable plant ID:** `plant-deutzia`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Deutzia gracilis
-**Family as recorded (unverified):** Hydrangeaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-ornamental-grasses`\
+**Category:** ornamental\
+**Botanical name as recorded (unverified):** Ornamental grass species / multiple genera\
+**Family as recorded (unverified):** Poaceae\
+**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4941,17 +5215,144 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Hydrangea paniculata
+### Pansy
 
-**Stable plant ID:** `plant-hydrangea-paniculata`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Hydrangea paniculata
-**Family as recorded (unverified):** Hydrangeaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-pansy`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Viola × wittrockiana\
+**Family as recorded (unverified):** Violaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **JANUARY, source p. 8** — Buddleja / Hydrangea paniculata — — [Prune/Deadhead] Prune hard Jan–Feb — grouped source entry; individual timing is unresolved
+- **APRIL, source p. 29** — Snapdragons / Pansies / Stocks — → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 — — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Calendula / Pansy / Wallflower (for autumn) — Sow now for [Direct Sow] autumn/spring display — — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Winter Pansy / Wallflower — Sow outdoors Wk 1–2[Direct Sow] — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Peony
+
+**Stable plant ID:** `plant-peony`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Paeonia lactiflora\
+**Family as recorded (unverified):** Paeoniaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- No matching plant-specific calendar row in the current transcription.
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Petunias
+
+**Stable plant ID:** `plant-petunias`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Petunia × atkinsiana\
+**Family as recorded (unverified):** Solanaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JANUARY, source p. 8** — Petunias Late Jan (under lights) — —
+- **MAY, source p. 36** — Impatiens / Marigolds / Petunias / Begonias — → All frost-tender [Indoor Sow] [Indoor Sow] annuals outdoors Wk 1–2 — — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Philadelphus
+
+**Stable plant ID:** `plant-philadelphus`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Philadelphus coronarius\
+**Family as recorded (unverified):** Hydrangeaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JUNE, source p. 44** — Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — [Bloom] glorious — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 44** — Philadelphus / Weigela — — [Prune/Deadhead] Prune after bloom finishes (late June) — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Pieris
+
+**Stable plant ID:** `plant-pieris`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Pieris japonica\
+**Family as recorded (unverified):** Ericaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 23** — Forsythia / Pieris — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Poppy
+
+**Stable plant ID:** `plant-poppy`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Papaver rhoeas\
+**Family as recorded (unverified):** Papaveraceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Larkspur / Poppy — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **APRIL, source p. 29** — Larkspur / Poppy / Nigella / Calendula / Borage — Direct sow Wk 2–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Primula
+
+**Stable plant ID:** `plant-primula`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Primula vulgaris\
+**Family as recorded (unverified):** Primulaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 29** — Primula / Wallflower / Aubretia / Iberis — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Rhododendron
+
+**Stable plant ID:** `plant-rhododendron`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Rhododendron spp.\
+**Family as recorded (unverified):** Ericaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 30** — Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — grouped source entry; individual timing is unresolved
+- **MAY, source p. 37** — Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms[Bloom] — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
@@ -4959,11 +5360,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Roses
 
-**Stable plant ID:** `plant-roses`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Rosa spp.
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-roses`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Rosa spp.\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -4980,101 +5382,116 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Forsythia
+### Rudbeckia
 
-**Stable plant ID:** `plant-forsythia`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Forsythia × intermedia
-**Family as recorded (unverified):** Oleaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-rudbeckia`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Rudbeckia hirta\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **FEBRUARY, source p. 15** — Forsythia — — Buds swelling; bloom imminent
-- **MARCH, source p. 23** — Forsythia / Pieris — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
-- **MAY, source p. 37** — Forsythia / Kerria / Ribes (spring-blooming) — — [Prune/Deadhead] Prune after bloom finishes — grouped source entry; individual timing is unresolved
+- **MARCH, source p. 22** — Coneflower / Rudbeckia Wk 1 — — — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Daylily / Echinacea / Rudbeckia / Monarda — — Peak midsummer [Bloom] perennials — grouped source entry; individual timing is unresolved
+- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Rudbeckia / Echinacea / Helenium / Solidago — — Late summer gold and [Bloom] amber tones — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn [Bloom] perennials — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 73** — Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of[Bloom] the season — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Philadelphus
+### Salvia nemorosa
 
-**Stable plant ID:** `plant-philadelphus`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Philadelphus coronarius
-**Family as recorded (unverified):** Hydrangeaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-salvia-nemorosa`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Salvia nemorosa\
+**Family as recorded (unverified):** Lamiaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **JUNE, source p. 44** — Roses (first flush) / Philadelphus / Weigela / Escallonia — — Peak first flush — [Bloom] glorious — grouped source entry; individual timing is unresolved
-- **JUNE, source p. 44** — Philadelphus / Weigela — — [Prune/Deadhead] Prune after bloom finishes (late June) — grouped source entry; individual timing is unresolved
+- **FEBRUARY, source p. 15** — Salvia nemorosa Wk 2 — —
+- **JUNE, source p. 43** — Lupine / Iris / Salvia nemorosa / Allium — — Peak early summer [Bloom] perennials — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Pieris
+### Scabiosa
 
-**Stable plant ID:** `plant-pieris`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Pieris japonica
-**Family as recorded (unverified):** Ericaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-scabiosa`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Scabiosa atropurpurea\
+**Family as recorded (unverified):** Caprifoliaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **MARCH, source p. 23** — Forsythia / Pieris — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
+- **MARCH, source p. 23** — Celosia / Strawflower / Scabiosa Wk 1–2 — — — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Magnolia
+### Sedum
 
-**Stable plant ID:** `plant-magnolia`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Magnolia stellata
-**Family as recorded (unverified):** Magnoliaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-sedum`\
+**Category:** ornamental\
+**Botanical name as recorded (unverified):** Hylotelephium telephium\
+**Family as recorded (unverified):** Crassulaceae\
+**Life cycle as recorded (unverified):** Perennial or variable; species-level resolution required\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **APRIL, source p. 30** — Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Japanese Anemone / Rudbeckia / Helenium / Sedum — — Peak autumn [Bloom] perennials — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 71** — Japanese Anemone / Aster / Sedum / Schizostylis — — Fading; leave stems [Bloom] for winter interest — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 73** — Rudbeckia / Sedum / Schizostylis / Ornamental grasses — — Last cuttable flowers of[Bloom] the season — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Camellia
+### Snapdragons
 
-**Stable plant ID:** `plant-camellia`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Camellia japonica
-**Family as recorded (unverified):** Theaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-snapdragons`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Antirrhinum majus\
+**Family as recorded (unverified):** Plantaginaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **APRIL, source p. 30** — Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — grouped source entry; individual timing is unresolved
+- **JANUARY, source p. 8** — Snapdragons Late Jan (under lights) — —
+- **APRIL, source p. 29** — Snapdragons / Pansies / Stocks — → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 — — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Marigold / Lobelia / Petunia / Snapdragon — — First annuals blooming[Bloom] — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Rhododendron
+### Snowdrops
 
-**Stable plant ID:** `plant-rhododendron`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Rhododendron spp.
-**Family as recorded (unverified):** Ericaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-snowdrops`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Galanthus nivalis\
+**Family as recorded (unverified):** Amaryllidaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **APRIL, source p. 30** — Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — grouped source entry; individual timing is unresolved
-- **MAY, source p. 37** — Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms[Bloom] — grouped source entry; individual timing is unresolved
+- **JANUARY, source p. 8** — Snowdrops (Galanthus) — — Blooming; divide after [Bloom] bloom if congested
+- **JANUARY, source p. 8** — Snowdrops (Galanthus) — — Blooming outdoors [Frost Risk][Bloom]
+- **FEBRUARY, source p. 15** — Snowdrops — Divide "in the green" now Blooming — divide [Bloom] congested clumps
+- **FEBRUARY, source p. 15** — Snowdrops / early Crocus — — Blooming [Frost Risk][Bloom] — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
@@ -5082,11 +5499,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Spiraea
 
-**Stable plant ID:** `plant-spiraea`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Spiraea japonica
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-spiraea`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Spiraea japonica\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -5096,51 +5514,136 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Azalea
+### Statice
 
-**Stable plant ID:** `plant-azalea`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Rhododendron spp.
-**Family as recorded (unverified):** Ericaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-statice`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Limonium sinuatum\
+**Family as recorded (unverified):** Plumbaginaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **APRIL, source p. 30** — Magnolia / Camellia / Rhododendron / Azalea — — Stunning spring [Bloom] display — grouped source entry; individual timing is unresolved
-- **MAY, source p. 37** — Rhododendron / Azalea / Lilac / Ceanothus / Weigela — — Spectacular blooms[Bloom] — grouped source entry; individual timing is unresolved
+- **FEBRUARY, source p. 16** — Statice Wk 2 — —
+- **NOVEMBER, source p. 80** — Dried everlastings (Strawflower, Statice) — — Use dried flower store from summer — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Kerria
+### Stocks
 
-**Stable plant ID:** `plant-kerria`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Kerria japonica
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-stocks`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Matthiola incana\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **APRIL, source p. 30** — Spring-flowering shrubs (Forsythia, Kerria) — — [Prune/Deadhead] Prune AFTER bloom; feed roses — grouped source entry; individual timing is unresolved
-- **MAY, source p. 37** — Forsythia / Kerria / Ribes (spring-blooming) — — [Prune/Deadhead] Prune after bloom finishes — grouped source entry; individual timing is unresolved
+- **APRIL, source p. 29** — Snapdragons / Pansies / Stocks — → Transplant cold-[Indoor Sow] [Indoor Sow] tolerant after Apr 15 — — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Garry Oak
+### Strawflower
 
-**Stable plant ID:** `plant-garry-oak`
-**Category:** shrub-tree
-**Botanical name as recorded (unverified):** Quercus garryana
-**Family as recorded (unverified):** Fagaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-strawflower`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Xerochrysum bracteatum\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **APRIL, source p. 30** — Garry Oak — — Leafing out; catkins dropping
+- **MARCH, source p. 23** — Celosia / Strawflower / Scabiosa Wk 1–2 — — — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Sunflower
+
+**Stable plant ID:** `plant-sunflower`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Helianthus annuus\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MAY, source p. 34** — Corn / Sunflower — Direct sow Wk 3–4[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 37** — Sunflower — Direct sow Wk 1–2[Direct Sow] —
+- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 55** — Sunflower / Corn — — Sunflower heads [Harvest] mature; corn harvest late Aug — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Sweet Pea
+
+**Stable plant ID:** `plant-sweet-pea`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Lathyrus odoratus\
+**Family as recorded (unverified):** Fabaceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Sweet Peas — Direct sow outdoors [Direct Sow] Wk 3–4 —
+- **APRIL, source p. 29** — Sweet Peas — Direct sow Wk 1–2[Direct Sow] —
+- **APRIL, source p. 30** — Sweet Peas — → Transplant [Indoor Sow] [Indoor Sow] outdoors Wk 3–4 —
+- **MAY, source p. 37** — Sweet Peas / Allium / Iris / Aquilegia — — Excellent for cutting[Bloom] — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 44** — Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet [Bloom] — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 44** — Allium / Iris / Sweet Pea / Lupine / Foxglove / Salvia — — Excellent cutting; [Bloom] harvest in morning — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Sweet Pea — — Peak — harvest every [Bloom] day to extend
+- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Tulip
+
+**Stable plant ID:** `plant-tulip`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Tulipa gesneriana\
+**Family as recorded (unverified):** Liliaceae\
+**Life cycle as recorded (unverified):** Perennial; grown from a bulb, corm, or storage organ\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 22** — Daffodils / Crocus / early Tulips — — Blooming — peak [Bloom] spring display — grouped source entry; individual timing is unresolved
+- **OCTOBER, source p. 72** — Tulips — Plant Wk 3–4 (late [Plant Bulb/Tuber] planting reduces tulip fire) —
+- **NOVEMBER, source p. 79** — Daffodil / Crocus / Allium / Muscari / Tulips — Last chance to plant [Plant Bulb/Tuber] Wk 1–2 — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Wallflower
+
+**Stable plant ID:** `plant-wallflower`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Erysimum cheiri\
+**Family as recorded (unverified):** Brassicaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **APRIL, source p. 29** — Primula / Wallflower / Aubretia / Iberis — — Blooming[Bloom] — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Calendula / Pansy / Wallflower (for autumn) — Sow now for [Direct Sow] autumn/spring display — — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Winter Pansy / Wallflower — Sow outdoors Wk 1–2[Direct Sow] — — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
@@ -5148,11 +5651,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Wisteria
 
-**Stable plant ID:** `plant-wisteria`
-**Category:** vine
-**Botanical name as recorded (unverified):** Wisteria sinensis
-**Family as recorded (unverified):** Fabaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-wisteria`\
+**Category:** vine\
+**Botanical name as recorded (unverified):** Wisteria sinensis\
+**Family as recorded (unverified):** Fabaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -5162,135 +5666,59 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
-### Clematis Group 3
+### Witch Hazel
 
-**Stable plant ID:** `plant-clematis-group-3`
-**Category:** vine
-**Botanical name as recorded (unverified):** Clematis spp. (pruning Group 3)
-**Family as recorded (unverified):** Ranunculaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-witch-hazel`\
+**Category:** shrub-tree\
+**Botanical name as recorded (unverified):** Hamamelis virginiana\
+**Family as recorded (unverified):** Hamamelidaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- No matching plant-specific calendar row in the current transcription.
+- **JANUARY, source p. 8** — Witch Hazel (Hamamelis) — — Blooming — fragrant [Bloom] winter display
+- **FEBRUARY, source p. 15** — Witch Hazel (Hamamelis) — — Blooming — fragrant in[Bloom] mild spells
+- **DECEMBER, source p. 87** — Witch Hazel (Hamamelis) — — Buds swelling; first spidery blooms soon
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Clematis montana
+### Zinnia
 
-**Stable plant ID:** `plant-clematis-montana`
-**Category:** vine
-**Botanical name as recorded (unverified):** Clematis montana
-**Family as recorded (unverified):** Ranunculaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MAY, source p. 37** — Clematis montana — — Peak bloom — glorious[Bloom]
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Honeysuckle
-
-**Stable plant ID:** `plant-honeysuckle`
-**Category:** vine
-**Botanical name as recorded (unverified):** Lonicera spp.
-**Family as recorded (unverified):** Caprifoliaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-zinnia`\
+**Category:** flower\
+**Botanical name as recorded (unverified):** Zinnia elegans\
+**Family as recorded (unverified):** Asteraceae\
+**Life cycle as recorded (unverified):** Annual\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
-- **APRIL, source p. 30** — Honeysuckle — — Leafing out; new growth vigorous
-- **MAY, source p. 37** — Honeysuckle — — In bud; bloom imminent
-- **JUNE, source p. 44** — Honeysuckle / Clematis 'Nelly Moser' type / Sweet Peas — — Peak — harvest Sweet [Bloom] — grouped source entry; individual timing is unresolved
-- **JULY, source p. 51** — Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom[Bloom] — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Morning Glory
-
-**Stable plant ID:** `plant-morning-glory`
-**Category:** vine
-**Botanical name as recorded (unverified):** Ipomoea purpurea
-**Family as recorded (unverified):** Convolvulaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 23** — Morning Glory Wk 3 (indoors) — —
-- **APRIL, source p. 30** — Morning Glory — Wait until May —
+- **MARCH, source p. 22** — Zinnia / Cosmos Wk 3 — — — grouped source entry; individual timing is unresolved
+- **MAY, source p. 36** — Zinnias / Cosmos / Nicotiana / Cleome — → Transplant Wk 1–2[Indoor Sow] [Indoor Sow] — — grouped source entry; individual timing is unresolved
 - **MAY, source p. 36** — Zinnia / Cosmos / Nasturtium / Sunflower / Morning Glory / Borage — Direct sow Wk 1–3[Direct Sow] — — grouped source entry; individual timing is unresolved
-- **MAY, source p. 37** — Morning Glory / Cobaea scandens — → Transplant [Indoor Sow] [Indoor Sow] outdoors now — — grouped source entry; individual timing is unresolved
-- **JULY, source p. 51** — Morning Glory / Clematis viticella / Honeysuckle — — All in gorgeous bloom[Bloom] — grouped source entry; individual timing is unresolved
-- **AUGUST, source p. 58** — Clematis viticella / Passion Flower / Morning Glory — — All in full spectacular [Bloom] bloom — grouped source entry; individual timing is unresolved
+- **JUNE, source p. 43** — Nasturtium / Cosmos / Zinnia (early vars.) — — Beginning to bloom; [Bloom] deadhead [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **JULY, source p. 50** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Full peak bloom; [Bloom] deadhead daily [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **JULY, source p. 51** — Zinnia / Cosmos / Sunflower / Dahlia / Lily / Echinacea / Rudbeckia / Sweet Pea / Lavender — — Best cutting month of [Bloom] the year; harvest in morning — grouped source entry; individual timing is unresolved
+- **AUGUST, source p. 57** — Zinnia / Cosmos / Marigold / Cleome / Nicotiana — — Peak late summer; [Bloom] deadhead aggressively [Prune/Deadhead] — grouped source entry; individual timing is unresolved
+- **SEPTEMBER, source p. 64** — Zinnia / Cosmos / Marigold / Nasturtium / Dahlia — — Still blooming; enjoy [Bloom] the last of summer — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
 - No claim-level research record is currently linked to this plant.
 
-### Osoberry
-
-**Stable plant ID:** `plant-osoberry`
-**Category:** native
-**Botanical name as recorded (unverified):** Oemleria cerasiformis
-**Family as recorded (unverified):** Rosaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **JANUARY, source p. 9** — Osoberry (Oemleria) — — Buds beginning to swell; earliest native
-- **MARCH, source p. 23** — Osoberry / Trillium — — Emerging — do not [Bloom] pick Trillium — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Red-flowering Currant
-
-**Stable plant ID:** `plant-red-flowering-currant`
-**Category:** native
-**Botanical name as recorded (unverified):** Ribes sanguineum
-**Family as recorded (unverified):** Grossulariaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **FEBRUARY, source p. 16** — Red Flowering Currant (Ribes) — — Buds swelling — bloom coming soon
-- **MARCH, source p. 23** — Red Flowering Currant (Ribes) — — Blooming — [Bloom] hummingbird magnet
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
-
-### Trillium
-
-**Stable plant ID:** `plant-trillium`
-**Category:** native
-**Botanical name as recorded (unverified):** Trillium ovatum
-**Family as recorded (unverified):** Melanthiaceae
-**Life cycle as recorded (unverified):** Perennial
-
-**Errington calendar source mentions**
-
-- **MARCH, source p. 23** — Osoberry / Trillium — — Emerging — do not [Bloom] pick Trillium — grouped source entry; individual timing is unresolved
-
-**Available plant-claim research notes**
-
-- No claim-level research record is currently linked to this plant.
+## Native Plant Candidates
 
 ### Bleeding Heart
 
-**Stable plant ID:** `plant-bleeding-heart`
-**Category:** native
-**Botanical name as recorded (unverified):** Dicentra formosa
-**Family as recorded (unverified):** Papaveraceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-bleeding-heart`\
+**Category:** native\
+**Botanical name as recorded (unverified):** Dicentra formosa\
+**Family as recorded (unverified):** Papaveraceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -5303,11 +5731,12 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 ### Camas
 
-**Stable plant ID:** `plant-camas`
-**Category:** native
-**Botanical name as recorded (unverified):** Camassia quamash
-**Family as recorded (unverified):** Asparagaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-camas`\
+**Category:** native\
+**Botanical name as recorded (unverified):** Camassia quamash\
+**Family as recorded (unverified):** Asparagaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
@@ -5318,17 +5747,71 @@ plant. All recorded taxonomy remains unverified; names marked for resolution nee
 
 - No claim-level research record is currently linked to this plant.
 
+### Osoberry
+
+**Stable plant ID:** `plant-osoberry`\
+**Category:** native\
+**Botanical name as recorded (unverified):** Oemleria cerasiformis\
+**Family as recorded (unverified):** Rosaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **JANUARY, source p. 9** — Osoberry (Oemleria) — — Buds beginning to swell; earliest native
+- **MARCH, source p. 23** — Osoberry / Trillium — — Emerging — do not [Bloom] pick Trillium — grouped source entry; individual timing is unresolved
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Red-flowering Currant
+
+**Stable plant ID:** `plant-red-flowering-currant`\
+**Category:** native\
+**Botanical name as recorded (unverified):** Ribes sanguineum\
+**Family as recorded (unverified):** Grossulariaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **FEBRUARY, source p. 16** — Red Flowering Currant (Ribes) — — Buds swelling — bloom coming soon
+- **MARCH, source p. 23** — Red Flowering Currant (Ribes) — — Blooming — [Bloom] hummingbird magnet
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
 ### Sword Fern
 
-**Stable plant ID:** `plant-sword-fern`
-**Category:** native
-**Botanical name as recorded (unverified):** Polystichum munitum
-**Family as recorded (unverified):** Dryopteridaceae
-**Life cycle as recorded (unverified):** Perennial
+**Stable plant ID:** `plant-sword-fern`\
+**Category:** native\
+**Botanical name as recorded (unverified):** Polystichum munitum\
+**Family as recorded (unverified):** Dryopteridaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
 
 **Errington calendar source mentions**
 
 - No matching plant-specific calendar row in the current transcription.
+
+**Available plant-claim research notes**
+
+- No claim-level research record is currently linked to this plant.
+
+### Trillium
+
+**Stable plant ID:** `plant-trillium`\
+**Category:** native\
+**Botanical name as recorded (unverified):** Trillium ovatum\
+**Family as recorded (unverified):** Melanthiaceae\
+**Life cycle as recorded (unverified):** Perennial\
+**Growing profile:** Plant-specific light, water, soil, hardiness, size, planting, cultivation, pests, harvest, and storage remain pending verification.
+
+**Errington calendar source mentions**
+
+- **MARCH, source p. 23** — Osoberry / Trillium — — Emerging — do not [Bloom] pick Trillium — grouped source entry; individual timing is unresolved
 
 **Available plant-claim research notes**
 
