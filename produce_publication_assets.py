@@ -10,6 +10,8 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+from enrich_plant_registry import entry_aliases, registry_aliases
+
 
 BASE = Path(__file__).resolve().parent
 PAPER = "#f6f0e2"
@@ -247,77 +249,112 @@ def produce_figures() -> list[dict]:
 def produce_supplement(candidate_manifest: list[dict], figures: list[dict]) -> Path:
     rows = read_csv("plant_registry.csv")
     calendar = read_csv("errington_calendar_entries.csv")
-    matches: dict[str, list[dict[str, str]]] = {}
-    for entry in calendar:
-        matches.setdefault(entry["plant_normalized"], []).append(entry)
+    claim_path = BASE / "claims" / "CLAIM_SOURCES.csv"
+    claims = read_csv("claims/CLAIM_SOURCES.csv") if claim_path.is_file() else []
 
     out = BASE / "ERRINGTON_COMPLETE_SUPPLEMENT.md"
     lines = [
-        "# Complete Errington Plant, Figure and Worked-Example Supplement",
+        "# Errington Plant Field Index and Learning Aids",
         "",
-        "This supplement contains 137 stable plant profiles, 36 educational figures,",
-        "and 18 practical worked examples. Plant taxonomic and local-timing claims",
-        "must remain source-reviewed; this file separates recorded registry fields",
-        "from verified recommendations.",
+        "This section brings together the repository's plant inventory, matching calendar",
+        "transcriptions, available plant-claim research notes, educational figure concepts,",
+        "and practical worked examples. A source transcription or recorded name is not a",
+        "verified recommendation. Plant-specific soil, water, spacing, pest, and disease",
+        "guidance is not independently reviewed in this repository.",
         "",
-        "## Plant profile convention",
+        "## How to use the plant index",
         "",
-        "Every profile below is a complete registry/profile shell, not a claim that",
-        "all stated fields have independent botanical or local verification.",
+        "Use the monthly reference for the complete source transcription. The entries below",
+        "are a cross-reference, not additional planting advice. Calendar matches are shown",
+        "verbatim with their source month and page. When a source row names multiple plants,",
+        "the whole grouped row is retained; it does not establish a separate timing for each",
+        "plant. All recorded taxonomy remains unverified; names marked for resolution need further research.",
         "",
     ]
 
     for row in rows:
+        aliases = registry_aliases(row)
+        plant_matches = [
+            entry
+            for entry in calendar
+            if aliases
+            & entry_aliases(
+                entry.get("plant_text", "") or entry.get("plant_normalized", "")
+            )
+        ]
+        plant_claims = [
+            claim for claim in claims if claim.get("plant_id") == row.get("plant_id")
+        ]
         lines.extend([
             f"### {row['display_name']}",
             "",
             f"**Stable plant ID:** `{row['plant_id']}`",
-            f"**Category:** {row['category']}",
-            f"**Recorded botanical name:** {row['latin_name'] or 'Unresolved'}",
-            f"**Recorded family:** {row['family'] or 'Unresolved'}",
-            f"**Life cycle:** {row['life_cycle'] or 'Unresolved'}",
-            f"**Illustration status:** `CANDIDATE_GENERATED / REVIEW_PENDING / NOT_APPROVED`",
+            f"**Category:** {row.get('category') or 'Unresolved'}",
+            "**Botanical name as recorded (unverified):** "
+            f"{row.get('latin_name') or 'Unresolved'}",
+            "**Family as recorded (unverified):** "
+            f"{row.get('family') or 'Unresolved'}",
+            "**Life cycle as recorded (unverified):** "
+            f"{row.get('life_cycle') or 'Unresolved'}",
             "",
-            "**Identification and morphology**",
-            "",
-            f"- Growth habit: {row['growth_habit']}",
-            f"- Root or storage organ: {row['root_or_storage_organ']}",
-            f"- Leaf arrangement and shape: {row['leaf_arrangement_shape']}",
-            f"- Flower structure: {row['flower_structure']}",
-            f"- Fruit or seed structure: {row['fruit_seed_structure']}",
-            "",
-            "**Errington timing fields**",
-            "",
-            f"- Indoor sow: {row['indoor_sow_window'] or 'Source timing not reviewed'}",
-            f"- Direct sow: {row['direct_sow_window'] or 'Source timing not reviewed'}",
-            f"- Transplant: {row['transplant_window'] or 'Source timing not reviewed'}",
-            f"- Bloom: {row['bloom_window'] or 'Source timing not reviewed'}",
-            f"- Harvest: {row['harvest_window'] or 'Source timing not reviewed'}",
-            f"- Frost: {row['frost_notes'] or 'Source timing not reviewed'}",
-            "",
-            "**Cultivation**",
-            "",
-            f"- Soil: {row['soil_notes']}",
-            f"- Water: {row['water_notes']}",
-            f"- Spacing: {row['spacing_notes']}",
-            f"- Light: {row['light_notes']}",
-            f"- Maintenance: {row['maintenance_notes']}",
-            f"- Pests/diseases: {row['pests_diseases']}",
-            "",
-            "**Candidate plate:**",
-            f"![](plant_illustrations/concept_candidates/{keyify(row['display_name'])}.png)",
-            "",
-            "**Source status:** Not botanically or horticulturally approved. Recorded fields are derived",
-            "from the retained registry and remain subject to claim-level source review.",
+            "**Errington calendar source mentions**",
             "",
         ])
+        if plant_matches:
+            for entry in plant_matches:
+                source_name = (
+                    entry.get("plant_text", "")
+                    or entry.get("plant_normalized", "")
+                )
+                grouped = "/" in source_name or "," in source_name
+                group_note = (
+                    " — grouped source entry; individual timing is unresolved"
+                    if grouped
+                    else ""
+                )
+                transcription = (
+                    entry.get("row_text", "")
+                    or entry.get("plant_text", "")
+                    or "Transcription unavailable"
+                )
+                lines.append(
+                    f"- **{entry.get('month') or 'Month unresolved'}, source p. "
+                    f"{entry.get('page_number') or 'unresolved'}** — "
+                    f"{transcription}{group_note}"
+                )
+        else:
+            lines.append("- No matching plant-specific calendar row in the current transcription.")
+        lines.extend(["", "**Available plant-claim research notes**", ""])
+        if plant_claims:
+            for claim in plant_claims:
+                source = claim.get("source_title", "Source not identified")
+                organization = claim.get("organization", "")
+                if organization:
+                    source = f"{source} ({organization})"
+                url = claim.get("url", "")
+                source_link = f"[{source}]({url})" if url else source
+                lines.append(
+                    f"- **{claim.get('status') or 'status unrecorded'}** — "
+                    f"{claim.get('claim_text') or 'Claim text unavailable'} "
+                    f"Source: {source_link}. "
+                    f"Page/section: {claim.get('page_or_section') or 'not recorded'}. "
+                    f"Publication date: {claim.get('publication_date') or 'not recorded'}. "
+                    f"Access date: {claim.get('access_date') or 'not recorded'}. "
+                    f"Evidence type: {claim.get('evidence_type') or 'not recorded'}. "
+                    f"Confidence: {claim.get('confidence') or 'not assessed'}. "
+                    f"Geographic scope: "
+                    f"{claim.get('geographic_applicability') or 'not recorded'}. "
+                    f"Review note: {claim.get('notes') or 'No review note recorded.'}"
+                )
+        else:
+            lines.append("- No claim-level research record is currently linked to this plant.")
+        lines.append("")
 
     lines.extend([
         "# Educational Figure Library",
         "",
-        "These figures are concept productions. Captions and accessibility text are",
-        "present, but botanical and horticultural source references remain to be attached",
-        "before final human approval.",
+        "These are figure concepts, not reviewed teaching diagrams. Their source references",
+        "are incomplete and their artwork is intentionally withheld from the encyclopedia.",
         "",
     ])
     for fig in figures:
@@ -327,9 +364,7 @@ def produce_supplement(candidate_manifest: list[dict], figures: list[dict]) -> P
             f"**Figure ID:** `{fig['figure_id']}`",
             f"**Description:** {fig['description']}",
             f"**Accessibility text:** {fig['accessibility_text']}",
-            f"**Publication location:** Errington Gardening Encyclopedia",
             f"**Status:** {fig['approval_status']}",
-            f"![](educational_figures/{fig['filename']})",
             "",
         ])
 

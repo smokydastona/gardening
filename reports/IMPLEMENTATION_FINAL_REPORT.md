@@ -73,13 +73,13 @@ No botanical accuracy or license was fabricated or approved.
 
 Generated and rendered:
 
-- Complete encyclopedia: 265 pages
-- Monthly guide: 10 pages
-- Illustrated directory: 137 pages
+- Complete encyclopedia: 195 pages
+- Monthly guide: 25 pages
+- Illustrated directory: 25 pages
 - Botanical illustration collection: 138 pages
 - Educational figure collection: 37 pages
 
-The three products were built from shared source data. Contact sheets were rendered for every
+The five products were built from shared source data. Contact sheets were rendered for every
 page and overview-scanned. Print-readable full-resolution page and content sign-off remains
 external human work.
 
@@ -90,14 +90,14 @@ Executed:
 - `python build_all.py`
 - `python -m pytest -q`
 - `python validate_pipeline.py --publication`
-- Rendered all pages for all three PDFs
+- Rendered all pages for all five PDFs
 
-Actual test result: 43 passed.
-Actual PDF validation: all three PDFs are present, non-empty, and have intentional author metadata.
+Actual test result: 52 passed.
+Actual PDF validation: all five PDFs are present, non-empty, and have intentional author metadata.
 
 ## 10. CI results
 
-The workflow file was updated to build all three products and run tests. No actual GitHub Actions
+The workflow file was updated to build all five products and run tests. No actual GitHub Actions
 run was available for the final implementation revision at report time.
 
 ## 11. Remaining blockers
@@ -133,14 +133,14 @@ approved publication assets. Provider credentials were unavailable, and fully re
 plant profiles and claim-level citations remain to be produced.
 
 Current build and test commands are recorded in `reports/IMPLEMENTATION_REGISTER.md` and
-`PUBLICATION_QA_REPORT.md`; the current local suite passes 44 tests. All outstanding
+`PUBLICATION_QA_REPORT.md`; the current local suite passes 52 tests. All outstanding
 scientific and human review gates remain open.
 
 ## 14. Asset completion follow-up
 
 The implementation now generates and embeds 137 concept plant candidates, 36 educational
 figure concepts and 18 worked examples. Reenie Beanie is used throughout the publication
-and generated assets. The complete supplement is included in the 265-page encyclopedia,
+and generated assets. The complete supplement is included in the 195-page encyclopedia,
 and standalone botanical and figure collections contain 138 and
 37 pages respectively. None of these concepts is human-botanical approved. They are
 production assets for review, not evidence of accepted taxonomy or cultivation.

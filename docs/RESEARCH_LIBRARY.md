@@ -17,9 +17,30 @@ pages, but is not a live check. Additional URLs in this expanded library have no
 individually checked. Recheck availability and redirects from a working network before
 replacing a link or recording an access date for a claim.
 
-The workflow service had no registered workflows and its documentation was unavailable
-because extensions were not configured. Direct HTTP checks and search-index evidence were
-used instead. The Environment Canada
+The agent workflow service had no registered workflows and its documentation was unavailable
+because extensions were not configured. The manually dispatched Build Encyclopedia GitHub
+Actions workflow also runs `check_research_links.py` on a GitHub-hosted runner, checking
+the URLs in this library and the previously blocked guide, climate, and GBIF links. It
+also records limited metadata from the four priority sources, without uploading their full
+contents. Download the `research-link-check` artifact for the access time, status,
+redirects, metadata, and errors; a failed check makes the job fail, but available reports
+are still uploaded. Run it from Actions or
+with `gh workflow run build-encyclopedia.yml --ref <branch>` once the change is available
+on that branch. The runner is an alternative network, not a guaranteed DNS bypass: DNS,
+HTTP, access-control, and runner failures still need investigation. A reachable URL does
+not verify its content, support a claim, or grant reuse rights. Review the original source
+and record claim-level evidence separately. On 2026-11-23 at 18:02 UTC the hosted check
+reached 67 of 89 candidate URLs, including all four priority URLs. Sixteen returned HTTP
+errors and six had network errors; these results do not prove a site is permanently broken.
+The [run and its artifact](https://github.com/smokydastona/gardening/actions/runs/45234001102)
+contain individual results, subject to GitHub's artifact retention. Notable failures
+included Kew HTTP 403, World Flora Online HTTP 503, a hostname mismatch on the supplied
+`www.climat.meteo.gc.ca` URL, and certificate-chain failures on `planthardiness.gc.ca`.
+The source metadata check found a 24-page pollinator PDF with no title or author in its PDF
+metadata, an ECCC 1981-2010 station-data page, and the Open Government Plant Hardiness
+Zones of Canada page. GBIF's match API returned `matchType: NONE` for "Arugula", not a
+taxonomic identification. These checks do not replace reading sources or resolving
+plant, climate, or rights questions. The Environment Canada
 [historical data search](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html)
 was indexed as a possible alternative to the `www.climat` URL below, but its live availability
 and any redirect from the original are unconfirmed.

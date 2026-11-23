@@ -362,7 +362,11 @@ def build_status_reports(
     )
     month_counts = Counter(row["month"] for row in entries)
     grouped = sum("/" in row["plant_text"] or "," in row["plant_text"] for row in entries)
-    unreviewed_source_claims = len(registry)
+    claim_rows = read_csv("claims/CLAIM_SOURCES.csv")
+    claimed_plant_ids = {
+        row["plant_id"] for row in claim_rows if row.get("plant_id", "").strip()
+    }
+    unreviewed_source_claims = len(registry) - len(claimed_plant_ids)
 
     verification_lines = [
         "# Plant verification report",

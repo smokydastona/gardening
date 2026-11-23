@@ -8,7 +8,8 @@ Claim-level source evidence, with separate rows for individual sources. Record t
 claim, source and access details, geographic applicability, confidence, review and status.
 Use notes to connect cross-checks and record agreement, conflicts, limitations and
 publication suitability. See [research library](RESEARCH_LIBRARY.md); a listed candidate
-source is not itself a verified claim.
+source is not itself a verified claim. Each row must align with the CSV header; the
+data-model validator rejects rows with missing or extra cells.
 
 ### `plant_registry.csv`
 

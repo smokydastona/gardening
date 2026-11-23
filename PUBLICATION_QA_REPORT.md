@@ -11,28 +11,33 @@ or editorial content are correct.
 | A — Source integrity | `PARTIAL` | Original supplied files retained; 137 plants and 359 calendar entries are count-checked. Calendar PDF authorship/history is unknown; transcription requires further comparison. |
 | B — Botanical accuracy | `FAILED` | 0 independently verified taxonomy records and 0 individually reviewed horticultural profiles. |
 | C — Local horticultural accuracy | `FAILED` | 8a/8b conflict unresolved; no independently sourced Errington frost normals or plant-specific local timings. |
-| D — Illustration integrity | `PARTIAL — unapproved artwork withheld` | 0 botanical illustrations and 0 educational figures are approved. The owner confirms rights to the 70 branch images; they and the generated candidates are excluded from all PDFs pending identity, anatomy, and independent botanical review. |
-| E — Editorial quality | `PARTIAL` | The core handbook now includes expanded climate-risk, microclimate, planning, botany, soil, bed-building, propagation, irrigation, and diagnostic instruction. Complete claim-level bibliography, plant-specific research, and editorial sign-off remain outstanding. |
-| F — Publication quality | `PARTIAL` | Current PDFs have 305, 25, 25, 138, and 37 pages. Only the encyclopedia cover image is embedded; all other PDFs contain no images. Display headings use Reenie Beanie; body text uses Times-Roman. Full-publication print review remains open. |
-| G — Software quality | `PARTIAL` | `build_all.py`, publication validation, and 49 tests pass locally. CI status is not claimed until a GitHub Actions run succeeds. |
+| D — Illustration integrity | `PARTIAL — unapproved artwork withheld` | 0 botanical illustrations and 0 educational figures are approved. The owner confirms rights to the 70 branch images; they and the generated candidates are excluded from all PDFs pending identity, anatomy, and independent botanical review. Figure concept descriptions are listed in the encyclopedia, not presented as reviewed diagrams. |
+| E — Editorial quality | `PARTIAL` | The core handbook includes expanded climate-risk, microclimate, planning, botany, soil, bed-building, propagation, irrigation, and diagnostic instruction. The plant index now cross-references exact calendar transcriptions and available claim research without treating them as recommendations. A complete claim-level bibliography, plant-specific research, and editorial sign-off remain outstanding. |
+| F — Publication quality | `PARTIAL` | Current PDFs have 195, 25, 25, 138, and 37 pages. Only the encyclopedia cover image is embedded; all other PDFs contain no images. Display headings use Reenie Beanie; body text uses Times-Roman. Full-publication print review remains open. |
+| G — Software quality | `PARTIAL` | `build_all.py`, publication validation, and 52 tests pass locally. CI status is not claimed until a GitHub Actions run succeeds. |
 
 ## Latest build and visual scan
 
-The regenerated products are `Errington_Gardening_Encyclopedia.pdf` (305 pages),
+The regenerated products are `Errington_Gardening_Encyclopedia.pdf` (195 pages),
 `Errington_Monthly_Gardening_Guide.pdf` (25 pages),
 `Errington_Illustrated_Plant_Directory.pdf` (25 pages),
 `Errington_Botanical_Illustration_Collection.pdf` (138 pages), and
 `Errington_Educational_Figure_Collection.pdf` (37 pages). The encyclopedia contains only its
 cover image; the other PDFs contain no images. All 137 plant plates and 36 educational
-figures remain unapproved concepts and are withheld. The botanical and educational review
-registers retain the text descriptions and identify where artwork is pending. The monthly
+figure images remain unapproved concepts and are withheld. The encyclopedia now includes
+plant-by-plant calendar cross-references, available claim research, and text descriptions
+of the educational figure concepts; none is represented as verified advice or reviewed
+artwork. The botanical and educational review registers retain the detailed descriptions
+and identify where artwork is pending. The monthly
 guide uses wrapping table cells and separates months; extracted-text checks confirm long
 calendar entries and the source-marked pea sowing action remain intact. The current rebuilt
 PDFs have not received a full visual scan; publication review remains open.
 
-The directory lists all 137 registry records without displaying unapproved artwork. The 137
-generated plant candidates, 36 generated figure concepts, and 70 historical branch images
-are withheld from all PDFs. No candidate or figure is represented as scientifically
+The encyclopedia's plant field index lists all 137 registry records, links each to matching
+calendar source rows and available claim research, and omits generic profile boilerplate.
+Grouped calendar records remain explicitly grouped; the index does not convert them into
+plant-specific recommendations. The 137 generated plant candidates, 36 generated figure images, and 70 historical branch
+images are withheld from all PDFs. No candidate or figure is represented as scientifically
 approved. The owner confirms rights to the branch assets, but each requires individual
 identity and anatomical review before publication. `reports/ILLUSTRATION_BRANCH_REVIEW.csv` records the
 visually plausible components and the specific structures to exclude or verify for each

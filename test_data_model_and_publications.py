@@ -2,6 +2,7 @@ import json
 import shutil
 from pathlib import Path
 
+import pytest
 from pypdf import PdfReader
 from PIL import Image
 
@@ -11,7 +12,7 @@ from build_publications import (
     build_figure_collection_pdf,
     build_monthly_pdf,
 )
-from data_model import validate_authoritative_registry
+from data_model import read_csv, validate_authoritative_registry
 from illustration_assets import ORGANS, keyify, sha256_file, sha256_json
 
 
@@ -20,6 +21,40 @@ def test_authoritative_registry_counts_and_claim_links() -> None:
     assert result["plant_records"] == 137
     assert result["calendar_entries"] == 359
     assert result["claim_records"] >= 1
+
+
+def test_claim_source_evidence_columns_are_aligned() -> None:
+    claims = read_csv(Path("claims/CLAIM_SOURCES.csv"))
+    kew_claim = next(claim for claim in claims if claim["claim_id"] == "arugula-identity-kew")
+
+    assert kew_claim["evidence_type"] == "taxonomic-authority"
+    assert kew_claim["geographic_applicability"] == "World; taxonomic authority"
+    assert kew_claim["confidence"] == "partially_verified"
+    assert kew_claim["status"] == "conflicting-evidence"
+    assert kew_claim["notes"].startswith("POWO record is external")
+
+
+def test_authoritative_registry_rejects_misaligned_claim_rows(tmp_path: Path) -> None:
+    (tmp_path / "plant_registry.csv").write_text(
+        "plant_id,display_name,category,latin_name,family\n"
+        "plant-arugula,Arugula,vegetable,,\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "errington_calendar_entries.csv").write_text(
+        "month,page_type,section,page_number,plant_text,plant_normalized,row_text\n"
+        "MARCH,edibles,VEGETABLES,1,Arugula,ARUGULA,Arugula source row\n",
+        encoding="utf-8",
+    )
+    claims_dir = tmp_path / "claims"
+    claims_dir.mkdir()
+    (claims_dir / "CLAIM_SOURCES.csv").write_text(
+        "claim_id,plant_id,claim_text,source_title,url,status\n"
+        "claim-1,plant-arugula,Test claim,Test source,https://example.test,unreviewed,extra\n",
+        encoding="utf-8",
+    )
+
+    with pytest.raises(ValueError, match="misaligned columns"):
+        validate_authoritative_registry(tmp_path)
 
 
 def test_three_publication_pdf_set(tmp_path: Path) -> None:

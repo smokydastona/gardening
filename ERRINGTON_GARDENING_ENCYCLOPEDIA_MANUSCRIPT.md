@@ -120,7 +120,7 @@ The source-reported April 15 and October 15 anchors are not guaranteed frost dat
 
 ## 5. Planning The Garden
 
-The local vegetable encyclopedia PDF is clear on one point that applies directly to Errington: a successful garden begins with a plan, not with impulse planting. The source argues that it is easier to revise beds, spacing, and planting order on paper than to correct mistakes after the ground is full.
+The supplied Reader's Digest gardening reference is a general source, not an Errington timing authority. Its planning chapter supports the broad principle that a garden plan is easier to revise on paper than after planting [G1; page not recorded].
 
 That principle fits the Errington calendars well. Because the local project includes indoor sowing, outdoor transplanting, direct sowing, bloom periods, and division windows, gardeners in Errington benefit from a written plan that includes more than crop names.
 
@@ -133,7 +133,7 @@ Every annual garden plan should define:
 5. Which items need supports, cages, or trellises.
 6. Which areas are reserved for perennials, bulbs, or long-term plantings.
 
-The PDF also emphasizes recordkeeping. That advice is worth adopting directly. A working garden ledger for Errington should include:
+The reference also discusses recordkeeping [G1; page not recorded]. A working garden ledger for Errington should include:
 
 1. Bed plans.
 2. Sowing dates.
@@ -169,7 +169,7 @@ Record the map, seed or plant source, sowing and transplant dates, weather notes
 
 ## 6. Soil Preparation And Bed Building
 
-The soil chapter in the PDF provides the right general backbone: soil must supply water, nutrients, gases, and stable support for roots. That principle transfers cleanly to the Errington project because every plant in the local scope depends on the same fundamentals even when exact timing differs.
+The soil chapter in the supplied Reader's Digest gardening reference provides general background on soil and root growth [G1; page not recorded]. It is not Errington-specific soil advice; local decisions should be based on site conditions and appropriate testing.
 
 For this manuscript, the practical soil-preparation rule is simple: do not assume the existing ground is ideal. Build productivity deliberately.
 
@@ -187,7 +187,7 @@ Recommended bed-building workflow:
 4. Keep annual production zones distinct from perennial ornamental zones where possible.
 5. Prepare support locations early for crops that climb, sprawl, or need staking.
 
-The PDF also reinforces a practical economic point: good tools and deliberate bed preparation save corrective labor later. For this encyclopedia, that means bed layout and soil improvement are part of the crop plan, not separate chores.
+The reference also discusses planning tools and bed preparation [G1; page not recorded]. For this encyclopedia, bed layout and soil improvement are part of the crop plan, not separate chores.
 
 ### Diagnose before amending
 
@@ -468,27 +468,27 @@ The ornamental chart also preserves management cues such as bloom tracking, dorm
 
 ## 13. Harvest, Storage, And Preservation
 
-The supplied Reader's Digest gardening reference provides a general preservation backbone for the edible side of the encyclopedia.
+The supplied Reader's Digest gardening reference provides general preservation background, not crop-specific or food-safety authority [G1; chapter/page not recorded].
 
 ### Storage
 
-The storage chapter in the PDF emphasizes a simple point: not every surplus has to be frozen, canned, or dried immediately. Some crops are best handled through short-term cold storage or other low-effort methods depending on the crop.
+The reference discusses short-term storage as one option alongside freezing, canning, and drying. Storage requirements differ by crop; consult a current crop-specific and food-safety source before storing produce [G1; page not recorded].
 
 ### Freezing
 
-The PDF presents freezing as one of the simplest preservation methods and stresses rotation: frozen food should be stored in a steady turnover system rather than forgotten at the back of a freezer. For an Errington household garden, that means freezing should be treated as a seasonal management tool, not just an emergency response to surplus.
+The reference presents freezing as a preservation method and recommends using stored food in rotation [G1; page not recorded]. Follow current food-safety guidance for preparation, packaging, freezing, and storage duration.
 
 ### Drying
 
-The drying chapter frames drying as cheap, space-efficient, and independent of electrical storage once the food is fully processed. The practical lesson is that drying works best when the gardener plans for it instead of trying to improvise during a harvest rush.
+The reference discusses drying as a way to preserve a harvest [G1; page not recorded]. Safe drying depends on the food, equipment, and process; follow a current tested recipe or food-safety source rather than relying on this summary.
 
 ### Sprouting
 
-The sprouting chapter extends the encyclopedia beyond outdoor beds. It shows that fresh edible growth can be produced indoors through a low-equipment system using jars, screens, and moisture management. That fits naturally into an Errington gardening year because it keeps food production active even when the outdoor garden is dormant or limited.
+The reference also discusses indoor sprouting [G1; page not recorded]. Sprouts can carry food-safety risks; use current public-health guidance for seed sourcing, sanitation, temperature, and handling.
 
 ### Herb Storage
 
-The herb-storage chapter supports treating culinary herbs as a year-round resource. Fresh use, drying, and freezing are all part of a complete herb system, and that approach should eventually be paired with the local herb list once those plants are directly verified from primary local sources.
+The reference discusses fresh use, drying, and freezing herbs [G1; page not recorded]. Match storage methods to the herb and follow current food-safety advice where applicable.
 
 ## 14. Operational Guidance For The Final Edition
 
@@ -537,6 +537,7 @@ The current source set supports a clear operating model for the final book.
 [S1] Government of British Columbia, “Soil Nutrient Management,” including the “Management” section, https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/agricultural-land-and-environment/soil-nutrients/management. Provincial guidance; not a soil test or property-specific recommendation.
 [S2] Oregon State University Extension Service, *Raised Bed Gardening*, FS 270, https://extension.oregonstate.edu/catalog/fs-270-raised-bed-gardening. General bed-design guidance; regional recommendations must be adapted to the site.
 [S3] Oregon State University Extension Service, *Growing Vegetables in the Pacific Northwest Coastal Region*, EM 9695, https://extension.oregonstate.edu/catalog/em-9695-growing-vegetables-pacific-northwest-coastal-region. Coastal-region general guidance; not a local Errington calendar.
+[G1] Supplied Reader's Digest gardening reference, `Vegetable_Gardening_Encyclopedia_With_Sp.pdf`. The full title, edition, and page-level citations have not been established in this repository; summaries attributed to it require checking against the PDF before publication. It is not an Errington timing or food-safety authority.
 
 The Internet Archive references listed in the editorial standard are source works, not text to be copied into this encyclopedia. Plant-level taxonomy, morphology, care, and timing still require traceable, plant-specific citations. A blank or unmatched registry field remains unverified rather than being filled by guesswork.
 

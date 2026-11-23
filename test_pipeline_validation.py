@@ -18,6 +18,9 @@ from pathlib import Path
 def write_source_hashes(base_dir):
     lines = []
     for filename in HASHED_SOURCE_FILES:
+        (base_dir / filename).parent.mkdir(parents=True, exist_ok=True)
+        if not (base_dir / filename).is_file():
+            (base_dir / filename).write_bytes(b"source")
         digest = hashlib.sha256((base_dir / filename).read_bytes()).hexdigest()
         lines.append(f"{digest}  {filename}")
     (base_dir / "SOURCE_SHA256SUMS.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -136,6 +139,7 @@ def test_source_count_guard_detects_record_loss(tmp_path) -> None:
     for name in REQUIRED_INPUTS:
         if name.endswith(".pdf"):
             continue
+        (tmp_path / name).parent.mkdir(parents=True, exist_ok=True)
         (tmp_path / name).write_bytes(b"source")
     writer = PdfWriter()
     for _ in range(5):
@@ -167,6 +171,7 @@ def test_source_validation_rejects_bad_calendar_month(tmp_path) -> None:
     for name in REQUIRED_INPUTS:
         if name.endswith(".pdf"):
             continue
+        (tmp_path / name).parent.mkdir(parents=True, exist_ok=True)
         (tmp_path / name).write_bytes(b"source")
     writer = PdfWriter()
     for _ in range(5):
@@ -189,6 +194,7 @@ def test_source_validation_rejects_bad_calendar_month(tmp_path) -> None:
 
 def test_source_hash_guard_detects_changed_original(tmp_path) -> None:
     for filename in HASHED_SOURCE_FILES:
+        (tmp_path / filename).parent.mkdir(parents=True, exist_ok=True)
         (tmp_path / filename).write_bytes(filename.encode("utf-8"))
     write_source_hashes(tmp_path)
 

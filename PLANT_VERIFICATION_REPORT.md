@@ -9,7 +9,7 @@
 | Records already flagged for species or cultivar resolution | 15 |
 | Individually reviewed horticultural profiles | 0 |
 | Locally reviewed planting timings | 0 |
-| Records without claim-level source citations | 137 |
+| Records without claim-level source citations | 136 |
 | Approved illustrations | 0 |
 
 Taxonomy values already present in `plant_registry.csv` are retained as recorded data, but `bulk-taxonomy-populated` is not verification. The register keeps taxonomy, cultivar, profile, timing, and illustration states independent. Existing botanical names and families require authoritative, claim-specific citations before they can be labeled verified.

@@ -110,3 +110,39 @@ def test_worked_examples_keep_fields_semantically_correct_and_have_troubleshooti
     assert "procedure" in first.lower()
     assert "Use 12 in on-center spacing" not in text
     assert "repeat after 14 days" not in text
+
+
+def test_supplement_cross_references_calendar_without_presenting_boilerplate_as_advice(
+    tmp_path, monkeypatch
+) -> None:
+    monkeypatch.setattr(produce_publication_assets, "BASE", tmp_path)
+    (tmp_path / "claims").mkdir()
+    (tmp_path / "plant_registry.csv").write_text(
+        "plant_id,category,display_name,source_name,normalized_name,latin_name,family,life_cycle\n"
+        "plant-arugula,vegetable,Arugula,Arugula,Arugula,Eruca vesicaria subsp. sativa,"
+        "Brassicaceae,Annual\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "errington_calendar_entries.csv").write_text(
+        "month,page_number,plant_text,plant_normalized,row_text\n"
+        "MARCH,18,Radish / Arugula / Mache,RADISH_ARUGULA_MACHE,"
+        "Radish / Arugula / Mache — Wk 3-4 direct sow\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "claims" / "CLAIM_SOURCES.csv").write_text(
+        "plant_id,claim_text,source_title,organization,url,geographic_applicability,status,notes\n"
+        "plant-arugula,Two taxonomies conflict,Plants of the World Online,Kew,"
+        "https://example.test,World,conflicting-evidence,Needs human review\n",
+        encoding="utf-8",
+    )
+
+    supplement = produce_publication_assets.produce_supplement([], [])
+    text = supplement.read_text(encoding="utf-8")
+
+    assert "**Botanical name as recorded (unverified):**" in text
+    assert "MARCH, source p. 18" in text
+    assert "grouped source entry; individual timing is unresolved" in text
+    assert "conflicting-evidence" in text
+    assert "Growth habit should be resolved" not in text
+    assert "Well-drained, fertile soil" not in text
+    assert "Artwork withheld" not in text

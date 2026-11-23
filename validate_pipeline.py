@@ -47,6 +47,7 @@ HASHED_SOURCE_FILES = (
     "plant_registry.csv",
     "errington_calendar_entries.csv",
     "ERRINGTON_CALENDAR_FULL_TEXT.md",
+    "claims/CLAIM_SOURCES.csv",
 )
 
 RELEASE_PDFS = (

@@ -71,6 +71,16 @@ def validate_authoritative_registry(base_dir: Path) -> dict[str, int]:
     missing_claim = claim_required - set(claims[0])
     if missing_claim:
         raise ValueError("CLAIM_SOURCES.csv missing columns: " + ", ".join(sorted(missing_claim)))
+    malformed_claims = [
+        row.get("claim_id") or f"row {index}"
+        for index, row in enumerate(claims, start=2)
+        if None in row or any(value is None for value in row.values())
+    ]
+    if malformed_claims:
+        raise ValueError(
+            "CLAIM_SOURCES.csv has rows with misaligned columns: "
+            + ", ".join(malformed_claims)
+        )
     known_ids = set(ids)
     orphan_claims = sorted({row["plant_id"] for row in claims if row["plant_id"] not in known_ids})
     if orphan_claims:

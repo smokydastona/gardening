@@ -95,7 +95,7 @@ def test_unapproved_markdown_artwork_is_withheld_from_encyclopedia(tmp_path: Pat
         path = tmp_path / file_name
         path.parent.mkdir(parents=True, exist_ok=True)
         content = f"# {title}\n\nText.\n"
-        if title == "Complete Supplement":
+        if title == "Plant Field Index and Learning Aids":
             content += "\n**Concept plate:** ![Concept plate](artwork.png)\n"
         path.write_text(content, encoding="utf-8")
     Image.new("RGB", (200, 300), "#f6f0e2").save(tmp_path / "cover.png")
@@ -118,7 +118,7 @@ def test_missing_markdown_artwork_fails_pdf_build(tmp_path: Path) -> None:
         path = tmp_path / file_name
         path.parent.mkdir(parents=True, exist_ok=True)
         content = f"# {title}\n\nText.\n"
-        if title == "Complete Supplement":
+        if title == "Plant Field Index and Learning Aids":
             content += "\n![Missing plate](missing.png)\n"
         path.write_text(content, encoding="utf-8")
     Image.new("RGB", (200, 300), "#f6f0e2").save(tmp_path / "cover.png")

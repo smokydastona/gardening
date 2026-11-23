@@ -17,18 +17,20 @@ review are still incomplete.
 | Core handbook | Expanded foundations on climate risk, microclimates, planning, soil, raised beds, seed starting, watering, and plant-health diagnosis; plant-specific research remains pending |
 | Illustrations | 0 approved; owner-confirmed 70-image branch set includes exact duplicates and visibly mismatched labels; taxonomic and anatomical review remains pending |
 | PDF pipeline | One reproducible build command generates the working encyclopedia, monthly guide, plant directory, and two illustration review registers; only approved plant artwork is embedded |
-| Generated supplement | 137 plant concept plates, 36 educational figure concepts, and 18 worked examples are retained as working assets; all unapproved artwork is withheld from PDFs |
+| Encyclopedia field index | 137 plant records are cross-referenced to verbatim calendar mentions and available claim research; taxonomy and timing remain explicitly unverified |
+| Learning aids | 18 practical worked examples and 36 figure concepts are included in the encyclopedia; unreviewed figure artwork is withheld |
 | Publication approval | `IN_PROGRESS`; see [publication QA](PUBLICATION_QA_REPORT.md) |
 
 ## Key deliverables
 
 - [Working encyclopedia PDF](Errington_Gardening_Encyclopedia.pdf)
+- The single encyclopedia volume brings together the gardener-facing handbook, all 12 months of calendar transcriptions, the 137-plant index with calendar source cross-references, available claim research, and practical examples. Technical build files, audit records, raw evidence, and unapproved artwork remain separate so they are not mistaken for gardening advice.
 - The current encyclopedia includes its cover image only. All 137 plant concept plates and 36 educational figure concepts are withheld from PDFs until independently reviewed and approved.
 - Errington Monthly Gardening Guide PDF
 - Errington Illustrated Plant Directory PDF
 - [Errington Botanical Illustration Collection PDF](Errington_Botanical_Illustration_Collection.pdf)
 - [Errington Educational Figure Collection PDF](Errington_Educational_Figure_Collection.pdf)
-- [Complete plant, figure, and worked-example supplement](ERRINGTON_COMPLETE_SUPPLEMENT.md)
+- [Plant field index, figure concepts, and worked examples](ERRINGTON_COMPLETE_SUPPLEMENT.md)
 - [Editorial manuscript](ERRINGTON_GARDENING_ENCYCLOPEDIA_MANUSCRIPT.md)
 - [Monthly source calendar](ERRINGTON_MONTHLY_REFERENCE.md)
 - [Plant registry index](ERRINGTON_PLANT_CATALOG.md)
@@ -42,10 +44,13 @@ review are still incomplete.
 - [Source policy](docs/SOURCE_POLICY.md) and [data dictionary](docs/DATA_DICTIONARY.md)
 - [Research and verification library](docs/RESEARCH_LIBRARY.md)
 
-The plant directory lists all 137 stable-ID records without displaying unapproved candidate
-art. Generated candidates remain in the working source assets for review, but are not
-embedded in any PDF. Approved plant assets remain separate from candidates, and branch
-artwork is never embedded until identity, anatomy and independent human review are complete.
+The encyclopedia's plant field index preserves recorded names, exact matched calendar
+transcriptions, and available claim-level research while retaining verification status.
+Grouped calendar rows remain visibly grouped and are not converted into plant-specific
+recommendations. Generated candidates remain in the working source assets for review, but
+unapproved artwork is not embedded in the encyclopedia. Approved assets remain separate
+from candidates, and branch artwork is never embedded until identity, anatomy, rights, and
+independent human review are complete.
 
 ## Repository map
 

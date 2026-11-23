@@ -13,6 +13,41 @@ permissions:
   contents: read
 
 jobs:
+  research-links:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PDF metadata reader
+        run: python -m pip install pypdf==6.14.2
+
+      - name: Check candidate research links
+        run: python3 check_research_links.py
+
+      - name: Inspect priority source metadata
+        if: ${{ !cancelled() }}
+        run: python3 inspect_research_sources.py
+
+      - name: Upload link check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-link-check
+          if-no-files-found: error
+          path: |
+            build/research-link-check.json
+            build/research-source-metadata.json
+
   build:
     runs-on: ubuntu-latest
 
