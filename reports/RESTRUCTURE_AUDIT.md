@@ -5,7 +5,7 @@
 - Merge base: `e39f16b7b05426e3d2c3731ee8843fead7f27b26`.
 - Main-only commits since merge base: 38; illustration-branch-only commits: 9.
 - Available tags: 0 (`none`).
-- Pull request audit: PR #1 is the only repository PR found; it is merged into `main`.
+- Pull request audit: PR #1 was the only pre-existing pull request found; it is merged into `main`.
 - Main tree: 559 tracked files; illustration branch tree: 122 tracked files.
 - Historical plant-image branch: 70 image files, 68 distinct SHA-256 payloads.
 - The inventory includes inferred tracked directories, Git blob IDs, file sizes, SHA-256 hashes, duplicate-path candidates, and last modification dates visible in the locally fetched Git history. It excludes untracked files and ignored environments/build outputs.

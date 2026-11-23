@@ -403,7 +403,7 @@ def _write_audit(refs: list[str], trees: dict[str, dict[str, dict[str, str]]]) -
         f"- Merge base: `{merge_base}`.",
         f"- Main-only commits since merge base: {left}; illustration-branch-only commits: {right}.",
         f"- Available tags: {len(tags)} (`{', '.join(tags) if tags else 'none'}`).",
-        "- Pull request audit: PR #1 is the only repository PR found; it is merged into `main`.",
+        "- Pull request audit: PR #1 was the only pre-existing pull request found; it is merged into `main`.",
         f"- Main tree: {len(trees[MAIN_REF])} tracked files; illustration branch tree: "
         f"{len(branch_tree)} tracked files.",
         f"- Historical plant-image branch: {len(plant_images)} image files, "
