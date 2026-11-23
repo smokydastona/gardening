@@ -527,7 +527,9 @@ def add_markdown_lines(
     doc_width: float,
     base_dir: Path,
 ) -> None:
-    def markdown_image(node: dict) -> tuple[RLImage, str]:
+    approved_illustration_paths = {path.resolve() for path in plant_illustrations.values()}
+
+    def markdown_image(node: dict) -> tuple[RLImage | None, str]:
         image_url = node.get("attrs", {}).get("url", "")
         image_parts = urlsplit(image_url)
         if image_parts.scheme or image_parts.netloc:
@@ -537,6 +539,8 @@ def add_markdown_lines(
             raise ValueError(f"Markdown image path escapes the publication root: {image_url}")
         if not image_path.is_file():
             raise FileNotFoundError(f"Markdown image is missing: {image_path}")
+        if image_path not in approved_illustration_paths:
+            return None, inline(node.get("children", []))
         if "educational_figures" in image_path.parts:
             max_width, max_height = doc_width * 0.9, 3.5 * inch
         else:
@@ -588,8 +592,16 @@ def add_markdown_lines(
             text_nodes = []
             image, alt_text = markdown_image(node)
             story.append(Spacer(1, 0.04 * inch))
-            story.append(image)
-            if alt_text.strip():
+            if image is None:
+                story.append(
+                    Paragraph(
+                        "Artwork withheld pending independent botanical and rights review.",
+                        styles["Caption"],
+                    )
+                )
+            else:
+                story.append(image)
+            if image is not None and alt_text.strip():
                 story.append(Paragraph(paragraph_text(alt_text), styles["Caption"]))
             story.append(Spacer(1, 0.06 * inch))
         if text_nodes and inline(text_nodes).strip():

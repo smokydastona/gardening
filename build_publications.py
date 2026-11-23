@@ -44,18 +44,6 @@ def clean_source_pictograms(text: str) -> str:
     return " ".join(text.split())
 
 
-def load_candidate_manifest(base_dir: Path) -> dict[str, Path]:
-    manifest = base_dir / "plant_illustrations" / "concept_candidates" / "candidate_manifest.csv"
-    if not manifest.is_file():
-        return {}
-    candidates: dict[str, Path] = {}
-    for row in read_csv(manifest):
-        path = manifest.parent / row["filename"]
-        if path.is_file():
-            candidates[row["plant_id"]] = path
-    return candidates
-
-
 def build_monthly_pdf(base_dir: Path) -> Path:
     entries = read_csv(base_dir / "errington_calendar_entries.csv")
     actions = read_csv(base_dir / "calendar_actions.csv")
@@ -161,12 +149,11 @@ def build_directory_pdf(base_dir: Path) -> Path:
     registry = read_csv(base_dir / "plant_registry.csv")
     verifications = {row["plant_id"]: row for row in read_csv(base_dir / "plant_verification_register.csv")}
     illustrations = load_plant_illustrations(base_dir)
-    candidates = load_candidate_manifest(base_dir)
     output = base_dir / "Errington_Illustrated_Plant_Directory.pdf"
     title = (
         "Errington Illustrated Plant Directory"
         if illustrations
-        else "Errington Plant Directory — Concept Candidates"
+        else "Errington Plant Directory — Verified Illustrations Pending"
     )
     styles = publication_styles()
     doc = SimpleDocTemplate(str(output), pagesize=letter, title=title,
@@ -176,8 +163,8 @@ def build_directory_pdf(base_dir: Path) -> Path:
     story = [Paragraph(title, styles["Title"]),
              Paragraph(
                  f"{len(illustrations)} of {len(registry)} records have approved illustrations. "
-                 f"{len(candidates)} of {len(registry)} records have generated concept candidates. "
-                 "Botanical names and profiles remain unverified unless noted.",
+                 "Unapproved concept art is withheld. Botanical names and profiles remain "
+                 "unverified unless noted.",
                  styles["Normal"],
              ),
              Spacer(1, 12)]
@@ -193,24 +180,22 @@ def build_directory_pdf(base_dir: Path) -> Path:
             f"Illustration: {verification.get('illustration_status','pending-review')}",
             styles["BodyText"]))
         illustration = illustrations.get(plant_id)
-        candidate = candidates.get(plant_id)
-        displayed = illustration or candidate
-        if displayed:
-            reader = ImageReader(str(displayed))
+        if illustration:
+            reader = ImageReader(str(illustration))
             image_width, image_height = reader.getSize()
             scale = min(2.4 * inch / image_width, 3.6 * inch / image_height)
             image = Image(
-                str(displayed),
+                str(illustration),
                 width=image_width * scale,
                 height=image_height * scale,
             )
             image.hAlign = "CENTER"
             story.extend([Spacer(1, 6), image])
-            if candidate and not illustration:
-                story.append(Paragraph(
-                    "Concept candidate — not botanically approved",
-                    styles["Normal"],
-                ))
+        else:
+            story.append(Paragraph(
+                "No illustration included; awaiting independent botanical and rights review.",
+                styles["Normal"],
+            ))
         story.append(Spacer(1, 6))
     doc.build(story)
     return output
@@ -218,22 +203,21 @@ def build_directory_pdf(base_dir: Path) -> Path:
 
 def build_botanical_collection_pdf(base_dir: Path) -> Path:
     registry = read_csv(base_dir / "plant_registry.csv")
-    candidates = load_candidate_manifest(base_dir)
+    illustrations = load_plant_illustrations(base_dir)
     output = base_dir / "Errington_Botanical_Illustration_Collection.pdf"
     styles = publication_styles()
     doc = SimpleDocTemplate(
         str(output),
         pagesize=letter,
-        title="Errington Botanical Illustration Collection",
+        title="Errington Botanical Illustration Review Register",
         author="Errington Gardening Encyclopedia Editorial Project",
-        subject="137 concept candidates; no image is approved for botanical publication",
+        subject=f"{len(illustrations)} approved illustrations; unapproved artwork is withheld",
     )
     story = [
-        Paragraph("Errington Botanical Illustration Collection", styles["Title"]),
+        Paragraph("Errington Botanical Illustration Review Register", styles["Title"]),
         Paragraph(
-            f"{len(candidates)} concept candidates for {len(registry)} registry records. "
-            "Every plate is explicitly unapproved and may require species identity, anatomy "
-            "and rights review. Concept silhouettes are not botanical evidence.",
+            f"{len(illustrations)} approved illustrations for {len(registry)} registry records. "
+            "Unapproved generated or branch artwork is withheld from this publication.",
             styles["Normal"],
         ),
     ]
@@ -248,18 +232,20 @@ def build_botanical_collection_pdf(base_dir: Path) -> Path:
                 styles["Normal"],
             ),
         ])
-        candidate = candidates.get(row["plant_id"])
-        if candidate:
-            reader = ImageReader(str(candidate))
+        illustration = illustrations.get(row["plant_id"])
+        if illustration:
+            reader = ImageReader(str(illustration))
             iw, ih = reader.getSize()
             scale = min(5.5 * inch / iw, 7.0 * inch / ih)
-            image = Image(str(candidate), width=iw * scale, height=ih * scale)
+            image = Image(str(illustration), width=iw * scale, height=ih * scale)
             image.hAlign = "CENTER"
             story.extend([Spacer(1, 8), image])
-        story.append(Paragraph(
-            "CONCEPT CANDIDATE - NOT BOTANICALLY APPROVED",
-            styles["Normal"],
-        ))
+            story.append(Paragraph("Approved botanical illustration.", styles["Normal"]))
+        else:
+            story.append(Paragraph(
+                "No illustration included; awaiting independent botanical and rights review.",
+                styles["Normal"],
+            ))
     doc.build(story)
     return output
 
@@ -285,22 +271,18 @@ def build_figure_collection_pdf(base_dir: Path) -> Path:
         ),
     ]
     for row in figures:
-        path = base_dir / "educational_figures" / row["filename"]
         story.extend([
             PageBreak(),
             Paragraph(row["title"], styles["Heading1"]),
             Paragraph(row["caption"], styles["Normal"]),
         ])
-        if path.is_file():
-            reader = ImageReader(str(path))
-            iw, ih = reader.getSize()
-            scale = min(7.1 * inch / iw, 7.5 * inch / ih)
-            image = Image(str(path), width=iw * scale, height=ih * scale)
-            image.hAlign = "CENTER"
-            story.extend([Spacer(1, 8), image])
         story.extend([
             Paragraph(f"Accessibility text: {row['accessibility_text']}", styles["Normal"]),
-            Paragraph(f"Figure ID: {row['figure_id']}; {row['approval_status']}", styles["Normal"]),
+            Paragraph(
+                f"Figure ID: {row['figure_id']}; {row['approval_status']}. "
+                "Artwork withheld pending source verification and expert review.",
+                styles["Normal"],
+            ),
         ])
     doc.build(story)
     return output

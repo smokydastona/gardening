@@ -40,8 +40,9 @@ def test_three_publication_pdf_set(tmp_path: Path) -> None:
     assert "Direct sowing" in monthly_text
     reader = PdfReader(str(directory))
     assert reader.pages
-    assert reader.metadata["/Title"] == "Errington Plant Directory — Concept Candidates"
-    assert "0 of 137 records have approved illustrations" in reader.pages[0].extract_text()
+    assert reader.metadata["/Title"] == "Errington Plant Directory — Verified Illustrations Pending"
+    assert "Unapproved concept art is withheld" in reader.pages[0].extract_text()
+    assert sum(len(page.images) for page in reader.pages) == 0
 
 
 def test_approved_illustration_is_embedded_in_directory(tmp_path: Path) -> None:
@@ -110,3 +111,5 @@ def test_generated_collection_pdfs_exist(tmp_path: Path) -> None:
     figures = build_figure_collection_pdf(tmp_path)
     assert len(PdfReader(str(botanical)).pages) >= 138
     assert len(PdfReader(str(figures)).pages) == 37
+    assert sum(len(page.images) for page in PdfReader(str(botanical)).pages) == 0
+    assert sum(len(page.images) for page in PdfReader(str(figures)).pages) == 0

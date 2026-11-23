@@ -16,14 +16,14 @@ review are still incomplete.
 | Frost anchors | April 15 and October 15 are approximate source values, not guaranteed dates |
 | Core handbook | Expanded foundations on climate risk, microclimates, planning, soil, raised beds, seed starting, watering, and plant-health diagnosis; plant-specific research remains pending |
 | Illustrations | 0 approved; 70 image files on the separate `illustration-assets` branch passed PNG/dimension checks but contain duplicate content and visibly misattributed labels; identity/license review remains pending |
-| PDF pipeline | One reproducible build command generates the working encyclopedia, monthly guide, plant directory, and two illustration collections; the encyclopedia includes clearly unapproved concept artwork |
-| Generated supplement | 137 concept plant plates, 36 educational figures, and 18 worked examples are included; all concept art remains explicitly unapproved |
+| PDF pipeline | One reproducible build command generates the working encyclopedia, monthly guide, plant directory, and two illustration review registers; only approved plant artwork is embedded |
+| Generated supplement | 137 plant concept plates, 36 educational figure concepts, and 18 worked examples are retained as working assets; all unapproved artwork is withheld from PDFs |
 | Publication approval | `IN_PROGRESS`; see [publication QA](PUBLICATION_QA_REPORT.md) |
 
 ## Key deliverables
 
 - [Working encyclopedia PDF](Errington_Gardening_Encyclopedia.pdf)
-- The current encyclopedia build is 431 pages and embeds 174 images (cover, 137 plant concept plates, and 36 educational figure concepts). None of the generated concept artwork is botanically approved.
+- The current encyclopedia includes its cover image only. All 137 plant concept plates and 36 educational figure concepts are withheld from PDFs until independently reviewed and approved.
 - Errington Monthly Gardening Guide PDF
 - Errington Illustrated Plant Directory PDF
 - [Errington Botanical Illustration Collection PDF](Errington_Botanical_Illustration_Collection.pdf)
@@ -41,11 +41,10 @@ review are still incomplete.
 - [Source policy](docs/SOURCE_POLICY.md) and [data dictionary](docs/DATA_DICTIONARY.md)
 - [Research and verification library](docs/RESEARCH_LIBRARY.md)
 
-The plant-directory PDF includes all 137 stable-ID concept candidates with an explicit
-unapproved status. The encyclopedia also embeds these candidate plates and the 36 concept
-figures; they are illustrative placeholders, not species-accurate botanical plates or
-technically reviewed diagrams. Approved assets remain separate from candidates, and branch
-assets are never embedded until identity, license, anatomy and human review are complete.
+The plant directory lists all 137 stable-ID records without displaying unapproved candidate
+art. Generated candidates remain in the working source assets for review, but are not
+embedded in any PDF. Approved plant assets remain separate from candidates, and branch
+artwork is never embedded until identity, anatomy, licensing and human review are complete.
 
 ## Repository map
 

@@ -90,7 +90,7 @@ def test_illustration_loader_ignores_unapproved_and_fails_for_missing_approved(t
         load_plant_illustrations(tmp_path)
 
 
-def test_markdown_artwork_is_embedded_in_encyclopedia(tmp_path: Path) -> None:
+def test_unapproved_markdown_artwork_is_withheld_from_encyclopedia(tmp_path: Path) -> None:
     for title, file_name, _deck in SOURCE_FILES:
         path = tmp_path / file_name
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -107,8 +107,10 @@ def test_markdown_artwork_is_embedded_in_encyclopedia(tmp_path: Path) -> None:
 
     output = build_pdf(tmp_path)
     reader = PdfReader(str(output))
+    extracted = "\n".join(page.extract_text() or "" for page in reader.pages)
 
-    assert sum(len(page.images) for page in reader.pages) >= 2
+    assert sum(len(page.images) for page in reader.pages) == 1
+    assert "Artwork withheld pending independent botanical and rights review." in extracted
 
 
 def test_missing_markdown_artwork_fails_pdf_build(tmp_path: Path) -> None:
