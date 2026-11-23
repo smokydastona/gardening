@@ -46,9 +46,13 @@ build can establish botanical accuracy, image rights, or independent approval.
 unified interface over the tested legacy pipeline scripts. Stable plant registry validation,
 source and publication validation, calendar parsing and OCR, registry normalization,
 illustration eligibility, manuscript assembly, publication PDF builders, and project
-reports are package modules. Root scripts for migrated modules are compatibility wrappers;
-the full build orchestrator, release-status generator, research-link tools, PDF page-image
-QA renderer, and illustration generation workflow remain to be migrated.
+reports are package modules. The verification engine emits deterministic, machine-readable
+status by independent dimension for each plant and for project-level publication/source
+gates. It intentionally reports unsupported and unresolved states without treating populated
+fields, reachable links, successful builds, or generated artwork as approval. Root scripts
+for migrated modules are compatibility wrappers; the full build orchestrator, release-status
+generator, research-link tools, PDF page-image QA renderer, and illustration generation
+workflow remain to be migrated.
 
 The CLI must fail with a non-zero status when a delegated command fails. It invokes
 subprocesses without a shell. Review and audit commands report pending records but never

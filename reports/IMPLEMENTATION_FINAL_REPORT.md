@@ -1,4 +1,10 @@
-# Errington Gardening Encyclopedia — Implementation Final Report
+# Errington Gardening Encyclopedia — Historical Implementation Report
+
+> **Historical snapshot:** This report describes the 2026-11-22 implementation state.
+> Its former counts of 52 tests and 195 encyclopedia pages are superseded. The current
+> local baseline is 78 passing tests and a structurally validated 219-page encyclopedia;
+> see `reports/IMPLEMENTATION_REGISTER.md`, `reports/CURRENT_RELEASE_STATUS.md`, and
+> `reports/VERIFICATION_AUDIT.json`. The project remains **not ready for publication**.
 
 **Report date:** 2026-11-22
 **Final repository branch:** `main`

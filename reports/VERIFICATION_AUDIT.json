@@ -1,0 +1,2782 @@
+{
+  "calendar": {
+    "all_entries_require_source_comparison": true,
+    "status_counts": {
+      "RESEARCH_REQUIRED": 359
+    }
+  },
+  "claim_sources": {
+    "records": [
+      {
+        "access_date": "",
+        "author": "",
+        "claim_id": "arugula-identity-kew",
+        "contradicts_claim_ids": "arugula-identity-wfo",
+        "evidence_quality": "unassessed",
+        "evidence_type": "taxonomic-authority",
+        "has_evidence_extract": false,
+        "has_source_location": false,
+        "independent_source_group": "",
+        "notes": "POWO record is external and should be reconciled against the WFO/registry name rather than silently selecting a name.",
+        "organization": "Royal Botanic Gardens Kew",
+        "page_or_section": "",
+        "plant_id": "plant-arugula",
+        "publication_date": "",
+        "review_date": "",
+        "reviewer": "",
+        "source_id": "urn:lsid:ipni.org:names:2798761-4",
+        "source_sha256": "",
+        "source_title": "Plants of the World Online",
+        "source_version": "",
+        "status": "CONFLICTING_EVIDENCE",
+        "supporting_passage": "",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:2798761-4"
+      },
+      {
+        "access_date": "2026-11-22",
+        "author": "",
+        "claim_id": "arugula-identity-wfo",
+        "contradicts_claim_ids": "arugula-identity-kew",
+        "evidence_quality": "unassessed",
+        "evidence_type": "taxonomic-authority",
+        "has_evidence_extract": false,
+        "has_source_location": false,
+        "independent_source_group": "",
+        "notes": "The two authorities use different taxonomic concepts. A human botanical reviewer must select the publication name.",
+        "organization": "World Flora Online",
+        "page_or_section": "",
+        "plant_id": "plant-arugula",
+        "publication_date": "2025-12-17",
+        "review_date": "",
+        "reviewer": "",
+        "source_id": "wfo-0000677418",
+        "source_sha256": "",
+        "source_title": "World Flora Online",
+        "source_version": "",
+        "status": "CONFLICTING_EVIDENCE",
+        "supporting_passage": "",
+        "url": "https://www.worldfloraonline.org/taxon/wfo-0000677418"
+      }
+    ],
+    "records_with_supporting_location_or_extract": 0,
+    "status_counts": {
+      "CONFLICTING_EVIDENCE": 2
+    }
+  },
+  "findings": [
+    {
+      "code": "CONFLICTING_CLAIM_EVIDENCE",
+      "dimension": "taxonomy",
+      "entity_id": "arugula-identity-kew",
+      "message": "Conflicting evidence is retained and requires botanical review.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "CONFLICTING_CLAIM_EVIDENCE",
+      "dimension": "taxonomy",
+      "entity_id": "arugula-identity-wfo",
+      "message": "Conflicting evidence is retained and requires botanical review.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "EDUCATIONAL_FIGURES_UNAPPROVED",
+      "dimension": "educational_figure_accuracy",
+      "entity_id": "",
+      "message": "36 educational figures lack approval.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "FIGURE_SOURCE_REFERENCES_MISSING",
+      "dimension": "educational_figure_accuracy",
+      "entity_id": "",
+      "message": "36 educational figures have no recorded source references.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "MISSING_CLAIM_SUPPORT",
+      "dimension": "",
+      "entity_id": "arugula-identity-kew",
+      "message": "Claim has no source location or evidence extract.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "MISSING_CLAIM_SUPPORT",
+      "dimension": "",
+      "entity_id": "arugula-identity-wfo",
+      "message": "Claim has no source location or evidence extract.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "PLANT_ILLUSTRATIONS_UNAPPROVED",
+      "dimension": "illustration_identity",
+      "entity_id": "",
+      "message": "137 registry plants lack approved artwork.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "SOURCE_INDEPENDENCE_UNASSESSED",
+      "dimension": "source_provenance",
+      "entity_id": "arugula-identity-kew",
+      "message": "Independence from other sources has not been assessed.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "SOURCE_INDEPENDENCE_UNASSESSED",
+      "dimension": "source_provenance",
+      "entity_id": "arugula-identity-wfo",
+      "message": "Independence from other sources has not been assessed.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "SOURCE_SNAPSHOT_MISSING",
+      "dimension": "source_provenance",
+      "entity_id": "arugula-identity-kew",
+      "message": "Source version and content hash have not been captured.",
+      "severity": "BLOCKER"
+    },
+    {
+      "code": "SOURCE_SNAPSHOT_MISSING",
+      "dimension": "source_provenance",
+      "entity_id": "arugula-identity-wfo",
+      "message": "Source version and content hash have not been captured.",
+      "severity": "BLOCKER"
+    }
+  ],
+  "inputs_sha256": {
+    "Errington_Botanical_Illustration_Collection.pdf": "5b144f8db35e1935fd7f98898a74bfc62a23ad0c9c94dfb4cbc54d8a6a86997c",
+    "Errington_Educational_Figure_Collection.pdf": "4451ba20a3672c34a916f13169f8ea1cf95de9025fda37432cbcf5883f078dbd",
+    "Errington_Gardening_Encyclopedia.pdf": "26535b1e2b777e391cbcc9fd0b3481e987e71b494ed0e94e84ab6df56bc7eb68",
+    "Errington_Illustrated_Plant_Directory.pdf": "d9ed8a1e31f756f3afd4475ac330ef326ad8aae48f5c70c64600c64e75937373",
+    "Errington_Monthly_Gardening_Guide.pdf": "f520b9cd564e1bcad122629902421e5649da7609f4951d86294112ac601fa018",
+    "SOURCE_SHA256SUMS.txt": "89ef4a6f090158a53939801eeef52e345145e5bd3be92cfb57e72106c695aa46",
+    "calendar_actions.csv": "dcbda05d8f36a382638bee5cd3fc1bbeea5d1864cea2e36c834ed4bdf6321789",
+    "claims/CLAIM_SOURCES.csv": "084cdd362044b8cf6f7a0e9aeb97c3b0d1d4bb963bc98c515ac5c4f973c33070",
+    "educational_figures/figure_manifest.csv": "fe8937120b7baeb64c28d29afede1a1f327cf370de41ceae67124363c95c91f2",
+    "errington_calendar_entries.csv": "27088264f5f16905a164fdb14495bfe37134d57ce139b0f3bf09eadf6a5aa8aa",
+    "plant_illustrations/concept_candidates/candidate_manifest.csv": "fa9acfaba13b8ce0a4cadc34e6ef26709b8661e1fc199bdb12905bf60830df7e",
+    "plant_registry.csv": "5aba284b476990c144b568b7e5f829c2a11e622aa612f0016676f53e9a189f89",
+    "plant_verification_register.csv": "c8c22849fd6ff3c6cafa6de61ac083f9c0227ddc80e02c170943097d854012a2"
+  },
+  "plant_dimension_status_counts": {
+    "botanical_morphology": {
+      "RESEARCH_REQUIRED": 137
+    },
+    "calendar_accuracy": {
+      "REQUIRES_HUMAN_REVIEW": 137
+    },
+    "climate_applicability": {
+      "REQUIRES_HUMAN_REVIEW": 43,
+      "RESEARCH_REQUIRED": 94
+    },
+    "cultivar_identity": {
+      "CONFLICTING_EVIDENCE": 15,
+      "RESEARCH_REQUIRED": 122
+    },
+    "horticultural_recommendations": {
+      "RESEARCH_REQUIRED": 137
+    },
+    "illustration_accuracy": {
+      "REQUIRES_HUMAN_REVIEW": 137
+    },
+    "illustration_identity": {
+      "REQUIRES_HUMAN_REVIEW": 137
+    },
+    "image_provenance_and_licensing": {
+      "RESEARCH_REQUIRED": 137
+    },
+    "pest_and_disease": {
+      "RESEARCH_REQUIRED": 137
+    },
+    "safety_and_toxicity": {
+      "RESEARCH_REQUIRED": 137
+    },
+    "source_provenance": {
+      "REQUIRES_HUMAN_REVIEW": 137
+    },
+    "taxonomy": {
+      "CONFLICTING_EVIDENCE": 16,
+      "RESEARCH_REQUIRED": 121
+    }
+  },
+  "plants": [
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Arugula",
+      "plant_id": "plant-arugula"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Asparagus",
+      "plant_id": "plant-asparagus"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Beans",
+      "plant_id": "plant-beans"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Beets",
+      "plant_id": "plant-beets"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Bell Pepper",
+      "plant_id": "plant-bell-pepper"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Broccoli",
+      "plant_id": "plant-broccoli"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Brussels Sprouts",
+      "plant_id": "plant-brussels-sprouts"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Cabbage",
+      "plant_id": "plant-cabbage"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Cantaloupe",
+      "plant_id": "plant-cantaloupe"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Carrots",
+      "plant_id": "plant-carrots"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Cauliflower",
+      "plant_id": "plant-cauliflower"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Celery",
+      "plant_id": "plant-celery"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Corn",
+      "plant_id": "plant-corn"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Cucumber",
+      "plant_id": "plant-cucumber"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Garlic",
+      "plant_id": "plant-garlic"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Kohlrabi",
+      "plant_id": "plant-kohlrabi"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Leeks",
+      "plant_id": "plant-leeks"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Lettuce",
+      "plant_id": "plant-lettuce"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Eggplant",
+      "plant_id": "plant-eggplant"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Melons",
+      "plant_id": "plant-melons"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Okra",
+      "plant_id": "plant-okra"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Parsnips",
+      "plant_id": "plant-parsnips"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Peas",
+      "plant_id": "plant-peas"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Potatoes",
+      "plant_id": "plant-potatoes"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Spinach",
+      "plant_id": "plant-spinach"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Sweet Potato",
+      "plant_id": "plant-sweet-potato"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Summer Squash",
+      "plant_id": "plant-summer-squash"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Swiss Chard",
+      "plant_id": "plant-swiss-chard"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Tomatoes",
+      "plant_id": "plant-tomatoes"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Marigold",
+      "plant_id": "plant-marigold"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Zinnia",
+      "plant_id": "plant-zinnia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Cosmos",
+      "plant_id": "plant-cosmos"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Nasturtium",
+      "plant_id": "plant-nasturtium"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Sunflower",
+      "plant_id": "plant-sunflower"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Sweet Pea",
+      "plant_id": "plant-sweet-pea"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Calendula",
+      "plant_id": "plant-calendula"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Dahlia",
+      "plant_id": "plant-dahlia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Peony",
+      "plant_id": "plant-peony"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Iris",
+      "plant_id": "plant-iris"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Daylily",
+      "plant_id": "plant-daylily"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Lavender",
+      "plant_id": "plant-lavender"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Echinacea",
+      "plant_id": "plant-echinacea"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Rudbeckia",
+      "plant_id": "plant-rudbeckia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Tulip",
+      "plant_id": "plant-tulip"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Daffodil",
+      "plant_id": "plant-daffodil"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Crocus",
+      "plant_id": "plant-crocus"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Allium",
+      "plant_id": "plant-allium"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Hyacinth",
+      "plant_id": "plant-hyacinth"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Hostas",
+      "plant_id": "plant-hostas"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Ferns",
+      "plant_id": "plant-ferns"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Ornamental Grasses",
+      "plant_id": "plant-ornamental-grasses"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Sedum",
+      "plant_id": "plant-sedum"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Heuchera",
+      "plant_id": "plant-heuchera"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Astilbe",
+      "plant_id": "plant-astilbe"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Rosemary",
+      "plant_id": "plant-rosemary"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Thyme",
+      "plant_id": "plant-thyme"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Oregano",
+      "plant_id": "plant-oregano"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Parsley",
+      "plant_id": "plant-parsley"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Chives",
+      "plant_id": "plant-chives"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Basil",
+      "plant_id": "plant-basil"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Dill",
+      "plant_id": "plant-dill"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Cilantro",
+      "plant_id": "plant-cilantro"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Chervil",
+      "plant_id": "plant-chervil"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Fennel",
+      "plant_id": "plant-fennel"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Apple",
+      "plant_id": "plant-apple"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Pear",
+      "plant_id": "plant-pear"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Plum",
+      "plant_id": "plant-plum"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Cherry",
+      "plant_id": "plant-cherry"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Grapes",
+      "plant_id": "plant-grapes"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Strawberries",
+      "plant_id": "plant-strawberries"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Raspberries",
+      "plant_id": "plant-raspberries"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Blueberries",
+      "plant_id": "plant-blueberries"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Currants",
+      "plant_id": "plant-currants"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Gooseberries",
+      "plant_id": "plant-gooseberries"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Rhubarb",
+      "plant_id": "plant-rhubarb"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Globe Artichoke",
+      "plant_id": "plant-globe-artichoke"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Snapdragons",
+      "plant_id": "plant-snapdragons"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Petunias",
+      "plant_id": "plant-petunias"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Lobelia",
+      "plant_id": "plant-lobelia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Pansy",
+      "plant_id": "plant-pansy"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Stocks",
+      "plant_id": "plant-stocks"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Statice",
+      "plant_id": "plant-statice"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Antirrhinum",
+      "plant_id": "plant-antirrhinum"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Impatiens",
+      "plant_id": "plant-impatiens"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Nicotiana",
+      "plant_id": "plant-nicotiana"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Cleome",
+      "plant_id": "plant-cleome"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Larkspur",
+      "plant_id": "plant-larkspur"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Poppy",
+      "plant_id": "plant-poppy"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Nigella",
+      "plant_id": "plant-nigella"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Borage",
+      "plant_id": "plant-borage"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Cornflower",
+      "plant_id": "plant-cornflower"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Ammi majus",
+      "plant_id": "plant-ammi-majus"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Orlaya",
+      "plant_id": "plant-orlaya"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Celosia",
+      "plant_id": "plant-celosia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Strawflower",
+      "plant_id": "plant-strawflower"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Scabiosa",
+      "plant_id": "plant-scabiosa"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Hellebores",
+      "plant_id": "plant-hellebores"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Snowdrops",
+      "plant_id": "plant-snowdrops"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Delphinium",
+      "plant_id": "plant-delphinium"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Salvia nemorosa",
+      "plant_id": "plant-salvia-nemorosa"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Gaillardia",
+      "plant_id": "plant-gaillardia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Asters",
+      "plant_id": "plant-asters"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Primula",
+      "plant_id": "plant-primula"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Wallflower",
+      "plant_id": "plant-wallflower"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Aubretia",
+      "plant_id": "plant-aubretia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Iberis",
+      "plant_id": "plant-iberis"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Hyacinths",
+      "plant_id": "plant-hyacinths"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Muscari",
+      "plant_id": "plant-muscari"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Gladiolus",
+      "plant_id": "plant-gladiolus"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Anemone",
+      "plant_id": "plant-anemone"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Camassia",
+      "plant_id": "plant-camassia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Witch Hazel",
+      "plant_id": "plant-witch-hazel"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Buddleja",
+      "plant_id": "plant-buddleja"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Deutzia",
+      "plant_id": "plant-deutzia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Hydrangea paniculata",
+      "plant_id": "plant-hydrangea-paniculata"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Roses",
+      "plant_id": "plant-roses"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Forsythia",
+      "plant_id": "plant-forsythia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Philadelphus",
+      "plant_id": "plant-philadelphus"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Pieris",
+      "plant_id": "plant-pieris"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Magnolia",
+      "plant_id": "plant-magnolia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Camellia",
+      "plant_id": "plant-camellia"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Rhododendron",
+      "plant_id": "plant-rhododendron"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Spiraea",
+      "plant_id": "plant-spiraea"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Azalea",
+      "plant_id": "plant-azalea"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Kerria",
+      "plant_id": "plant-kerria"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Garry Oak",
+      "plant_id": "plant-garry-oak"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Wisteria",
+      "plant_id": "plant-wisteria"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Clematis Group 3",
+      "plant_id": "plant-clematis-group-3"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Clematis montana",
+      "plant_id": "plant-clematis-montana"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "CONFLICTING_EVIDENCE",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "CONFLICTING_EVIDENCE"
+      },
+      "display_name": "Honeysuckle",
+      "plant_id": "plant-honeysuckle"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "REQUIRES_HUMAN_REVIEW",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Morning Glory",
+      "plant_id": "plant-morning-glory"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Osoberry",
+      "plant_id": "plant-osoberry"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Red-flowering Currant",
+      "plant_id": "plant-red-flowering-currant"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Trillium",
+      "plant_id": "plant-trillium"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Bleeding Heart",
+      "plant_id": "plant-bleeding-heart"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Camas",
+      "plant_id": "plant-camas"
+    },
+    {
+      "dimensions": {
+        "botanical_morphology": "RESEARCH_REQUIRED",
+        "calendar_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "climate_applicability": "RESEARCH_REQUIRED",
+        "cultivar_identity": "RESEARCH_REQUIRED",
+        "horticultural_recommendations": "RESEARCH_REQUIRED",
+        "illustration_accuracy": "REQUIRES_HUMAN_REVIEW",
+        "illustration_identity": "REQUIRES_HUMAN_REVIEW",
+        "image_provenance_and_licensing": "RESEARCH_REQUIRED",
+        "pest_and_disease": "RESEARCH_REQUIRED",
+        "safety_and_toxicity": "RESEARCH_REQUIRED",
+        "source_provenance": "REQUIRES_HUMAN_REVIEW",
+        "taxonomy": "RESEARCH_REQUIRED"
+      },
+      "display_name": "Sword Fern",
+      "plant_id": "plant-sword-fern"
+    }
+  ],
+  "project_dimensions": {
+    "accessibility": {
+      "scope": "Accessibility conformance has not been independently evaluated.",
+      "status": "RESEARCH_REQUIRED"
+    },
+    "build_reproducibility": {
+      "scope": "This audit does not compare independent clean builds.",
+      "status": "PENDING"
+    },
+    "calendar_accuracy": {
+      "scope": "Entries are source-linked transcriptions; source-page comparison is incomplete.",
+      "status": "REQUIRES_HUMAN_REVIEW"
+    },
+    "editorial_accuracy": {
+      "scope": "Automated content review is not a substitute for editorial fact-checking.",
+      "status": "RESEARCH_REQUIRED"
+    },
+    "educational_figure_accuracy": {
+      "scope": "Figure artwork is not scientifically reviewed or approved.",
+      "status": "RESEARCH_REQUIRED"
+    },
+    "publication_integrity": {
+      "scope": "Structural PDF checks only; scientific content and visual quality are excluded.",
+      "status": "VERIFIED"
+    },
+    "source_availability": {
+      "scope": "Network availability was not checked by this offline audit.",
+      "status": "PENDING"
+    },
+    "source_integrity": {
+      "scope": "Checksum validation only; does not establish source authenticity.",
+      "status": "VERIFIED"
+    },
+    "source_provenance": {
+      "scope": "Recorded provenance has not been independently authenticated.",
+      "status": "RESEARCH_REQUIRED"
+    },
+    "visual_quality": {
+      "scope": "A full human print-size review remains required.",
+      "status": "REQUIRES_HUMAN_REVIEW"
+    }
+  },
+  "readiness": {
+    "blocked_project_dimensions": [
+      "accessibility",
+      "build_reproducibility",
+      "calendar_accuracy",
+      "editorial_accuracy",
+      "educational_figure_accuracy",
+      "source_availability",
+      "source_provenance",
+      "visual_quality"
+    ],
+    "blocker_findings": 11,
+    "decision": "NOT_READY",
+    "errors": 0,
+    "note": "A successful audit or build does not establish scientific, licensing, or human approval."
+  },
+  "schema_version": "1.0",
+  "scope": {
+    "calendar_entries": 359,
+    "claim_source_records": 2,
+    "educational_figures": 36,
+    "grouped_calendar_entries": 158,
+    "plant_verification_records": 137,
+    "plants": 137
+  },
+  "structural_validation": {
+    "figure_asset_audit": {
+      "approved": 0,
+      "checked_files": 36,
+      "records": 36,
+      "without_source_references": 36
+    },
+    "plant_asset_audit": {
+      "approved": 0,
+      "checked_files": 137,
+      "records": 137
+    },
+    "publications": {
+      "Errington_Botanical_Illustration_Collection.pdf": {
+        "metadata_author": "Errington Gardening Encyclopedia Editorial Project",
+        "pdf_bytes": 120540,
+        "pdf_pages": 138
+      },
+      "Errington_Educational_Figure_Collection.pdf": {
+        "metadata_author": "Errington Gardening Encyclopedia Editorial Project",
+        "pdf_bytes": 54129,
+        "pdf_pages": 37
+      },
+      "Errington_Gardening_Encyclopedia.pdf": {
+        "metadata_author": "Errington Gardening Encyclopedia Editorial Project",
+        "pdf_bytes": 4091845,
+        "pdf_pages": 219
+      },
+      "Errington_Illustrated_Plant_Directory.pdf": {
+        "metadata_author": "Errington Gardening Encyclopedia Editorial Project",
+        "pdf_bytes": 53260,
+        "pdf_pages": 25
+      },
+      "Errington_Monthly_Gardening_Guide.pdf": {
+        "metadata_author": "Errington Gardening Encyclopedia Editorial Project",
+        "pdf_bytes": 82056,
+        "pdf_pages": 25
+      }
+    },
+    "registry": {
+      "calendar_entries": 359,
+      "claim_records": 2,
+      "plant_records": 137
+    },
+    "source_hashes": "PASS"
+  }
+}

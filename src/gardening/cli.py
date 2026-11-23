@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import subprocess
 import sys
@@ -9,6 +10,12 @@ from typing import Sequence
 
 from gardening.assets import audit_assets, pending_review
 from gardening.config import find_repository_root
+from gardening.research.gbif import collect_gbif_candidates, write_candidate_report
+from gardening.verification.engine import (
+    VerificationInputError,
+    build_verification_report,
+    write_verification_report,
+)
 
 
 LOGGER = logging.getLogger("gardening")
@@ -61,6 +68,72 @@ def _show_asset_audit(repository: Path, kind: str) -> int:
     return audit.exit_code
 
 
+def _run_verification_audit(
+    repository: Path, output: Path | None, require_ready: bool
+) -> int:
+    try:
+        report = build_verification_report(repository)
+        if output is None:
+            print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
+        else:
+            write_verification_report(report, output)
+            print(
+                f"Wrote {output}; release decision: "
+                f"{report['readiness']['decision']}."
+            )
+    except (OSError, ValueError, VerificationInputError) as error:
+        LOGGER.error("Verification audit failed: %s", error)
+        return 2
+    if report["readiness"]["errors"]:
+        return 1
+    if require_ready and report["readiness"]["decision"] != "READY":
+        LOGGER.error("Release requirements remain unmet.")
+        return 1
+    return 0
+
+
+def _run_gbif_taxonomy(
+    repository: Path,
+    output: Path,
+    cache_directory: Path,
+    plant_id: str | None,
+    delay_seconds: float,
+    timeout: float,
+) -> int:
+    try:
+        report = collect_gbif_candidates(
+            repository,
+            cache_directory=cache_directory,
+            plant_id=plant_id,
+            delay_seconds=delay_seconds,
+            timeout=timeout,
+        )
+        write_candidate_report(report, output)
+    except (OSError, ValueError) as error:
+        LOGGER.error("GBIF candidate collection failed: %s", error)
+        return 2
+    counts: dict[str, int] = {}
+    for row in report["results"]:
+        status = row["candidate"]["fetch_status"]
+        counts[status] = counts.get(status, 0) + 1
+    print(
+        f"Wrote {output}; collected {len(report['results'])} GBIF name candidate(s) "
+        f"using {report['network_requests']} network request(s); statuses={counts}. "
+        "Candidates remain unverified and require human review."
+    )
+    unavailable = {
+        "ACCESS_DENIED",
+        "TEMPORARILY_UNAVAILABLE",
+        "UNREACHABLE",
+        "UNKNOWN",
+    }
+    return int(any(status in unavailable for status in counts))
+
+
+def _repository_path(repository: Path, path: Path) -> Path:
+    return path if path.is_absolute() else repository / path
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="gardening",
@@ -81,12 +154,58 @@ def build_parser() -> argparse.ArgumentParser:
     test = commands.add_parser("test", help="Run the repository test suite")
     _external_command(test, ("-m", "pytest"), forward_args=True)
 
+    verify = commands.add_parser("verify", help="Run structured scientific and release audits")
+    verify_commands = verify.add_subparsers(dest="verification_command", required=True)
+    audit_verification = verify_commands.add_parser(
+        "audit", help="Audit evidence, statuses, assets, sources, and publications"
+    )
+    audit_verification.add_argument(
+        "--output", type=Path, help="Write the deterministic JSON report to this path"
+    )
+    audit_verification.add_argument(
+        "--require-ready",
+        action="store_true",
+        help="Exit non-zero unless all release dimensions are complete",
+    )
+    audit_verification.set_defaults(
+        handler=lambda args: _run_verification_audit(
+            args.repo, args.output, args.require_ready
+        )
+    )
+
     research = commands.add_parser("research", help="Research evidence tools")
     research_commands = research.add_subparsers(dest="research_command", required=True)
     _external_command(
         research_commands.add_parser("validate", help="Check candidate research links"),
         ("check_research_links.py",),
         forward_args=True,
+    )
+    taxonomy = research_commands.add_parser(
+        "taxonomy", help="Collect unverified name-match candidates from GBIF"
+    )
+    taxonomy.add_argument("--provider", choices=("gbif",), default="gbif")
+    taxonomy.add_argument("--plant-id", help="Limit lookup to one stable plant ID")
+    taxonomy.add_argument(
+        "--output",
+        type=Path,
+        default=Path("build/research/gbif_taxonomy_candidates.json"),
+    )
+    taxonomy.add_argument(
+        "--cache-directory",
+        type=Path,
+        default=Path("build/research/gbif-cache"),
+    )
+    taxonomy.add_argument("--delay-seconds", type=float, default=1.0)
+    taxonomy.add_argument("--timeout", type=float, default=20.0)
+    taxonomy.set_defaults(
+        handler=lambda args: _run_gbif_taxonomy(
+            args.repo,
+            _repository_path(args.repo, args.output),
+            _repository_path(args.repo, args.cache_directory),
+            args.plant_id,
+            args.delay_seconds,
+            args.timeout,
+        )
     )
 
     calendar = commands.add_parser("calendar", help="Calendar validation")
@@ -150,6 +269,14 @@ def build_parser() -> argparse.ArgumentParser:
     _external_command(
         report_commands.add_parser("generate", help="Regenerate all status reports"),
         ("build_project_reports.py",),
+        (
+            "-m",
+            "gardening.cli",
+            "verify",
+            "audit",
+            "--output",
+            "reports/VERIFICATION_AUDIT.json",
+        ),
         ("generate_release_status.py",),
     )
 

@@ -123,6 +123,7 @@ jobs:
             reports/IMPLEMENTATION_FINAL_REPORT.md
             reports/CURRENT_RELEASE_STATUS.md
             reports/PLANT_SCOPE_RECONCILIATION.csv
+            reports/VERIFICATION_AUDIT.json
             calendar_actions.csv
             calendar_review.csv
             plant_verification_register.csv

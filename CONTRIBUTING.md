@@ -9,6 +9,7 @@ python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock.txt
 .venv/bin/python -m pip install --no-deps -e .
 .venv/bin/gardening validate
+.venv/bin/gardening verify audit
 .venv/bin/gardening test
 ```
 
@@ -23,6 +24,10 @@ tested, and adopted by CI.
   independently reviewed evidence and updates the data-integrity checks.
 - Add claim-level citations and keep source transcription, research, editorial interpretation,
   and recommendations distinguishable.
+- Run `gardening verify audit`; do not change a dimension to verified without evidence and
+  an appropriate independent review.
+- Run taxonomy provider commands only as evidence collection; preserve raw responses and
+  alternatives, and never write a provider match directly into the authoritative registry.
 - Do not infer a local planting date from the supplied calendar alone.
 - Keep the unresolved Zone 8a/8b disagreement explicit.
 

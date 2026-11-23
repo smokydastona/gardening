@@ -21,6 +21,9 @@ Regenerate with `python generate_release_status.py`.
 - Records explicitly marked verified in the plant register: 0 profiles, 0 taxonomies, and 0 local timings.
 - Claim-source rows: 2; evidence states: `{'conflicting-evidence': 2}`. A source row is not a verified profile.
 - Climate zone and frost anchors remain disputed/unverified; external sources require direct review and local measurements/proxy limitations remain unresolved.
+- Deterministic verification snapshot: **CURRENT**; decision **NOT_READY** for 137 plants and 359 calendar entries.
+- Claim evidence extracts or source locations recorded: 0 of 2; current claim statuses: `{'CONFLICTING_EVIDENCE': 2}`.
+- Verification audit blockers: 11; structural errors: 0. See `reports/VERIFICATION_AUDIT.json`.
 
 ## Assets and publications
 

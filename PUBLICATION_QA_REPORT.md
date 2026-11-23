@@ -6,6 +6,16 @@ This working publication is not approved for publication. The PDF is a reproduci
 pre-review build, not evidence that botanical claims, local planting timing, illustrations,
 or editorial content are correct.
 
+## Current baseline — 2026-11-23
+
+The current local suite passes 78 tests. `gardening build all` rebuilt and structurally
+validated the five PDFs: 219, 25, 25, 138, and 37 pages respectively. The dimensioned
+verification audit is `NOT_READY`; it records zero supported claim extracts/locations among
+two conflicting claim-source rows, 36 figures without source references, and zero approved
+plant illustrations or educational figures. This build did not rerender every page for visual
+inspection. The full-resolution and human print-size review checklist below remains open.
+No hosted CI result is reported for this local increment.
+
 | Gate | Status | Evidence / remaining work |
 |---|---|---|
 | A — Source integrity | `PARTIAL` | Original supplied files retained; 137 plants and 359 calendar entries are count-checked. Calendar PDF authorship/history is unknown; transcription requires further comparison. |
@@ -13,13 +23,13 @@ or editorial content are correct.
 | C — Local horticultural accuracy | `FAILED` | 8a/8b conflict unresolved; no independently sourced Errington frost normals or plant-specific local timings. |
 | D — Illustration integrity | `PARTIAL — unapproved artwork withheld` | 0 botanical illustrations and 0 educational figures are approved. The owner confirms rights to the 70 branch images; they and the generated candidates are excluded from all PDFs pending identity, anatomy, and independent botanical review. Figure concept descriptions are listed in the encyclopedia, not presented as reviewed diagrams. |
 | E — Editorial quality | `PARTIAL` | The core handbook includes expanded climate-risk, microclimate, planning, botany, soil, bed-building, propagation, irrigation, and diagnostic instruction. The plant index now cross-references exact calendar transcriptions and available claim research without treating them as recommendations. A complete claim-level bibliography, plant-specific research, and editorial sign-off remain outstanding. |
-| F — Publication quality | `PARTIAL` | Current PDFs have 204, 25, 25, 138, and 37 pages. Only the encyclopedia cover image is embedded; all other PDFs contain no images. Body text uses Times-Roman. Full-publication print review remains open. |
-| G — Software quality | `PARTIAL` | `build_all.py`, publication validation, and 58 tests pass locally. The current design change has not yet been validated by CI. |
+| F — Publication quality | `PARTIAL` | Current PDFs have 219, 25, 25, 138, and 37 pages. Only the encyclopedia cover image is embedded; all other PDFs contain no images. Body text uses Times-Roman. Full-publication print review remains open. |
+| G — Software quality | `PARTIAL` | `gardening build all`, publication validation, and 78 tests pass locally. No hosted check is reported for this increment. |
 | H — Pre-owned encyclopedia theme | `PARTIAL — release blocked` | The automated gate requires distributed editorial notes in three embedded handwriting fonts and at least three ink colors. Representative pages were inspected, but a full human print-size review of the theme and legibility remains mandatory. |
 
 ## Latest build and visual scan
 
-The regenerated products are `Errington_Gardening_Encyclopedia.pdf` (204 pages),
+The regenerated products are `Errington_Gardening_Encyclopedia.pdf` (219 pages),
 `Errington_Monthly_Gardening_Guide.pdf` (25 pages),
 `Errington_Illustrated_Plant_Directory.pdf` (25 pages),
 `Errington_Botanical_Illustration_Collection.pdf` (138 pages), and
@@ -32,7 +42,9 @@ artwork. The botanical and educational review registers retain the detailed desc
 and identify where artwork is pending. The monthly
 guide uses wrapping table cells and separates months; extracted-text checks confirm long
 calendar entries and the source-marked pea sowing action remain intact. The current rebuilt
-PDFs have not received a full visual scan; publication review remains open.
+PDFs have not received a full visual scan; publication review remains open. Earlier page
+renders and contact sheets are historical artifacts and are not represented as a visual
+inspection of this 219-page build.
 
 The encyclopedia includes aged-paper styling and editorial handwritten-style notes in
 Reenie Beanie, Indie Flower, and Architects Daughter, with several pen-ink colors. The

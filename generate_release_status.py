@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import json
 import re
 from collections import Counter
 from pathlib import Path
@@ -191,6 +192,24 @@ def _verified_count(rows: list[dict[str, str]], field: str) -> int:
     return sum(row.get(field, "").strip().casefold() == "verified" for row in rows)
 
 
+def _verification_audit_summary(base_dir: Path) -> tuple[str, dict[str, object] | None]:
+    path = base_dir / "reports" / "VERIFICATION_AUDIT.json"
+    if not path.is_file():
+        return "missing", None
+    report = json.loads(path.read_text(encoding="utf-8"))
+    hashes = report.get("inputs_sha256")
+    if not isinstance(hashes, dict):
+        return "invalid", None
+    root = base_dir.resolve()
+    for filename, expected in hashes.items():
+        source = (root / filename).resolve()
+        if not source.is_relative_to(root) or not source.is_file():
+            return "invalid", None
+        if hashlib.sha256(source.read_bytes()).hexdigest() != expected:
+            return "stale", report
+    return "current", report
+
+
 def generate_status(base_dir: Path = BASE_DIR) -> str:
     registry = read_csv(base_dir / "plant_registry.csv")
     calendar = read_csv(base_dir / "errington_calendar_entries.csv")
@@ -312,6 +331,28 @@ def generate_status(base_dir: Path = BASE_DIR) -> str:
         publication_validation = f"FAIL — {error}"
         publication_validation_details = "At least one required PDF failed validation."
 
+    verification_audit_state, verification_audit = _verification_audit_summary(base_dir)
+    if verification_audit_state == "current" and verification_audit is not None:
+        audit_scope = verification_audit["scope"]
+        audit_claims = verification_audit["claim_sources"]
+        audit_readiness = verification_audit["readiness"]
+        verification_lines = [
+            f"- Deterministic verification snapshot: **CURRENT**; decision "
+            f"**{audit_readiness['decision']}** for {audit_scope['plants']} plants and "
+            f"{audit_scope['calendar_entries']} calendar entries.",
+            f"- Claim evidence extracts or source locations recorded: "
+            f"{audit_claims['records_with_supporting_location_or_extract']} of "
+            f"{len(audit_claims['records'])}; current claim statuses: "
+            f"`{audit_claims['status_counts']}`.",
+            f"- Verification audit blockers: {audit_readiness['blocker_findings']}; structural "
+            f"errors: {audit_readiness['errors']}. See `reports/VERIFICATION_AUDIT.json`.",
+        ]
+    else:
+        verification_lines = [
+            f"- Deterministic verification snapshot: **{verification_audit_state.upper()}**; "
+            "run `gardening verify audit` after changing source, evidence, asset, or publication records."
+        ]
+
     return "\n".join(
         [
             "# Current release status",
@@ -354,6 +395,7 @@ def generate_status(base_dir: Path = BASE_DIR) -> str:
             "A source row is not a verified profile.",
             "- Climate zone and frost anchors remain disputed/unverified; external sources "
             "require direct review and local measurements/proxy limitations remain unresolved.",
+            *verification_lines,
             "",
             "## Assets and publications",
             "",

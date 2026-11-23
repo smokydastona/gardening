@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Added a deterministic verification audit with separate taxonomy, cultivation, timing,
+  safety, illustration, source, publication, accessibility, and visual-review dimensions.
+  The audit preserves conflicts and reports missing evidence without promoting populated
+  registry fields or generated artwork to verified status.
+- Added `gardening verify audit` and included its JSON output in the full build and CI artifact.
+- Added an opt-in GBIF Species Match adapter with rate limiting, 90-day response caching,
+  alternatives, raw-response hashes, and an explicit human-review-only result state.
 - Added the initial `src/gardening` package and unified `gardening` command for validation,
   calendar, illustration, figure, report, test, and publication workflows.
 - Migrated calendar parsing/OCR, registry normalization, source validation, and the

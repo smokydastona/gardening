@@ -30,6 +30,29 @@ def test_failed_pipeline_command_preserves_child_exit_code(monkeypatch, tmp_path
     assert cli.main(["--repo", str(tmp_path), "build", "all"]) == 7
 
 
+def test_reports_generate_audit_between_registers_and_release_status(monkeypatch, tmp_path):
+    commands = []
+    monkeypatch.setattr(
+        cli,
+        "_run",
+        lambda repository, *command: commands.append(command) or 0,
+    )
+
+    assert cli.main(["--repo", str(tmp_path), "reports", "generate"]) == 0
+    assert commands == [
+        ("build_project_reports.py",),
+        (
+            "-m",
+            "gardening.cli",
+            "verify",
+            "audit",
+            "--output",
+            "reports/VERIFICATION_AUDIT.json",
+        ),
+        ("generate_release_status.py",),
+    ]
+
+
 def test_parser_exposes_requested_workflow_commands() -> None:
     parser = cli.build_parser()
     help_text = parser.format_help()
@@ -37,3 +60,4 @@ def test_parser_exposes_requested_workflow_commands() -> None:
     assert "illustrations" in help_text
     assert "publish" in help_text
     assert "research" in help_text
+    assert "verify" in help_text

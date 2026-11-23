@@ -24,6 +24,16 @@ def main() -> None:
     run(["build_final_encyclopedia_pdf.py"])
     run(["build_publications.py"])
     run(["validate_pipeline.py", "--publication"])
+    run(
+        [
+            "-m",
+            "gardening.cli",
+            "verify",
+            "audit",
+            "--output",
+            "reports/VERIFICATION_AUDIT.json",
+        ]
+    )
     run(["generate_release_status.py"])
 
 

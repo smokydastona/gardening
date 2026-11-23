@@ -45,6 +45,16 @@ plant, climate, or rights questions. The Environment Canada
 was indexed as a possible alternative to the `www.climat` URL below, but its live availability
 and any redirect from the original are unconfirmed.
 
+The opt-in command `gardening research taxonomy --provider gbif` queries the GBIF Species
+Match API for recorded plant names, with a one-second interval between registry requests
+and a 90-day cache under `build/research/gbif-cache/`. It writes a JSON candidate report
+and never modifies the registry or selects an accepted name. API matches, confidence scores,
+and alternatives remain `REQUIRES_HUMAN_REVIEW`. During the 2026-11-23 implementation
+session, direct DNS lookup for `api.gbif.org` failed in this environment, so no new
+137-record GBIF report was fetched or included. Review the current GBIF API terms,
+attribution requirements, match output, and alternatives before using any candidate as
+taxonomic evidence.
+
 ## Botanical identity and scientific verification
 
 Prioritize accepted names, synonyms, taxonomic concepts, and descriptions. Kew and World

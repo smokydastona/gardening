@@ -19,6 +19,10 @@ python3.12 -m venv .venv
 The `gardening` command is the unified entry point for the existing tested pipeline:
 `gardening --help`, `gardening validate`, `gardening test`, `gardening illustrations audit`,
 `gardening figures validate`, `gardening reports generate`, and `gardening build all`.
+`gardening verify audit` writes a deterministic JSON audit of the current evidence and
+verification state; `--require-ready` exits unsuccessfully while release blockers remain.
+`gardening research taxonomy --provider gbif` collects throttled, cached name-match
+candidates for the registry without updating plant records or marking a taxon verified.
 Illustration generation remains a separate explicit candidate-generation command and never
 approves its output. Calendar ingestion/parsing, registry normalization, authoritative
 validation, illustration publication eligibility, manuscript assembly, PDF builders, and
@@ -67,6 +71,7 @@ are migrated.
 - [Publication quality report](PUBLICATION_QA_REPORT.md)
 - [Implementation register](reports/IMPLEMENTATION_REGISTER.md)
 - [Current generated release status](reports/CURRENT_RELEASE_STATUS.md)
+- [Machine-readable verification audit](reports/VERIFICATION_AUDIT.json)
 - [125-entry plan to 137-record registry reconciliation](reports/PLANT_SCOPE_RECONCILIATION.csv)
 - [Repository restructuring baseline](reports/RESTRUCTURE_AUDIT.md)
 - [Git tree inventory](reports/REPOSITORY_INVENTORY.csv) and [migration manifest](reports/REPOSITORY_MIGRATION_MANIFEST.csv)
@@ -97,7 +102,7 @@ independent human review are complete.
 | `ERRINGTON_*MANUSCRIPT*.md`, `ENCYCLOPEDIA_STRUCTURE.md` | Editorial manuscript and project structure |
 | Root `*.py` entry points | Compatibility wrappers for the package and remaining legacy tools |
 | `.github/workflows/build-encyclopedia.yml` | CI validation and publication artifact build |
-| `src/gardening/` | Unified CLI, validation, ingestion, normalization, illustration gating, publication, and reporting modules |
+| `src/gardening/` | Unified CLI, independent-dimension verification, validation, ingestion, normalization, illustration gating, publication, and reporting modules |
 | `tests/unit/`, `tests/integration/` | Automated unit and integration test suites |
 | `scripts/migration/` | Reproducible branch and file inventory tooling |
 
@@ -105,6 +110,8 @@ independent human review are complete.
 
 ```sh
 .venv/bin/gardening validate
+.venv/bin/gardening verify audit
+.venv/bin/gardening research taxonomy --provider gbif --plant-id plant-arugula
 .venv/bin/gardening test
 .venv/bin/gardening reports generate
 .venv/bin/gardening build all

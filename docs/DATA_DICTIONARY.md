@@ -5,11 +5,16 @@
 ### `claims/CLAIM_SOURCES.csv`
 
 Claim-level source evidence, with separate rows for individual sources. Record the exact
-claim, source and access details, geographic applicability, confidence, review and status.
-Use notes to connect cross-checks and record agreement, conflicts, limitations and
-publication suitability. See [research library](RESEARCH_LIBRARY.md); a listed candidate
-source is not itself a verified claim. Each row must align with the CSV header; the
-data-model validator rejects rows with missing or extra cells.
+claim, source identifier/version/hash, supporting passage, source location, access details,
+geographic applicability, evidence quality, independent-source group, contradictions,
+review and status. Blank evidence fields mean evidence has not been captured; do not
+reconstruct quotations from a title, search result or API match. Use notes to connect
+cross-checks, limitations and publication suitability. See [research library](RESEARCH_LIBRARY.md);
+a listed candidate source is not itself a verified claim. Each row must align with the CSV
+header; the data-model validator rejects rows with missing or extra cells.
+`source_sha256` identifies an archived source snapshot, not the claim file. Do not assign an
+independence group until shared authorship or underlying evidence has been assessed.
+`contradicts_claim_ids` uses semicolon-separated claim IDs.
 
 ### `plant_registry.csv`
 
