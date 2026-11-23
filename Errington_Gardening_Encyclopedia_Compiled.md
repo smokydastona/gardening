@@ -12,6 +12,14 @@ Source transcriptions and working plant registry for Errington, BC
 
 This working manuscript preserves supplied source material and earlier editorial notes. Claims not supported by accessible, claim-level citations are unverified and are not publication-ready. The supplied calendar PDF is present, but its author and source history are unknown. The referenced 2017 pollinator guide and web reference books are not checked into this repository, so the existing summary and citations to them have not been independently rechecked. This manuscript does not reproduce the books' prose or illustrations.
 
+### Editorial Voice
+
+Write for a gardener standing beside the bed, not for a committee reviewing a risk register.
+Prefer a firm, conversational explanation to a catalogue of synonyms and repeated qualifications.
+Use specific observations, plain imperatives, and short examples where they help a reader decide what
+to do next. Keep the source trail visible, keep uncertainty explicit, and never use vivid local detail
+as a substitute for evidence.
+
 ### Sources In Scope
 
 1. The supplied 89-page Errington calendar PDF, its derived text extraction in [ERRINGTON_CALENDAR_FULL_TEXT.md](ERRINGTON_CALENDAR_FULL_TEXT.md), and the crop and ornamental chart images in this repository. The PDF's source history is not established; the extraction is not independent confirmation.
@@ -21,23 +29,34 @@ This working manuscript preserves supplied source material and earlier editorial
 
 ## 1. Welcome To Gardening In Errington
 
-The available Errington calendar materials give approximate last- and first-frost dates of April 15 and October 15. The calendar text extraction identifies Zone 8a, while both summary-chart images are branded Zone 8b. The zone labels conflict and are retained as printed; neither label should be treated as a measured property-level rating. The frost dates are planning anchors, not guarantees.
+Gardening here begins with a useful bit of humility: a calendar can tell you what has been printed,
+or what someone has observed, but it cannot tell you what the wind will do across your particular
+bed tonight. The Errington calendar gives April 15 and October 15 as approximate frost anchors. Its
+text labels the area Zone 8a, while the two summary charts say Zone 8b. Those differences stay on
+the page rather than being quietly reconciled.
 
-This encyclopedia organizes local timing, plant scope, general gardening topics, and regional pollinator guidance for gardeners in Errington. Local calendar timing remains distinct from broader horticultural advice.
+This book separates the kinds of knowledge it offers. Some pages record the local source as it
+exists. Others explain general garden practice. The later plant and pollinator chapters are most
+useful once a name, a source, and a season have all been checked. When those pieces are missing,
+the book says so and leaves room for another season's observation.
 
 ## 2. How To Use This Encyclopedia
 
-Use this working manuscript in three passes rather than reading it front to back every time.
+Read the climate and foundation chapters once before opening the seed packets. Then keep a pencil
+near the planting lists. A few notes about your own soil, shade, wind, and frost pockets will be
+more useful by midsummer than another decorative plan.
 
-1. Start with the climate and frost sections to understand the operational limits of the season.
-2. Read the garden-foundation chapters before preparing beds, sowing seed, or transplanting.
-3. Use the crop and ornamental inventories only as a list of names visible in the supplied local charts; transcription and taxonomic identity remain under review.
+Three kinds of information appear in these pages:
 
-This manuscript distinguishes between three kinds of information, none of which should be considered independently verified solely because it appears here.
+1. **Local calendar evidence** is the visible chart transcription and its frost anchors.
+   It is local evidence, not proof that every timing is accurate or property-wide.
+2. **Regional ecological guidance** comes from the Eastern Vancouver Island pollinator guide.
+   It describes a broad landscape, so do not copy a bloom date into an Errington schedule.
+3. **General horticultural guidance** explains a method or risk. It earns a place because it
+   helps with work; it does not override the local calendar or the plant-specific evidence.
 
-1. Local calendar evidence: entries in the available text extraction and visible chart legends, plant lists, and frost anchors.
-2. Regional ecological guidance: information in the Eastern Vancouver Island pollinator guide, which covers an ecoregion and must not be presented as Errington-only data.
-3. General reference guidance: horticultural material from the supplied reference books, used with attribution and without overriding local calendar timing.
+The crop and ornamental lists are starting points, not plant recommendations. Keep transcription,
+botanical identity, cultivar, and planting timing in separate columns until each has its own support.
 
 ## 3. Errington Climate Profile
 
@@ -80,31 +99,33 @@ After rain or irrigation, record where water stands and where surfaces dry first
 
 ## 4. Frost Dates, Risk Windows, And Seasonal Rules
 
-The source-reported April 15 and October 15 anchors are not guaranteed frost dates or independently calculated local averages. Check current forecasts and observe the garden before acting.
+The source-reported April 15 and October 15 anchors are not promises. They are labels on the
+calendar, worth noting but not worth treating as a farm gate that swings shut at midnight.
+Check the forecast and look outside the window before acting.
 
 ### Spring Rule Set
 
-1. Treat frost-sensitive plants according to their verified hardiness and current forecast, not a fixed calendar date.
-2. Use indoor sowing and protection only where plant-specific guidance supports it.
-3. Harden off transplants and assess soil and weather conditions before planting out.
+1. A plant's verified cold tolerance and this week's forecast carry more weight than April 15.
+2. Indoor starts need a purpose: a longer lead-in, or a warm, protected nursery—not merely a paper schedule.
+3. Harden off transplants. In spring, a clear sky can still bring a cold night.
 
 ### Summer Rule Set
 
-1. Continue to respond to weather and site conditions rather than assuming frost risk has passed on a fixed date.
-2. The season's main work becomes watering, weeding, mulching, support, and monitoring for health issues.
-3. Growth management matters as much as planting timing.
+1. Summer work is mostly attention: water, weed, tie in, and inspect before a small problem spreads.
+2. The best watering answer depends on soil, shade, wind, and the plant—not a rigid weekday schedule.
+3. Growth management matters as much as planting. A healthy tangle is still a tangle.
 
 ### Autumn Rule Set
 
-1. Treat autumn frost risk as variable; monitor forecasts and protect or harvest tender crops when conditions require.
-2. Plan harvest and preservation around crop maturity and actual conditions, not an assumed frost deadline.
-3. Perennial maintenance and division tasks should be timed around dormancy rather than peak bloom.
+1. Watch the forecast in autumn. The first frost may arrive by one corner of the property before it reaches the rest.
+2. Harvest by maturity and weather. October 15 is a reminder to look ahead, not a cue to ignore a good week.
+3. Divide or cut back perennials according to their growth cycle and source guidance, not according to what looks untidy.
 
 ### Winter Rule Set
 
-1. Winter is the planning and recordkeeping season.
-2. It is the right time to review what the garden produced, what failed, and what should be changed.
-3. It is also the right time to prepare indoor sowing plans for the coming season.
+1. Winter is for the ledger: what produced, what sulked, what ran out of room, and what was never identified.
+2. Put next year's trial beside this year's problem, not on top of the whole bed.
+3. When sowing season approaches, use the plan to set limits. A smaller, labeled batch teaches more than a crowded tray.
 
 ### Spring frost decision routine
 
@@ -126,9 +147,11 @@ The source-reported April 15 and October 15 anchors are not guaranteed frost dat
 
 ## 5. Planning The Garden
 
-The supplied Reader's Digest gardening reference is a general source, not an Errington timing authority. Its planning chapter supports the broad principle that a garden plan is easier to revise on paper than after planting [G1; page not recorded].
-
-That principle fits the Errington calendars well. Because the local project includes indoor sowing, outdoor transplanting, direct sowing, bloom periods, and division windows, gardeners in Errington benefit from a written plan that includes more than crop names.
+The supplied Reader's Digest gardening reference is a general source, not an Errington timing
+authority. Its planning chapter makes a simple point: a plan is cheap to revise on paper [G1;
+page not recorded]. The Errington calendars make it worth taking that advice seriously. They contain
+more than sowing dates: indoor starts, outdoor planting, bloom, harvest, dormancy, and division all
+need a place in the season.
 
 Every annual garden plan should define:
 
@@ -175,9 +198,9 @@ Record the map, seed or plant source, sowing and transplant dates, weather notes
 
 ## 6. Soil Preparation And Bed Building
 
-The soil chapter in the supplied Reader's Digest gardening reference provides general background on soil and root growth [G1; page not recorded]. It is not Errington-specific soil advice; local decisions should be based on site conditions and appropriate testing.
-
-For this manuscript, the practical soil-preparation rule is simple: do not assume the existing ground is ideal. Build productivity deliberately.
+The soil chapter in the supplied Reader's Digest gardening reference gives useful general
+background on soil and roots [G1; page not recorded]. It does not establish what is beneath a
+particular Errington bed. Dig, feel, test, and compare. “Rich soil” is not an instruction.
 
 Key soil principles for this project:
 
@@ -233,26 +256,20 @@ This is geometric volume, not a guaranteed purchase quantity. Settling, the bed'
 
 ## 7. Planting Methods And Seasonal Setup
 
-The local crop calendar and ornamental calendar both imply a multi-method planting system rather than a single workflow.
+The crop and ornamental charts suggest a gardener's calendar, not a production line. Some plants
+leave the house early, others wait for soil and weather, and ornamentals keep time after planting
+through bloom, dormancy, and division.
 
-The methods named in the supplied local sources are:
+Choose the method deliberately:
 
-1. Start seeds indoors.
-2. Transplant outdoors.
-3. Direct sow outdoors.
-4. Track bloom periods for ornamentals.
-5. Track dormancy or division periods for perennial ornamentals.
+1. Start indoors only when the plant needs an earlier launch and you can manage the young plants.
+2. Direct sow where the seed source, soil, and season agree.
+3. Transplant to shorten a risky stretch or when the young plant is ready and the site is prepared.
+4. Mark support, spacing, and access before the bed fills.
 
-The PDF's planting chapter adds the general decision framework behind those methods: the choice between seed and transplant depends on climate, crop type, available time, and the gardener's ability to manage young plants.
-
-For Errington, that yields the following operating guidance:
-
-1. Use indoor starts for plants that need an earlier launch than the outdoor frost window safely allows.
-2. Use direct sowing where the plant tolerates local outdoor conditions at the time the chart indicates.
-3. Use transplants to compress risk and bring established young plants into the garden after the frost threshold has passed.
-4. Reserve space early for trellised, staked, or caged plants.
-
-The PDF also highlights the value of straight, organized planting lines and deliberate spacing. Even without exact local spacing tables transcribed yet, the structural lesson still applies: orderly planting improves weeding, watering, harvesting, and observation.
+Straight lines are easy to dismiss as appearance. They also make a weedy patch easier to see, an
+irrigation line easier to follow, and a harvest easier to pick. Even without exact local spacing
+for every crop, order in the bed is a working advantage.
 
 ### Botanical clues for choosing a task
 
@@ -299,23 +316,17 @@ Prepare a fine, level seedbed only when soil is workable. Follow the crop's dept
 
 ## 8. Garden Care, Water, Mulch, And Maintenance
 
-The PDF's care chapter frames the garden correctly: planting is only the beginning. Once the garden is established, the main production risks come from neglect of routine tasks.
+Planting is the exciting part. Keeping a garden going is mostly a habit of looking closely.
+The core routine is familiar:
 
-The core maintenance system for this project is:
+1. Weed while roots are small.
+2. Check moisture rather than following a clock.
+3. Put supports in place before stems are leaning.
+4. Remove damaged material when it poses a real risk, not simply because it no longer looks tidy.
+5. Use mulch as a soil tool and leave space around stems and crowns.
 
-1. Weed early and regularly.
-2. Water consistently enough to prevent stress and weak growth.
-3. Support sprawling or climbing crops before they collapse into disorder.
-4. Remove declining or damaged material before it becomes a larger health issue.
-5. Treat mulching as part of moisture and weed management, not as decoration.
-
-The local ornamental chart reinforces that flower gardening in Errington is not only about bloom. It also includes recurring tasks such as deadheading and dividing. Those notes matter because they shift the gardener's attention from display alone to longevity and repeat performance.
-
-Practical maintenance principles for this manuscript:
-
-1. Annual beds need close seasonal attention.
-2. Perennials reward intervention at the right maintenance moment rather than constant disturbance.
-3. The garden should be inspected often enough that weeds, drought stress, and pest pressure are caught early.
+The ornamental chart makes another useful distinction: flowers are a stage in a plant's life,
+not the whole task. Deadheading, staking, and dividing belong to the same page as bloom.
 
 ### Decide whether to water
 
