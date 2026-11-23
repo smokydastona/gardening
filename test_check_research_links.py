@@ -5,6 +5,7 @@ from email.message import Message
 from unittest.mock import patch
 
 import check_research_links as links
+import inspect_research_sources as sources
 
 
 def test_candidate_urls_deduplicates_library_and_includes_blocked_sources():
@@ -57,3 +58,24 @@ def test_dns_and_http_errors_are_distinct():
     assert result["status"] == "http-error"
     assert result["http_status"] == 403
     assert result["final_url"] == "https://example.org/final"
+
+
+def test_source_metadata_extracts_headings_and_taxon_match():
+    assert sources.describe_content("html", b"<title>Climate</title><h1>Nanaimo</h1>") == {
+        "title": "Climate",
+        "h1": "Nanaimo",
+    }
+    result = sources.describe_content(
+        "json", b'{"scientificName":"Eruca vesicaria","matchType":"EXACT"}'
+    )
+    assert result["scientificName"] == "Eruca vesicaria"
+    assert result["matchType"] == "EXACT"
+
+
+def test_source_inspection_reports_fetch_errors():
+    with patch.object(
+        sources.urllib.request, "urlopen", side_effect=urllib.error.URLError("offline")
+    ):
+        result = sources.inspect("https://example.org", "html")
+    assert result["status"] == "error"
+    assert "offline" in result["error"]
