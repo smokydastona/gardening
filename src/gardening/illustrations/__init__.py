@@ -1,0 +1,1 @@
+"""Illustration evidence, metadata, and publication eligibility."""

@@ -31,8 +31,11 @@ jobs:
       - name: Install PDF metadata reader
         run: python -m pip install pypdf==6.14.2
 
+      - name: Install local CLI
+        run: python -m pip install --no-deps -e .
+
       - name: Check candidate research links
-        run: python3 check_research_links.py
+        run: gardening research validate
 
       - name: Inspect priority source metadata
         if: ${{ !cancelled() }}
@@ -63,30 +66,28 @@ jobs:
           cache-dependency-path: requirements.lock.txt
 
       - name: Install dependencies
-        run: python -m pip install --upgrade pip && python -m pip install -r requirements.lock.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.lock.txt
+          python -m pip install --no-deps -e .
 
       - name: Validate source inputs and record counts
-        run: python validate_pipeline.py
+        run: gardening validate
 
       - name: Validate authoritative data model
         run: python data_model.py
 
       - name: Run tests
-        run: python -m pytest
+        run: gardening test
 
       - name: Rebuild calendar transcription
         run: |
           python parse_errington_calendar.py
           python validate_pipeline.py
 
-      - name: Build registers and publication
+      - name: Build registers and publications
         run: |
-          python enrich_plant_registry.py
-          python build_project_reports.py
-          python build_encyclopedia_outputs.py
-          python build_final_encyclopedia_pdf.py
-          python build_publications.py
-          python validate_pipeline.py --publication
+          gardening build all
           python render_publication.py \
             --pdf Errington_Gardening_Encyclopedia.pdf \
             --output-dir build/pdf_qa/encyclopedia
@@ -120,6 +121,8 @@ jobs:
             PUBLICATION_QA_REPORT.md
             reports/IMPLEMENTATION_REGISTER.md
             reports/IMPLEMENTATION_FINAL_REPORT.md
+            reports/CURRENT_RELEASE_STATUS.md
+            reports/PLANT_SCOPE_RECONCILIATION.csv
             calendar_actions.csv
             calendar_review.csv
             plant_verification_register.csv

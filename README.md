@@ -6,6 +6,28 @@ and a reproducible PDF build. It is a working project and is **not approved for 
 botanical profiles, local timing, illustration identities and licenses, and final visual
 review are still incomplete.
 
+## Development setup
+
+Python 3.12 is supported. From a clone, install the locked environment and the local command:
+
+```sh
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.lock.txt
+.venv/bin/python -m pip install --no-deps -e .
+```
+
+The `gardening` command is the unified entry point for the existing tested pipeline:
+`gardening --help`, `gardening validate`, `gardening test`, `gardening illustrations audit`,
+`gardening figures validate`, `gardening reports generate`, and `gardening build all`.
+Illustration generation remains a separate explicit candidate-generation command and never
+approves its output. Calendar ingestion/parsing, registry normalization, authoritative
+validation, illustration publication eligibility, manuscript assembly, PDF builders, and
+project-report generation now live in package modules; root commands remain compatibility
+wrappers. See the
+[architecture and migration record](docs/architecture/REPOSITORY_ARCHITECTURE.md).
+Existing source paths are intentionally unchanged while the build and provenance references
+are migrated.
+
 ## Current status
 
 | Area | Status |
@@ -46,6 +68,9 @@ review are still incomplete.
 - [Implementation register](reports/IMPLEMENTATION_REGISTER.md)
 - [Current generated release status](reports/CURRENT_RELEASE_STATUS.md)
 - [125-entry plan to 137-record registry reconciliation](reports/PLANT_SCOPE_RECONCILIATION.csv)
+- [Repository restructuring baseline](reports/RESTRUCTURE_AUDIT.md)
+- [Git tree inventory](reports/REPOSITORY_INVENTORY.csv) and [migration manifest](reports/REPOSITORY_MIGRATION_MANIFEST.csv)
+- [Historical illustration similarity candidates](reports/ILLUSTRATION_SIMILARITY_AUDIT.csv)
 - [Source policy](docs/SOURCE_POLICY.md) and [data dictionary](docs/DATA_DICTIONARY.md)
 - [Research and verification library](docs/RESEARCH_LIBRARY.md)
 
@@ -70,28 +95,19 @@ independent human review are complete.
 | `plant_verification_register.csv` | Stable IDs, source attribution, and independent verification states |
 | `plant_illustrations/` | Illustration manifest and review state; no image is approved |
 | `ERRINGTON_*MANUSCRIPT*.md`, `ENCYCLOPEDIA_STRUCTURE.md` | Editorial manuscript and project structure |
-| `build_*.py`, `extract_calendar_data.py`, `parse_errington_calendar.py` | Extraction, validation, report, and publication code |
-| `test_*.py` | Automated tests |
+| Root `*.py` entry points | Compatibility wrappers for the package and remaining legacy tools |
 | `.github/workflows/build-encyclopedia.yml` | CI validation and publication artifact build |
+| `src/gardening/` | Unified CLI, validation, ingestion, normalization, illustration gating, publication, and reporting modules |
+| `tests/unit/`, `tests/integration/` | Automated unit and integration test suites |
+| `scripts/migration/` | Reproducible branch and file inventory tooling |
 
-## Install
-
-Python 3.12 is supported. Use an isolated environment:
-
-```sh
-python3.12 -m venv .venv
-. .venv/bin/activate
-python -m pip install -r requirements.lock.txt
-```
-
-PowerShell activation: `.venv\Scripts\Activate.ps1`.
-
-## Validate and build
+## Common commands
 
 ```sh
-python build_all.py
-python -m pytest
-python generate_release_status.py
+.venv/bin/gardening validate
+.venv/bin/gardening test
+.venv/bin/gardening reports generate
+.venv/bin/gardening build all
 ```
 
 The source record-count snapshot intentionally checks 137 plant rows and 359 calendar rows.

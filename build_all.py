@@ -24,6 +24,7 @@ def main() -> None:
     run(["build_final_encyclopedia_pdf.py"])
     run(["build_publications.py"])
     run(["validate_pipeline.py", "--publication"])
+    run(["generate_release_status.py"])
 
 
 if __name__ == "__main__":
